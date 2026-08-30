@@ -1,0 +1,108 @@
+{
+    "name": "삼성전자",
+    "updated": "2026-08-30",
+    "code": "005930",
+    "overview": {
+        "title": "AI 수요 급증으로 DS 실적 개선",
+        "desc": "동사는 1969년 설립된 글로벌 전자 기업으로, DX, DS, SDC, Harman 산하 308개 종속기업으로 구성됨. DX 부문은 TV, 가전, 스마트폰, DS는 메모리 반도체와 Foundry 사업, SDC는 OLED 패널, Harman은 전장부품·오디오 사업 운영함. 동사는 AI 기술 확대, 선단 공정 개발, 고부가 솔루션 포트폴리오로 제품 차별화 및 원가 경쟁력 제고하며 질적 성장에 주력하고 있음.\n\n2026년 1분기 전년동기 대비 연결기준 매출액은 69.2% 증가, 영업이익은 756.1% 증가, 당기순이익은 486.7% 증가. DS 부문은 데이터센터의 AI 인프라 투자와 Agentic AI 수요 덕분에 서버향 제품 수요가 강세를 보였으며, HBM4 및 SOCAMM2의 첫 양산 출하로 실적이 크게 개선됨. 하반기에는 신규 CPU/GPU향 메모리 수요와 2나노 2세대 모바일 제품 양산에 적극 대응할 계획임.",
+        "as_of": "2026-06-02",
+        "updated": "2026-08-30"
+    },
+    "business": {
+        "reviewed": false,
+        "segments": [
+            "Semiconductor (Memory & Foundry)",
+            "Display Materials",
+            "Consumer & Automotive Electronics"
+        ],
+        "key_products": [
+            "HBM (High Bandwidth Memory)",
+            "OLED Panels",
+            "Mobile/Consumer Electronics"
+        ],
+        "competitors": [
+            "Samsung Electronics",
+            "SK Hynix",
+            "LG Display"
+        ],
+        "search_specifier": "",
+        "search_theme": [],
+        "updated": "2026-08-30"
+    },
+    "news_summary": {
+        "key_facts": [
+            "삼성전자와 SK하이닉스의 2026년 상반기 법인세 납부액은 합산 11조 2,083억원으로, 전년 동기 대비 167% 증가하며 반기 기준 역대 2위를 기록함.",
+            "양사의 올해 상반기 영업이익은 삼성전자 146조 7,000억원, SK하이닉스 98조 2,000억원으로 급증함.",
+            "올해 연간 영업이익 컨센서스는 삼성전자 약 385~394조원, SK하이닉스 약 266조원으로 전망됨.",
+            "중국 CXMT는 올해 상반기 매출 약 31조원, 순이익 약 16조원을 기록하며 흑자 전환 및 어닝 서프라이즈를 달성함.",
+            "CXMT는 LPDDR6 양산 단계에 진입하여 샤오미 '18 폴드'에 공급 중이며, 서버 및 자동차 업체에도 샘플을 제공하고 있음."
+        ],
+        "key_issues": [
+            "중국 CXMT의 빠른 기술 추격과 생산 능력 확대(2028년 월 50만 장 전망)로 인한 삼성전자의 모바일 D램 시장 점유율 하락 및 경쟁 심화 우려.",
+            "실적 급증에 따라 양사의 연간 법인세 납부액이 최대 100조원에 달할 수 있다는 추정 (단, 세액공제 등에 따라 변동 가능).",
+            "중국 DRAM 제조사들의 글로벌 선두 기업 대비 미세 공정 기술 격차(2~3세대) 및 제조 원가 불리함."
+        ],
+        "news_summary": "삼성전자와 SK하이닉스는 AI 반도체 및 HBM 수요 확대로 상반기 역대급 실적과 법인세를 기록하며 성장세를 보이고 있습니다. 하지만 중국 CXMT가 D램 가격 상승과 LPDDR6 양산을 통해 빠르게 추격하며 시장 점유율을 확대하고 있어, 향후 모바일 D램 시장에서의 경쟁 심화가 주요 리스크로 지목됩니다.",
+        "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-08-30 11:36",
+            "name": "삼성전자",
+            "code": "005930",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 6927.0,
+                "growth_per_qtr": 0.1548
+            },
+            "opmargin_last_4qtrs": {
+                "25_3Q": 0.1414,
+                "25_4Q": 0.2139,
+                "26_1Q": 0.4275,
+                "26_2Q": 0.5218
+            },
+            "PER": {
+                "PER_ltm": 8.395,
+                "PER_qx4": 4.197,
+                "PER_fwd": 3.517
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.192,
+                "slope": 0.0002552
+            },
+            "amount_daily": {
+                "measure_to_base": 0.7516,
+                "slope": 22.5
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0004322,
+                    "beta": 1.184
+                },
+                "base_duration": {
+                    "alpha": 0.001103,
+                    "beta": 1.237
+                },
+                "measure_duration": {
+                    "alpha": -0.002877,
+                    "beta": 1.506
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "underperform",
+            "market_sentiment": "unchanged",
+            "category": "B"
+        }
+    }
+}

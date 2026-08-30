@@ -8,7 +8,7 @@ DATA_DIR = PROJECTS_DIR / 'data'
 MARKET_DIR = DATA_DIR / 'market'
 os.makedirs(MARKET_DIR, exist_ok=True)
 df_krx_path = MARKET_DIR / 'df_krx.feather'
-fr_main_db_path = MARKET_DIR / 'financials_reports_main.parquet'
+fr_main_db_path = MARKET_DIR / 'financial_reports_main.parquet'
 kospi_path = MARKET_DIR / 'kospi.feather'
 kosdaq_path = MARKET_DIR / 'kosdaq.feather'
 kospi200_path = MARKET_DIR / 'kospi200.feather'
@@ -35,8 +35,8 @@ def get_market_index(name = None):
     return pd.read_feather(index_dict[name])
 
 def get_prices():
-    return pd.read_parquet(prices_path)
+    return pd.read_feather(prices_path)
 
 def get_volumes():
-    return pd.read_parquet(volumes_path)
+    return pd.read_feather(volumes_path)
 

@@ -1,0 +1,77 @@
+{
+    "name": "Appliances",
+    "updated": "2026-08-30",
+    "companies": [
+        {
+            "name": "삼성전자",
+            "code": "005930"
+        },
+        {
+            "name": "LG전자",
+            "code": "066570"
+        }
+    ],
+    "financials": {
+        "meta": {
+            "updated": "2026-08-30 11:36",
+            "name": "Appliances",
+            "code": [
+                "005930",
+                "066570"
+            ],
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 6946.0,
+                "growth_per_qtr": 0.1519
+            },
+            "opmargin_last_4qtrs": {
+                "25_3Q": 0.1191,
+                "25_4Q": 0.1696,
+                "26_1Q": 0.3738,
+                "26_2Q": 0.467
+            },
+            "PER": {
+                "PER_ltm": 8.395,
+                "PER_qx4": 4.21,
+                "PER_fwd": 3.537
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.188,
+                "slope": 0.0002504
+            },
+            "amount_daily": {
+                "measure_to_base": 0.7359,
+                "slope": 23.4
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0004147,
+                    "beta": 1.178
+                },
+                "base_duration": {
+                    "alpha": 0.00114,
+                    "beta": 1.228
+                },
+                "measure_duration": {
+                    "alpha": -0.00264,
+                    "beta": 1.488
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "underperform",
+            "market_sentiment": "unchanged",
+            "category": "B"
+        }
+    }
+}

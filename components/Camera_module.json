@@ -1,0 +1,87 @@
+{
+    "name": "Camera_module",
+    "updated": "2026-08-30",
+    "companies": [
+        {
+            "name": "LG이노텍",
+            "code": "011070"
+        },
+        {
+            "name": "삼성전기",
+            "code": "009150"
+        },
+        {
+            "name": "엠씨넥스",
+            "code": "097520"
+        },
+        {
+            "name": "세코닉스",
+            "code": "053450"
+        }
+    ],
+    "financials": {
+        "meta": {
+            "updated": "2026-08-30 11:36",
+            "name": "Camera_module",
+            "code": [
+                "011070",
+                "009150",
+                "097520",
+                "053450"
+            ],
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 28.01,
+                "growth_per_qtr": 0.05056
+            },
+            "opmargin_last_4qtrs": {
+                "25_3Q": 0.05439,
+                "25_4Q": 0.05209,
+                "26_1Q": 0.06429,
+                "26_2Q": 0.06429
+            },
+            "PER": {
+                "PER_ltm": 54.6,
+                "PER_qx4": 51.41,
+                "PER_fwd": 45.95
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.139,
+                "slope": 0.000418
+            },
+            "amount_daily": {
+                "measure_to_base": 0.5664,
+                "slope": 11.42
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0007035,
+                    "beta": 1.211
+                },
+                "base_duration": {
+                    "alpha": 0.009432,
+                    "beta": 1.189
+                },
+                "measure_duration": {
+                    "alpha": 0.0109,
+                    "beta": 0.947
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Dn",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    }
+}

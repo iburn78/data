@@ -1,0 +1,92 @@
+{
+    "name": "Display",
+    "updated": "2026-08-30",
+    "companies": [
+        {
+            "name": "덕산네오룩스",
+            "code": "213420"
+        },
+        {
+            "name": "이녹스첨단소재",
+            "code": "272290"
+        },
+        {
+            "name": "피엔에이치테크",
+            "code": "239890"
+        },
+        {
+            "name": "PI첨단소재",
+            "code": "178920"
+        },
+        {
+            "name": "LX세미콘",
+            "code": "108320"
+        }
+    ],
+    "financials": {
+        "meta": {
+            "updated": "2026-08-30 11:36",
+            "name": "Display",
+            "code": [
+                "213420",
+                "272290",
+                "239890",
+                "178920",
+                "108320"
+            ],
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": -2.898,
+                "growth_per_qtr": -0.04237
+            },
+            "opmargin_last_4qtrs": {
+                "25_3Q": 0.0951,
+                "25_4Q": 0.09969,
+                "26_1Q": 0.1109,
+                "26_2Q": 0.1093
+            },
+            "PER": {
+                "PER_ltm": 8.868,
+                "PER_qx4": 8.543,
+                "PER_fwd": 9.514
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.116,
+                "slope": 3.62e-05
+            },
+            "amount_daily": {
+                "measure_to_base": 1.04,
+                "slope": -0.3217
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.0002718,
+                    "beta": 0.8634
+                },
+                "base_duration": {
+                    "alpha": -0.002749,
+                    "beta": 0.5241
+                },
+                "measure_duration": {
+                    "alpha": 0.004063,
+                    "beta": 0.1712
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    }
+}
