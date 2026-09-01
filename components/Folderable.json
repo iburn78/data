@@ -1,6 +1,6 @@
 {
     "name": "Folderable",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "companies": [
         {
             "name": "KH바텍",
@@ -17,7 +17,7 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "Folderable",
             "code": [
                 "060720",
@@ -31,49 +31,49 @@
             "opincome_health": {
                 "positive_last_4qtrs": false,
                 "higher_than_comp": false,
-                "slope": -1.918,
-                "growth_per_qtr": -0.5585
+                "slope": -1.904,
+                "growth_per_qtr": 1.066
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.05981,
                 "25_4Q": 0.004805,
                 "26_1Q": -0.01657,
-                "26_2Q": -0.01657
+                "26_2Q": -0.01657,
+                "26_3Q": -0.01657
             },
             "PER": {
-                "PER_ltm": 53.65,
-                "PER_qx4": -68.54,
-                "PER_fwd": -24.62
+                "PER_ltm": -103.9,
+                "PER_qx4": -69.07,
+                "PER_fwd": -24.93
             },
             "volatility_pct": {
-                "measure_to_base": 1.155,
-                "slope": 6.657e-05
+                "measure_to_base": 1.113,
+                "slope": 7.165e-05
             },
             "amount_daily": {
-                "measure_to_base": 1.325,
-                "slope": -0.07923
+                "measure_to_base": 1.351,
+                "slope": -0.08236
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0008515,
-                    "beta": 0.7904
+                    "alpha": -0.0008406,
+                    "beta": 0.7905
                 },
                 "base_duration": {
-                    "alpha": -0.002154,
-                    "beta": 0.6284
+                    "alpha": -0.002243,
+                    "beta": 0.5985
                 },
                 "measure_duration": {
-                    "alpha": 0.008061,
-                    "beta": 0.4162
+                    "alpha": 0.001459,
+                    "beta": 0.5567
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": false,
-            "PER_level": "High",
+            "financially_sound": true,
+            "PER_level": "Low",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "outperform",
             "market_sentiment": "unchanged",
             "category": "D"

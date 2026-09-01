@@ -44,5 +44,65 @@
         ],
         "news_summary": "PI첨단소재는 2026년 2분기 및 상반기에 판가 상승과 환율 효과로 인해 영업이익과 순이익이 큰 폭으로 증가하는 호실적을 기록했습니다. FPCB 및 첨단산업용 필름 매출은 성장했으나 방열시트 부문은 수요 둔화로 역성장했습니다. 회사는 하반기 고부가가치 제품 확대와 효율적 원가 관리를 통해 수익성을 안정적으로 관리할 계획이나, 공급망 및 지정학적 리스크와 물량 성장 부족 등이 주요 변수로 꼽힙니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "PI첨단소재",
+            "code": "178920",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.5436,
+                "growth_per_qtr": 0.04458
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": 0.1135,
+                "26_1Q": 0.2193,
+                "26_2Q": 0.2193,
+                "26_3Q": 0.2193
+            },
+            "PER": {
+                "PER_ltm": 11.81,
+                "PER_qx4": 10.25,
+                "PER_fwd": 9.349
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.052,
+                "slope": -0.0002213
+            },
+            "amount_daily": {
+                "measure_to_base": 0.6434,
+                "slope": -0.09491
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0001894,
+                    "beta": 0.888
+                },
+                "base_duration": {
+                    "alpha": -2.178e-05,
+                    "beta": 0.5249
+                },
+                "measure_duration": {
+                    "alpha": 0.003607,
+                    "beta": 0.07327
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Dn",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
     }
 }

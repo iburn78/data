@@ -1,6 +1,6 @@
 {
     "name": "Appliances",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "companies": [
         {
             "name": "삼성전자",
@@ -13,7 +13,7 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "Appliances",
             "code": [
                 "005930",
@@ -26,52 +26,52 @@
             "opincome_health": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 6946.0,
-                "growth_per_qtr": 0.1519
+                "slope": 8298.0,
+                "growth_per_qtr": 0.1271
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.1191,
                 "25_4Q": 0.1696,
                 "26_1Q": 0.3738,
-                "26_2Q": 0.467
+                "26_2Q": 0.467,
+                "26_3Q": 0.467
             },
             "PER": {
-                "PER_ltm": 8.395,
-                "PER_qx4": 4.21,
-                "PER_fwd": 3.537
+                "PER_ltm": 5.919,
+                "PER_qx4": 4.24,
+                "PER_fwd": 3.454
             },
             "volatility_pct": {
-                "measure_to_base": 1.188,
-                "slope": 0.0002504
+                "measure_to_base": 1.141,
+                "slope": 0.0002426
             },
             "amount_daily": {
-                "measure_to_base": 0.7359,
-                "slope": 23.4
+                "measure_to_base": 0.6726,
+                "slope": 18.44
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0004147,
+                    "alpha": 0.0004176,
                     "beta": 1.178
                 },
                 "base_duration": {
-                    "alpha": 0.00114,
-                    "beta": 1.228
+                    "alpha": 0.001126,
+                    "beta": 1.222
                 },
                 "measure_duration": {
-                    "alpha": -0.00264,
-                    "beta": 1.488
+                    "alpha": -0.0004474,
+                    "beta": 1.473
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": true,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "underperform",
             "market_sentiment": "unchanged",
-            "category": "B"
+            "category": "A"
         }
     }
 }

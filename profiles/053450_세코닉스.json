@@ -39,7 +39,7 @@
     },
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "세코닉스",
             "code": "053450",
             "unit": 1000000000.0,
@@ -48,41 +48,41 @@
         "assess_data": {
             "opincome_health": {
                 "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": -0.5536,
-                "growth_per_qtr": 1.421
+                "higher_than_comp": true,
+                "slope": -0.4564,
+                "growth_per_qtr": 1.973
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.004091,
                 "25_4Q": -0.04147,
                 "26_1Q": 0.01006,
-                "26_2Q": 0.01006
+                "26_2Q": 0.01006,
+                "26_3Q": 0.01006
             },
             "PER": {
-                "PER_ltm": -30.9,
-                "PER_qx4": 11.51,
-                "PER_fwd": -35.61
+                "PER_ltm": -50.53,
+                "PER_qx4": 11.17,
+                "PER_fwd": -122.9
             },
             "volatility_pct": {
-                "measure_to_base": 1.122,
-                "slope": 8.32e-05
+                "measure_to_base": 1.073,
+                "slope": 8.863e-05
             },
             "amount_daily": {
-                "measure_to_base": 0.9783,
-                "slope": -0.01346
+                "measure_to_base": 0.9084,
+                "slope": -0.01412
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000789,
-                    "beta": 0.8866
+                    "alpha": -0.0007991,
+                    "beta": 0.8865
                 },
                 "base_duration": {
-                    "alpha": -0.004653,
-                    "beta": 0.3908
+                    "alpha": -0.004663,
+                    "beta": 0.3798
                 },
                 "measure_duration": {
-                    "alpha": -0.0002534,
-                    "beta": 0.2975
+                    "alpha": -0.004167,
+                    "beta": 0.3114
                 }
             }
         },
@@ -92,7 +92,7 @@
             "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "at_market",
+            "alpha_level": "underperform",
             "market_sentiment": "unchanged",
             "category": "D"
         }

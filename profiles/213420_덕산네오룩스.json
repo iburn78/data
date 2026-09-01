@@ -41,5 +41,65 @@
         ],
         "news_summary": "덕산네오룩스는 전방 스마트폰 시장의 불황 속에서도 Black PDL 등 고부가가치 OLED 소재의 경쟁력을 통해 2분기 시장 기대치에 부합하는 실적을 기록했습니다. 하반기에는 플래그십 및 폴더블 신제품 출시와 자회사 현대중공업터보기계의 미국 원전향 출하, 에스앤에스밸브의 연결 실적 반영 등을 통해 성장이 지속될 전망입니다. 증권가는 현재 주가가 과도하게 저평가된 상태라며 적극적인 비중 확대를 추천하고 있습니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "덕산네오룩스",
+            "code": "213420",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.9374,
+                "growth_per_qtr": 0.0486
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": 0.1814,
+                "26_1Q": 0.2345,
+                "26_2Q": 0.1956,
+                "26_3Q": 0.1956
+            },
+            "PER": {
+                "PER_ltm": 10.8,
+                "PER_qx4": 11.26,
+                "PER_fwd": 9.993
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.119,
+                "slope": -6.966e-05
+            },
+            "amount_daily": {
+                "measure_to_base": 1.478,
+                "slope": -0.1077
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0003705,
+                    "beta": 0.8795
+                },
+                "base_duration": {
+                    "alpha": -0.001762,
+                    "beta": 0.4572
+                },
+                "measure_duration": {
+                    "alpha": 0.004385,
+                    "beta": -0.05784
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
     }
 }

@@ -43,7 +43,7 @@
     },
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "삼성전기",
             "code": "009150",
             "unit": 1000000000.0,
@@ -53,40 +53,40 @@
             "opincome_health": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 11.7,
-                "growth_per_qtr": 0.04412
+                "slope": 11.52,
+                "growth_per_qtr": 0.04261
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.09009,
                 "25_4Q": 0.08252,
                 "26_1Q": 0.08743,
-                "26_2Q": 0.08743
+                "26_2Q": 0.08743,
+                "26_3Q": 0.08743
             },
             "PER": {
-                "PER_ltm": 100.0,
-                "PER_qx4": 94.57,
-                "PER_fwd": 85.64
+                "PER_ltm": 98.37,
+                "PER_qx4": 94.77,
+                "PER_fwd": 85.95
             },
             "volatility_pct": {
-                "measure_to_base": 1.136,
-                "slope": 0.0004238
+                "measure_to_base": 1.09,
+                "slope": 0.0004106
             },
             "amount_daily": {
-                "measure_to_base": 0.5914,
-                "slope": 10.51
+                "measure_to_base": 0.6034,
+                "slope": 9.357
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0008882,
+                    "alpha": 0.000889,
                     "beta": 1.226
                 },
                 "base_duration": {
-                    "alpha": 0.0102,
-                    "beta": 1.219
+                    "alpha": 0.01017,
+                    "beta": 1.228
                 },
                 "measure_duration": {
-                    "alpha": 0.01126,
-                    "beta": 0.9717
+                    "alpha": 0.006585,
+                    "beta": 1.268
                 }
             }
         },

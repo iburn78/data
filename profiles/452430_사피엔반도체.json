@@ -38,5 +38,65 @@
         ],
         "news_summary": "사피엔반도체는 AI 탑재 AR 글래스 시장 확대에 따른 LEDoS 구동칩 수요 증가로 본격적인 성장 국면에 진입했습니다. 2026년 2분기 흑자 전환에 성공했으며, 기존 개발 용역(NRE) 중심에서 제품 양산 매출 구조로의 전환이 기대됩니다. 독보적인 픽셀 피치 및 저전력 기술력을 바탕으로 글로벌 빅테크 기업들과의 협력을 강화하고 있으며, 향후 B2B 산업용 광통신 신사업으로 영역 확장을 계획하고 있습니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "사피엔반도체",
+            "code": "452430",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.2452,
+                "growth_per_qtr": 1.324
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": 0.001748,
+                "26_1Q": 0.01423,
+                "26_2Q": 0.04319,
+                "26_3Q": 0.04319
+            },
+            "PER": {
+                "PER_ltm": 326.6,
+                "PER_qx4": 194.0,
+                "PER_fwd": 65.4
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.189,
+                "slope": 0.0001328
+            },
+            "amount_daily": {
+                "measure_to_base": 0.7095,
+                "slope": -0.03297
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.001173,
+                    "beta": 0.9655
+                },
+                "base_duration": {
+                    "alpha": -0.000406,
+                    "beta": 0.7867
+                },
+                "measure_duration": {
+                    "alpha": 0.0003222,
+                    "beta": 0.448
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "at_market",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
     }
 }

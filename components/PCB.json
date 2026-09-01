@@ -1,6 +1,6 @@
 {
     "name": "PCB",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "companies": [
         {
             "name": "LG이노텍",
@@ -21,7 +21,7 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "PCB",
             "code": [
                 "011070",
@@ -36,52 +36,52 @@
             "opincome_health": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 28.01,
-                "growth_per_qtr": 0.05056
+                "slope": 28.19,
+                "growth_per_qtr": 0.04833
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.05439,
                 "25_4Q": 0.05209,
                 "26_1Q": 0.06429,
-                "26_2Q": 0.06429
+                "26_2Q": 0.06429,
+                "26_3Q": 0.06429
             },
             "PER": {
-                "PER_ltm": 54.6,
-                "PER_qx4": 51.41,
-                "PER_fwd": 45.95
+                "PER_ltm": 51.69,
+                "PER_qx4": 51.25,
+                "PER_fwd": 45.77
             },
             "volatility_pct": {
-                "measure_to_base": 1.139,
-                "slope": 0.000418
+                "measure_to_base": 1.093,
+                "slope": 0.0004051
             },
             "amount_daily": {
-                "measure_to_base": 0.5664,
-                "slope": 11.42
+                "measure_to_base": 0.5904,
+                "slope": 10.32
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0007035,
+                    "alpha": 0.0007024,
                     "beta": 1.211
                 },
                 "base_duration": {
-                    "alpha": 0.009432,
-                    "beta": 1.189
+                    "alpha": 0.009429,
+                    "beta": 1.198
                 },
                 "measure_duration": {
-                    "alpha": 0.0109,
-                    "beta": 0.947
+                    "alpha": 0.006166,
+                    "beta": 1.226
                 }
             }
         },
         "assess_result": {
             "basics": true,
-            "financially_sound": true,
+            "financially_sound": false,
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "Dn",
             "alpha_level": "outperform",
             "market_sentiment": "unchanged",
-            "category": "C"
+            "category": "D"
         }
     }
 }

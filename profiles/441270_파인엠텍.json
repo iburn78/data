@@ -42,5 +42,65 @@
         ],
         "news_summary": "파인엠텍은 2026년 2분기 흑자 전환 및 수익성 개선을 달성했으며, 삼성전자 갤럭시 Z8 시리즈의 흥행과 북미 신규 고객사 확보, ESS 사업 확대를 통해 폴더블 의존도를 낮추고 성장축을 다변화하고 있습니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "파인엠텍",
+            "code": "441270",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -0.2131,
+                "growth_per_qtr": 0.0996
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": -0.03169,
+                "26_1Q": -0.04782,
+                "26_2Q": -0.04782,
+                "26_3Q": -0.04782
+            },
+            "PER": {
+                "PER_ltm": -40.29,
+                "PER_qx4": -39.13,
+                "PER_fwd": -31.51
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.045,
+                "slope": 0.0001253
+            },
+            "amount_daily": {
+                "measure_to_base": 2.626,
+                "slope": -0.06008
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.0005329,
+                    "beta": 0.8487
+                },
+                "base_duration": {
+                    "alpha": -0.0009981,
+                    "beta": 0.7155
+                },
+                "measure_duration": {
+                    "alpha": -2.768e-05,
+                    "beta": 0.8224
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "at_market",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
     }
 }

@@ -39,5 +39,65 @@
         ],
         "news_summary": "삼화콘덴서는 AI 서버용 MLCC 수요 급증에 따른 글로벌 선두업체들의 생산 전략 변화(범용 MLCC 공급 축소 및 가격 인상)로 인한 낙수효과와 현대차그룹 전기차향 DC-링크 커패시터 공급 확대로 실적 개선 및 성장 가속화가 기대되고 있습니다. 특히 2026년 2분기 영업이익이 전년 대비 55.1% 증가하며 수익성이 회복되었으며, 하반기 MLCC 판가 인상 본격 반영과 전장 부품 매출 확대로 인한 추가적인 실적 성장이 전망됩니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "삼화콘덴서",
+            "code": "001820",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": -0.2124,
+                "growth_per_qtr": -0.06103
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": -0.002452,
+                "26_1Q": 0.06447,
+                "26_2Q": 0.06447,
+                "26_3Q": 0.06447
+            },
+            "PER": {
+                "PER_ltm": 83.73,
+                "PER_qx4": 62.02,
+                "PER_fwd": 69.93
+            },
+            "volatility_pct": {
+                "measure_to_base": 0.8794,
+                "slope": 0.0002474
+            },
+            "amount_daily": {
+                "measure_to_base": 0.6984,
+                "slope": 0.6285
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0007724,
+                    "beta": 1.226
+                },
+                "base_duration": {
+                    "alpha": 0.008321,
+                    "beta": 1.025
+                },
+                "measure_duration": {
+                    "alpha": 0.01721,
+                    "beta": 1.026
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
     }
 }

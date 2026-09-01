@@ -1,6 +1,6 @@
 {
     "name": "MLCC",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "companies": [
         {
             "name": "삼성전기",
@@ -13,7 +13,7 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "MLCC",
             "code": [
                 "009150",
@@ -26,40 +26,40 @@
             "opincome_health": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 11.38,
-                "growth_per_qtr": 0.04242
+                "slope": 11.31,
+                "growth_per_qtr": 0.04129
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.08878,
                 "25_4Q": 0.0805,
                 "26_1Q": 0.08692,
-                "26_2Q": 0.08692
+                "26_2Q": 0.08692,
+                "26_3Q": 0.08692
             },
             "PER": {
-                "PER_ltm": 100.0,
-                "PER_qx4": 94.02,
-                "PER_fwd": 85.5
+                "PER_ltm": 98.19,
+                "PER_qx4": 94.23,
+                "PER_fwd": 85.74
             },
             "volatility_pct": {
-                "measure_to_base": 1.136,
-                "slope": 0.0004216
+                "measure_to_base": 1.089,
+                "slope": 0.0004087
             },
             "amount_daily": {
-                "measure_to_base": 0.5973,
-                "slope": 11.24
+                "measure_to_base": 0.6095,
+                "slope": 9.985
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0008757,
+                    "alpha": 0.0008766,
                     "beta": 1.228
                 },
                 "base_duration": {
-                    "alpha": 0.01015,
-                    "beta": 1.217
+                    "alpha": 0.01012,
+                    "beta": 1.226
                 },
                 "measure_duration": {
-                    "alpha": 0.01137,
-                    "beta": 0.9702
+                    "alpha": 0.006681,
+                    "beta": 1.266
                 }
             }
         },

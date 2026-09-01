@@ -1,6 +1,6 @@
 {
     "name": "Display",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "companies": [
         {
             "name": "덕산네오룩스",
@@ -25,7 +25,7 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "Display",
             "code": [
                 "213420",
@@ -41,40 +41,40 @@
             "opincome_health": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": -2.898,
-                "growth_per_qtr": -0.04237
+                "slope": -2.501,
+                "growth_per_qtr": -0.03575
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.0951,
                 "25_4Q": 0.09969,
                 "26_1Q": 0.1109,
-                "26_2Q": 0.1093
+                "26_2Q": 0.1093,
+                "26_3Q": 0.1093
             },
             "PER": {
-                "PER_ltm": 8.868,
-                "PER_qx4": 8.543,
-                "PER_fwd": 9.514
+                "PER_ltm": 8.896,
+                "PER_qx4": 8.765,
+                "PER_fwd": 9.612
             },
             "volatility_pct": {
-                "measure_to_base": 1.116,
-                "slope": 3.62e-05
+                "measure_to_base": 1.07,
+                "slope": 3.58e-05
             },
             "amount_daily": {
-                "measure_to_base": 1.04,
-                "slope": -0.3217
+                "measure_to_base": 1.141,
+                "slope": -0.3198
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0002718,
-                    "beta": 0.8634
+                    "alpha": -0.0002595,
+                    "beta": 0.8636
                 },
                 "base_duration": {
-                    "alpha": -0.002749,
-                    "beta": 0.5241
+                    "alpha": -0.002573,
+                    "beta": 0.5138
                 },
                 "measure_duration": {
-                    "alpha": 0.004063,
-                    "beta": 0.1712
+                    "alpha": 0.003191,
+                    "beta": 0.1318
                 }
             }
         },

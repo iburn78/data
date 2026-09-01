@@ -43,5 +43,65 @@
         ],
         "news_summary": "LG전자는 기존 가전 제조 기업에서 피지컬 AI와 AI 인프라를 보유한 B2B 솔루션 기업으로 전환하고 있습니다. AI 데이터센터 냉각 솔루션과 반도체 장비 수주를 통해 단기 성장을 도모하는 동시에, 공격적인 투자와 인수를 통해 로봇 사업을 중장기 미래 성장 동력으로 육성하고 있습니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "LG전자",
+            "code": "066570",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 48.26,
+                "growth_per_qtr": 0.0393
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": -0.004569,
+                "26_1Q": 0.07054,
+                "26_2Q": 0.07054,
+                "26_3Q": 0.07054
+            },
+            "PER": {
+                "PER_ltm": 6.798,
+                "PER_qx4": 4.988,
+                "PER_fwd": 4.652
+            },
+            "volatility_pct": {
+                "measure_to_base": 0.7853,
+                "slope": 8.45e-05
+            },
+            "amount_daily": {
+                "measure_to_base": 0.4633,
+                "slope": 0.4582
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0003755,
+                    "beta": 0.8884
+                },
+                "base_duration": {
+                    "alpha": 0.005444,
+                    "beta": 0.7139
+                },
+                "measure_duration": {
+                    "alpha": 0.009839,
+                    "beta": 0.676
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Dn",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
     }
 }

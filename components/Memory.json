@@ -1,6 +1,6 @@
 {
     "name": "Memory",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "companies": [
         {
             "name": "SK하이닉스",
@@ -13,7 +13,7 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "Memory",
             "code": [
                 "000660",
@@ -26,40 +26,40 @@
             "opincome_health": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 10620.0,
-                "growth_per_qtr": 0.1492
+                "slope": 12070.0,
+                "growth_per_qtr": 0.1243
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.2131,
                 "25_4Q": 0.3098,
                 "26_1Q": 0.5087,
-                "26_2Q": 0.5672
+                "26_2Q": 0.5672,
+                "26_3Q": 0.5672
             },
             "PER": {
-                "PER_ltm": 9.517,
-                "PER_qx4": 5.33,
-                "PER_fwd": 4.409
+                "PER_ltm": 7.068,
+                "PER_qx4": 5.398,
+                "PER_fwd": 4.362
             },
             "volatility_pct": {
-                "measure_to_base": 1.211,
-                "slope": 0.0002849
+                "measure_to_base": 1.162,
+                "slope": 0.0002747
             },
             "amount_daily": {
-                "measure_to_base": 0.6751,
-                "slope": 83.34
+                "measure_to_base": 0.6141,
+                "slope": 71.55
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0005646,
+                    "alpha": 0.0005696,
                     "beta": 1.265
                 },
                 "base_duration": {
-                    "alpha": 0.001925,
-                    "beta": 1.352
+                    "alpha": 0.001886,
+                    "beta": 1.344
                 },
                 "measure_duration": {
-                    "alpha": -0.003421,
-                    "beta": 1.608
+                    "alpha": -0.001204,
+                    "beta": 1.609
                 }
             }
         },
@@ -68,7 +68,7 @@
             "financially_sound": true,
             "PER_level": "Mid",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Dn",
             "alpha_level": "underperform",
             "market_sentiment": "unchanged",
             "category": "B"

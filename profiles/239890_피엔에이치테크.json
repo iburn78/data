@@ -34,5 +34,65 @@
         ],
         "news_summary": "피엔에이치테크의 정성욱 전무이사가 자사 주식 1만 2,561주를 추가로 취득하며 지분율 0.13%를 기록했습니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "피엔에이치테크",
+            "code": "239890",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.02026,
+                "growth_per_qtr": 0.02091
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": 0.1415,
+                "26_1Q": 0.1415,
+                "26_2Q": 0.1415,
+                "26_3Q": 0.1415
+            },
+            "PER": {
+                "PER_ltm": 8.59,
+                "PER_qx4": 8.59,
+                "PER_fwd": 8.164
+            },
+            "volatility_pct": {
+                "measure_to_base": 0.9555,
+                "slope": 0.0001262
+            },
+            "amount_daily": {
+                "measure_to_base": 0.3542,
+                "slope": -0.005732
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -5.495e-05,
+                    "beta": 0.568
+                },
+                "base_duration": {
+                    "alpha": -0.003359,
+                    "beta": 0.5053
+                },
+                "measure_duration": {
+                    "alpha": -0.003424,
+                    "beta": 0.39
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Dn",
+            "alpha_level": "underperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
     }
 }

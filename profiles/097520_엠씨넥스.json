@@ -42,7 +42,7 @@
     },
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "엠씨넥스",
             "code": "097520",
             "unit": 1000000000.0,
@@ -51,41 +51,41 @@
         "assess_data": {
             "opincome_health": {
                 "positive_last_4qtrs": true,
-                "higher_than_comp": false,
-                "slope": -0.1337,
-                "growth_per_qtr": -0.01417
+                "higher_than_comp": true,
+                "slope": -0.1235,
+                "growth_per_qtr": -0.01163
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.0221,
                 "25_4Q": 0.02727,
                 "26_1Q": 0.0376,
-                "26_2Q": 0.0376
+                "26_2Q": 0.0376,
+                "26_3Q": 0.0376
             },
             "PER": {
-                "PER_ltm": 9.288,
-                "PER_qx4": 7.681,
-                "PER_fwd": 7.913
+                "PER_ltm": 8.505,
+                "PER_qx4": 7.91,
+                "PER_fwd": 8.13
             },
             "volatility_pct": {
-                "measure_to_base": 1.071,
-                "slope": -2.93e-05
+                "measure_to_base": 1.042,
+                "slope": -3.128e-05
             },
             "amount_daily": {
-                "measure_to_base": 0.8651,
-                "slope": -0.002386
+                "measure_to_base": 0.8464,
+                "slope": -0.002742
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -6.579e-05,
-                    "beta": 0.8136
+                    "alpha": -5.4e-05,
+                    "beta": 0.8139
                 },
                 "base_duration": {
-                    "alpha": -0.002022,
-                    "beta": 0.4328
+                    "alpha": -0.001572,
+                    "beta": 0.4114
                 },
                 "measure_duration": {
-                    "alpha": 0.00707,
-                    "beta": 0.1117
+                    "alpha": 0.004238,
+                    "beta": 0.2114
                 }
             }
         },

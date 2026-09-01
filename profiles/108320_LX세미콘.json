@@ -41,5 +41,65 @@
         ],
         "news_summary": "LX세미콘은 2026년 2분기 영업이익이 전년 대비 115% 증가하며 양호한 실적을 기록했고, 아이패드 OLED용 DDI 공급망 진입이라는 성과를 거두었습니다. 하지만 중화권 경쟁 심화, 원가 상승, 특정 고객사 의존도 등의 이유로 iM증권은 올해 연간 영업이익 감소와 실적 역성장을 전망하며 목표주가를 43,000원으로 하향 조정했습니다. 이에 회사는 MCU, 방열기판 등으로 사업 포트폴리오 다각화를 추진 중입니다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "LX세미콘",
+            "code": "108320",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": -3.345,
+                "growth_per_qtr": -0.1544
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": 0.06389,
+                "26_1Q": 0.05297,
+                "26_2Q": 0.05297,
+                "26_3Q": 0.05297
+            },
+            "PER": {
+                "PER_ltm": 7.177,
+                "PER_qx4": 7.552,
+                "PER_fwd": 12.72
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.05,
+                "slope": 0.0001057
+            },
+            "amount_daily": {
+                "measure_to_base": 0.7327,
+                "slope": -0.02767
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.0001062,
+                    "beta": 0.8572
+                },
+                "base_duration": {
+                    "alpha": -0.003037,
+                    "beta": 0.5102
+                },
+                "measure_duration": {
+                    "alpha": 0.003819,
+                    "beta": 0.4021
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
     }
 }

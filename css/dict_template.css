@@ -1,0 +1,206 @@
+body {
+    font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+    background: #f5f6f8;
+    margin: 0;
+    padding: 24px;
+}
+
+
+/* ─────────────────────────────
+   Dashboard
+   ───────────────────────────── */
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* ─────────────────────────────
+   Table
+   ───────────────────────────── */
+
+.table-panel {
+    flex: 0 1 auto;
+    min-width: 420px;
+}
+
+.table-wrapper {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.dict-table {
+    width: max-content;
+    min-width: 420px;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+.dict-table th,
+.dict-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.dict-table .label {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.dict-table .value {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+
+/* Table header */
+
+.dict-table .header-row th {
+    background: #011336;
+    color: white;
+    font-weight: 600;
+    border-bottom: 3px solid #d1d5db;
+}
+
+
+/* Table sections */
+
+.dict-table .section-row {
+    cursor: pointer;
+}
+
+.dict-table .section-row td {
+    font-weight: 600;
+    border-bottom: 2px solid #d1d5db;
+}
+
+.dict-table .section-row.level-0 td {
+    background: #2163b3;
+    color: white;
+}
+
+.dict-table .section-row.level-1 td {
+    background: #DBEAFE;
+}
+
+.dict-table .section-row.level-2 td {
+    background: #fcf6db;
+}
+
+.dict-table .section-row.level-3 td {
+    background: #f7fded;
+}
+
+.dict-table .value-row td {
+    background: #ffffff;
+}
+
+
+/* Hover */
+
+.dict-table tr:hover {
+    filter: brightness(0.90);
+}
+
+
+/* Nested dictionary indentation */
+
+.dict-table .level-0 .label {
+    padding-left: 12px;
+}
+
+.dict-table .level-1 .label {
+    padding-left: 28px;
+}
+
+.dict-table .level-2 .label {
+    padding-left: 48px;
+}
+
+.dict-table .level-3 .label {
+    padding-left: 68px;
+}
+
+.dict-table .level-4 .label {
+    padding-left: 88px;
+}
+
+
+/* Expand/collapse indicator */
+
+.dict-table .section-row .label::before {
+    content: "▼";
+    display: inline-block;
+    width: 18px;
+    margin-right: 4px;
+    font-size: 11px;
+}
+
+.dict-table .section-row.collapsed .label::before {
+    content: "▶";
+}
+
+
+/* ─────────────────────────────
+   Controls
+   ───────────────────────────── */
+
+.table-controls {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.table-controls button {
+    padding: 5px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.table-controls button:hover {
+    background: #f3f4f6;
+}
+
+
+/* ─────────────────────────────
+   Charts
+   ───────────────────────────── */
+
+.charts-panel {
+    flex: 1 1 420px;
+    min-width: 420px;
+}
+
+.chart-card {
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    max-width: 1200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.analysis-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ─────────────────────────────
+   Responsive
+   ───────────────────────────── */
+
+@media (max-width: 1200px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+}

@@ -43,5 +43,65 @@
         ],
         "news_summary": "삼성전자와 SK하이닉스는 AI 반도체 및 HBM 수요 폭증으로 2026년 상반기 역대급 실적과 법인세 납부액을 기록하며 가파른 성장세를 보이고 있다. 다만, 중국 창신메모리(CXMT)가 어닝 서프라이즈와 함께 LPDDR6 등 차세대 제품 양산 및 공격적인 캐파 증설에 나서며 모바일 D램 시장 내 경쟁이 심화되고 있다.",
         "updated": "2026-08-30"
+    },
+    "financials": {
+        "meta": {
+            "updated": "2026-09-01 12:55",
+            "name": "SK하이닉스",
+            "code": "000660",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01"
+        },
+        "assess_data": {
+            "opincome_health": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 3819.0,
+                "growth_per_qtr": 0.1157
+            },
+            "opmargin_last_4qtrs": {
+                "25_4Q": 0.584,
+                "26_1Q": 0.7153,
+                "26_2Q": 0.7153,
+                "26_3Q": 0.7153
+            },
+            "PER": {
+                "PER_ltm": 9.33,
+                "PER_qx4": 8.187,
+                "PER_fwd": 6.529
+            },
+            "volatility_pct": {
+                "measure_to_base": 1.134,
+                "slope": 0.0003009
+            },
+            "amount_daily": {
+                "measure_to_base": 0.5638,
+                "slope": 53.57
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.001106,
+                    "beta": 1.433
+                },
+                "base_duration": {
+                    "alpha": 0.003318,
+                    "beta": 1.485
+                },
+                "measure_duration": {
+                    "alpha": -0.001711,
+                    "beta": 1.752
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Dn",
+            "alpha_level": "underperform",
+            "market_sentiment": "unchanged",
+            "category": "B"
+        }
     }
 }

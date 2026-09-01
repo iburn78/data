@@ -47,7 +47,7 @@
     },
     "financials": {
         "meta": {
-            "updated": "2026-08-30 11:36",
+            "updated": "2026-09-01 12:55",
             "name": "삼성전자",
             "code": "005930",
             "unit": 1000000000.0,
@@ -57,52 +57,52 @@
             "opincome_health": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 6927.0,
-                "growth_per_qtr": 0.1548
+                "slope": 8249.0,
+                "growth_per_qtr": 0.1287
             },
             "opmargin_last_4qtrs": {
-                "25_3Q": 0.1414,
                 "25_4Q": 0.2139,
                 "26_1Q": 0.4275,
-                "26_2Q": 0.5218
+                "26_2Q": 0.5218,
+                "26_3Q": 0.5218
             },
             "PER": {
-                "PER_ltm": 8.395,
-                "PER_qx4": 4.197,
-                "PER_fwd": 3.517
+                "PER_ltm": 5.902,
+                "PER_qx4": 4.226,
+                "PER_fwd": 3.434
             },
             "volatility_pct": {
-                "measure_to_base": 1.192,
-                "slope": 0.0002552
+                "measure_to_base": 1.144,
+                "slope": 0.0002476
             },
             "amount_daily": {
-                "measure_to_base": 0.7516,
-                "slope": 22.5
+                "measure_to_base": 0.6837,
+                "slope": 17.98
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0004322,
+                    "alpha": 0.000435,
                     "beta": 1.184
                 },
                 "base_duration": {
-                    "alpha": 0.001103,
-                    "beta": 1.237
+                    "alpha": 0.001083,
+                    "beta": 1.232
                 },
                 "measure_duration": {
-                    "alpha": -0.002877,
-                    "beta": 1.506
+                    "alpha": -0.000629,
+                    "beta": 1.49
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": true,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "underperform",
             "market_sentiment": "unchanged",
-            "category": "B"
+            "category": "A"
         }
     }
 }
