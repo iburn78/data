@@ -13,8 +13,8 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-09-01 18:00",
             "name": "MLCC",
+            "updated": "2026-09-02 17:23",
             "code": [
                 "009150",
                 "001820"
@@ -22,44 +22,53 @@
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
         },
+        "shape": {
+            "financials": {
+                "revenue_4qtrs": 12800.0,
+                "opincome_4qtrs": 1100.0,
+                "revenue_qtr": 3280.0,
+                "opincome_qtr": 285.0
+            }
+        },
         "assess_data": {
-            "opincome_health": {
+            "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 11.31,
-                "growth_per_qtr": 0.04129
+                "slope": 11.3,
+                "growth_per_qtr": 0.0413
             },
-            "opmargin_last_4qtrs": {
+            "opmargin": {
                 "25_4Q": 0.0805,
-                "26_1Q": 0.08692,
-                "26_2Q": 0.08692,
-                "26_3Q": 0.08692
+                "26_1Q": 0.0869,
+                "26_2Q": 0.0869,
+                "26_3Q": 0.0869,
+                "4qtrs": 0.0854
             },
             "PER": {
-                "PER_ltm": 98.19,
-                "PER_qx4": 94.23,
-                "PER_fwd": 85.74
+                "PER_ltm": 97.7,
+                "PER_qx4": 93.8,
+                "PER_fwd": 85.3
             },
-            "volatility_pct": {
-                "measure_to_base": 1.089,
-                "slope": 0.0004087
+            "volatility": {
+                "measure_to_base": 1.07,
+                "slope": 0.000403
             },
-            "amount_daily": {
-                "measure_to_base": 0.6095,
-                "slope": 9.985
+            "amount": {
+                "measure_to_base": 0.606,
+                "slope": 9.28
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0008766,
-                    "beta": 1.228
+                    "alpha": 0.000886,
+                    "beta": 1.23
                 },
                 "base_duration": {
-                    "alpha": 0.01012,
-                    "beta": 1.226
+                    "alpha": 0.0104,
+                    "beta": 1.22
                 },
                 "measure_duration": {
-                    "alpha": 0.006681,
-                    "beta": 1.266
+                    "alpha": 0.00304,
+                    "beta": 0.99
                 }
             }
         },

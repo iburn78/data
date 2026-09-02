@@ -1,6 +1,6 @@
 {
     "name": "세코닉스",
-    "updated": "2026-08-30",
+    "updated": "2026-09-02",
     "code": "053450",
     "overview": {
         "title": "공급망 불안 속 전기차 수주로 성장",
@@ -27,62 +27,71 @@
     },
     "news_summary": {
         "key_facts": [
-            "회사 및 시점과 관련된 구체적 사실 1",
-            "회사 및 시점과 관련된 구체적 사실 2"
+            "구체적인 사실 1",
+            "구체적인 사실 2"
         ],
         "key_issues": [
-            "명시된 리스크 또는 불확실성 1",
-            "명시된 리스크 또는 불확실성 2"
+            "위험 요소나 불확실성 1",
+            "위험 요소나 불확실성 2"
         ],
-        "news_summary": "전체 기사를 통합한 간결한 요약 내용",
-        "updated": "2026-08-30"
+        "news_summary": "전체 내용을 요약한 한국어 문장",
+        "updated": "2026-09-02"
     },
     "financials": {
         "meta": {
-            "updated": "2026-09-01 18:00",
             "name": "세코닉스",
+            "updated": "2026-09-02 17:23",
             "code": "053450",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
         },
+        "shape": {
+            "financials": {
+                "revenue_4qtrs": 410.0,
+                "opincome_4qtrs": -0.925,
+                "revenue_qtr": 104.0,
+                "opincome_qtr": 1.05
+            }
+        },
         "assess_data": {
-            "opincome_health": {
+            "opincome": {
                 "positive_last_4qtrs": false,
                 "higher_than_comp": true,
-                "slope": -0.4564,
-                "growth_per_qtr": 1.973
+                "slope": -0.456,
+                "growth_per_qtr": 1.97
             },
-            "opmargin_last_4qtrs": {
-                "25_4Q": -0.04147,
-                "26_1Q": 0.01006,
-                "26_2Q": 0.01006,
-                "26_3Q": 0.01006
+            "opmargin": {
+                "25_4Q": -0.0415,
+                "26_1Q": 0.0101,
+                "26_2Q": 0.0101,
+                "26_3Q": 0.0101,
+                "4qtrs": -0.00226
             },
             "PER": {
-                "PER_ltm": -50.53,
-                "PER_qx4": 11.17,
-                "PER_fwd": -122.9
+                "PER_ltm": -50.1,
+                "PER_qx4": 11.1,
+                "PER_fwd": -122.0
             },
-            "volatility_pct": {
-                "measure_to_base": 1.073,
-                "slope": 8.863e-05
+            "volatility": {
+                "measure_to_base": 1.05,
+                "slope": 9.1e-05
             },
-            "amount_daily": {
-                "measure_to_base": 0.9084,
-                "slope": -0.01412
+            "amount": {
+                "measure_to_base": 0.907,
+                "slope": -0.0144
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0007991,
-                    "beta": 0.8865
+                    "alpha": -0.000794,
+                    "beta": 0.885
                 },
                 "base_duration": {
-                    "alpha": -0.004663,
-                    "beta": 0.3798
+                    "alpha": -0.00474,
+                    "beta": 0.378
                 },
                 "measure_duration": {
-                    "alpha": -0.004167,
-                    "beta": 0.3114
+                    "alpha": -0.00574,
+                    "beta": 0.219
                 }
             }
         },

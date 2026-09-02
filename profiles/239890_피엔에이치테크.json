@@ -1,6 +1,6 @@
 {
     "name": "피엔에이치테크",
-    "updated": "2026-08-30",
+    "updated": "2026-09-02",
     "code": "239890",
     "overview": {
         "title": "전방산업 수요 변동 속 제품 다변화",
@@ -27,60 +27,69 @@
     },
     "news_summary": {
         "key_facts": [
-            "정성욱 전무이사가 피엔에이치테크 주식 1만 2,561주를 추가 취득하여 지분율 0.13%를 보유하게 됨 (2026-07-02)"
+            "정성욱 전무이사가 피엔에이치테크 주식 1만 2,561주를 추가 취득하여 지분율 0.13%를 보유하게 됨 (2026년 7월 2일 기준)"
         ],
         "key_issues": [
-            "해당 기사 내에 명시된 기업 리스크나 불확실성 사항은 없음"
+            "명시된 리스크나 불확실성 없음"
         ],
-        "news_summary": "피엔에이치테크의 정성욱 전무이사가 자사 주식 1만 2,561주를 추가로 취득하며 지분율 0.13%를 기록했습니다.",
-        "updated": "2026-08-30"
+        "news_summary": "정성욱 피엔에이치테크 전무이사가 자사주 1만 2,561주를 추가로 매수하여 지분율 0.13%를 기록했습니다.",
+        "updated": "2026-09-02"
     },
     "financials": {
         "meta": {
-            "updated": "2026-09-01 18:01",
             "name": "피엔에이치테크",
+            "updated": "2026-09-02 17:23",
             "code": "239890",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
         },
+        "shape": {
+            "financials": {
+                "revenue_4qtrs": 27.4,
+                "opincome_4qtrs": 3.87,
+                "revenue_qtr": 6.85,
+                "opincome_qtr": 0.969
+            }
+        },
         "assess_data": {
-            "opincome_health": {
+            "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 0.02026,
-                "growth_per_qtr": 0.02091
+                "slope": 0.0203,
+                "growth_per_qtr": 0.0209
             },
-            "opmargin_last_4qtrs": {
-                "25_4Q": 0.1415,
-                "26_1Q": 0.1415,
-                "26_2Q": 0.1415,
-                "26_3Q": 0.1415
+            "opmargin": {
+                "25_4Q": 0.141,
+                "26_1Q": 0.141,
+                "26_2Q": 0.141,
+                "26_3Q": 0.141,
+                "4qtrs": 0.141
             },
             "PER": {
-                "PER_ltm": 8.59,
-                "PER_qx4": 8.59,
-                "PER_fwd": 8.164
+                "PER_ltm": 8.54,
+                "PER_qx4": 8.54,
+                "PER_fwd": 8.11
             },
-            "volatility_pct": {
-                "measure_to_base": 0.9555,
-                "slope": 0.0001262
+            "volatility": {
+                "measure_to_base": 0.933,
+                "slope": 0.000119
             },
-            "amount_daily": {
-                "measure_to_base": 0.3542,
-                "slope": -0.005732
+            "amount": {
+                "measure_to_base": 0.295,
+                "slope": -0.00596
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -5.495e-05,
+                    "alpha": -5.22e-05,
                     "beta": 0.568
                 },
                 "base_duration": {
-                    "alpha": -0.003359,
-                    "beta": 0.5053
+                    "alpha": -0.00345,
+                    "beta": 0.504
                 },
                 "measure_duration": {
-                    "alpha": -0.003424,
-                    "beta": 0.39
+                    "alpha": -0.00355,
+                    "beta": 0.374
                 }
             }
         },

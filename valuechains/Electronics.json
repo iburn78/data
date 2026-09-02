@@ -12,67 +12,76 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-09-01 18:00",
             "name": "Electronics",
+            "updated": "2026-09-02 17:23",
             "code": [
-                "272290",
-                "060720",
-                "148150",
-                "452430",
-                "011070",
-                "239890",
-                "441270",
-                "178920",
-                "053450",
-                "005930",
                 "001820",
-                "108320",
-                "009150",
-                "213420",
+                "441270",
+                "239890",
                 "097520",
-                "066570"
+                "108320",
+                "178920",
+                "009150",
+                "148150",
+                "213420",
+                "272290",
+                "005930",
+                "452430",
+                "066570",
+                "053450",
+                "011070",
+                "060720"
             ],
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
         },
+        "shape": {
+            "financials": {
+                "revenue_4qtrs": 708000.0,
+                "opincome_4qtrs": 264000.0,
+                "revenue_qtr": 205000.0,
+                "opincome_qtr": 91800.0
+            }
+        },
         "assess_data": {
-            "opincome_health": {
+            "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 8321.0,
-                "growth_per_qtr": 0.1262
+                "slope": 8320.0,
+                "growth_per_qtr": 0.126
             },
-            "opmargin_last_4qtrs": {
+            "opmargin": {
                 "25_4Q": 0.159,
-                "26_1Q": 0.3554,
-                "26_2Q": 0.4474,
-                "26_3Q": 0.4474
+                "26_1Q": 0.355,
+                "26_2Q": 0.447,
+                "26_3Q": 0.447,
+                "4qtrs": 0.373
             },
             "PER": {
-                "PER_ltm": 6.335,
-                "PER_qx4": 4.55,
-                "PER_fwd": 3.71
+                "PER_ltm": 6.18,
+                "PER_qx4": 4.44,
+                "PER_fwd": 3.62
             },
-            "volatility_pct": {
-                "measure_to_base": 1.158,
-                "slope": 0.000242
+            "volatility": {
+                "measure_to_base": 1.13,
+                "slope": 0.000239
             },
-            "amount_daily": {
-                "measure_to_base": 0.658,
-                "slope": 28.95
+            "amount": {
+                "measure_to_base": 0.651,
+                "slope": 25.7
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0004087,
-                    "beta": 1.223
+                    "alpha": 0.000415,
+                    "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.001432,
-                    "beta": 1.219
+                    "alpha": 0.00151,
+                    "beta": 1.22
                 },
                 "measure_duration": {
-                    "alpha": -7.24e-05,
-                    "beta": 1.453
+                    "alpha": 0.00147,
+                    "beta": 1.48
                 }
             }
         },
@@ -82,7 +91,7 @@
             "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "Dn",
-            "alpha_level": "at_market",
+            "alpha_level": "outperform",
             "market_sentiment": "unchanged",
             "category": "A"
         }
