@@ -219,7 +219,9 @@ __marimo__/
 
 .DS_Store
 *.png
-*.html
+profiles/*.html
+components/*.html
+valuechains/*.html
 news/
 
 node/node_modules/
