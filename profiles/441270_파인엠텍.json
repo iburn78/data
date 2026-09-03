@@ -47,7 +47,7 @@
     "financials": {
         "meta": {
             "name": "파인엠텍",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": "441270",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -75,30 +75,30 @@
                 "4qtrs": -0.0429
             },
             "PER": {
-                "PER_ltm": -39.2,
-                "PER_qx4": -38.0,
-                "PER_fwd": -30.6
+                "PER_ltm": -38.3,
+                "PER_qx4": -37.2,
+                "PER_fwd": -29.9
             },
             "volatility": {
                 "measure_to_base": 1.04,
                 "slope": 0.000131
             },
             "amount": {
-                "measure_to_base": 2.7,
-                "slope": -0.0611
+                "measure_to_base": 2.66,
+                "slope": -0.0603
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000544,
-                    "beta": 0.851
+                    "alpha": -0.000561,
+                    "beta": 0.853
                 },
                 "base_duration": {
-                    "alpha": -0.0021,
-                    "beta": 0.713
+                    "alpha": -0.00224,
+                    "beta": 0.717
                 },
                 "measure_duration": {
-                    "alpha": -0.00209,
-                    "beta": 0.797
+                    "alpha": -0.00283,
+                    "beta": 0.847
                 }
             }
         },

@@ -43,7 +43,7 @@
     "financials": {
         "meta": {
             "name": "삼화콘덴서",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": "001820",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -71,30 +71,30 @@
                 "4qtrs": 0.0481
             },
             "PER": {
-                "PER_ltm": 87.7,
-                "PER_qx4": 65.0,
-                "PER_fwd": 73.2
+                "PER_ltm": 83.3,
+                "PER_qx4": 61.7,
+                "PER_fwd": 69.6
             },
             "volatility": {
                 "measure_to_base": 0.865,
                 "slope": 0.000242
             },
             "amount": {
-                "measure_to_base": 0.738,
-                "slope": 0.611
+                "measure_to_base": 0.747,
+                "slope": 0.627
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000803,
+                    "alpha": 0.000787,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.0088,
-                    "beta": 1.01
+                    "alpha": 0.00843,
+                    "beta": 1.02
                 },
                 "measure_duration": {
-                    "alpha": 0.0209,
-                    "beta": 0.937
+                    "alpha": 0.0186,
+                    "beta": 1.02
                 }
             }
         },

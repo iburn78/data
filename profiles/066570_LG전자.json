@@ -47,7 +47,7 @@
     "financials": {
         "meta": {
             "name": "LG전자",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": "066570",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -75,30 +75,30 @@
                 "4qtrs": 0.0517
             },
             "PER": {
-                "PER_ltm": 6.61,
-                "PER_qx4": 4.85,
-                "PER_fwd": 4.53
+                "PER_ltm": 6.65,
+                "PER_qx4": 4.88,
+                "PER_fwd": 4.55
             },
             "volatility": {
                 "measure_to_base": 0.784,
-                "slope": 8.17e-05
+                "slope": 8.16e-05
             },
             "amount": {
-                "measure_to_base": 0.467,
-                "slope": 0.2
+                "measure_to_base": 0.473,
+                "slope": 0.228
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000373,
-                    "beta": 0.888
+                    "alpha": 0.000378,
+                    "beta": 0.887
                 },
                 "base_duration": {
-                    "alpha": 0.00528,
-                    "beta": 0.714
+                    "alpha": 0.00539,
+                    "beta": 0.713
                 },
                 "measure_duration": {
-                    "alpha": 0.00614,
-                    "beta": 0.573
+                    "alpha": 0.00671,
+                    "beta": 0.559
                 }
             }
         },

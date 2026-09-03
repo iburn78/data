@@ -2,7 +2,11 @@ body {
     font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
     background: #f5f6f8;
     margin: 0;
-    padding: 24px;
+    padding: 10px;
+}
+
+body h3 {
+    margin: 3px 0;
 }
 
 a {
@@ -17,8 +21,9 @@ a {
 .dashboard {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 /* ─────────────────────────────
@@ -45,7 +50,7 @@ a {
 
 .dict-table th,
 .dict-table td {
-    padding: 8px 12px;
+    padding: 5px 10px;
     border-bottom: 1px solid #e5e7eb;
 }
 
@@ -203,6 +208,7 @@ a {
     display: block;
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 
@@ -222,12 +228,8 @@ a {
    ───────────────────────────── */
 
 .qualitative-section {
-    margin: 24px auto 0;
+    margin: 10px auto 10px;
     max-width: 100%;
-}
-
-.qualitative-section > h3 {
-    margin-bottom: 16px;
 }
 
 .qualitative-grid {
@@ -297,4 +299,29 @@ a {
 .qualitative-card > .qualitative-content > .qualitative-table > tbody > tr > th,
 .qualitative-card > .qualitative-content > .qualitative-table > tbody > tr > td {
     border-bottom: 2px solid #d1d5db;
+}
+
+/* ─────────────────────────────
+   News section
+   ───────────────────────────── */
+   
+.news-section {
+    margin-bottom: 15px;
+}
+
+.news-section a {
+    color: black;
+}
+
+.news-row {
+    padding: 5px 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.news-row a {
+    text-decoration: none;
+}
+
+.news-row a:hover {
+    text-decoration: underline;
 }

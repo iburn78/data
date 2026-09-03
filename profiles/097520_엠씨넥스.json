@@ -42,7 +42,7 @@
     "financials": {
         "meta": {
             "name": "엠씨넥스",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": "097520",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -70,30 +70,30 @@
                 "4qtrs": 0.035
             },
             "PER": {
-                "PER_ltm": 8.19,
-                "PER_qx4": 7.62,
-                "PER_fwd": 7.83
+                "PER_ltm": 7.84,
+                "PER_qx4": 7.29,
+                "PER_fwd": 7.49
             },
             "volatility": {
                 "measure_to_base": 1.03,
-                "slope": -3.09e-05
+                "slope": -2.89e-05
             },
             "amount": {
-                "measure_to_base": 0.848,
-                "slope": -0.00299
+                "measure_to_base": 0.866,
+                "slope": -0.00268
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -6.14e-05,
-                    "beta": 0.814
+                    "alpha": -7.6e-05,
+                    "beta": 0.817
                 },
                 "base_duration": {
-                    "alpha": -0.00182,
-                    "beta": 0.415
+                    "alpha": -0.00215,
+                    "beta": 0.423
                 },
                 "measure_duration": {
-                    "alpha": 0.0016,
-                    "beta": 0.243
+                    "alpha": -0.000505,
+                    "beta": 0.361
                 }
             }
         },
@@ -103,7 +103,7 @@
             "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "outperform",
+            "alpha_level": "underperform",
             "market_sentiment": "unchanged",
             "category": "D"
         }

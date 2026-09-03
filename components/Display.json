@@ -26,7 +26,7 @@
     "financials": {
         "meta": {
             "name": "Display",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": [
                 "213420",
                 "272290",
@@ -60,30 +60,30 @@
                 "4qtrs": 0.107
             },
             "PER": {
-                "PER_ltm": 8.73,
-                "PER_qx4": 8.61,
-                "PER_fwd": 9.44
+                "PER_ltm": 8.61,
+                "PER_qx4": 8.48,
+                "PER_fwd": 9.3
             },
             "volatility": {
                 "measure_to_base": 1.05,
-                "slope": 3.58e-05
+                "slope": 3.61e-05
             },
             "amount": {
-                "measure_to_base": 1.19,
-                "slope": -0.327
+                "measure_to_base": 1.2,
+                "slope": -0.324
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000259,
-                    "beta": 0.863
+                    "alpha": -0.000262,
+                    "beta": 0.864
                 },
                 "base_duration": {
-                    "alpha": -0.00268,
-                    "beta": 0.514
+                    "alpha": -0.00276,
+                    "beta": 0.516
                 },
                 "measure_duration": {
-                    "alpha": 0.00196,
-                    "beta": 0.163
+                    "alpha": 0.00127,
+                    "beta": 0.208
                 }
             }
         },

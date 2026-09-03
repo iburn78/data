@@ -44,7 +44,7 @@
     "financials": {
         "meta": {
             "name": "LG이노텍",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": "011070",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -74,28 +74,28 @@
             "PER": {
                 "PER_ltm": 11.1,
                 "PER_qx4": 11.4,
-                "PER_fwd": 9.96
+                "PER_fwd": 9.91
             },
             "volatility": {
                 "measure_to_base": 1.05,
                 "slope": 0.00014
             },
             "amount": {
-                "measure_to_base": 0.532,
-                "slope": 0.802
+                "measure_to_base": 0.538,
+                "slope": 0.825
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000507,
+                    "alpha": 0.000509,
                     "beta": 1.16
                 },
                 "base_duration": {
-                    "alpha": 0.00679,
+                    "alpha": 0.00683,
                     "beta": 1.02
                 },
                 "measure_duration": {
-                    "alpha": -0.00201,
-                    "beta": 0.674
+                    "alpha": -0.00195,
+                    "beta": 0.678
                 }
             }
         },

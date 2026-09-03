@@ -10,7 +10,7 @@
     "financials": {
         "meta": {
             "name": "Smart_glass",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": [
                 "452430"
             ],
@@ -41,29 +41,29 @@
             },
             "PER": {
                 "PER_ltm": 326.0,
-                "PER_qx4": 194.0,
-                "PER_fwd": 65.3
+                "PER_qx4": 193.0,
+                "PER_fwd": 65.2
             },
             "volatility": {
                 "measure_to_base": 1.16,
                 "slope": 0.000119
             },
             "amount": {
-                "measure_to_base": 0.663,
+                "measure_to_base": 0.669,
                 "slope": -0.0338
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00113,
-                    "beta": 0.962
+                    "alpha": -0.00112,
+                    "beta": 0.961
                 },
                 "base_duration": {
-                    "alpha": -0.00131,
-                    "beta": 0.775
+                    "alpha": -0.00126,
+                    "beta": 0.773
                 },
                 "measure_duration": {
-                    "alpha": -0.00086,
-                    "beta": 0.336
+                    "alpha": -0.000782,
+                    "beta": 0.327
                 }
             }
         },

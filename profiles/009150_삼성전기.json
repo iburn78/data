@@ -43,7 +43,7 @@
     "financials": {
         "meta": {
             "name": "삼성전기",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": "009150",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -71,17 +71,17 @@
                 "4qtrs": 0.0863
             },
             "PER": {
-                "PER_ltm": 97.8,
-                "PER_qx4": 94.2,
-                "PER_fwd": 85.5
+                "PER_ltm": 96.7,
+                "PER_qx4": 93.2,
+                "PER_fwd": 84.5
             },
             "volatility": {
                 "measure_to_base": 1.07,
                 "slope": 0.000404
             },
             "amount": {
-                "measure_to_base": 0.597,
-                "slope": 8.67
+                "measure_to_base": 0.605,
+                "slope": 8.83
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -93,8 +93,8 @@
                     "beta": 1.22
                 },
                 "measure_duration": {
-                    "alpha": 0.00287,
-                    "beta": 0.991
+                    "alpha": 0.00277,
+                    "beta": 0.985
                 }
             }
         },

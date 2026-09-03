@@ -40,7 +40,7 @@
     "financials": {
         "meta": {
             "name": "세코닉스",
-            "updated": "2026-09-02 17:23",
+            "updated": "2026-09-03 09:41",
             "code": "053450",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -68,7 +68,7 @@
                 "4qtrs": -0.00226
             },
             "PER": {
-                "PER_ltm": -50.1,
+                "PER_ltm": -50.0,
                 "PER_qx4": 11.1,
                 "PER_fwd": -122.0
             },
@@ -77,21 +77,21 @@
                 "slope": 9.1e-05
             },
             "amount": {
-                "measure_to_base": 0.907,
+                "measure_to_base": 0.917,
                 "slope": -0.0144
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000794,
+                    "alpha": -0.000791,
                     "beta": 0.885
                 },
                 "base_duration": {
-                    "alpha": -0.00474,
-                    "beta": 0.378
+                    "alpha": -0.00472,
+                    "beta": 0.377
                 },
                 "measure_duration": {
-                    "alpha": -0.00574,
-                    "beta": 0.219
+                    "alpha": -0.00571,
+                    "beta": 0.215
                 }
             }
         },
