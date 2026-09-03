@@ -44,7 +44,7 @@
     "financials": {
         "meta": {
             "name": "삼성전자",
-            "updated": "2026-09-03 09:41",
+            "updated": "2026-09-03 19:15",
             "code": "005930",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -72,21 +72,21 @@
                 "4qtrs": 0.449
             },
             "PER": {
-                "PER_ltm": 5.71,
-                "PER_qx4": 4.09,
+                "PER_ltm": 5.7,
+                "PER_qx4": 4.08,
                 "PER_fwd": 3.32
             },
             "volatility": {
-                "measure_to_base": 1.12,
-                "slope": 0.000244
+                "measure_to_base": 1.1,
+                "slope": 0.00024
             },
             "amount": {
                 "measure_to_base": 0.683,
-                "slope": 16.9
+                "slope": 14.0
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000437,
+                    "alpha": 0.000435,
                     "beta": 1.18
                 },
                 "base_duration": {
@@ -94,8 +94,8 @@
                     "beta": 1.23
                 },
                 "measure_duration": {
-                    "alpha": 0.00183,
-                    "beta": 1.51
+                    "alpha": 0.00115,
+                    "beta": 1.53
                 }
             }
         },

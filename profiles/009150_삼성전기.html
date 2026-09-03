@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Dictionary Display</title>
-<link rel="stylesheet" href="../css/dict_template.css">
+<link rel="stylesheet" href="../util/html/dict_template.css">
 </head>
-
 <body>
+<div class="dict-content">
     <h3>Financials Analysis</h3>
     <div class="dashboard">
         <div class="table-panel">
@@ -19,7 +19,7 @@
                     <thead>
                         <tr class="header-row">
                             <th class="label">Profile</th>
-                            <th class="value"><a href="/Users/andy/projects/data/profiles/009150_삼성전기.html">삼성전기</a></th>
+                            <th class="value"><a href="../profiles/009150_삼성전기.html">삼성전기</a></th>
                         </tr>    
                     </thead>
                     <tbody>
@@ -32,7 +32,7 @@
                         </tr>        
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
-                            <td class="value">2026-09-03 09:41</td>
+                            <td class="value">2026-09-03 19:15</td>
                         </tr>        
                         <tr class="value-row level-1">
                             <td class="label">code</td>
@@ -122,37 +122,37 @@
                         </tr>        
                         <tr class="value-row level-2">
                             <td class="label">PER_ltm</td>
-                            <td class="value">96.7</td>
+                            <td class="value">93.1</td>
                         </tr>        
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
-                            <td class="value">93.2</td>
+                            <td class="value">89.7</td>
                         </tr>        
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
-                            <td class="value">84.5</td>
+                            <td class="value">81.4</td>
                         </tr>    
                         <tr class="section-row level-1">
                             <td class="label" colspan="2">volatility</td>
                         </tr>        
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base</td>
-                            <td class="value">1.07</td>
+                            <td class="value">1.04</td>
                         </tr>        
                         <tr class="value-row level-2">
                             <td class="label">slope</td>
-                            <td class="value">0.000404</td>
+                            <td class="value">0.000394</td>
                         </tr>    
                         <tr class="section-row level-1">
                             <td class="label" colspan="2">amount</td>
                         </tr>        
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base</td>
-                            <td class="value">0.605</td>
+                            <td class="value">0.598</td>
                         </tr>        
                         <tr class="value-row level-2">
                             <td class="label">slope</td>
-                            <td class="value">8.83</td>
+                            <td class="value">8.2</td>
                         </tr>    
                         <tr class="section-row level-1">
                             <td class="label" colspan="2">alpha_beta</td>
@@ -162,7 +162,7 @@
                         </tr>        
                         <tr class="value-row level-3">
                             <td class="label">alpha</td>
-                            <td class="value">0.000898</td>
+                            <td class="value">0.000883</td>
                         </tr>        
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
@@ -173,7 +173,7 @@
                         </tr>        
                         <tr class="value-row level-3">
                             <td class="label">alpha</td>
-                            <td class="value">0.0104</td>
+                            <td class="value">0.0102</td>
                         </tr>        
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
@@ -184,11 +184,11 @@
                         </tr>        
                         <tr class="value-row level-3">
                             <td class="label">alpha</td>
-                            <td class="value">0.00277</td>
+                            <td class="value">0.00373</td>
                         </tr>        
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
-                            <td class="value">0.985</td>
+                            <td class="value">0.803</td>
                         </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">assess_result</td>
@@ -231,7 +231,7 @@
         </div>
         <div class="charts-panel">
             <div class="chart-card">
-                <img src="/Users/andy/projects/data/profiles/009150_삼성전기.png" class="analysis-image" onclick="openPopup('/Users/andy/projects/data/profiles/009150_삼성전기.png');">
+                <img src="009150_삼성전기.png" class="analysis-image" onclick="openPopup('009150_삼성전기.png');">
             </div>
             <div class="chart-card">
                 <img src="http://10.245.110.101:3000/data/009150.png" class="analysis-image" onclick="openPopup('http://10.245.110.101:3000/data/009150.png');">
@@ -392,96 +392,11 @@
         </div>
     </div>
     
-</body>
-<script>
-function getLevel(row) {
-    const levelClass = [...row.classList]
-        .find(c => c.startsWith("level-"));
-
-    return levelClass
-        ? Number(levelClass.replace("level-", ""))
-        : null;
-}
-
-function updateVisibility() {
-    const rows = document.querySelectorAll(".dict-table tr");
-
-    // Stack of collapsed section levels.
-    const collapsedLevels = [];
-
-    rows.forEach(row => {
-        const level = getLevel(row);
-
-        if (level === null) return;
-
-        // Remove collapsed levels that are no longer ancestors.
-        while (
-            collapsedLevels.length &&
-            collapsedLevels[collapsedLevels.length - 1] >= level
-        ) {
-            collapsedLevels.pop();
-        }
-
-        // Hide if any ancestor section is collapsed.
-        row.hidden = collapsedLevels.length > 0;
-
-        // If this is a collapsed section, its descendants are hidden.
-        if (
-            row.classList.contains("section-row") &&
-            row.classList.contains("collapsed")
-        ) {
-            collapsedLevels.push(level);
-        }
-    });
-}
-
-
-function toggleSection(section) {
-    section.classList.toggle("collapsed");
-    updateVisibility();
-}
-
-
-function expandAll() {
-    document.querySelectorAll(".section-row")
-        .forEach(section => {
-            section.classList.remove("collapsed");
-        });
-
-    updateVisibility();
-}
-
-
-function collapseAll() {
-    document.querySelectorAll(".section-row")
-        .forEach(section => {
-            section.classList.add("collapsed");
-        });
-
-    updateVisibility();
-}
-
-
-// Attach click handlers
-document.querySelectorAll(".dict-table .section-row")
-    .forEach(section => {
-        section.addEventListener("click", () => {
-            toggleSection(section);
-        });
-    });
-
-
-// Initial state
-updateVisibility();
-
-// news pop-up
-function openPopup(url) {
-    window.open(
-        url,
-        "_blank",
-        "width=1200,height=800,scrollbars=yes,resizable=yes"
-    );
-}
-</script>
-
+</div>
+<script src="../util/html/dict_template.js"></script>
+</body> 
+<footer>
+    <div class="footer-title">Quarterly Performances</div>
+    <div class="footer-copy">© 2026 · All rights reserved.</div>
+</footer>
 </html>

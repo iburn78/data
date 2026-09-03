@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import pandas as pd
 
-PROJECTS_DIR = Path(__file__).parent.parent
+PROJECTS_DIR = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECTS_DIR / 'data'
 MARKET_DIR = DATA_DIR / 'market'
 os.makedirs(MARKET_DIR, exist_ok=True)

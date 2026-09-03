@@ -22,7 +22,7 @@
     "financials": {
         "meta": {
             "name": "Camera_module",
-            "updated": "2026-09-03 09:41",
+            "updated": "2026-09-03 19:15",
             "code": [
                 "011070",
                 "009150",
@@ -55,30 +55,30 @@
                 "4qtrs": 0.0608
             },
             "PER": {
-                "PER_ltm": 50.7,
-                "PER_qx4": 50.3,
-                "PER_fwd": 44.9
+                "PER_ltm": 48.9,
+                "PER_qx4": 48.5,
+                "PER_fwd": 43.3
             },
             "volatility": {
-                "measure_to_base": 1.07,
-                "slope": 0.000399
+                "measure_to_base": 1.04,
+                "slope": 0.000389
             },
             "amount": {
-                "measure_to_base": 0.594,
-                "slope": 9.64
+                "measure_to_base": 0.588,
+                "slope": 8.82
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000711,
+                    "alpha": 0.000696,
                     "beta": 1.21
                 },
                 "base_duration": {
-                    "alpha": 0.00965,
+                    "alpha": 0.00943,
                     "beta": 1.19
                 },
                 "measure_duration": {
-                    "alpha": 0.00212,
-                    "beta": 0.944
+                    "alpha": 0.00317,
+                    "beta": 0.766
                 }
             }
         },

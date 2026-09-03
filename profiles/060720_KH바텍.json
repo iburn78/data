@@ -43,7 +43,7 @@
     "financials": {
         "meta": {
             "name": "KH바텍",
-            "updated": "2026-09-03 09:41",
+            "updated": "2026-09-03 19:15",
             "code": "060720",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -71,30 +71,30 @@
                 "4qtrs": 0.0331
             },
             "PER": {
-                "PER_ltm": 33.7,
-                "PER_qx4": 37.1,
-                "PER_fwd": 85.7
+                "PER_ltm": 33.3,
+                "PER_qx4": 36.6,
+                "PER_fwd": 84.6
             },
             "volatility": {
-                "measure_to_base": 1.16,
-                "slope": 4.83e-07
+                "measure_to_base": 1.13,
+                "slope": 6.7e-06
             },
             "amount": {
-                "measure_to_base": 0.605,
-                "slope": -0.0174
+                "measure_to_base": 0.624,
+                "slope": -0.0167
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000227,
+                    "alpha": -0.000232,
                     "beta": 1.01
                 },
                 "base_duration": {
-                    "alpha": -0.00353,
-                    "beta": 0.579
+                    "alpha": -0.00386,
+                    "beta": 0.58
                 },
                 "measure_duration": {
-                    "alpha": -0.000493,
-                    "beta": 0.497
+                    "alpha": -0.00222,
+                    "beta": 0.556
                 }
             }
         },

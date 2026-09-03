@@ -1,11 +1,11 @@
-body {
+.dict-content {
     font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
     background: #f5f6f8;
     margin: 0;
     padding: 10px;
 }
 
-body h3 {
+.dict-content h3 {
     margin: 3px 0;
 }
 
@@ -324,4 +324,29 @@ a {
 
 .news-row a:hover {
     text-decoration: underline;
+}
+
+/* ─────────────────────────────
+   Common
+   ───────────────────────────── */
+footer {
+    margin-top: 20px;
+    padding: 20px 0 25px;
+    text-align: center;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+.footer-title {
+    font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-copy {
+    margin-top: 6px;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    opacity: 0.5;
 }

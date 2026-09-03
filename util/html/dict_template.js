@@ -1,0 +1,88 @@
+function getLevel(row) {
+    const levelClass = [...row.classList]
+        .find(c => c.startsWith("level-"));
+
+    return levelClass
+        ? Number(levelClass.replace("level-", ""))
+        : null;
+}
+
+function updateVisibility() {
+    const rows = document.querySelectorAll(".dict-table tr");
+
+    // Stack of collapsed section levels.
+    const collapsedLevels = [];
+
+    rows.forEach(row => {
+        const level = getLevel(row);
+
+        if (level === null) return;
+
+        // Remove collapsed levels that are no longer ancestors.
+        while (
+            collapsedLevels.length &&
+            collapsedLevels[collapsedLevels.length - 1] >= level
+        ) {
+            collapsedLevels.pop();
+        }
+
+        // Hide if any ancestor section is collapsed.
+        row.hidden = collapsedLevels.length > 0;
+
+        // If this is a collapsed section, its descendants are hidden.
+        if (
+            row.classList.contains("section-row") &&
+            row.classList.contains("collapsed")
+        ) {
+            collapsedLevels.push(level);
+        }
+    });
+}
+
+
+function toggleSection(section) {
+    section.classList.toggle("collapsed");
+    updateVisibility();
+}
+
+
+function expandAll() {
+    document.querySelectorAll(".section-row")
+        .forEach(section => {
+            section.classList.remove("collapsed");
+        });
+
+    updateVisibility();
+}
+
+
+function collapseAll() {
+    document.querySelectorAll(".section-row")
+        .forEach(section => {
+            section.classList.add("collapsed");
+        });
+
+    updateVisibility();
+}
+
+
+// Attach click handlers
+document.querySelectorAll(".dict-table .section-row")
+    .forEach(section => {
+        section.addEventListener("click", () => {
+            toggleSection(section);
+        });
+    });
+
+
+// Initial state
+updateVisibility();
+
+// news pop-up
+function openPopup(url) {
+    window.open(
+        url,
+        "_blank",
+        "width=1200,height=800,scrollbars=yes,resizable=yes"
+    );
+}

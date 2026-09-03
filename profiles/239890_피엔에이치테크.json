@@ -38,7 +38,7 @@
     "financials": {
         "meta": {
             "name": "피엔에이치테크",
-            "updated": "2026-09-03 09:41",
+            "updated": "2026-09-03 19:15",
             "code": "239890",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -66,30 +66,30 @@
                 "4qtrs": 0.141
             },
             "PER": {
-                "PER_ltm": 8.58,
-                "PER_qx4": 8.58,
-                "PER_fwd": 8.15
+                "PER_ltm": 8.71,
+                "PER_qx4": 8.71,
+                "PER_fwd": 8.27
             },
             "volatility": {
-                "measure_to_base": 0.933,
-                "slope": 0.000119
+                "measure_to_base": 0.91,
+                "slope": 0.000113
             },
             "amount": {
-                "measure_to_base": 0.299,
-                "slope": -0.00595
+                "measure_to_base": 0.347,
+                "slope": -0.00613
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -4.78e-05,
+                    "alpha": -4.24e-05,
                     "beta": 0.567
                 },
                 "base_duration": {
-                    "alpha": -0.00337,
+                    "alpha": -0.0032,
                     "beta": 0.502
                 },
                 "measure_duration": {
-                    "alpha": -0.00313,
-                    "beta": 0.358
+                    "alpha": -0.00187,
+                    "beta": 0.337
                 }
             }
         },

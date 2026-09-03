@@ -13,8 +13,8 @@
     ],
     "financials": {
         "meta": {
-            "updated": "2026-09-01 15:26",
             "name": "Memory",
+            "updated": "2026-09-03 19:15",
             "code": [
                 "000660",
                 "005930"
@@ -22,56 +22,65 @@
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
         },
+        "shape": {
+            "financials": {
+                "revenue_4qtrs": 761000.0,
+                "opincome_4qtrs": 388000.0,
+                "revenue_qtr": 224000.0,
+                "opincome_qtr": 127000.0
+            }
+        },
         "assess_data": {
-            "opincome_health": {
+            "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 12070.0,
-                "growth_per_qtr": 0.1243
+                "slope": 12100.0,
+                "growth_per_qtr": 0.124
             },
-            "opmargin_last_4qtrs": {
-                "25_4Q": 0.3098,
-                "26_1Q": 0.5087,
-                "26_2Q": 0.5672,
-                "26_3Q": 0.5672
+            "opmargin": {
+                "25_4Q": 0.31,
+                "26_1Q": 0.509,
+                "26_2Q": 0.567,
+                "26_3Q": 0.567,
+                "4qtrs": 0.51
             },
             "PER": {
-                "PER_ltm": 7.068,
-                "PER_qx4": 5.398,
-                "PER_fwd": 4.362
+                "PER_ltm": 6.77,
+                "PER_qx4": 5.17,
+                "PER_fwd": 4.18
             },
-            "volatility_pct": {
-                "measure_to_base": 1.162,
-                "slope": 0.0002747
+            "volatility": {
+                "measure_to_base": 1.11,
+                "slope": 0.000266
             },
-            "amount_daily": {
-                "measure_to_base": 0.6141,
-                "slope": 71.55
+            "amount": {
+                "measure_to_base": 0.612,
+                "slope": 60.8
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0005696,
-                    "beta": 1.265
+                    "alpha": 0.000567,
+                    "beta": 1.26
                 },
                 "base_duration": {
-                    "alpha": 0.001886,
-                    "beta": 1.344
+                    "alpha": 0.00199,
+                    "beta": 1.34
                 },
                 "measure_duration": {
-                    "alpha": -0.001204,
-                    "beta": 1.609
+                    "alpha": 0.000646,
+                    "beta": 1.57
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": true,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "Dn",
-            "alpha_level": "underperform",
+            "alpha_level": "outperform",
             "market_sentiment": "unchanged",
-            "category": "B"
+            "category": "A"
         }
     }
 }
