@@ -22,7 +22,7 @@
     "financials": {
         "meta": {
             "name": "PCB",
-            "updated": "2026-09-03 21:45",
+            "updated": "2026-09-04 12:56",
             "code": [
                 "011070",
                 "009150",
@@ -55,30 +55,30 @@
                 "4qtrs": 0.0608
             },
             "PER": {
-                "PER_ltm": 48.9,
-                "PER_qx4": 48.5,
-                "PER_fwd": 43.3
+                "PER_ltm": 49.7,
+                "PER_qx4": 49.2,
+                "PER_fwd": 44.0
             },
             "volatility": {
-                "measure_to_base": 1.04,
-                "slope": 0.000389
+                "measure_to_base": 1.01,
+                "slope": 0.000377
             },
             "amount": {
-                "measure_to_base": 0.588,
-                "slope": 8.82
+                "measure_to_base": 0.578,
+                "slope": 7.71
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000696,
+                    "alpha": 0.000697,
                     "beta": 1.21
                 },
                 "base_duration": {
-                    "alpha": 0.00943,
+                    "alpha": 0.0093,
                     "beta": 1.19
                 },
                 "measure_duration": {
-                    "alpha": 0.00317,
-                    "beta": 0.766
+                    "alpha": 0.00144,
+                    "beta": 0.792
                 }
             }
         },

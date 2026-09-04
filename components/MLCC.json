@@ -14,7 +14,7 @@
     "financials": {
         "meta": {
             "name": "MLCC",
-            "updated": "2026-09-03 21:46",
+            "updated": "2026-09-04 12:56",
             "code": [
                 "009150",
                 "001820"
@@ -45,30 +45,30 @@
                 "4qtrs": 0.0854
             },
             "PER": {
-                "PER_ltm": 92.9,
-                "PER_qx4": 89.2,
-                "PER_fwd": 81.2
+                "PER_ltm": 94.5,
+                "PER_qx4": 90.7,
+                "PER_fwd": 82.6
             },
             "volatility": {
-                "measure_to_base": 1.04,
-                "slope": 0.000393
+                "measure_to_base": 1.01,
+                "slope": 0.000381
             },
             "amount": {
-                "measure_to_base": 0.609,
-                "slope": 8.78
+                "measure_to_base": 0.599,
+                "slope": 7.82
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00087,
+                    "alpha": 0.000872,
                     "beta": 1.23
                 },
                 "base_duration": {
-                    "alpha": 0.0101,
+                    "alpha": 0.00997,
                     "beta": 1.22
                 },
                 "measure_duration": {
-                    "alpha": 0.00384,
-                    "beta": 0.804
+                    "alpha": 0.00192,
+                    "beta": 0.835
                 }
             }
         },

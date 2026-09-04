@@ -48,7 +48,7 @@
     "financials": {
         "meta": {
             "name": "PI첨단소재",
-            "updated": "2026-09-03 21:46",
+            "updated": "2026-09-04 12:56",
             "code": "178920",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -76,30 +76,30 @@
                 "4qtrs": 0.195
             },
             "PER": {
-                "PER_ltm": 11.4,
-                "PER_qx4": 9.86,
-                "PER_fwd": 8.99
+                "PER_ltm": 11.3,
+                "PER_qx4": 9.85,
+                "PER_fwd": 8.98
             },
             "volatility": {
-                "measure_to_base": 1.02,
-                "slope": -0.000239
+                "measure_to_base": 1.01,
+                "slope": -0.000248
             },
             "amount": {
-                "measure_to_base": 0.619,
-                "slope": -0.0998
+                "measure_to_base": 0.576,
+                "slope": -0.103
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000184,
+                    "alpha": 0.000181,
                     "beta": 0.888
                 },
                 "base_duration": {
-                    "alpha": -0.000337,
-                    "beta": 0.529
+                    "alpha": -0.000329,
+                    "beta": 0.528
                 },
                 "measure_duration": {
-                    "alpha": 0.000502,
-                    "beta": 0.125
+                    "alpha": -0.00103,
+                    "beta": 0.141
                 }
             }
         },
@@ -109,7 +109,7 @@
             "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "Dn",
-            "alpha_level": "outperform",
+            "alpha_level": "underperform",
             "market_sentiment": "unchanged",
             "category": "D"
         }

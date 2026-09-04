@@ -45,7 +45,7 @@
     "financials": {
         "meta": {
             "name": "덕산네오룩스",
-            "updated": "2026-09-03 21:46",
+            "updated": "2026-09-04 12:56",
             "code": "213420",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -73,30 +73,30 @@
                 "4qtrs": 0.198
             },
             "PER": {
-                "PER_ltm": 9.99,
-                "PER_qx4": 10.4,
-                "PER_fwd": 9.25
+                "PER_ltm": 10.1,
+                "PER_qx4": 10.5,
+                "PER_fwd": 9.32
             },
             "volatility": {
-                "measure_to_base": 1.08,
-                "slope": -6.46e-05
+                "measure_to_base": 1.06,
+                "slope": -6.32e-05
             },
             "amount": {
-                "measure_to_base": 1.58,
-                "slope": -0.11
+                "measure_to_base": 1.6,
+                "slope": -0.114
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000352,
+                    "alpha": 0.000351,
                     "beta": 0.879
                 },
                 "base_duration": {
-                    "alpha": -0.00227,
-                    "beta": 0.457
+                    "alpha": -0.00291,
+                    "beta": 0.465
                 },
                 "measure_duration": {
-                    "alpha": -0.00491,
-                    "beta": 0.259
+                    "alpha": -0.00391,
+                    "beta": 0.257
                 }
             }
         },

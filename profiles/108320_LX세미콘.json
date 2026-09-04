@@ -45,7 +45,7 @@
     "financials": {
         "meta": {
             "name": "LX세미콘",
-            "updated": "2026-09-03 21:46",
+            "updated": "2026-09-04 12:56",
             "code": "108320",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -73,30 +73,30 @@
                 "4qtrs": 0.0557
             },
             "PER": {
-                "PER_ltm": 6.68,
-                "PER_qx4": 7.03,
-                "PER_fwd": 11.8
+                "PER_ltm": 6.72,
+                "PER_qx4": 7.07,
+                "PER_fwd": 11.9
             },
             "volatility": {
-                "measure_to_base": 1.01,
-                "slope": 0.000108
+                "measure_to_base": 0.986,
+                "slope": 0.000109
             },
             "amount": {
-                "measure_to_base": 0.807,
-                "slope": -0.0303
+                "measure_to_base": 0.831,
+                "slope": -0.0334
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000124,
+                    "alpha": -0.000125,
                     "beta": 0.859
                 },
                 "base_duration": {
-                    "alpha": -0.00348,
-                    "beta": 0.516
+                    "alpha": -0.00352,
+                    "beta": 0.517
                 },
                 "measure_duration": {
-                    "alpha": -0.000607,
-                    "beta": 0.579
+                    "alpha": -0.00117,
+                    "beta": 0.588
                 }
             }
         },

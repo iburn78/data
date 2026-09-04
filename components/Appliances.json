@@ -14,7 +14,7 @@
     "financials": {
         "meta": {
             "name": "Appliances",
-            "updated": "2026-09-03 21:45",
+            "updated": "2026-09-04 12:56",
             "code": [
                 "005930",
                 "066570"
@@ -45,30 +45,30 @@
                 "4qtrs": 0.392
             },
             "PER": {
-                "PER_ltm": 5.72,
-                "PER_qx4": 4.1,
-                "PER_fwd": 3.34
+                "PER_ltm": 5.8,
+                "PER_qx4": 4.15,
+                "PER_fwd": 3.38
             },
             "volatility": {
-                "measure_to_base": 1.09,
-                "slope": 0.000235
+                "measure_to_base": 1.07,
+                "slope": 0.000229
             },
             "amount": {
-                "measure_to_base": 0.673,
-                "slope": 14.0
+                "measure_to_base": 0.663,
+                "slope": 9.5
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000418,
+                    "alpha": 0.000419,
                     "beta": 1.18
                 },
                 "base_duration": {
-                    "alpha": 0.00124,
+                    "alpha": 0.00129,
                     "beta": 1.22
                 },
                 "measure_duration": {
-                    "alpha": 0.00123,
-                    "beta": 1.51
+                    "alpha": 0.000576,
+                    "beta": 1.52
                 }
             }
         },
@@ -77,7 +77,7 @@
             "financially_sound": true,
             "PER_level": "Low",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Dn",
             "alpha_level": "outperform",
             "market_sentiment": "unchanged",
             "category": "A"

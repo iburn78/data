@@ -18,7 +18,7 @@
     "financials": {
         "meta": {
             "name": "Folderable",
-            "updated": "2026-09-03 21:46",
+            "updated": "2026-09-04 12:56",
             "code": [
                 "060720",
                 "148150",
@@ -50,30 +50,30 @@
                 "4qtrs": -0.0106
             },
             "PER": {
-                "PER_ltm": -109.0,
-                "PER_qx4": -72.6,
-                "PER_fwd": -26.2
+                "PER_ltm": -111.0,
+                "PER_qx4": -73.8,
+                "PER_fwd": -26.6
             },
             "volatility": {
-                "measure_to_base": 1.07,
-                "slope": 8.35e-05
+                "measure_to_base": 1.05,
+                "slope": 9.04e-05
             },
             "amount": {
-                "measure_to_base": 1.43,
-                "slope": -0.0505
+                "measure_to_base": 1.44,
+                "slope": -0.0464
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000761,
+                    "alpha": -0.00075,
                     "beta": 0.794
                 },
                 "base_duration": {
-                    "alpha": -0.00207,
-                    "beta": 0.602
+                    "alpha": -0.00248,
+                    "beta": 0.608
                 },
                 "measure_duration": {
-                    "alpha": 0.00392,
-                    "beta": 0.681
+                    "alpha": 0.00302,
+                    "beta": 0.7
                 }
             }
         },

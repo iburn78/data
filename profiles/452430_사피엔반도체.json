@@ -44,7 +44,7 @@
     "financials": {
         "meta": {
             "name": "사피엔반도체",
-            "updated": "2026-09-03 21:45",
+            "updated": "2026-09-04 12:56",
             "code": "452430",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -72,30 +72,30 @@
                 "4qtrs": 0.0242
             },
             "PER": {
-                "PER_ltm": 344.0,
-                "PER_qx4": 204.0,
-                "PER_fwd": 68.9
+                "PER_ltm": 372.0,
+                "PER_qx4": 221.0,
+                "PER_fwd": 74.4
             },
             "volatility": {
-                "measure_to_base": 1.13,
-                "slope": 0.000109
+                "measure_to_base": 1.11,
+                "slope": 9.95e-05
             },
             "amount": {
-                "measure_to_base": 0.657,
-                "slope": -0.0325
+                "measure_to_base": 0.699,
+                "slope": -0.033
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00103,
-                    "beta": 0.961
+                    "alpha": -0.000914,
+                    "beta": 0.962
                 },
                 "base_duration": {
-                    "alpha": -0.000892,
-                    "beta": 0.774
+                    "alpha": -0.00023,
+                    "beta": 0.776
                 },
                 "measure_duration": {
-                    "alpha": 0.00484,
-                    "beta": 0.175
+                    "alpha": 0.0113,
+                    "beta": 0.172
                 }
             }
         },
@@ -104,7 +104,7 @@
             "financially_sound": true,
             "PER_level": "High",
             "volatility_movement": "-",
-            "amount_movement": "Dn",
+            "amount_movement": "-",
             "alpha_level": "outperform",
             "market_sentiment": "unchanged",
             "category": "C"

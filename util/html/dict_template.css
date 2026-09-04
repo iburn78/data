@@ -326,9 +326,22 @@ a {
     text-decoration: underline;
 }
 
-/* ─────────────────────────────
-   Common
-   ───────────────────────────── */
+.qp-link {
+    margin-left: auto;
+    padding:5px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: rgb(161, 161, 161);
+    display: flex;
+    align-items: center;
+}
+
+.qp-link:hover {
+    background: #666;
+    color: white;
+}
+
 footer {
     margin-top: 10px;
     padding: 10px 0 15px;

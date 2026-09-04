@@ -44,7 +44,7 @@
     "financials": {
         "meta": {
             "name": "이녹스첨단소재",
-            "updated": "2026-09-03 21:46",
+            "updated": "2026-09-04 12:56",
             "code": "272290",
             "unit": 1000000000.0,
             "start_date": "2024-01-01"
@@ -72,30 +72,30 @@
                 "4qtrs": 0.163
             },
             "PER": {
-                "PER_ltm": 6.39,
-                "PER_qx4": 5.99,
-                "PER_fwd": 6.64
+                "PER_ltm": 6.36,
+                "PER_qx4": 5.96,
+                "PER_fwd": 6.6
             },
             "volatility": {
-                "measure_to_base": 1.01,
-                "slope": -6.66e-05
+                "measure_to_base": 0.984,
+                "slope": -6.64e-05
             },
             "amount": {
-                "measure_to_base": 0.929,
-                "slope": -0.083
+                "measure_to_base": 0.974,
+                "slope": -0.0849
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000285,
-                    "beta": 0.967
+                    "alpha": -0.000291,
+                    "beta": 0.966
                 },
                 "base_duration": {
-                    "alpha": -0.00457,
-                    "beta": 0.622
+                    "alpha": -0.00478,
+                    "beta": 0.624
                 },
                 "measure_duration": {
-                    "alpha": -0.00145,
-                    "beta": 0.27
+                    "alpha": -0.00232,
+                    "beta": 0.275
                 }
             }
         },
