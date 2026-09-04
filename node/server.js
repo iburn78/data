@@ -2,6 +2,9 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 
+const { components, valuechains } = require("./data");
+const { getComponents, getValuechains } = require("./lookup");
+
 const app = express();
 
 const ROOT = path.join(__dirname, "..");
@@ -28,6 +31,41 @@ app.get("/api/:section", (req, res) => {
     res.json(files);
 });
 
-app.listen(3000, () => {
+// Profile → Components → Valuechains
+app.get("/api/profile/:code", (req, res) => {
+    const code = req.params.code;
+
+    const profileComponents = getComponents(
+        code,
+        components
+    );
+
+    const profileValuechains = [
+        ...new Set(
+            profileComponents.flatMap(component =>
+                getValuechains(component, valuechains)
+            )
+        )
+    ];
+
+    res.json({
+        components: profileComponents,
+        valuechains: profileValuechains,
+    });
+});
+
+app.get("/api/component/:name", (req, res) => {
+    const name = req.params.name;
+
+    const componentValuechains = getValuechains(name, valuechains);
+
+    res.json(componentValuechains);
+});
+
+const server = app.listen(3000, () => {
     console.log("http://localhost:3000");
+});
+
+server.on("error", error => {
+    console.error("Server error:", error);
 });

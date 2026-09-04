@@ -176,7 +176,7 @@ a {
     border-radius: 5px;
     background: white;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .table-controls button:hover {
@@ -342,6 +342,43 @@ a {
     color: white;
 }
 
+.relations-section {
+    font-size: 14px;
+    margin: 15px 0px;
+    padding: 0;
+}
+
+.relations-section hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2px 0;
+}
+
+.relation-row {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 0;
+}
+
+.relation-label {
+    min-width: 100px;
+    font-weight: 600;
+    color: #555;
+}
+
+.relation-row a {
+    color: #555;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.relation-row a:hover {
+    background: #eee;
+    color: #222;
+}
+
 footer {
     margin-top: 10px;
     padding: 10px 0 15px;
@@ -351,7 +388,7 @@ footer {
 
 .footer-title {
     font-family: "Avenir Next", "Helvetica Neue", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
