@@ -1,6 +1,6 @@
 {
     "name": "Memory",
-    "updated": "2026-08-31",
+    "updated": "2026-09-05",
     "companies": [
         {
             "name": "SK하이닉스",
@@ -14,7 +14,7 @@
     "financials": {
         "meta": {
             "name": "Memory",
-            "updated": "2026-09-03 19:15",
+            "updated": "2026-09-05 14:17",
             "code": [
                 "000660",
                 "005930"
@@ -45,30 +45,30 @@
                 "4qtrs": 0.51
             },
             "PER": {
-                "PER_ltm": 6.77,
-                "PER_qx4": 5.17,
-                "PER_fwd": 4.18
+                "PER_ltm": 6.95,
+                "PER_qx4": 5.3,
+                "PER_fwd": 4.29
             },
             "volatility": {
-                "measure_to_base": 1.11,
-                "slope": 0.000266
+                "measure_to_base": 1.08,
+                "slope": 0.000259
             },
             "amount": {
-                "measure_to_base": 0.612,
-                "slope": 60.8
+                "measure_to_base": 0.608,
+                "slope": 53.5
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000567,
+                    "alpha": 0.000569,
                     "beta": 1.26
                 },
                 "base_duration": {
-                    "alpha": 0.00199,
+                    "alpha": 0.00203,
                     "beta": 1.34
                 },
                 "measure_duration": {
-                    "alpha": 0.000646,
-                    "beta": 1.57
+                    "alpha": 0.00131,
+                    "beta": 1.56
                 }
             }
         },

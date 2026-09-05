@@ -1,81 +1,10 @@
 {
     "name": "Smart_glass",
-    "updated": "2026-08-31",
+    "updated": "2026-09-05",
     "companies": [
         {
             "name": "사피엔반도체",
             "code": "452430"
         }
-    ],
-    "financials": {
-        "meta": {
-            "name": "Smart_glass",
-            "updated": "2026-09-04 15:37",
-            "code": [
-                "452430"
-            ],
-            "unit": 1000000000.0,
-            "start_date": "2024-01-01"
-        },
-        "shape": {
-            "financials": {
-                "revenue_4qtrs": 30.6,
-                "opincome_4qtrs": 0.741,
-                "revenue_qtr": 7.21,
-                "opincome_qtr": 0.312
-            }
-        },
-        "assess_data": {
-            "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 0.245,
-                "growth_per_qtr": 1.32
-            },
-            "opmargin": {
-                "25_4Q": 0.00175,
-                "26_1Q": 0.0142,
-                "26_2Q": 0.0432,
-                "26_3Q": 0.0432,
-                "4qtrs": 0.0242
-            },
-            "PER": {
-                "PER_ltm": 372.0,
-                "PER_qx4": 221.0,
-                "PER_fwd": 74.4
-            },
-            "volatility": {
-                "measure_to_base": 1.11,
-                "slope": 9.95e-05
-            },
-            "amount": {
-                "measure_to_base": 0.699,
-                "slope": -0.033
-            },
-            "alpha_beta": {
-                "from_start_date": {
-                    "alpha": -0.000914,
-                    "beta": 0.962
-                },
-                "base_duration": {
-                    "alpha": -0.00023,
-                    "beta": 0.776
-                },
-                "measure_duration": {
-                    "alpha": 0.0113,
-                    "beta": 0.172
-                }
-            }
-        },
-        "assess_result": {
-            "basics": true,
-            "financially_sound": true,
-            "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "outperform",
-            "market_sentiment": "unchanged",
-            "category": "C"
-        }
-    }
+    ]
 }

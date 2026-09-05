@@ -1,6 +1,6 @@
 {
     "name": "Camera_module",
-    "updated": "2026-08-31",
+    "updated": "2026-09-05",
     "companies": [
         {
             "name": "LG이노텍",
@@ -18,79 +18,5 @@
             "name": "세코닉스",
             "code": "053450"
         }
-    ],
-    "financials": {
-        "meta": {
-            "name": "Camera_module",
-            "updated": "2026-09-04 15:37",
-            "code": [
-                "011070",
-                "009150",
-                "097520",
-                "053450"
-            ],
-            "unit": 1000000000.0,
-            "start_date": "2024-01-01"
-        },
-        "shape": {
-            "financials": {
-                "revenue_4qtrs": 38400.0,
-                "opincome_4qtrs": 2330.0,
-                "revenue_qtr": 9150.0,
-                "opincome_qtr": 588.0
-            }
-        },
-        "assess_data": {
-            "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 28.2,
-                "growth_per_qtr": 0.0483
-            },
-            "opmargin": {
-                "25_4Q": 0.0521,
-                "26_1Q": 0.0643,
-                "26_2Q": 0.0643,
-                "26_3Q": 0.0643,
-                "4qtrs": 0.0608
-            },
-            "PER": {
-                "PER_ltm": 49.7,
-                "PER_qx4": 49.2,
-                "PER_fwd": 44.0
-            },
-            "volatility": {
-                "measure_to_base": 1.01,
-                "slope": 0.000377
-            },
-            "amount": {
-                "measure_to_base": 0.578,
-                "slope": 7.71
-            },
-            "alpha_beta": {
-                "from_start_date": {
-                    "alpha": 0.000697,
-                    "beta": 1.21
-                },
-                "base_duration": {
-                    "alpha": 0.0093,
-                    "beta": 1.19
-                },
-                "measure_duration": {
-                    "alpha": 0.00144,
-                    "beta": 0.792
-                }
-            }
-        },
-        "assess_result": {
-            "basics": true,
-            "financially_sound": false,
-            "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Dn",
-            "alpha_level": "outperform",
-            "market_sentiment": "unchanged",
-            "category": "D"
-        }
-    }
+    ]
 }

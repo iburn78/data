@@ -1,6 +1,6 @@
 {
     "name": "MLCC",
-    "updated": "2026-08-31",
+    "updated": "2026-09-05",
     "companies": [
         {
             "name": "삼성전기",
@@ -10,77 +10,5 @@
             "name": "삼화콘덴서",
             "code": "001820"
         }
-    ],
-    "financials": {
-        "meta": {
-            "name": "MLCC",
-            "updated": "2026-09-04 15:37",
-            "code": [
-                "009150",
-                "001820"
-            ],
-            "unit": 1000000000.0,
-            "start_date": "2024-01-01"
-        },
-        "shape": {
-            "financials": {
-                "revenue_4qtrs": 12800.0,
-                "opincome_4qtrs": 1100.0,
-                "revenue_qtr": 3280.0,
-                "opincome_qtr": 285.0
-            }
-        },
-        "assess_data": {
-            "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 11.3,
-                "growth_per_qtr": 0.0413
-            },
-            "opmargin": {
-                "25_4Q": 0.0805,
-                "26_1Q": 0.0869,
-                "26_2Q": 0.0869,
-                "26_3Q": 0.0869,
-                "4qtrs": 0.0854
-            },
-            "PER": {
-                "PER_ltm": 94.5,
-                "PER_qx4": 90.7,
-                "PER_fwd": 82.6
-            },
-            "volatility": {
-                "measure_to_base": 1.01,
-                "slope": 0.000381
-            },
-            "amount": {
-                "measure_to_base": 0.599,
-                "slope": 7.82
-            },
-            "alpha_beta": {
-                "from_start_date": {
-                    "alpha": 0.000872,
-                    "beta": 1.23
-                },
-                "base_duration": {
-                    "alpha": 0.00997,
-                    "beta": 1.22
-                },
-                "measure_duration": {
-                    "alpha": 0.00192,
-                    "beta": 0.835
-                }
-            }
-        },
-        "assess_result": {
-            "basics": true,
-            "financially_sound": false,
-            "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Dn",
-            "alpha_level": "outperform",
-            "market_sentiment": "unchanged",
-            "category": "D"
-        }
-    }
+    ]
 }

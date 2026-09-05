@@ -15,7 +15,6 @@ kospi200_path = MARKET_DIR / 'kospi200.feather'
 prices_path = MARKET_DIR / 'price_db.feather'
 volumes_path = MARKET_DIR / 'volume_db.feather'
 
-
 def get_df_krx():
     return pd.read_feather(df_krx_path)
 

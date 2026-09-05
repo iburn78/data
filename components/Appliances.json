@@ -1,6 +1,6 @@
 {
     "name": "Appliances",
-    "updated": "2026-08-31",
+    "updated": "2026-09-05",
     "companies": [
         {
             "name": "삼성전자",
@@ -10,77 +10,5 @@
             "name": "LG전자",
             "code": "066570"
         }
-    ],
-    "financials": {
-        "meta": {
-            "name": "Appliances",
-            "updated": "2026-09-04 15:37",
-            "code": [
-                "005930",
-                "066570"
-            ],
-            "unit": 1000000000.0,
-            "start_date": "2024-01-01"
-        },
-        "shape": {
-            "financials": {
-                "revenue_4qtrs": 666000.0,
-                "opincome_4qtrs": 261000.0,
-                "revenue_qtr": 195000.0,
-                "opincome_qtr": 91200.0
-            }
-        },
-        "assess_data": {
-            "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 8300.0,
-                "growth_per_qtr": 0.127
-            },
-            "opmargin": {
-                "25_4Q": 0.17,
-                "26_1Q": 0.374,
-                "26_2Q": 0.467,
-                "26_3Q": 0.467,
-                "4qtrs": 0.392
-            },
-            "PER": {
-                "PER_ltm": 5.8,
-                "PER_qx4": 4.15,
-                "PER_fwd": 3.38
-            },
-            "volatility": {
-                "measure_to_base": 1.07,
-                "slope": 0.000229
-            },
-            "amount": {
-                "measure_to_base": 0.663,
-                "slope": 9.5
-            },
-            "alpha_beta": {
-                "from_start_date": {
-                    "alpha": 0.000419,
-                    "beta": 1.18
-                },
-                "base_duration": {
-                    "alpha": 0.00129,
-                    "beta": 1.22
-                },
-                "measure_duration": {
-                    "alpha": 0.000576,
-                    "beta": 1.52
-                }
-            }
-        },
-        "assess_result": {
-            "basics": true,
-            "financially_sound": true,
-            "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "Dn",
-            "alpha_level": "outperform",
-            "market_sentiment": "unchanged",
-            "category": "A"
-        }
-    }
+    ]
 }

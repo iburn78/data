@@ -64,9 +64,10 @@ function renderSection() {
     }
 }
 
-
+let searchRequest = 0;
 async function showMainSearch() {
-    const search = document.getElementById("search").value.trim().toLowerCase();
+    const request = ++searchRequest;
+    const search = document.getElementById("search").value.trim().toLowerCase().normalize("NFC");
     const list = document.getElementById("file-list");
 
     list.replaceChildren();
@@ -77,9 +78,12 @@ async function showMainSearch() {
 
     for (const [section, title] of Object.entries(sections)) {
         const items = await getItems(section);
-
+        // A newer search has started
+        if (request !== searchRequest) {
+            return;
+        }
         const matches = items.filter(item =>
-            item.text.toLowerCase().includes(search)
+            item.text.toLowerCase().normalize("NFC").includes(search)
         );
 
         if (matches.length === 0) {
@@ -102,7 +106,6 @@ async function showMainSearch() {
         }
     }
 }
-
 
 // Navigation
 document.querySelectorAll(".nav-link").forEach(link => {

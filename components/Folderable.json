@@ -1,6 +1,6 @@
 {
     "name": "Folderable",
-    "updated": "2026-08-31",
+    "updated": "2026-09-05",
     "companies": [
         {
             "name": "KH바텍",
@@ -14,78 +14,5 @@
             "name": "파인엠텍",
             "code": "441270"
         }
-    ],
-    "financials": {
-        "meta": {
-            "name": "Folderable",
-            "updated": "2026-09-04 15:37",
-            "code": [
-                "060720",
-                "148150",
-                "441270"
-            ],
-            "unit": 1000000000.0,
-            "start_date": "2024-01-01"
-        },
-        "shape": {
-            "financials": {
-                "revenue_4qtrs": 677.0,
-                "opincome_4qtrs": -7.15,
-                "revenue_qtr": 162.0,
-                "opincome_qtr": -2.69
-            }
-        },
-        "assess_data": {
-            "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": -1.9,
-                "growth_per_qtr": 1.07
-            },
-            "opmargin": {
-                "25_4Q": 0.0048,
-                "26_1Q": -0.0166,
-                "26_2Q": -0.0166,
-                "26_3Q": -0.0166,
-                "4qtrs": -0.0106
-            },
-            "PER": {
-                "PER_ltm": -111.0,
-                "PER_qx4": -73.8,
-                "PER_fwd": -26.6
-            },
-            "volatility": {
-                "measure_to_base": 1.05,
-                "slope": 9.04e-05
-            },
-            "amount": {
-                "measure_to_base": 1.44,
-                "slope": -0.0464
-            },
-            "alpha_beta": {
-                "from_start_date": {
-                    "alpha": -0.00075,
-                    "beta": 0.794
-                },
-                "base_duration": {
-                    "alpha": -0.00248,
-                    "beta": 0.608
-                },
-                "measure_duration": {
-                    "alpha": 0.00302,
-                    "beta": 0.7
-                }
-            }
-        },
-        "assess_result": {
-            "basics": false,
-            "financially_sound": true,
-            "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
-            "alpha_level": "outperform",
-            "market_sentiment": "unchanged",
-            "category": "D"
-        }
-    }
+    ]
 }

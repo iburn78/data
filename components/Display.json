@@ -1,6 +1,6 @@
 {
     "name": "Display",
-    "updated": "2026-08-31",
+    "updated": "2026-09-05",
     "companies": [
         {
             "name": "덕산네오룩스",
@@ -22,80 +22,5 @@
             "name": "LX세미콘",
             "code": "108320"
         }
-    ],
-    "financials": {
-        "meta": {
-            "name": "Display",
-            "updated": "2026-09-04 15:37",
-            "code": [
-                "213420",
-                "272290",
-                "239890",
-                "178920",
-                "108320"
-            ],
-            "unit": 1000000000.0,
-            "start_date": "2024-01-01"
-        },
-        "shape": {
-            "financials": {
-                "revenue_4qtrs": 2610.0,
-                "opincome_4qtrs": 280.0,
-                "revenue_qtr": 649.0,
-                "opincome_qtr": 71.0
-            }
-        },
-        "assess_data": {
-            "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": -2.5,
-                "growth_per_qtr": -0.0357
-            },
-            "opmargin": {
-                "25_4Q": 0.0997,
-                "26_1Q": 0.111,
-                "26_2Q": 0.109,
-                "26_3Q": 0.109,
-                "4qtrs": 0.107
-            },
-            "PER": {
-                "PER_ltm": 8.4,
-                "PER_qx4": 8.27,
-                "PER_fwd": 9.07
-            },
-            "volatility": {
-                "measure_to_base": 0.996,
-                "slope": 3.75e-05
-            },
-            "amount": {
-                "measure_to_base": 1.31,
-                "slope": -0.341
-            },
-            "alpha_beta": {
-                "from_start_date": {
-                    "alpha": -0.000277,
-                    "beta": 0.864
-                },
-                "base_duration": {
-                    "alpha": -0.00319,
-                    "beta": 0.519
-                },
-                "measure_duration": {
-                    "alpha": -0.00238,
-                    "beta": 0.318
-                }
-            }
-        },
-        "assess_result": {
-            "basics": false,
-            "financially_sound": false,
-            "PER_level": "Mid",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "underperform",
-            "market_sentiment": "unchanged",
-            "category": "D"
-        }
-    }
+    ]
 }
