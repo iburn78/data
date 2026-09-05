@@ -6,7 +6,7 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..");
 
 function loadJsonDir(name) {
-    const dir = path.join(ROOT, name);
+    const dir = path.join(ROOT, "build", name);
 
     return fs.readdirSync(dir)
         .filter(file => file.endsWith(".json"))

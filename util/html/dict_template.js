@@ -159,7 +159,7 @@ function renderRelations(content, title, items, path) {
     for (const item of items) {
         const link = document.createElement("a");
 
-        link.href = `/${path}/${item}.html`;
+        link.href = `/build/${path}/${item}.html`;
         link.textContent = item;
 
         row.appendChild(link);

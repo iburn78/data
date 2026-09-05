@@ -57,7 +57,7 @@ function renderSection() {
 
         const link = document.createElement("a");
 
-        link.href = `/${currentSection}/${item.file}`;
+        link.href = `/build/${currentSection}/${item.file}`;
         link.textContent = item.text;
 
         list.appendChild(link);
@@ -99,7 +99,7 @@ async function showMainSearch() {
         for (const item of matches) {
             const link = document.createElement("a");
 
-            link.href = `/${section}/${item.file}`;
+            link.href = `/build/${section}/${item.file}`;
             link.textContent = item.text;
 
             list.appendChild(link);

@@ -12,9 +12,9 @@ const ROOT = path.join(__dirname, "..");
 app.use(express.static(ROOT));
 
 const DIRS = {
-    profiles: path.join(ROOT, "profiles"),
-    components: path.join(ROOT, "components"),
-    valuechains: path.join(ROOT, "valuechains"),
+    profiles: path.join(ROOT, "build", "profiles"),
+    components: path.join(ROOT, "build", "components"),
+    valuechains: path.join(ROOT, "build", "valuechains"),
 };
 
 app.get("/api/:section", (req, res) => {
