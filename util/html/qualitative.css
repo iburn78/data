@@ -1,0 +1,101 @@
+.qualitative-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.qualitative-header h4 {
+    margin: 0;
+}
+
+.qualitative-actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.edit-password {
+    width: 55px;
+    height: 26px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.edit-button,
+.cancel-button,
+.accept-button {
+    height: 26px;
+    padding: 2px 9px;
+    cursor: pointer;
+}
+
+.reviewed-badge {
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+.reviewed-badge.reviewed,
+.reviewed-status.reviewed {
+    background: #dff0df;
+    color: #267326;
+}
+
+.reviewed-badge.not-reviewed,
+.reviewed-status.not-reviewed {
+    background: #eeeeee;
+    color: #777;
+}
+
+.reviewed-row {
+    display: none;
+}
+
+.info-edit {
+    width: 100%;
+}
+
+.edit-row {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+
+.edit-label {
+    width: 150px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.edit-value {
+    flex: 1;
+}
+
+.edit-value input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.edit-list-item {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 4px;
+}
+
+.edit-list-item input {
+    flex: 1;
+}
+
+.add-item-button {
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.edit-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    margin-top: 10px;
+}
