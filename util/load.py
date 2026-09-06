@@ -15,6 +15,8 @@ kospi200_path = MARKET_DIR / 'kospi200.feather'
 prices_path = MARKET_DIR / 'price_db.feather'
 volumes_path = MARKET_DIR / 'volume_db.feather'
 
+df_krx = pd.read_feather(df_krx_path)
+
 def get_df_krx():
     return pd.read_feather(df_krx_path)
 
@@ -39,3 +41,19 @@ def get_prices():
 def get_volumes():
     return pd.read_feather(volumes_path)
 
+def get_name(code): 
+    return str(df_krx.loc[code,'Name'])
+
+# also returns exact name too
+def get_code_from_name(name: str):
+    # Exact match
+    exact = df_krx[df_krx["Name"].eq(name)]
+    if len(exact) == 1:
+        return exact.index[0], name
+
+    # Partial match
+    filtered = df_krx[df_krx["Name"].str.contains(name, na=False)]
+    if len(filtered) == 1:
+        return filtered.index[0], filtered['Name'].iat[0] 
+
+    return None, None

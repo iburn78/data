@@ -19,6 +19,7 @@ const DIRS = {
 
 app.get("/api/:section", (req, res) => {
     const dir = DIRS[req.params.section];
+    console.log(dir)
 
     if (!dir) {
         return res.status(404).json({ error: "Unknown section" });
@@ -63,7 +64,7 @@ app.get("/api/component/:name", (req, res) => {
 });
 
 const server = app.listen(3000, () => {
-    console.log("http://localhost:3000");
+    console.log("http://localhost:3000 running...");
 });
 
 server.on("error", error => {

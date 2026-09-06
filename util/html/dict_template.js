@@ -94,13 +94,13 @@ async function loadRelationships() {
 
     const parts = location.pathname.split("/").filter(Boolean);
 
-    if (parts.length < 2) {
+    if (parts.length < 3) {
         section.style.display = "none";
         return;
     }
 
-    const type = parts[0];
-    const filename = decodeURIComponent(parts[1]);
+    const type = parts[1];
+    const filename = decodeURIComponent(parts[2]);
 
     try {
         let result;
@@ -115,11 +115,10 @@ async function loadRelationships() {
             }
 
             result = await response.json();
-
             renderProfileRelations(result, content);
 
         } else if (type === "components") {
-            const component = filename.replace(".html", "");
+            const component = filename.replace(/\.html$/, "");
 
             const response = await fetch(
                 `/api/component/${encodeURIComponent(component)}`
@@ -130,7 +129,6 @@ async function loadRelationships() {
             }
 
             result = await response.json();
-
             renderComponentRelations(result, content);
 
         } else {

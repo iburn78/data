@@ -1,5 +1,6 @@
 import platform
 import matplotlib.pyplot as plt
+import json
 
 def set_KoreanFonts():
     os_ = platform.system()
@@ -12,3 +13,7 @@ def set_KoreanFonts():
     else:
         raise Exception(f"Unsupported OS: {os_}")
     return None
+
+def dprint(d: dict):
+    if isinstance(d, dict):
+        print(json.dumps(d, indent=4, ensure_ascii=False))
