@@ -91,7 +91,7 @@ async function loadRelationships() {
         section.style.display = "none";
         return;
     }
-
+    // path structure dependent 
     const parts = location.pathname.split("/").filter(Boolean);
 
     if (parts.length < 3) {
