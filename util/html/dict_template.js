@@ -75,8 +75,13 @@ updateVisibility();
 
 // news pop-up
 function openPopup(url) {
+    const parts = url.split("/");
+
+    // Encode each path component, preserving /
+    const encodedUrl = parts.map(encodeURIComponent).join("/");
+
     window.open(
-        url,
+        encodedUrl,
         "_blank",
         "width=1200,height=800,scrollbars=yes,resizable=yes"
     );
