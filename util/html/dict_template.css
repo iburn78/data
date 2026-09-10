@@ -326,8 +326,12 @@ a {
     text-decoration: underline;
 }
 
-.qp-link {
+.ext-links {
     margin-left: auto;
+    display: flex;
+}
+
+.ext-link {
     padding:5px;
     text-decoration: none;
     font-size: 14px;
@@ -337,7 +341,7 @@ a {
     align-items: center;
 }
 
-.qp-link:hover {
+.ext-link:hover {
     background: #666;
     color: white;
 }

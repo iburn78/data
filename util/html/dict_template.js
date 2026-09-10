@@ -73,18 +73,31 @@ document.querySelectorAll(".dict-table .section-row")
 // Initial state
 updateVisibility();
 
-// news pop-up
-function openPopup(url) {
-    const parts = url.split("/");
+// news and images pop-up
+function openPopup(url, fullWindow = false) {
+    let targetUrl;
 
-    // Encode each path component, preserving /
-    const encodedUrl = parts.map(encodeURIComponent).join("/");
+    if (/^https?:\/\//i.test(url)) {
+        const parsed = new URL(url);
 
-    window.open(
-        encodedUrl,
-        "_blank",
-        "width=1200,height=800,scrollbars=yes,resizable=yes"
-    );
+        parsed.pathname = parsed.pathname
+            .split("/")
+            .map(encodeURIComponent)
+            .join("/");
+
+        targetUrl = parsed.href;
+    } else {
+        targetUrl = url
+            .split("/")
+            .map(encodeURIComponent)
+            .join("/");
+    }
+
+    const features = fullWindow
+    ? `width=${screen.availWidth},height=${screen.availHeight},left=0,top=0,scrollbars=yes,resizable=yes`
+    : "width=1200,height=800,scrollbars=yes,resizable=yes";
+
+    window.open(targetUrl, "_blank", features);
 }
 
 async function loadRelationships() {
