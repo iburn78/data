@@ -51,7 +51,7 @@ function renderSection() {
     list.replaceChildren();
 
     for (const item of currentItems) {
-        if (!item.text.toLowerCase().includes(search)) {
+        if (!item.text.toLowerCase().normalize("NFC").includes(search)) {
             continue;
         }
 
@@ -63,6 +63,7 @@ function renderSection() {
         list.appendChild(link);
     }
 }
+
 
 let searchRequest = 0;
 async function showMainSearch() {
@@ -165,6 +166,11 @@ document.addEventListener("keydown", event => {
     }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    if (new URLSearchParams(location.search).get("focus") === "search") {
+        document.getElementById("search").focus();
+    }
+});
 
 // Initial page
 const section = location.hash.slice(1);

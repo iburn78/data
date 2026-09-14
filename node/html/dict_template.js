@@ -203,5 +203,16 @@ function renderComponentRelations(valuechains, content) {
     renderRelations(content, "Valuechains", valuechains, "valuechains");
 }
 
+// "/" → go to main page and focus search
+document.addEventListener("keydown", event => {
+    if (
+        event.key === "/" &&
+        document.activeElement.tagName !== "INPUT" &&
+        document.activeElement.tagName !== "TEXTAREA"
+    ) {
+        event.preventDefault();
+        window.location.href = "/?focus=search";
+    }
+});
 
 loadRelationships();

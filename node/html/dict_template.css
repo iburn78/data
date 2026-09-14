@@ -160,6 +160,51 @@ a {
     color: #dc2626;
 }
 
+.value {
+    position: relative;
+    min-width: 3em;
+    white-space: nowrap;
+}
+
+.value-bar-container {
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 0;
+    right: 1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    overflow: hidden;
+}
+
+.value-bar {
+    position: absolute;
+    right: 0;
+    width: 3em;
+    background: #d9d9d9;
+}
+
+.value-bar.proportion-bar {
+    background: #9bb7d4;
+}
+
+.value-bar.negative-bar {
+    background: #e3b0b0;
+}
+
+.value {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.value > span {
+    position: relative;
+    z-index: 1;
+}
+
 /* ─────────────────────────────
    Controls
    ───────────────────────────── */
