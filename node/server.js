@@ -15,7 +15,7 @@ const app = express();
 
 app.use(express.json());
 const editTokens = new Map();
-const TOKEN_LIFETIME = 5 * 60 * 1000; // 5 minutes
+const TOKEN_LIFETIME = 30 * 60 * 1000; // 30 minutes
 
 const CONFIG_PATH =
     path.resolve(__dirname, "../../config/data.json");
