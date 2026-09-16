@@ -112,10 +112,6 @@ app.post("/api/update-info", (req, res) => {
     });
 
     python.on("close", code => {
-
-        // to prove python code success/failure
-        // console.log("Python exit code:", code);
-
         if (code !== 0) {
             console.error("Python error:", error);
 
@@ -132,35 +128,6 @@ app.post("/api/update-info", (req, res) => {
                     .status(400)
                     .send(result.error);
             }
-
-            // JSON and HTML are next to each other
-            const htmlPath =
-                result.json_path.replace(/\.json$/, ".html");
-
-            let html =
-                fs.readFileSync(htmlPath, "utf8");
-
-            const startMarker =
-                `<!-- QUALITATIVE:${objectType}:${objectId}:${section} -->`;
-
-            const endMarker =
-                `<!-- /QUALITATIVE:${objectType}:${objectId}:${section} -->`;
-
-            const start = html.indexOf(startMarker);
-            const end = html.indexOf(endMarker);
-
-            if (start === -1 || end === -1) {
-                return res
-                    .status(500)
-                    .send("Qualitative section not found.");
-            }
-
-            html =
-                html.slice(0, start) +
-                result.html +
-                html.slice(end + endMarker.length);
-
-            fs.writeFileSync(htmlPath, html, "utf8");
 
             res.json(result);
 
