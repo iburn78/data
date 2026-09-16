@@ -99,29 +99,25 @@ app.post("/api/update-info", (req, res) => {
         ]
     );
 
-    let output = "";
-    let error = "";
+    let response = "";
 
     python.stdout.on("data", data => {
-        output += data.toString();
+        console.log("Python:", data.toString());
     });
 
     python.stderr.on("data", data => {
-        error += data.toString();
-        console.error("Python:", data.toString());
+        response += data.toString();
     });
 
     python.on("close", code => {
         if (code !== 0) {
-            console.error("Python error:", error);
-
             return res
                 .status(500)
                 .send("Failed to update information.");
         }
 
         try {
-            const result = JSON.parse(output);
+            const result = JSON.parse(response);
 
             if (!result.ok) {
                 return res
@@ -132,14 +128,8 @@ app.post("/api/update-info", (req, res) => {
             res.json(result);
 
         } catch (e) {
-            console.error(
-                "Invalid Python response:",
-                output
-            );
-
-            res
-                .status(500)
-                .send("Invalid response from Python.");
+            console.error("Invalid Python response:", response);
+            res.status(500).send("Invalid response from Python.");
         }
     });
 
