@@ -1,5 +1,3 @@
-// loading all the JSON data once
-
 const fs = require("fs");
 const path = require("path");
 
@@ -16,10 +14,11 @@ function loadJsonDir(name) {
         });
 }
 
-const components = loadJsonDir("components");
-const valuechains = loadJsonDir("valuechains");
+function loadData() {
+    return {
+        components: loadJsonDir("components"),
+        valuechains: loadJsonDir("valuechains"),
+    };
+}
 
-module.exports = {
-    components,
-    valuechains,
-};
+module.exports = { loadData };

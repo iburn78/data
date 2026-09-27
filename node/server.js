@@ -9,7 +9,7 @@ const PYTHON = path.join(
     "../../build/venv/bin/python"
 );
 
-const { components, valuechains } = require("./data");
+const { loadData } = require("./data");
 const { getComponents, getValuechains } = require("./lookup");
 const app = express();
 
@@ -154,6 +154,7 @@ app.get("/api/:section", (req, res) => {
 // Profile → Components → Valuechains
 app.get("/api/profile/:code", (req, res) => {
     const code = req.params.code;
+    const { components, valuechains } = loadData();
 
     const profileComponents = getComponents(
         code,
@@ -176,6 +177,7 @@ app.get("/api/profile/:code", (req, res) => {
 
 app.get("/api/component/:name", (req, res) => {
     const name = req.params.name;
+    const { valuechains } = loadData();
 
     const componentValuechains = getValuechains(name, valuechains);
 
