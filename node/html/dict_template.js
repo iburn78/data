@@ -124,6 +124,23 @@ async function loadRelationships() {
         let result;
 
         if (type === "profiles") {
+            const segmentMatch = filename.match(/^([^_]+\([A-Za-z]\))_/);
+
+            if (segmentMatch) {
+                const key = segmentMatch[1];
+                const response = await fetch(
+                    `/api/segment/${encodeURIComponent(key)}`
+                );
+
+                if (!response.ok) {
+                    throw new Error("API request failed");
+                }
+
+                result = await response.json();
+                renderSegmentRelations(result, content);
+                return;
+            }
+
             const code = filename.split("_")[0];
 
             const response = await fetch(`/api/profile/${code}`);
@@ -192,6 +209,31 @@ function renderProfileRelations(data, content) {
 
     renderRelations(content, "Components", data.components, "components");
     renderRelations(content, "Valuechains", data.valuechains, "valuechains");
+}
+
+function renderSegmentRelations(data, content) {
+    if (!data.profile && !data.components.length) {
+        document.getElementById("relations-section").style.display = "none";
+        return;
+    }
+
+    if (data.profile) {
+        const row = document.createElement("div");
+        row.className = "relation-row";
+
+        const label = document.createElement("span");
+        label.className = "relation-label";
+        label.textContent = "Profile:";
+        row.appendChild(label);
+
+        const link = document.createElement("a");
+        link.href = `/build/profiles/${encodeURIComponent(data.profile.file)}.html`;
+        link.textContent = data.profile.name;
+        row.appendChild(link);
+        content.appendChild(row);
+    }
+
+    renderRelations(content, "Components", data.components, "components");
 }
 
 function renderComponentRelations(valuechains, content) {

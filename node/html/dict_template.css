@@ -295,6 +295,10 @@ a {
     font-size: 15px;
 }
 
+.qualitative-content {
+    font-size: 1.17em;
+}
+
 .qualitative-card p {
     margin: 0;
     line-height: 1.6;
@@ -312,7 +316,7 @@ a {
 .qualitative-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .qualitative-table th,

@@ -21,6 +21,16 @@ function getComponents(code, components) {
         .map(componentName);
 }
 
+function getComponentsForMember(key, components) {
+    return components
+        .filter(component =>
+            (component.members ?? component.companies ?? []).some(member =>
+                (member.key ?? member.code) === key
+            )
+        )
+        .map(componentName);
+}
+
 function getValuechains(name, valuechains) {
     return valuechains
         .filter(valuechain =>
@@ -31,5 +41,6 @@ function getValuechains(name, valuechains) {
 
 module.exports = {
     getComponents,
+    getComponentsForMember,
     getValuechains,
 };

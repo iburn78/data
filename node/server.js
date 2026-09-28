@@ -10,7 +10,7 @@ const PYTHON = path.join(
 );
 
 const { loadData } = require("./data");
-const { getComponents, getValuechains } = require("./lookup");
+const { getComponents, getComponentsForMember, getValuechains } = require("./lookup");
 const app = express();
 
 app.use(express.json());
@@ -172,6 +172,33 @@ app.get("/api/profile/:code", (req, res) => {
     res.json({
         components: profileComponents,
         valuechains: profileValuechains,
+    });
+});
+
+app.get("/api/segment/:key", (req, res) => {
+    const key = req.params.key;
+    const code = key.replace(/\([A-Za-z]\)$/, "");
+    const { components } = loadData();
+
+    let profile = null;
+    for (const file of fs.readdirSync(DIRS.profiles)) {
+        if (!file.endsWith(".json")) continue;
+
+        const data = JSON.parse(
+            fs.readFileSync(path.join(DIRS.profiles, file), "utf8")
+        );
+        if ((data.code ?? data.key) === code) {
+            profile = {
+                name: data.name ?? code,
+                file: file.replace(/\.json$/, ""),
+            };
+            break;
+        }
+    }
+
+    res.json({
+        profile,
+        components: getComponentsForMember(key, components),
     });
 });
 
