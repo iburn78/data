@@ -72,6 +72,12 @@ function createEditor(card, sectionName) {
             return;
         }
 
+        const booleanInput = row.querySelector(".qualitative-checkbox");
+        if (booleanInput) {
+            values[key] = booleanInput.checked;
+            return;
+        }
+
         /*
          * Lists are represented by nested tables.
          */
@@ -151,6 +157,15 @@ function renderEditor(card, values) {
 
             valueDiv.appendChild(checkbox);
             valueDiv.appendChild(text);
+        }
+
+        /* Boolean fields such as create_segments */
+        else if (typeof value === "boolean") {
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.className = "edit-boolean";
+            checkbox.checked = value;
+            valueDiv.appendChild(checkbox);
         }
 
         /*
@@ -288,6 +303,12 @@ function collectEditValues(card) {
                         ".edit-reviewed"
                     ).checked;
 
+                return;
+            }
+
+            const booleanInput = row.querySelector(".edit-boolean");
+            if (booleanInput) {
+                values[key] = booleanInput.checked;
                 return;
             }
 

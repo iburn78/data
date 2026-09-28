@@ -53,6 +53,18 @@
     display: none;
 }
 
+.qualitative-checkbox,
+.edit-boolean {
+    width: 16px;
+    height: 16px;
+    margin: 1px 0;
+    accent-color: #2563eb;
+}
+
+.edit-boolean {
+    cursor: pointer;
+}
+
 .info-edit {
     width: 100%;
 }
