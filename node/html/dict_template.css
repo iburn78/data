@@ -2,7 +2,7 @@
     font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
     background: #f5f6f8;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
 }
 
 .dict-content h3 {
@@ -397,14 +397,14 @@ a {
 
 .relations-section {
     font-size: 16px;
-    margin: 15px 2px;
+    margin: 1px 0;
     padding: 2px;
 }
 
 .relations-section hr {
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 2px 0;
+    margin: 1px;
 }
 
 .relation-row {
