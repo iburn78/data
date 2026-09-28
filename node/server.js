@@ -58,6 +58,48 @@ app.post("/api/check-password", (req, res) => {
     });
 });
 
+app.post("/api/update-instance", (req, res) => {
+    const { objectType, objectId } = req.body;
+    const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
+
+    if (!allowedTypes.has(objectType) || typeof objectId !== "string" || !objectId) {
+        return res.status(400).json({ ok: false, error: "Invalid model type or identifier." });
+    }
+
+    const python = spawn(
+        PYTHON,
+        [path.join(__dirname, "../../build/tools/update_instance.py")]
+    );
+    let response = "";
+
+    python.stdout.on("data", data => console.log("Python:", data.toString()));
+    python.stderr.on("data", data => { response += data.toString(); });
+    python.on("error", error => {
+        console.error("Model update failed:", error);
+        if (!res.headersSent) {
+            res.status(500).json({ ok: false, error: "Could not start model update." });
+        }
+    });
+    python.on("close", code => {
+        if (res.headersSent) return;
+        if (code !== 0) {
+            try {
+                const result = JSON.parse(response);
+                return res.status(500).json(result);
+            } catch {
+                return res.status(500).json({ ok: false, error: "Model update failed." });
+            }
+        }
+        try {
+            res.json(JSON.parse(response));
+        } catch {
+            res.status(500).json({ ok: false, error: "Invalid response from model update." });
+        }
+    });
+
+    python.stdin.end(JSON.stringify({ objectType, objectId }));
+});
+
 app.post("/api/update-info", (req, res) => {
 
     const {
