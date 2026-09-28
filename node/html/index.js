@@ -108,26 +108,19 @@ async function showMainSearch() {
     }
 }
 
-// Navigation
-document.querySelectorAll(".nav-link").forEach(link => {
-    link.addEventListener("click", event => {
-        const section = link.dataset.section;
+// Navigation is supplied by the shared navbar.js. Delegate clicks so the
+// handler also works when the shared menu is added after this script loads.
+document.addEventListener("click", event => {
+    const link = event.target.closest(".nav-link");
+    if (!link) return;
 
-        if (section === "main") {
-            // Go to root page
-            window.location.href = "/";
-            return;
-        }
+    const section = link.dataset.section;
+    if (section === "main" || !sections[section]) return;
 
-        event.preventDefault();
-
-        // Change URL
-        history.pushState(null, "", `/#${section}`);
-        document.getElementById("search").value = "";
-
-        // Show section
-        showFiles(section);
-    });
+    event.preventDefault();
+    history.pushState(null, "", "/#" + section);
+    document.getElementById("search").value = "";
+    showFiles(section);
 });
 
 
@@ -177,4 +170,11 @@ const section = location.hash.slice(1);
 
 if (section && sections[section]) {
     showFiles(section);
+}
+const initialQuery = new URLSearchParams(location.search).get("q");
+if (initialQuery) {
+    const search = document.getElementById("search");
+    search.value = initialQuery;
+    showMainSearch();
+    search.focus();
 }
