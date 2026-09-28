@@ -212,7 +212,13 @@ function renderProfileRelations(data, content) {
 }
 
 function renderSegmentRelations(data, content) {
-    if (!data.profile && !data.components.length) {
+    const valuechains = data.valuechains ?? [];
+
+    if (
+        !data.profile &&
+        !data.components.length &&
+        !valuechains.length
+    ) {
         document.getElementById("relations-section").style.display = "none";
         return;
     }
@@ -234,6 +240,7 @@ function renderSegmentRelations(data, content) {
     }
 
     renderRelations(content, "Components", data.components, "components");
+    renderRelations(content, "Valuechains", valuechains, "valuechains");
 }
 
 function renderComponentRelations(valuechains, content) {

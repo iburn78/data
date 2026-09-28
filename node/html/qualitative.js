@@ -425,6 +425,20 @@ function exitEditMode(card, reload) {
  */
 document.addEventListener("DOMContentLoaded", () => {
 
+    document.addEventListener("keydown", event => {
+        if (
+            event.key !== "Enter" ||
+            !event.target.matches(".edit-password")
+        ) {
+            return;
+        }
+
+        event.preventDefault();
+
+        const card = event.target.closest(".qualitative-card");
+        card?.querySelector(".edit-button")?.click();
+    });
+
     document
         .querySelectorAll(".qualitative-card[data-section]")
         .forEach(card => {

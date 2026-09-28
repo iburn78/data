@@ -71,7 +71,7 @@ a {
     background: #011336;
     color: white;
     font-weight: 600;
-    border-bottom: 3px solid #d1d5db;
+    border-bottom: 0px solid #d1d5db;
 }
 
 
@@ -296,7 +296,7 @@ a {
 }
 
 .qualitative-content {
-    font-size: 1.17em;
+    font-size: 1em;
 }
 
 .qualitative-card p {
@@ -329,7 +329,7 @@ a {
 
 .qualitative-table th {
     width: 30%;
-    font-weight: 600;
+    font-weight: 500;
     white-space: nowrap;
     background: #f8fafc;
 }
@@ -396,9 +396,9 @@ a {
 }
 
 .relations-section {
-    font-size: 14px;
-    margin: 15px 0px;
-    padding: 0;
+    font-size: 16px;
+    margin: 15px 2px;
+    padding: 2px;
 }
 
 .relations-section hr {
@@ -415,7 +415,7 @@ a {
 }
 
 .relation-label {
-    min-width: 100px;
+    flex: 0 0 120px;
     font-weight: 600;
     color: #555;
 }
@@ -428,8 +428,8 @@ a {
 }
 
 .relation-row a:hover {
-    background: #eee;
-    color: #222;
+    background: #c1c1c1;
+    color: #980303;
 }
 
 footer {

@@ -178,7 +178,15 @@ app.get("/api/profile/:code", (req, res) => {
 app.get("/api/segment/:key", (req, res) => {
     const key = req.params.key;
     const code = key.replace(/\([A-Za-z]\)$/, "");
-    const { components } = loadData();
+    const { components, valuechains } = loadData();
+    const segmentComponents = getComponentsForMember(key, components);
+    const segmentValuechains = [
+        ...new Set(
+            segmentComponents.flatMap(component =>
+                getValuechains(component, valuechains)
+            )
+        )
+    ];
 
     let profile = null;
     for (const file of fs.readdirSync(DIRS.profiles)) {
@@ -198,7 +206,8 @@ app.get("/api/segment/:key", (req, res) => {
 
     res.json({
         profile,
-        components: getComponentsForMember(key, components),
+        components: segmentComponents,
+        valuechains: segmentValuechains,
     });
 });
 

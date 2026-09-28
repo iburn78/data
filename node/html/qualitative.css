@@ -30,6 +30,13 @@
     cursor: pointer;
 }
 
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    vertical-align: middle;
+}
+
 .reviewed-badge {
     padding: 2px 7px;
     border-radius: 4px;
@@ -55,10 +62,33 @@
 
 .qualitative-checkbox,
 .edit-boolean {
-    width: 16px;
-    height: 16px;
-    margin: 1px 0;
+    width: 15px;
+    height: 15px;
+    margin: 0;
     accent-color: #2563eb;
+    vertical-align: middle;
+}
+
+.qualitative-checkbox:disabled {
+    appearance: none;
+    -webkit-appearance: none;
+    opacity: 1;
+    border: 1px solid #2563eb;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.qualitative-checkbox:disabled:checked {
+    background-color: #2563eb;
+}
+
+.qualitative-checkbox:disabled:checked::after {
+    content: "✓";
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
 }
 
 .edit-boolean {
@@ -78,7 +108,6 @@
 .edit-label {
     width: 150px;
     flex-shrink: 0;
-    font-weight: bold;
 }
 
 .edit-value {
