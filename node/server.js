@@ -138,24 +138,40 @@ app.post("/api/update-info", (req, res) => {
                 __dirname,
                 "../../build/tools/update_info.py"
             )
-        ]
+        ],
+        { stdio: ["pipe", "pipe", "pipe", "pipe"] }
     );
 
     let response = "";
+    let logs = "";
 
+    // Python stdout/stderr are log streams. fd 3 is reserved for the JSON response.
     python.stdout.on("data", data => {
-        console.log("Python:", data.toString());
+        const output = data.toString();
+        logs += output;
+        console.log("Python stdout:", output);
     });
 
     python.stderr.on("data", data => {
+        const output = data.toString();
+        logs += output;
+        console.error("Python stderr:", output);
+    });
+
+    python.stdio[3].on("data", data => {
         response += data.toString();
     });
 
     python.on("close", code => {
         if (code !== 0) {
-            return res
-                .status(500)
-                .send("Failed to update information.");
+            console.error("Information update failed:", logs);
+            try {
+                return res.status(500).json(JSON.parse(response));
+            } catch {
+                return res
+                    .status(500)
+                    .send("Failed to update information.");
+            }
         }
 
         try {
@@ -171,6 +187,7 @@ app.post("/api/update-info", (req, res) => {
 
         } catch (e) {
             console.error("Invalid Python response:", response);
+            console.error("Python logs:", logs);
             res.status(500).send("Invalid response from Python.");
         }
     });
