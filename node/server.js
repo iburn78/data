@@ -146,18 +146,8 @@ app.post("/api/update-info", (req, res) => {
     let logs = "";
 
     // Python stdout/stderr are log streams. fd 3 is reserved for the JSON response.
-    python.stdout.on("data", data => {
-        const output = data.toString();
-        logs += output;
-        console.log("Python stdout:", output);
-    });
-
-    python.stderr.on("data", data => {
-        const output = data.toString();
-        logs += output;
-        console.error("Python stderr:", output);
-    });
-
+    python.stdout.on("data", data => process.stdout.write(data));
+    python.stderr.on("data", data => process.stderr.write(data));
     python.stdio[3].on("data", data => {
         response += data.toString();
     });
