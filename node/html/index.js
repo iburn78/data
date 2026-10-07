@@ -115,7 +115,7 @@ document.addEventListener("click", event => {
     if (!link) return;
 
     const section = link.dataset.section;
-    if (section === "main" || !sections[section]) return;
+    if (section === "qp" || !sections[section]) return;
 
     event.preventDefault();
     history.pushState(null, "", "/#" + section);

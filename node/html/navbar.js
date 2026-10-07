@@ -4,7 +4,7 @@
     nav.setAttribute("aria-label", "Main navigation");
 
     for (const [section, label, href] of [
-        ["main", "main", "/"],
+        ["qp", "qp", "/"],
         ["profiles", "profiles", "/#profiles"],
         ["components", "components", "/#components"],
         ["valuechains", "valuechains", "/#valuechains"],
