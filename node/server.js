@@ -152,7 +152,21 @@ app.post("/api/update-info", (req, res) => {
         response += data.toString();
     });
 
+    python.on("error", error => {
+        console.error("Information update failed to start:", error);
+        if (!res.headersSent) {
+            res.status(500).json({ ok: false, error: "Could not start information update." });
+        }
+    });
+    python.stdin.on("error", error => {
+        console.error("Could not send information update request:", error);
+        if (!res.headersSent) {
+            res.status(500).json({ ok: false, error: "Could not send information update request." });
+        }
+    });
+
     python.on("close", code => {
+        if (res.headersSent) return;
         if (code !== 0) {
             console.error("Information update failed:", logs);
             try {
