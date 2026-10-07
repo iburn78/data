@@ -350,6 +350,11 @@ a {
     text-align: left;
     vertical-align: top;
     border-bottom: 1px solid #e5e7eb;
+    white-space: pre-wrap;
+}
+
+.qualitative-table td:has(input) {
+    white-space: normal;
 }
 
 .qualitative-table th {
