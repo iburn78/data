@@ -100,6 +100,52 @@ app.post("/api/update-instance", (req, res) => {
     python.stdin.end(JSON.stringify({ objectType, objectId }));
 });
 
+app.post("/api/delete-instance", (req, res) => {
+    const { objectType, objectId } = req.body;
+    const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
+
+    if (!allowedTypes.has(objectType) || typeof objectId !== "string" || !objectId) {
+        return res.status(400).json({ ok: false, error: "Invalid model type or identifier." });
+    }
+
+    const python = spawn(
+        PYTHON,
+        [path.join(__dirname, "../../build/tools/delete_instance.py")],
+        { stdio: ["pipe", "pipe", "pipe", "pipe"] }
+    );
+    let response = "";
+
+    python.stdout.on("data", data => process.stdout.write(data));
+    python.stderr.on("data", data => process.stderr.write(data));
+    python.stdio[3].on("data", data => { response += data.toString(); });
+    python.on("error", error => {
+        console.error("Model deletion failed to start:", error);
+        if (!res.headersSent) {
+            res.status(500).json({ ok: false, error: "Could not start model deletion." });
+        }
+    });
+    python.stdin.on("error", error => {
+        console.error("Could not send model deletion request:", error);
+        if (!res.headersSent) {
+            res.status(500).json({ ok: false, error: "Could not send model deletion request." });
+        }
+    });
+    python.on("close", code => {
+        if (res.headersSent) return;
+        try {
+            const result = JSON.parse(response);
+            if (code !== 0 || !result.ok) {
+                return res.status(500).json(result);
+            }
+            res.json(result);
+        } catch {
+            res.status(500).json({ ok: false, error: "Model deletion failed." });
+        }
+    });
+
+    python.stdin.end(JSON.stringify({ objectType, objectId }));
+});
+
 app.post("/api/update-info", (req, res) => {
 
     const {

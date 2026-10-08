@@ -15,7 +15,13 @@
     justify-content: space-between;
 }
 
-.model-instance-update-button {
+.model-instance-actions {
+    display: inline-flex;
+    gap: 6px;
+}
+
+.model-instance-update-button,
+.model-instance-delete-button {
     padding: 3px 9px;
     border: 1px solid #cbd5e1;
     border-radius: 4px;
@@ -29,7 +35,17 @@
     background: #eef2f7;
 }
 
-.model-instance-update-button:disabled {
+.model-instance-delete-button {
+    border-color: #fca5a5;
+    color: #b91c1c;
+}
+
+.model-instance-delete-button:hover:not(:disabled) {
+    background: #fef2f2;
+}
+
+.model-instance-update-button:disabled,
+.model-instance-delete-button:disabled {
     cursor: wait;
     opacity: 0.65;
 }
