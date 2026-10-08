@@ -7,7 +7,6 @@ const sections = {
     valuechains: "Valuechains"
 };
 
-
 async function getItems(section) {
     const response = await fetch(`/api/${section}`);
 
@@ -30,10 +29,86 @@ async function getItems(section) {
         return { file, text };
     });
 
-    items.sort((a, b) => a.text.localeCompare(b.text));
+    if (section !== "profiles") {
+        items.sort((a, b) => a.text.localeCompare(b.text));
+        return items;
+    }
 
-    return items;
+    // Group profiles and their segments by code.
+    const groups = new Map();
+
+    for (const item of items) {
+        const base = item.file.replace(".html", "");
+        const [codePart, ...name] = base.split("_");
+
+        const match = codePart.match(/^(\d+)(?:\(([A-Z])\))?$/);
+        const code = match[1];
+        const segment = match[2] ?? null;
+
+        if (!groups.has(code)) {
+            groups.set(code, {
+                profile: null,
+                segments: [],
+            });
+        }
+
+        const group = groups.get(code);
+
+        if (segment === null) {
+            group.profile = item;
+        } else {
+            item.text = ` - ${item.text}`;
+            group.segments.push({
+                item,
+                segment,
+            });
+        }
+    }
+
+    // Sort groups by the profile/company name.
+    const sortedGroups = [...groups.values()].sort((a, b) => {
+        return a.profile.text.localeCompare(b.profile.text);
+    });
+
+    // Within each group: profile first, then A, B, C...
+    return sortedGroups.flatMap(group => {
+        group.segments.sort((a, b) =>
+            a.segment.localeCompare(b.segment)
+        );
+
+        return [
+            group.profile,
+            ...group.segments.map(segment => segment.item),
+        ];
+    });
 }
+
+// async function getItems(section) {
+//     const response = await fetch(`/api/${section}`);
+
+//     if (!response.ok) {
+//         throw new Error(`Failed to load ${section}`);
+//     }
+
+//     const files = await response.json();
+
+//     const items = files.map(file => {
+//         let text = file.replace(".html", "");
+
+//         if (section === "profiles") {
+//             const [code, ...name] = text.split("_");
+//             text = `${name.join(" ")} (${code})`;
+//         } else {
+//             text = text.replaceAll("_", " ");
+//         }
+
+//         return { file, text };
+//     });
+
+//     items.sort((a, b) => a.text.localeCompare(b.text));
+
+//     return items;
+// }
 
 
 async function showFiles(section) {
@@ -115,7 +190,7 @@ document.addEventListener("click", event => {
     if (!link) return;
 
     const section = link.dataset.section;
-    if (section === "qp" || !sections[section]) return;
+    if (section === "QP" || !sections[section]) return;
 
     event.preventDefault();
     history.pushState(null, "", "/#" + section);
