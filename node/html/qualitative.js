@@ -128,8 +128,9 @@ function renderEditor(card, values) {
 
         const label = document.createElement("div");
         label.className = "edit-label";
+        label.dataset.fieldKey = key;
         label.textContent = key === "tags"
-            ? "tags (t)"
+            ? "#tags (t)"
             : key === "notes"
                 ? "notes (n)"
                 : key;
@@ -302,7 +303,8 @@ function collectEditValues(card) {
 
             const key =
                 row.querySelector(".edit-label")
-                    .textContent.trim();
+                    .dataset.fieldKey ||
+                row.querySelector(".edit-label").textContent.trim();
 
             /*
              * reviewed
@@ -347,6 +349,15 @@ function collectEditValues(card) {
 
             values[key] =
                 input ? input.value.trim() : "";
+
+            if (key === "tags") {
+                values[key] = values[key]
+                    .split(/[\s,]+/)
+                    .map(tag => tag.replace(/[^\p{L}\p{N}_]/gu, "").toLowerCase())
+                    .filter(tag => Array.from(tag).length > 1)
+                    .map(tag => `#${tag}`)
+                    .join(" ");
+            }
         });
 
     return values;
@@ -488,11 +499,24 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        if (event.key.toLowerCase() === "t" || event.key.toLowerCase() === "n") {
+        if (event.key.toLowerCase() === "t") {
             if (editor && !targetIsTextField) {
-                const fieldName = event.key.toLowerCase() === "t" ? "tags" : "notes";
                 const fieldRow = [...editor.querySelectorAll(".edit-row")]
-                    .find(row => row.querySelector(".edit-label")?.textContent.trim().startsWith(fieldName));
+                    .find(row => row.querySelector(".edit-label")?.dataset.fieldKey === "tags");
+                const field = fieldRow?.querySelector(".edit-scalar");
+
+                if (field) {
+                    event.preventDefault();
+                    field.focus();
+                }
+            }
+            return;
+        }
+
+        if (event.key.toLowerCase() === "n") {
+            if (editor && !targetIsTextField) {
+                const fieldRow = [...editor.querySelectorAll(".edit-row")]
+                    .find(row => row.querySelector(".edit-label")?.dataset.fieldKey === "notes");
                 const field = fieldRow?.querySelector(".edit-scalar");
 
                 if (field) {

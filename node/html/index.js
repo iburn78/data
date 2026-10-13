@@ -1,5 +1,6 @@
 let currentSection = "";
 let currentItems = [];
+let lastTagSearchQuery = "";
 
 const sections = {
     profiles: "Profiles",
@@ -141,14 +142,72 @@ function renderSection() {
 
 
 let searchRequest = 0;
-async function showMainSearch() {
+async function showMainSearch(queryOverride = null) {
     const request = ++searchRequest;
-    const search = document.getElementById("search").value.trim().toLowerCase().normalize("NFC");
+    const search = (queryOverride ?? document.getElementById("search").value)
+        .trim().toLowerCase().normalize("NFC");
     const list = document.getElementById("file-list");
 
     list.replaceChildren();
 
     if (!search) {
+        return;
+    }
+
+    const isTagQuery = search.startsWith("#");
+    const tagQuery = search.slice(1).match(/^[\p{L}\p{N}_]+/u)?.[0] ?? "";
+    if (isTagQuery) {
+        if (!tagQuery) return;
+        const response = await fetch("/api/tag-index");
+        if (!response.ok) {
+            throw new Error("Failed to load tags");
+        }
+        const tagIndex = await response.json();
+        const sectionMatches = [];
+
+        for (const [section, title] of Object.entries(sections)) {
+            const items = await getItems(section);
+            if (request !== searchRequest) return;
+
+            const tagsByFile = new Map(
+                tagIndex
+                    .filter(entry => entry.section === section)
+                    .map(entry => [entry.file, entry.tags])
+            );
+            const matches = items.filter(item => {
+                const tags = (tagsByFile.get(item.file) ?? "")
+                    .split(/[\s,]+/)
+                    .filter(tag => tag.startsWith("#"))
+                    .map(tag => tag.slice(1).toLowerCase().normalize("NFC"));
+                return tags.includes(tagQuery.toLowerCase().normalize("NFC"));
+            });
+
+            if (matches.length > 0) sectionMatches.push({ section, title, matches });
+        }
+
+        if (request === searchRequest) {
+            lastTagSearchQuery = search;
+            const message = document.createElement("div");
+            message.className = "search-message";
+            message.textContent = sectionMatches.length > 0
+                ? `tag search result of #${tagQuery}:`
+                : `tag search result of #${tagQuery}: none found`;
+            list.appendChild(message);
+
+            for (const { section, title, matches } of sectionMatches) {
+                const heading = document.createElement("div");
+                heading.className = "search-section";
+                heading.textContent = `${section === "profiles" ? "Profile" : section === "valuechains" ? "Valuechain" : title}:`;
+                list.appendChild(heading);
+
+                for (const item of matches) {
+                    const link = document.createElement("a");
+                    link.href = `/build/${section}/${item.file}`;
+                    link.textContent = item.text;
+                    list.appendChild(link);
+                }
+            }
+        }
         return;
     }
 
@@ -201,6 +260,13 @@ document.addEventListener("click", event => {
 
 // Search box
 document.getElementById("search").addEventListener("input", () => {
+    const query = document.getElementById("search").value.trim();
+    if (query.startsWith("#")) {
+        lastTagSearchQuery = "";
+        document.getElementById("file-list").replaceChildren();
+        return;
+    }
+
     if (location.hash) {
         renderSection();
     } else {
@@ -212,6 +278,14 @@ document.getElementById("search").addEventListener("input", () => {
 // Enter → open the only visible result
 document.getElementById("search").addEventListener("keydown", event => {
     if (event.key !== "Enter") {
+        return;
+    }
+
+    const query = document.getElementById("search").value.trim();
+    if (query.startsWith("#") && lastTagSearchQuery !== query) {
+        event.preventDefault();
+        document.getElementById("search").value = "";
+        showMainSearch(query);
         return;
     }
 
@@ -227,7 +301,8 @@ document.getElementById("search").addEventListener("keydown", event => {
 document.addEventListener("keydown", event => {
     if (
         event.key === "/" &&
-        document.activeElement !== document.getElementById("search")
+        document.activeElement !== document.getElementById("search") &&
+        !event.target.matches("input, textarea, [contenteditable='true']")
     ) {
         event.preventDefault();
         document.getElementById("search").focus();

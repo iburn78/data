@@ -71,6 +71,13 @@ body {
     letter-spacing: 0.05em;
 }
 
+.search-message {
+    margin: 5px 0;
+    color: #555;
+    font-size: inherit;
+    font-weight: normal;
+}
+
 .search-section:first-child {
     margin-top: 5px;
 }

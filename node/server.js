@@ -246,6 +246,32 @@ app.post("/api/update-info", (req, res) => {
     python.stdin.end();
 });
 
+app.get("/api/tag-index", (req, res) => {
+    const entries = [];
+
+    for (const section of Object.keys(DIRS)) {
+        const dir = DIRS[section];
+        for (const file of fs.readdirSync(dir)) {
+            if (!file.endsWith(".json")) continue;
+
+            try {
+                const data = JSON.parse(
+                    fs.readFileSync(path.join(dir, file), "utf8")
+                );
+                entries.push({
+                    section,
+                    file: file.replace(/\.json$/, ".html"),
+                    tags: data.info_section?.tags ?? "",
+                });
+            } catch (error) {
+                console.error(`Could not read tags from ${file}:`, error);
+            }
+        }
+    }
+
+    res.json(entries);
+});
+
 app.get("/api/:section", (req, res) => {
     const dir = DIRS[req.params.section];
 
