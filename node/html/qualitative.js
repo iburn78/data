@@ -128,7 +128,11 @@ function renderEditor(card, values) {
 
         const label = document.createElement("div");
         label.className = "edit-label";
-        label.textContent = key;
+        label.textContent = key === "tags"
+            ? "tags (t)"
+            : key === "notes"
+                ? "notes (n)"
+                : key;
 
         const valueDiv = document.createElement("div");
         valueDiv.className = "edit-value";
@@ -146,13 +150,13 @@ function renderEditor(card, values) {
 
             const text = document.createElement("span");
             text.textContent = value
-                ? " Reviewed"
-                : " Not reviewed";
+                ? " Reviewed (v)"
+                : " Not reviewed (v)";
 
             checkbox.addEventListener("change", () => {
                 text.textContent = checkbox.checked
-                    ? " Reviewed"
-                    : " Not reviewed";
+                    ? " Reviewed (v)"
+                    : " Not reviewed (v)";
             });
 
             valueDiv.appendChild(checkbox);
@@ -166,6 +170,12 @@ function renderEditor(card, values) {
             checkbox.className = "edit-boolean";
             checkbox.checked = value;
             valueDiv.appendChild(checkbox);
+
+            if (key === "create_segments") {
+                const shortcut = document.createElement("span");
+                shortcut.textContent = " (s)";
+                valueDiv.appendChild(shortcut);
+            }
         }
 
         /*
@@ -220,7 +230,7 @@ function renderEditor(card, values) {
 
     cancelButton.type = "button";
     cancelButton.className = "cancel-button";
-    cancelButton.textContent = "Cancel";
+    cancelButton.textContent = "Cancel (^c)";
 
     cancelButton.addEventListener("click", () => {
         exitEditMode(card, false);
@@ -243,6 +253,7 @@ function renderEditor(card, values) {
      * Replace password/edit controls.
      */
     const actions = card.querySelector(".qualitative-actions");
+    card.dataset.originalActions = actions.innerHTML;
 
     actions.replaceChildren(
         cancelButton.cloneNode(true),
@@ -397,21 +408,7 @@ function exitEditMode(card, reload) {
     const actions =
         card.querySelector(".qualitative-actions");
 
-    actions.innerHTML = `
-        <input
-            class="edit-password"
-            type="password"
-            maxlength="4"
-            inputmode="numeric"
-            placeholder="••••"
-        >
-
-        <button
-            class="edit-button"
-            type="button"
-            title="Edit"
-        >✎</button>
-    `;
+    actions.innerHTML = card.dataset.originalActions;
 
     actions.querySelector(".edit-button")
         .addEventListener("click", () => {
@@ -426,6 +423,86 @@ function exitEditMode(card, reload) {
 document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("keydown", event => {
+        const infoCard = [...document.querySelectorAll(
+            '.qualitative-card[data-section="info_section"]'
+        )][0];
+        const targetIsTextField = event.target.matches(
+            "input:not([type='checkbox']), textarea, select, [contenteditable='true']"
+        );
+        const editor = infoCard?.querySelector(".info-edit");
+
+        if (
+            event.ctrlKey &&
+            !event.altKey &&
+            !event.metaKey &&
+            event.key.toLowerCase() === "c" &&
+            editor
+        ) {
+            const actionButton = infoCard.querySelector(".cancel-button");
+
+            if (actionButton) {
+                event.preventDefault();
+                actionButton.click();
+                return;
+            }
+        }
+
+        if (event.key.toLowerCase() === "p") {
+            const targetIsEditable = event.target.matches(
+                "input, textarea, select, [contenteditable='true']"
+            );
+
+            if (infoCard && !infoCard.querySelector(".info-edit") && !targetIsEditable) {
+                const passwordInput = infoCard.querySelector(".edit-password");
+                if (passwordInput) {
+                    event.preventDefault();
+                    passwordInput.focus();
+                }
+            }
+            return;
+        }
+
+        if (event.key.toLowerCase() === "v") {
+            if (editor && !targetIsTextField) {
+                const reviewed = editor.querySelector(".edit-reviewed");
+                if (reviewed) {
+                    event.preventDefault();
+                    reviewed.checked = !reviewed.checked;
+                    reviewed.dispatchEvent(new Event("change", { bubbles: true }));
+                }
+            }
+            return;
+        }
+
+        if (event.key.toLowerCase() === "s") {
+            if (editor && !targetIsTextField) {
+                const createSegmentsRow = [...editor.querySelectorAll(".edit-row")]
+                    .find(row => row.querySelector(".edit-label")?.textContent.trim() === "create_segments");
+                const createSegments = createSegmentsRow?.querySelector(".edit-boolean");
+
+                if (createSegments) {
+                    event.preventDefault();
+                    createSegments.checked = !createSegments.checked;
+                }
+            }
+            return;
+        }
+
+        if (event.key.toLowerCase() === "t" || event.key.toLowerCase() === "n") {
+            if (editor && !targetIsTextField) {
+                const fieldName = event.key.toLowerCase() === "t" ? "tags" : "notes";
+                const fieldRow = [...editor.querySelectorAll(".edit-row")]
+                    .find(row => row.querySelector(".edit-label")?.textContent.trim().startsWith(fieldName));
+                const field = fieldRow?.querySelector(".edit-scalar");
+
+                if (field) {
+                    event.preventDefault();
+                    field.focus();
+                }
+            }
+            return;
+        }
+
         if (
             event.key !== "Enter" ||
             !event.target.matches(".edit-password")
