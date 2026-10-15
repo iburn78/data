@@ -1,3 +1,16 @@
+if (typeof window.showPythonProgress !== "function") {
+    window.showPythonProgress = message => {
+        const status = document.createElement("div");
+        status.className = "python-progress visible";
+        status.setAttribute("role", "status");
+        status.setAttribute("aria-live", "polite");
+        status.innerHTML = `<div class="python-progress-message"></div><div class="python-progress-track"><div class="python-progress-bar"></div></div>`;
+        status.querySelector(".python-progress-message").textContent = message || "Python is working…";
+        document.body.appendChild(status);
+        return () => status.remove();
+    };
+}
+
 document.querySelectorAll(".model-instance-update-button").forEach(updateButton => {
     let actions = updateButton.closest(".model-instance-actions");
     if (!actions) {
@@ -23,6 +36,7 @@ document.querySelectorAll(".model-instance-update-button").forEach(button => {
         button.disabled = true;
         const originalText = button.textContent;
         button.textContent = "Updating…";
+        const hideProgress = window.showPythonProgress("Updating item…");
 
         try {
             const response = await fetch("/api/update-instance", {
@@ -42,6 +56,8 @@ document.querySelectorAll(".model-instance-update-button").forEach(button => {
             alert(error.message || "Model update failed.");
             button.disabled = false;
             button.textContent = originalText;
+        } finally {
+            hideProgress();
         }
     });
 });
@@ -65,6 +81,7 @@ document.querySelectorAll(".model-instance-delete-button").forEach(button => {
         button.disabled = true;
         const originalText = button.textContent;
         button.textContent = "Deleting…";
+        const hideProgress = window.showPythonProgress("Deleting item…");
 
         try {
             const response = await fetch("/api/delete-instance", {
@@ -81,6 +98,8 @@ document.querySelectorAll(".model-instance-delete-button").forEach(button => {
             alert(error.message || "Model deletion failed.");
             button.disabled = false;
             button.textContent = originalText;
+        } finally {
+            hideProgress();
         }
     });
 });

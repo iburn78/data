@@ -59,6 +59,41 @@ body {
     box-sizing: border-box;
 }
 
+.python-progress {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 10000;
+    display: none;
+    padding: 8px 12px 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px #0002;
+    color: #333;
+    font-size: 14px;
+}
+
+.python-progress.visible {
+    display: block;
+}
+
+.python-progress-track {
+    height: 3px;
+    margin-top: 7px;
+    overflow: hidden;
+    background: #e5e7eb;
+}
+
+.python-progress-bar {
+    width: 35%;
+    height: 100%;
+    background: #2563eb;
+    animation: python-progress-motion 1.2s ease-in-out infinite;
+}
+
+@keyframes python-progress-motion {
+    from { transform: translateX(-110%); }
+    to { transform: translateX(300%); }
+}
+
 .search-section {
     margin-top: 20px;
     margin-bottom: 5px;

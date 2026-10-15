@@ -368,6 +368,7 @@ async function saveEdit(card) {
     const sectionName = card.dataset.section;
     const token = card.dataset.editToken;
     const values = collectEditValues(card);
+    const hideProgress = window.showPythonProgress("Saving information…");
 
     try {
         const response = await fetch("/api/update-info", {
@@ -397,6 +398,8 @@ async function saveEdit(card) {
     } catch (error) {
         console.error(error);
         alert(error.message);
+    } finally {
+        hideProgress();
     }
 }
 

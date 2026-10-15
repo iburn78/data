@@ -151,13 +151,13 @@ async function showMainSearch(queryOverride = null) {
     list.replaceChildren();
 
     if (!search) {
-        return;
+        return 0;
     }
 
     const isTagQuery = search.startsWith("#");
     const tagQuery = search.slice(1).match(/^[\p{L}\p{N}_]+/u)?.[0] ?? "";
     if (isTagQuery) {
-        if (!tagQuery) return;
+        if (!tagQuery) return 0;
         const response = await fetch("/api/tag-index");
         if (!response.ok) {
             throw new Error("Failed to load tags");
@@ -167,7 +167,7 @@ async function showMainSearch(queryOverride = null) {
 
         for (const [section, title] of Object.entries(sections)) {
             const items = await getItems(section);
-            if (request !== searchRequest) return;
+            if (request !== searchRequest) return -1;
 
             const tagsByFile = new Map(
                 tagIndex
@@ -207,15 +207,17 @@ async function showMainSearch(queryOverride = null) {
                     list.appendChild(link);
                 }
             }
+            return sectionMatches.reduce((total, section) => total + section.matches.length, 0);
         }
-        return;
+        return -1;
     }
 
+    let matchCount = 0;
     for (const [section, title] of Object.entries(sections)) {
         const items = await getItems(section);
         // A newer search has started
         if (request !== searchRequest) {
-            return;
+            return -1;
         }
         const matches = items.filter(item =>
             item.text.toLowerCase().normalize("NFC").includes(search)
@@ -224,6 +226,7 @@ async function showMainSearch(queryOverride = null) {
         if (matches.length === 0) {
             continue;
         }
+        matchCount += matches.length;
 
         const heading = document.createElement("div");
         heading.className = "search-section";
@@ -239,6 +242,32 @@ async function showMainSearch(queryOverride = null) {
 
             list.appendChild(link);
         }
+    }
+    return matchCount;
+}
+
+async function getPublicCompanyProfile(query) {
+    const list = document.getElementById("file-list");
+    const hideProgress = window.showPythonProgress("Checking public company and creating profile…");
+    try {
+        const response = await fetch("/api/get-item", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ query }),
+        });
+        const result = await response.json();
+        if (!response.ok || !result.ok) {
+            throw new Error(result.error || "No matching item or public company found.");
+        }
+        window.location.href = `/build/profiles/${encodeURIComponent(result.file)}`;
+    } catch (error) {
+        list.replaceChildren();
+        const message = document.createElement("div");
+        message.className = "search-message";
+        message.textContent = error.message || "Could not get item.";
+        list.appendChild(message);
+    } finally {
+        hideProgress();
     }
 }
 
@@ -275,24 +304,41 @@ document.getElementById("search").addEventListener("input", () => {
 });
 
 
-// Enter → open the only visible result
+// Enter searches the query, then tries the public-company lookup if no item matched.
 document.getElementById("search").addEventListener("keydown", event => {
     if (event.key !== "Enter") {
         return;
     }
+    event.preventDefault();
 
     const query = document.getElementById("search").value.trim();
+    if (!query) {
+        const links = document.querySelectorAll("#file-list a");
+        if (links.length === 1) links[0].click();
+        return;
+    }
+
     if (query.startsWith("#") && lastTagSearchQuery !== query) {
-        event.preventDefault();
         document.getElementById("search").value = "";
         showMainSearch(query);
         return;
     }
 
-    const links = document.querySelectorAll("#file-list a");
+    if (query.startsWith("#")) return;
 
-    if (links.length === 1) {
-        links[0].click();
+    showMainSearch(query).then(matches => {
+        if (matches === 1) {
+            document.querySelector("#file-list a")?.click();
+        } else if (matches === 0) {
+            getPublicCompanyProfile(query);
+        }
+    });
+});
+
+document.getElementById("search").addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+        event.preventDefault();
+        event.currentTarget.blur();
     }
 });
 

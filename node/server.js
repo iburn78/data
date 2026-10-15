@@ -246,6 +246,44 @@ app.post("/api/update-info", (req, res) => {
     python.stdin.end();
 });
 
+app.post("/api/get-item", (req, res) => {
+    const query = req.body?.query;
+    if (typeof query !== "string" || !query.trim()) {
+        return res.status(400).json({ ok: false, error: "Enter a company name or code." });
+    }
+
+    const python = spawn(
+        PYTHON,
+        [path.join(__dirname, "../../build/tools/get_profile.py")],
+        { stdio: ["pipe", "pipe", "pipe", "pipe"] }
+    );
+    let response = "";
+
+    python.stdout.on("data", data => process.stdout.write(data));
+    python.stderr.on("data", data => process.stderr.write(data));
+    python.stdio[3].on("data", data => { response += data.toString(); });
+    python.on("error", error => {
+        console.error("Profile creation failed to start:", error);
+        if (!res.headersSent) {
+            res.status(500).json({ ok: false, error: "Could not start profile creation." });
+        }
+    });
+    python.on("close", code => {
+        if (res.headersSent) return;
+        try {
+            const result = JSON.parse(response);
+            if (code !== 0 || !result.ok) {
+                return res.status(422).json(result);
+            }
+            res.json(result);
+        } catch {
+            res.status(500).json({ ok: false, error: "Profile creation failed." });
+        }
+    });
+
+    python.stdin.end(JSON.stringify({ query: query.trim() }));
+});
+
 app.get("/api/tag-index", (req, res) => {
     const entries = [];
 
