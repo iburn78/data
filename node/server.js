@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { spawn } = require("child_process");
+const { runPython } = require("./python_runner");
 
 const PYTHON = path.join(
     __dirname,
@@ -58,7 +58,7 @@ app.post("/api/check-password", (req, res) => {
     });
 });
 
-app.post("/api/update-instance", (req, res) => {
+app.post("/api/update-instance", async (req, res) => {
     const { objectType, objectId } = req.body;
     const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
 
@@ -66,41 +66,29 @@ app.post("/api/update-instance", (req, res) => {
         return res.status(400).json({ ok: false, error: "Invalid model type or identifier." });
     }
 
-    const python = spawn(
-        PYTHON,
-        [path.join(__dirname, "../../build/tools/update_instance.py")]
-    );
-    let response = "";
-
-    python.stdout.on("data", data => console.log("Python:", data.toString()));
-    python.stderr.on("data", data => { response += data.toString(); });
-    python.on("error", error => {
+    try {
+        const { code, result } = await runPython(
+            PYTHON,
+            path.join(__dirname, "../../build/tools/update_instance.py"),
+            { objectType, objectId },
+            "model update"
+        );
+        if (code !== 0 || !result.ok) {
+            return res.status(500).json(result);
+        }
+        res.json(result);
+    } catch (error) {
         console.error("Model update failed:", error);
-        if (!res.headersSent) {
-            res.status(500).json({ ok: false, error: "Could not start model update." });
-        }
-    });
-    python.on("close", code => {
-        if (res.headersSent) return;
-        if (code !== 0) {
-            try {
-                const result = JSON.parse(response);
-                return res.status(500).json(result);
-            } catch {
-                return res.status(500).json({ ok: false, error: "Model update failed." });
-            }
-        }
-        try {
-            res.json(JSON.parse(response));
-        } catch {
-            res.status(500).json({ ok: false, error: "Invalid response from model update." });
-        }
-    });
-
-    python.stdin.end(JSON.stringify({ objectType, objectId }));
+        const message = error.kind === "spawn"
+            ? "Could not start model update."
+            : error.kind === "stdin"
+                ? "Could not send model update request."
+                : "Invalid response from model update.";
+        res.status(500).json({ ok: false, error: message });
+    }
 });
 
-app.post("/api/delete-instance", (req, res) => {
+app.post("/api/delete-instance", async (req, res) => {
     const { objectType, objectId } = req.body;
     const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
 
@@ -108,45 +96,29 @@ app.post("/api/delete-instance", (req, res) => {
         return res.status(400).json({ ok: false, error: "Invalid model type or identifier." });
     }
 
-    const python = spawn(
-        PYTHON,
-        [path.join(__dirname, "../../build/tools/delete_instance.py")],
-        { stdio: ["pipe", "pipe", "pipe", "pipe"] }
-    );
-    let response = "";
-
-    python.stdout.on("data", data => process.stdout.write(data));
-    python.stderr.on("data", data => process.stderr.write(data));
-    python.stdio[3].on("data", data => { response += data.toString(); });
-    python.on("error", error => {
-        console.error("Model deletion failed to start:", error);
-        if (!res.headersSent) {
-            res.status(500).json({ ok: false, error: "Could not start model deletion." });
+    try {
+        const { code, result } = await runPython(
+            PYTHON,
+            path.join(__dirname, "../../build/tools/delete_instance.py"),
+            { objectType, objectId },
+            "model deletion"
+        );
+        if (code !== 0 || !result.ok) {
+            return res.status(500).json(result);
         }
-    });
-    python.stdin.on("error", error => {
-        console.error("Could not send model deletion request:", error);
-        if (!res.headersSent) {
-            res.status(500).json({ ok: false, error: "Could not send model deletion request." });
-        }
-    });
-    python.on("close", code => {
-        if (res.headersSent) return;
-        try {
-            const result = JSON.parse(response);
-            if (code !== 0 || !result.ok) {
-                return res.status(500).json(result);
-            }
-            res.json(result);
-        } catch {
-            res.status(500).json({ ok: false, error: "Model deletion failed." });
-        }
-    });
-
-    python.stdin.end(JSON.stringify({ objectType, objectId }));
+        res.json(result);
+    } catch (error) {
+        console.error("Model deletion failed:", error);
+        const message = error.kind === "spawn"
+            ? "Could not start model deletion."
+            : error.kind === "stdin"
+                ? "Could not send model deletion request."
+                : "Model deletion failed.";
+        res.status(500).json({ ok: false, error: message });
+    }
 });
 
-app.post("/api/update-info", (req, res) => {
+app.post("/api/update-info", async (req, res) => {
 
     const {
         token,
@@ -170,118 +142,64 @@ app.post("/api/update-info", (req, res) => {
     // Single-use token
     editTokens.delete(token);
 
-    const data = JSON.stringify({
+    const data = {
         objectType,
         objectId,
         section,
         values
-    });
+    };
 
-    const python = spawn(
-        PYTHON,
-        [
-            path.join(
-                __dirname,
-                "../../build/tools/update_info.py"
-            )
-        ],
-        { stdio: ["pipe", "pipe", "pipe", "pipe"] }
-    );
-
-    let response = "";
-    let logs = "";
-
-    // Python stdout/stderr are log streams. fd 3 is reserved for the JSON response.
-    python.stdout.on("data", data => process.stdout.write(data));
-    python.stderr.on("data", data => process.stderr.write(data));
-    python.stdio[3].on("data", data => {
-        response += data.toString();
-    });
-
-    python.on("error", error => {
-        console.error("Information update failed to start:", error);
-        if (!res.headersSent) {
-            res.status(500).json({ ok: false, error: "Could not start information update." });
-        }
-    });
-    python.stdin.on("error", error => {
-        console.error("Could not send information update request:", error);
-        if (!res.headersSent) {
-            res.status(500).json({ ok: false, error: "Could not send information update request." });
-        }
-    });
-
-    python.on("close", code => {
-        if (res.headersSent) return;
+    try {
+        const { code, result } = await runPython(
+            PYTHON,
+            path.join(__dirname, "../../build/tools/update_info.py"),
+            data,
+            "information update"
+        );
         if (code !== 0) {
-            console.error("Information update failed:", logs);
-            try {
-                return res.status(500).json(JSON.parse(response));
-            } catch {
-                return res
-                    .status(500)
-                    .send("Failed to update information.");
-            }
+            return res.status(500).json(result);
         }
-
-        try {
-            const result = JSON.parse(response);
-
-            if (!result.ok) {
-                return res
-                    .status(400)
-                    .send(result.error);
-            }
-
-            res.json(result);
-
-        } catch (e) {
-            console.error("Invalid Python response:", response);
-            console.error("Python logs:", logs);
-            res.status(500).send("Invalid response from Python.");
+        if (!result.ok) {
+            return res.status(400).send(result.error);
         }
-    });
-
-    python.stdin.write(data);
-    python.stdin.end();
+        res.json(result);
+    } catch (error) {
+        console.error("Information update failed:", error);
+        const message = error.kind === "spawn"
+            ? "Could not start information update."
+            : error.kind === "stdin"
+                ? "Could not send information update request."
+                : "Invalid response from Python.";
+        res.status(500).send(message);
+    }
 });
 
-app.post("/api/get-item", (req, res) => {
+app.post("/api/get-item", async (req, res) => {
     const query = req.body?.query;
     if (typeof query !== "string" || !query.trim()) {
         return res.status(400).json({ ok: false, error: "Enter a company name or code." });
     }
 
-    const python = spawn(
-        PYTHON,
-        [path.join(__dirname, "../../build/tools/get_profile.py")],
-        { stdio: ["pipe", "pipe", "pipe", "pipe"] }
-    );
-    let response = "";
-
-    python.stdout.on("data", data => process.stdout.write(data));
-    python.stderr.on("data", data => process.stderr.write(data));
-    python.stdio[3].on("data", data => { response += data.toString(); });
-    python.on("error", error => {
-        console.error("Profile creation failed to start:", error);
-        if (!res.headersSent) {
-            res.status(500).json({ ok: false, error: "Could not start profile creation." });
+    try {
+        const { code, result } = await runPython(
+            PYTHON,
+            path.join(__dirname, "../../build/tools/get_profile.py"),
+            { query: query.trim() },
+            "profile creation"
+        );
+        if (code !== 0 || !result.ok) {
+            return res.status(422).json(result);
         }
-    });
-    python.on("close", code => {
-        if (res.headersSent) return;
-        try {
-            const result = JSON.parse(response);
-            if (code !== 0 || !result.ok) {
-                return res.status(422).json(result);
-            }
-            res.json(result);
-        } catch {
-            res.status(500).json({ ok: false, error: "Profile creation failed." });
-        }
-    });
-
-    python.stdin.end(JSON.stringify({ query: query.trim() }));
+        res.json(result);
+    } catch (error) {
+        console.error("Profile creation failed:", error);
+        const message = error.kind === "spawn"
+            ? "Could not start profile creation."
+            : error.kind === "stdin"
+                ? "Could not send profile creation request."
+                : "Profile creation failed.";
+        res.status(500).json({ ok: false, error: message });
+    }
 });
 
 app.get("/api/tag-index", (req, res) => {

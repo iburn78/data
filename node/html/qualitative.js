@@ -368,6 +368,30 @@ async function saveEdit(card) {
     const sectionName = card.dataset.section;
     const token = card.dataset.editToken;
     const values = collectEditValues(card);
+
+    if (Array.isArray(values.segments) && Array.isArray(values.revenue_share)) {
+        if (values.segments.length !== values.revenue_share.length) {
+            alert("The number of revenue shares must match the number of segments.");
+            return;
+        }
+
+        const shares = values.revenue_share.map(value => Number(value));
+        if (shares.some(value => !Number.isFinite(value) || value < 0)) {
+            alert("Revenue shares must be valid non-negative numbers.");
+            return;
+        }
+
+        const total = shares.reduce((sum, value) => sum + value, 0);
+        if (shares.length > 0 && total <= 0) {
+            alert("The total revenue share must be greater than zero.");
+            return;
+        }
+
+        values.revenue_share = total > 0
+            ? shares.map(value => Math.round((value / total) * 100) / 100)
+            : [];
+    }
+
     const hideProgress = window.showPythonProgress("Saving information…");
 
     try {
