@@ -347,8 +347,8 @@ function collectEditValues(card) {
             const input =
                 row.querySelector(".edit-scalar");
 
-            values[key] =
-                input ? input.value.trim() : "";
+            const scalarValue = input ? input.value.trim() : "";
+            values[key] = scalarValue === "None" ? null : scalarValue;
 
             if (key === "tags") {
                 values[key] = values[key]
@@ -362,6 +362,7 @@ function collectEditValues(card) {
 
     return values;
 }
+
 async function saveEdit(card) {
     const objectType = card.dataset.objectType;
     const objectId = card.dataset.objectId;
