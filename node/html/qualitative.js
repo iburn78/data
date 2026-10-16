@@ -461,6 +461,113 @@ function exitEditMode(card, reload) {
  */
 document.addEventListener("DOMContentLoaded", () => {
 
+    const instanceButton = document.querySelector(".model-instance-update-button");
+    const objectType = instanceButton?.dataset.objectType;
+    const objectId = instanceButton?.dataset.objectId;
+    const newsCard = [...document.querySelectorAll(".qualitative-card")]
+        .find(card => card.querySelector(".qualitative-header h4")
+            ?.textContent.trim().toLowerCase() === "news");
+
+    if (newsCard && objectType && objectId
+        && !newsCard.querySelector(".news-update-button")) {
+        const actions = document.createElement("div");
+        actions.className = "qualitative-actions";
+        const button = document.createElement("button");
+        button.className = "news-update-button";
+        button.type = "button";
+        button.textContent = "Update";
+        actions.appendChild(button);
+        newsCard.querySelector(".qualitative-header")?.appendChild(actions);
+    }
+
+    document.querySelectorAll(".news-row").forEach(row => {
+        row.dataset.objectType ||= objectType || "";
+        row.dataset.objectId ||= objectId || "";
+        if (!row.dataset.newsFile) {
+            const onclick = row.querySelector("a")?.getAttribute("onclick") || "";
+            const match = onclick.match(/openPopup\(['\"]([^'\"]+)/);
+            if (match) {
+                try {
+                    row.dataset.newsFile = decodeURIComponent(
+                        new URL(match[1], location.href).pathname.split("/").pop()
+                    );
+                } catch (error) {
+                    console.error("Could not identify saved news article:", error);
+                }
+            }
+        }
+        if (row.dataset.newsFile && !row.querySelector(".news-delete-button")) {
+            const button = document.createElement("button");
+            button.className = "news-delete-button";
+            button.type = "button";
+            button.title = "Delete article";
+            button.setAttribute("aria-label", "Delete article");
+            button.textContent = "×";
+            row.appendChild(button);
+        }
+    });
+
+    document.querySelectorAll(".news-update-button").forEach(button => {
+        button.addEventListener("click", async () => {
+            const hideProgress = window.showPythonProgress("Collecting and summarizing news…");
+            button.disabled = true;
+            try {
+                const response = await fetch("/api/update-news", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        objectType: button.dataset.objectType || objectType,
+                        objectId: button.dataset.objectId || objectId,
+                    }),
+                });
+                const result = await response.json();
+                if (!response.ok || !result.ok) {
+                    throw new Error(result.error || "News update failed.");
+                }
+                window.location.reload();
+            } catch (error) {
+                alert(error.message || "News update failed.");
+                button.disabled = false;
+            } finally {
+                hideProgress();
+            }
+        });
+    });
+
+    document.querySelectorAll(".news-delete-button").forEach(button => {
+        button.addEventListener("click", async () => {
+            const row = button.closest(".news-row");
+            const hideProgress = window.showPythonProgress("Deleting news article…");
+            button.disabled = true;
+            try {
+                const response = await fetch("/api/delete-news-article", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        objectType: row.dataset.objectType,
+                        objectId: row.dataset.objectId,
+                        fileName: row.dataset.newsFile,
+                    }),
+                });
+                const result = await response.json();
+                if (!response.ok || !result.ok) {
+                    throw new Error(result.error || "Could not delete news article.");
+                }
+                row.remove();
+                const section = document.querySelector(".news-section");
+                if (section && !section.querySelector(".news-row")) {
+                    section.previousElementSibling?.remove();
+                    section.remove();
+                }
+            } catch (error) {
+                alert(error.message || "Could not delete news article.");
+                button.disabled = false;
+            } finally {
+                hideProgress();
+            }
+        });
+    });
+
     document.addEventListener("keydown", event => {
         const infoCard = [...document.querySelectorAll(
             '.qualitative-card[data-section="info_section"]'

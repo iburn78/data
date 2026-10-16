@@ -118,6 +118,65 @@ app.post("/api/delete-instance", async (req, res) => {
     }
 });
 
+app.post("/api/update-news", async (req, res) => {
+    const { objectType, objectId } = req.body;
+    const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
+    if (!allowedTypes.has(objectType) || typeof objectId !== "string" || !objectId) {
+        return res.status(400).json({ ok: false, error: "Invalid model type or identifier." });
+    }
+
+    try {
+        const { code, result } = await runPython(
+            PYTHON,
+            path.join(__dirname, "../../build/tools/refresh_news.py"),
+            { objectType, objectId },
+            "news refresh"
+        );
+        if (code !== 0 || !result.ok) {
+            return res.status(500).json(result);
+        }
+        res.json(result);
+    } catch (error) {
+        console.error("News refresh failed:", error);
+        res.status(500).json({
+            ok: false,
+            error: error.kind === "spawn"
+                ? "Could not start news refresh."
+                : "News refresh failed.",
+        });
+    }
+});
+
+app.post("/api/delete-news-article", async (req, res) => {
+    const { objectType, objectId, fileName } = req.body;
+    const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
+    if (!allowedTypes.has(objectType) || typeof objectId !== "string" || !objectId
+        || typeof fileName !== "string") {
+        return res.status(400).json({ ok: false, error: "Invalid model or article." });
+    }
+
+    try {
+        const { code, result } = await runPython(
+            PYTHON,
+            path.join(__dirname, "../../build/tools/delete_news_article.py"),
+            { objectType, objectId, fileName },
+            "news article deletion"
+        );
+        if (code !== 0 || !result.ok) {
+            return res.status(400).json(result);
+        }
+        res.json(result);
+    } catch (error) {
+        console.error("News article deletion failed:", error);
+        res.status(500).json({
+            ok: false,
+            error: error.kind === "spawn"
+                ? "Could not start news article deletion."
+                : "News article deletion failed.",
+        });
+    }
+});
+
 app.post("/api/update-info", async (req, res) => {
 
     const {

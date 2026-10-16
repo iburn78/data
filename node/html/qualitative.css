@@ -24,10 +24,17 @@
 
 .edit-button,
 .cancel-button,
-.accept-button {
+.accept-button,
+.news-update-button {
     height: 26px;
     padding: 2px 9px;
     cursor: pointer;
+}
+
+.news-update-button:disabled,
+.news-delete-button:disabled {
+    cursor: wait;
+    opacity: 0.6;
 }
 
 input[type="checkbox"] {
