@@ -189,16 +189,19 @@ function renderRelations(content, title, items, path) {
 
     row.appendChild(label);
 
-    for (const item of items) {
+    items.forEach(item => {
         const name = typeof item === "string" ? item : item.name;
         const filename = typeof item === "string" ? item : item.file;
         const link = document.createElement("a");
 
         link.href = `/build/${path}/${encodeURIComponent(filename)}.html`;
         link.textContent = name;
+        if (item && typeof item === "object" && item.current) {
+            link.classList.add("current-segment");
+        }
 
         row.appendChild(link);
-    }
+    });
 
     content.appendChild(row);
 }
@@ -215,11 +218,17 @@ function renderProfileRelations(data, content) {
 
 function renderSegmentRelations(data, content) {
     const valuechains = data.valuechains ?? [];
+    const segments = data.segments ?? [];
+    const currentFilename = decodeURIComponent(
+        location.pathname.split("/").filter(Boolean).at(-1) ?? ""
+    ).replace(/\.html$/, "");
+    const currentKey = currentFilename.match(/^(.+\([A-Za-z]\))_/)?.[1];
 
     if (
         !data.profile &&
         !data.components.length &&
-        !valuechains.length
+        !valuechains.length &&
+        !segments.length
     ) {
         document.getElementById("relations-section").style.display = "none";
         return;
@@ -243,6 +252,11 @@ function renderSegmentRelations(data, content) {
 
     renderRelations(content, "Components", data.components, "components");
     renderRelations(content, "Valuechains", valuechains, "valuechains");
+    renderRelations(content, "Segments", segments.map(segment => ({
+        ...segment,
+        name: `(${segment.key.match(/\(([A-Za-z])\)$/)?.[1] ?? ""}) ${segment.name}`,
+        current: segment.key === currentKey,
+    })), "profiles");
 }
 
 function renderComponentRelations(valuechains, content) {

@@ -339,12 +339,20 @@ app.get("/api/segment/:key", (req, res) => {
     );
 
     let profile = null;
+    const segments = [];
     for (const file of fs.readdirSync(DIRS.profiles)) {
         if (!file.endsWith(".json")) continue;
 
         const data = JSON.parse(
             fs.readFileSync(path.join(DIRS.profiles, file), "utf8")
         );
+        if (data.key && data.key.startsWith(`${code}(`) && data.segment_name) {
+            segments.push({
+                name: data.segment_name,
+                file: data.filename ?? file.replace(/\.json$/, ""),
+                key: data.key,
+            });
+        }
         if ((data.code ?? data.key) === code) {
             profile = {
                 name: data.name ?? code,
@@ -356,6 +364,7 @@ app.get("/api/segment/:key", (req, res) => {
 
     res.json({
         profile,
+        segments: segments.sort((a, b) => a.file.localeCompare(b.file)),
         components: segmentComponents,
         valuechains: segmentValuechains,
     });

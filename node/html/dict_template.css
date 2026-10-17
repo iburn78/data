@@ -497,6 +497,11 @@ a {
     color: #980303;
 }
 
+.relation-row a.current-segment {
+    color: #1d4ed8;
+    font-weight: 700;
+}
+
 footer {
     margin-top: 10px;
     padding: 10px 0 15px;
