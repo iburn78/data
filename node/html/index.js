@@ -42,7 +42,17 @@ async function getItems(section) {
         const base = item.file.replace(".html", "");
         const [codePart, ...name] = base.split("_");
 
-        const match = codePart.match(/^(\d+)(?:\(([A-Z])\))?$/);
+        // Most Korean listings use a six digit code, but some securities
+        // (for example newly listed/prelisting instruments) use alphanumeric IDs.
+        const match = codePart.match(/^([A-Za-z0-9]+)(?:\(([A-Z])\))?$/);
+        if (!match) {
+            // Keep an unexpected filename visible instead of failing the whole list.
+            groups.set(base, {
+                profile: item,
+                segments: [],
+            });
+            continue;
+        }
         const code = match[1];
         const segment = match[2] ?? null;
 
@@ -68,7 +78,9 @@ async function getItems(section) {
 
     // Sort groups by the profile/company name.
     const sortedGroups = [...groups.values()].sort((a, b) => {
-        return a.profile.text.localeCompare(b.profile.text);
+        const aName = a.profile?.text ?? a.segments[0]?.item.text ?? "";
+        const bName = b.profile?.text ?? b.segments[0]?.item.text ?? "";
+        return aName.localeCompare(bName);
     });
 
     // Within each group: profile first, then A, B, C...
@@ -78,7 +90,7 @@ async function getItems(section) {
         );
 
         return [
-            group.profile,
+            ...(group.profile ? [group.profile] : []),
             ...group.segments.map(segment => segment.item),
         ];
     });
@@ -176,10 +188,11 @@ async function showMainSearch(queryOverride = null) {
             );
             const matches = items.filter(item => {
                 const tags = (tagsByFile.get(item.file) ?? "")
-                    .split(/[\s,]+/)
-                    .filter(tag => tag.startsWith("#"))
-                    .map(tag => tag.slice(1).toLowerCase().normalize("NFC"));
-                return tags.includes(tagQuery.toLowerCase().normalize("NFC"));
+                    .match(/#[\p{L}\p{N}_]+/gu) ?? [];
+                const normalizedTags = tags.map(tag =>
+                    tag.slice(1).toLowerCase().normalize("NFC")
+                );
+                return normalizedTags.includes(tagQuery.toLowerCase().normalize("NFC"));
             });
 
             if (matches.length > 0) sectionMatches.push({ section, title, matches });
@@ -306,6 +319,11 @@ document.getElementById("search").addEventListener("input", () => {
 
 // Enter searches the query, then tries the public-company lookup if no item matched.
 document.getElementById("search").addEventListener("keydown", event => {
+    // Korean IMEs use Enter to commit the current syllable. Do not treat that
+    // composition keystroke as a search submission.
+    if (event.isComposing || event.keyCode === 229) {
+        return;
+    }
     if (event.key !== "Enter") {
         return;
     }

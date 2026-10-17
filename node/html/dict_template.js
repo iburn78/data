@@ -190,10 +190,12 @@ function renderRelations(content, title, items, path) {
     row.appendChild(label);
 
     for (const item of items) {
+        const name = typeof item === "string" ? item : item.name;
+        const filename = typeof item === "string" ? item : item.file;
         const link = document.createElement("a");
 
-        link.href = `/build/${path}/${item}.html`;
-        link.textContent = item;
+        link.href = `/build/${path}/${encodeURIComponent(filename)}.html`;
+        link.textContent = name;
 
         row.appendChild(link);
     }

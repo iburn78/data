@@ -1,5 +1,7 @@
-function componentName(component) {
-    return component.key ?? component.name;
+function relationTarget(model) {
+    const name = model.key ?? model.name;
+    const file = model.filename ?? name;
+    return { name, file };
 }
 
 function memberCode(member) {
@@ -18,7 +20,7 @@ function getComponents(code, components) {
                 memberCode(member) === code
             )
         )
-        .map(componentName);
+        .map(relationTarget);
 }
 
 function getComponentsForMember(key, components) {
@@ -28,7 +30,7 @@ function getComponentsForMember(key, components) {
                 (member.key ?? member.code) === key
             )
         )
-        .map(componentName);
+        .map(relationTarget);
 }
 
 function getValuechains(name, valuechains) {
@@ -36,7 +38,7 @@ function getValuechains(name, valuechains) {
         .filter(valuechain =>
             (valuechain.component_keys ?? valuechain.component_names ?? []).includes(name)
         )
-        .map(valuechain => valuechain.key ?? valuechain.name);
+        .map(relationTarget);
 }
 
 module.exports = {

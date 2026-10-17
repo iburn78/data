@@ -35,6 +35,10 @@ const DIRS = {
     valuechains: path.join(ROOT, "build", "valuechains"),
 };
 
+function uniqueRelationTargets(items) {
+    return [...new Map(items.map(item => [item.file, item])).values()];
+}
+
 app.post("/api/check-password", (req, res) => {
 
     const { password } = req.body;
@@ -311,13 +315,11 @@ app.get("/api/profile/:code", (req, res) => {
         components
     );
 
-    const profileValuechains = [
-        ...new Set(
-            profileComponents.flatMap(component =>
-                getValuechains(component, valuechains)
-            )
+    const profileValuechains = uniqueRelationTargets(
+        profileComponents.flatMap(component =>
+            getValuechains(component.name, valuechains)
         )
-    ];
+    );
 
     res.json({
         components: profileComponents,
@@ -330,13 +332,11 @@ app.get("/api/segment/:key", (req, res) => {
     const code = key.replace(/\([A-Za-z]\)$/, "");
     const { components, valuechains } = loadData();
     const segmentComponents = getComponentsForMember(key, components);
-    const segmentValuechains = [
-        ...new Set(
-            segmentComponents.flatMap(component =>
-                getValuechains(component, valuechains)
-            )
+    const segmentValuechains = uniqueRelationTargets(
+        segmentComponents.flatMap(component =>
+            getValuechains(component.name, valuechains)
         )
-    ];
+    );
 
     let profile = null;
     for (const file of fs.readdirSync(DIRS.profiles)) {
@@ -363,9 +363,14 @@ app.get("/api/segment/:key", (req, res) => {
 
 app.get("/api/component/:name", (req, res) => {
     const name = req.params.name;
-    const { valuechains } = loadData();
+    const { components, valuechains } = loadData();
+    const component = components.find(item =>
+        item.filename === name || (item.key ?? item.name) === name
+    );
 
-    const componentValuechains = getValuechains(name, valuechains);
+    const componentValuechains = component
+        ? getValuechains(component.key ?? component.name, valuechains)
+        : [];
 
     res.json(componentValuechains);
 });
