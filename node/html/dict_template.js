@@ -137,6 +137,7 @@ async function loadRelationships() {
                 }
 
                 result = await response.json();
+                renderSegmentTableHeader(result, key);
                 renderSegmentRelations(result, content);
                 return;
             }
@@ -173,6 +174,44 @@ async function loadRelationships() {
     } catch (error) {
         section.style.display = "none";
     }
+}
+
+function renderSegmentTableHeader(data, currentKey) {
+    const table = document.querySelector(".dict-table");
+    const header = table?.querySelector("thead .header-row");
+    if (!table || !header || table.querySelector(".segment-name-row")) {
+        return;
+    }
+
+    const segmentNames = new Map(
+        (data.segments ?? []).map(segment => [segment.key, segment.name])
+    );
+    if (!segmentNames.has(currentKey)) {
+        return;
+    }
+
+    const row = document.createElement("tr");
+    row.className = "segment-name-row";
+
+    for (const [index, cell] of [...header.cells].entries()) {
+        const nameCell = document.createElement("th");
+        nameCell.className = index === 0 ? "label" : "value segment-name";
+
+        if (index > 0) {
+            const link = cell.querySelector("a");
+            const filename = link?.getAttribute("href")?.split("/").pop() ?? "";
+            const key = decodeURIComponent(filename).match(/^(.+\([A-Za-z]\))_/)?.[1];
+            const fullName = segmentNames.get(key);
+            if (fullName) {
+                nameCell.textContent = fullName.length > 7
+                    ? `${fullName.slice(0, 7)}…`
+                    : fullName;
+            }
+        }
+        row.appendChild(nameCell);
+    }
+
+    header.after(row);
 }
 
 function renderRelations(content, title, items, path) {

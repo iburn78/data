@@ -115,6 +115,18 @@ a {
     border-bottom: 0px solid #d1d5db;
 }
 
+.dict-table .segment-name-row th {
+    background: #e2e2e2;
+    color: #334155;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: right;
+}
+
+.dict-table .segment-name-row .segment-name {
+    white-space: nowrap;
+}
+
 
 /* Table sections */
 
