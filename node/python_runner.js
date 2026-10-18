@@ -38,6 +38,13 @@ function getPythonProgress(progressId, after = 0) {
 function runPython(python, script, input, label = "Python task") {
     return new Promise((resolve, reject) => {
         const progressTask = startProgressTask(input?.progressId);
+        if (progressTask) {
+            progressTask.lines.push({
+                index: progressTask.next++,
+                stream: "status",
+                line: `Python called: ${label}`,
+            });
+        }
         const child = spawn(
             python,
             [script],
