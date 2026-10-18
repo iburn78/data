@@ -406,7 +406,8 @@ async function saveEdit(card) {
                 objectType: objectType,
                 objectId: objectId,
                 section: sectionName,
-                values: values
+                values: values,
+                progressId: hideProgress.progressId,
             })
         });
 
@@ -607,6 +608,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         objectId: dialog.dataset.objectId,
                         htmlPath: decodeURIComponent(location.pathname.slice(1)),
                         kind: "llm_research",
+                        progressId: hideProgress.progressId,
                     }),
                 });
                 const result = await response.json();
@@ -698,6 +700,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     body: JSON.stringify({
                         objectType: button.dataset.objectType || objectType,
                         objectId: button.dataset.objectId || objectId,
+                        progressId: hideProgress.progressId,
                     }),
                 });
                 const result = await response.json();
@@ -729,6 +732,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         markdownName: row.dataset.newsFile,
                         markdownPath: row.dataset.newsPath,
                         htmlPath: decodeURIComponent(location.pathname.slice(1)),
+                        progressId: hideProgress.progressId,
                     }),
                 });
                 const result = await response.json();

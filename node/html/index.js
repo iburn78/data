@@ -266,7 +266,7 @@ async function getPublicCompanyProfile(query) {
         const response = await fetch("/api/get-item", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ query }),
+            body: JSON.stringify({ query, progressId: hideProgress.progressId }),
         });
         const result = await response.json();
         if (!response.ok || !result.ok) {

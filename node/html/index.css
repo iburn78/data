@@ -65,7 +65,7 @@ body {
     z-index: 10000;
     display: none;
     padding: 8px 12px 10px;
-    background: #fff;
+    background: #fffdf5;
     box-shadow: 0 2px 8px #0002;
     color: #333;
     font-size: 14px;
@@ -79,14 +79,32 @@ body {
     height: 3px;
     margin-top: 7px;
     overflow: hidden;
-    background: #e5e7eb;
+    background: #fff0bf;
 }
 
 .python-progress-bar {
     width: 35%;
     height: 100%;
-    background: #2563eb;
+    background: #f2c95c;
     animation: python-progress-motion 1.2s ease-in-out infinite;
+}
+
+.python-progress-output {
+    max-height: 180px;
+    margin-top: 7px;
+    overflow: auto;
+    font: 12px/1.45 Consolas, "Courier New", monospace;
+    white-space: pre-wrap;
+}
+
+.python-progress-message {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(96, 0, 0);
+}
+
+.python-progress-line.error {
+    color: #a32626;
 }
 
 @keyframes python-progress-motion {

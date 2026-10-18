@@ -122,6 +122,23 @@
     margin-bottom: 0;
 }
 
+.llm-research-updated {
+    margin: 0 0 14px;
+    color: #64748b;
+    font-size: 0.9em;
+}
+
+.llm-research-markdown a,
+.llm-research-markdown a:visited {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.llm-research-markdown a:hover,
+.llm-research-markdown a:focus-visible {
+    color: #1d4ed8;
+}
+
 .llm-research-dialog-content table {
     border-collapse: collapse;
     width: 100%;

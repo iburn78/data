@@ -45,6 +45,7 @@ document.querySelectorAll(".model-instance-update-button").forEach(button => {
                 body: JSON.stringify({
                     objectType: button.dataset.objectType,
                     objectId: button.dataset.objectId,
+                    progressId: hideProgress.progressId,
                 }),
             });
             const result = await response.json();
@@ -87,7 +88,7 @@ document.querySelectorAll(".model-instance-delete-button").forEach(button => {
             const response = await fetch("/api/delete-instance", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ objectType, objectId }),
+                body: JSON.stringify({ objectType, objectId, progressId: hideProgress.progressId }),
             });
             const result = await response.json();
             if (!response.ok || !result.ok) {

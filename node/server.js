@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { runPython } = require("./python_runner");
+const { runPython, getPythonProgress } = require("./python_runner");
 
 const PYTHON = path.join(
     __dirname,
@@ -42,6 +42,24 @@ function uniqueRelationTargets(items) {
     return [...new Map(items.map(item => [item.file, item])).values()];
 }
 
+function runPythonRequest(req, script, input, label) {
+    return runPython(
+        PYTHON,
+        script,
+        { ...input, progressId: req.body?.progressId },
+        label
+    );
+}
+
+app.get("/api/python-progress/:id", (req, res) => {
+    const after = Number.parseInt(req.query.after, 10) || 0;
+    const progress = getPythonProgress(req.params.id, after);
+    if (!progress) {
+        return res.json({ lines: [], next: after, done: false });
+    }
+    res.json(progress);
+});
+
 app.post("/api/check-password", (req, res) => {
 
     const { password } = req.body;
@@ -74,8 +92,8 @@ app.post("/api/update-instance", async (req, res) => {
     }
 
     try {
-        const { code, result } = await runPython(
-            PYTHON,
+        const { code, result } = await runPythonRequest(
+            req,
             path.join(__dirname, "../../build/tools/update_instance.py"),
             { objectType, objectId },
             "model update"
@@ -104,8 +122,8 @@ app.post("/api/delete-instance", async (req, res) => {
     }
 
     try {
-        const { code, result } = await runPython(
-            PYTHON,
+        const { code, result } = await runPythonRequest(
+            req,
             path.join(__dirname, "../../build/tools/delete_instance.py"),
             { objectType, objectId },
             "model deletion"
@@ -133,8 +151,8 @@ app.post("/api/update-news", async (req, res) => {
     }
 
     try {
-        const { code, result } = await runPython(
-            PYTHON,
+        const { code, result } = await runPythonRequest(
+            req,
             path.join(__dirname, "../../build/tools/refresh_news.py"),
             { objectType, objectId },
             "news refresh"
@@ -173,8 +191,8 @@ app.post("/api/delete-markdown", async (req, res) => {
     }
 
     try {
-        const { code, result } = await runPython(
-            PYTHON,
+        const { code, result } = await runPythonRequest(
+            req,
             path.join(__dirname, "../../build/tools/delete_markdown.py"),
             { objectType, objectId, markdownName, markdownPath, htmlPath, kind },
             kind === "llm_research" ? "LLM research deletion" : "Markdown deletion"
@@ -226,8 +244,8 @@ app.post("/api/update-info", async (req, res) => {
     };
 
     try {
-        const { code, result } = await runPython(
-            PYTHON,
+        const { code, result } = await runPythonRequest(
+            req,
             path.join(__dirname, "../../build/tools/update_info.py"),
             data,
             "information update"
@@ -257,8 +275,8 @@ app.post("/api/get-item", async (req, res) => {
     }
 
     try {
-        const { code, result } = await runPython(
-            PYTHON,
+        const { code, result } = await runPythonRequest(
+            req,
             path.join(__dirname, "../../build/tools/get_profile.py"),
             { query: query.trim() },
             "profile creation"
