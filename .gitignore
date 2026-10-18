@@ -8,7 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-# build/
+build/
 develop-eggs/
 dist/
 downloads/
@@ -217,12 +217,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# make build dir at the root to be tracked
+# !/build/
+
 .DS_Store
 *.png
-profiles/*.html
-components/*.html
-valuechains/*.html
-news/
+**/profiles/*.html
+**/components/*.html
+**/valuechains/*.html
+**/news/
 
 node/node_modules/
 node/.env
