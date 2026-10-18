@@ -9,6 +9,131 @@
     margin: 0;
 }
 
+.llm-research-trigger-row {
+    margin: 10px 0 6px;
+}
+
+.llm-research-link {
+    padding: 5px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    background: #fff;
+    color: #334155;
+    cursor: pointer;
+}
+
+.llm-research-link:hover {
+    background: #f1f5f9;
+}
+
+.llm-research-delete-button {
+    padding: 5px 10px;
+    border: 1px solid #fecaca;
+    border-radius: 5px;
+    background: #fff;
+    color: #991b1b;
+    cursor: pointer;
+}
+
+.llm-research-delete-button:hover {
+    background: #fef2f2;
+}
+
+.llm-research-delete-button:disabled {
+    cursor: wait;
+    opacity: 0.6;
+}
+
+.llm-research-status {
+    color: #475569;
+    font-size: 0.9em;
+}
+
+.llm-research-dialog-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.llm-research-dialog {
+    width: min(900px, calc(100vw - 40px));
+    max-width: 900px;
+    max-height: min(85vh, 900px);
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+    color: #1f2937;
+    box-shadow: 0 20px 60px #0005;
+}
+
+.llm-research-dialog::backdrop {
+    background: #0f172a99;
+}
+
+.llm-research-dialog[open] {
+    display: flex;
+    flex-direction: column;
+}
+
+.llm-research-dialog-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    border-bottom: 1px solid #e5e7eb;
+    background: #fff;
+}
+
+.llm-research-dialog-header h2 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.llm-research-dialog-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.llm-research-close {
+    border: 0;
+    background: transparent;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.llm-research-dialog-content {
+    padding: 18px 22px;
+    overflow: auto;
+    min-height: 0;
+}
+
+.llm-research-dialog-content > :first-child {
+    margin-top: 0;
+}
+
+.llm-research-dialog-content > :last-child {
+    margin-bottom: 0;
+}
+
+.llm-research-dialog-content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.llm-research-dialog-content th,
+.llm-research-dialog-content td {
+    border: 1px solid #d1d5db;
+    padding: 6px 9px;
+    text-align: left;
+}
+
 .qualitative-actions {
     display: flex;
     align-items: center;

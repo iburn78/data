@@ -6,7 +6,10 @@ const { runPython } = require("./python_runner");
 
 const PYTHON = path.join(
     __dirname,
-    "../../build/venv/bin/python"
+    "../../build/venv",
+    process.platform === "win32"
+        ? "Scripts/python.exe"
+        : "bin/python"
 );
 
 const { loadData } = require("./data");
@@ -151,32 +154,42 @@ app.post("/api/update-news", async (req, res) => {
     }
 });
 
-app.post("/api/delete-news-article", async (req, res) => {
-    const { objectType, objectId, fileName } = req.body;
+app.post("/api/delete-markdown", async (req, res) => {
+    const {
+        objectType,
+        objectId,
+        markdownName,
+        markdownPath,
+        htmlPath,
+        kind = "news_article",
+    } = req.body;
     const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
     if (!allowedTypes.has(objectType) || typeof objectId !== "string" || !objectId
-        || typeof fileName !== "string") {
-        return res.status(400).json({ ok: false, error: "Invalid model or article." });
+        || !["news_article", "llm_research"].includes(kind)
+        || typeof htmlPath !== "string"
+        || (kind === "news_article" && (typeof markdownName !== "string" || typeof markdownPath !== "string"))
+        || (kind === "llm_research" && objectType !== "Profile")) {
+        return res.status(400).json({ ok: false, error: "Invalid model or Markdown file." });
     }
 
     try {
         const { code, result } = await runPython(
             PYTHON,
-            path.join(__dirname, "../../build/tools/delete_news_article.py"),
-            { objectType, objectId, fileName },
-            "news article deletion"
+            path.join(__dirname, "../../build/tools/delete_markdown.py"),
+            { objectType, objectId, markdownName, markdownPath, htmlPath, kind },
+            kind === "llm_research" ? "LLM research deletion" : "Markdown deletion"
         );
         if (code !== 0 || !result.ok) {
             return res.status(400).json(result);
         }
         res.json(result);
     } catch (error) {
-        console.error("News article deletion failed:", error);
+        console.error("Markdown deletion failed:", error);
         res.status(500).json({
             ok: false,
             error: error.kind === "spawn"
-                ? "Could not start news article deletion."
-                : "News article deletion failed.",
+                ? "Could not start Markdown file deletion."
+                : "Markdown deletion failed.",
         });
     }
 });

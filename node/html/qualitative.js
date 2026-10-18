@@ -461,6 +461,173 @@ function exitEditMode(card, reload) {
  */
 document.addEventListener("DOMContentLoaded", () => {
 
+    // Keep the research entry point available on older generated Profile pages.
+    const profileButton = [...document.querySelectorAll(".model-instance-update-button")]
+        .find(button => button.dataset.objectType === "Profile");
+    if (profileButton) {
+        const objectId = profileButton.dataset.objectId;
+        let researchRow = document.querySelector(".llm-research-trigger-row");
+        if (!researchRow) {
+            researchRow = document.createElement("div");
+            researchRow.className = "llm-research-trigger-row";
+            const newsHeading = [...document.querySelectorAll("h3")]
+                .find(heading => heading.textContent.trim().toLowerCase() === "news");
+            if (newsHeading) {
+                newsHeading.before(researchRow);
+            } else {
+                document.querySelector(".qualitative-section")?.after(researchRow);
+            }
+        }
+        if (researchRow) {
+            researchRow.dataset.objectType = "Profile";
+            researchRow.dataset.objectId = objectId;
+            const dialogId = `llm-research-dialog-${objectId.replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+            let researchLink = researchRow.querySelector(".llm-research-link");
+            if (!researchLink) {
+                researchLink = document.createElement("button");
+                researchLink.className = "llm-research-link";
+                researchLink.type = "button";
+                researchLink.textContent = "LLM Research";
+                researchLink.setAttribute("aria-haspopup", "dialog");
+                researchRow.appendChild(researchLink);
+            }
+            researchLink.setAttribute("aria-controls", dialogId);
+
+            let dialog = document.getElementById(dialogId);
+            if (!dialog) {
+                dialog = document.createElement("dialog");
+                dialog.className = "llm-research-dialog";
+                dialog.id = dialogId;
+                dialog.innerHTML = `
+                    <div class="llm-research-dialog-header">
+                        <h2 id="${dialogId}-title">LLM Research</h2>
+                        <div class="llm-research-dialog-header-actions">
+                            <button class="llm-research-close" type="button" aria-label="Close research">×</button>
+                        </div>
+                    </div>
+                    <div class="llm-research-dialog-content">
+                        <div class="llm-research-markdown"></div>
+                        <div class="llm-research-dialog-actions"></div>
+                    </div>`;
+                document.body.appendChild(dialog);
+                const legacyContent = document.querySelector(".llm-research-card .llm-research-content");
+                const markdown = dialog.querySelector(".llm-research-markdown");
+                if (legacyContent) {
+                    markdown.innerHTML = legacyContent.innerHTML;
+                    legacyContent.closest(".llm-research-card")?.remove();
+                } else {
+                    markdown.innerHTML = '<p class="llm-research-missing">LLM research md file is missing...</p>';
+                }
+            }
+            dialog.dataset.objectType = "Profile";
+            dialog.dataset.objectId = objectId;
+            dialog.setAttribute("aria-labelledby", `${dialogId}-title`);
+
+            const dialogContent = dialog.querySelector(".llm-research-dialog-content");
+            if (dialogContent && !dialogContent.querySelector(".llm-research-markdown")) {
+                const markdown = document.createElement("div");
+                markdown.className = "llm-research-markdown";
+                const existingActions = dialogContent.querySelector(".llm-research-dialog-actions");
+                [...dialogContent.childNodes]
+                    .filter(node => node !== existingActions)
+                    .forEach(node => markdown.appendChild(node));
+                dialogContent.insertBefore(markdown, existingActions || null);
+            }
+
+            let actions = dialog.querySelector(".llm-research-dialog-actions");
+            if (!actions) {
+                actions = document.createElement("div");
+                actions.className = "llm-research-dialog-actions";
+                dialog.querySelector(".llm-research-dialog-content")?.appendChild(actions);
+            }
+            let headerActions = dialog.querySelector(".llm-research-dialog-header-actions");
+            if (!headerActions) {
+                headerActions = document.createElement("div");
+                headerActions.className = "llm-research-dialog-header-actions";
+                const closeButton = dialog.querySelector(".llm-research-close");
+                if (closeButton) headerActions.appendChild(closeButton);
+                dialog.querySelector(".llm-research-dialog-header")?.appendChild(headerActions);
+            }
+
+            const markdown = dialog.querySelector(".llm-research-markdown");
+            const hasResearch = Boolean(markdown?.textContent.trim())
+                && !markdown.querySelector(".llm-research-missing");
+            let deleteButton = dialog.querySelector(".llm-research-delete-button")
+                || researchRow.querySelector(".llm-research-delete-button");
+            if (hasResearch && !deleteButton) {
+                deleteButton = document.createElement("button");
+                deleteButton.className = "llm-research-delete-button";
+                deleteButton.type = "button";
+            }
+            if (hasResearch) {
+                deleteButton.textContent = "Delete";
+                headerActions.insertBefore(deleteButton, headerActions.querySelector(".llm-research-close"));
+            } else {
+                deleteButton?.remove();
+            }
+            researchRow.querySelector(".llm-research-status")?.remove();
+
+            if (!dialog.querySelector(".llm-research-status")) {
+                const status = document.createElement("span");
+                status.className = "llm-research-status";
+                status.setAttribute("role", "status");
+                status.setAttribute("aria-live", "polite");
+                actions.appendChild(status);
+            }
+        }
+    }
+
+    document.querySelectorAll(".llm-research-link").forEach(button => {
+        const dialog = document.getElementById(button.getAttribute("aria-controls"));
+        if (!dialog) return;
+
+        button.addEventListener("click", () => dialog.showModal());
+        dialog.querySelector(".llm-research-close")?.addEventListener("click", () => dialog.close());
+        dialog.addEventListener("click", event => {
+            if (event.target === dialog) dialog.close();
+        });
+    });
+
+    document.querySelectorAll(".llm-research-delete-button").forEach(button => {
+        button.addEventListener("click", async () => {
+            const dialog = button.closest(".llm-research-dialog");
+            const status = dialog?.querySelector(".llm-research-status");
+            if (!dialog || !window.confirm("Delete this profile's saved LLM Research Markdown file?")) {
+                return;
+            }
+
+            const hideProgress = window.showPythonProgress("Deleting LLM research…");
+            button.disabled = true;
+            try {
+                const response = await fetch("/api/delete-markdown", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        objectType: dialog.dataset.objectType,
+                        objectId: dialog.dataset.objectId,
+                        htmlPath: decodeURIComponent(location.pathname.slice(1)),
+                        kind: "llm_research",
+                    }),
+                });
+                const result = await response.json();
+                if (!response.ok || !result.ok) {
+                    throw new Error(result.error || "Could not delete LLM research.");
+                }
+
+                status.textContent = "(update to create)";
+                dialog.querySelector(".llm-research-markdown").innerHTML =
+                    '<p class="llm-research-missing">LLM research md file is missing...</p>';
+                dialog.removeAttribute("data-research-hash");
+                dialog.querySelector(".llm-research-delete-button")?.remove();
+            } catch (error) {
+                status.textContent = error.message || "Could not delete LLM research.";
+            } finally {
+                button.disabled = false;
+                hideProgress();
+            }
+        });
+    });
+
     const instanceButton = document.querySelector(".model-instance-update-button");
     const objectType = instanceButton?.dataset.objectType;
     const objectId = instanceButton?.dataset.objectId;
@@ -493,6 +660,19 @@ document.addEventListener("DOMContentLoaded", () => {
                     );
                 } catch (error) {
                     console.error("Could not identify saved news article:", error);
+                }
+            }
+        }
+        if (!row.dataset.newsPath) {
+            const onclick = row.querySelector("a")?.getAttribute("onclick") || "";
+            const match = onclick.match(/openPopup\(['\"]([^'\"]+)/);
+            if (match) {
+                try {
+                    row.dataset.newsPath = decodeURIComponent(
+                        new URL(match[1], location.href).pathname.replace(/^\/+/, "")
+                    );
+                } catch (error) {
+                    console.error("Could not identify saved news article path:", error);
                 }
             }
         }
@@ -540,13 +720,15 @@ document.addEventListener("DOMContentLoaded", () => {
             const hideProgress = window.showPythonProgress("Deleting news article…");
             button.disabled = true;
             try {
-                const response = await fetch("/api/delete-news-article", {
+                const response = await fetch("/api/delete-markdown", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
                         objectType: row.dataset.objectType,
                         objectId: row.dataset.objectId,
-                        fileName: row.dataset.newsFile,
+                        markdownName: row.dataset.newsFile,
+                        markdownPath: row.dataset.newsPath,
+                        htmlPath: decodeURIComponent(location.pathname.slice(1)),
                     }),
                 });
                 const result = await response.json();

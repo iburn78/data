@@ -5,7 +5,12 @@ function runPython(python, script, input, label = "Python task") {
         const child = spawn(
             python,
             [script],
-            { stdio: ["pipe", "pipe", "pipe", "pipe"] }
+            {
+                stdio: ["pipe", "pipe", "pipe", "pipe"],
+                // Node sends JSON as UTF-8; make Python decode it the same way
+                // on Windows, where the locale encoding may be a legacy code page.
+                env: { ...process.env, PYTHONIOENCODING: "utf-8" },
+            }
         );
 
         let response = "";
