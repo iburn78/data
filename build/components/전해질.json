@@ -1,0 +1,132 @@
+{
+    "key": "전해질",
+    "filename": "전해질",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "전해질",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1820.0,
+                "revenue_4qtrs": 2170.0,
+                "opincome_4qtrs": -81.6,
+                "revenue_qtr": 587.0,
+                "opincome_qtr": 8.9
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": -3.03,
+                "growth_per_qtr": 0.149
+            },
+            "opmargin": {
+                "25_4Q": -0.128,
+                "26_1Q": -0.0734,
+                "26_2Q": 0.0152,
+                "26_3Q": 0.0152,
+                "4qtrs": -0.0376
+            },
+            "PER": {
+                "PER_ltm": -22.3,
+                "PER_qx4": 51.2,
+                "PER_fwd": 348.0
+            },
+            "volatility": {
+                "measure_to_base": 0.69,
+                "slope": 7.14e-6
+            },
+            "amount": {
+                "measure_to_base": 1.85,
+                "slope": -0.272
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000276,
+                    "beta": 1.03
+                },
+                "base_duration": {
+                    "alpha": -0.0037,
+                    "beta": 0.635
+                },
+                "measure_duration": {
+                    "alpha": 0.00442,
+                    "beta": 0.844
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "348370",
+            "name": "엔켐"
+        },
+        {
+            "key": "025900",
+            "name": "동화기업"
+        },
+        {
+            "key": "036830",
+            "name": "솔브레인홀딩스"
+        },
+        {
+            "key": "317330",
+            "name": "덕산테코피아"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 13:00",
+        "key_facts": [
+            "2022년 말 전 세계 대규모 배터리 저장 설비 용량은 약 28GW이며, 2022년 한 해에만 11GW 이상이 추가되어 전년 대비 75% 이상 증가함.",
+            "2022년 리튬 수요의 약 60%가 전기차(EV) 배터리용으로 사용됨.",
+            "2022년 기준 양극재 및 리튬 전해액의 90%가 중국에서 생산됨.",
+            "미국 에너지 저장 설비 용량은 2017년 645MWh에서 2022년 12,191MWh로 18배 이상 증가함.",
+            "2023년 전 세계 전기차 판매량은 1,400만 대이며, 전체 판매량 내 비중은 2020년 약 4%에서 2023년 18%로 상승함."
+        ],
+        "new_trends": [
+            "AI 및 머신러닝(ML)을 활용한 전해질 설계: MolSets와 같은 모델을 통해 최적 조성 예측 시간을 획기적으로 단축하는 연구 진행 중(2024년 6월 사례).",
+            "차세대 전해질 연구: 고체 전해질 및 젤 폴리머 전해질(GPE)을 통한 에너지 밀도 및 안전성 향상 추구.",
+            "지속 가능한 전해질 개발: 재생 가능한 자원 기반의 바이오 기반 및 무독성 전해질 개발 수요 증가.",
+            "공급망 리스크 관리: 핵심 원자재의 특정 국가 집중으로 인한 취약성 해결 및 윤리적 조달 강화 추세."
+        ],
+        "news_summary": "배터리 전해액 시장은 전기차(EV) 보급 확대와 에너지 저장 장치(ESS) 수요 급증에 힘입어 빠르게 성장하고 있습니다. 특히 아시아 태평양 지역이 생산과 수요 모두에서 시장을 주도하고 있으며, 중국이 압도적인 생산 점유율을 보유하고 있습니다. 기술적으로는 기존의 시행착오 방식에서 벗어나 AI와 머신러닝을 도입한 최적 조성 설계가 시도되고 있으며, 안전성과 효율성을 높이기 위한 고체 및 젤 폴리머 전해질 연구가 활발합니다. 다만, 핵심 원자재의 공급망 편중과 일부 지역의 정부 지원 부족이 시장 성장의 제약 요인으로 작용하고 있습니다."
+    }
+}

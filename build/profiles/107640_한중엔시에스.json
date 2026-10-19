@@ -1,0 +1,136 @@
+{
+    "key": "107640",
+    "filename": "107640_한중엔시에스",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "한중엔시에스",
+            "code": "107640",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 380.0,
+                "revenue_4qtrs": 200.0,
+                "opincome_4qtrs": -9.72,
+                "revenue_qtr": 42.6,
+                "opincome_qtr": -6.95
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -0.684,
+                "growth_per_qtr": 0.281
+            },
+            "opmargin": {
+                "25_4Q": 0.0455,
+                "26_1Q": 0.0264,
+                "26_2Q": -0.163,
+                "26_3Q": -0.163,
+                "4qtrs": -0.0487
+            },
+            "PER": {
+                "PER_ltm": -39.1,
+                "PER_qx4": -13.7,
+                "PER_fwd": -11.0
+            },
+            "volatility": {
+                "measure_to_base": 0.783,
+                "slope": -0.000193
+            },
+            "amount": {
+                "measure_to_base": 2.16,
+                "slope": -0.17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00325,
+                    "beta": 0.578
+                },
+                "base_duration": {
+                    "alpha": -0.000638,
+                    "beta": 0.684
+                },
+                "measure_duration": {
+                    "alpha": 0.00852,
+                    "beta": 0.928
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:44",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "ESS",
+            "자동차부품 (Automotive Parts)"
+        ],
+        "revenue_share": [
+            0.6,
+            0.4
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "고성장 전망 (High growth outlook)",
+            "stable"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "수냉식 냉각시스템 (Water-cooled cooling systems)",
+            "EV 전용 Cooling Fan Module"
+        ],
+        "competitors": [
+            "Global cooling system providers",
+            "Global automotive component suppliers"
+        ]
+    },
+    "code": "107640",
+    "name": "한중엔시에스",
+    "overview": {
+        "title": "매출성장에도 투자 확대로 수익성 부담",
+        "desc": "동사는 1995년 설립되어 2024년 코스닥에 상장한 ESS 및 EV 부품 전문 기업임. ESS 부문에서는 배터리 충·방전 열량을 제어하는 수냉식 냉각시스템을 개발하며, 자동차부품 부문에서는 EV 전용 Cooling Fan Module 등을 글로벌 전장부품사에 공급하고 있음. 글로벌 배터리 제조사와 공동 R&D를 추진하며 수냉식 냉각시스템 분야의 선두 위치를 유지하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 39.9% 증가, 영업손실은 2303.5% 증가, 당기순손실은 126.4% 증가. ESS부문은 글로벌배터리 제조사와의 공동개발 확대와 수냉식 시스템 모듈 양산 본격화로 매출이 증가했으나 수익성은 악화됨. 북미 ESS 시장은 AI 데이터센터 전력 수요 급증과 재생에너지 확대 정책으로 고성장 전망이며 동사는 미국 법인을 거점으로 LFP 기반 수냉식 냉각시스템 공동개발을 추진하고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-10-17 13:24"
+    },
+    "news": {
+        "updated": "2026-10-17 13:25",
+        "key_facts": [
+            "삼성SDI의 핵심 공급사로서 북미 ESS 현지화를 추진 중이며, 2026년 4분기부터 SBB 2.0 양산을 시작할 예정임.",
+            "산업통상자원부 '월드클래스 플러스 프로젝트'에 선정되어 AI 기반 하이브리드 ESS 냉각 시스템을 개발 중임.",
+            "미국 인디애나주에 공장을 건설 중이며, 2027년 설비 구축 후 2028년부터 연 생산능력 약 3,000억 원 규모로 생산할 계획임.",
+            "2027년부터 전기차(EV)향 롤링 플레이트 납품 시작 및 데이터센터 냉각재 사업 확대 가능성이 있음.",
+            "2026년 연간 영업손실 27억 원으로 적자 전환이 예상되나, 2027년 매출 3,688억 원, 영업이익 170억 원으로 흑자 전환 전망임."
+        ],
+        "key_issues": [
+            "주요 고객사의 ESS 신제품 출시 전 재고 조정 및 미국 진출 비용, 연구개발비 증가로 인해 2026년 3분기 실적이 저점을 형성함."
+        ],
+        "news_summary": "한중엔시에스는 삼성SDI의 핵심 파트너로서 수냉식 ESS 냉각 시스템 기술을 바탕으로 북미 시장 진출과 사업 확대를 추진하고 있습니다. 2026년에는 투자 비용과 재고 조정으로 일시적 적자가 예상되나, SBB 2.0 양산과 EV향 신사업 진출을 통해 2027년부터 본격적인 실적 개선과 흑자 전환이 기대됩니다."
+    }
+}

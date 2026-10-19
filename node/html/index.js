@@ -17,7 +17,10 @@ async function getItems(section) {
 
     const files = await response.json();
 
-    const items = files.map(file => {
+    const items = files.map(entry => {
+        const { file, reviewed = false } = typeof entry === "string"
+            ? { file: entry, reviewed: true }
+            : entry;
         let text = file.replace(".html", "");
 
         if (section === "profiles") {
@@ -27,7 +30,7 @@ async function getItems(section) {
             text = text.replaceAll("_", " ");
         }
 
-        return { file, text };
+        return { file, text, reviewed };
     });
 
     if (section !== "profiles") {
@@ -143,13 +146,16 @@ function renderSection() {
             continue;
         }
 
-        const link = document.createElement("a");
-
-        link.href = `/build/${currentSection}/${item.file}`;
-        link.textContent = item.text;
-
-        list.appendChild(link);
+        list.appendChild(createModelLink(currentSection, item));
     }
+}
+
+function createModelLink(section, item) {
+    const link = document.createElement("a");
+    link.href = `/build/${section}/${item.file}`;
+    link.textContent = item.text;
+    if (!item.reviewed) link.classList.add("unreviewed-model");
+    return link;
 }
 
 
@@ -214,10 +220,7 @@ async function showMainSearch(queryOverride = null) {
                 list.appendChild(heading);
 
                 for (const item of matches) {
-                    const link = document.createElement("a");
-                    link.href = `/build/${section}/${item.file}`;
-                    link.textContent = item.text;
-                    list.appendChild(link);
+                    list.appendChild(createModelLink(section, item));
                 }
             }
             return sectionMatches.reduce((total, section) => total + section.matches.length, 0);
@@ -248,12 +251,7 @@ async function showMainSearch(queryOverride = null) {
         list.appendChild(heading);
 
         for (const item of matches) {
-            const link = document.createElement("a");
-
-            link.href = `/build/${section}/${item.file}`;
-            link.textContent = item.text;
-
-            list.appendChild(link);
+            list.appendChild(createModelLink(section, item));
         }
     }
     return matchCount;

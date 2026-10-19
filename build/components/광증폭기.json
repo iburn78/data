@@ -1,0 +1,103 @@
+{
+    "key": "광증폭기",
+    "filename": "광증폭기",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "광증폭기",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 135.0,
+                "revenue_4qtrs": 19.9,
+                "opincome_4qtrs": 1.55,
+                "revenue_qtr": 4.53,
+                "opincome_qtr": 0.128
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 0.181,
+                "growth_per_qtr": 0.466
+            },
+            "opmargin": {
+                "25_4Q": 0.268,
+                "26_1Q": -0.326,
+                "26_2Q": 0.0283,
+                "26_3Q": 0.0283,
+                "4qtrs": 0.0782
+            },
+            "PER": {
+                "PER_ltm": 86.6,
+                "PER_qx4": 263.0,
+                "PER_fwd": 58.0
+            },
+            "volatility": {
+                "measure_to_base": 0.94,
+                "slope": -0.000591
+            },
+            "amount": {
+                "measure_to_base": 1.99,
+                "slope": -0.112
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00117,
+                    "beta": 0.766
+                },
+                "base_duration": {
+                    "alpha": -0.000289,
+                    "beta": 0.521
+                },
+                "measure_duration": {
+                    "alpha": 0.0132,
+                    "beta": 1.61
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "388790",
+            "name": "라이콤"
+        }
+    ]
+}

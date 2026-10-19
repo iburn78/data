@@ -1,0 +1,111 @@
+{
+    "key": "096770(A)",
+    "filename": "096770(A)_정유",
+    "updated": "2026-10-19 13:50",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "SK이노베이션",
+            "code": "096770",
+            "segment_name": "정유",
+            "id": "A",
+            "updated": "2026-10-19 13:50",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 13900.0,
+                "revenue_4qtrs": 55000.0,
+                "opincome_4qtrs": 5110.0,
+                "revenue_qtr": 15700.0,
+                "opincome_qtr": 1460.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 51.0,
+                "growth_per_qtr": 0.0399
+            },
+            "opmargin": {
+                "25_4Q": 0.093,
+                "26_1Q": 0.093,
+                "26_2Q": 0.093,
+                "26_3Q": 0.093,
+                "4qtrs": 0.093
+            },
+            "PER": {
+                "PER_ltm": 2.71,
+                "PER_qx4": 2.37,
+                "PER_fwd": 2.18
+            },
+            "volatility": {
+                "measure_to_base": 0.927,
+                "slope": 0.000225
+            },
+            "amount": {
+                "measure_to_base": 0.928,
+                "slope": 0.329
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000455,
+                    "beta": 0.882
+                },
+                "base_duration": {
+                    "alpha": 0.00244,
+                    "beta": 0.167
+                },
+                "measure_duration": {
+                    "alpha": 0.00519,
+                    "beta": 0.0886
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.54,
+        "marcap_share": 0.54,
+        "opmargin": 0.093,
+        "trend": ""
+    },
+    "id": "A",
+    "profile_name": "SK이노베이션",
+    "profile_code": "096770",
+    "segment_name": "정유",
+    "news": {
+        "updated": "2026-10-15 16:45",
+        "key_financials": [],
+        "key_facts": [
+            "글로벌 공급 차질로 인한 정제마진 상승 및 정유업 호조로 현금흐름 개선 (무디스 평가)",
+            "높은 정유설비 가동률과 수출 비중을 통해 국내 연료가격 상한으로 인한 영향을 상쇄 중 (무디스 평가)",
+            "SK이노베이션 산하 SK엔무브가 글로벌 그룹3 윤활기유 시장 점유율 및 생산능력 세계 1위 기록",
+            "SK엔무브의 그룹3 제품이 전기차 배터리 및 데이터센터 전력 효율 향상용 윤활유 원료로 활용됨"
+        ],
+        "key_issues": [
+            "정유 및 석유화학 업황의 변동성 상존 (무디스 평가)",
+            "국제유가 흐름 및 정제마진 변화에 따른 실적 및 주가 변동성 가능성"
+        ],
+        "news_summary": "SK이노베이션의 정유 및 윤활유 부문은 글로벌 공급망 차질에 따른 정제마진 상승과 고급 윤활기유(그룹3) 수요 증가로 호조세를 보이고 있습니다. 특히 SK엔무브는 세계 1위의 그룹3 윤활기유 경쟁력을 바탕으로 중동발 공급 부족 상황에서 핵심 대체 공급망으로 부상하며 실적 개선을 주도하고 있습니다. 무디스는 이러한 정유·윤활유 부문의 탄탄한 현금흐름이 회사의 부채 감축과 재무구조 회복을 뒷받침하고 있다고 평가했습니다."
+    }
+}

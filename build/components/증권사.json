@@ -1,0 +1,186 @@
+{
+    "key": "증권사",
+    "filename": "증권사",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "증권사",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 52900.0,
+                "revenue_4qtrs": 194000.0,
+                "opincome_4qtrs": 0.0,
+                "revenue_qtr": 61000.0,
+                "opincome_qtr": 0.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 0.0,
+                "growth_per_qtr": null
+            },
+            "opmargin": {
+                "25_4Q": 0.0,
+                "26_1Q": 0.0,
+                "26_2Q": 0.0,
+                "26_3Q": 0.0,
+                "4qtrs": 0.0
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base": 0.558,
+                "slope": -0.000247
+            },
+            "amount": {
+                "measure_to_base": 1.18,
+                "slope": -7.28
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000143,
+                    "beta": 1.03
+                },
+                "base_duration": {
+                    "alpha": -0.00466,
+                    "beta": 0.706
+                },
+                "measure_duration": {
+                    "alpha": -0.00312,
+                    "beta": 0.665
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "006800",
+            "name": "미래에셋증권"
+        },
+        {
+            "key": "071050",
+            "name": "한국금융지주"
+        },
+        {
+            "key": "005940",
+            "name": "NH투자증권"
+        },
+        {
+            "key": "016360",
+            "name": "삼성증권"
+        },
+        {
+            "key": "039490",
+            "name": "키움증권"
+        },
+        {
+            "key": "003540",
+            "name": "대신증권"
+        },
+        {
+            "key": "003530",
+            "name": "한화투자증권"
+        },
+        {
+            "key": "003470",
+            "name": "유안타증권"
+        },
+        {
+            "key": "030610",
+            "name": "교보증권"
+        },
+        {
+            "key": "001500",
+            "name": "현대차증권"
+        },
+        {
+            "key": "001720",
+            "name": "신영증권"
+        },
+        {
+            "key": "001200",
+            "name": "유진투자증권"
+        },
+        {
+            "key": "001270",
+            "name": "부국증권"
+        },
+        {
+            "key": "001750",
+            "name": "한양증권"
+        },
+        {
+            "key": "001510",
+            "name": "SK증권"
+        },
+        {
+            "key": "016610",
+            "name": "DB증권"
+        },
+        {
+            "key": "030210",
+            "name": "다올투자증권"
+        },
+        {
+            "key": "001290",
+            "name": "상상인증권"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 14:19",
+        "key_facts": [
+            "증시 거래대금 회복에 따른 수수료 수익(브로커리지) 개선 및 주요 증권사의 주주환원 정책 강화로 증권 업종의 실적 개선 기대감이 상승함.",
+            "부동산 프로젝트파이낸싱(PF) 관련 리스크의 단계적 해소와 글로벌 금리 인하 기조가 증권 업황 턴어라운드의 배경으로 작용함.",
+            "국내 10대 증권사 리서치센터는 하반기 코스피 상단을 최대 12,600선으로 전망하며, 3분기 반도체 중심 강세 후 4분기 조정 가능성을 예측함.",
+            "중국 대형 증권사(시틱, 중국증권, 화타이 등)들은 8월 기술주 및 반도체 섹터에 대해 '낙관' 의견으로 전환하며 펀더멘털 중심의 회복 국면 진입을 전망함."
+        ],
+        "new_trends": [
+            "구독형 투자정보 제공 회원제 서비스(예: KB증권 PRIME CLUB)를 통한 고객 접점 확대 및 투자 콘텐츠 제공.",
+            "AI 산업 확산에 따른 생산성 향상이 2030년까지 이어질 것이라는 장기 투자 관점의 분석 제기.",
+            "단일종목 레버리지 상품과 관련된 제도 개선 필요성 및 상법 재개정을 통한 실질적 주주환원 정책 강화 요구."
+        ],
+        "news_summary": "최근 증권업계는 증시 거래대금 회복과 PF 리스크 해소, 글로벌 금리 인하 기대감으로 인해 브로커리지 수익 개선 및 업황 턴어라운드 가능성이 제기되고 있습니다. 주요 증권사들은 반도체와 AI 산업의 성장성을 근거로 국내외 증시의 긍정적인 전망을 내놓고 있으며, 특히 주주환원 정책 강화와 실적 안정성을 갖춘 대형주 중심의 전략을 권고하고 있습니다. 또한, 단순 정보 제공을 넘어 구독형 서비스나 투자 콘서트 등 고객 소통 방식을 다양화하는 추세입니다."
+    }
+}

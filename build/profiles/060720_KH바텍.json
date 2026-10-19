@@ -1,0 +1,138 @@
+{
+    "key": "060720",
+    "filename": "060720_KH바텍",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "KH바텍",
+            "code": "060720",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 255.0,
+                "revenue_4qtrs": 321.0,
+                "opincome_4qtrs": 14.0,
+                "revenue_qtr": 104.0,
+                "opincome_qtr": 4.97
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": false,
+                "slope": -0.112,
+                "growth_per_qtr": -0.0321
+            },
+            "opmargin": {
+                "25_4Q": 0.0402,
+                "26_1Q": 0.0305,
+                "26_2Q": 0.0479,
+                "26_3Q": 0.0479,
+                "4qtrs": 0.0435
+            },
+            "PER": {
+                "PER_ltm": 18.2,
+                "PER_qx4": 12.8,
+                "PER_fwd": 13.6
+            },
+            "volatility": {
+                "measure_to_base": 0.571,
+                "slope": -6.44e-6
+            },
+            "amount": {
+                "measure_to_base": 0.85,
+                "slope": -0.0319
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.000165,
+                    "beta": 1.03
+                },
+                "base_duration": {
+                    "alpha": -0.00147,
+                    "beta": 0.608
+                },
+                "measure_duration": {
+                    "alpha": 0.00725,
+                    "beta": 0.894
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:42",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "정밀기구 부품 (IT/Robot)",
+            "자동차 부품"
+        ],
+        "revenue_share": [
+            0.7,
+            0.3
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "declining due to mid-to-low end smartphone slowdown",
+            "declining due to EV chasm"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "IT device parts (smartphone, laptop, tablet), Communication equipment, Robot parts",
+            "Automotive parts, Moving mechanisms for rollable displays"
+        ],
+        "competitors": [
+            "Various IT component manufacturers",
+            "Auto parts suppliers"
+        ]
+    },
+    "code": "060720",
+    "name": "KH바텍",
+    "overview": {
+        "title": "스마트폰·전기차 둔화 속 신사업 확대",
+        "desc": "동사는 1992년 비철금속을 이용한 소형정밀 다이캐스팅을 주 영업목적으로 설립되어, 2002년 코스닥시장에 상장됨. 국내외 8개 종속회사를 보유하고 있으며 주요 종속회사에는 KHV(혜주), KHV(하노이), KHV(타이응웬), KHV(인도) 등이 있음. 스마트폰, 노트북, 태블릿 등 IT 디바이스 부품과 통신장비, 로봇 부품을 다이캐스팅, CNC, IDC 공법으로 생산하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 19.7% 감소, 영업이익은 56.5% 감소, 당기순이익은 53.4% 감소. 정밀기구 부품에서 중저가 스마트폰 시장 성장 둔화와 고객사 재고 조정으로 매출 감소 및 자동차 부품에서 전기차 캐즘으로 실적이 악화됨. 프리미엄 및 폴더블 스마트폰 시장은 지속 성장 예상되며, 차량 인포테인먼트 고도화에 따라 롤러블 디스플레이 기반 무빙메커니즘 영역으로 사업 확대하고 있음.",
+        "as_of": "2026-09-07",
+        "updated": "2026-10-07"
+    },
+    "news": {
+        "updated": "2026-10-17 14:07",
+        "key_facts": [
+            "2026년 연간 매출액 3,726억원, 영업이익 210억원으로 전년 대비 각각 12%, 34% 감소할 것으로 전망됨.",
+            "2027년 매출액 4,256억원, 영업이익 308억원으로 전년 대비 각각 14%, 46% 증가하며 실적 반등이 예상됨.",
+            "인도법인이 2026년 4월 비스테온(Visteon)의 공식 공급업체로 등록되어 차량용 디스플레이 브래킷을 공급할 예정임.",
+            "국내 협동로봇 업체에 외장 케이스 53종을 공급 중이며, 자체 설계한 감속기 개발 완료 후 성능 평가를 진행 중임.",
+            "AI 데이터센터(AIDC)용 금속 부품 및 고방열 커넥터를 개발 중이며, 2027년 금속 부품 양산을 계획하고 있음."
+        ],
+        "key_issues": [
+            "티타늄 IDC 매출 감소 및 폴더블폰 제조 일정 변화로 인해 2026년 상반기 실적이 부진함.",
+            "제한적인 평균판매가격(ASP) 환경과 환율 효과가 수익성 개선의 변수로 작용함.",
+            "주요 고객사의 폴더블폰 판매량 및 연말 주문량 확대 여부가 실적 추정치 상향의 핵심 변수임."
+        ],
+        "news_summary": "KH바텍은 2026년 폴더블폰 관련 실적 부진을 겪고 있으나, 3분기부터 신규 모델 매출 반영 및 2027년 전장, AI 데이터센터(AIDC), 로봇 등 사업 다각화를 통해 본격적인 실적 반등을 꾀하고 있습니다. 특히 로봇용 정밀 감속기와 차량용 디지털 콕핏 부품 등 신규 사업의 성과가 중장기 성장 동력이 될 것으로 기대됩니다."
+    }
+}

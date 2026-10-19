@@ -1,0 +1,103 @@
+{
+    "key": "가전 렌탈",
+    "filename": "가전_렌탈",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "가전 렌탈",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 7630.0,
+                "revenue_4qtrs": 5490.0,
+                "opincome_4qtrs": 939.0,
+                "revenue_qtr": 1440.0,
+                "opincome_qtr": 253.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 5.68,
+                "growth_per_qtr": 0.0242
+            },
+            "opmargin": {
+                "25_4Q": 0.142,
+                "26_1Q": 0.189,
+                "26_2Q": 0.176,
+                "26_3Q": 0.176,
+                "4qtrs": 0.171
+            },
+            "PER": {
+                "PER_ltm": 8.12,
+                "PER_qx4": 7.53,
+                "PER_fwd": 7.13
+            },
+            "volatility": {
+                "measure_to_base": 1.1,
+                "slope": -0.000071
+            },
+            "amount": {
+                "measure_to_base": 1.36,
+                "slope": -0.133
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000137,
+                    "beta": 0.407
+                },
+                "base_duration": {
+                    "alpha": 0.00255,
+                    "beta": 0.0803
+                },
+                "measure_duration": {
+                    "alpha": 0.00321,
+                    "beta": -0.0753
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "021240",
+            "name": "코웨이"
+        }
+    ]
+}

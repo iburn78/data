@@ -331,7 +331,18 @@ app.get("/api/:section", (req, res) => {
 
     const files = fs.readdirSync(dir)
         .filter(file => file.endsWith(".html"))
-        .sort();
+        .sort()
+        .map(file => {
+            let reviewed = false;
+            try {
+                const jsonFile = path.join(dir, file.replace(/\.html$/, ".json"));
+                const data = JSON.parse(fs.readFileSync(jsonFile, "utf8"));
+                reviewed = data.info_section?.reviewed === true;
+            } catch (error) {
+                console.error(`Could not read review status for ${file}:`, error);
+            }
+            return { file, reviewed };
+        });
 
     res.json(files);
 });

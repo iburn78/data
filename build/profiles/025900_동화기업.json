@@ -1,0 +1,138 @@
+{
+    "key": "025900",
+    "filename": "025900_동화기업",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "동화기업",
+            "code": "025900",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 329.0,
+                "revenue_4qtrs": 906.0,
+                "opincome_4qtrs": -10.7,
+                "revenue_qtr": 234.0,
+                "opincome_qtr": -0.865
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": -0.759,
+                "growth_per_qtr": 0.284
+            },
+            "opmargin": {
+                "25_4Q": -0.0184,
+                "26_1Q": -0.0224,
+                "26_2Q": -0.0037,
+                "26_3Q": -0.0037,
+                "4qtrs": -0.0118
+            },
+            "PER": {
+                "PER_ltm": -30.8,
+                "PER_qx4": -95.2,
+                "PER_fwd": -29.8
+            },
+            "volatility": {
+                "measure_to_base": 0.608,
+                "slope": 0.0000977
+            },
+            "amount": {
+                "measure_to_base": 0.983,
+                "slope": -0.0161
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.0000683,
+                    "beta": 0.904
+                },
+                "base_duration": {
+                    "alpha": -0.00372,
+                    "beta": 0.498
+                },
+                "measure_duration": {
+                    "alpha": 0.000659,
+                    "beta": 0.557
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:42",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "소재사업 (목재보드)",
+            "화학사업"
+        ],
+        "revenue_share": [
+            0.7,
+            0.3
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "Expanding (Global expansion in Vietnam/Malaysia)",
+            "Improving (Recovering from losses via EV demand)"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "MDF, PB, MFB, 마루, 건장재",
+            "2차전지 전해액, 화학소재"
+        ],
+        "competitors": [
+            "한솔홈데코, LX하우시스",
+            "엔켐, 솔브레인홀딩스"
+        ]
+    },
+    "code": "025900",
+    "name": "동화기업",
+    "overview": {
+        "title": "화학부문 손실로 수익성 제한",
+        "desc": "동사는 1948년 설립된 목재보드 및 화학소재 전문기업으로 2013년에 목재사업 부문 존속법인으로 재편되었음. 국내에서 MDF, PB, MFB, 화학, 건장재 사업을 하고 베트남에서는 MDF 및 마루를 제조 판매하고 있음. 2025년 말레이시아 Dongwha Malaysia 인수로 보드사업을 확대하고, 2017년 핀란드 Dongwha Finland 인수로 화학사업을 확장하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 10.7% 증가, 영업손실은 15.4% 감소, 당기순손실은 34.0% 감소. 소재사업 부문은 베트남 및 말레이시아 법인 확대로 매출이 증가하였으나, 화학사업 부문에서 2차전지 전해액 사업의 영업손실이 지속되며 수익성에 부담으로 작용하고 있음. 전년동기 대비 영업손실 폭이 축소되어 실적 개선 흐름을 보이고 있으며, EV향 2차전지 생산량 증가로 전해액 수요 확대가 기대됨.",
+        "as_of": "2026-09-06",
+        "updated": "2026-10-07"
+    },
+    "news": {
+        "updated": "2026-10-17 13:01",
+        "key_facts": [
+            "KCC는 2026년 9월과 10월 건축자재 상장기업 브랜드평판 조사에서 연속 1위를 기록했다.",
+            "동화기업은 2026년 10월 브랜드평판 2위를 기록했으며, 종속기업 동화일렉트로라이트는 7월 미국 테네시 공장 양산을 시작해 내년 판매량 2.5~3배 성장을 전망하고 있다.",
+            "한일시멘트는 2026년 10월 브랜드평판 3위를 차지하며 전월 대비 지수가 91.61% 급증했다.",
+            "동화기업은 2026년 8월 21일 관계기업 엠파크의 불균등 유상감자를 통해 800억 원의 현금을 확보했다.",
+            "현대모비스는 2026년 10월 13일 한화·키움·유진투자증권 등 3개사로부터 목표주가가 63만~80만 원으로 하향 조정되었다."
+        ],
+        "key_issues": [
+            "동화기업은 전해액 및 해외 목재보드 실적 부진과 재무부담 상승으로 2026년 9월 1일 신용등급 전망이 '안정적'에서 '부정적'으로 하향되었다.",
+            "동화기업은 2025년 영업적자에 이어 2026년 상반기 연결 기준 57억 원의 영업손실을 기록했다.",
+            "현대모비스는 원화 강세, 원가 상승, 완성차 생산 차질 등으로 인해 3분기 수익성 부담이 예상된다."
+        ],
+        "news_summary": "건축자재 시장에서는 KCC가 브랜드평판 1위를 유지하고 한일시멘트가 급상승했으며, 동화기업은 전해액 신사업 확장 노력에도 불구하고 실적 부진으로 신용등급 전망이 하향되었다. 한편, 현대모비스는 수익성 우려로 주요 증권사의 목표주가가 하향 조정되었다."
+    }
+}

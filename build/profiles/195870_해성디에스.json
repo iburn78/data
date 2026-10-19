@@ -1,0 +1,144 @@
+{
+    "key": "195870",
+    "filename": "195870_해성디에스",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "2026-10-19 09:30",
+    "financials": {
+        "meta": {
+            "name": "해성디에스",
+            "code": "195870",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 865.0,
+                "revenue_4qtrs": 791.0,
+                "opincome_4qtrs": 82.5,
+                "revenue_qtr": 211.0,
+                "opincome_qtr": 24.9
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.836,
+                "growth_per_qtr": 0.0405
+            },
+            "opmargin": {
+                "25_4Q": 0.121,
+                "26_1Q": 0.0582,
+                "26_2Q": 0.118,
+                "26_3Q": 0.118,
+                "4qtrs": 0.104
+            },
+            "PER": {
+                "PER_ltm": 10.5,
+                "PER_qx4": 8.7,
+                "PER_fwd": 8.02
+            },
+            "volatility": {
+                "measure_to_base": 0.803,
+                "slope": -0.000153
+            },
+            "amount": {
+                "measure_to_base": 2.3,
+                "slope": -0.248
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000442,
+                    "beta": 1.13
+                },
+                "base_duration": {
+                    "alpha": 0.000569,
+                    "beta": 0.956
+                },
+                "measure_duration": {
+                    "alpha": 0.0161,
+                    "beta": 1.53
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 09:30",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "리드프레임",
+            "패키지 서브스트레이트",
+            "R&D 및 신규사업"
+        ],
+        "revenue_share": [
+            0.756,
+            0.244,
+            0.0
+        ],
+        "opmargin": [
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "증가 추세 (전기차/자율주행 확대)",
+            "회복 및 증가 국면 (AI 반도체 성장)",
+            "중장기 성장축으로 개발 진행 중"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "Leadframe (전장·IT용)",
+            "Package Substrate (메모리/고성능 패키지용)",
+            "그래핀 (Graphene)"
+        ],
+        "competitors": [
+            "Mitsui High-tec, Shinko, Chang Wah Technology",
+            "Unimicron, Ibiden, Kinsus, Samsung Electro-Mechanics, AT&S, Nan Ya PCB",
+            "N/A"
+        ]
+    },
+    "code": "195870",
+    "name": "해성디에스",
+    "overview": {
+        "title": "전기차·AI 수요 확대로 실적 개선",
+        "desc": "동사는 2014년 설립된 반도체 패키징용 Substrate 제조·판매 기업으로, 2016년 상장됨. 리드프레임은 Infineon, ST Micro 등 IDM과 ASE, Amkor 등 OSAT를, Package Substrate는 삼성전자, SK하이닉스를 주요 고객으로 하고 있음. 동사는 PPF 도금 기술로 세계 시장을 선도하며, 자동차용 반도체 리드프레임과 그래핀 사업을 통해 기술경쟁력 강화를 추진하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 35.6% 증가, 영업이익은 317.6% 증가, 당기순이익은 20960.6% 증가. 전기차와 자율주행차 확대로 차량용 반도체 탑재량 증가, 리드프레임 수요 증가 및 신규 고객 발굴로 매출과 영업이익이 크게 개선됨. AI 반도체 성장이 재료시장 확대를 견인하며, 동사는 자동차 및 서버용 반도체 시장에 집중하고 선도 회사와 파트너쉽 강화 중임.",
+        "as_of": "2026-09-07",
+        "updated": "2026-10-17 17:07"
+    },
+    "news": {
+        "updated": "2026-10-17 17:07",
+        "key_facts": [
+            "2026년 3분기 매출액 2,557억원(전년비 43.2%↑)과 영업이익 365억원(영업이익률 14.3%)이 전망되며 실적 회복세에 진입함.",
+            "리드프레임 사업은 생산능력 확대와 원자재 가격 상승분을 반영한 후행적 판가 인상, AI 데이터센터 전력 공급망으로의 적용처 확대로 성장을 지속함.",
+            "패키지기판 사업은 국내 IDM 물량 확대, D1C 기판 공급 본격화 및 중국 CXMT향 DDR5 공급 시작으로 흑자 전환 및 손익분기점(BEP) 달성이 예상됨.",
+            "AI 서버용 방열 부품인 히트 슬러그(Heat Slug)의 고객사 품질 테스트를 진행하며 AI 밸류체인 합류를 추진 중임.",
+            "DDR6 등 차세대 고부가 기판 대응을 위해 1,900억원 규모의 패널라인 투자와 680억원 규모의 수도권 생산거점 확보를 통해 2029년 양산을 목표로 함."
+        ],
+        "key_issues": [
+            "환율 변동(원화 강세)으로 인해 3분기 리드프레임의 수익성이 전분기 대비 하락할 가능성이 있음.",
+            "4분기 이후의 본격적인 수익성 회복은 일부 고객사와의 제품 단가 협상 결과에 달려 있음.",
+            "차세대 메모리 시장 대응을 위해 기존 릴투릴 공법의 한계를 넘어 패널 방식 생산라인을 성공적으로 구축해야 함."
+        ],
+        "news_summary": "해성디에스는 리드프레임의 증설 및 판가 인상, 패키지기판의 수요 회복(D1C, DDR5 등)에 힘입어 2026년 3분기 실적 개선세를 보이고 있습니다. AI 데이터센터 전력 인프라 및 방열 부품 시장으로 영역을 확장하는 한편, 2029년 양산을 목표로 대규모 패널라인 설비 투자를 진행하며 DDR6 등 차세대 고부가 기판 시장을 위한 중장기 성장 기반을 강화하고 있습니다."
+    }
+}

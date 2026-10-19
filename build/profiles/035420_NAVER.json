@@ -1,0 +1,131 @@
+{
+    "key": "035420",
+    "filename": "035420_NAVER",
+    "updated": "2026-10-15 12:17",
+    "financials": {
+        "meta": {
+            "name": "NAVER",
+            "code": "035420",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-15 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 27300.0,
+                "revenue_4qtrs": 13200.0,
+                "opincome_4qtrs": 2190.0,
+                "revenue_qtr": 3390.0,
+                "opincome_qtr": 520.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": false,
+                "slope": 7.71,
+                "growth_per_qtr": 0.0141
+            },
+            "opmargin": {
+                "25_4Q": 0.191,
+                "26_1Q": 0.167,
+                "26_2Q": 0.154,
+                "26_3Q": 0.154,
+                "4qtrs": 0.166
+            },
+            "PER": {
+                "PER_ltm": 12.4,
+                "PER_qx4": 13.1,
+                "PER_fwd": 12.6
+            },
+            "volatility": {
+                "measure_to_base": 0.495,
+                "slope": -0.000109
+            },
+            "amount": {
+                "measure_to_base": 0.808,
+                "slope": -3.54
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000274,
+                    "beta": 0.688
+                },
+                "base_duration": {
+                    "alpha": -0.00106,
+                    "beta": 0.407
+                },
+                "measure_duration": {
+                    "alpha": -0.00661,
+                    "beta": 0.0987
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "underperform",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-15 12:16",
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "검색 및 광고",
+            "커머스",
+            "핀테크/금융"
+        ],
+        "revenue_share": [
+            0.6,
+            0.3,
+            0.1
+        ],
+        "create_segments": false,
+        "key_products": [
+            "네이버 검색/광고",
+            "네이버플러스 스토어",
+            "파이낸셜 플랫폼"
+        ],
+        "competitors": [
+            "Kakao",
+            "Google"
+        ],
+        "search_specifier": "",
+        "search_theme": []
+    },
+    "code": "035420",
+    "name": "NAVER",
+    "overview": {
+        "title": "AI 광고·커머스 고도화로 실적 개선",
+        "desc": "동사는 1999년 설립되었으며, 2013년 한게임 사업부문을 인적분할하여 존속법인은 네이버로, 신설법인은 구)엔에이치엔엔터테인먼트로 하였음. 2026년 기준 연결대상 종속회사는 95개사이며, Wallapop 신규 취득 등 글로벌 C2C 포트폴리오를 확장하고 있음. 동사는 국내 1위 인터넷 검색 포털 네이버를 기반으로 검색·광고·커머스·플레이스와 결제·금융 등 파이낸셜 플랫폼을 중심으로 매출을 창출하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 16.3% 증가, 영업이익은 3.4% 증가, 당기순이익은 7.7% 증가. 네이버 플랫폼 부문에서 AI 기반 광고 자동화 기능 ADVoost와 네이버플러스 스토어 앱 출시는 쇼핑 서비스 유입을 강화하여 실적을 개선함. 글로벌 AI 시장에서 쇼핑 에이전트 정식 전환, 엔비디아 네모트론 연합 합류, 사우디 디지털 트윈 플랫폼 구축 등으로 리더십을 확대하고 있음.",
+        "as_of": "2026-09-14",
+        "updated": "2026-10-15 12:16"
+    },
+    "news": {
+        "updated": "2026-10-15 12:17",
+        "key_facts": [
+            "2026년 7월 엔비디아로부터 1조 5,000억 원 규모 투자를 유치하고 AI 인프라 협력을 체결함.",
+            "2026년 10월 30일 엔비디아의 10억 달러 유상증자 납입(지분 4.5%)이 예정되어 있음.",
+            "하나증권은 AI 데이터센터(AI 팩토리) 사업이 향후 연 22조 7,000억 원 규모의 매출을 창출할 것으로 전망함.",
+            "메리츠증권은 2027년 네오클라우드 매출이 1조 원에 달할 것으로 추정함.",
+            "네이버파이낸셜과 두나무의 합병 심사가 연내 마무리될 것으로 예상됨."
+        ],
+        "key_issues": [
+            "커머스 투자, 스포츠 중계권료, N페이 단말기 보급 비용 증가로 인한 3분기 실적 부진 및 영업이익 감소 전망.",
+            "메타의 AI 에이전트 '뮤즈' 출시에 따른 검색 경쟁 심화 우려.",
+            "웹툰 정체로 인한 콘텐츠 부문 매출 감소 가능성.",
+            "신사업의 실제 수익 증명 및 기존 사업 투자 회수 계획 공유 필요성."
+        ],
+        "news_summary": "NAVER는 인프라 투자 및 마케팅 비용 증가로 인해 2026년 3분기 실적이 시장 기대치를 밑돌 것으로 전망되나, 엔비디아 협력을 통한 AI 팩토리 사업의 성장 잠재력과 두나무 합병 등 장기적 모멘텀이 주가 반등의 핵심 요소로 분석됩니다."
+    }
+}

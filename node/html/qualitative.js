@@ -690,6 +690,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const dialog = document.getElementById(button.getAttribute("aria-controls"));
         if (!dialog) return;
 
+        const markdown = dialog.querySelector(".llm-research-markdown");
+        const hasResearch = Boolean(markdown?.textContent.trim())
+            && !markdown.querySelector(".llm-research-missing");
+        button.classList.toggle("llm-research-missing", !hasResearch);
+
         button.addEventListener("click", () => openLlmResearchWindow(dialog));
         dialog.querySelector(".llm-research-close")?.addEventListener("click", () => dialog.close());
         dialog.addEventListener("click", event => {

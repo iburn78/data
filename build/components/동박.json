@@ -1,0 +1,124 @@
+{
+    "key": "동박",
+    "filename": "동박",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "동박",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 7780.0,
+                "revenue_4qtrs": 3500.0,
+                "opincome_4qtrs": -325.0,
+                "revenue_qtr": 941.0,
+                "opincome_qtr": -53.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 3.26,
+                "growth_per_qtr": -0.0401
+            },
+            "opmargin": {
+                "25_4Q": -0.213,
+                "26_1Q": -0.0657,
+                "26_2Q": -0.0563,
+                "26_3Q": -0.0563,
+                "4qtrs": -0.0929
+            },
+            "PER": {
+                "PER_ltm": -23.9,
+                "PER_qx4": -36.7,
+                "PER_fwd": -43.3
+            },
+            "volatility": {
+                "measure_to_base": 0.851,
+                "slope": -0.00021
+            },
+            "amount": {
+                "measure_to_base": 1.82,
+                "slope": -1.71
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000304,
+                    "beta": 1.14
+                },
+                "base_duration": {
+                    "alpha": 0.000216,
+                    "beta": 0.914
+                },
+                "measure_duration": {
+                    "alpha": 0.0122,
+                    "beta": 0.748
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "011790",
+            "name": "SKC"
+        },
+        {
+            "key": "020150",
+            "name": "롯데에너지머티리얼즈"
+        },
+        {
+            "key": "336370",
+            "name": "솔루스첨단소재"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 12:51",
+        "key_facts": [
+            "2026년 7월 기준, 중국 동박 업체의 평균 가동률은 93.1%, 리튬동박 가동률은 92.6%로 상승하며 유휴 생산능력이 빠르게 소진됨.",
+            "중국 내 4.5㎛ 및 6㎛ 리튬동박 가공비가 상승 추세에 있음.",
+            "AI 서버용 고부가 전자회로 동박 수요 증가로 인해 일부 중국 업체들이 생산능력을 고사양 인쇄회로기판(PCB)용으로 전환함."
+        ],
+        "new_trends": [
+            "배터리 극박화 및 에너지저장장치(ESS) 수요 확대가 동박 수급 변화에 영향을 미침.",
+            "중국 업체들의 저가 수주 여력 감소로 인한 동박 가격의 정상화 흐름."
+        ],
+        "news_summary": "동박 산업은 과거 공급과잉을 일으켰던 중국 업체들의 가동률 상승과 유휴 생산능력 소진으로 인해 가격 경쟁 압력이 완화되고 가격이 정상화되는 추세입니다. 특히 AI 서버용 고부가 전자회로 동박 수요 증가와 배터리 극박화, ESS 수요 확대 등이 수급 구조의 변화를 이끌고 있으며, 이에 따라 범용 동박의 공급 여력이 줄어들고 가공비가 상승하는 흐름을 보이고 있습니다."
+    }
+}

@@ -221,13 +221,18 @@ __marimo__/
 # !/build/
 
 .DS_Store
-*.png
-**/profiles/*.html
-**/profiles/*.md
-**/components/*.html
-**/valuechains/*.html
-**/news/
+
+# Track model data and LLM research; leave generated pages and news archives ignored.
+!/build/
+/build/*
+!/build/profiles/
+/build/profiles/*
+!/build/components/
+/build/components/*
+!/build/valuechains/
+/build/valuechains/*
+!/build/*/*.json
+!/build/*/*.md
 
 node/node_modules/
 node/.env
-

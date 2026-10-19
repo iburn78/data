@@ -1,0 +1,107 @@
+{
+    "key": "전구체",
+    "filename": "전구체",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "전구체",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2470.0,
+                "revenue_4qtrs": 733.0,
+                "opincome_4qtrs": -14.5,
+                "revenue_qtr": 199.0,
+                "opincome_qtr": -15.9
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 1.01,
+                "growth_per_qtr": -0.278
+            },
+            "opmargin": {
+                "25_4Q": 0.0151,
+                "26_1Q": 0.0816,
+                "26_2Q": -0.0797,
+                "26_3Q": -0.0797,
+                "4qtrs": -0.0198
+            },
+            "PER": {
+                "PER_ltm": -170.0,
+                "PER_qx4": -38.9,
+                "PER_fwd": -46.3
+            },
+            "volatility": {
+                "measure_to_base": 0.729,
+                "slope": -0.0000479
+            },
+            "amount": {
+                "measure_to_base": 1.25,
+                "slope": -1.0
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0072,
+                    "beta": 0.804
+                },
+                "base_duration": {
+                    "alpha": -0.00603,
+                    "beta": 0.624
+                },
+                "measure_duration": {
+                    "alpha": 0.00249,
+                    "beta": 0.786
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "450080",
+            "name": "에코프로머티"
+        },
+        {
+            "key": "101360",
+            "name": "에코앤드림"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "key": "108320",
+    "filename": "108320_LX세미콘",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "LX세미콘",
+            "code": "108320",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 529.0,
+                "revenue_4qtrs": 1580.0,
+                "opincome_4qtrs": 89.5,
+                "revenue_qtr": 401.0,
+                "opincome_qtr": 22.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": -3.23,
+                "growth_per_qtr": -0.144
+            },
+            "opmargin": {
+                "25_4Q": 0.0639,
+                "26_1Q": 0.053,
+                "26_2Q": 0.0549,
+                "26_3Q": 0.0549,
+                "4qtrs": 0.0566
+            },
+            "PER": {
+                "PER_ltm": 5.91,
+                "PER_qx4": 6.01,
+                "PER_fwd": 9.5
+            },
+            "volatility": {
+                "measure_to_base": 0.67,
+                "slope": -0.0000889
+            },
+            "amount": {
+                "measure_to_base": 1.13,
+                "slope": -0.0861
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.000117,
+                    "beta": 0.876
+                },
+                "base_duration": {
+                    "alpha": -0.00348,
+                    "beta": 0.592
+                },
+                "measure_duration": {
+                    "alpha": 0.00153,
+                    "beta": 0.693
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:42",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "Display System IC",
+            "Automotive & Thermal Solutions"
+        ],
+        "revenue_share": [
+            0.8,
+            0.2
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "facing stronger competition",
+            "improving"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "DDI, T-Con, PMIC",
+            "MCU, Thermal Solutions"
+        ],
+        "competitors": [
+            "Novatek, Himax",
+            "Infineon, STMicroelectronics"
+        ]
+    },
+    "code": "108320",
+    "name": "LX세미콘",
+    "overview": {
+        "title": "OLED·전장 시장 확대 추진",
+        "desc": "동사는 1999년 설립된 반도체 설계 및 판매 전문 팹리스 기업으로, 2022년 유가증권시장에 이전상장했음. 디스플레이 패널 및 가전/자동차용 부품 중심의 시스템반도체 설계·제조·판매를 영위하며, DDI, T-Con, PMIC 등 패널 구동 관련 제품을 보유하고 있음. 자동차용 MCU 및 방열솔루션 사업을 성장동력으로 육성하여 사업 포트폴리오를 다각화하고, 자동차 및 서버 시장 진입을 준비 중임.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 7.6% 감소, 영업이익은 39.1% 감소, 당기순이익은 45.8% 감소. 중국 패널 업체들의 LCD 시장 지배력 강화와 글로벌 경기 침체로 매출과 영업이익 감소. 하이엔드 제품 중심 고부가가치 확대와 고객, 지역 다변화에 주력함. OLED 전환 가속화와 AI 확산으로 T-Con 기반 솔루션 역할 확대 및 방열 관리 중요성 증가, 서버 등 신규 적용처 확대 검토 중.",
+        "as_of": "2026-08-31",
+        "updated": "2026-10-07"
+    },
+    "news": {
+        "updated": "2026-10-17 14:07",
+        "key_facts": [
+            "LX세미콘은 모터 제어 특화 차량용 MCU 'LX61101'의 양산을 시작하여 2026년 7월부터 현대차·기아에 공급하고 있다.",
+            "LX세미콘의 2026년 2분기 매출은 4,012억 원, 영업이익은 220억 원을 기록하며 전년 동기 대비 각각 6.0%, 115.1% 증가했다.",
+            "LX세미콘의 2026년 상반기 매출은 7,899억 원으로 전년 동기 대비 7.6% 감소했으며, 영업이익과 순이익은 각각 426억 원(-39.1%), 291억 원(-45.8%)으로 감소했다.",
+            "LX세미콘의 모바일 OLED용 DDI 시장 점유율은 2024년 12%에서 2025년 9%로 하락했다.",
+            "LX세미콘은 방열기판 등 신규 사업을 통해 사업 포트폴리오 다각화를 추진 중이다."
+        ],
+        "key_issues": [
+            "iM증권(하이투자증권)은 2026년 실적 역성장이 불가피할 것으로 전망하며 투자의견 'HOLD', 목표주가 43,000원을 제시했다.",
+            "모바일 DDI 시장 내 중화권 업체(노바텍, 일리텍, 구딕스 등)의 입지 확대 및 북미 전략 고객사의 공급망 다변화로 인한 경쟁 심화와 점유율 하락 위험이 있다.",
+            "원자재 가격 상승, 파운드리 및 후공정 외주 생산비 증가로 인한 원가 부담 확대 및 수익성 둔화 우려가 있다.",
+            "특정 고객사와 DDI 제품에 집중된 사업 구조로 인해 중장기적 성장 지속에 한계가 있다는 분석이 있다.",
+            "2분기 실적 개선에 반영된 충당금 환입이라는 일회성 요인이 소멸함에 따라 본질적인 이익 체력에 대한 의구심이 제기된다."
+        ],
+        "news_summary": "LX세미콘은 차량용 MCU 국산화 성공 및 현대차·기아 공급을 통해 사업 다각화를 추진하고 있으며 2026년 2분기 시장 기대치를 상회하는 실적을 거두었습니다. 하지만 상반기 전체적으로는 매출과 이익이 감소했으며, 모바일 DDI 시장의 경쟁 심화, 원가 부담 증가, 특정 제품 및 고객사 의존도 등의 리스크로 인해 2026년 실적 역성장 가능성과 함께 보수적인 시장 전망이 나오고 있습니다."
+    }
+}

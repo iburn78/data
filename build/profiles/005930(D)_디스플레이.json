@@ -1,0 +1,114 @@
+{
+    "key": "005930(D)",
+    "filename": "005930(D)_디스플레이",
+    "updated": "2026-10-19 13:33",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "삼성전자",
+            "code": "005930",
+            "segment_name": "디스플레이",
+            "id": "D",
+            "updated": "2026-10-19 13:32",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 50400.0,
+                "revenue_4qtrs": 22800.0,
+                "opincome_4qtrs": 2050.0,
+                "revenue_qtr": 6860.0,
+                "opincome_qtr": 617.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 35.8,
+                "growth_per_qtr": 0.0698
+            },
+            "opmargin": {
+                "25_4Q": 0.09,
+                "26_1Q": 0.09,
+                "26_2Q": 0.09,
+                "26_3Q": 0.09,
+                "4qtrs": 0.09
+            },
+            "PER": {
+                "PER_ltm": 24.5,
+                "PER_qx4": 20.4,
+                "PER_fwd": 17.8
+            },
+            "volatility": {
+                "measure_to_base": 0.585,
+                "slope": -8.46e-6
+            },
+            "amount": {
+                "measure_to_base": 0.895,
+                "slope": -1.83
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00043,
+                    "beta": 1.22
+                },
+                "base_duration": {
+                    "alpha": 0.00156,
+                    "beta": 1.32
+                },
+                "measure_duration": {
+                    "alpha": 0.0036,
+                    "beta": 1.37
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.04,
+        "marcap_share": 0.04,
+        "opmargin": 0.09,
+        "trend": "improving"
+    },
+    "id": "D",
+    "profile_name": "삼성전자",
+    "profile_code": "005930",
+    "segment_name": "디스플레이",
+    "news": {
+        "updated": "2026-10-19 13:32",
+        "key_financials": [
+            "2026년 2분기 영업이익 7,000억원 (하이엔드 모바일 수요 및 게이밍 모니터 시장 확대 영향)"
+        ],
+        "key_facts": [
+            "삼성디스플레이는 애플의 첫 폴더블폰 '아이폰 듀오'에 탑재되는 폴더블 OLED를 전량 공급하는 것으로 알려짐",
+            "갤럭시 S27 울트라 및 프로 모델에 전력 효율과 밝기, 색상 표현력이 개선된 M16 패널 탑재 전망",
+            "갤럭시 S27 기본형 및 플러스 모델에는 M14+ 패널 탑재 전망",
+            "갤럭시 S27 울트라에 눈의 피로를 줄이는 DC 디밍 기술 도입 및 분할 화면 프라이버시 보호 기능 탑재 전망",
+            "기존 갤럭시 S26 울트라의 프라이버시 디스플레이 기능에서 발생한 눈의 피로, 해상도 및 색감 저하 문제 개선 추진 중"
+        ],
+        "key_issues": [
+            "중국 BOE 등의 추격으로 인한 시장 점유율 하락 전망 (유비리서치: 삼성디스플레이 점유율이 61.9%에서 2030년 41.0%로 하락 예상)",
+            "경쟁국과의 OLED 기술 격차가 좁혀짐에 따라 지속적인 R&D 및 국가 차원의 정책 지원 필요성 제기"
+        ],
+        "news_summary": "삼성디스플레이는 2026년 2분기 하이엔드 모바일 및 게이밍 모니터 수요에 힘입어 7,000억원의 영업이익을 기록했습니다. 제품 측면에서는 애플의 첫 폴더블폰 '아이폰 듀오'에 패널을 전량 공급하며, 차기 갤럭시 S27 시리즈에 M16 등 고성능 패널과 DC 디밍, 진화된 프라이버시 디스플레이 기능을 적용할 계획입니다. 다만, 중국 BOE의 빠른 추격으로 인해 2030년까지 폴더블 OLED 시장 점유율이 하락할 것이라는 전망이 있어, 기술 격차 유지를 위한 R&D와 정책적 지원이 과제로 꼽힙니다."
+    }
+}

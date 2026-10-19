@@ -1,0 +1,122 @@
+{
+    "key": "메디컬 바이오",
+    "filename": "메디컬_바이오",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "메디컬 바이오",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 128000.0,
+                "revenue_4qtrs": 19100.0,
+                "opincome_4qtrs": 5390.0,
+                "revenue_qtr": 5420.0,
+                "opincome_qtr": 1480.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 99.1,
+                "growth_per_qtr": 0.0736
+            },
+            "opmargin": {
+                "25_4Q": 0.324,
+                "26_1Q": 0.269,
+                "26_2Q": 0.273,
+                "26_3Q": 0.273,
+                "4qtrs": 0.282
+            },
+            "PER": {
+                "PER_ltm": 23.8,
+                "PER_qx4": 21.7,
+                "PER_fwd": 18.6
+            },
+            "volatility": {
+                "measure_to_base": 0.623,
+                "slope": -0.0000628
+            },
+            "amount": {
+                "measure_to_base": 0.828,
+                "slope": -0.465
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000569,
+                    "beta": 0.572
+                },
+                "base_duration": {
+                    "alpha": -0.00112,
+                    "beta": 0.157
+                },
+                "measure_duration": {
+                    "alpha": -0.00063,
+                    "beta": 0.068
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업 전망",
+            "밸류체인"
+        ],
+        "tags": "",
+        "notes": "",
+        "dynamics": "",
+        "key_drivers": ""
+    },
+    "component_keys": [
+        "메디컬 에스테틱",
+        "에스테틱 의료기기",
+        "바이오시밀러",
+        "바이오의약품 위탁생산",
+        "화장품 ODM"
+    ],
+    "news": {
+        "updated": "2026-10-17 17:13",
+        "key_facts": [
+            "2026년 10월, 한국의약품수출입협회와 KOTRA가 'CPHI Milan 2026'에 한국관을 운영하여 국내 제약·바이오 기업 34개사의 유럽 진출을 지원함.",
+            "2026년 9월 말, HLB의 미국 자회사 엘레바 테라퓨틱스가 담관암 표적항암제 '리픽투'로 미국 FDA 품목허가를 획득함.",
+            "2026년 10월, 알테오젠이 자회사 알테오젠바이오로직스를 흡수합병하여 R&D부터 상업화까지 통합된 사업 체계 구축을 결정함.",
+            "2026년 9월, 일동바이오사이언스와 발효미생물산업진흥원이 마이크로바이옴 기반 차세대 기능성 소재 개발을 위한 공동 연구 MOU를 체결함.",
+            "2026년 9월, 인천대학교 앵커(RISE)사업단 주관으로 '2026 아시아·태평양 바이오플라스틱 협의체'가 개최되어 글로벌 규제 대응 및 정보 공유를 논의함."
+        ],
+        "new_trends": [
+            "국내 제약·바이오 기업의 해외 진출 방식이 단순 완제품 수출에서 CDMO, 기술이전, 공동개발 등으로 다변화되는 추세임.",
+            "글로벌 바이오산업의 중심이 합성물질에서 천연물 기반 바이오산업으로 빠르게 이동하고 있으며, AI, 스마트팜, 발효기술 등이 결합된 융합 플랫폼 형태의 발전이 나타남.",
+            "제약 생산 및 공급망 분야에서 AI, 디지털 기술, 콜드체인, 오염관리 등 기술적 대응 영역이 확대되고 있음.",
+            "바이오 플라스틱 및 화이트 바이오 분야에서 탄소 배출 저감과 자원 순환을 위한 글로벌 규제 대응 및 시장 확대 움직임이 강화됨."
+        ],
+        "news_summary": "메디컬 바이오 산업 전반에서 연구개발(R&D)을 넘어 실제 상업화와 글로벌 시장 진출을 위한 밸류체인 통합 및 다변화 전략이 두드러지고 있습니다. 국내 기업들은 미국 FDA 허가 획득, 유럽 시장 진출 지원, 자회사 합병을 통한 수직 계열화 등을 통해 글로벌 경쟁력을 강화하고 있습니다. 또한, 마이크로바이옴 및 천연물 기반의 기능성 소재 개발, 화이트 바이오(바이오 플라스틱) 등 지속 가능한 소재 산업으로 영역을 확장하고 있으며, 이 과정에서 AI, 스마트팜, 디지털 기술 등 첨단 기술과의 융합이 가속화되고 있습니다."
+    }
+}

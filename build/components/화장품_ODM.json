@@ -1,0 +1,119 @@
+{
+    "key": "화장품 ODM",
+    "filename": "화장품_ODM",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "화장품 ODM",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 6420.0,
+                "revenue_4qtrs": 5980.0,
+                "opincome_4qtrs": 589.0,
+                "revenue_qtr": 1660.0,
+                "opincome_qtr": 184.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 8.3,
+                "growth_per_qtr": 0.0564
+            },
+            "opmargin": {
+                "25_4Q": 0.0706,
+                "26_1Q": 0.0936,
+                "26_2Q": 0.111,
+                "26_3Q": 0.111,
+                "4qtrs": 0.0985
+            },
+            "PER": {
+                "PER_ltm": 10.9,
+                "PER_qx4": 8.72,
+                "PER_fwd": 7.83
+            },
+            "volatility": {
+                "measure_to_base": 0.658,
+                "slope": 0.0000981
+            },
+            "amount": {
+                "measure_to_base": 0.757,
+                "slope": 0.522
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000204,
+                    "beta": 0.522
+                },
+                "base_duration": {
+                    "alpha": 0.00375,
+                    "beta": 0.135
+                },
+                "measure_duration": {
+                    "alpha": 0.00239,
+                    "beta": 0.361
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "B"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "192820",
+            "name": "코스맥스"
+        },
+        {
+            "key": "161890",
+            "name": "한국콜마"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 14:31",
+        "key_facts": [
+            "한국콜마, 코스맥스 등 화장품 ODM 기업들이 호실적을 발표함 (2026년 8월 기준)",
+            "글로벌 경기 둔화 우려와 주요 시장의 소비 위축 조짐으로 화장품 ODM 섹터 전반에 대한 투자 심리가 약화됨 (2026년 8월 기준)",
+            "중국 시장의 불확실성 증대가 화장품 ODM 기업들의 실적 전망에 부정적인 영향을 미치고 있음 (2026년 8월 기준)"
+        ],
+        "new_trends": [
+            "화장품 ODM 기업들의 호실적 이후 수급이 브랜드사로 이동하는 순환매 흐름이 나타남 (2026년 8월 기준)"
+        ],
+        "news_summary": "화장품 ODM 섹터는 최근 주요 기업들의 호실적 발표로 긍정적인 흐름을 보였으며, 이에 따라 수급이 브랜드사로 옮겨가는 순환매 양상이 관찰되었습니다. 하지만 글로벌 경기 둔화와 특히 중국 시장의 불확실성 증대로 인해 섹터 전반의 투자 심리가 위축되고 실적 개선세 둔화에 대한 우려가 제기되고 있는 상황입니다."
+    }
+}

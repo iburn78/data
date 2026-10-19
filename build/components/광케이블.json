@@ -1,0 +1,103 @@
+{
+    "key": "광케이블",
+    "filename": "광케이블",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "광케이블",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2070.0,
+                "revenue_4qtrs": 161.0,
+                "opincome_4qtrs": -7.05,
+                "revenue_qtr": 49.1,
+                "opincome_qtr": 0.957
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 0.747,
+                "growth_per_qtr": -0.424
+            },
+            "opmargin": {
+                "25_4Q": -0.172,
+                "26_1Q": -0.116,
+                "26_2Q": 0.0195,
+                "26_3Q": 0.0195,
+                "4qtrs": -0.0437
+            },
+            "PER": {
+                "PER_ltm": -294.0,
+                "PER_qx4": 542.0,
+                "PER_fwd": 184.0
+            },
+            "volatility": {
+                "measure_to_base": 0.932,
+                "slope": -0.000556
+            },
+            "amount": {
+                "measure_to_base": 2.52,
+                "slope": -5.17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00125,
+                    "beta": 1.24
+                },
+                "base_duration": {
+                    "alpha": 0.00207,
+                    "beta": 1.14
+                },
+                "measure_duration": {
+                    "alpha": 0.012,
+                    "beta": 1.78
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "010170",
+            "name": "대한광통신"
+        }
+    ]
+}

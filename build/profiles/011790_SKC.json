@@ -1,0 +1,144 @@
+{
+    "key": "011790",
+    "filename": "011790_SKC",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "SKC",
+            "code": "011790",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 4630.0,
+                "revenue_4qtrs": 2220.0,
+                "opincome_4qtrs": -165.0,
+                "revenue_qtr": 645.0,
+                "opincome_qtr": -14.4
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 5.09,
+                "growth_per_qtr": -0.123
+            },
+            "opmargin": {
+                "25_4Q": -0.251,
+                "26_1Q": -0.0579,
+                "26_2Q": -0.0223,
+                "26_3Q": -0.0223,
+                "4qtrs": -0.0746
+            },
+            "PER": {
+                "PER_ltm": -28.0,
+                "PER_qx4": -80.2,
+                "PER_fwd": -682.0
+            },
+            "volatility": {
+                "measure_to_base": 0.925,
+                "slope": -0.000499
+            },
+            "amount": {
+                "measure_to_base": 1.34,
+                "slope": -1.35
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000335,
+                    "beta": 1.16
+                },
+                "base_duration": {
+                    "alpha": 0.00046,
+                    "beta": 0.973
+                },
+                "measure_duration": {
+                    "alpha": 0.0109,
+                    "beta": 0.825
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:42",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "화학사업",
+            "반도체 소재사업",
+            "이차전지 소재사업"
+        ],
+        "revenue_share": [
+            0.4,
+            0.3,
+            0.3
+        ],
+        "opmargin": [
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "stable",
+            "improving",
+            "declining/recovering slowly"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "PO, PG",
+            "Test Sockets, Glass Substrates",
+            "Copper Foil (전지박)"
+        ],
+        "competitors": [
+            "Lotte Chemical, Kumho Petrochemical",
+            "Samsung Electro-Mechanics, SKC",
+            "SK Nexilis competitors, Lotte Energy Materials"
+        ]
+    },
+    "code": "011790",
+    "name": "SKC",
+    "overview": {
+        "title": "사업구조 재편 후 AI 반도체 성장",
+        "desc": "동사는 1973년 설립되어 1997년 유가증권시장에 상장한 SK그룹 계열의 소재 전문 기업임. 전지박 등을 생산하는 이차전지 소재사업, PO·PG 등을 생산하는 화학사업, 반도체 테스트용 소켓 및 글라스기판 등을 공급하는 반도체 소재사업을 영위하고 있음. 2025년 사업구조 재편을 위해 CMP 사업부문 및 박막사업을 매각 완료하고, SK엔펄스를 흡수합병하여 지배구조 단순화 및 재무건전성을 제고하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 26.2% 증가, 영업손실은 69.7% 감소, 당기순손실은 69.6% 증가. 화학사업은 PO·PG 등의 고부가 제품 안정적 공급으로 실적을 유지하며, 반도체 소재사업은 AI 반도체 테스트 수요 증가와 비메모리 부문 성장으로 수익성 개선 중임. 이차전지 소재사업은 ESS 전지박 수요 증가로 포트폴리오 다변화 중이나, 전방산업 수요 회복 지연으로 손실 계속됨.",
+        "as_of": "2026-09-06",
+        "updated": "2026-10-07"
+    },
+    "news": {
+        "updated": "2026-10-17 12:51",
+        "key_facts": [
+            "2026년 상반기 매출 1조 1,420억 원, 영업손실 432억 원을 기록했으며, 2분기에는 영업손실이 144억 원으로 축소됨.",
+            "올해 초 1조 1,671억 원 규모의 유상증자를 통해 5,896억 원은 글라스기판 사업에, 5,775억 원은 차입금 상환에 활용하기로 함.",
+            "2026년 9월 28일 자회사 앱솔릭스에 약 3,731억 원을 출자하여 지분율을 70.05%에서 82.37%로 확대함.",
+            "동박 사업의 생산 거점을 말레이시아로 전환하여 하반기 생산 비중을 90% 이상으로 확대하고, 정읍 공장은 '마더팩토리'로 재편함.",
+            "SK넥실리스는 2026년 상반기 동박 매출이 전년 동기 대비 81.8% 증가한 4,109억 원을 기록했으나 순손실은 1,343억 원으로 확대됨."
+        ],
+        "key_issues": [
+            "글라스기판 사업 상업화를 위한 조지아 공장의 수율 개선 및 핵심 고객사 인증 확보가 시급함.",
+            "동박 사업의 외형 성장에도 불구하고 제조원가 절감을 통한 실질적인 수익성 회복이 관건임.",
+            "2026년 상반기 영업활동 현금흐름에서 4,802억 원이 유출되는 등 본업의 현금창출력 약화 및 재무 부담 지속."
+        ],
+        "news_summary": "SKC는 화학·반도체 소재의 실적 회복과 유상증자로 확보한 자금을 통해 재무구조 개선 및 신사업 투자를 진행 중입니다. 특히 글라스기판 사업(앱솔릭스)에 대한 투자를 가속화하여 상업화 준비에 집중하고 있으며, 동박 사업은 말레이시아 생산 비중 확대와 정읍 공장 기능 재편을 통해 원가 경쟁력을 확보하고 수익성 개선을 추진하고 있습니다."
+    }
+}

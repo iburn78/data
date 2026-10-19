@@ -1,0 +1,115 @@
+{
+    "key": "후공정 검사장비",
+    "filename": "후공정_검사장비",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "후공정 검사장비",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 50.5,
+                "revenue_4qtrs": 47.6,
+                "opincome_4qtrs": -10.5,
+                "revenue_qtr": 7.55,
+                "opincome_qtr": -3.96
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -0.404,
+                "growth_per_qtr": 0.153
+            },
+            "opmargin": {
+                "25_4Q": 0.0505,
+                "26_1Q": -0.386,
+                "26_2Q": -0.525,
+                "26_3Q": -0.525,
+                "4qtrs": -0.221
+            },
+            "PER": {
+                "PER_ltm": -4.79,
+                "PER_qx4": -3.18,
+                "PER_fwd": -2.54
+            },
+            "volatility": {
+                "measure_to_base": 0.848,
+                "slope": -7.42e-6
+            },
+            "amount": {
+                "measure_to_base": 2.4,
+                "slope": -0.0283
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.00314,
+                    "beta": 0.775
+                },
+                "base_duration": {
+                    "alpha": -0.00648,
+                    "beta": 0.729
+                },
+                "measure_duration": {
+                    "alpha": 0.0134,
+                    "beta": 0.895
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "081180",
+            "name": "쎄크"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 14:12",
+        "key_facts": [
+            "HBM의 중요성 강화로 인해 최종 조립 및 성능 검사와 같은 후공정 단계에 대한 시장의 관심이 증가함.",
+            "HBM 제조사의 턴키 투자 및 3D 패키징 도입 확대에 따라 검사·계측 장비 기업들의 중장기적 수혜가 기대됨."
+        ],
+        "new_trends": [
+            "나노 단위 미세 공정 검사 수요 증가에 따른 원자력현미경(AFM) 및 3D 측정 검사 장비 활용 확대",
+            "CXL 테스트 장비 등 공정 고도화에 따른 차별화된 검사 장비 라인업 등장"
+        ],
+        "news_summary": "반도체 업계의 선단 공정 전환과 HBM(고대역폭메모리) 생산능력 확대 경쟁으로 인해 후공정 검사 및 계측 장비 수요가 증가하는 추세입니다. 특히 HBM의 성능 검사와 3D 패키징 도입 확대가 중장기적인 성장 동력으로 작용하고 있으며, 나노 단위의 미세 공정 검사 수요가 늘어남에 따라 관련 기술력을 보유한 기업들에 대한 시장의 관심이 높아지고 있습니다."
+    }
+}

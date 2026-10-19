@@ -1,0 +1,116 @@
+{
+    "key": "005930(B)",
+    "filename": "005930(B)_스마트폰,_PC",
+    "updated": "2026-10-19 13:32",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "삼성전자",
+            "code": "005930",
+            "segment_name": "스마트폰, PC",
+            "id": "B",
+            "updated": "2026-10-19 13:31",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 214000.0,
+                "revenue_4qtrs": 97000.0,
+                "opincome_4qtrs": 1940.0,
+                "revenue_qtr": 29200.0,
+                "opincome_qtr": 583.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 33.8,
+                "growth_per_qtr": 0.0698
+            },
+            "opmargin": {
+                "25_4Q": 0.02,
+                "26_1Q": 0.02,
+                "26_2Q": 0.02,
+                "26_3Q": 0.02,
+                "4qtrs": 0.02
+            },
+            "PER": {
+                "PER_ltm": 110.0,
+                "PER_qx4": 91.8,
+                "PER_fwd": 80.2
+            },
+            "volatility": {
+                "measure_to_base": 0.585,
+                "slope": -8.46e-6
+            },
+            "amount": {
+                "measure_to_base": 0.895,
+                "slope": -7.8
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00043,
+                    "beta": 1.22
+                },
+                "base_duration": {
+                    "alpha": 0.00156,
+                    "beta": 1.32
+                },
+                "measure_duration": {
+                    "alpha": 0.0036,
+                    "beta": 1.37
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.17,
+        "marcap_share": 0.17,
+        "opmargin": 0.02,
+        "trend": "weak margin"
+    },
+    "id": "B",
+    "profile_name": "삼성전자",
+    "profile_code": "005930",
+    "segment_name": "스마트폰, PC",
+    "news": {
+        "updated": "2026-10-19 13:31",
+        "key_financials": [
+            "2분기: MX 사업부 영업손실 7,000억 원 (매출 약 33조 원)으로 출범 후 첫 분기 적자 기록",
+            "3분기(추정): MX·네트워크 사업부 매출 약 35조 원, 영업손실 1조~3조 원 예상 (SammyFans 추정치)"
+        ],
+        "key_facts": [
+            "갤럭시 Z 폴드 8 등 Z8 라인업 판매 호조 보고됨",
+            "미국 시장 내 갤럭시 A 시리즈 및 갤럭시 S26 라인업 가격 인상 단행 (갤럭시 A17 5G의 경우 출시가 대비 35% 인상)",
+            "차세대 모바일 OS 'One UI 9.5' 내부 빌드에서 PC-스마트폰 연동을 강화하는 '앱 미러링' 기능 포착 (갤럭시 S27 시리즈와 함께 제공될 가능성 제기)",
+            "MX 사업부가 협력사에 4분기 스마트폰 관련 물량을 20~30% 감축 요청함"
+        ],
+        "key_issues": [
+            "메모리 구매가 급등(상반기 평균 211% 상승)이 스마트폰 판매가 상승률(약 7%)을 상회하며 원가 부담 가중",
+            "AI 서버용 고부가 메모리(HBM, LPDDR5X 등) 생산 확대에 따라 PC 및 스마트폰용 범용 메모리 공급 부족 및 가격 상승 압박 심화",
+            "메모리 공급난이 2027년에 더 심해지고 2028년까지 이어질 수 있다는 삼성전자의 전망",
+            "메모리 가격 상승 장기화 시 스마트폰 사업의 구조적 적자 진입 우려 (삼성증권은 올해 5조 원, 내년 15조 원대 손실 전망)"
+        ],
+        "news_summary": "삼성전자 MX(모바일) 사업부는 메모리 구매 가격의 급격한 상승(상반기 211%↑)이 제품 판매가 상승률을 크게 앞지르면서 2분기 사상 첫 분기 적자(7,000억 원)를 기록했으며, 3분기에도 영업손실이 이어질 것으로 추정됩니다. 특히 AI 서버의 메모리 수요 급증으로 인해 PC 및 스마트폰용 범용 메모리 공급이 압박받는 구조적 문제가 심화되고 있으며, 이로 인해 4분기 스마트폰 생산 물량을 20~30% 감축하고 일부 제품의 가격을 인상하는 대응책을 강구하고 있습니다. 한편, Z8 라인업의 판매 호조와 One UI 9.5를 통한 기기 간 연동성 강화 등의 전략을 추진 중입니다."
+    }
+}

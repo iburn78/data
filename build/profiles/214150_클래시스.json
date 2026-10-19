@@ -1,0 +1,133 @@
+{
+    "key": "214150",
+    "filename": "214150_클래시스",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "클래시스",
+            "code": "214150",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1800.0,
+                "revenue_4qtrs": 392.0,
+                "opincome_4qtrs": 176.0,
+                "revenue_qtr": 106.0,
+                "opincome_qtr": 43.9
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 1.75,
+                "growth_per_qtr": 0.0397
+            },
+            "opmargin": {
+                "25_4Q": 0.548,
+                "26_1Q": 0.427,
+                "26_2Q": 0.416,
+                "26_3Q": 0.416,
+                "4qtrs": 0.45
+            },
+            "PER": {
+                "PER_ltm": 10.2,
+                "PER_qx4": 10.2,
+                "PER_fwd": 9.32
+            },
+            "volatility": {
+                "measure_to_base": 0.6,
+                "slope": -0.0000793
+            },
+            "amount": {
+                "measure_to_base": 0.689,
+                "slope": -0.0897
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000934,
+                    "beta": 0.627
+                },
+                "base_duration": {
+                    "alpha": -0.0055,
+                    "beta": 0.24
+                },
+                "measure_duration": {
+                    "alpha": -0.004,
+                    "beta": 0.391
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:44",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "미용 의료기기"
+        ],
+        "revenue_share": [
+            1.0
+        ],
+        "opmargin": [
+            null
+        ],
+        "trend": [
+            "성장세(소모품 매출 확대)"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "슈링크 시리즈, 볼뉴머, 쿼드세이, 리팟"
+        ],
+        "competitors": [
+            "Classys, Jeisys Medical, Lutronic"
+        ]
+    },
+    "code": "214150",
+    "name": "클래시스",
+    "overview": {
+        "title": "소모품 매출 확대와 글로벌 성장",
+        "desc": "동사는 2007년 설립되어 2017년 케이티비스팩2호와 합병을 통해 코스닥시장에 상장된 미용 의료기기 전문 기업임. 2024년 이루다 흡수합병으로 제품 라인업을 확장하고, 일본 자회사를 설립하며 브라질, 콜롬비아, 아르헨티나 법인을 인수해 직영 체제로 운영 중임. 주요 제품으로 집속초음파 장비 슈링크 시리즈, 모노폴라 RF 볼뉴머, 마이크로니들 RF 쿼드세이, 레이저 장비 리팟 등을 보유해 전 세계 80여 개국에 판매함.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 20.1% 증가, 영업이익은 0.8% 감소, 당기순이익은 10.1% 증가. 주력 장비 판매 확대에 따라 카트리지, 팁, 젤패드 등 소모품 매출이 증가하는 반복적 수익 구조가 강화되면서 매출이 증가하였음. 다만 해외 직영 체제 확대 및 신규 법인 인수에 따른 비용 증가로 수익성은 다소 제한적인 모습을 보이고 있음.",
+        "as_of": "2026-09-06",
+        "updated": "2026-10-17 14:28"
+    },
+    "news": {
+        "updated": "2026-10-17 14:28",
+        "key_facts": [
+            "2026년 2분기 매출액 1,055억 원, 영업이익 439억 원을 기록했으며, 상반기 누적 매출액은 1,927억 원임.",
+            "2026년 4분기 신제품 '비볼라(Vivola)' 출시와 판매량 확대로 인한 실적 반등이 기대됨.",
+            "2026년 내 글로벌 장비 누적 판매 대수 5만 대 돌파를 전망하고 있음.",
+            "2024년 10월 이루다와의 합병 완료 및 2026년 3월 브라질 메드시스템즈를 연결 실적으로 편입함.",
+            "2026년 7~8월 윤준오 대표(CEO)와 김택수 CTO를 선임하고 일본 판매 체계를 8월부터 완전 직영으로 전환함."
+        ],
+        "key_issues": [
+            "국내 시장의 경쟁 심화 및 성장 둔화로 인한 장비 및 소모품 매출 감소가 지속되고 있음.",
+            "브라질 법인의 인수 후 통합(PMI) 지연, 고원가 재고 처리 및 월드컵 영향으로 인한 수익성 악화가 발생함.",
+            "원화 강세 및 계절적 요인(7~8월 의료 소비 감소)으로 인한 영업이익률 하락이 나타남.",
+            "솔타메디칼의 국내 매출 둔화로 인한 소모품 매출 감소세가 확인됨."
+        ],
+        "news_summary": "클래시스는 해외 시장의 성장세와 글로벌 장비 보급 확대에도 불구하고, 국내 시장 부진과 브라질 법인의 통합 지연으로 인해 최근 실적 추정치가 하향 조정되었습니다. 하지만 4분기 신제품 출시와 브라질 영업 정상화, 그리고 미국·중국 등 주요 시장 진출을 통해 실적 회복과 중장기 성장을 추진하고 있습니다."
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "key": "셀",
+    "filename": "셀",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "셀",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 140000.0,
+                "revenue_4qtrs": 55000.0,
+                "opincome_4qtrs": 461.0,
+                "revenue_qtr": 14800.0,
+                "opincome_qtr": 492.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": -28.5,
+                "growth_per_qtr": -0.247
+            },
+            "opmargin": {
+                "25_4Q": -0.0248,
+                "26_1Q": -0.0167,
+                "26_2Q": 0.0332,
+                "26_3Q": 0.0332,
+                "4qtrs": 0.00837
+            },
+            "PER": {
+                "PER_ltm": 303.0,
+                "PER_qx4": 70.9,
+                "PER_fwd": 82.9
+            },
+            "volatility": {
+                "measure_to_base": 0.787,
+                "slope": -0.0000775
+            },
+            "amount": {
+                "measure_to_base": 1.56,
+                "slope": -5.17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00126,
+                    "beta": 0.765
+                },
+                "base_duration": {
+                    "alpha": 0.000499,
+                    "beta": 0.443
+                },
+                "measure_duration": {
+                    "alpha": 0.00437,
+                    "beta": 0.133
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "373220",
+            "name": "LG에너지솔루션"
+        },
+        {
+            "key": "006400",
+            "name": "삼성SDI"
+        },
+        {
+            "key": "096770(C)",
+            "name": "SK이노베이션"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 12:53",
+        "key_facts": [
+            "창신메모리테크놀로지(CXMT)의 5세대 DRAM 제조 플랫폼 G5가 2026년 9월 양산을 시작함",
+            "창신메모리테크놀로지의 글로벌 DRAM 매출 점유율이 전년 동기 약 4%에서 2026년 2분기 약 10%로 상승함"
+        ],
+        "new_trends": [
+            "차세대 4F² DRAM 메모리 셀 아키텍처: 기존 6F² 구조보다 동일 면적 내 더 많은 메모리 셀 집적으로 저장 밀도를 높이는 기술",
+            "2026년 말 이전 4F² 기술을 적용한 신세대 DDR5 RDIMM 서버용 메모리 출시 계획"
+        ],
+        "news_summary": "중국 창신메모리테크놀로지(CXMT)가 저장 밀도를 높인 차세대 4F² DRAM 셀 아키텍처 R&D 진척 상황을 공개하고 2026년 말까지 DDR5 RDIMM 출시 계획을 밝히면서, 글로벌 메모리 산업의 경쟁 구도 및 공급 지형에 대한 시장의 재평가가 이루어지고 있습니다. 이로 인해 메모리 섹터 전반의 밸류에이션 우려가 제기되며 관련 주가가 하락하는 양상을 보이고 있습니다."
+    }
+}

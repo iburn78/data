@@ -1,0 +1,114 @@
+{
+    "key": "011070(B)",
+    "filename": "011070(B)_패키지솔루션",
+    "updated": "2026-10-19 17:00",
+    "llm_research_updated": "2026-10-19 17:00",
+    "financials": {
+        "meta": {
+            "name": "LG이노텍",
+            "code": "011070",
+            "segment_name": "패키지솔루션",
+            "id": "B",
+            "updated": "2026-10-19 17:00",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 866.0,
+                "revenue_4qtrs": 2180.0,
+                "opincome_4qtrs": 231.0,
+                "revenue_qtr": 497.0,
+                "opincome_qtr": 52.7
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 1.02,
+                "growth_per_qtr": 0.0177
+            },
+            "opmargin": {
+                "25_4Q": 0.106,
+                "26_1Q": 0.106,
+                "26_2Q": 0.106,
+                "26_3Q": 0.106,
+                "4qtrs": 0.106
+            },
+            "PER": {
+                "PER_ltm": 3.75,
+                "PER_qx4": 4.11,
+                "PER_fwd": 3.92
+            },
+            "volatility": {
+                "measure_to_base": 0.787,
+                "slope": -0.000178
+            },
+            "amount": {
+                "measure_to_base": 1.15,
+                "slope": -0.331
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000444,
+                    "beta": 1.18
+                },
+                "base_duration": {
+                    "alpha": 0.0025,
+                    "beta": 1.1
+                },
+                "measure_duration": {
+                    "alpha": -0.000725,
+                    "beta": 1.22
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": true,
+        "updated": "2026-10-19 16:37",
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.09,
+        "marcap_share": 0.09,
+        "opmargin": 0.106,
+        "trend": "improving (AI-driven semiconductor demand)"
+    },
+    "id": "B",
+    "profile_name": "LG이노텍",
+    "profile_code": "011070",
+    "segment_name": "패키지솔루션",
+    "news": {
+        "updated": "2026-10-19 16:30",
+        "key_financials": [
+            "2026년 상반기: 매출 9,356억원, 영업이익 996억원 (전년 동기 대비 각각 18%, 94% 증가)",
+            "2025년: 매출 1조 7,200억원, 영업이익 1,289억원 / 2024년: 매출 1조 4,600억원, 영업이익 708억원",
+            "전망(유안타증권): 2026년 영업이익 2,243억원, 2027년 4,404억원 예상"
+        ],
+        "key_facts": [
+            "FC-BGA 중심으로 제품군 확대 및 고객사 다변화 추진 중이며, 2024년 12월 PC 칩셋용 양산 시작함",
+            "제품 로드맵: 4분기 PC CPU 진입을 시작으로 2027년 서버용 스위치, 2028년 서버 CPU까지 확대 예상",
+            "GDDR7용 FC-CSP 수주 및 RF-SiP 기판 글로벌 시장 점유율 1위(약 65%) 유지 중",
+            "생산 능력 확대: 구미 공장 증설 및 베트남 하이퐁 공장 대규모 투자 추진(2027년 5월 준공 예정)",
+            "2031년까지 패키지솔루션 사업부 영업이익 1조원 규모 육성 목표 설정"
+        ],
+        "key_issues": [],
+        "news_summary": "LG이노텍의 패키지솔루션 사업부는 FC-BGA를 차세대 성장 동력으로 삼아 PC CPU를 시작으로 AI 서버, 네트워크 스위치 등으로 적용처를 확대하며 고객사 다변화를 추진하고 있습니다. 특히 베트남 하이퐁 공장 증설을 통해 생산 능력을 확대하고 있으며, 2031년까지 영업이익 1조원 달성을 목표로 하고 있습니다. 최근 상반기 매출과 영업이익이 전년 대비 크게 성장하며 전사적인 고수익 이익축으로 자리 잡고 있는 모습입니다."
+    }
+}

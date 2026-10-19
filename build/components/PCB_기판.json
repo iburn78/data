@@ -1,0 +1,112 @@
+{
+    "key": "PCB 기판",
+    "filename": "PCB_기판",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "PCB 기판",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 7300.0,
+                "revenue_4qtrs": 1400.0,
+                "opincome_4qtrs": 278.0,
+                "revenue_qtr": 380.0,
+                "opincome_qtr": 77.1
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 6.05,
+                "growth_per_qtr": 0.0871
+            },
+            "opmargin": {
+                "25_4Q": 0.19,
+                "26_1Q": 0.198,
+                "26_2Q": 0.203,
+                "26_3Q": 0.203,
+                "4qtrs": 0.199
+            },
+            "PER": {
+                "PER_ltm": 26.3,
+                "PER_qx4": 23.7,
+                "PER_fwd": 19.8
+            },
+            "volatility": {
+                "measure_to_base": 0.71,
+                "slope": -0.00012
+            },
+            "amount": {
+                "measure_to_base": 2.32,
+                "slope": -1.64
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00137,
+                    "beta": 1.25
+                },
+                "base_duration": {
+                    "alpha": -0.000469,
+                    "beta": 0.935
+                },
+                "measure_duration": {
+                    "alpha": 0.00891,
+                    "beta": 1.34
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "007660",
+            "name": "이수페타시스"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 17:08",
+        "key_facts": [
+            "2026년 10월 8일 기준, 메모리 패키지 기판의 추가 판가 인상 전망으로 인해 반도체 기판(FC-BGA, PCB, MLB 등) 테마가 상승함.",
+            "2026년 10월 15일 중국 증시에서 인쇄회로기판(PCB) 관련주가 상승했으며, 특히 현금흐름이 확실한 섹터로서 강세를 보임."
+        ],
+        "new_trends": [],
+        "news_summary": "최근 PCB 기판 섹터는 메모리 패키지 기판의 판가 인상 전망과 확실한 현금흐름을 바탕으로 국내외 시장에서 긍정적인 흐름을 보였습니다. 특히 한국 시장에서는 반도체 기판 테마의 상승이 나타났으며, 중국 시장에서도 AI 섹터의 밸류에이션 부담 속에서 PCB 관련주가 상대적인 강세를 기록했습니다."
+    }
+}

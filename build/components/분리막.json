@@ -1,0 +1,118 @@
+{
+    "key": "분리막",
+    "filename": "분리막",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "분리막",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1750.0,
+                "revenue_4qtrs": 299.0,
+                "opincome_4qtrs": -368.0,
+                "revenue_qtr": 75.8,
+                "opincome_qtr": -78.9
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -0.65,
+                "growth_per_qtr": 0.00707
+            },
+            "opmargin": {
+                "25_4Q": -1.68,
+                "26_1Q": -1.19,
+                "26_2Q": -1.04,
+                "26_3Q": -1.04,
+                "4qtrs": -1.23
+            },
+            "PER": {
+                "PER_ltm": -4.76,
+                "PER_qx4": -5.54,
+                "PER_fwd": -5.42
+            },
+            "volatility": {
+                "measure_to_base": 0.854,
+                "slope": 0.000149
+            },
+            "amount": {
+                "measure_to_base": 1.63,
+                "slope": -0.153
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.00135,
+                    "beta": 0.812
+                },
+                "base_duration": {
+                    "alpha": -0.00208,
+                    "beta": 0.332
+                },
+                "measure_duration": {
+                    "alpha": 0.00496,
+                    "beta": 0.274
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "361610",
+            "name": "SK아이이테크놀로지"
+        },
+        {
+            "key": "393890",
+            "name": "더블유씨피"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 12:52",
+        "key_facts": [
+            "2026년 8월 26일 기준, 2차전지 분리막 사업에 대한 투자 심리 개선과 저점 인식으로 인한 매수세 유입이 나타남",
+            "전기차 배터리의 고용량화 및 안전성 강화 트렌드가 지속되고 있음"
+        ],
+        "new_trends": [
+            "고성장 프리미엄 분리막 시장의 경쟁 우위 및 기술력 부각"
+        ],
+        "news_summary": "2026년 8월 말, 2차전지 분리막 섹터에 대해 저평가 인식이 확산되며 투자 심리가 개선되는 흐름을 보이고 있습니다. 특히 전기차 시장의 장기적 성장 전망과 배터리의 고용량화 및 안전성 강화 추세에 따라 프리미엄 분리막 기술력에 대한 시장의 관심이 다시 고조되고 있습니다."
+    }
+}

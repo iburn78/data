@@ -1,0 +1,121 @@
+{
+    "key": "바이오의약품 위탁생산",
+    "filename": "바이오의약품_위탁생산",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "바이오의약품 위탁생산",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 60100.0,
+                "revenue_4qtrs": 4210.0,
+                "opincome_4qtrs": 2130.0,
+                "revenue_qtr": 1320.0,
+                "opincome_qtr": 586.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": false,
+                "slope": 31.9,
+                "growth_per_qtr": 0.0598
+            },
+            "opmargin": {
+                "25_4Q": 1.23,
+                "26_1Q": 0.462,
+                "26_2Q": 0.444,
+                "26_3Q": 0.444,
+                "4qtrs": 0.507
+            },
+            "PER": {
+                "PER_ltm": 28.2,
+                "PER_qx4": 25.6,
+                "PER_fwd": 22.5
+            },
+            "volatility": {
+                "measure_to_base": 0.672,
+                "slope": 0.0000142
+            },
+            "amount": {
+                "measure_to_base": 1.03,
+                "slope": -0.234
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000779,
+                    "beta": 0.489
+                },
+                "base_duration": {
+                    "alpha": -0.0014,
+                    "beta": 0.116
+                },
+                "measure_duration": {
+                    "alpha": -0.00529,
+                    "beta": -0.168
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "207940",
+            "name": "삼성바이오로직스"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 14:31",
+        "key_facts": [
+            "2022년 인도 바이오제약 부문은 전체 바이오경제의 49.0% 점유율을 차지하며 약 394억 달러의 경제적 기여도를 기록함.",
+            "미국 국립의학도서관(NLM)은 2026년까지 상위 100대 의약품 매출의 55%가 생물학적 제제에서 발생할 것으로 예측함.",
+            "2024년 11월 백악관 보고서에 따르면, 미국 내 바이오 공정 프로젝트에 공공 및 상업 부문에서 총 460억 달러가 투자됨.",
+            "2021년 7월 캐나다 정부는 백신, 의약품 및 바이오 제조 역량 재건을 위해 12억 달러 이상을 투자함.",
+            "2024년 6월 기준, FDA에서 56건, EMA에서 48건의 항암 단일클론항체 기반 치료제가 승인됨."
+        ],
+        "new_trends": [
+            "개인 맞춤형 의학의 확산으로 인해 고도로 맞춤화된 소량 생산 생물학적 제제 수요 증가.",
+            "제약 회사들이 운영 비용 절감 및 핵심 역량 집중을 위해 제조 공정을 CDMO로 아웃소싱하는 추세 강화.",
+            "mRNA 백신, 세포 및 유전자 치료제(CGT) 등 차세대 바이오의약품으로의 사업 영역 확장.",
+            "AI 기반 공정 최적화 및 최첨단 처리 능력 도입을 통한 생산 효율성 및 비용 절감 노력.",
+            "블록버스터 바이오의약품의 특허 만료에 따른 아시아 태평양 지역의 바이오시밀러 수요 급증."
+        ],
+        "news_summary": "글로벌 바이오의약품 CDMO 시장은 만성 질환 및 암 유병률 증가, 맞춤형 의료 및 유전자/세포 치료제 개발 확대로 인해 지속적인 성장이 예상됩니다. 특히 북미 시장은 첨단 치료법 개발을 주도하며 높은 점유율을 유지할 것으로 보이며, 아시아 태평양 지역은 바이오시밀러 수요와 급격한 산업 성장으로 가장 빠른 성장세를 보일 전망입니다. 산업 전반적으로 비용 절감을 위한 아웃소싱 추세가 강화되고 있으며, 기업들은 AI 공정 최적화 및 차세대 플랫폼(mRNA 등) 확보를 통해 경쟁력을 높이고 있습니다. 다만, 복잡한 제조 공정에 따른 높은 생산 비용과 지적 재산권(IP) 보호 문제는 시장의 주요 과제로 남아 있습니다."
+    }
+}

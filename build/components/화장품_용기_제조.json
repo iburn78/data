@@ -1,0 +1,117 @@
+{
+    "key": "화장품 용기 제조",
+    "filename": "화장품_용기_제조",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "화장품 용기 제조",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 884.0,
+                "revenue_4qtrs": 403.0,
+                "opincome_4qtrs": 64.6,
+                "revenue_qtr": 117.0,
+                "opincome_qtr": 21.7
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.79,
+                "growth_per_qtr": 0.0489
+            },
+            "opmargin": {
+                "25_4Q": 0.108,
+                "26_1Q": 0.141,
+                "26_2Q": 0.185,
+                "26_3Q": 0.185,
+                "4qtrs": 0.16
+            },
+            "PER": {
+                "PER_ltm": 13.7,
+                "PER_qx4": 10.2,
+                "PER_fwd": 9.36
+            },
+            "volatility": {
+                "measure_to_base": 0.75,
+                "slope": 0.000262
+            },
+            "amount": {
+                "measure_to_base": 1.02,
+                "slope": 0.0646
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00078,
+                    "beta": 0.444
+                },
+                "base_duration": {
+                    "alpha": 0.00508,
+                    "beta": 0.0284
+                },
+                "measure_duration": {
+                    "alpha": 0.0108,
+                    "beta": -0.0645
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "251970",
+            "name": "펌텍코리아"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 14:32",
+        "key_facts": [
+            "글로벌 K-뷰티 수출 호황으로 인해 국내 화장품 용기 공급이 수요를 따라가지 못하는 공급 부족 현상이 발생함.",
+            "인디 브랜드의 급성장과 수출 판로 다변화(북미, 유럽 등)로 인해 용기 제조업체들의 수주 물량이 증가함.",
+            "용기가 단순한 부자재를 넘어 브랜드 아이덴티티를 대변하는 구성 요소로 위상이 변화하고 있음."
+        ],
+        "new_trends": [
+            "제약 및 건강기능식품 전용 용기로 사업 영역 확장 및 다각화 추세.",
+            "글로벌 메이저 브랜드들이 한국산 화장품 용기에 관심을 가지며 수주 범위가 글로벌 시장으로 확대되는 경향.",
+            "특정 대형 고객사 의존도를 낮추고 다수의 인디 브랜드로 고객사를 다변화하는 전략."
+        ],
+        "news_summary": "K-뷰티의 글로벌 수출 호황과 인디 브랜드의 성장으로 인해 화장품 용기 제조 섹터가 수혜를 입고 있습니다. 특히 수요 급증에 따른 용기 공급 부족 현상이 나타나고 있으며, 이에 대응하기 위해 주요 업체들이 생산능력(CAPA) 확대를 위한 공장 증설에 집중하고 있습니다. 또한, 기존 화장품 용기에서 제약 및 건강기능식품 용기로 사업 영역을 넓히고 글로벌 메이저 브랜드로 고객사를 확장하려는 움직임이 관찰됩니다."
+    }
+}

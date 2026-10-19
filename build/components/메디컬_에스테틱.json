@@ -1,0 +1,123 @@
+{
+    "key": "메디컬 에스테틱",
+    "filename": "메디컬_에스테틱",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "메디컬 에스테틱",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 6320.0,
+                "revenue_4qtrs": 1880.0,
+                "opincome_4qtrs": 538.0,
+                "revenue_qtr": 508.0,
+                "opincome_qtr": 146.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 6.35,
+                "growth_per_qtr": 0.0471
+            },
+            "opmargin": {
+                "25_4Q": 0.277,
+                "26_1Q": 0.292,
+                "26_2Q": 0.287,
+                "26_3Q": 0.287,
+                "4qtrs": 0.286
+            },
+            "PER": {
+                "PER_ltm": 11.7,
+                "PER_qx4": 10.8,
+                "PER_fwd": 9.77
+            },
+            "volatility": {
+                "measure_to_base": 0.655,
+                "slope": -0.0000393
+            },
+            "amount": {
+                "measure_to_base": 0.684,
+                "slope": -0.00634
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000473,
+                    "beta": 0.632
+                },
+                "base_duration": {
+                    "alpha": -0.00172,
+                    "beta": 0.18
+                },
+                "measure_duration": {
+                    "alpha": -0.00694,
+                    "beta": 0.395
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "145020",
+            "name": "휴젤"
+        },
+        {
+            "key": "214450",
+            "name": "파마리서치"
+        },
+        {
+            "key": "086900",
+            "name": "메디톡스"
+        },
+        {
+            "key": "200670",
+            "name": "휴메딕스"
+        },
+        {
+            "key": "216080",
+            "name": "제테마"
+        },
+        {
+            "key": "234690",
+            "name": "녹십자웰빙"
+        }
+    ]
+}

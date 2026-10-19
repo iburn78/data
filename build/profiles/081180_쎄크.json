@@ -1,0 +1,138 @@
+{
+    "key": "081180",
+    "filename": "081180_쎄크",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "쎄크",
+            "code": "081180",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 50.5,
+                "revenue_4qtrs": 47.6,
+                "opincome_4qtrs": -10.5,
+                "revenue_qtr": 7.55,
+                "opincome_qtr": -3.96
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -0.404,
+                "growth_per_qtr": 0.153
+            },
+            "opmargin": {
+                "25_4Q": 0.0505,
+                "26_1Q": -0.386,
+                "26_2Q": -0.525,
+                "26_3Q": -0.525,
+                "4qtrs": -0.221
+            },
+            "PER": {
+                "PER_ltm": -4.79,
+                "PER_qx4": -3.18,
+                "PER_fwd": -2.54
+            },
+            "volatility": {
+                "measure_to_base": 0.848,
+                "slope": -7.42e-6
+            },
+            "amount": {
+                "measure_to_base": 2.4,
+                "slope": -0.0283
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.00314,
+                    "beta": 0.775
+                },
+                "base_duration": {
+                    "alpha": -0.00648,
+                    "beta": 0.729
+                },
+                "measure_duration": {
+                    "alpha": 0.0134,
+                    "beta": 0.895
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:41",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "검사 솔루션",
+            "부품 및 신규사업"
+        ],
+        "revenue_share": [
+            0.6,
+            0.4
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "stable",
+            "declining"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "X-ray Tube, X-ray System",
+            "Semi-scan series, In-line X-ray System"
+        ],
+        "competitors": [
+            "Unknown",
+            "Unknown"
+        ]
+    },
+    "code": "081180",
+    "name": "쎄크",
+    "overview": {
+        "title": "HBM·전고체 신규 검사장비 개발",
+        "desc": "동사는 2000년 설립된 전자빔 기술 기반의 부품 및 검사장비 기업으로, 2025년 코스닥에 상장함. 2006년 X-ray Tube를 국내 최초 개발·상용화하여 자체 생산·판매가 가능하며, 반도체·배터리 산업용 X-ray System 등을 개발·제조·판매하고 있음. 매출의 과반 이상을 검사 솔루션에서 창출하며, AI 알고리즘으로 자동 검사 성능을 향상시키고 신규사업을 추진하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 16.7% 감소, 영업손실은 84.2% 증가, 당기순손실은 49.4% 증가. 배터리 분야는 고금리 장기화로 전기차 수요가 감소하고, 캐즘 진입으로 신규 공장 증설이 지연됨에 따라 실적이 악화됨. HBM 반도체 검사용 Semi-scan 시리즈 및 각형·전고체 배터리용 인라인 X-ray System 개발을 통해 배터리 전 유형 검사 기술을 확보하고 있음.",
+        "as_of": "2026-09-14",
+        "updated": "2026-10-17 14:12"
+    },
+    "news": {
+        "updated": "2026-10-17 14:13",
+        "key_facts": [
+            "2026년 상반기 매출 172억 8,940만원, 영업손실 77억 1,788만원을 기록했으나 영업활동 현금흐름은 35억 6,136만원 순유입됨.",
+            "2026년 9월 15일 한화에어로스페이스와 74억원 규모의 방산용 검사장비 계약을 체결하며, LINAC 수주잔고가 344억원으로 증가함.",
+            "방산용 LINAC 상반기 신규 수주액은 172억원으로, 전년 연간 수주액(89억원)을 이미 초과함.",
+            "HBM 인라인 검사장비 'Semi-scan H'가 현재 국내 메모리 고객사의 샘플 테스트 및 검증 단계에 있음.",
+            "2025년 미국 마이크론에 수동 검사장비 8대를 공급하며 실사용 레퍼런스를 확보함."
+        ],
+        "key_issues": [
+            "배터리 검사장비 부문의 수익성 악화와 재고자산 평가손실(영업손실의 32%)이 단기 실적에 부담을 줌.",
+            "장비 제작 기간이 평균 18개월 이상으로 길어 재공품 비중이 높고 실적 편차가 발생할 수 있는 사업 구조임.",
+            "HBM 인라인 검사장비의 공급업체 선정 및 실제 수주 여부가 향후 실적 반등의 핵심 변수임."
+        ],
+        "news_summary": "전자빔 원천기술 기업 쎄크는 2026년 상반기 배터리 장비 수익성 악화와 재고 평가손실로 적자를 기록했으나, 방산용 선형가속기(LINAC)의 수주 급증과 HBM 인라인 검사장비의 고객사 검증 진행을 통해 반등을 준비하고 있습니다. 한화에어로스페이스와의 협력 강화와 HBM 시장 진입을 바탕으로 2027년 흑자 전환이 전망됩니다."
+    }
+}

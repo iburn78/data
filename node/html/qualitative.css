@@ -10,7 +10,7 @@
 }
 
 .llm-research-trigger-row {
-    margin: 10px 0 6px;
+    margin: 8px 0 12px;
 }
 
 .llm-research-link {
@@ -24,6 +24,10 @@
 
 .llm-research-link:hover {
     background: #f1f5f9;
+}
+
+.llm-research-link.llm-research-missing {
+    color: #e88b8b;
 }
 
 .llm-research-delete-button {

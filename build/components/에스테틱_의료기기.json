@@ -1,0 +1,107 @@
+{
+    "key": "에스테틱 의료기기",
+    "filename": "에스테틱_의료기기",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "에스테틱 의료기기",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2180.0,
+                "revenue_4qtrs": 573.0,
+                "opincome_4qtrs": 222.0,
+                "revenue_qtr": 153.0,
+                "opincome_qtr": 55.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 2.11,
+                "growth_per_qtr": 0.0381
+            },
+            "opmargin": {
+                "25_4Q": 0.454,
+                "26_1Q": 0.38,
+                "26_2Q": 0.36,
+                "26_3Q": 0.36,
+                "4qtrs": 0.387
+            },
+            "PER": {
+                "PER_ltm": 9.83,
+                "PER_qx4": 9.91,
+                "PER_fwd": 9.04
+            },
+            "volatility": {
+                "measure_to_base": 0.606,
+                "slope": -0.0000859
+            },
+            "amount": {
+                "measure_to_base": 0.948,
+                "slope": -0.205
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000967,
+                    "beta": 0.583
+                },
+                "base_duration": {
+                    "alpha": -0.00535,
+                    "beta": 0.28
+                },
+                "measure_duration": {
+                    "alpha": -0.00408,
+                    "beta": 0.409
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "214150",
+            "name": "클래시스"
+        },
+        {
+            "key": "336570",
+            "name": "원텍"
+        }
+    ]
+}

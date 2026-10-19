@@ -1,0 +1,109 @@
+{
+    "key": "버스덕트",
+    "filename": "버스덕트",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "버스덕트",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 7470.0,
+                "revenue_4qtrs": 3120.0,
+                "opincome_4qtrs": 108.0,
+                "revenue_qtr": 869.0,
+                "opincome_qtr": 36.1
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 2.42,
+                "growth_per_qtr": 0.0897
+            },
+            "opmargin": {
+                "25_4Q": 0.013,
+                "26_1Q": 0.0365,
+                "26_2Q": 0.0416,
+                "26_3Q": 0.0416,
+                "4qtrs": 0.0347
+            },
+            "PER": {
+                "PER_ltm": 69.2,
+                "PER_qx4": 51.7,
+                "PER_fwd": 44.3
+            },
+            "volatility": {
+                "measure_to_base": 0.888,
+                "slope": -0.000329
+            },
+            "amount": {
+                "measure_to_base": 1.32,
+                "slope": -0.0286
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00144,
+                    "beta": 1.07
+                },
+                "base_duration": {
+                    "alpha": 0.0146,
+                    "beta": 1.15
+                },
+                "measure_duration": {
+                    "alpha": 0.0166,
+                    "beta": 1.67
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "000500",
+            "name": "가온전선"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 13:23",
+        "key_facts": [],
+        "new_trends": [],
+        "news_summary": "제공된 기사에는 버스덕트(Bus Duct) 산업 섹터와 관련된 구체적인 정보가 포함되어 있지 않습니다."
+    }
+}

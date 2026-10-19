@@ -1,0 +1,119 @@
+{
+    "key": "055490",
+    "filename": "055490_테이팩스",
+    "updated": "2026-10-15 12:26",
+    "financials": {
+        "meta": {
+            "name": "테이팩스",
+            "code": "055490",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-15 12:26",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 91.6,
+                "revenue_4qtrs": 157.0,
+                "opincome_4qtrs": 9.45,
+                "revenue_qtr": 40.7,
+                "opincome_qtr": 3.18
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.3,
+                "growth_per_qtr": 0.127
+            },
+            "opmargin": {
+                "25_4Q": 0.0338,
+                "26_1Q": 0.0477,
+                "26_2Q": 0.0782,
+                "26_3Q": 0.0782,
+                "4qtrs": 0.0603
+            },
+            "PER": {
+                "PER_ltm": 9.69,
+                "PER_qx4": 7.19,
+                "PER_fwd": 5.82
+            },
+            "volatility": {
+                "measure_to_base": 0.845,
+                "slope": -0.00009
+            },
+            "amount": {
+                "measure_to_base": 1.59,
+                "slope": -0.0147
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.0000575,
+                    "beta": 0.744
+                },
+                "base_duration": {
+                    "alpha": 0.00171,
+                    "beta": 0.424
+                },
+                "measure_duration": {
+                    "alpha": 0.0101,
+                    "beta": -0.119
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "outperform",
+            "market_sentiment": "unchanged",
+            "category": "B"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-15 12:26",
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "전자소재",
+            "소비재"
+        ],
+        "revenue_share": [
+            0.7,
+            0.3
+        ],
+        "create_segments": false,
+        "key_products": [
+            "이차전지용 테이프",
+            "식품포장 랩",
+            "MLCC용 UV테이프"
+        ],
+        "competitors": [],
+        "search_specifier": "",
+        "search_theme": []
+    },
+    "code": "055490",
+    "name": "테이팩스",
+    "overview": {
+        "title": "전자소재 수요 증가로 실적 대폭 개선",
+        "desc": "동사는 1994년에 테이프 생산 업체로 설립 후, 2003년 유니랩 인수로 식품포장 랩 시장에 진출하고 2005년 전자소재용 테이프 시장으로 사업을 확장했음. 전자소재와 소비재 부문으로 나뉘며, 이차전지, 디스플레이, 반도체용 테이프와 식품포장 랩 등 산업용품 및 주방용품을 공급하고 있음. 소재사업 확장을 위해 신규 사업장 및 생산능력을 확보하고, 유럽·북미 시장 선점과 MLCC용 고기능성 UV테이프 매출을 확대하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 18.6% 증가, 영업이익은 71685.7% 증가, 당기순이익 흑자전환. 주력 제품인 이차전지용 테이프가 글로벌 배터리 및 자동차 제조사의 요구에 맞춘 차별화된 기술력과 품질을 확보하고 있으며, 전기차 시장 성장에 따른 수요 증가로 전자소재 사업부문의 실적이 크게 개선됨. 소비재 사업에서도 영업용 랩이 국내시장 점유율 1위를 유지하며 안정적인 매출 기반을 확보하고 있음.",
+        "as_of": "2026-09-03",
+        "updated": "2026-10-15 12:26"
+    },
+    "news": {
+        "updated": "2026-10-15 12:26",
+        "key_facts": [
+            "2026년 10월 14일, 테이팩스는 2차전지 테마 상승 및 기능성 테이프·소재 생산 사업 영향으로 주가가 상승함 (매일경제 기준 5.69% 상승).",
+            "테이팩스는 테이프 제조 및 판매 전문업체임.",
+            "테이팩스는 2차전지 테마 내 142개 종목 중 퀀트 재무 순위 29위를 기록하며 성장성, 안정성, 수익성 면에서 테마 평균을 상회함."
+        ],
+        "key_issues": [],
+        "news_summary": "2026년 10월 14일, 테이팩스는 2차전지 및 폴더블폰 부품 소재 관련 시장의 기대감에 힘입어 주가가 상승했으며, 특히 2차전지 테마 내에서 높은 재무적 투자 매력도를 보유한 것으로 나타났습니다."
+    }
+}

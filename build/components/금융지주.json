@@ -1,0 +1,149 @@
+{
+    "key": "금융지주",
+    "filename": "금융지주",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "금융지주",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 195000.0,
+                "revenue_4qtrs": 3240.0,
+                "opincome_4qtrs": 0.0,
+                "revenue_qtr": 829.0,
+                "opincome_qtr": 0.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 0.0,
+                "growth_per_qtr": null
+            },
+            "opmargin": {
+                "25_4Q": 0.0,
+                "26_1Q": 0.0,
+                "26_2Q": 0.0,
+                "26_3Q": 0.0,
+                "4qtrs": 0.0
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base": 0.84,
+                "slope": -0.0000209
+            },
+            "amount": {
+                "measure_to_base": 0.947,
+                "slope": -1.31
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00038,
+                    "beta": 0.597
+                },
+                "base_duration": {
+                    "alpha": -0.000352,
+                    "beta": 0.124
+                },
+                "measure_duration": {
+                    "alpha": -0.00632,
+                    "beta": -0.0182
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "105560",
+            "name": "KB금융"
+        },
+        {
+            "key": "055550",
+            "name": "신한지주"
+        },
+        {
+            "key": "086790",
+            "name": "하나금융지주"
+        },
+        {
+            "key": "316140",
+            "name": "우리금융지주"
+        },
+        {
+            "key": "138930",
+            "name": "BNK금융지주"
+        },
+        {
+            "key": "139130",
+            "name": "iM금융지주"
+        },
+        {
+            "key": "175330",
+            "name": "JB금융지주"
+        },
+        {
+            "key": "024110",
+            "name": "기업은행"
+        },
+        {
+            "key": "006220",
+            "name": "제주은행"
+        },
+        {
+            "key": "323410",
+            "name": "카카오뱅크"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 14:15",
+        "key_facts": [
+            "국내 4대 금융지주(KB, 신한, 하나, 우리금융)의 2026년 3분기 합산 순이익 컨센서스는 5조 6,485억 원으로, 전년 동기 대비 약 3.0% 증가할 것으로 전망됨.",
+            "4대 금융지주 중 KB금융(전년 대비 8.7%↑), 신한금융(12.7%↑), 하나금융(8.4%↑)은 순이익 증가가 예상되나, 우리금융은 보험사 인수 관련 일회성 이익의 기저효과로 인해 유일하게 순이익이 감소(전년 대비 20.8%↓)할 것으로 추정됨.",
+            "최근 한 달간 글로벌 증시에서 은행 업종은 상대적으로 시장의 관심에서 소외된 것으로 분석됨."
+        ],
+        "new_trends": [],
+        "news_summary": "국내 4대 금융지주는 은행의 대출 성장과 이자이익에 힘입어 올해 3분기 전년 대비 합산 순이익이 증가할 것으로 전망됩니다. 다만 자본시장 둔화로 인해 비은행 부문의 비이자이익은 감소할 것으로 보입니다. 최근 시장에서는 금융지주 섹터 전반의 주가가 개별 악재 없이 조정을 받는 약세 흐름을 보였으며, 글로벌 증시 내에서도 은행 업종이 상대적으로 소외되는 경향이 나타났습니다."
+    }
+}

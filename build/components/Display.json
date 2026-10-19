@@ -1,0 +1,130 @@
+{
+    "key": "Display",
+    "filename": "Display",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "Display",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2130.0,
+                "revenue_4qtrs": 2690.0,
+                "opincome_4qtrs": 286.0,
+                "revenue_qtr": 689.0,
+                "opincome_qtr": 74.1
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": -2.25,
+                "growth_per_qtr": -0.0314
+            },
+            "opmargin": {
+                "25_4Q": 0.0997,
+                "26_1Q": 0.111,
+                "26_2Q": 0.108,
+                "26_3Q": 0.108,
+                "4qtrs": 0.106
+            },
+            "PER": {
+                "PER_ltm": 7.46,
+                "PER_qx4": 7.2,
+                "PER_fwd": 7.79
+            },
+            "volatility": {
+                "measure_to_base": 0.673,
+                "slope": -0.0000826
+            },
+            "amount": {
+                "measure_to_base": 1.33,
+                "slope": -0.323
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000268,
+                    "beta": 0.882
+                },
+                "base_duration": {
+                    "alpha": -0.00401,
+                    "beta": 0.594
+                },
+                "measure_duration": {
+                    "alpha": 0.00158,
+                    "beta": 0.723
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "213420",
+            "name": "덕산네오룩스"
+        },
+        {
+            "key": "272290",
+            "name": "이녹스첨단소재"
+        },
+        {
+            "key": "239890",
+            "name": "피엔에이치테크"
+        },
+        {
+            "key": "178920",
+            "name": "PI첨단소재"
+        },
+        {
+            "key": "108320",
+            "name": "LX세미콘"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 14:05",
+        "key_facts": [
+            "IT 기기(태블릿, 노트북) 및 차량용 디스플레이 시장에서 OLED 적용이 확대되고 있음",
+            "디스플레이 산업 전반적으로 경쟁 심화로 인한 가격 하락 압력이 지속되고 있음"
+        ],
+        "new_trends": [
+            "IT용 OLED 패널 수요 증가 및 자동차 산업의 전장화 추세"
+        ],
+        "news_summary": "디스플레이 산업은 IT 기기와 차량용 시장을 중심으로 OLED 적용이 확대되며 성장 동력을 모색하고 있으나, 업황의 불확실성과 경쟁 심화에 따른 가격 하락 압력이라는 리스크가 공존하고 있습니다."
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "key": "양극재",
+    "filename": "양극재",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "양극재",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 48800.0,
+                "revenue_4qtrs": 60400.0,
+                "opincome_4qtrs": 1110.0,
+                "revenue_qtr": 16500.0,
+                "opincome_qtr": 670.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": 37.0,
+                "growth_per_qtr": 0.134
+            },
+            "opmargin": {
+                "25_4Q": -0.0262,
+                "26_1Q": 0.0074,
+                "26_2Q": 0.0407,
+                "26_3Q": 0.0407,
+                "4qtrs": 0.0183
+            },
+            "PER": {
+                "PER_ltm": 44.1,
+                "PER_qx4": 18.2,
+                "PER_fwd": 16.0
+            },
+            "volatility": {
+                "measure_to_base": 0.81,
+                "slope": 0.0000448
+            },
+            "amount": {
+                "measure_to_base": 1.57,
+                "slope": -3.4
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000785,
+                    "beta": 1.04
+                },
+                "base_duration": {
+                    "alpha": -0.00279,
+                    "beta": 0.558
+                },
+                "measure_duration": {
+                    "alpha": 0.000714,
+                    "beta": 0.482
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "247540",
+            "name": "에코프로비엠"
+        },
+        {
+            "key": "003670",
+            "name": "포스코퓨처엠"
+        },
+        {
+            "key": "066970",
+            "name": "엘앤에프"
+        },
+        {
+            "key": "051910",
+            "name": "LG화학"
+        },
+        {
+            "key": "005070",
+            "name": "코스모신소재"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 12:55",
+        "key_facts": [
+            "AI 데이터센터발 에너지저장장치(ESS) 수요 폭증으로 인해 2028년까지 이차전지 시장의 핵심 성장 동력이 될 전망임",
+            "국내 배터리 업계는 LFP(리튬인산철) 양극재 생산능력 확대를 통해 제품 포트폴리오 다변화를 추진 중이며, 특히 북미 ESS 시장 공급이 본격화되고 있음",
+            "하이니켈 배터리는 고출력 프리미엄 전기차 시장에서 경쟁 우위를 가질 것으로 분석되며, 유럽 내 탄소 규제 강화와 중국 기업의 수율 문제로 한국 기업의 수주 혜택 가능성이 제기됨",
+            "전기차(EV) 시장은 보조금 폐지 및 신차 출시 지연 등으로 인해 실질적인 공장 가동률 회복이 2028년 무렵에나 가시화될 것으로 전망됨"
+        ],
+        "new_trends": [
+            "AI 데이터센터의 전력 품질 제어를 위한 ESS 비중 확대(신규 구축 시 50% 이상 필수)",
+            "ESS용 고밀도 LFP 양극재의 국내 생산 및 북미 시장 진출 확대",
+            "전고체 배터리의 양산 준비 및 관련 투자 관심 증가",
+            "2029년 이후 로봇 산업이 이차전지의 새로운 모멘텀으로 부상할 가능성"
+        ],
+        "news_summary": "양극재 및 이차전지 섹터는 전기차(EV) 수요 부진으로 인한 일시적 한파를 겪고 있으나, AI 데이터센터 중심의 ESS(에너지저장장치) 시장 급성장이 새로운 돌파구로 부상하고 있습니다. 특히 하이니켈 제품의 프리미엄 시장 독점 가능성과 LFP 양극재의 포트폴리오 다변화를 통한 북미 ESS 시장 공략이 핵심 전략으로 나타나고 있습니다. 다만 소재 기업의 경우 완성차 업체의 단가 인하 압박으로 인한 실적 불확실성이 변수로 작용하고 있습니다."
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "key": "007660",
+    "filename": "007660_이수페타시스",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "이수페타시스",
+            "code": "007660",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 7300.0,
+                "revenue_4qtrs": 1400.0,
+                "opincome_4qtrs": 278.0,
+                "revenue_qtr": 380.0,
+                "opincome_qtr": 77.1
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 6.05,
+                "growth_per_qtr": 0.0871
+            },
+            "opmargin": {
+                "25_4Q": 0.19,
+                "26_1Q": 0.198,
+                "26_2Q": 0.203,
+                "26_3Q": 0.203,
+                "4qtrs": 0.199
+            },
+            "PER": {
+                "PER_ltm": 26.3,
+                "PER_qx4": 23.7,
+                "PER_fwd": 19.8
+            },
+            "volatility": {
+                "measure_to_base": 0.71,
+                "slope": -0.00012
+            },
+            "amount": {
+                "measure_to_base": 2.32,
+                "slope": -1.64
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00137,
+                    "beta": 1.25
+                },
+                "base_duration": {
+                    "alpha": -0.000469,
+                    "beta": 0.935
+                },
+                "measure_duration": {
+                    "alpha": 0.00891,
+                    "beta": 1.34
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 10:41",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "고다층 PCB 제조"
+        ],
+        "revenue_share": [
+            1.0
+        ],
+        "opmargin": [
+            null
+        ],
+        "trend": [
+            "improving"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "초고다층 PCB, MLB PCB (AI 가속기, 서버, 네트워크 스위치용)"
+        ],
+        "competitors": [
+            "글로벌 PCB 제조사"
+        ]
+    },
+    "code": "007660",
+    "name": "이수페타시스",
+    "overview": {
+        "title": "AI 인프라 수요 확대로 고성장 지속",
+        "desc": "동사는 1972년 설립되어 2003년 유가증권시장에 상장된 PCB 전문 제조기업임. 고다층 MLB PCB를 주요 생산하며, 전체 매출의 97% 이상을 수출로 구성하고 AI 가속기·서버·네트워크 스위치 등 데이터센터용 초고다층 PCB를 글로벌 대기업에 공급하고 있음. 다중적층 기술 경쟁력 강화를 위해 5공장 증설 투자를 진행하고 중국·태국 법인 중심으로 생산거점을 최적화하며 글로벌 공급망 안정성을 확보하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 45.8% 증가, 영업이익은 60.8% 증가, 당기순이익은 58.1% 증가. AI 인프라 확대와 데이터센터 성장으로 고다층 PCB 수요가 증가하며, AI 가속기·스위치·서버 등 전방산업 전 제품군에서 고객 수요가 확대됨. 선제적 CAPA 투자와 4공장 양산 가동, 공장 자동화 및 설비 고도화로 생산 효율과 품질 경쟁력을 강화하며 실적이 크게 개선됨.",
+        "as_of": "2026-08-31",
+        "updated": "2026-10-17 17:08"
+    },
+    "news": {
+        "updated": "2026-10-17 17:08",
+        "key_facts": [
+            "2026년 3분기 추정 매출액은 약 4,325억~4,356억원, 영업이익은 약 948억~965억원으로 전년 동기 대비 각각 약 46~47%, 62~65% 증가할 것으로 전망됨",
+            "2026년 4분기부터 구글 차세대 AI 가속기 TPUv8 및 800G·1.6T 스위치 양산, 판가 인상 효과가 본격화되며 실적 점프가 예상됨",
+            "다중적층 제품은 기존 Vippo 공법 대비 단가가 2배 이상 높으며, 매출 비중이 3분기 14%에서 4분기 30%, 내년 말 60%까지 확대될 전망임",
+            "생산능력을 월 3,000㎡에서 8,000㎡로 늘리는 2단계 증설을 진행했으며, 내년 1분기 양산 목표로 대구 6공장 후속 설비투자를 검토 중임",
+            "키움증권은 2026년 연간 매출 1조 6,305억원, 영업이익 3,614억원 및 2027년 매출 2조 3,298억원, 영업이익 5,866억원을 추정함"
+        ],
+        "key_issues": [
+            "원·달러 환율 하락으로 인한 수출 기업으로서의 수익성 부담 존재",
+            "고객사의 제품 설계 다변화 및 원자재 가격 상승에 따른 제조원가 부담 가능성",
+            "이익 증가 속도 대비 현금 흐름의 저하(재고자산 증가에 따른 운전자본 유출)"
+        ],
+        "news_summary": "이수페타시스는 AI 가속기 및 빅테크향 고다층 인쇄회로기판(MLB) 수요 확대와 생산능력 증설, 판매가격 인상에 힘입어 견조한 성장세를 보이고 있습니다. 특히 4분기부터 구글의 차세대 AI 칩(TPUv8) 양산과 고부가가치 다중적층 제품 비중 확대로 수익성이 크게 개선될 전망이며, 내년 1분기 6공장 증설 효과 및 신규 하이퍼스케일러 고객사 확보를 통해 외형 성장을 지속할 것으로 기대됩니다."
+    }
+}

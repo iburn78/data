@@ -1,0 +1,151 @@
+{
+    "key": "011070",
+    "filename": "011070_LG이노텍",
+    "updated": "2026-10-19 16:30",
+    "llm_research_updated": "2026-10-19 09:21",
+    "financials": {
+        "meta": {
+            "name": "LG이노텍",
+            "code": "011070",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 16:30",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 9620.0,
+                "revenue_4qtrs": 24200.0,
+                "opincome_4qtrs": 1110.0,
+                "revenue_qtr": 5530.0,
+                "opincome_qtr": 246.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 13.2,
+                "growth_per_qtr": 0.0475
+            },
+            "opmargin": {
+                "25_4Q": 0.0427,
+                "26_1Q": 0.0534,
+                "26_2Q": 0.0445,
+                "26_3Q": 0.0445,
+                "4qtrs": 0.0459
+            },
+            "PER": {
+                "PER_ltm": 8.65,
+                "PER_qx4": 9.79,
+                "PER_fwd": 8.63
+            },
+            "volatility": {
+                "measure_to_base": 0.787,
+                "slope": -0.000178
+            },
+            "amount": {
+                "measure_to_base": 1.15,
+                "slope": -3.67
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000444,
+                    "beta": 1.18
+                },
+                "base_duration": {
+                    "alpha": 0.0025,
+                    "beta": 1.1
+                },
+                "measure_duration": {
+                    "alpha": -0.000725,
+                    "beta": 1.22
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": true,
+        "updated": "2026-10-19 16:24",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "광학솔루션",
+            "패키지솔루션",
+            "모빌리티솔루션"
+        ],
+        "revenue_share": [
+            0.83,
+            0.09,
+            0.09
+        ],
+        "opmargin": [
+            0.045,
+            0.106,
+            0.032
+        ],
+        "trend": [
+            "stable (market leader, high-spec expansion)",
+            "improving (AI-driven semiconductor demand)",
+            "stable (expanding into autonomous driving/robotics)"
+        ],
+        "create_segments": true,
+        "key_products": [
+            "카메라모듈, 3D센싱 모듈",
+            "반도체기판, FC-BGA, Tape기판, Photomask",
+            "차량용 전장부품, 모터, 센서, 차량통신, 조명, 전력모듈"
+        ],
+        "competitors": [
+            "삼성전기, 엠씨넥스, 파트론, Sunny Optical, OFilm, Largan",
+            "Ibiden, Unimicron, 삼성전기, Nan Ya, Compeq",
+            "현대모비스, HL만도, ZF, Bosch, Denso"
+        ]
+    },
+    "code": "011070",
+    "name": "LG이노텍",
+    "overview": {
+        "title": "AI·고사양 카메라 수요로 실적 개선",
+        "desc": "동사는 1970년 금성알프스전자로 설립 후 2008년 유가증권시장 상장, 2009년 LG마이크론과 합병한 LG그룹 계열의 전자부품업체임. 광학솔루션, 패키지솔루션, 모빌리티솔루션 3개 사업부 체제 하에 카메라모듈, 반도체기판, Photomask, 통신모듈 등을 제조, 판매하고 있음. 국내에 구미, 광주, 파주 제조시설과 중국, 인도네시아, 폴란드, 멕시코, 베트남에 해외 생산법인과 글로벌 판매 거점을 운영하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 24.1% 증가, 영업이익은 296.4% 증가, 당기순이익은 418.4% 증가. 광학솔루션 사업부문은 고객 판매 호조 및 고사양 카메라모듈 확대로 일등 지위를 유지했으며 패키지솔루션 사업부문은 AI 적용 확대에 따른 반도체 수요 증가로 성장함. FC-BGA는 글로벌 고객 확보로 양산 확대를 추진하고 자율주행 및 로보틱스 분야로 사업 영역을 확장하고 있음.",
+        "as_of": "2026-09-14",
+        "updated": "2026-10-07"
+    },
+    "news": {
+        "updated": "2026-10-17 14:04",
+        "key_facts": [
+            "삼성전기: 2026년 3분기 매출(3조 8,264억원) 및 영업이익(6,423억원)이 AI 서버용 MLCC와 FC-BGA 수요 확대에 힘입어 역대 최대치를 경신할 전망임.",
+            "삼성전기: AI 서버용 MLCC 장기공급계약 및 FC-BGA 생산라인 증설(세종·베트남, 6.78조원 투자)을 통해 고부가 제품 중심으로 사업을 확대하고 있음.",
+            "LG이노텍: 2026년 3분기 매출은 아이폰 신제품 효과로 분기 최초 6조원을 돌파(6조 1,048억원)할 전망이나, 환율 하락 여파로 영업이익은 소폭 감소(2,029억원)할 것으로 예상됨.",
+            "LG이노텍: 사업 다각화를 위해 AI 서버용 FC-BGA 양산(2027년 고부가 제품) 및 유리기판 개발(구미 파일럿 가동, 2028년 공급 전망)을 추진 중임.",
+            "LG이노텍: 베트남 하이퐁 V3 신공장 완공을 통해 스마트폰 카메라 모듈 생산능력을 2배 이상 확대함."
+        ],
+        "key_issues": [
+            "LG이노텍: 특정 고객사(애플)에 대한 높은 매출 의존도(81.1%)와 환율 변동에 따른 수익성 취약성 및 부품 주문량 축소 가능성.",
+            "삼성전기: 글로벌 AI 수익성 우려에 따른 투자 심리 위축 및 외국인 매도세 영향."
+        ],
+        "news_summary": "삼성전기와 LG이노텍 모두 2026년 3분기 매출 성장이 예상되나 수익성은 엇갈리고 있습니다. 삼성전기는 AI 서버용 고부가 부품 수요 증가로 역대 최대 실적을 기대하는 반면, LG이노텍은 아이폰 효과에도 불구하고 환율 하락과 높은 고객사 의존도로 인해 수익성이 둔화되었습니다. 이에 LG이노텍은 AI 반도체 기판 및 유리기판 등 사업 다각화를 통해 체질 개선을 꾀하고 있습니다."
+    }
+}

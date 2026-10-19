@@ -1,0 +1,103 @@
+{
+    "key": "스마트글래스",
+    "filename": "스마트글래스",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "스마트글래스",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 240.0,
+                "revenue_4qtrs": 30.6,
+                "opincome_4qtrs": 0.741,
+                "revenue_qtr": 7.21,
+                "opincome_qtr": 0.312
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.245,
+                "growth_per_qtr": 1.32
+            },
+            "opmargin": {
+                "25_4Q": 0.00175,
+                "26_1Q": 0.0142,
+                "26_2Q": 0.0432,
+                "26_3Q": 0.0432,
+                "4qtrs": 0.0242
+            },
+            "PER": {
+                "PER_ltm": 324.0,
+                "PER_qx4": 192.0,
+                "PER_fwd": 64.8
+            },
+            "volatility": {
+                "measure_to_base": 0.827,
+                "slope": -0.000141
+            },
+            "amount": {
+                "measure_to_base": 2.31,
+                "slope": -0.0525
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.000874,
+                    "beta": 1.01
+                },
+                "base_duration": {
+                    "alpha": 0.000748,
+                    "beta": 0.839
+                },
+                "measure_duration": {
+                    "alpha": -0.00408,
+                    "beta": 0.952
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "452430",
+            "name": "사피엔반도체"
+        }
+    ]
+}

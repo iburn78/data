@@ -1,0 +1,118 @@
+{
+    "key": "005930(A)",
+    "filename": "005930(A)_메모리,_파운드리",
+    "updated": "2026-10-19 13:34",
+    "llm_research_updated": "2026-10-19 13:34",
+    "financials": {
+        "meta": {
+            "name": "삼성전자",
+            "code": "005930",
+            "segment_name": "메모리, 파운드리",
+            "id": "A",
+            "updated": "2026-10-19 13:34",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 857000.0,
+                "revenue_4qtrs": 388000.0,
+                "opincome_4qtrs": 272000.0,
+                "revenue_qtr": 117000.0,
+                "opincome_qtr": 81600.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 4740.0,
+                "growth_per_qtr": 0.0698
+            },
+            "opmargin": {
+                "25_4Q": 0.7,
+                "26_1Q": 0.7,
+                "26_2Q": 0.7,
+                "26_3Q": 0.7,
+                "4qtrs": 0.7
+            },
+            "PER": {
+                "PER_ltm": 3.15,
+                "PER_qx4": 2.62,
+                "PER_fwd": 2.29
+            },
+            "volatility": {
+                "measure_to_base": 0.585,
+                "slope": -8.46e-6
+            },
+            "amount": {
+                "measure_to_base": 0.895,
+                "slope": -31.2
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00043,
+                    "beta": 1.22
+                },
+                "base_duration": {
+                    "alpha": 0.00156,
+                    "beta": 1.32
+                },
+                "measure_duration": {
+                    "alpha": 0.0036,
+                    "beta": 1.37
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "A"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.68,
+        "marcap_share": 0.68,
+        "opmargin": 0.7,
+        "trend": "strong growth"
+    },
+    "id": "A",
+    "profile_name": "삼성전자",
+    "profile_code": "005930",
+    "segment_name": "메모리, 파운드리",
+    "news": {
+        "updated": "2026-10-19 13:31",
+        "key_financials": [
+            "2026년 3분기 비메모리 부문(파운드리 및 시스템LSI 포함) 영업적자 약 2조원 추정 및 매출 약 6조 6,970억원 전망 (IBK투자증권)",
+            "2026년 3분기 메모리 부문 영업이익 약 109조원 추정 (유안타증권)",
+            "2026년 2분기 DS부문 매출 127조 5,000억원, 영업이익 89조 2,000억원 기록"
+        ],
+        "key_facts": [
+            "삼성전자는 메모리, 파운드리, 시스템LSI, 첨단 패키징을 모두 아우르는 '턴키(Turnkey)' 역량을 보유하고 있음",
+            "삼성 파운드리는 테슬라 'AI6' 및 엔비디아 '그록3' 생산을 수주했으며, 퓨리오사AI와 리벨리온을 고객사로 두고 있음",
+            "2026년 7월, 브로드컴과 메모리·파운드리·패키징 전 영역에서 2,000억 달러 이상의 협력을 추진하는 업무협약을 체결함",
+            "4나노 공정을 중심으로 가동률을 높이고 있으며, 해당 공정은 AI 반도체 및 HBM 로직 다이 양산에 활용됨",
+            "DS부문 내 메모리 사업부는 AI 인프라 투자 확대로 D램 및 낸드 판매가 확대되어 분기 매출과 영업이익 모두 역대 최대치를 기록함"
+        ],
+        "key_issues": [
+            "파운드리 사업부의 적자 지속 및 흑자 전환 시점의 불확실성 (내년 흑자 전환 전망과 2028년 가능성 언급이 공존함)",
+            "미국 테일러 팹 구축 및 성과급 충당금 등 일회성 비용 발생으로 인한 수익성 악화",
+            "TSMC와의 파운드리 시장 점유율 격차 확대 전망 (2분기 기준 TSMC 72.5%, 삼성전자 5.9%로 집계)",
+            "사업부 간 실적 격차에 따른 보상 차이로 인해 파운드리 및 시스템LSI 인력의 이직 의향이 메모리 사업부보다 높게 나타남"
+        ],
+        "news_summary": "삼성전자의 반도체 사업은 메모리와 파운드리 간의 뚜렷한 희비 교차를 보이고 있습니다. 메모리 부문은 AI 수요와 가격 강세에 힘입어 역대 최대 실적을 기록하며 전사 영업이익을 견인하고 있으나, 파운드리를 포함한 비메모리 부문은 신규 팹 구축 비용과 일회성 비용 등으로 인해 2026년 3분기에도 약 2조 원 규모의 적자를 기록한 것으로 분석됩니다. 삼성 파운드리는 턴키 역량을 앞세워 빅테크 고객사 확보 및 공정 가동률 제고를 통해 반등을 꾀하고 있으며, 시장에서는 2027~2028년경 흑자 전환 가능성을 전망하고 있습니다."
+    }
+}

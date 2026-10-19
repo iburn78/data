@@ -1,0 +1,119 @@
+{
+    "key": "ESS 냉각시스템",
+    "filename": "ESS_냉각시스템",
+    "updated": "2026-10-19 13:48",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "ESS 냉각시스템",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-19 13:48",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 380.0,
+                "revenue_4qtrs": 200.0,
+                "opincome_4qtrs": -9.72,
+                "revenue_qtr": 42.6,
+                "opincome_qtr": -6.95
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -0.684,
+                "growth_per_qtr": 0.281
+            },
+            "opmargin": {
+                "25_4Q": 0.0455,
+                "26_1Q": 0.0264,
+                "26_2Q": -0.163,
+                "26_3Q": -0.163,
+                "4qtrs": -0.0487
+            },
+            "PER": {
+                "PER_ltm": -39.1,
+                "PER_qx4": -13.7,
+                "PER_fwd": -11.0
+            },
+            "volatility": {
+                "measure_to_base": 0.783,
+                "slope": -0.000193
+            },
+            "amount": {
+                "measure_to_base": 2.16,
+                "slope": -0.17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00325,
+                    "beta": 0.578
+                },
+                "base_duration": {
+                    "alpha": -0.000638,
+                    "beta": 0.684
+                },
+                "measure_duration": {
+                    "alpha": 0.00852,
+                    "beta": 0.928
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "섹터 전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "members": [
+        {
+            "key": "107640",
+            "name": "한중엔시에스"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-17 13:24",
+        "key_facts": [
+            "글로벌 전력 인프라 확충 및 AI 데이터센터 가동으로 인한 전력 수요 폭증으로 ESS(에너지저장장치)의 가치가 재평가됨",
+            "AI 데이터센터의 고밀도 발열 문제 해결을 위해 액침냉각 방식의 차세대 ESS 도입 및 기술 개발이 진행 중임",
+            "액침형 ESS의 경우 리튬이온 배터리와 부품을 비전도성 냉각액에 직접 담가 열을 관리하여 화재 위험을 낮추고 배터리 수명을 개선하는 특징이 있음",
+            "지투파워는 액침형 ESS에 대해 국내 최초로 국제공인 시험성적서 및 CB인증서(IEC 60730-1 Annex H)를 발급받아 해외 시장 진출 발판을 마련함(2026년 8월)",
+            "ESS 화재 위험 감소와 효율 향상을 위해 수냉식 냉각 시스템(쿨링 플레이트, 냉각수 공급관 등) 부품 공급 기술이 활용됨"
+        ],
+        "new_trends": [
+            "액침냉각(Immersion Cooling) 방식의 ESS: 비전도성 냉각유를 활용한 열관리 및 화재 안전성 강화 기술",
+            "AI 데이터센터 전용 ESS 인프라: 고성능 연산장비 도입에 따른 고밀도 전력 공급 및 냉각 솔루션 결합 형태",
+            "ESS 퓨어플레이어(Pure-player)의 부상: 배터리 셀 외에 하우징, 냉각시스템 등 ESS 전용 부품 및 솔루션 전문 기업의 성장"
+        ],
+        "news_summary": "ESS 냉각시스템 분야는 AI 데이터센터의 전력 수요 급증과 발열 문제 해결을 중심으로 빠르게 발전하고 있습니다. 특히 기존 수냉식 냉각 시스템을 넘어, 배터리를 비전도성 냉각액에 직접 담그는 '액침냉각' 방식의 ESS가 차세대 솔루션으로 주목받고 있으며, 관련 국제 인증 확보 및 상용화 단계 진입이 보고되었습니다. 이는 배터리 열폭주로 인한 화재 위험을 낮추고 에너지 효율을 높이는 핵심 기술로, 글로벌 빅테크 기업들의 데이터센터 인프라 구축과 맞물려 시장 확대가 예상됩니다."
+    }
+}
