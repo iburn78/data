@@ -48,6 +48,9 @@
         const appendOutput = result => {
             for (const entry of result.lines || []) {
                 if (Number.isInteger(entry.index) && entry.index < cursor) continue;
+                if (entry.stream === "stdout" && entry.line.trim()) {
+                    element.querySelector(".python-progress-message").textContent = entry.line;
+                }
                 const line = document.createElement("div");
                 line.className = `python-progress-line${entry.stream === "stderr" ? " error" : ""}`;
                 line.textContent = entry.line;
