@@ -4,10 +4,10 @@ function relationTarget(model) {
     return { name, file };
 }
 
-function memberCode(member) {
+function listedCompanyCode(listedCompany) {
     // Current Python model: key is either "005930" or "005930(A)".
     // Older generated JSON stored the company code in `code`.
-    const key = member.key ?? member.code;
+    const key = listedCompany.key ?? listedCompany.code;
     return typeof key === "string"
         ? key.replace(/\([A-Za-z]\)$/, "")
         : null;
@@ -16,8 +16,8 @@ function memberCode(member) {
 function getComponents(code, components) {
     return components
         .filter(component =>
-            (component.members ?? component.companies ?? []).some(member =>
-                memberCode(member) === code
+            (component.listed_companies ?? []).some(listedCompany =>
+                listedCompanyCode(listedCompany) === code
             )
         )
         .map(relationTarget);
@@ -26,8 +26,8 @@ function getComponents(code, components) {
 function getComponentsForMember(key, components) {
     return components
         .filter(component =>
-            (component.members ?? component.companies ?? []).some(member =>
-                (member.key ?? member.code) === key
+            (component.listed_companies ?? []).some(listedCompany =>
+                (listedCompany.key ?? listedCompany.code) === key
             )
         )
         .map(relationTarget);
