@@ -20,6 +20,16 @@ app.use(express.json());
 const editTokens = new Map();
 const TOKEN_LIFETIME = 30 * 60 * 1000; // 30 minutes
 
+function consumeEditToken(token) {
+    const expires = editTokens.get(token);
+    if (!token || !expires || expires < Date.now()) {
+        if (token) editTokens.delete(token);
+        return false;
+    }
+    editTokens.delete(token);
+    return true;
+}
+
 const CONFIG_PATH =
     path.resolve(__dirname, "../../config/data.json");
 
@@ -114,11 +124,17 @@ app.post("/api/update-instance", async (req, res) => {
 });
 
 app.post("/api/delete-instance", async (req, res) => {
-    const { objectType, objectId } = req.body;
+    const { objectType, objectId, token } = req.body;
     const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);
 
     if (!allowedTypes.has(objectType) || typeof objectId !== "string" || !objectId) {
         return res.status(400).json({ ok: false, error: "Invalid model type or identifier." });
+    }
+    if (!consumeEditToken(token)) {
+        return res.status(401).json({
+            ok: false,
+            error: "Enter the info-section password to confirm deletion.",
+        });
     }
 
     try {
@@ -223,18 +239,11 @@ app.post("/api/update-info", async (req, res) => {
     } = req.body;
 
     // Check edit token
-    const expires = editTokens.get(token);
-
-    if (!expires || expires < Date.now()) {
-        editTokens.delete(token);
-
+    if (!consumeEditToken(token)) {
         return res
             .status(401)
             .send("Edit session expired.");
     }
-
-    // Single-use token
-    editTokens.delete(token);
 
     const data = {
         objectType,

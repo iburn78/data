@@ -237,14 +237,14 @@ function renderEditor(card, values) {
         exitEditMode(card, false);
     });
 
-    const acceptButton =
+    const saveButton =
         document.createElement("button");
 
-    acceptButton.type = "button";
-    acceptButton.className = "accept-button";
-    acceptButton.textContent = "Accept";
+    saveButton.type = "button";
+    saveButton.className = "save-button";
+    saveButton.textContent = "Save (^e)";
 
-    acceptButton.addEventListener("click", () => {
+    saveButton.addEventListener("click", () => {
         saveEdit(card);
     });
 
@@ -258,7 +258,7 @@ function renderEditor(card, values) {
 
     actions.replaceChildren(
         cancelButton.cloneNode(true),
-        acceptButton.cloneNode(true)
+        saveButton.cloneNode(true)
     );
 
     /*
@@ -596,7 +596,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 researchLink = document.createElement("button");
                 researchLink.className = "llm-research-link";
                 researchLink.type = "button";
-                researchLink.textContent = "LLM Research";
+                researchLink.textContent = "LLM Research (l)";
                 researchLink.setAttribute("aria-haspopup", "dialog");
                 researchRow.appendChild(researchLink);
             }
@@ -694,6 +694,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const hasResearch = Boolean(markdown?.textContent.trim())
             && !markdown.querySelector(".llm-research-missing");
         button.classList.toggle("llm-research-missing", !hasResearch);
+        button.textContent = "LLM Research (l)";
 
         button.addEventListener("click", () => openLlmResearchWindow(dialog));
         dialog.querySelector(".llm-research-close")?.addEventListener("click", () => dialog.close());
@@ -854,6 +855,38 @@ document.addEventListener("DOMContentLoaded", () => {
             if (actionButton) {
                 event.preventDefault();
                 actionButton.click();
+                return;
+            }
+        }
+
+        if (
+            event.ctrlKey &&
+            !event.altKey &&
+            !event.metaKey &&
+            event.key.toLowerCase() === "e" &&
+            editor &&
+            !targetIsTextField
+        ) {
+            const actionButton = infoCard.querySelector(".save-button");
+
+            if (actionButton) {
+                event.preventDefault();
+                actionButton.click();
+                return;
+            }
+        }
+
+        if (
+            !event.ctrlKey &&
+            !event.altKey &&
+            !event.metaKey &&
+            event.key.toLowerCase() === "l" &&
+            !targetIsTextField
+        ) {
+            const researchButton = document.querySelector(".llm-research-link");
+            if (researchButton) {
+                event.preventDefault();
+                researchButton.click();
                 return;
             }
         }

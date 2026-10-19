@@ -79,16 +79,38 @@ document.querySelectorAll(".model-instance-delete-button").forEach(button => {
             return;
         }
 
+        const password = window.prompt("Enter the info-section password to confirm deletion:");
+        if (password === null) return;
+        if (!password) {
+            alert("Enter password.");
+            return;
+        }
+
         button.disabled = true;
         const originalText = button.textContent;
         button.textContent = "Deleting…";
         const hideProgress = window.showPythonProgress("Deleting item…");
 
         try {
+            const passwordResponse = await fetch("/api/check-password", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ password }),
+            });
+            if (!passwordResponse.ok) {
+                throw new Error(await passwordResponse.text());
+            }
+            const { token } = await passwordResponse.json();
+
             const response = await fetch("/api/delete-instance", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ objectType, objectId, progressId: hideProgress.progressId }),
+                body: JSON.stringify({
+                    objectType,
+                    objectId,
+                    token,
+                    progressId: hideProgress.progressId,
+                }),
             });
             const result = await response.json();
             if (!response.ok || !result.ok) {

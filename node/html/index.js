@@ -58,6 +58,7 @@ async function getItems(section) {
         }
         const code = match[1];
         const segment = match[2] ?? null;
+        item.isSegment = segment !== null;
 
         if (!groups.has(code)) {
             groups.set(code, {
@@ -154,7 +155,10 @@ function createModelLink(section, item) {
     const link = document.createElement("a");
     link.href = `/build/${section}/${item.file}`;
     link.textContent = item.text;
-    if (!item.reviewed) link.classList.add("unreviewed-model");
+    if (!item.reviewed) {
+        link.classList.add("unreviewed-model");
+        if (item.isSegment) link.classList.add("unreviewed-segment");
+    }
     return link;
 }
 

@@ -1,0 +1,119 @@
+{
+    "key": "096770(A)",
+    "filename": "096770(A)_석유",
+    "updated": "2026-10-19 18:10",
+    "llm_research_updated": "2026-10-19 18:04",
+    "financials": {
+        "meta": {
+            "name": "SK이노베이션",
+            "code": "096770",
+            "segment_name": "석유",
+            "id": "A",
+            "updated": "2026-10-19 18:10",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 16700.0,
+                "revenue_4qtrs": 66200.0,
+                "opincome_4qtrs": 1320.0,
+                "revenue_qtr": 19000.0,
+                "opincome_qtr": 379.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 13.2,
+                "growth_per_qtr": 0.0399
+            },
+            "opmargin": {
+                "25_4Q": 0.02,
+                "26_1Q": 0.02,
+                "26_2Q": 0.02,
+                "26_3Q": 0.02,
+                "4qtrs": 0.02
+            },
+            "PER": {
+                "PER_ltm": 12.6,
+                "PER_qx4": 11.0,
+                "PER_fwd": 10.1
+            },
+            "volatility": {
+                "measure_to_base": 0.927,
+                "slope": 0.000225
+            },
+            "amount": {
+                "measure_to_base": 0.928,
+                "slope": 0.396
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000455,
+                    "beta": 0.882
+                },
+                "base_duration": {
+                    "alpha": 0.00244,
+                    "beta": 0.167
+                },
+                "measure_duration": {
+                    "alpha": 0.00519,
+                    "beta": 0.0886
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-19 18:10",
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.65,
+        "marcap_share": 0.65,
+        "opmargin": 0.02,
+        "trend": "Recovering due to refined margins"
+    },
+    "id": "A",
+    "profile_name": "SK이노베이션",
+    "profile_code": "096770",
+    "segment_name": "석유",
+    "news": {
+        "updated": "2026-10-19 18:03",
+        "key_financials": [
+            "SK어스온: 2026년 상반기 매출 1,931억원, 영업이익 946억원 (영업이익률 49.0%).",
+            "SK에너지: 2026년 2분기 영업이익 6,512억원 (전분기 대비 6,320억원 감소).",
+            "정유 부문(전망): 유안타증권은 2026년 연간 영업이익을 6조 2,000억원으로 추산함."
+        ],
+        "key_facts": [
+            "SK어스온은 2026년 9월 말 베트남 15-1/05 광구 '황금낙타' 유전에서 첫 원유 생산에 성공했으며, 추정 매장량은 약 6,000만 배럴임.",
+            "SK어스온은 베트남 내 '클러스터링' 전략을 통해 황금낙타 외 붉은낙타, 북하얀낙타 구조 및 15-2/17 광구 등의 추가 개발을 추진 중임.",
+            "SK어스온은 중국 17/03 광구에서 생산량 유지를 위해 추가 3공의 생산정 시추 및 생산 개시를 진행 중(2026년 8월 중 시추 완료 예정).",
+            "SK에너지는 2026년 10~11월 중 3호 CDU를 대상으로 정기 보수를 계획하고 있음.",
+            "중동 전쟁 및 지정학적 갈등으로 글로벌 석유제품 공급 차질이 발생하며 정제마진이 상승함."
+        ],
+        "key_issues": [
+            "국제 유가 및 정제마진의 높은 변동성: 중동 지정학적 리스크와 호르무즈 해협 통행량 변화 등에 따라 수익성 변동 가능성이 큼.",
+            "정제마진 하락 전망: 미국 에너지정보청(EIA)은 호르무즈 해협 수송 정상화 시 2027년 중반까지 정제마진이 점진적으로 하락할 것으로 예상함.",
+            "원유 도입처 다변화 필요성: 중동 의존도를 줄이기 위한 정부 정책과 발맞춘 설비 보완 및 다변화 비율 확대 검토 필요.",
+            "생산 및 판매 변수: SK어스온의 경우 중국 광구 원유 판매 물량 감소 등으로 인해 분기별 영업이익이 변동되는 리스크가 있음."
+        ],
+        "news_summary": "SK이노베이션의 석유 사업 부문은 중동 전쟁 등 지정학적 리스크로 인한 정제마진 상승으로 역대급 호황기를 맞고 있으며, 특히 자회사 SK어스온은 베트남 '황금낙타' 유전의 첫 생산 성공과 중국 광구 개발을 통해 성장 기반을 확대하고 있습니다. SK어스온은 2026년 상반기 49%의 높은 영업이익률을 기록하며 수익성을 입증했습니다. 다만, 향후 국제 유가 및 정제마진의 변동성, 원유 도입처 다변화 이슈 등이 주요 변수로 작용할 전망입니다."
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "key": "096770(C)",
+    "filename": "096770(C)_화학",
+    "updated": "2026-10-19 18:22",
+    "llm_research_updated": "2026-10-19 18:05",
+    "financials": {
+        "meta": {
+            "name": "SK이노베이션",
+            "code": "096770",
+            "segment_name": "화학",
+            "id": "C",
+            "updated": "2026-10-19 18:22",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 3340.0,
+                "revenue_4qtrs": 13200.0,
+                "opincome_4qtrs": -1320.0,
+                "revenue_qtr": 3790.0,
+                "opincome_qtr": -379.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -13.2,
+                "growth_per_qtr": 0.0399
+            },
+            "opmargin": {
+                "25_4Q": -0.1,
+                "26_1Q": -0.1,
+                "26_2Q": -0.1,
+                "26_3Q": -0.1,
+                "4qtrs": -0.1
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base": 0.927,
+                "slope": 0.000225
+            },
+            "amount": {
+                "measure_to_base": 0.928,
+                "slope": 0.0793
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.0000455,
+                    "beta": 0.882
+                },
+                "base_duration": {
+                    "alpha": 0.00244,
+                    "beta": 0.167
+                },
+                "measure_duration": {
+                    "alpha": 0.00519,
+                    "beta": 0.0886
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.13,
+        "marcap_share": 0.13,
+        "opmargin": -0.1,
+        "trend": "Declining due to oversupply"
+    },
+    "id": "C",
+    "profile_name": "SK이노베이션",
+    "profile_code": "096770",
+    "segment_name": "화학",
+    "news": {
+        "updated": "2026-10-19 18:22",
+        "key_financials": [
+            "2026년 2분기 SK지오센트릭 재고 관련 손익 922억원 기록"
+        ],
+        "key_facts": [
+            "2026년 8월부터 호주 바로사 가스전에서 석유화학 핵심 원재료인 초경질유(콘덴세이트)를 매년 110만 배럴 규모로 도입 시작하여 나프타 대체 원료로 활용함"
+        ],
+        "key_issues": [
+            "글로벌 수요 침체로 인해 정유 및 석유화학 부문의 실적 부진을 겪고 있음",
+            "2026년 2분기 실적은 원료 확보 여건 변화에 따른 가동량 조정으로 주제품 및 부산물 판매량이 감소하여 이익이 하락함"
+        ],
+        "news_summary": "SK이노베이션의 화학 부문(SK지오센트릭 등)은 최근 글로벌 수요 침체와 원료 확보 여건 변화로 인한 판매량 감소로 실적 부진을 겪고 있습니다. 이에 대응하여 2026년 8월부터 호주 바로사 가스전에서 초경질유(콘덴세이트)를 연간 110만 배럴 도입함으로써 나프타 대체 원료를 확보하고 실적 방어에 나서고 있습니다. 2026년 3분기에는 계절적 성수기 진입 및 아로마틱 제품의 재고 보충 수요로 인한 회복이 기대되나, 대외 불확실성과 가격 변동성으로 인해 2분기와 유사한 보합 수준의 실적을 기록할 것으로 예상됩니다."
+    }
+}
