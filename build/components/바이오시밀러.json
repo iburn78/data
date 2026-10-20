@@ -1,7 +1,7 @@
 {
     "key": "바이오시밀러",
     "filename": "바이오시밀러",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:05",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:05",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 53400.0,
+                "marcap": 54200.0,
                 "revenue_4qtrs": 6500.0,
                 "opincome_4qtrs": 1910.0,
                 "revenue_qtr": 1790.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.294
             },
             "PER": {
-                "PER_ltm": 28.0,
-                "PER_qx4": 26.1,
-                "PER_fwd": 21.0
+                "PER_ltm": 28.4,
+                "PER_qx4": 26.6,
+                "PER_fwd": 21.3
             },
             "volatility": {
-                "measure_to_base": 0.676,
-                "slope": -0.000122
+                "measure_to_base": 0.711,
+                "slope": -0.000121
             },
             "amount": {
-                "measure_to_base": 0.839,
-                "slope": -0.542
+                "measure_to_base": 0.89,
+                "slope": -0.558
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000533,
-                    "beta": 0.625
+                    "alpha": 0.000535,
+                    "beta": 0.627
                 },
                 "base_duration": {
-                    "alpha": -0.000669,
-                    "beta": 0.2
+                    "alpha": -0.0004,
+                    "beta": 0.208
                 },
                 "measure_duration": {
-                    "alpha": 0.00581,
-                    "beta": 0.244
+                    "alpha": 0.00786,
+                    "beta": 0.352
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "068270",
             "name": "셀트리온"

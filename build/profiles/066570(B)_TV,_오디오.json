@@ -1,0 +1,111 @@
+{
+    "key": "066570(B)",
+    "filename": "066570(B)_TV,_오디오",
+    "updated": "2026-10-20 14:00",
+    "llm_research_updated": "2026-10-20 09:41",
+    "financials": {
+        "meta": {
+            "name": "LG전자",
+            "code": "066570",
+            "segment_name": "TV, 오디오",
+            "id": "B",
+            "updated": "2026-10-20 14:00",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 6420.0,
+                "revenue_4qtrs": 21900.0,
+                "opincome_4qtrs": 285.0,
+                "revenue_qtr": 5480.0,
+                "opincome_qtr": 71.2
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.765,
+                "growth_per_qtr": 0.0107
+            },
+            "opmargin": {
+                "25_4Q": 0.013,
+                "26_1Q": 0.013,
+                "26_2Q": 0.013,
+                "26_3Q": 0.013,
+                "4qtrs": 0.013
+            },
+            "PER": {
+                "PER_ltm": 22.6,
+                "PER_qx4": 22.5,
+                "PER_fwd": 22.0
+            },
+            "volatility": {
+                "measure_to_base": 0.845,
+                "slope": -0.000408
+            },
+            "amount": {
+                "measure_to_base": 1.28,
+                "slope": -1.64
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000344,
+                    "beta": 0.918
+                },
+                "base_duration": {
+                    "alpha": 0.00504,
+                    "beta": 0.795
+                },
+                "measure_duration": {
+                    "alpha": -0.00117,
+                    "beta": 0.775
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.23,
+        "marcap_share": 0.23,
+        "opmargin": 0.013,
+        "trend": "수익성 하락세 (패널가 상승 및 수요 회복 지연)"
+    },
+    "id": "B",
+    "profile_name": "LG전자",
+    "profile_code": "066570",
+    "segment_name": "TV, 오디오",
+    "news": {
+        "updated": "2026-10-20 09:41",
+        "key_financials": [],
+        "key_facts": [
+            "2017년 영국 하이엔드 오디오 업체 메리디안과 파트너십 체결 및 2018년 공동 개발 음향 기술 적용 사운드바/포터블 스피커 출시",
+            "2026년 7월 5일 'LG 사운드 스위트'(사운드바 H7, 무선 서라운드 스피커 M5·M7, 서브우퍼 W7) 국내 출시: 국내 최초 돌비 애트모스 플렉스커넥트 지원 및 피어리스 드라이버 탑재",
+            "'엑스붐 바이 윌아이엠(xboom by will.i.am)' 브랜드 전개: 2024년 윌아이엠 영입 후 블루투스 스피커와 무선 이어버드 통합, 2026년 CES에서 신제품 4종(스테이지 501, 블라스트, 미니, 락) 공개",
+            "'올레드 에보' 및 '마이크로 RGB 에보' 등 프리미엄 TV 라인업 출시를 통한 시장 공략 강화"
+        ],
+        "key_issues": [
+            "메모리 반도체 가격 상승으로 인한 TV 제조 원가 부담 증가 및 수익성 악화 우려",
+            "특히 소형·저가형 TV의 경우 원가 인상분을 판매가에 반영하기 어려워 수익성 방어에 취약함"
+        ],
+        "news_summary": "LG전자는 외부 오디오 명가와의 협업 및 전략적 파트너십을 통해 프리미엄 사운드 시장을 공략하고 있습니다. 메리디안과의 협업에 이어 최근 피어리스 드라이버를 탑재하고 돌비 애트모스 플렉스커넥트를 지원하는 'LG 사운드 스위트'를 출시했으며, 윌아이엠과 협업한 '엑스붐' 브랜드를 통해 해외 포터블 오디오 시장을 확대하고 있습니다. TV 사업에서는 메모리 반도체 가격 상승으로 인한 원가 압박이 심화됨에 따라, '올레드 에보' 등 프리미엄 제품 비중 확대와 비용 효율화를 통해 수익성 방어에 주력하고 있습니다."
+    }
+}

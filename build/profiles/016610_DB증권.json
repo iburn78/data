@@ -1,22 +1,22 @@
 {
     "key": "016610",
     "filename": "016610_DB증권",
-    "updated": "2026-10-19 13:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 10:41",
+    "llm_research_updated": "2026-10-20 10:31",
     "financials": {
         "meta": {
             "name": "DB증권",
             "code": "016610",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 10:41",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 407.0,
+                "marcap": 416.0,
                 "revenue_4qtrs": 4200.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 1270.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "reviewed": true,
+        "updated": "2026-10-20 10:41",
         "search_theme": [
             "실적",
             "전망"
@@ -36,23 +36,31 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "금융투자업 (Securities)"
+            "IB (기업금융)",
+            "S&T (세일즈 앤 트레이딩)",
+            "WM (자산관리)"
         ],
         "revenue_share": [
-            1.0
+            0.39,
+            0.31,
+            0.3
         ],
-        "opmargin": [
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "Improving due to market recovery and international expansion"
+            "증가세 (PF 리스크 관리 후 회복)",
+            "빠른 회복세 (금리 환경 변화 수혜)",
+            "완만한 회복세 (고객자산 기반 확대)"
         ],
         "create_segments": false,
         "key_products": [
-            "투자매매업, 투자중개업, 투자자문업, 투자일임업, 신탁업, 해외선물, RQFII"
+            "IPO, DCM, 구조화금융(SF), 프로젝트 파이낸싱(PF)",
+            "주식·채권·파생상품 운용 및 매매",
+            "금융상품 판매, 자산관리, 위탁매매(브로커리지)"
         ],
         "competitors": [
-            "미래에셋증권, 한국투자증권, 삼성증권, NH투자증권"
+            "미래에셋증권, NH투자증권, 삼성증권, 한국금융지주, 유진투자증권, 한양증권, 다올투자증권, 교보증권",
+            "미래에셋증권, NH투자증권, 삼성증권, 한국금융지주, 유진투자증권, 한양증권, 다올투자증권, 교보증권",
+            "미래에셋증권, NH투자증권, 삼성증권, 한국금융지주, 유진투자증권, 한양증권, 다올투자증권, 교보증권"
         ]
     },
     "code": "016610",

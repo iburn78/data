@@ -1,7 +1,7 @@
 {
     "key": "216080",
     "filename": "216080_제테마",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:05",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "216080",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:05",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -43,25 +43,25 @@
                 "PER_fwd": 23.2
             },
             "volatility": {
-                "measure_to_base": 0.986,
-                "slope": 0.000234
+                "measure_to_base": 0.958,
+                "slope": 0.000229
             },
             "amount": {
                 "measure_to_base": 1.38,
-                "slope": -0.0156
+                "slope": -0.0162
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00044,
+                    "alpha": 0.000433,
                     "beta": 0.686
                 },
                 "base_duration": {
-                    "alpha": -0.000739,
-                    "beta": 0.0961
+                    "alpha": -0.000492,
+                    "beta": 0.1
                 },
                 "measure_duration": {
-                    "alpha": -0.0072,
-                    "beta": 0.326
+                    "alpha": -0.00469,
+                    "beta": 0.389
                 }
             }
         },

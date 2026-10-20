@@ -1,7 +1,7 @@
 {
     "key": "214450",
     "filename": "214450_파마리서치",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:05",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "214450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:04",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2890.0,
+                "marcap": 2870.0,
                 "revenue_4qtrs": 647.0,
                 "opincome_4qtrs": 242.0,
                 "revenue_qtr": 179.0,
@@ -39,29 +39,29 @@
             },
             "PER": {
                 "PER_ltm": 11.9,
-                "PER_qx4": 10.9,
-                "PER_fwd": 9.38
+                "PER_qx4": 10.8,
+                "PER_fwd": 9.33
             },
             "volatility": {
-                "measure_to_base": 0.617,
-                "slope": -0.0000164
+                "measure_to_base": 0.613,
+                "slope": -0.0000267
             },
             "amount": {
-                "measure_to_base": 0.557,
-                "slope": 0.0968
+                "measure_to_base": 0.563,
+                "slope": 0.0653
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000641,
+                    "alpha": 0.000635,
                     "beta": 0.656
                 },
                 "base_duration": {
-                    "alpha": 0.000111,
-                    "beta": 0.189
+                    "alpha": 0.000178,
+                    "beta": 0.191
                 },
                 "measure_duration": {
-                    "alpha": -0.00483,
-                    "beta": 0.656
+                    "alpha": -0.00317,
+                    "beta": 0.694
                 }
             }
         },

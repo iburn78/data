@@ -1,7 +1,7 @@
 {
     "key": "006400",
     "filename": "006400_삼성SDI",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:00",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "006400",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 42700.0,
+                "marcap": 47200.0,
                 "revenue_4qtrs": 15000.0,
                 "opincome_4qtrs": -47.2,
                 "revenue_qtr": 3770.0,
@@ -38,37 +38,37 @@
                 "4qtrs": -0.00315
             },
             "PER": {
-                "PER_ltm": -905.0,
-                "PER_qx4": 52.4,
-                "PER_fwd": 64.9
+                "PER_ltm": null,
+                "PER_qx4": 57.9,
+                "PER_fwd": 71.7
             },
             "volatility": {
-                "measure_to_base": 0.755,
-                "slope": -0.0000989
+                "measure_to_base": 0.764,
+                "slope": -0.000112
             },
             "amount": {
-                "measure_to_base": 1.68,
-                "slope": -3.84
+                "measure_to_base": 1.7,
+                "slope": -3.69
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00046,
+                    "alpha": 0.000491,
                     "beta": 1.04
                 },
                 "base_duration": {
-                    "alpha": 0.00115,
-                    "beta": 0.672
+                    "alpha": 0.000422,
+                    "beta": 0.656
                 },
                 "measure_duration": {
-                    "alpha": 0.00136,
-                    "beta": 0.361
+                    "alpha": 0.00897,
+                    "beta": 0.576
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": true,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",

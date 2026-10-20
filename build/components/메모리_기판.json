@@ -1,7 +1,7 @@
 {
     "key": "메모리 기판",
     "filename": "메모리_기판",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 14:07",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 14:07",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 106000.0,
-                "revenue_4qtrs": 19900.0,
-                "opincome_4qtrs": 2090.0,
-                "revenue_qtr": 5220.0,
-                "opincome_qtr": 655.0
+                "marcap": 105000.0,
+                "revenue_4qtrs": 19600.0,
+                "opincome_4qtrs": 2130.0,
+                "revenue_qtr": 5170.0,
+                "opincome_qtr": 664.0
             },
             "share": {
                 "marcap": "-",
@@ -35,41 +35,41 @@
             "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 42.5,
-                "growth_per_qtr": 0.0812
+                "slope": 42.6,
+                "growth_per_qtr": 0.0801
             },
             "opmargin": {
-                "25_4Q": 0.08,
-                "26_1Q": 0.0858,
-                "26_2Q": 0.125,
-                "26_3Q": 0.125,
-                "4qtrs": 0.105
+                "25_4Q": 0.0839,
+                "26_1Q": 0.0886,
+                "26_2Q": 0.128,
+                "26_3Q": 0.128,
+                "4qtrs": 0.109
             },
             "PER": {
-                "PER_ltm": 50.5,
-                "PER_qx4": 40.3,
-                "PER_fwd": 34.7
+                "PER_ltm": 49.4,
+                "PER_qx4": 39.6,
+                "PER_fwd": 34.1
             },
             "volatility": {
-                "measure_to_base": 0.552,
-                "slope": -0.0000507
+                "measure_to_base": 0.566,
+                "slope": -0.0000689
             },
             "amount": {
-                "measure_to_base": 1.0,
-                "slope": -10.8
+                "measure_to_base": 1.05,
+                "slope": -10.3
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000821,
+                    "alpha": 0.000873,
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": 0.00661,
+                    "alpha": 0.00611,
                     "beta": 1.29
                 },
                 "measure_duration": {
-                    "alpha": 0.0092,
-                    "beta": 1.61
+                    "alpha": 0.00861,
+                    "beta": 1.59
                 }
             }
         },
@@ -94,10 +94,10 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "011070(B)",
-            "name": "LG이노텍"
+            "name": "LG이노텍(B)"
         },
         {
             "key": "009150",

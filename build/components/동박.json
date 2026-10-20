@@ -1,7 +1,7 @@
 {
     "key": "동박",
     "filename": "동박",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:00",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7780.0,
+                "marcap": 8630.0,
                 "revenue_4qtrs": 3500.0,
                 "opincome_4qtrs": -325.0,
                 "revenue_qtr": 941.0,
@@ -46,37 +46,37 @@
                 "4qtrs": -0.0929
             },
             "PER": {
-                "PER_ltm": -23.9,
-                "PER_qx4": -36.7,
-                "PER_fwd": -43.3
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.851,
-                "slope": -0.00021
+                "measure_to_base": 0.867,
+                "slope": -0.000216
             },
             "amount": {
-                "measure_to_base": 1.82,
+                "measure_to_base": 1.95,
                 "slope": -1.71
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000304,
+                    "alpha": 0.000336,
                     "beta": 1.14
                 },
                 "base_duration": {
-                    "alpha": 0.000216,
-                    "beta": 0.914
+                    "alpha": 0.000748,
+                    "beta": 0.919
                 },
                 "measure_duration": {
-                    "alpha": 0.0122,
-                    "beta": 0.748
+                    "alpha": 0.0207,
+                    "beta": 0.982
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "011790",
             "name": "SKC"

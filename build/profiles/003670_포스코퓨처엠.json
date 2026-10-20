@@ -1,7 +1,7 @@
 {
     "key": "003670",
     "filename": "003670_포스코퓨처엠",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:00",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "003670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 15300.0,
+                "marcap": 16700.0,
                 "revenue_4qtrs": 2670.0,
                 "opincome_4qtrs": 19.3,
                 "revenue_qtr": 679.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.00722
             },
             "PER": {
-                "PER_ltm": 790.0,
-                "PER_qx4": 143.0,
-                "PER_fwd": 130.0
+                "PER_ltm": 865.0,
+                "PER_qx4": 157.0,
+                "PER_fwd": 142.0
             },
             "volatility": {
                 "measure_to_base": 0.857,
-                "slope": 0.0000785
+                "slope": 0.0000696
             },
             "amount": {
-                "measure_to_base": 1.43,
-                "slope": -0.399
+                "measure_to_base": 1.42,
+                "slope": -0.388
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00104,
-                    "beta": 1.02
+                    "alpha": 0.00106,
+                    "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00151,
-                    "beta": 0.587
+                    "alpha": -0.00138,
+                    "beta": 0.585
                 },
                 "measure_duration": {
-                    "alpha": -0.00076,
-                    "beta": 0.467
+                    "alpha": 0.00588,
+                    "beta": 0.655
                 }
             }
         },
@@ -71,7 +71,7 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "Up",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "D"
         }

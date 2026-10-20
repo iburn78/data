@@ -1,7 +1,7 @@
 {
     "key": "메모리",
     "filename": "메모리",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 13:57",
     "llm_research_updated": "2026-10-19 12:21",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 13:57",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1790000.0,
+                "marcap": 1830000.0,
                 "revenue_4qtrs": 632000.0,
                 "opincome_4qtrs": 450000.0,
                 "revenue_qtr": 196000.0,
@@ -46,29 +46,29 @@
                 "4qtrs": 0.711
             },
             "PER": {
-                "PER_ltm": 3.97,
-                "PER_qx4": 3.14,
-                "PER_fwd": 2.65
+                "PER_ltm": 4.08,
+                "PER_qx4": 3.23,
+                "PER_fwd": 2.73
             },
             "volatility": {
-                "measure_to_base": 0.573,
-                "slope": 0.0000112
+                "measure_to_base": 0.574,
+                "slope": 3.96e-7
             },
             "amount": {
-                "measure_to_base": 0.839,
-                "slope": -83.3
+                "measure_to_base": 0.869,
+                "slope": -89.5
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000597,
+                    "alpha": 0.000598,
                     "beta": 1.32
                 },
                 "base_duration": {
-                    "alpha": 0.00214,
+                    "alpha": 0.00219,
                     "beta": 1.45
                 },
                 "measure_duration": {
-                    "alpha": 0.0000904,
+                    "alpha": 0.000193,
                     "beta": 1.44
                 }
             }
@@ -94,14 +94,14 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "000660",
             "name": "SK하이닉스"
         },
         {
             "key": "005930(A)",
-            "name": "삼성전자"
+            "name": "삼성전자(A)"
         }
     ],
     "news": {

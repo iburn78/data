@@ -1,15 +1,15 @@
 {
     "key": "138930",
     "filename": "138930_BNK금융지주",
-    "updated": "2026-10-19 13:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 10:30",
+    "llm_research_updated": "2026-10-20 10:23",
     "financials": {
         "meta": {
             "name": "BNK금융지주",
             "code": "138930",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 10:30",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "reviewed": true,
+        "updated": "2026-10-20 10:30",
         "search_theme": [
             "실적",
             "전망"
@@ -36,47 +36,36 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "은행업",
-            "여신전문업",
-            "금융투자업",
-            "저축은행업",
-            "창업투자업"
+            "은행 부문",
+            "캐피탈/저축은행 부문",
+            "투자/운용 부문",
+            "기타 서비스 부문"
         ],
         "revenue_share": [
-            0.92,
+            0.91,
+            0.04,
             0.03,
-            0.03,
-            0.01,
-            0.01
+            0.02
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "Improving (이자마진 개선)",
-            "Stable",
-            "Improving (수익 확대)",
-            "Stable",
-            "Stable"
+            "stable to improving",
+            "stable",
+            "improving",
+            "stable"
         ],
         "create_segments": false,
         "key_products": [
-            "예금, 대출, 외환서비스 (부산은행, 경남은행)",
-            "리스, 할부금융 (BNK캐피탈)",
-            "주식중개, 자산운용 (BNK투자증권, BNK자산운용)",
-            "소매금융, 서민금융 (BNK저축은행)",
-            "벤처투자, 스타트업 투자 (BNK벤처투자)"
+            "예금, 대출, 외환 서비스",
+            "리스, 할부 금융, 서민 금융",
+            "증권 중개, 자산 관리, VC 투자",
+            "금융 지원 서비스, IT 인프라 서비스"
         ],
         "competitors": [
-            "KB금융지주, 신한금융지주, 하나금융지주, 우리금융지주",
-            "현대캐피탈, KB캐피탈, 하나캐피탈",
+            "KB금융, 신한지주, 하나금융지주, 우리금융지주, JB금융지주, iM금융지주",
+            "기타 캐피탈사, 저축은행",
             "미래에셋증권, 한국투자증권, 삼성증권",
-            "SBI저축은행, OK저축은행",
-            "KDB산업은행, 한국벤처투자"
+            "기타 신용정보사, IT 서비스사"
         ]
     },
     "code": "138930",

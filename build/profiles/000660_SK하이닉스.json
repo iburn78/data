@@ -1,7 +1,7 @@
 {
     "key": "000660",
     "filename": "000660_SK하이닉스",
-    "updated": "2026-10-19 16:11",
+    "updated": "2026-10-20 13:57",
     "llm_research_updated": "2026-10-19 09:39",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "000660",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 16:11",
+            "updated": "2026-10-20 13:57",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 929000.0,
+                "marcap": 952000.0,
                 "revenue_4qtrs": 244000.0,
                 "opincome_4qtrs": 178000.0,
                 "revenue_qtr": 79300.0,
@@ -38,17 +38,17 @@
                 "4qtrs": 0.729
             },
             "PER": {
-                "PER_ltm": 5.22,
-                "PER_qx4": 3.84,
-                "PER_fwd": 3.11
+                "PER_ltm": 5.35,
+                "PER_qx4": 3.93,
+                "PER_fwd": 3.18
             },
             "volatility": {
-                "measure_to_base": 0.586,
-                "slope": -0.0000135
+                "measure_to_base": 0.587,
+                "slope": -0.0000257
             },
             "amount": {
-                "measure_to_base": 0.811,
-                "slope": -52.1
+                "measure_to_base": 0.836,
+                "slope": -56.2
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 1.46
                 },
                 "base_duration": {
-                    "alpha": 0.00289,
+                    "alpha": 0.0028,
                     "beta": 1.56
                 },
                 "measure_duration": {
-                    "alpha": -0.00282,
-                    "beta": 1.5
+                    "alpha": -0.00333,
+                    "beta": 1.49
                 }
             }
         },

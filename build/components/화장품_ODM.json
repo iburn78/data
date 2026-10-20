@@ -1,7 +1,7 @@
 {
     "key": "화장품 ODM",
     "filename": "화장품_ODM",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:05",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:05",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 6420.0,
+                "marcap": 6280.0,
                 "revenue_4qtrs": 5980.0,
                 "opincome_4qtrs": 589.0,
                 "revenue_qtr": 1660.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0985
             },
             "PER": {
-                "PER_ltm": 10.9,
-                "PER_qx4": 8.72,
-                "PER_fwd": 7.83
+                "PER_ltm": 10.7,
+                "PER_qx4": 8.52,
+                "PER_fwd": 7.66
             },
             "volatility": {
-                "measure_to_base": 0.658,
-                "slope": 0.0000981
+                "measure_to_base": 0.657,
+                "slope": 0.000094
             },
             "amount": {
-                "measure_to_base": 0.757,
-                "slope": 0.522
+                "measure_to_base": 0.766,
+                "slope": 0.496
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000204,
-                    "beta": 0.522
+                    "alpha": 0.000193,
+                    "beta": 0.521
                 },
                 "base_duration": {
-                    "alpha": 0.00375,
-                    "beta": 0.135
+                    "alpha": 0.00353,
+                    "beta": 0.132
                 },
                 "measure_duration": {
-                    "alpha": 0.00239,
-                    "beta": 0.361
+                    "alpha": -0.00124,
+                    "beta": 0.262
                 }
             }
         },
@@ -79,7 +79,7 @@
             "PER_level": "Mid",
             "volatility_movement": "Dn",
             "amount_movement": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "udr_pfm",
             "market_sentiment": "unchanged",
             "category": "B"
         }
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "192820",
             "name": "코스맥스"

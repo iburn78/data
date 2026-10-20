@@ -1,22 +1,22 @@
 {
     "key": "373220",
     "filename": "373220_LG에너지솔루션",
-    "updated": "2026-10-19 13:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 10:42",
+    "llm_research_updated": "2026-10-20 10:41",
     "financials": {
         "meta": {
             "name": "LG에너지솔루션",
             "code": "373220",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 10:42",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 94300.0,
+                "marcap": 99700.0,
                 "revenue_4qtrs": 27800.0,
                 "opincome_4qtrs": -103.0,
                 "revenue_qtr": 7560.0,
@@ -38,37 +38,37 @@
                 "4qtrs": -0.00371
             },
             "PER": {
-                "PER_ltm": -914.0,
-                "PER_qx4": 208.0,
-                "PER_fwd": 357.0
+                "PER_ltm": null,
+                "PER_qx4": 220.0,
+                "PER_fwd": 378.0
             },
             "volatility": {
-                "measure_to_base": 0.789,
-                "slope": -0.0000854
+                "measure_to_base": 0.788,
+                "slope": -0.0000959
             },
             "amount": {
-                "measure_to_base": 1.47,
-                "slope": -1.39
+                "measure_to_base": 1.49,
+                "slope": -1.29
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000321,
-                    "beta": 0.665
+                    "alpha": -0.000283,
+                    "beta": 0.667
                 },
                 "base_duration": {
-                    "alpha": 0.000343,
-                    "beta": 0.348
+                    "alpha": -0.00011,
+                    "beta": 0.338
                 },
                 "measure_duration": {
-                    "alpha": 0.00589,
-                    "beta": 0.0236
+                    "alpha": 0.00918,
+                    "beta": 0.118
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": true,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
@@ -77,8 +77,8 @@
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "reviewed": true,
+        "updated": "2026-10-20 10:42",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,31 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "EV Battery",
-            "ESS & Specialized Battery"
+            "EV (전기차) 사업부",
+            "ESS (에너지저장장치) 사업부",
+            "소형전지 사업부"
         ],
         "revenue_share": [
-            0.8,
-            0.2
+            0.64,
+            0.07,
+            0.29
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "facing stronger competition and growth slowdown",
-            "stable growth due to AI and renewable energy"
+            "수요 둔화 및 경쟁 심화",
+            "AI 데이터센터 수요로 성장세",
+            "IT 수요 회복 대기 및 정체세"
         ],
         "create_segments": false,
         "key_products": [
-            "EV batteries",
-            "ESS batteries, Batteries for LEV/Robots/Drones"
+            "전기차용 배터리 (파우치형, 원통형)",
+            "전력망용, 상업용, 가정용 에너지 저장 시스템",
+            "IT기기용, 전동공구용, LEV용 배터리"
         ],
         "competitors": [
-            "CATL, BYD, SK On, Samsung SDI",
-            "Tesla, Fluence, LG Energy Solution (internal competition), CATL"
+            "CATL, BYD, 삼성SDI, SK온",
+            "CATL, 삼성SDI, 테슬라",
+            "파나소닉, CATL"
         ]
     },
     "code": "373220",

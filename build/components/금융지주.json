@@ -1,7 +1,7 @@
 {
     "key": "금융지주",
     "filename": "금융지주",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:03",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:03",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 195000.0,
+                "marcap": 196000.0,
                 "revenue_4qtrs": 3240.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 829.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.84,
-                "slope": -0.0000209
+                "measure_to_base": 0.833,
+                "slope": -0.0000242
             },
             "amount": {
-                "measure_to_base": 0.947,
-                "slope": -1.31
+                "measure_to_base": 0.952,
+                "slope": -1.54
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00038,
+                    "alpha": 0.000378,
                     "beta": 0.597
                 },
                 "base_duration": {
-                    "alpha": -0.000352,
-                    "beta": 0.124
+                    "alpha": -0.000278,
+                    "beta": 0.125
                 },
                 "measure_duration": {
-                    "alpha": -0.00632,
-                    "beta": -0.0182
+                    "alpha": -0.00607,
+                    "beta": -0.00908
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "105560",
             "name": "KB금융"

@@ -1,7 +1,7 @@
 {
     "key": "317330",
     "filename": "317330_덕산테코피아",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:01",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "317330",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 229.0,
+                "marcap": 242.0,
                 "revenue_4qtrs": 152.0,
                 "opincome_4qtrs": -41.2,
                 "revenue_qtr": 42.2,
@@ -38,37 +38,37 @@
                 "4qtrs": -0.271
             },
             "PER": {
-                "PER_ltm": -5.55,
-                "PER_qx4": -5.41,
-                "PER_fwd": -4.82
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.997,
-                "slope": -0.000052
+                "measure_to_base": 0.978,
+                "slope": -0.000058
             },
             "amount": {
-                "measure_to_base": 1.04,
-                "slope": -0.0796
+                "measure_to_base": 1.02,
+                "slope": -0.0779
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000109,
+                    "alpha": -0.0000887,
                     "beta": 1.09
                 },
                 "base_duration": {
-                    "alpha": -0.00506,
-                    "beta": 0.713
+                    "alpha": -0.00463,
+                    "beta": 0.718
                 },
                 "measure_duration": {
-                    "alpha": 0.00113,
-                    "beta": 1.09
+                    "alpha": 0.00252,
+                    "beta": 1.14
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": true,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",

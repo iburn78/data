@@ -1,7 +1,7 @@
 {
     "key": "ESS 냉각시스템",
     "filename": "ESS_냉각시스템",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:04",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:04",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 380.0,
+                "marcap": 439.0,
                 "revenue_4qtrs": 200.0,
                 "opincome_4qtrs": -9.72,
                 "revenue_qtr": 42.6,
@@ -46,37 +46,37 @@
                 "4qtrs": -0.0487
             },
             "PER": {
-                "PER_ltm": -39.1,
-                "PER_qx4": -13.7,
-                "PER_fwd": -11.0
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.783,
-                "slope": -0.000193
+                "measure_to_base": 0.794,
+                "slope": -0.000202
             },
             "amount": {
-                "measure_to_base": 2.16,
-                "slope": -0.17
+                "measure_to_base": 2.43,
+                "slope": -0.165
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00325,
-                    "beta": 0.578
+                    "alpha": 0.0033,
+                    "beta": 0.582
                 },
                 "base_duration": {
-                    "alpha": -0.000638,
-                    "beta": 0.684
+                    "alpha": -0.00179,
+                    "beta": 0.658
                 },
                 "measure_duration": {
-                    "alpha": 0.00852,
-                    "beta": 0.928
+                    "alpha": 0.0171,
+                    "beta": 1.17
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": true,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "107640",
             "name": "한중엔시에스"

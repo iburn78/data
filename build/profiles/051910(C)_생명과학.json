@@ -1,0 +1,115 @@
+{
+    "key": "051910(C)",
+    "filename": "051910(C)_생명과학",
+    "updated": "2026-10-20 13:32",
+    "llm_research_updated": "2026-10-20 13:32",
+    "financials": {
+        "meta": {
+            "name": "LG화학",
+            "code": "051910",
+            "segment_name": "생명과학",
+            "id": "C",
+            "updated": "2026-10-20 13:32",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 957.0,
+                "revenue_4qtrs": 2590.0,
+                "opincome_4qtrs": 207.0,
+                "revenue_qtr": 709.0,
+                "opincome_qtr": 56.7
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.575,
+                "growth_per_qtr": 0.0111
+            },
+            "opmargin": {
+                "25_4Q": 0.08,
+                "26_1Q": 0.08,
+                "26_2Q": 0.08,
+                "26_3Q": 0.08,
+                "4qtrs": 0.08
+            },
+            "PER": {
+                "PER_ltm": 4.62,
+                "PER_qx4": 4.22,
+                "PER_fwd": 4.11
+            },
+            "volatility": {
+                "measure_to_base": 0.862,
+                "slope": -0.0000477
+            },
+            "amount": {
+                "measure_to_base": 1.79,
+                "slope": -0.0541
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.000229,
+                    "beta": 0.97
+                },
+                "base_duration": {
+                    "alpha": -0.00221,
+                    "beta": 0.432
+                },
+                "measure_duration": {
+                    "alpha": 0.00424,
+                    "beta": 0.482
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.05,
+        "marcap_share": 0.05,
+        "opmargin": 0.08,
+        "trend": "증가세"
+    },
+    "id": "C",
+    "profile_name": "LG화학",
+    "profile_code": "051910",
+    "segment_name": "생명과학",
+    "news": {
+        "updated": "2026-10-20 13:32",
+        "key_financials": [
+            "2026년 상반기: 매출 6,781억 원(전년 동기 대비 9.5% 증가), 영업이익 937억 원(전년 동기 대비 8배 이상 증가), 영업이익률 13.8%",
+            "2026년 3분기(전망): 영업이익 100억 원 추정 (LS증권)"
+        ],
+        "key_facts": [
+            "2025년 8월 기준, 미국 Aveo Pharmaceuticals 지분 100%를 5억 7,100만 달러에 인수하여 미국 항암제 시장 진출 추진",
+            "2026년 4월, 미국 Frontier Medicines와 항암제 후보물질 'FMC-220'의 글로벌 독점 개발 및 상업화 권리 도입 계약 체결",
+            "2025년 8월, 에스테틱 사업을 브이아이지파트너스에 2,000억 원에 양도하며 사업 포트폴리오 조정",
+            "주요 파이프라인 현황: 면역관문억제제 및 p53 표적항암제(임상 1상), 희귀비만 치료제(글로벌 임상 2상), 통풍 치료제(중국 임상 3상), 소아마비 백신(WHO PQ 및 상업화 완료)",
+            "2026년 상반기 중 수출 선적 물량 증가 및 라이선스아웃(기술수출)이 실적에 긍정적 영향 미침"
+        ],
+        "key_issues": [
+            "3분기 주요 임상 과제 진척에 따른 R&D 비용 증가로 인한 수익성 하락 예상",
+            "하반기 백신 수출 시점이 실적 변수로 작용할 전망"
+        ],
+        "news_summary": "LG화학 생명과학 사업은 2026년 상반기 수출 확대와 라이선스아웃의 영향으로 매출과 영업이익이 큰 폭으로 성장하며 수익성이 개선되었습니다. 사업 포트폴리오 측면에서는 에스테틱 사업을 매각하고, Aveo Pharmaceuticals 인수 및 신규 항암제 후보물질 도입을 통해 혁신 신약 중심의 성장축 이동을 추진하고 있습니다. 다만, 3분기에는 R&D 비용 증가와 백신 수출 시점 등의 영향으로 수익성이 낮아질 것으로 전망됩니다."
+    }
+}

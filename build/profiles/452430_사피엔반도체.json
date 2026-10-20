@@ -1,22 +1,22 @@
 {
     "key": "452430",
     "filename": "452430_사피엔반도체",
-    "updated": "2026-10-19 13:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 14:27",
+    "llm_research_updated": "2026-10-20 14:01",
     "financials": {
         "meta": {
             "name": "사피엔반도체",
             "code": "452430",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 14:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 240.0,
+                "marcap": 244.0,
                 "revenue_4qtrs": 30.6,
                 "opincome_4qtrs": 0.741,
                 "revenue_qtr": 7.21,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0242
             },
             "PER": {
-                "PER_ltm": 324.0,
-                "PER_qx4": 192.0,
-                "PER_fwd": 64.8
+                "PER_ltm": 329.0,
+                "PER_qx4": 195.0,
+                "PER_fwd": 65.8
             },
             "volatility": {
-                "measure_to_base": 0.827,
-                "slope": -0.000141
+                "measure_to_base": 0.833,
+                "slope": -0.000155
             },
             "amount": {
-                "measure_to_base": 2.31,
-                "slope": -0.0525
+                "measure_to_base": 2.32,
+                "slope": -0.0541
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000874,
+                    "alpha": -0.000876,
                     "beta": 1.01
                 },
                 "base_duration": {
-                    "alpha": 0.000748,
+                    "alpha": 0.000772,
                     "beta": 0.839
                 },
                 "measure_duration": {
-                    "alpha": -0.00408,
-                    "beta": 0.952
+                    "alpha": -0.00622,
+                    "beta": 0.899
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:41",
+        "updated": "2026-10-20 14:01",
         "search_theme": [
             "실적",
             "전망"
@@ -86,23 +86,29 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "디스플레이 구동 반도체 (DDIC) 설계"
+            "초소형 디스플레이 구동반도체",
+            "대형 디스플레이 구동반도체"
         ],
         "revenue_share": [
-            1.0
+            1.0,
+            0.0
         ],
         "opmargin": [
+            0.014,
             null
         ],
         "trend": [
-            "Rapidly growing (AR/MR demand)"
+            "Rapidly growing due to AR/MR demand",
+            "Currently stagnant/no recent revenue"
         ],
         "create_segments": false,
         "key_products": [
-            "Micro-LED DDIC, Mini-LED DDIC, CMOS Backplane"
+            "Micro-LED CMOS Backplane, LEDoS NRE services",
+            "Large-scale Micro-LED/Mini-LED Chipsets"
         ],
         "competitors": [
-            "Global DDIC manufacturers"
+            "Global DDIC designers, Panel company in-house teams",
+            "Global DDIC designers, Panel company in-house teams"
         ]
     },
     "code": "452430",
@@ -114,18 +120,18 @@
         "updated": "2026-10-07"
     },
     "news": {
-        "updated": "2026-10-17 14:03",
+        "updated": "2026-10-20 14:27",
         "key_facts": [
-            "사피엔반도체는 LEDoS용 디스플레이 구동칩 전문 팹리스 기업으로, 2026년 2분기 매출액 72억원, 영업이익 3억원을 기록하며 흑자 전환함.",
-            "북미 빅테크 기업과 약 72억원 규모의 공급 계약을 체결했으며, 캘리포니아 빅테크 기업들과도 잇따라 계약을 맺음.",
-            "세계 최초로 800×600 해상도를 적용한 LEDoS 제품을 개발했으며, 3분기부터 주요 빅테크향 양산 물량이 반영되기 시작함.",
-            "독자적인 MiP(Memory-in-Pixel) 기술을 통해 소비전력 최대 75%, 원가 최대 50% 절감 등의 기술적 경쟁력을 확보함.",
-            "마이크로 LED 기반의 광 인터커넥트용 송수신 구동칩 및 CPO 솔루션을 개발 중이며, 2027년 말부터 매출 반영이 예상됨."
+            "마이크로 LED 및 LEDoS 구동칩 전문 팹리스 기업으로, 2026년 2분기 매출액 72억원 및 영업이익 3억원을 기록하며 흑자 전환함.",
+            "북미 빅테크 기업과 약 72억원 규모의 공급계약을 체결(2026.07.21~2027.10.28)했으며, 3분기부터 양산 물량 반영으로 제품 매출 비중 확대를 전망함.",
+            "세계 최초 800×600 해상도 LEDoS 제품을 개발했으며, MiP 기술을 통해 소비전력 최대 75%, 원가 최대 50% 절감 경쟁력을 확보함.",
+            "현재 주력인 2.5㎛ 픽셀 피치를 2㎛까지 줄이는 CMOS 백플레인을 개발 중이며, 타입 3(독립형 AI 글래스) 시장 대응을 준비하고 있음.",
+            "차세대 신사업으로 마이크로 LED 기반 CPO(Co-Packaged Optics) 및 광 인터커넥트용 구동칩을 개발 중이며, 2027년 말 매출 반영을 예상함."
         ],
         "key_issues": [
-            "마이크로 LED 시장의 성장 단계 특성상 실제 양산 확대, 수율 개선 및 원가 경쟁력 확보 여부가 실적 변수로 꼽힘.",
-            "메타 등 주요 기업이 디스플레이 없는 타입1 제품에 집중하고 있어, LEDoS가 필요한 하이엔드 제품의 성장 속도에 불확실성이 존재함."
+            "마이크로 LED 시장의 성장 단계 특성상 실제 양산 확대, 수율 개선 및 원가 경쟁력 확보 여부가 실적의 변수임.",
+            "선두 업체인 메타(Meta)가 디스플레이 없는 타입 1 제품에 집중하고 있어 LEDoS의 실제 성장 속도에 대한 불확실성이 존재함."
         ],
-        "news_summary": "사피엔반도체는 LEDoS 구동칩 전문 기업으로, 글로벌 빅테크의 AI 및 AR 글래스 시장 확대에 힘입어 2026년 2분기 흑자 전환에 성공했습니다. 기존 개발 용역 중심에서 양산 제품 매출 비중이 확대되는 실적 구조 개선을 이루고 있으며, 향후 AI 서버용 광 인터커넥트(CPO) 등 신사업 확장을 통해 중장기 성장을 추진하고 있습니다."
+        "news_summary": "사피엔반도체는 LEDoS 및 마이크로 LED 구동칩 전문 팹리스 기업으로, AI/AR 글래스 시장 확산에 따라 2026년 2분기 흑자 전환과 급격한 성장을 달성했습니다. 북미 빅테크향 양산 물량 확대를 통해 매출 구조를 제품 중심으로 전환하고 있으며, 향후 CPO 기반 광 인터커넥트 솔루션으로 사업 영역을 확장해 중장기적 성장을 도모하고 있습니다."
     }
 }

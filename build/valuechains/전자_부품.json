@@ -1,7 +1,7 @@
 {
     "key": "전자 부품",
     "filename": "전자_부품",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:00",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 123000.0,
-                "revenue_4qtrs": 46200.0,
-                "opincome_4qtrs": 3240.0,
-                "revenue_qtr": 11500.0,
-                "opincome_qtr": 933.0
+                "marcap": 126000.0,
+                "revenue_4qtrs": 46700.0,
+                "opincome_4qtrs": 3600.0,
+                "revenue_qtr": 11600.0,
+                "opincome_qtr": 1020.0
             },
             "share": {
                 "marcap": "-",
@@ -35,41 +35,41 @@
             "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 44.7,
-                "growth_per_qtr": 0.0551
+                "slope": 46.3,
+                "growth_per_qtr": 0.0513
             },
             "opmargin": {
-                "25_4Q": 0.0552,
-                "26_1Q": 0.0642,
-                "26_2Q": 0.0813,
-                "26_3Q": 0.0813,
-                "4qtrs": 0.0703
+                "25_4Q": 0.0636,
+                "26_1Q": 0.0711,
+                "26_2Q": 0.0876,
+                "26_3Q": 0.0876,
+                "4qtrs": 0.0773
             },
             "PER": {
-                "PER_ltm": 37.8,
-                "PER_qx4": 32.9,
-                "PER_fwd": 29.3
+                "PER_ltm": 34.9,
+                "PER_qx4": 31.0,
+                "PER_fwd": 27.8
             },
             "volatility": {
-                "measure_to_base": 0.557,
-                "slope": -0.0000214
+                "measure_to_base": 0.575,
+                "slope": -0.0000328
             },
             "amount": {
-                "measure_to_base": 1.06,
-                "slope": -14.7
+                "measure_to_base": 1.1,
+                "slope": -15.6
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000639,
+                    "alpha": 0.000638,
                     "beta": 1.23
                 },
                 "base_duration": {
-                    "alpha": 0.00524,
-                    "beta": 1.24
+                    "alpha": 0.00478,
+                    "beta": 1.23
                 },
                 "measure_duration": {
-                    "alpha": 0.00842,
-                    "beta": 1.55
+                    "alpha": 0.00784,
+                    "beta": 1.53
                 }
             }
         },

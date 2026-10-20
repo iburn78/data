@@ -1,0 +1,116 @@
+{
+    "key": "066570(C)",
+    "filename": "066570(C)_전장",
+    "updated": "2026-10-20 14:00",
+    "llm_research_updated": "2026-10-20 09:42",
+    "financials": {
+        "meta": {
+            "name": "LG전자",
+            "code": "066570",
+            "segment_name": "전장",
+            "id": "C",
+            "updated": "2026-10-20 14:00",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 4470.0,
+                "revenue_4qtrs": 15200.0,
+                "opincome_4qtrs": 6.09,
+                "revenue_qtr": 3810.0,
+                "opincome_qtr": 1.52
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.0164,
+                "growth_per_qtr": 0.0107
+            },
+            "opmargin": {
+                "25_4Q": 0.0004,
+                "26_1Q": 0.0004,
+                "26_2Q": 0.0004,
+                "26_3Q": 0.0004,
+                "4qtrs": 0.0004
+            },
+            "PER": {
+                "PER_ltm": 733.0,
+                "PER_qx4": 733.0,
+                "PER_fwd": 714.0
+            },
+            "volatility": {
+                "measure_to_base": 0.845,
+                "slope": -0.000408
+            },
+            "amount": {
+                "measure_to_base": 1.28,
+                "slope": -1.14
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000344,
+                    "beta": 0.918
+                },
+                "base_duration": {
+                    "alpha": 0.00504,
+                    "beta": 0.795
+                },
+                "measure_duration": {
+                    "alpha": -0.00117,
+                    "beta": 0.775
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.16,
+        "marcap_share": 0.16,
+        "opmargin": 0.0004,
+        "trend": "매출 성장 및 이익 변동성 (SDV 투자 및 캐즘 영향)"
+    },
+    "id": "C",
+    "profile_name": "LG전자",
+    "profile_code": "066570",
+    "segment_name": "전장",
+    "news": {
+        "updated": "2026-10-20 09:42",
+        "key_financials": [
+            "2026년 2분기: 매출 3조 259억 원, 영업이익 1,912억 원 (역대 2분기 최대 실적, 영업이익률 6.3%)",
+            "2026년 연간 전망(대신증권): 매출 12조 4,600억 원(전년 대비 11.9% 증가), 영업이익 8,910억 원(전년 대비 56.6% 증가), 영업이익률 7.2% 전망",
+            "수익성 전망(iM증권): 2025년 5%, 2027년 8%로 개선될 전망이며, 2027년 전사 영업이익 기여도는 27%에 달할 것으로 예상됨"
+        ],
+        "key_facts": [
+            "VS사업본부는 차량용 인포테인먼트, 전기차 부품, 차량용 램프(ZKW) 등을 중심으로 포트폴리오를 운영함",
+            "과거 확보한 고수익 수주 물량이 본격적으로 매출에 반영되며 수익성이 개선되는 추세임",
+            "엔비디아와 모빌리티 분야에서 차세대 고성능 컴퓨팅 플랫폼 관련 협업을 추진 중임",
+            "카오디오 제품 라인업이 부재하며, 메리디안(Meridian)을 파트너로 하여 오디오를 공급하는 구조임"
+        ],
+        "key_issues": [
+            "브랜드 카오디오 사업 라인업 부재로 인해, 차량이 콘텐츠 소비 공간으로 변화함에 따른 시장 대응력 우려가 제기됨",
+            "전기차 수요 정체 및 대외 불확실성 지속에 따른 리스크 존재",
+            "3분기 일부 매출 이월 발생(삼성증권 분석)"
+        ],
+        "news_summary": "LG전자 전장(VS) 사업본부는 차량용 인포테인먼트, 전기차 부품, 조명 등 고부가 제품 중심의 포트폴리오 확장과 과거 수주 물량의 매출 반영으로 수익성이 빠르게 개선되고 있습니다. 2026년 2분기 역대 최대 2분기 실적을 기록했으며, 연간 영업이익률이 7%대까지 상승할 것으로 전망됩니다. 엔비디아와 차세대 컴퓨팅 플랫폼 협업을 추진하는 등 B2B 성장축으로서의 입지를 강화하고 있으나, 자체 카오디오 브랜드 부재에 따른 중장기적 경쟁력 우려와 전기차 수요 정체라는 외부 리스크를 안고 있습니다."
+    }
+}

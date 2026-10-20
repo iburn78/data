@@ -1,7 +1,7 @@
 {
     "key": "348370",
     "filename": "348370_엔켐",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:01",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "348370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 431.0,
+                "marcap": 466.0,
                 "revenue_4qtrs": 379.0,
                 "opincome_4qtrs": -76.6,
                 "revenue_qtr": 102.0,
@@ -38,37 +38,37 @@
                 "4qtrs": -0.202
             },
             "PER": {
-                "PER_ltm": -5.63,
-                "PER_qx4": -9.32,
-                "PER_fwd": -7.76
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.69,
-                "slope": 0.0000448
+                "measure_to_base": 0.675,
+                "slope": 0.000053
             },
             "amount": {
                 "measure_to_base": 1.72,
-                "slope": -0.112
+                "slope": -0.113
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000391,
-                    "beta": 0.954
+                    "alpha": -0.000341,
+                    "beta": 0.956
                 },
                 "base_duration": {
-                    "alpha": -0.00378,
-                    "beta": 0.684
+                    "alpha": -0.00456,
+                    "beta": 0.668
                 },
                 "measure_duration": {
-                    "alpha": 0.00521,
-                    "beta": 0.836
+                    "alpha": 0.0114,
+                    "beta": 1.01
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",

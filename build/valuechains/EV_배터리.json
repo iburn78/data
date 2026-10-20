@@ -1,7 +1,7 @@
 {
     "key": "EV 배터리",
     "filename": "EV_배터리",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:03",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:03",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 206000.0,
-                "revenue_4qtrs": 132000.0,
-                "opincome_4qtrs": 1360.0,
-                "revenue_qtr": 35700.0,
-                "opincome_qtr": 1230.0
+                "marcap": 222000.0,
+                "revenue_4qtrs": 133000.0,
+                "opincome_4qtrs": -580.0,
+                "revenue_qtr": 36000.0,
+                "opincome_qtr": 678.0
             },
             "share": {
                 "marcap": "-",
@@ -35,48 +35,48 @@
             "opincome": {
                 "positive_last_4qtrs": false,
                 "higher_than_comp": true,
-                "slope": 18.9,
-                "growth_per_qtr": 0.0557
+                "slope": -0.445,
+                "growth_per_qtr": 0.00307
             },
             "opmargin": {
-                "25_4Q": -0.0323,
-                "26_1Q": -0.00575,
-                "26_2Q": 0.0345,
-                "26_3Q": 0.0345,
-                "4qtrs": 0.0103
+                "25_4Q": -0.0447,
+                "26_1Q": -0.0202,
+                "26_2Q": 0.0188,
+                "26_3Q": 0.0188,
+                "4qtrs": -0.00437
             },
             "PER": {
-                "PER_ltm": 152.0,
-                "PER_qx4": 41.8,
-                "PER_fwd": 40.3
+                "PER_ltm": null,
+                "PER_qx4": 81.9,
+                "PER_fwd": 82.1
             },
             "volatility": {
-                "measure_to_base": 0.779,
-                "slope": -0.0000222
+                "measure_to_base": 0.783,
+                "slope": -0.0000311
             },
             "amount": {
                 "measure_to_base": 1.84,
-                "slope": -12.7
+                "slope": -12.2
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000492,
-                    "beta": 0.909
+                    "alpha": 0.000507,
+                    "beta": 0.911
                 },
                 "base_duration": {
-                    "alpha": -0.000752,
-                    "beta": 0.496
+                    "alpha": -0.000997,
+                    "beta": 0.488
                 },
                 "measure_duration": {
-                    "alpha": 0.00369,
-                    "beta": 0.265
+                    "alpha": 0.00877,
+                    "beta": 0.407
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": true,
-            "PER_level": "High",
+            "financially_sound": false,
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",

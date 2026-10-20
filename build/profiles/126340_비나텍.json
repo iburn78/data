@@ -1,7 +1,7 @@
 {
     "key": "126340",
     "filename": "126340_비나텍",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:04",
     "llm_research_updated": "2026-10-19 12:23",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "126340",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:04",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 571.0,
+                "marcap": 589.0,
                 "revenue_4qtrs": 119.0,
                 "opincome_4qtrs": 0.12,
                 "revenue_qtr": 35.4,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.00101
             },
             "PER": {
-                "PER_ltm": 4740.0,
-                "PER_qx4": 287.0,
-                "PER_fwd": 143.0
+                "PER_ltm": 4890.0,
+                "PER_qx4": 296.0,
+                "PER_fwd": 147.0
             },
             "volatility": {
-                "measure_to_base": 0.801,
-                "slope": -0.000158
+                "measure_to_base": 0.82,
+                "slope": -0.000171
             },
             "amount": {
-                "measure_to_base": 2.94,
-                "slope": -0.204
+                "measure_to_base": 3.12,
+                "slope": -0.21
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00189,
+                    "alpha": 0.0019,
                     "beta": 0.891
                 },
                 "base_duration": {
-                    "alpha": -0.000388,
-                    "beta": 1.05
+                    "alpha": -0.000738,
+                    "beta": 1.04
                 },
                 "measure_duration": {
-                    "alpha": 0.0269,
-                    "beta": 1.85
+                    "alpha": 0.0177,
+                    "beta": 1.61
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "음극재",
     "filename": "음극재",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:01",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 16900.0,
+                "marcap": 18500.0,
                 "revenue_4qtrs": 3040.0,
                 "opincome_4qtrs": 46.7,
                 "revenue_qtr": 780.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0154
             },
             "PER": {
-                "PER_ltm": 362.0,
-                "PER_qx4": 126.0,
-                "PER_fwd": 117.0
+                "PER_ltm": 396.0,
+                "PER_qx4": 138.0,
+                "PER_fwd": 128.0
             },
             "volatility": {
-                "measure_to_base": 0.844,
-                "slope": 0.0000702
+                "measure_to_base": 0.845,
+                "slope": 0.0000604
             },
             "amount": {
-                "measure_to_base": 1.73,
-                "slope": -0.897
+                "measure_to_base": 1.75,
+                "slope": -0.883
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00102,
-                    "beta": 1.02
+                    "alpha": 0.00105,
+                    "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00146,
-                    "beta": 0.587
+                    "alpha": -0.00139,
+                    "beta": 0.584
                 },
                 "measure_duration": {
-                    "alpha": 0.000158,
-                    "beta": 0.434
+                    "alpha": 0.00666,
+                    "beta": 0.618
                 }
             }
         },
@@ -79,7 +79,7 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "Up",
-            "alpha_level": "at_mkt",
+            "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "D"
         }
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "003670",
             "name": "포스코퓨처엠"

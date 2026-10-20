@@ -1,7 +1,7 @@
 {
     "key": "081180",
     "filename": "081180_쎄크",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 13:59",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "081180",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 13:59",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 50.5,
+                "marcap": 52.7,
                 "revenue_4qtrs": 47.6,
                 "opincome_4qtrs": -10.5,
                 "revenue_qtr": 7.55,
@@ -38,37 +38,37 @@
                 "4qtrs": -0.221
             },
             "PER": {
-                "PER_ltm": -4.79,
-                "PER_qx4": -3.18,
-                "PER_fwd": -2.54
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.848,
-                "slope": -7.42e-6
+                "measure_to_base": 0.865,
+                "slope": -8.73e-6
             },
             "amount": {
-                "measure_to_base": 2.4,
-                "slope": -0.0283
+                "measure_to_base": 3.02,
+                "slope": -0.0248
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00314,
-                    "beta": 0.775
+                    "alpha": -0.00305,
+                    "beta": 0.777
                 },
                 "base_duration": {
-                    "alpha": -0.00648,
-                    "beta": 0.729
+                    "alpha": -0.00568,
+                    "beta": 0.74
                 },
                 "measure_duration": {
-                    "alpha": 0.0134,
-                    "beta": 0.895
+                    "alpha": 0.00992,
+                    "beta": 0.811
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": true,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",

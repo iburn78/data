@@ -1,7 +1,7 @@
 {
     "key": "에스테틱 의료기기",
     "filename": "에스테틱_의료기기",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:06",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:06",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2180.0,
+                "marcap": 2320.0,
                 "revenue_4qtrs": 573.0,
                 "opincome_4qtrs": 222.0,
                 "revenue_qtr": 153.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.387
             },
             "PER": {
-                "PER_ltm": 9.83,
-                "PER_qx4": 9.91,
-                "PER_fwd": 9.04
+                "PER_ltm": 10.5,
+                "PER_qx4": 10.6,
+                "PER_fwd": 9.64
             },
             "volatility": {
-                "measure_to_base": 0.606,
-                "slope": -0.0000859
+                "measure_to_base": 0.615,
+                "slope": -0.0000907
             },
             "amount": {
-                "measure_to_base": 0.948,
-                "slope": -0.205
+                "measure_to_base": 1.02,
+                "slope": -0.211
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000967,
-                    "beta": 0.583
+                    "alpha": 0.000987,
+                    "beta": 0.584
                 },
                 "base_duration": {
-                    "alpha": -0.00535,
-                    "beta": 0.28
+                    "alpha": -0.00472,
+                    "beta": 0.287
                 },
                 "measure_duration": {
-                    "alpha": -0.00408,
-                    "beta": 0.409
+                    "alpha": -0.000083,
+                    "beta": 0.525
                 }
             }
         },
@@ -79,7 +79,7 @@
             "PER_level": "Mid",
             "volatility_movement": "Dn",
             "amount_movement": "-",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "at_mkt",
             "market_sentiment": "unchanged",
             "category": "D"
         }
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "214150",
             "name": "클래시스"

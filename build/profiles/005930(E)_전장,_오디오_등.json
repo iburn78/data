@@ -1,22 +1,22 @@
 {
     "key": "005930(E)",
     "filename": "005930(E)_전장,_오디오_등",
-    "updated": "2026-10-19 13:46",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 13:57",
+    "llm_research_updated": "2026-10-20 13:57",
     "financials": {
         "meta": {
             "name": "삼성전자",
             "code": "005930",
             "segment_name": "전장, 오디오 등",
             "id": "E",
-            "updated": "2026-10-19 13:46",
+            "updated": "2026-10-20 13:57",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 37800.0,
+                "marcap": 38900.0,
                 "revenue_4qtrs": 17100.0,
                 "opincome_4qtrs": 1540.0,
                 "revenue_qtr": 5140.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.09
             },
             "PER": {
-                "PER_ltm": 24.5,
-                "PER_qx4": 20.4,
-                "PER_fwd": 17.8
+                "PER_ltm": 25.3,
+                "PER_qx4": 21.0,
+                "PER_fwd": 18.4
             },
             "volatility": {
-                "measure_to_base": 0.585,
-                "slope": -8.46e-6
+                "measure_to_base": 0.588,
+                "slope": -0.0000185
             },
             "amount": {
-                "measure_to_base": 0.895,
-                "slope": -1.38
+                "measure_to_base": 0.932,
+                "slope": -1.47
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00043,
+                    "alpha": 0.000433,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.00156,
+                    "alpha": 0.00175,
                     "beta": 1.32
                 },
                 "measure_duration": {
-                    "alpha": 0.0036,
-                    "beta": 1.37
+                    "alpha": 0.00444,
+                    "beta": 1.39
                 }
             }
         },

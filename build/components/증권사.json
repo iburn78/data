@@ -1,7 +1,7 @@
 {
     "key": "증권사",
     "filename": "증권사",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:04",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:04",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 52900.0,
+                "marcap": 54100.0,
                 "revenue_4qtrs": 194000.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 61000.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.558,
-                "slope": -0.000247
+                "measure_to_base": 0.573,
+                "slope": -0.000249
             },
             "amount": {
-                "measure_to_base": 1.18,
-                "slope": -7.28
+                "measure_to_base": 1.17,
+                "slope": -7.46
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000143,
+                    "alpha": 0.000016,
                     "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00466,
-                    "beta": 0.706
+                    "alpha": -0.00447,
+                    "beta": 0.709
                 },
                 "measure_duration": {
-                    "alpha": -0.00312,
-                    "beta": 0.665
+                    "alpha": -0.000929,
+                    "beta": 0.724
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "006800",
             "name": "미래에셋증권"

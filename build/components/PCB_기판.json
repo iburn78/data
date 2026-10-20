@@ -1,7 +1,7 @@
 {
     "key": "PCB 기판",
     "filename": "PCB_기판",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 14:09",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 14:09",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7300.0,
+                "marcap": 7380.0,
                 "revenue_4qtrs": 1400.0,
                 "opincome_4qtrs": 278.0,
                 "revenue_qtr": 380.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.199
             },
             "PER": {
-                "PER_ltm": 26.3,
-                "PER_qx4": 23.7,
-                "PER_fwd": 19.8
+                "PER_ltm": 26.6,
+                "PER_qx4": 24.0,
+                "PER_fwd": 20.0
             },
             "volatility": {
-                "measure_to_base": 0.71,
-                "slope": -0.00012
+                "measure_to_base": 0.736,
+                "slope": -0.000124
             },
             "amount": {
-                "measure_to_base": 2.32,
-                "slope": -1.64
+                "measure_to_base": 2.22,
+                "slope": -1.52
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": -0.000469,
-                    "beta": 0.935
+                    "alpha": -0.000286,
+                    "beta": 0.938
                 },
                 "measure_duration": {
-                    "alpha": 0.00891,
-                    "beta": 1.34
+                    "alpha": 0.00814,
+                    "beta": 1.31
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "007660",
             "name": "이수페타시스"

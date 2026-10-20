@@ -1,7 +1,7 @@
 {
     "key": "셀",
     "filename": "셀",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:00",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 140000.0,
-                "revenue_4qtrs": 55000.0,
-                "opincome_4qtrs": 461.0,
-                "revenue_qtr": 14800.0,
-                "opincome_qtr": 492.0
+                "marcap": 150000.0,
+                "revenue_4qtrs": 56000.0,
+                "opincome_4qtrs": -1470.0,
+                "revenue_qtr": 15100.0,
+                "opincome_qtr": -62.0
             },
             "share": {
                 "marcap": "-",
@@ -35,48 +35,48 @@
             "opincome": {
                 "positive_last_4qtrs": false,
                 "higher_than_comp": true,
-                "slope": -28.5,
-                "growth_per_qtr": -0.247
+                "slope": -47.8,
+                "growth_per_qtr": 0.13
             },
             "opmargin": {
-                "25_4Q": -0.0248,
-                "26_1Q": -0.0167,
-                "26_2Q": 0.0332,
-                "26_3Q": 0.0332,
-                "4qtrs": 0.00837
+                "25_4Q": -0.0537,
+                "26_1Q": -0.0511,
+                "26_2Q": -0.0041,
+                "26_3Q": -0.0041,
+                "4qtrs": -0.0263
             },
             "PER": {
-                "PER_ltm": 303.0,
-                "PER_qx4": 70.9,
-                "PER_fwd": 82.9
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.787,
-                "slope": -0.0000775
+                "measure_to_base": 0.791,
+                "slope": -0.0000871
             },
             "amount": {
-                "measure_to_base": 1.56,
-                "slope": -5.17
+                "measure_to_base": 1.57,
+                "slope": -4.9
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00126,
-                    "beta": 0.765
+                    "alpha": 0.00125,
+                    "beta": 0.769
                 },
                 "base_duration": {
-                    "alpha": 0.000499,
-                    "beta": 0.443
+                    "alpha": -0.0000127,
+                    "beta": 0.43
                 },
                 "measure_duration": {
-                    "alpha": 0.00437,
-                    "beta": 0.133
+                    "alpha": 0.00908,
+                    "beta": 0.267
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": false,
-            "PER_level": "High",
+            "financially_sound": true,
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "373220",
             "name": "LG에너지솔루션"
@@ -105,7 +105,7 @@
         },
         {
             "key": "096770(C)",
-            "name": "SK이노베이션"
+            "name": "SK이노베이션(C)"
         }
     ],
     "news": {

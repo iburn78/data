@@ -1,7 +1,7 @@
 {
     "key": "화장품 용기 제조",
     "filename": "화장품_용기_제조",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:06",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:06",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 884.0,
+                "marcap": 878.0,
                 "revenue_4qtrs": 403.0,
                 "opincome_4qtrs": 64.6,
                 "revenue_qtr": 117.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.16
             },
             "PER": {
-                "PER_ltm": 13.7,
-                "PER_qx4": 10.2,
-                "PER_fwd": 9.36
+                "PER_ltm": 13.6,
+                "PER_qx4": 10.1,
+                "PER_fwd": 9.29
             },
             "volatility": {
-                "measure_to_base": 0.75,
-                "slope": 0.000262
+                "measure_to_base": 0.749,
+                "slope": 0.000251
             },
             "amount": {
-                "measure_to_base": 1.02,
-                "slope": 0.0646
+                "measure_to_base": 1.04,
+                "slope": 0.0659
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00078,
-                    "beta": 0.444
+                    "alpha": 0.000772,
+                    "beta": 0.443
                 },
                 "base_duration": {
-                    "alpha": 0.00508,
-                    "beta": 0.0284
+                    "alpha": 0.00511,
+                    "beta": 0.0295
                 },
                 "measure_duration": {
-                    "alpha": 0.0108,
-                    "beta": -0.0645
+                    "alpha": 0.00733,
+                    "beta": -0.156
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "251970",
             "name": "펌텍코리아"

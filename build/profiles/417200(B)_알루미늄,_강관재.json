@@ -1,0 +1,96 @@
+{
+    "key": "417200(B)",
+    "filename": "417200(B)_알루미늄,_강관재",
+    "updated": "2026-10-20 13:56",
+    "llm_research_updated": "2026-10-20 13:56",
+    "financials": {
+        "meta": {
+            "name": "LS머트리얼즈",
+            "code": "417200",
+            "segment_name": "알루미늄, 강관재",
+            "id": "B",
+            "updated": "2026-10-20 13:55",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 769.0,
+                "revenue_4qtrs": 149.0,
+                "opincome_4qtrs": 7.45,
+                "revenue_qtr": 41.0,
+                "opincome_qtr": 2.05
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.0662,
+                "growth_per_qtr": 0.0355
+            },
+            "opmargin": {
+                "25_4Q": 0.05,
+                "26_1Q": 0.05,
+                "26_2Q": 0.05,
+                "26_3Q": 0.05,
+                "4qtrs": 0.05
+            },
+            "PER": {
+                "PER_ltm": 103.0,
+                "PER_qx4": 93.6,
+                "PER_fwd": 86.7
+            },
+            "volatility": {
+                "measure_to_base": 0.911,
+                "slope": -0.000159
+            },
+            "amount": {
+                "measure_to_base": 3.42,
+                "slope": -0.637
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.00107,
+                    "beta": 0.95
+                },
+                "base_duration": {
+                    "alpha": -0.00238,
+                    "beta": 0.754
+                },
+                "measure_duration": {
+                    "alpha": 0.0163,
+                    "beta": 1.16
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.8,
+        "marcap_share": 0.8,
+        "opmargin": 0.05,
+        "trend": "stable growth"
+    },
+    "id": "B",
+    "profile_name": "LS머트리얼즈",
+    "profile_code": "417200",
+    "segment_name": "알루미늄, 강관재"
+}

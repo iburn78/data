@@ -1,22 +1,22 @@
 {
     "key": "스마트글래스",
     "filename": "스마트글래스",
-    "updated": "2026-10-19 13:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 14:27",
+    "llm_research_updated": "2026-10-20 14:01",
     "financials": {
         "meta": {
             "name": "스마트글래스",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 14:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 240.0,
+                "marcap": 244.0,
                 "revenue_4qtrs": 30.6,
                 "opincome_4qtrs": 0.741,
                 "revenue_qtr": 7.21,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0242
             },
             "PER": {
-                "PER_ltm": 324.0,
-                "PER_qx4": 192.0,
-                "PER_fwd": 64.8
+                "PER_ltm": 329.0,
+                "PER_qx4": 195.0,
+                "PER_fwd": 65.8
             },
             "volatility": {
-                "measure_to_base": 0.827,
-                "slope": -0.000141
+                "measure_to_base": 0.833,
+                "slope": -0.000155
             },
             "amount": {
-                "measure_to_base": 2.31,
-                "slope": -0.0525
+                "measure_to_base": 2.32,
+                "slope": -0.0541
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000874,
+                    "alpha": -0.000876,
                     "beta": 1.01
                 },
                 "base_duration": {
-                    "alpha": 0.000748,
+                    "alpha": 0.000772,
                     "beta": 0.839
                 },
                 "measure_duration": {
-                    "alpha": -0.00408,
-                    "beta": 0.952
+                    "alpha": -0.00622,
+                    "beta": 0.899
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "452430",
             "name": "사피엔반도체"

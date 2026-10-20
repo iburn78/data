@@ -1,7 +1,7 @@
 {
     "key": "281740",
     "filename": "281740_레이크머티리얼즈",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:01",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "281740",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 815.0,
+                "marcap": 861.0,
                 "revenue_4qtrs": 149.0,
                 "opincome_4qtrs": 21.2,
                 "revenue_qtr": 37.2,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.142
             },
             "PER": {
-                "PER_ltm": 38.5,
-                "PER_qx4": 33.5,
-                "PER_fwd": 33.2
+                "PER_ltm": 40.6,
+                "PER_qx4": 35.4,
+                "PER_fwd": 35.1
             },
             "volatility": {
-                "measure_to_base": 0.778,
-                "slope": -0.0000514
+                "measure_to_base": 0.789,
+                "slope": -0.0000565
             },
             "amount": {
-                "measure_to_base": 2.23,
-                "slope": -0.199
+                "measure_to_base": 2.53,
+                "slope": -0.186
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00106,
+                    "alpha": 0.00107,
                     "beta": 1.02
                 },
                 "base_duration": {
-                    "alpha": -0.0041,
-                    "beta": 0.639
+                    "alpha": -0.00427,
+                    "beta": 0.634
                 },
                 "measure_duration": {
-                    "alpha": 0.0135,
-                    "beta": 0.774
+                    "alpha": 0.0185,
+                    "beta": 0.904
                 }
             }
         },

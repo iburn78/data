@@ -1,7 +1,7 @@
 {
     "key": "096770(B)",
     "filename": "096770(B)_배터리",
-    "updated": "2026-10-19 18:23",
+    "updated": "2026-10-20 09:00",
     "llm_research_updated": "2026-10-19 18:08",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "096770",
             "segment_name": "배터리",
             "id": "B",
-            "updated": "2026-10-19 18:23",
+            "updated": "2026-10-20 09:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 4370.0,
+                "marcap": 4640.0,
                 "revenue_4qtrs": 17300.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 4960.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.927,
-                "slope": 0.000225
+                "measure_to_base": 0.921,
+                "slope": 0.000217
             },
             "amount": {
                 "measure_to_base": 0.928,
-                "slope": 0.104
+                "slope": 0.101
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000455,
-                    "beta": 0.882
+                    "alpha": 0.0000621,
+                    "beta": 0.884
                 },
                 "base_duration": {
-                    "alpha": 0.00244,
-                    "beta": 0.167
+                    "alpha": 0.00266,
+                    "beta": 0.168
                 },
                 "measure_duration": {
-                    "alpha": 0.00519,
-                    "beta": 0.0886
+                    "alpha": 0.0116,
+                    "beta": 0.263
                 }
             }
         },

@@ -1,0 +1,107 @@
+{
+    "key": "051910(B)",
+    "filename": "051910(B)_전지재료,_소재",
+    "updated": "2026-10-20 13:31",
+    "llm_research_updated": "2026-10-20 13:31",
+    "financials": {
+        "meta": {
+            "name": "LG화학",
+            "code": "051910",
+            "segment_name": "전지재료, 소재",
+            "id": "B",
+            "updated": "2026-10-20 13:31",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 4590.0,
+                "revenue_4qtrs": 12400.0,
+                "opincome_4qtrs": 994.0,
+                "revenue_qtr": 3400.0,
+                "opincome_qtr": 272.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 2.76,
+                "growth_per_qtr": 0.0111
+            },
+            "opmargin": {
+                "25_4Q": 0.08,
+                "26_1Q": 0.08,
+                "26_2Q": 0.08,
+                "26_3Q": 0.08,
+                "4qtrs": 0.08
+            },
+            "PER": {
+                "PER_ltm": 4.62,
+                "PER_qx4": 4.22,
+                "PER_fwd": 4.11
+            },
+            "volatility": {
+                "measure_to_base": 0.862,
+                "slope": -0.0000477
+            },
+            "amount": {
+                "measure_to_base": 1.79,
+                "slope": -0.26
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.000229,
+                    "beta": 0.97
+                },
+                "base_duration": {
+                    "alpha": -0.00221,
+                    "beta": 0.432
+                },
+                "measure_duration": {
+                    "alpha": 0.00424,
+                    "beta": 0.482
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.24,
+        "marcap_share": 0.24,
+        "opmargin": 0.08,
+        "trend": "회복세"
+    },
+    "id": "B",
+    "profile_name": "LG화학",
+    "profile_code": "051910",
+    "segment_name": "전지재료, 소재",
+    "news": {
+        "updated": "2026-10-20 13:31",
+        "key_financials": [],
+        "key_facts": [
+            "고니켈 양극재 생산능력 확대 및 배터리 에너지 밀도와 충전 성능 향상을 위한 첨단 전구체 기술 개발을 통해 배터리 소재 사업 확장 중",
+            "화유코발트와 합작하여 전기차 배터리 양극재 재료 기업인 '러유(乐友)신소재' 설립: 총 10억 달러 투자, 1단계(투자액 4억 8천만 달러, 생산능력 4.5만 톤) 준공 및 2026년 9월 말 양산 계획, 2단계 추진 시 최종 생산능력 10만 톤 목표",
+            "화유코발트와 공동으로 '화진(华金)신소재'를 설립하여 삼원계 전구체 사업 추진 중"
+        ],
+        "key_issues": [],
+        "news_summary": "LG화학은 고니켈 양극재 생산능력 확대 및 첨단 전구체 기술 개발을 통해 소재 사업을 확장하고 있습니다. 특히 화유코발트와의 전략적 협력을 강화하여 양극재 재료 합작사인 '러유신소재'의 1단계 프로젝트를 준공하고 양산을 앞두고 있으며, '화진신소재'를 통해 삼원계 전구체 사업도 함께 추진하고 있습니다."
+    }
+}

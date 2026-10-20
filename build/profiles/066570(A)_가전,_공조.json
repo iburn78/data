@@ -1,0 +1,116 @@
+{
+    "key": "066570(A)",
+    "filename": "066570(A)_가전,_공조",
+    "updated": "2026-10-20 14:00",
+    "llm_research_updated": "2026-10-20 09:40",
+    "financials": {
+        "meta": {
+            "name": "LG전자",
+            "code": "066570",
+            "segment_name": "가전, 공조",
+            "id": "A",
+            "updated": "2026-10-20 14:00",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 14500.0,
+                "revenue_4qtrs": 49500.0,
+                "opincome_4qtrs": 3120.0,
+                "revenue_qtr": 12400.0,
+                "opincome_qtr": 781.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 8.38,
+                "growth_per_qtr": 0.0107
+            },
+            "opmargin": {
+                "25_4Q": 0.063,
+                "26_1Q": 0.063,
+                "26_2Q": 0.063,
+                "26_3Q": 0.063,
+                "4qtrs": 0.063
+            },
+            "PER": {
+                "PER_ltm": 4.66,
+                "PER_qx4": 4.65,
+                "PER_fwd": 4.53
+            },
+            "volatility": {
+                "measure_to_base": 0.845,
+                "slope": -0.000408
+            },
+            "amount": {
+                "measure_to_base": 1.28,
+                "slope": -3.7
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000344,
+                    "beta": 0.918
+                },
+                "base_duration": {
+                    "alpha": 0.00504,
+                    "beta": 0.795
+                },
+                "measure_duration": {
+                    "alpha": -0.00117,
+                    "beta": 0.775
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.52,
+        "marcap_share": 0.52,
+        "opmargin": 0.063,
+        "trend": "성장세 및 견조함 (HVAC 및 구독 서비스 중심)"
+    },
+    "id": "A",
+    "profile_name": "LG전자",
+    "profile_code": "066570",
+    "segment_name": "가전, 공조",
+    "news": {
+        "updated": "2026-10-20 09:40",
+        "key_financials": [
+            "2026년 2분기 ES사업본부: 매출 2조 7,261억 원, 영업이익 2,358억 원 (영업이익률 8.6%)",
+            "2026년 3분기 ES사업본부: 신규 생산능력 확보 및 신사업 인력 충원 비용으로 인해 수익성이 전년 동기 대비 소폭 감소함"
+        ],
+        "key_facts": [
+            "2026년 10월, 애플과 AI홈 기기 7종(실내외 카메라, 도어벨, 도어락, 온도 조절기 등)을 공동 개발하여 12월부터 북미 및 영국에 순차 출시 예정",
+            "AI 데이터센터용 냉각 솔루션(칠러) 사업 확대 중이며, 엔비디아 쿨링시스템 인증(600kW, 1MW, 2.6MW) 완료 및 4MW급 인증 추진 중",
+            "미국 빅테크 기업과 5GW 규모 AI 데이터센터 냉각 설비 공급 계약 체결 및 에어 컨트롤 콘셉트와 장기 공급 계약 체결",
+            "ES사업본부 산하의 전기차 충전기 사업(하이비차저)을 2024년 8월 종료 및 청산함",
+            "2026년 하반기 신입 채용을 통해 AI 데이터센터 냉각 솔루션 및 HVAC 분야의 고부가 신사업 인재 확보 주력"
+        ],
+        "key_issues": [
+            "국내 건설경기 침체에 따른 B2C 수요 부진으로 인한 수익성 영향",
+            "신규 생산거점 확보 및 신사업 투입에 따른 지속적인 투자비 발생 및 비용 관리 부담",
+            "중동전쟁 장기화가 공조 사업의 리스크 요인으로 작용함"
+        ],
+        "news_summary": "LG전자의 가전 및 공조(HVAC) 사업은 전통적인 B2C 가전에서 AI 데이터센터 냉각 솔루션 및 AI홈 등 B2B와 신사업 중심으로 포트폴리오를 확장하고 있습니다. 특히 애플과 AI홈 기기를 공동 개발하여 글로벌 접점을 넓히고, 엔비디아 인증 및 빅테크 기업과의 대규모 계약을 통해 AI 데이터센터 냉각 시장 공략을 가속화하고 있습니다. 다만, 국내 건설경기 침체와 신사업 투자비 증가, 중동 리스크 등이 수익성 관리의 주요 과제로 남아 있습니다."
+    }
+}

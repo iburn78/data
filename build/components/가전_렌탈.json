@@ -1,7 +1,7 @@
 {
     "key": "가전 렌탈",
     "filename": "가전_렌탈",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 08:58",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 08:58",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7630.0,
+                "marcap": 7690.0,
                 "revenue_4qtrs": 5490.0,
                 "opincome_4qtrs": 939.0,
                 "revenue_qtr": 1440.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.171
             },
             "PER": {
-                "PER_ltm": 8.12,
-                "PER_qx4": 7.53,
-                "PER_fwd": 7.13
+                "PER_ltm": 8.18,
+                "PER_qx4": 7.59,
+                "PER_fwd": 7.18
             },
             "volatility": {
-                "measure_to_base": 1.1,
-                "slope": -0.000071
+                "measure_to_base": 1.11,
+                "slope": -0.0000733
             },
             "amount": {
-                "measure_to_base": 1.36,
-                "slope": -0.133
+                "measure_to_base": 1.37,
+                "slope": -0.139
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 0.407
                 },
                 "base_duration": {
-                    "alpha": 0.00255,
-                    "beta": 0.0803
+                    "alpha": 0.00279,
+                    "beta": 0.0841
                 },
                 "measure_duration": {
-                    "alpha": 0.00321,
-                    "beta": -0.0753
+                    "alpha": -0.000596,
+                    "beta": -0.169
                 }
             }
         },
@@ -79,7 +79,7 @@
             "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "Up",
-            "alpha_level": "out_pfm",
+            "alpha_level": "udr_pfm",
             "market_sentiment": "unchanged",
             "category": "D"
         }
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "021240",
             "name": "코웨이"

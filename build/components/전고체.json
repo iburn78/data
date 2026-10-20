@@ -1,7 +1,7 @@
 {
     "key": "전고체",
     "filename": "전고체",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:01",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2200.0,
+                "marcap": 2280.0,
                 "revenue_4qtrs": 9170.0,
                 "opincome_4qtrs": 550.0,
                 "revenue_qtr": 2530.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.0599
             },
             "PER": {
-                "PER_ltm": 4.0,
-                "PER_qx4": 2.71,
-                "PER_fwd": 2.42
+                "PER_ltm": 4.14,
+                "PER_qx4": 2.81,
+                "PER_fwd": 2.51
             },
             "volatility": {
-                "measure_to_base": 0.731,
-                "slope": -0.000106
+                "measure_to_base": 0.746,
+                "slope": -0.000107
             },
             "amount": {
-                "measure_to_base": 1.87,
-                "slope": -0.453
+                "measure_to_base": 2.04,
+                "slope": -0.429
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 0.946
                 },
                 "base_duration": {
-                    "alpha": -0.00469,
-                    "beta": 0.426
+                    "alpha": -0.00471,
+                    "beta": 0.424
                 },
                 "measure_duration": {
-                    "alpha": 0.000965,
-                    "beta": 0.469
+                    "alpha": 0.00393,
+                    "beta": 0.549
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "298020",
             "name": "효성티앤씨"

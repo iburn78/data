@@ -1,0 +1,113 @@
+{
+    "key": "417200(A)",
+    "filename": "417200(A)_커패시터",
+    "updated": "2026-10-20 13:55",
+    "llm_research_updated": "2026-10-20 13:55",
+    "financials": {
+        "meta": {
+            "name": "LS머트리얼즈",
+            "code": "417200",
+            "segment_name": "커패시터",
+            "id": "A",
+            "updated": "2026-10-20 13:55",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 192.0,
+                "revenue_4qtrs": 37.2,
+                "opincome_4qtrs": -1.49,
+                "revenue_qtr": 10.3,
+                "opincome_qtr": -0.41
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -0.0132,
+                "growth_per_qtr": 0.0355
+            },
+            "opmargin": {
+                "25_4Q": -0.04,
+                "26_1Q": -0.04,
+                "26_2Q": -0.04,
+                "26_3Q": -0.04,
+                "4qtrs": -0.04
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base": 0.911,
+                "slope": -0.000159
+            },
+            "amount": {
+                "measure_to_base": 3.42,
+                "slope": -0.159
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.00107,
+                    "beta": 0.95
+                },
+                "base_duration": {
+                    "alpha": -0.00238,
+                    "beta": 0.754
+                },
+                "measure_duration": {
+                    "alpha": 0.0163,
+                    "beta": 1.16
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.2,
+        "marcap_share": 0.2,
+        "opmargin": -0.04,
+        "trend": "improving (recovery from losses)"
+    },
+    "id": "A",
+    "profile_name": "LS머트리얼즈",
+    "profile_code": "417200",
+    "segment_name": "커패시터",
+    "news": {
+        "updated": "2026-10-20 13:55",
+        "key_financials": [
+            "2026년 2분기 커패시터 부문 영업이익 흑자 전환"
+        ],
+        "key_facts": [
+            "2026년 10월 13일, 미국 블룸에너지와 약 5,150만 달러(약 690억 원) 규모의 AIDC용 UC 공급 계약 체결 (2027년 4월부터 1년간 순차 공급)",
+            "2026년 7월, 동일 고객사와 약 470만 달러(약 63억 원) 규모 초도 계약 체결 (2026년 11월 납품 시작 예정)",
+            "누적 수주액 약 5,600만 달러 확보 및 연내 추가 계약 시 누적 1억 달러 상회 전망",
+            "글로벌 전력기기 업체 S사에 전력망 안정화 솔루션(e-STATCOM)용 대형 UC 공급 계획 (2028년 양산 예상)",
+            "EDLC 방식의 CBU용 제품 퀄 테스트 진행 중으로, 통과 시 AI 서버 전력장치로 적용처 확대 가능성 있음"
+        ],
+        "key_issues": [
+            "본계약 물량 이행을 위한 신규 라인 증설 필요 (위탁생산 또는 자체 증설 방안 검토 중)"
+        ],
+        "news_summary": "LS머트리얼즈는 미국 블룸에너지와 국내 업계 최대 규모인 약 690억 원의 AIDC용 울트라커패시터(UC) 공급 계약을 체결하며 AI 전력 인프라 시장에 본격 진출했습니다. 기존 산업용 중심에서 AI 데이터센터 분야로 사업 영역을 확장했으며, 2026년 11월 초도 물량 납품을 시작으로 2027년 4월부터 본계약 물량을 공급할 예정입니다. 또한 CBU 제품 퀄 테스트 및 대형 UC의 전력망 안정화 솔루션 탑재 등을 통해 추가 성장 동력을 확보하고 있으며, 이에 따른 생산 능력 증설을 검토하고 있습니다."
+    }
+}

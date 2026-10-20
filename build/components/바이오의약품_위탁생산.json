@@ -1,7 +1,7 @@
 {
     "key": "바이오의약품 위탁생산",
     "filename": "바이오의약품_위탁생산",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:05",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:05",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 60100.0,
+                "marcap": 64500.0,
                 "revenue_4qtrs": 4210.0,
                 "opincome_4qtrs": 2130.0,
                 "revenue_qtr": 1320.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.507
             },
             "PER": {
-                "PER_ltm": 28.2,
-                "PER_qx4": 25.6,
-                "PER_fwd": 22.5
+                "PER_ltm": 30.3,
+                "PER_qx4": 27.5,
+                "PER_fwd": 24.2
             },
             "volatility": {
-                "measure_to_base": 0.672,
-                "slope": 0.0000142
+                "measure_to_base": 0.69,
+                "slope": 0.0000146
             },
             "amount": {
-                "measure_to_base": 1.03,
-                "slope": -0.234
+                "measure_to_base": 1.1,
+                "slope": -0.202
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000779,
-                    "beta": 0.489
+                    "alpha": 0.000804,
+                    "beta": 0.491
                 },
                 "base_duration": {
-                    "alpha": -0.0014,
-                    "beta": 0.116
+                    "alpha": -0.000683,
+                    "beta": 0.125
                 },
                 "measure_duration": {
-                    "alpha": -0.00529,
-                    "beta": -0.168
+                    "alpha": -0.0000619,
+                    "beta": -0.0166
                 }
             }
         },
@@ -79,7 +79,7 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "at_mkt",
             "market_sentiment": "unchanged",
             "category": "D"
         }
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "207940",
             "name": "삼성바이오로직스"

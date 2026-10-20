@@ -1,7 +1,7 @@
 {
     "key": "메디컬 에스테틱",
     "filename": "메디컬_에스테틱",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:05",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:05",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 6320.0,
+                "marcap": 6400.0,
                 "revenue_4qtrs": 1880.0,
                 "opincome_4qtrs": 538.0,
                 "revenue_qtr": 508.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.286
             },
             "PER": {
-                "PER_ltm": 11.7,
-                "PER_qx4": 10.8,
-                "PER_fwd": 9.77
+                "PER_ltm": 11.9,
+                "PER_qx4": 11.0,
+                "PER_fwd": 9.9
             },
             "volatility": {
-                "measure_to_base": 0.655,
-                "slope": -0.0000393
+                "measure_to_base": 0.659,
+                "slope": -0.0000438
             },
             "amount": {
-                "measure_to_base": 0.684,
-                "slope": -0.00634
+                "measure_to_base": 0.692,
+                "slope": -0.0401
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000473,
+                    "alpha": 0.000048,
                     "beta": 0.632
                 },
                 "base_duration": {
-                    "alpha": -0.00172,
-                    "beta": 0.18
+                    "alpha": -0.00141,
+                    "beta": 0.184
                 },
                 "measure_duration": {
-                    "alpha": -0.00694,
-                    "beta": 0.395
+                    "alpha": -0.00427,
+                    "beta": 0.465
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "145020",
             "name": "휴젤"

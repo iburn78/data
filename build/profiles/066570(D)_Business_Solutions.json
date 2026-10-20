@@ -1,0 +1,96 @@
+{
+    "key": "066570(D)",
+    "filename": "066570(D)_Business_Solutions",
+    "updated": "2026-10-20 14:00",
+    "llm_research_updated": "2026-10-20 09:42",
+    "financials": {
+        "meta": {
+            "name": "LG전자",
+            "code": "066570",
+            "segment_name": "Business Solutions",
+            "id": "D",
+            "updated": "2026-10-20 14:00",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2510.0,
+                "revenue_4qtrs": 8570.0,
+                "opincome_4qtrs": -471.0,
+                "revenue_qtr": 2140.0,
+                "opincome_qtr": -118.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -1.27,
+                "growth_per_qtr": 0.0107
+            },
+            "opmargin": {
+                "25_4Q": -0.055,
+                "26_1Q": -0.055,
+                "26_2Q": -0.055,
+                "26_3Q": -0.055,
+                "4qtrs": -0.055
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base": 0.845,
+                "slope": -0.000408
+            },
+            "amount": {
+                "measure_to_base": 1.28,
+                "slope": -0.64
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000344,
+                    "beta": 0.918
+                },
+                "base_duration": {
+                    "alpha": 0.00504,
+                    "beta": 0.795
+                },
+                "measure_duration": {
+                    "alpha": -0.00117,
+                    "beta": 0.775
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.09,
+        "marcap_share": 0.09,
+        "opmargin": -0.055,
+        "trend": "하락세 (IT 수요 부진 및 경쟁 심화)"
+    },
+    "id": "D",
+    "profile_name": "LG전자",
+    "profile_code": "066570",
+    "segment_name": "Business Solutions"
+}

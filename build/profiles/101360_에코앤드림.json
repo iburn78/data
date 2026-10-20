@@ -1,7 +1,7 @@
 {
     "key": "101360",
     "filename": "101360_에코앤드림",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:01",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "101360",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 190.0,
+                "marcap": 201.0,
                 "revenue_4qtrs": 93.9,
                 "opincome_4qtrs": -12.4,
                 "revenue_qtr": 20.2,
@@ -38,37 +38,37 @@
                 "4qtrs": -0.132
             },
             "PER": {
-                "PER_ltm": -15.3,
-                "PER_qx4": -8.98,
-                "PER_fwd": -7.35
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.786,
-                "slope": 0.00017
+                "measure_to_base": 0.808,
+                "slope": 0.000175
             },
             "amount": {
-                "measure_to_base": 1.95,
-                "slope": -0.00782
+                "measure_to_base": 1.84,
+                "slope": 0.00736
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00196,
-                    "beta": 0.911
+                    "alpha": 0.00198,
+                    "beta": 0.912
                 },
                 "base_duration": {
                     "alpha": -0.00327,
-                    "beta": 0.671
+                    "beta": 0.669
                 },
                 "measure_duration": {
-                    "alpha": 0.0325,
-                    "beta": 1.54
+                    "alpha": 0.0367,
+                    "beta": 1.65
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": true,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",

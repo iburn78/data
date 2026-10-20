@@ -1,7 +1,7 @@
 {
     "key": "020150",
     "filename": "020150_롯데에너지머티리얼즈",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:00",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "020150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2590.0,
+                "marcap": 3020.0,
                 "revenue_4qtrs": 719.0,
                 "opincome_4qtrs": -72.6,
                 "revenue_qtr": 194.0,
@@ -38,37 +38,37 @@
                 "4qtrs": -0.101
             },
             "PER": {
-                "PER_ltm": -35.6,
-                "PER_qx4": -38.3,
-                "PER_fwd": -34.5
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.993,
-                "slope": -0.0000104
+                "measure_to_base": 0.999,
+                "slope": -0.000014
             },
             "amount": {
-                "measure_to_base": 2.24,
-                "slope": -0.17
+                "measure_to_base": 2.22,
+                "slope": -0.155
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000553,
-                    "beta": 1.13
+                    "alpha": 0.000606,
+                    "beta": 1.14
                 },
                 "base_duration": {
-                    "alpha": 0.00151,
-                    "beta": 0.877
+                    "alpha": 0.00232,
+                    "beta": 0.883
                 },
                 "measure_duration": {
-                    "alpha": 0.018,
-                    "beta": 0.648
+                    "alpha": 0.0309,
+                    "beta": 1.01
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",

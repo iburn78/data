@@ -1,0 +1,114 @@
+{
+    "key": "051910(A)",
+    "filename": "051910(A)_석유화학",
+    "updated": "2026-10-20 13:31",
+    "llm_research_updated": "2026-10-20 13:31",
+    "financials": {
+        "meta": {
+            "name": "LG화학",
+            "code": "051910",
+            "segment_name": "석유화학",
+            "id": "A",
+            "updated": "2026-10-20 13:31",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 13600.0,
+                "revenue_4qtrs": 36800.0,
+                "opincome_4qtrs": 368.0,
+                "revenue_qtr": 10100.0,
+                "opincome_qtr": 101.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 1.02,
+                "growth_per_qtr": 0.0111
+            },
+            "opmargin": {
+                "25_4Q": 0.01,
+                "26_1Q": 0.01,
+                "26_2Q": 0.01,
+                "26_3Q": 0.01,
+                "4qtrs": 0.01
+            },
+            "PER": {
+                "PER_ltm": 36.9,
+                "PER_qx4": 33.7,
+                "PER_fwd": 32.9
+            },
+            "volatility": {
+                "measure_to_base": 0.862,
+                "slope": -0.0000477
+            },
+            "amount": {
+                "measure_to_base": 1.79,
+                "slope": -0.769
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": -0.000229,
+                    "beta": 0.97
+                },
+                "base_duration": {
+                    "alpha": -0.00221,
+                    "beta": 0.432
+                },
+                "measure_duration": {
+                    "alpha": 0.00424,
+                    "beta": 0.482
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "unchanged",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부 실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.71,
+        "marcap_share": 0.71,
+        "opmargin": 0.01,
+        "trend": "하락/정체"
+    },
+    "id": "A",
+    "profile_name": "LG화학",
+    "profile_code": "051910",
+    "segment_name": "석유화학",
+    "news": {
+        "updated": "2026-10-20 13:31",
+        "key_financials": [
+            "2026년 2분기 영업이익 4,265억~4,270억원 (흑자 기록)",
+            "2026년 3분기 예상 영업손실: 1,360억원(LS증권), 1,600억원 안팎(조선비즈), 2,251억원(NH투자증권)"
+        ],
+        "key_facts": [
+            "여수 나프타분해설비(NCC) 2공장이 3월 23일 가동 중단 후 203일 만인 2026년 10월 12일 원료 투입을 재개함",
+            "GS칼텍스와 여수 NCC 사업 재편 방안(설비 이전 및 합작법인 운영 등)을 논의 중이며 연내 정부 승인을 목표로 함",
+            "정부 주도로 기초 석유화학 원료 생산 설비인 NCC 감축을 추진 중임"
+        ],
+        "key_issues": [
+            "원료 가격 하락에 따른 부정적 재고 래깅 효과 및 물류비 상승으로 인한 수익성 악화 우려",
+            "폴리염화비닐(PVC), 가소제, 가성소다 등 주요 제품의 가격 담합 의혹으로 인한 검찰 수사 및 공정위 조사 진행 중 (과징금 발생 가능성)",
+            "중국발 공급 과잉, 글로벌 수요 침체 및 에틸렌 스프레드 하락으로 인한 업황 부진 장기화"
+        ],
+        "news_summary": "LG화학 석유화학 부문은 2026년 2분기 중동 정세 불안에 따른 긍정적 래깅 효과와 관세 환급 등으로 4,200억 원대의 영업이익을 기록하며 실적을 견인했습니다. 그러나 3분기에는 원료 가격 하락에 따른 역래깅 효과와 물류비 부담, 수요 부진 등이 겹치며 다시 적자로 전환될 것으로 전망됩니다. 현재 여수 NCC 2공장을 재가동하고 GS칼텍스와 사업 재편을 논의하는 등 구조조정을 추진 중이나, PVC 등 주요 제품의 가격 담합 의혹으로 인한 대규모 과징금 리스크가 새로운 재무적 변수로 부각되고 있습니다."
+    }
+}

@@ -1,7 +1,7 @@
 {
     "key": "전구체",
     "filename": "전구체",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:02",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:02",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2470.0,
+                "marcap": 2760.0,
                 "revenue_4qtrs": 733.0,
                 "opincome_4qtrs": -14.5,
                 "revenue_qtr": 199.0,
@@ -46,39 +46,39 @@
                 "4qtrs": -0.0198
             },
             "PER": {
-                "PER_ltm": -170.0,
-                "PER_qx4": -38.9,
-                "PER_fwd": -46.3
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.729,
-                "slope": -0.0000479
+                "measure_to_base": 0.735,
+                "slope": -0.0000504
             },
             "amount": {
-                "measure_to_base": 1.25,
-                "slope": -1.0
+                "measure_to_base": 1.56,
+                "slope": -0.883
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0072,
-                    "beta": 0.804
+                    "alpha": 0.00724,
+                    "beta": 0.807
                 },
                 "base_duration": {
-                    "alpha": -0.00603,
+                    "alpha": -0.00564,
                     "beta": 0.624
                 },
                 "measure_duration": {
-                    "alpha": 0.00249,
-                    "beta": 0.786
+                    "alpha": 0.0108,
+                    "beta": 1.02
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "D"
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "450080",
             "name": "에코프로머티"

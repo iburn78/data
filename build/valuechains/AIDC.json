@@ -1,7 +1,7 @@
 {
     "key": "AIDC",
     "filename": "AIDC",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:04",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:04",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 11500.0,
+                "marcap": 11900.0,
                 "revenue_4qtrs": 3800.0,
                 "opincome_4qtrs": 94.0,
                 "revenue_qtr": 1050.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.0247
             },
             "PER": {
-                "PER_ltm": 123.0,
-                "PER_qx4": 92.1,
-                "PER_fwd": 75.7
+                "PER_ltm": 127.0,
+                "PER_qx4": 95.1,
+                "PER_fwd": 78.1
             },
             "volatility": {
-                "measure_to_base": 0.826,
-                "slope": 7.8e-6
+                "measure_to_base": 0.832,
+                "slope": -2e-6
             },
             "amount": {
-                "measure_to_base": 2.86,
-                "slope": -6.46
+                "measure_to_base": 2.88,
+                "slope": -6.59
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 1.07
                 },
                 "base_duration": {
-                    "alpha": 0.00578,
+                    "alpha": 0.00564,
                     "beta": 1.05
                 },
                 "measure_duration": {
-                    "alpha": 0.0152,
-                    "beta": 1.63
+                    "alpha": 0.0144,
+                    "beta": 1.61
                 }
             }
         },

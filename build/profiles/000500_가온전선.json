@@ -1,7 +1,7 @@
 {
     "key": "000500",
     "filename": "000500_가온전선",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:04",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "000500",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:04",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7470.0,
+                "marcap": 7680.0,
                 "revenue_4qtrs": 3120.0,
                 "opincome_4qtrs": 108.0,
                 "revenue_qtr": 869.0,
@@ -38,17 +38,17 @@
                 "4qtrs": 0.0347
             },
             "PER": {
-                "PER_ltm": 69.2,
-                "PER_qx4": 51.7,
-                "PER_fwd": 44.3
+                "PER_ltm": 71.1,
+                "PER_qx4": 53.2,
+                "PER_fwd": 45.5
             },
             "volatility": {
-                "measure_to_base": 0.888,
-                "slope": -0.000329
+                "measure_to_base": 0.899,
+                "slope": -0.000358
             },
             "amount": {
-                "measure_to_base": 1.32,
-                "slope": -0.0286
+                "measure_to_base": 1.35,
+                "slope": -0.0479
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 1.07
                 },
                 "base_duration": {
-                    "alpha": 0.0146,
-                    "beta": 1.15
+                    "alpha": 0.0147,
+                    "beta": 1.16
                 },
                 "measure_duration": {
-                    "alpha": 0.0166,
-                    "beta": 1.67
+                    "alpha": 0.0176,
+                    "beta": 1.69
                 }
             }
         },
@@ -70,7 +70,7 @@
             "financially_sound": true,
             "PER_level": "High",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "C"

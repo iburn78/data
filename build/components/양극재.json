@@ -1,7 +1,7 @@
 {
     "key": "양극재",
     "filename": "양극재",
-    "updated": "2026-10-19 13:48",
+    "updated": "2026-10-20 09:01",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-19 13:48",
+            "updated": "2026-10-20 09:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 48800.0,
+                "marcap": 52600.0,
                 "revenue_4qtrs": 60400.0,
                 "opincome_4qtrs": 1110.0,
                 "revenue_qtr": 16500.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0183
             },
             "PER": {
-                "PER_ltm": 44.1,
-                "PER_qx4": 18.2,
-                "PER_fwd": 16.0
+                "PER_ltm": 47.5,
+                "PER_qx4": 19.6,
+                "PER_fwd": 17.2
             },
             "volatility": {
-                "measure_to_base": 0.81,
-                "slope": 0.0000448
+                "measure_to_base": 0.812,
+                "slope": 0.0000387
             },
             "amount": {
-                "measure_to_base": 1.57,
-                "slope": -3.4
+                "measure_to_base": 1.59,
+                "slope": -3.38
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000785,
+                    "alpha": 0.0000995,
                     "beta": 1.04
                 },
                 "base_duration": {
-                    "alpha": -0.00279,
-                    "beta": 0.558
+                    "alpha": -0.00267,
+                    "beta": 0.557
                 },
                 "measure_duration": {
-                    "alpha": 0.000714,
-                    "beta": 0.482
+                    "alpha": 0.00614,
+                    "beta": 0.635
                 }
             }
         },
@@ -94,7 +94,7 @@
         "competition": "",
         "key_drivers": ""
     },
-    "members": [
+    "listed_companies": [
         {
             "key": "247540",
             "name": "에코프로비엠"
