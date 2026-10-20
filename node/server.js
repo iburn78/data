@@ -16,6 +16,18 @@ const { loadData } = require("./data");
 const { getComponents, getComponentsForMember, getValuechains } = require("./lookup");
 const app = express();
 
+// Use Unicode NFC followed by JavaScript's locale-independent UTF-16 order,
+// with the original spelling as a deterministic tie-breaker.
+function compareText(a, b) {
+    const normalizedA = a.normalize("NFC");
+    const normalizedB = b.normalize("NFC");
+    if (normalizedA < normalizedB) return -1;
+    if (normalizedA > normalizedB) return 1;
+    if (a < b) return -1;
+    if (a > b) return 1;
+    return 0;
+}
+
 app.use(express.json());
 const editTokens = new Map();
 const TOKEN_LIFETIME = 30 * 60 * 1000; // 30 minutes
@@ -415,7 +427,7 @@ app.get("/api/segment/:key", (req, res) => {
 
     res.json({
         profile,
-        segments: segments.sort((a, b) => a.file.localeCompare(b.file)),
+        segments: segments.sort((a, b) => compareText(a.file, b.file)),
         components: segmentComponents,
         valuechains: segmentValuechains,
     });

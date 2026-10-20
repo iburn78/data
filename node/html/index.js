@@ -2,6 +2,18 @@ let currentSection = "";
 let currentItems = [];
 let lastTagSearchQuery = "";
 
+// Use Unicode NFC followed by JavaScript's locale-independent UTF-16 order,
+// with the original spelling as a deterministic tie-breaker.
+function compareText(a, b) {
+    const normalizedA = a.normalize("NFC");
+    const normalizedB = b.normalize("NFC");
+    if (normalizedA < normalizedB) return -1;
+    if (normalizedA > normalizedB) return 1;
+    if (a < b) return -1;
+    if (a > b) return 1;
+    return 0;
+}
+
 const sections = {
     profiles: "Profiles",
     components: "Components",
@@ -34,7 +46,7 @@ async function getItems(section) {
     });
 
     if (section !== "profiles") {
-        items.sort((a, b) => a.text.localeCompare(b.text));
+        items.sort((a, b) => compareText(a.text, b.text));
         return items;
     }
 
@@ -84,14 +96,12 @@ async function getItems(section) {
     const sortedGroups = [...groups.values()].sort((a, b) => {
         const aName = a.profile?.text ?? a.segments[0]?.item.text ?? "";
         const bName = b.profile?.text ?? b.segments[0]?.item.text ?? "";
-        return aName.localeCompare(bName);
+        return compareText(aName, bName);
     });
 
     // Within each group: profile first, then A, B, C...
     return sortedGroups.flatMap(group => {
-        group.segments.sort((a, b) =>
-            a.segment.localeCompare(b.segment)
-        );
+        group.segments.sort((a, b) => compareText(a.segment, b.segment));
 
         return [
             ...(group.profile ? [group.profile] : []),
@@ -122,7 +132,7 @@ async function getItems(section) {
 //         return { file, text };
 //     });
 
-//     items.sort((a, b) => a.text.localeCompare(b.text));
+//     items.sort((a, b) => compareText(a.text, b.text));
 
 //     return items;
 // }
