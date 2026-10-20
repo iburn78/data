@@ -370,6 +370,12 @@ async function saveEdit(card) {
     const token = card.dataset.editToken;
     const values = collectEditValues(card);
 
+    if (Array.isArray(values.opmargin) && values.opmargin.some(value =>
+        value === null || (typeof value === "string" && /\bnone\b/i.test(value))
+    )) {
+        delete values.opmargin;
+    }
+
     if (Array.isArray(values.segments) && Array.isArray(values.revenue_share)) {
         if (values.segments.length !== values.revenue_share.length) {
             alert("The number of revenue shares must match the number of segments.");
@@ -457,10 +463,13 @@ function exitEditMode(card, reload) {
 }
 
 async function deleteLlmResearch(button, dialog, mirrorDialog = dialog) {
-    if (!dialog || !window.confirm("Delete this saved LLM Research Markdown file?")) {
+    const buttonWindow = button.ownerDocument.defaultView || window;
+    if (!dialog || !buttonWindow.confirm("Delete this saved LLM Research Markdown file?")) {
         return;
     }
 
+    const sourceWindow = dialog.ownerDocument.defaultView;
+    const htmlPath = decodeURIComponent(sourceWindow.location.pathname.replace(/^\//, ""));
     const hideProgress = window.showPythonProgress("Deleting LLM research…");
     button.disabled = true;
     try {
@@ -470,7 +479,7 @@ async function deleteLlmResearch(button, dialog, mirrorDialog = dialog) {
             body: JSON.stringify({
                 objectType: dialog.dataset.objectType,
                 objectId: dialog.dataset.objectId,
-                htmlPath: decodeURIComponent(location.pathname.slice(1)),
+                htmlPath,
                 kind: "llm_research",
                 progressId: hideProgress.progressId,
             }),
@@ -492,8 +501,10 @@ async function deleteLlmResearch(button, dialog, mirrorDialog = dialog) {
             target.querySelector(".llm-research-delete-button")?.remove();
         }
     } catch (error) {
-        const status = dialog.querySelector(".llm-research-status");
-        if (status) status.textContent = error.message || "Could not delete LLM research.";
+        for (const target of new Set([dialog, mirrorDialog])) {
+            const status = target?.querySelector(".llm-research-status");
+            if (status) status.textContent = error.message || "Could not delete LLM research.";
+        }
     } finally {
         button.disabled = false;
         hideProgress();
@@ -556,14 +567,15 @@ function openLlmResearchWindow(dialog) {
     popupDialog.append(header, content);
     popupDocument.body.replaceChildren(popupDialog);
 
-    const closeButton = popupDocument.querySelector(".llm-research-close");
-    closeButton?.addEventListener("click", () => researchWindow.close());
+    popupDocument.querySelector(".llm-research-close")?.addEventListener(
+        "click",
+        () => researchWindow.close()
+    );
     popupDocument.querySelector(".llm-research-delete-button")?.addEventListener(
         "click",
-        event => deleteLlmResearch(event.currentTarget, popupDialog, dialog)
+        event => deleteLlmResearch(event.currentTarget, dialog, popupDialog)
     );
 }
-
 
 /*
  * Initial event handlers
