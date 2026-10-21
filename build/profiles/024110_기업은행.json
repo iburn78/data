@@ -1,22 +1,22 @@
 {
     "key": "024110",
     "filename": "024110_기업은행",
-    "updated": "2026-10-20 16:34",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 13:27",
     "financials": {
         "meta": {
             "name": "기업은행",
             "code": "024110",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:34",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 16100.0,
+                "marcap": 15900.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 13:27",
         "search_theme": [
             "실적",
             "전망"
@@ -36,29 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "기업금융 (SME Banking)",
-            "비은행 금융서비스 (Non-banking Financial Services)"
+            "이자수익 부문",
+            "수수료수익 부문",
+            "유가증권 및 외환 손익 부문",
+            "비은행 자회사 부문"
         ],
         "revenue_share": [
-            0.85,
-            0.15
+            0.61,
+            0.045,
+            0.33,
+            0.015
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "Stable (Market share at record high)",
-            "Improving (Investment valuation gains)"
+            "정체 및 NIM 하락 추세",
+            "비중 낮으나 확대 전략 추진 중",
+            "환율 및 금리 변동성으로 인한 변동성 큼",
+            "연결 실적 반영 중"
         ],
         "create_segments": false,
         "key_products": [
-            "중소기업대출, 예금/적금, 외환서비스",
-            "IB, 투자은행 서비스, 자산운용"
+            "중소기업대출, 개인대출, 예적금",
+            "뱅킹서비스, 신탁, 외환거래, 카드업무",
+            "채권, 주식, 외환거래",
+            "캐피탈, 투자증권"
         ],
         "competitors": [
-            "KB국민은행, 신한은행, 하나은행, 우리은행",
-            "한국투자증권, 미래에셋증권, 삼성증권"
+            "KB금융, 신한지주, 하나금융지주, 우리금융지주",
+            "KB금융, 신한지주, 하나금융지주, 우리금융지주",
+            "KB금융, 신한지주, 하나금융지주, 우리금융지주",
+            "IBK캐피탈, IBK투자증권"
         ]
     },
     "code": "024110",

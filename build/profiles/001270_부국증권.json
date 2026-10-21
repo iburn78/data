@@ -1,22 +1,22 @@
 {
     "key": "001270",
     "filename": "001270_부국증권",
-    "updated": "2026-10-20 16:57",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:19",
+    "llm_research_updated": "2026-10-21 17:19",
     "financials": {
         "meta": {
             "name": "부국증권",
             "code": "001270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:57",
+            "updated": "2026-10-21 17:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 485.0,
+                "marcap": 474.0,
                 "revenue_4qtrs": 1950.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 583.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 17:19",
         "search_theme": [
             "실적",
             "전망"
@@ -36,35 +36,47 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "자기매매 및 위탁매매 (Proprietary & Brokerage)",
-            "집합투자업 (Asset Management)",
-            "여신전문금융 (Credit Finance)"
+            "투자매매업",
+            "기타 사업부(IB/운용)",
+            "집합투자업",
+            "투자중개업",
+            "여신금융업"
         ],
         "revenue_share": [
-            0.8,
-            0.15,
-            0.05
+            0.696,
+            0.241,
+            0.039,
+            0.016,
+            0.008
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null,
             null
         ],
         "trend": [
-            "Stable core revenue source",
-            "Improving via fund lineup expansion",
-            "New growth engine (established 2023)"
+            "성장세 (핵심 수익원)",
+            "안정적",
+            "경쟁력 강화 중",
+            "정체/낮은 비중",
+            "초기 성장 단계"
         ],
         "create_segments": false,
         "key_products": [
-            "Trading of stocks/bonds, Derivatives trading, Brokerage services",
-            "Public and private funds, Overseas equity funds",
-            "Corporate loans, Credit financing"
+            "주식/채권 트레이딩, 파생상품 매매",
+            "유가증권 인수/주선, PF, 부동산 임대관리",
+            "공사모 펀드, 해외주식형 펀드",
+            "위탁매매(브로커리지)",
+            "여신전문금융, 대출"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Samsung Asset Management, Mirae Asset Global Investments",
-            "Hyundai Capital, KB Capital, Hana Capital"
+            "DB금융투자, 유안타증권, 현대차증권, 신영증권",
+            "DB금융투자, 현대차증권, 신영증권",
+            "삼성자산운용, 미래에셋자산운용",
+            "키움증권, 삼성증권, NH투자증권",
+            "캐피탈사, 저축은행"
         ]
     },
     "code": "001270",

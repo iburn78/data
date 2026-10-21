@@ -1,22 +1,22 @@
 {
     "key": "450080",
     "filename": "450080_에코프로머티",
-    "updated": "2026-10-20 15:49",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:25",
     "financials": {
         "meta": {
             "name": "에코프로머티",
             "code": "450080",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:49",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2560.0,
+                "marcap": 2370.0,
                 "revenue_4qtrs": 639.0,
                 "opincome_4qtrs": -2.14,
                 "revenue_qtr": 179.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.74,
-                "slope": -0.0000562
+                "measure_to_base": 0.749,
+                "slope": -0.0000584
             },
             "amount": {
-                "measure_to_base": 1.29,
-                "slope": -0.89
+                "measure_to_base": 1.48,
+                "slope": -0.752
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0007,
-                    "beta": 0.985
+                    "alpha": -0.00076,
+                    "beta": 0.989
                 },
                 "base_duration": {
-                    "alpha": -0.00574,
-                    "beta": 0.622
+                    "alpha": -0.00612,
+                    "beta": 0.631
                 },
                 "measure_duration": {
-                    "alpha": 0.00936,
-                    "beta": 0.981
+                    "alpha": 0.00876,
+                    "beta": 1.09
                 }
             }
         },
@@ -70,7 +70,7 @@
             "financially_sound": false,
             "PER_level": "(na)",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "D"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:25",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "원료제련 (RMP 공정)",
-            "전구체 생산 (CPM 공정)"
+            "전구체 (CPM)",
+            "원료제련 (RMP)",
+            "업스트림 (해외 제련 및 투자)"
         ],
         "revenue_share": [
-            0.3,
-            0.7
+            0.7,
+            0.2,
+            0.1
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "Improving (due to internalization)",
-            "Expanding (due to global demand)"
+            "하락 후 반등 및 회복세",
+            "생산능력 확대 및 내재화 증가",
+            "실적 변동성 확대 및 원가 경쟁력 강화"
         ],
         "create_segments": false,
         "key_products": [
-            "황산메탈 (Nickel/Cobalt/Manganese Sulfates)",
-            "삼원계 양극재 전구체 (High-nickel, HVM, LMR)"
+            "하이니켈 전구체, HVM, LMR 전구체",
+            "황산니켈, 황산코발트, 황산망간",
+            "니켈 제련 서비스, 광물 자원"
         ],
         "competitors": [
-            "Not specified",
-            "Not specified"
+            "포스코퓨처엠, 에코프로비엠, 엘앤에프",
+            "글로벌 제련사 (Vale, Glencore 등)",
+            "글로벌 제련사 (Vale, Glencore 등)"
         ]
     },
     "code": "450080",

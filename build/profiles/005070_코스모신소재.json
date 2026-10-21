@@ -1,15 +1,15 @@
 {
     "key": "005070",
     "filename": "005070_코스모신소재",
-    "updated": "2026-10-21 10:21",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:08",
     "financials": {
         "meta": {
             "name": "코스모신소재",
             "code": "005070",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 10:21",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:08",
         "search_theme": [
             "실적",
             "전망"
@@ -86,9 +86,9 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "이차전지 소재",
-            "전자소재",
-            "사무기기 소재"
+            "양극활물질",
+            "기능성 필름",
+            "토너"
         ],
         "revenue_share": [
             0.6714,
@@ -97,24 +97,24 @@
         ],
         "opmargin": [
             null,
-            null,
+            0.1,
             null
         ],
         "trend": [
-            "Improving (EV & Humanoid Robot demand)",
-            "Improving (AI Server & Data Center demand)",
-            "Stable"
+            "저점 통과 후 회복세",
+            "하이엔드 제품 중심 성장",
+            "비중 낮으며 정체 상태"
         ],
         "create_segments": false,
         "key_products": [
-            "이차전지 양극활물질, 단결정 양극활물질",
-            "MLCC용 이형필름, 하이엔드 이형필름",
-            "토너"
+            "이차전지 양극활물질, 단결정 양극활물질, NCM 계열",
+            "MLCC용 이형필름, 기능성 필름, 인슐레이션/점착 필름",
+            "복사기/프린터용 토너, 자성체"
         ],
         "competitors": [
-            "EcoPro BM, LG Chem, POSCO Future M",
-            "Fujitsu, Toray",
-            "HP, Canon"
+            "에코프로비엠, 엘앤에프, 포스코퓨처엠",
+            "Toyobo, LINTEC",
+            "Konica Minolta, Ricoh, Kyocera"
         ]
     },
     "code": "005070",

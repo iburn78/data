@@ -1,7 +1,7 @@
 {
     "key": "AIDC",
     "filename": "AIDC",
-    "updated": "2026-10-20 17:25",
+    "updated": "2026-10-21 17:28",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 17:25",
+            "updated": "2026-10-21 17:28",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 11900.0,
+                "marcap": 11000.0,
                 "revenue_4qtrs": 3800.0,
                 "opincome_4qtrs": 94.0,
                 "revenue_qtr": 1050.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0247
             },
             "PER": {
-                "PER_ltm": 127.0,
-                "PER_qx4": 95.1,
-                "PER_fwd": 78.1
+                "PER_ltm": 117.0,
+                "PER_qx4": 87.9,
+                "PER_fwd": 72.2
             },
             "volatility": {
-                "measure_to_base": 0.832,
-                "slope": -2e-6
+                "measure_to_base": 0.84,
+                "slope": -0.0000107
             },
             "amount": {
-                "measure_to_base": 2.88,
-                "slope": -6.59
+                "measure_to_base": 2.63,
+                "slope": -6.51
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00131,
+                    "alpha": 0.0013,
                     "beta": 1.07
                 },
                 "base_duration": {
-                    "alpha": 0.00564,
+                    "alpha": 0.00483,
                     "beta": 1.05
                 },
                 "measure_duration": {
-                    "alpha": 0.0144,
-                    "beta": 1.61
+                    "alpha": 0.0114,
+                    "beta": 1.64
                 }
             }
         },

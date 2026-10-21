@@ -1,5 +1,5 @@
-# The code below is direct access to data
-# 1) KRX via API (currently open market data is not available)
+# The code below accesses data directly.
+# 1) KRX via API (open-market data is currently unavailable)
 # 2) Naver without API 
 
 import json
@@ -50,7 +50,7 @@ def naver_data_reader(symbol):
 
     data_list = re.findall(r'<item data=\"(.*?)\" />', r.text, re.DOTALL)
     if len(data_list) == 0:
-        print(f'"{symbol}" invalid symbol or has no data')
+        print(f'"{symbol}" is invalid or has no available data.')
         return pd.DataFrame()
     data = '\n'.join(data_list)
     df = pd.read_csv(StringIO(data), delimiter='|', header=None, dtype={0:str})
@@ -64,7 +64,7 @@ def naver_data_reader(symbol):
 if __name__ == "__main__":
     date_str = get_date_str()
     krx_stocks = get_krx_stocks(date_str)
-    # today data maybe empty
+    # Today's data may be empty.
     print(krx_stocks)
     stock_prices = naver_data_reader('005930')
     print(stock_prices)

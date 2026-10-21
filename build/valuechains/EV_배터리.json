@@ -1,22 +1,22 @@
 {
     "key": "EV 배터리",
     "filename": "EV_배터리",
-    "updated": "2026-10-20 16:24",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:42",
     "financials": {
         "meta": {
             "name": "EV 배터리",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:24",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 222000.0,
+                "marcap": 212000.0,
                 "revenue_4qtrs": 133000.0,
                 "opincome_4qtrs": -580.0,
                 "revenue_qtr": 36000.0,
@@ -47,29 +47,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 81.9,
-                "PER_fwd": 82.1
+                "PER_qx4": 78.3,
+                "PER_fwd": 78.4
             },
             "volatility": {
-                "measure_to_base": 0.783,
-                "slope": -0.0000311
+                "measure_to_base": 0.786,
+                "slope": -0.0000377
             },
             "amount": {
-                "measure_to_base": 1.84,
-                "slope": -12.2
+                "measure_to_base": 1.73,
+                "slope": -10.8
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000507,
-                    "beta": 0.911
+                    "alpha": 0.000502,
+                    "beta": 0.912
                 },
                 "base_duration": {
-                    "alpha": -0.000997,
-                    "beta": 0.488
+                    "alpha": -0.0013,
+                    "beta": 0.493
                 },
                 "measure_duration": {
-                    "alpha": 0.00877,
-                    "beta": 0.407
+                    "alpha": 0.00815,
+                    "beta": 0.495
                 }
             }
         },
@@ -97,8 +97,8 @@
     },
     "component_keys": [
         "동박",
-        "분리막",
-        "셀",
+        "배터리 분리막",
+        "배터리 셀",
         "양극재",
         "음극재",
         "전고체",

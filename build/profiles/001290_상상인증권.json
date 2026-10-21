@@ -1,22 +1,22 @@
 {
     "key": "001290",
     "filename": "001290_상상인증권",
-    "updated": "2026-10-20 17:03",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:20",
+    "llm_research_updated": "2026-10-21 17:20",
     "financials": {
         "meta": {
             "name": "상상인증권",
             "code": "001290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 17:03",
+            "updated": "2026-10-21 17:20",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 84.5,
+                "marcap": 82.0,
                 "revenue_4qtrs": 221.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 58.7,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 17:20",
         "search_theme": [
             "실적",
             "전망"
@@ -36,35 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "리테일",
-            "홀세일",
-            "IB"
+            "리테일(개인금융)",
+            "기업금융(IB)",
+            "홀세일(기관금융)",
+            "자산운용"
         ],
         "revenue_share": [
-            0.4,
+            0.2,
             0.3,
-            0.3
+            0.3,
+            0.2
         ],
         "opmargin": [
+            null,
             null,
             null,
             null
         ],
         "trend": [
-            "expanding",
-            "improving",
-            "improving"
+            "확대 중 (온라인 서비스 및 신용공여)",
+            "회복세 (PF 수익 회복)",
+            "성장세 (채권인수 실적 우수)",
+            "개선 중 (조직 재정비 후 기여도 상승)"
         ],
         "create_segments": false,
         "key_products": [
-            "위탁매매, 중개업무, 온라인 트레이딩 서비스, 신용공여",
-            "유가증권 트레이딩, 파생상품 트레이딩",
-            "증권 인수/매출/주선, M&A 중개, 자산유동화, PF"
+            "위탁매매, 브로커리지, MTS 디지털 금융서비스",
+            "PF, IPO, 구조화 금융, M&A 중개",
+            "채권 인수 및 매매, 캐피탈채, 카드채",
+            "자기자본 주식 및 채권 운용"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Samsung Securities, Kiwoom Securities, Mirae Asset Securities",
-            "Korea Investment & Securities, KB Securities, NH Investment & Securities"
+            "키움증권, 삼성증권, 미래에셋증권",
+            "유진투자증권, 다올투자증권, SK증권",
+            "한화투자증권, 중소형 증권사",
+            "자산운용사, 대형 증권사 운용부문"
         ]
     },
     "code": "001290",

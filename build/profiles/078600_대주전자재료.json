@@ -1,22 +1,22 @@
 {
     "key": "078600",
     "filename": "078600_대주전자재료",
-    "updated": "2026-10-20 15:41",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:10",
     "financials": {
         "meta": {
             "name": "대주전자재료",
             "code": "078600",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:41",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1750.0,
+                "marcap": 1630.0,
                 "revenue_4qtrs": 366.0,
                 "opincome_4qtrs": 27.4,
                 "revenue_qtr": 101.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0748
             },
             "PER": {
-                "PER_ltm": 63.9,
-                "PER_qx4": 64.5,
-                "PER_fwd": 64.3
+                "PER_ltm": 59.6,
+                "PER_qx4": 60.1,
+                "PER_fwd": 60.0
             },
             "volatility": {
-                "measure_to_base": 0.864,
-                "slope": -0.000381
+                "measure_to_base": 0.886,
+                "slope": -0.000387
             },
             "amount": {
-                "measure_to_base": 3.01,
-                "slope": -0.495
+                "measure_to_base": 3.19,
+                "slope": -0.45
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00148,
+                    "alpha": 0.00146,
                     "beta": 1.05
                 },
                 "base_duration": {
-                    "alpha": -0.000475,
-                    "beta": 0.6
+                    "alpha": -0.000602,
+                    "beta": 0.61
                 },
                 "measure_duration": {
-                    "alpha": 0.0166,
-                    "beta": 0.31
+                    "alpha": 0.0149,
+                    "beta": 0.466
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:10",
         "search_theme": [
             "실적",
             "전망"
@@ -86,9 +86,9 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "전자소재 (Electronic Materials)",
-            "에너지소재 (Energy Materials)",
-            "배터리소재 (Battery Materials)"
+            "전자재료(전도성 페이스트)",
+            "태양전지 재료",
+            "이차전지 재료"
         ],
         "revenue_share": [
             0.5,
@@ -101,20 +101,20 @@
             null
         ],
         "trend": [
-            "improving (due to EV electronics)",
-            "improving (due to carbon neutrality/India market)",
-            "expanding (developing silicon composite oxides)"
+            "Improving due to automotive electrification",
+            "Improving due to carbon neutrality and India market growth",
+            "Expanding via next-gen anode material development"
         ],
         "create_segments": false,
         "key_products": [
-            "전도성 페이스트 (Conductive Paste)",
-            "태양전지 전극재료 (Solar Cell Electrode Materials)",
-            "이차전지용 음극재료 (Anode Materials for Secondary Batteries)"
+            "Conductive Paste",
+            "Solar Cell Electrode Materials",
+            "Anode Materials for Secondary Batteries"
         ],
         "competitors": [
-            "DuPont, Heraeus",
-            "Hanwha Solutions, Longi Green Energy",
-            "POSCO Future M, graphite suppliers"
+            "Heraeus, DuPont",
+            "Hanwha Solutions, LONGi Green Energy",
+            "POSCO Future M, Graphite companies"
         ]
     },
     "code": "078600",

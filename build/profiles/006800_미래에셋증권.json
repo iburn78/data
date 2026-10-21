@@ -1,22 +1,22 @@
 {
     "key": "006800",
     "filename": "006800_미래에셋증권",
-    "updated": "2026-10-20 16:40",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 13:56",
     "financials": {
         "meta": {
             "name": "미래에셋증권",
             "code": "006800",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:40",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 14400.0,
+                "marcap": 13500.0,
                 "revenue_4qtrs": 66600.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 21600.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:02",
         "search_theme": [
             "실적",
             "전망"
@@ -36,16 +36,16 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "Brokerage",
-            "WM (Wealth Management)",
-            "IB (Investment Banking)",
-            "Trading"
+            "브로커리지",
+            "IB (기업금융)",
+            "이자손익",
+            "운용 및 기타"
         ],
         "revenue_share": [
-            0.3,
-            0.3,
-            0.2,
-            0.2
+            0.365,
+            0.045,
+            0.143,
+            0.338
         ],
         "opmargin": [
             null,
@@ -54,23 +54,23 @@
             null
         ],
         "trend": [
-            "Improving (Increased trading volume)",
-            "Improving (AI-based digital services)",
-            "Expanding (New growth areas like IMA)",
-            "Improving (Valuation gains)"
+            "우상향 증가 추세",
+            "분기별 변동성 높음",
+            "점진적 증가 추세",
+            "평가익 중심의 높은 변동성"
         ],
         "create_segments": false,
         "key_products": [
-            "Stock Brokerage, Trading Commissions",
-            "Asset Management, AI Digital Wealth Management",
-            "IMA, Corporate Finance, M&A, IPO",
-            "Proprietary Trading, Investment Asset Management"
+            "위탁매매 수수료, 개인/기관 주식 거래 서비스",
+            "기업금융(ECM/DCM) 주관, 인수, 자문 서비스",
+            "신용공여, 대출, 채권 이자수익",
+            "자기매매, 트레이딩, PI, ETF, 자산운용, 투자자산 평가익"
         ],
         "competitors": [
-            "Mirae Asset Securities, Samsung Securities, Korea Investment & Securities",
-            "Mirae Asset Securities, Samsung Securities, Korea Investment & Securities",
-            "Mirae Asset Securities, NH Investment & Securities, Korea Investment & Securities",
-            "Global Proprietary Trading Firms, Investment Banks"
+            "삼성증권, NH투자증권, KB증권, 한국투자증권, 신한투자증권, 대신증권",
+            "삼성증권, NH투자증권, KB증권, 한국투자증권, 신한투자증권",
+            "삼성증권, NH투자증권, KB증권, 한국투자증권, 신한투자증권",
+            "삼성증권, NH투자증권, KB증권, 한국투자증권, 신한투자증권"
         ]
     },
     "code": "006800",

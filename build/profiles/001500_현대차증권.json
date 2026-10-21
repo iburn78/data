@@ -1,22 +1,22 @@
 {
     "key": "001500",
     "filename": "001500_현대차증권",
-    "updated": "2026-10-20 16:52",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:08",
     "financials": {
         "meta": {
             "name": "현대차증권",
             "code": "001500",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:52",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 438.0,
+                "marcap": 422.0,
                 "revenue_4qtrs": 108.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 27.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:08",
         "search_theme": [
             "실적",
             "전망"
@@ -36,35 +36,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "위탁/금융상품",
-            "IB",
-            "자산운용"
+            "IB (투자은행)",
+            "S&T / 운용",
+            "리테일 / WM"
         ],
         "revenue_share": [
-            0.5,
+            0.4,
             0.3,
-            0.2
+            0.3
         ],
         "opmargin": [
-            0.15,
+            null,
             null,
             null
         ],
         "trend": [
-            "Improving",
-            "Declining",
-            "Declining"
+            "Improving (Diversifying from PF)",
+            "Stabilizing after volatility",
+            "Stable growth (Strong in Pensions)"
         ],
         "create_segments": false,
         "key_products": [
-            "Brokerage, Financial Products Sales",
-            "Corporate Finance, IPO, M&A",
-            "Asset Management, Trust Services"
+            "부동산 PF, 기업대출 주선, 회사채 인수/중개",
+            "채권 운용, 파생상품 거래, 자기자본투자(PI)",
+            "주식 브로커리지, 자산관리, 퇴직연금(DC/IRP)"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Mirae Asset Securities, Korea Investment & Securities, Samsung Securities",
-            "Samsung Asset Management, Mirae Asset Global Investments"
+            "미래에셋증권, NH투자증권, 한국투자증권",
+            "삼성증권, 미래에셋증권",
+            "키움증권, 삼성증권, 미래에셋증권"
         ]
     },
     "code": "001500",

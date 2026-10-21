@@ -1,7 +1,7 @@
 {
     "key": "ESS 냉각시스템",
     "filename": "ESS_냉각시스템",
-    "updated": "2026-10-20 17:14",
+    "updated": "2026-10-21 17:27",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 17:14",
+            "updated": "2026-10-21 17:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 439.0,
+                "marcap": 443.0,
                 "revenue_4qtrs": 200.0,
                 "opincome_4qtrs": -9.72,
                 "revenue_qtr": 42.6,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.794,
-                "slope": -0.000202
+                "measure_to_base": 0.797,
+                "slope": -0.000194
             },
             "amount": {
-                "measure_to_base": 2.43,
-                "slope": -0.165
+                "measure_to_base": 2.59,
+                "slope": -0.0846
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0033,
-                    "beta": 0.582
+                    "alpha": 0.00332,
+                    "beta": 0.58
                 },
                 "base_duration": {
-                    "alpha": -0.00179,
-                    "beta": 0.658
+                    "alpha": -0.00143,
+                    "beta": 0.651
                 },
                 "measure_duration": {
-                    "alpha": 0.0171,
-                    "beta": 1.17
+                    "alpha": 0.0205,
+                    "beta": 1.13
                 }
             }
         },

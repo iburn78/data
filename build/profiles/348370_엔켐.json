@@ -1,22 +1,22 @@
 {
     "key": "348370",
     "filename": "348370_엔켐",
-    "updated": "2026-10-20 15:54",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:32",
     "financials": {
         "meta": {
             "name": "엔켐",
             "code": "348370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:54",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 466.0,
+                "marcap": 439.0,
                 "revenue_4qtrs": 379.0,
                 "opincome_4qtrs": -76.6,
                 "revenue_qtr": 102.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.675,
-                "slope": 0.000053
+                "measure_to_base": 0.662,
+                "slope": 0.0000546
             },
             "amount": {
-                "measure_to_base": 1.72,
-                "slope": -0.113
+                "measure_to_base": 1.33,
+                "slope": -0.0806
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000341,
-                    "beta": 0.956
+                    "alpha": -0.000359,
+                    "beta": 0.958
                 },
                 "base_duration": {
-                    "alpha": -0.00456,
-                    "beta": 0.668
+                    "alpha": -0.00549,
+                    "beta": 0.67
                 },
                 "measure_duration": {
-                    "alpha": 0.0114,
-                    "beta": 1.01
+                    "alpha": 0.01,
+                    "beta": 1.06
                 }
             }
         },
@@ -69,8 +69,8 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
             "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "D"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:32",
         "search_theme": [
             "실적",
             "전망"
@@ -87,28 +87,40 @@
         "notes": "",
         "segments": [
             "전해액 사업",
-            "신사업(리사이클링 및 소재)"
+            "NMP 및 리사이클 사업",
+            "첨가제 및 소재 사업",
+            "신성장 포트폴리오"
         ],
         "revenue_share": [
-            0.9,
-            0.1
+            0.987,
+            0.013,
+            0.0,
+            0.0
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "growing (North America/Europe demand)",
-            "expanding (building local production)"
+            "Expanding (North America/Europe)",
+            "Growing (New business)",
+            "Expanding (Vertical integration)",
+            "Early stage development"
         ],
         "create_segments": false,
         "key_products": [
-            "전해액(전기차, ESS, 모바일용)",
-            "폐NMP 리사이클링, CNT 도전재"
+            "이차전지용 전해액 (EV, ESS, IT)",
+            "NMP, 폐NMP 리사이클링",
+            "전해질 첨가제, 리튬염, 용매",
+            "CNT 도전재, CI 슬러리, 절연코팅액"
         ],
         "competitors": [
-            "Enchem, Soulbrain",
-            "EcoPro, POSCO Future M"
+            "Tinci Materials, Capchem, Soulbrain, Donghwa Electrolyte, Mitsubishi Chemical",
+            "Chemical companies, Solvent recycling specialists",
+            "Chemical companies, Lithium salt producers",
+            "CNT producers, Slurry developers"
         ]
     },
     "code": "348370",

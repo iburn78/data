@@ -1,22 +1,22 @@
 {
     "key": "005940",
     "filename": "005940_NH투자증권",
-    "updated": "2026-10-20 16:42",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
             "name": "NH투자증권",
             "code": "005940",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:42",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 9100.0,
+                "marcap": 8930.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:07",
         "search_theme": [
             "실적",
             "전망"
@@ -36,35 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "Retail/Brokerage",
-            "Investment Banking (IB)",
-            "Asset Management/Principal Investment"
+            "WM (자산관리)",
+            "IB (기업금융)",
+            "Trading (운용)",
+            "본사 및 기타"
         ],
         "revenue_share": [
             0.5,
-            0.3,
-            0.2
+            0.1,
+            0.39,
+            0.01
         ],
         "opmargin": [
+            null,
             null,
             null,
             null
         ],
         "trend": [
-            "Improving (due to market rally and HNW growth)",
-            "Stable/Strong (dominant in IPOs)",
-            "Stable"
+            "증가세 (해외주식 및 디지털 채널 성장)",
+            "보합/완만한 회복세 (IPO 시장 회복)",
+            "증가세 (운용환경 개선 및 리스크 관리)",
+            "stable"
         ],
         "create_segments": false,
         "key_products": [
-            "Brokerage, Trading, Financial Product Sales",
-            "IPO Underwriting, Corporate Finance, Deal Sourcing",
-            "Principal Investment, Trust Services"
+            "브로커리지, 금융상품 판매, 랩(Wrap), 펀드",
+            "IPO 주관, DCM, 부동산 PF, ECM",
+            "자기자본 투자, 파생상품 거래, 채권 운용",
+            "전사 관리, 부수 업무"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, Samsung Securities",
-            "Mirae Asset Securities, Korea Investment & Securities, Samsung Securities",
-            "Korea Investment & Securities, Mirae Asset Securities"
+            "삼성증권, 미래에셋증권, 키움증권, 한국투자증권",
+            "미래에셋증권, 한국투자증권, 삼성증권",
+            "미래에셋증권, 삼성증권, 한국투자증권",
+            "N/A"
         ]
     },
     "code": "005940",

@@ -1,22 +1,22 @@
 {
     "key": "001750",
     "filename": "001750_한양증권",
-    "updated": "2026-10-20 16:58",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:19",
+    "llm_research_updated": "2026-10-21 17:19",
     "financials": {
         "meta": {
             "name": "한양증권",
             "code": "001750",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:58",
+            "updated": "2026-10-21 17:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 286.0,
+                "marcap": 282.0,
                 "revenue_4qtrs": 2390.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 813.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 17:19",
         "search_theme": [
             "실적",
             "전망"
@@ -36,16 +36,16 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "위탁영업",
-            "자기매매",
-            "기업금융",
-            "기타부문"
+            "기업금융(IB)",
+            "자기매매(Trading)",
+            "위탁영업(Retail)",
+            "기타"
         ],
         "revenue_share": [
-            0.3,
-            0.4,
-            0.2,
-            0.1
+            0.06,
+            0.88,
+            0.04,
+            0.02
         ],
         "opmargin": [
             null,
@@ -54,23 +54,23 @@
             null
         ],
         "trend": [
-            "Improving",
-            "Improving (Strong Growth)",
-            "Stable/Improving",
-            "Stable"
+            "양호한 유지세",
+            "강한 성장세",
+            "개선세",
+            "안정적 유지"
         ],
         "create_segments": false,
         "key_products": [
-            "Brokerage fees, Trading commissions",
-            "Financial instrument trading, Derivatives trading",
-            "Underwriting, M&A brokerage, PF, Asset Securitization",
-            "Trust services, Investment advisory"
+            "증권 인수, M&A 중개, PF, DCM",
+            "유가증권 운용, 파생상품 거래",
+            "주식 위탁매매, 신용공여",
+            "펀드 판매, 기타 부수 업무"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Mirae Asset Securities, Samsung Securities, Korea Investment & Securities",
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Other financial services providers"
+            "다올투자증권, DB금융투자, 코리아에셋투자증권",
+            "다올투자증권, DB금융투자, 중소형 증권사",
+            "다올투자증권, DB금융투자, 중소형 증권사",
+            "중소형 증권사"
         ]
     },
     "code": "001750",

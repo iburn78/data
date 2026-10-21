@@ -1,22 +1,22 @@
 {
     "key": "006220",
     "filename": "006220_제주은행",
-    "updated": "2026-10-20 16:35",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 13:27",
     "financials": {
         "meta": {
             "name": "제주은행",
             "code": "006220",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:35",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 340.0,
+                "marcap": 333.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 13:48",
+        "updated": "2026-10-21 17:18",
         "search_theme": [
             "실적",
             "전망"
@@ -36,29 +36,38 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "Core Banking",
-            "Financial Services"
+            "여신 사업 (대출)",
+            "수신 사업 (예금)",
+            "비이자 수익 사업",
+            "디지털 뱅킹"
         ],
         "revenue_share": [
-            0.8,
-            0.2
+            0.6,
+            0.2,
+            0.15,
+            0.05
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "Improving (driven by SOHO/SME loans)",
-            "Stable (diversifying revenue streams)"
+            "안정적 성장 및 기업대출 수요 증가",
+            "안정적 재원 확보",
+            "수익구조 다변화 시도 중",
+            "AX·DX 실행 및 확장 단계"
         ],
         "create_segments": false,
         "key_products": [
-            "Deposits, Loans, SOHO Loans",
-            "Card, Foreign Exchange, Bancassurance, Trusts"
+            "가계대출, 기업대출, SOHO 대출",
+            "예금, 적금",
+            "방카슈랑스, 외환, 신탁, 수익증권 판매",
+            "DJ Bank, AI 기업금융 서비스"
         ],
         "competitors": [
-            "Other Regional Banks, Commercial Banks",
-            "Insurance Companies, Securities Firms"
+            "JB금융지주, BNK금융지주, iM금융지주, 카카오뱅크, 케이뱅크"
         ]
     },
     "code": "006220",

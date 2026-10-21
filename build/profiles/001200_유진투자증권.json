@@ -1,22 +1,22 @@
 {
     "key": "001200",
     "filename": "001200_유진투자증권",
-    "updated": "2026-10-20 16:55",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:19",
+    "llm_research_updated": "2026-10-21 17:19",
     "financials": {
         "meta": {
             "name": "유진투자증권",
             "code": "001200",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:55",
+            "updated": "2026-10-21 17:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 361.0,
+                "marcap": 346.0,
                 "revenue_4qtrs": 4640.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 1500.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 17:19",
         "search_theme": [
             "실적",
             "전망"
@@ -36,20 +36,20 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "위탁매매업 (Brokerage)",
-            "자기매매업 (Proprietary Trading)",
-            "기업금융 (Investment Banking)",
-            "선물중개업 (Futures Brokerage)",
-            "자산운용업 (Asset Management)",
-            "기타 (Others)"
+            "자기매매업 (PI)",
+            "장내외파생상품업",
+            "기업금융 (IB)",
+            "선물중개업",
+            "위탁매매업 (Retail/WM)",
+            "자산운용업"
         ],
         "revenue_share": [
-            0.3,
-            0.3,
-            0.2,
-            0.05,
-            0.1,
-            0.05
+            0.37,
+            0.269,
+            0.125,
+            0.121,
+            0.101,
+            0.02
         ],
         "opmargin": [
             null,
@@ -60,29 +60,29 @@
             null
         ],
         "trend": [
-            "improving",
-            "improving",
+            "improving (max revenue source)",
             "stable",
-            "stable",
-            "expanding (AI focus)",
+            "diversifying after PF restructuring",
+            "strong market share",
+            "improving (commission & spread)",
             "stable"
         ],
         "create_segments": false,
         "key_products": [
-            "주식 위탁매매, 수수료 서비스",
-            "채권 및 주식 운용, 운용수익",
-            "IPO 인수주선, M&A 중개, PF, 자산유동화",
-            "선물 중개 및 거래",
-            "펀드 운용, 투자신탁, AI 투자신탁",
-            "기타 금융 서비스"
+            "주식, 채권, 파생상품 직접 운용",
+            "파생상품 운용 및 거래",
+            "IPO, M&A 자문, 프로젝트 파이낸싱(PF), 자산유동화",
+            "국내외 선물 거래 위탁매매 및 중개",
+            "유가증권 매매 중개, 자산관리(WM) 서비스",
+            "펀드 설정 및 운용"
         ],
         "competitors": [
-            "삼성증권, 미래에셋증권, NH투자증권",
-            "삼성증권, 미래에셋증권, 한국투자증권",
-            "KB증권, NH투자증권, 하나증권",
-            "삼성선물, 미래에셋선물",
-            "삼성자산운용, 미래에셋자산운용",
-            "기타 금융사"
+            "삼성증권, 미래에셋증권, 키움증권",
+            "삼성증권, 미래에셋증권, 키움증권",
+            "DB금융투자, 현대차증권, 다올투자증권, 한화투자증권",
+            "키움증권, 삼성증권",
+            "삼성증권, 미래에셋증권, 키움증권",
+            "미래에셋자산운용, 삼성자산운용"
         ]
     },
     "code": "001200",

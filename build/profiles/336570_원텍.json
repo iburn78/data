@@ -1,7 +1,7 @@
 {
     "key": "336570",
     "filename": "336570_원텍",
-    "updated": "2026-10-20 17:38",
+    "updated": "2026-10-21 17:38",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "336570",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 17:38",
+            "updated": "2026-10-21 17:38",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 384.0,
+                "marcap": 370.0,
                 "revenue_4qtrs": 182.0,
                 "opincome_4qtrs": 45.6,
                 "revenue_qtr": 47.5,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.251
             },
             "PER": {
-                "PER_ltm": 8.41,
-                "PER_qx4": 8.66,
-                "PER_fwd": 8.0
+                "PER_ltm": 8.1,
+                "PER_qx4": 8.33,
+                "PER_fwd": 7.7
             },
             "volatility": {
-                "measure_to_base": 0.723,
-                "slope": -0.000302
+                "measure_to_base": 0.731,
+                "slope": -0.000314
             },
             "amount": {
                 "measure_to_base": 1.14,
-                "slope": -0.119
+                "slope": -0.122
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000433,
-                    "beta": 0.456
+                    "alpha": 0.000419,
+                    "beta": 0.458
                 },
                 "base_duration": {
-                    "alpha": -0.00358,
-                    "beta": 0.493
+                    "alpha": -0.00361,
+                    "beta": 0.496
                 },
                 "measure_duration": {
-                    "alpha": -0.00384,
-                    "beta": 0.499
+                    "alpha": -0.00439,
+                    "beta": 0.528
                 }
             }
         },

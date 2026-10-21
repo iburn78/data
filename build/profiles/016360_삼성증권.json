@@ -1,22 +1,22 @@
 {
     "key": "016360",
     "filename": "016360_삼성증권",
-    "updated": "2026-10-20 16:44",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
             "name": "삼성증권",
             "code": "016360",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:44",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7190.0,
+                "marcap": 6990.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:07",
         "search_theme": [
             "실적",
             "전망"
@@ -36,35 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "위탁매매 및 리테일",
-            "인수주선 및 IB",
-            "신탁 및 자산관리"
+            "리테일 및 자산관리 (WM)",
+            "기업금융 (IB)",
+            "트레이딩 및 운용 (S&T)",
+            "기타 (선물/해외)"
         ],
         "revenue_share": [
-            0.6,
-            0.3,
-            0.1
+            0.42,
+            0.12,
+            0.35,
+            0.11
         ],
         "opmargin": [
+            null,
             null,
             null,
             null
         ],
         "trend": [
-            "improving",
-            "improving",
-            "growing"
+            "증가세 (국내외 주식 및 HNWI 유입)",
+            "정체/하락세 (부동산 PF 위축)",
+            "변동세 (금리 민감도 높음)",
+            "안정세"
         ],
         "create_segments": false,
         "key_products": [
-            "국내/해외주식 수탁, 신용공여, 랩(Wrap) 서비스",
-            "구조화금융, 인수주선, 금융자문",
-            "퇴직연금 신탁, 투자자문, 투자일임"
+            "위탁매매, 자산관리(WM), 랩어카운트, 해외주식 수탁",
+            "IPO, M&A 자문, 부동산 PF, 채권 발행",
+            "자기자본 운용, 채권 운용, 파생상품 트레이딩",
+            "선물중개, 해외영업"
         ],
         "competitors": [
-            "미래에셋증권, 한국투자증권, NH투자증권",
-            "미래에셋증권, 한국투자증권, KB증권",
-            "미래에셋증권, 삼성생명, 미래에셋생명"
+            "미래에셋증권, 키움증권, NH투자증권, 한국투자증권",
+            "미래에셋증권, NH투자증권, 한국투자증권",
+            "미래에셋증권, NH투자증권, 한국투자증권",
+            "미래에셋증권, 한국투자증권"
         ]
     },
     "code": "016360",

@@ -1,22 +1,22 @@
 {
     "key": "323410",
     "filename": "323410_카카오뱅크",
-    "updated": "2026-10-20 16:37",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 13:27",
     "financials": {
         "meta": {
             "name": "카카오뱅크",
             "code": "323410",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:37",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 9830.0,
+                "marcap": 9660.0,
                 "revenue_4qtrs": 3240.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 829.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 13:27",
         "search_theme": [
             "실적",
             "전망"
@@ -36,29 +36,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "수신 및 여신 (Banking)",
-            "금융 플랫폼 및 AI 서비스 (Platform & AI)"
+            "Banking Biz (Interest Income)",
+            "Platform Biz (Non-interest Income)",
+            "Fee Biz (Non-interest Income)"
         ],
         "revenue_share": [
-            0.9,
-            0.1
+            0.6,
+            0.2,
+            0.2
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "Stable growth through loan expansion",
-            "Improving through AI service expansion"
+            "Growth slowing due to regulations",
+            "Rapidly expanding",
+            "Stable growth"
         ],
         "create_segments": false,
         "key_products": [
-            "정기예금, 적금, 비상금대출, 신용대출, 주택담보대출",
-            "금융 플랫폼 서비스, AI 기반 금융 서비스"
+            "Credit Loans, Mortgage Loans, Deposits, Savings",
+            "Loan Comparison, Securities Account Opening, Advertising",
+            "Check Card Fees, Firm Banking, Remittance"
         ],
         "competitors": [
-            "KakaoBank, Kbank, Commercial Banks",
-            "KakaoBank, Kbank, Fintechs"
+            "K-Bank, Toss Bank, KB Financial, Shinhan Financial",
+            "K-Bank, Toss Bank, Toss",
+            "K-Bank, Toss Bank, Traditional Banks"
         ]
     },
     "code": "323410",

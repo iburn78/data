@@ -1,7 +1,7 @@
 {
     "key": "417200(B)",
     "filename": "417200(B)_알루미늄,_강관재",
-    "updated": "2026-10-20 17:17",
+    "updated": "2026-10-21 17:20",
     "llm_research_updated": "2026-10-20 13:56",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "417200",
             "segment_name": "알루미늄, 강관재",
             "id": "B",
-            "updated": "2026-10-20 17:17",
+            "updated": "2026-10-21 17:20",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 769.0,
+                "marcap": 710.0,
                 "revenue_4qtrs": 149.0,
                 "opincome_4qtrs": 7.45,
                 "revenue_qtr": 41.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.05
             },
             "PER": {
-                "PER_ltm": 103.0,
-                "PER_qx4": 93.6,
-                "PER_fwd": 86.7
+                "PER_ltm": 95.3,
+                "PER_qx4": 86.5,
+                "PER_fwd": 80.1
             },
             "volatility": {
-                "measure_to_base": 0.911,
-                "slope": -0.000159
+                "measure_to_base": 0.928,
+                "slope": -0.000153
             },
             "amount": {
-                "measure_to_base": 3.42,
-                "slope": -0.637
+                "measure_to_base": 3.34,
+                "slope": -0.627
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00107,
-                    "beta": 0.95
+                    "alpha": -0.00113,
+                    "beta": 0.954
                 },
                 "base_duration": {
-                    "alpha": -0.00238,
-                    "beta": 0.754
+                    "alpha": -0.00364,
+                    "beta": 0.76
                 },
                 "measure_duration": {
-                    "alpha": 0.0163,
-                    "beta": 1.16
+                    "alpha": 0.0136,
+                    "beta": 1.25
                 }
             }
         },

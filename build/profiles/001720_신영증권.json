@@ -1,22 +1,22 @@
 {
     "key": "001720",
     "filename": "001720_신영증권",
-    "updated": "2026-10-20 16:54",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:08",
     "financials": {
         "meta": {
             "name": "신영증권",
             "code": "001720",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:54",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2120.0,
+                "marcap": 2030.0,
                 "revenue_4qtrs": 5390.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 1660.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:08",
         "search_theme": [
             "실적",
             "전망"
@@ -36,29 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "종합금융서비스(Brokerage & WM)",
-            "자산운용 및 신탁(Asset Management & Trust)"
+            "Wealth Management (WM)",
+            "Trading (운용/트레이딩)",
+            "Investment Banking (IB)",
+            "Institutional Business (기관영업)"
         ],
         "revenue_share": [
-            0.6,
-            0.4
+            0.03,
+            0.761,
+            0.015,
+            0.011
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
             "stable",
-            "improving"
+            "improving",
+            "stable",
+            "stable"
         ],
         "create_segments": false,
         "key_products": [
-            "HTS/MTS, WM 서비스, RP, 퇴직연금",
-            "MMF, 주식형·채권형 펀드, ELS, 랩어카운트"
+            "자산관리 서비스, 자산승계 솔루션, 패밀리오피스",
+            "고유자산 운용, 채권 및 파생상품 거래",
+            "기업자금 조달, 기업경영 자문, 부동산 PF",
+            "위탁매매, 금융상품 판매"
         ],
         "competitors": [
             "삼성증권, 미래에셋증권, 한국투자증권",
-            "삼성자산운용, 미래에셋자산운용"
+            "미래에셋증권, 삼성증권, 한국투자증권",
+            "미래에셋증권, 한국투자증권, NH투자증권",
+            "미래에셋증권, 삼성증권, 한국투자증권"
         ]
     },
     "code": "001720",

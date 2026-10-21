@@ -1,22 +1,22 @@
 {
     "key": "317330",
     "filename": "317330_덕산테코피아",
-    "updated": "2026-10-20 15:58",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:41",
     "financials": {
         "meta": {
             "name": "덕산테코피아",
             "code": "317330",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:58",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 242.0,
+                "marcap": 230.0,
                 "revenue_4qtrs": 152.0,
                 "opincome_4qtrs": -41.2,
                 "revenue_qtr": 42.2,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.978,
-                "slope": -0.000058
+                "measure_to_base": 0.96,
+                "slope": -0.000064
             },
             "amount": {
-                "measure_to_base": 1.02,
-                "slope": -0.0779
+                "measure_to_base": 0.985,
+                "slope": -0.0748
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000887,
+                    "alpha": -0.0000938,
                     "beta": 1.09
                 },
                 "base_duration": {
-                    "alpha": -0.00463,
-                    "beta": 0.718
+                    "alpha": -0.00481,
+                    "beta": 0.721
                 },
                 "measure_duration": {
-                    "alpha": 0.00252,
-                    "beta": 1.14
+                    "alpha": 0.00307,
+                    "beta": 1.16
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 11:41",
         "search_theme": [
             "실적",
             "전망"
@@ -86,16 +86,19 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "Fine Chemical (OLED)",
             "반도체 소재",
-            "정밀화학 (2차전지)"
+            "디스플레이(OLED) 소재",
+            "2차전지 소재",
+            "의약품 중간체 및 정밀화학"
         ],
         "revenue_share": [
-            0.4,
-            0.4,
-            0.2
+            0.504,
+            0.352,
+            0.057,
+            0.048
         ],
         "opmargin": [
+            null,
             null,
             null,
             null
@@ -103,18 +106,21 @@
         "trend": [
             "improving",
             "improving",
+            "facing ramp-up costs",
             "stable"
         ],
         "create_segments": false,
         "key_products": [
+            "전구체, 증착소재",
             "OLED 발광재료 중간체",
-            "반도체 증착소재",
-            "2차전지 첨가제"
+            "2차전지 첨가제, 전해액",
+            "의약품 중간체, 정밀화학 소재"
         ],
         "competitors": [
-            "Duksan Neolux, LG Chem",
-            "Samsung SDI, SK Materials",
-            "Enchem, Soulbrain"
+            "솔브레인, 원익머티리얼즈, 이엔에프테크놀로지",
+            "솔브레인, 이엔에프테크놀로지",
+            "천보",
+            "삼광화학"
         ]
     },
     "code": "317330",

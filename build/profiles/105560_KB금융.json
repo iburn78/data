@@ -1,22 +1,22 @@
 {
     "key": "105560",
     "filename": "105560_KB금융",
-    "updated": "2026-10-20 16:27",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 13:26",
     "financials": {
         "meta": {
             "name": "KB금융",
             "code": "105560",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:27",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 57400.0,
+                "marcap": 57100.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 13:26",
         "search_theme": [
             "실적",
             "전망"
@@ -36,14 +36,14 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "은행업",
-            "금융투자업",
-            "보험업",
-            "여신전문업"
+            "은행 부문",
+            "증권 부문",
+            "보험 부문",
+            "카드 및 기타 부문"
         ],
         "revenue_share": [
-            0.6,
-            0.2,
+            0.65,
+            0.15,
             0.1,
             0.1
         ],
@@ -54,23 +54,23 @@
             null
         ],
         "trend": [
-            "improving",
-            "significantly improving",
-            "stable",
-            "stable"
+            "Stable to slightly declining NIM but growing assets",
+            "Recovering with growth in brokerage and WM fees",
+            "Improving due to IFRS17 and investment gains",
+            "Stable but facing margin pressure from funding costs"
         ],
         "create_segments": false,
         "key_products": [
-            "개인금융, 기업금융",
-            "위탁매매, 자산관리",
-            "손해보험",
-            "신용카드, 할부금융"
+            "개인금융,기업금융,예금,대출",
+            "위탁매매(Brokerage),IB(기업금융),자산운용",
+            "손해보험,생명보험,자산운용",
+            "신용카드,할부금융,리스"
         ],
         "competitors": [
-            "Shinhan Bank, Hana Bank, Woori Bank",
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Samsung Fire & Marine Insurance, DB Insurance, Hyundai Marine & Fire Insurance",
-            "Shinhan Card, Samsung Card, Hyundai Card"
+            "신한은행,하나은행,우리은행,NH농협은행",
+            "미래에셋증권,삼성증권,한국투자증권,NH투자증권",
+            "삼성화재,현대해상,DB손해보험,삼성생명,한화생명",
+            "신한카드,삼성카드,현대카드,롯데카드"
         ]
     },
     "code": "105560",

@@ -1,22 +1,22 @@
 {
     "key": "003540",
     "filename": "003540_대신증권",
-    "updated": "2026-10-20 16:46",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
             "name": "대신증권",
             "code": "003540",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:46",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1100.0,
+                "marcap": 1060.0,
                 "revenue_4qtrs": 9290.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 2550.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:07",
         "search_theme": [
             "실적",
             "전망"
@@ -36,47 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "Retail (위탁매매)",
-            "기업금융 (Corporate Finance)",
-            "CM (Capital Markets)",
-            "법인영업 (Institutional Sales)",
-            "종속회사 사업 (Subsidiaries - F&I, Asset Mgmt, Savings Bank)"
+            "Retail/WM",
+            "IB (기업금융)",
+            "Trading (트레이딩/CM)",
+            "종속회사 (Subsidiaries)"
         ],
         "revenue_share": [
             0.3,
+            0.3,
             0.2,
-            0.15,
-            0.15,
             0.2
         ],
         "opmargin": [
-            null,
-            null,
-            null,
-            null,
-            null
+            0.15,
+            0.25,
+            0.4,
+            0.1
         ],
         "trend": [
-            "Improving",
-            "Improving",
-            "Improving",
-            "Improving",
-            "Stable/Improving"
+            "완만한 증가세",
+            "강한 증가세",
+            "급격한 반등세",
+            "수익성 회복세"
         ],
         "create_segments": false,
         "key_products": [
-            "Brokerage services, Trading",
-            "Corporate loans, Structured finance",
-            "IPO, Bond issuance, M&A advisory",
-            "Institutional sales, Portfolio management",
-            "NPL investment, Asset management, Savings bank services"
+            "위탁매매, 신용공여, 자산관리(WM)",
+            "인수주선, 금융자문, 지급보증",
+            "채권운용, 주식운용, 파생상품운용",
+            "NPL투자, 저축은행 서비스, 자산운용"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Mirae Asset Securities, Korea Investment & Securities, Samsung Securities",
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Samsung Securities, Mirae Asset Securities, Korea Investment & Securities",
-            "Other NPL investment firms, Savings Banks"
+            "삼성증권, 키움증권, 미래에셋증권",
+            "NH투자증권, 한국금융지주, 미래에셋증권",
+            "삼성증권, 미래에셋증권, NH투자증권",
+            "한화투자증권, 유안타증권, 현대차증권"
         ]
     },
     "code": "003540",

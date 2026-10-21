@@ -1,22 +1,22 @@
 {
     "key": "281740",
     "filename": "281740_레이크머티리얼즈",
-    "updated": "2026-10-20 15:45",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:18",
     "financials": {
         "meta": {
             "name": "레이크머티리얼즈",
             "code": "281740",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:45",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 861.0,
+                "marcap": 790.0,
                 "revenue_4qtrs": 149.0,
                 "opincome_4qtrs": 21.2,
                 "revenue_qtr": 37.2,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.142
             },
             "PER": {
-                "PER_ltm": 40.6,
-                "PER_qx4": 35.4,
-                "PER_fwd": 35.1
+                "PER_ltm": 37.3,
+                "PER_qx4": 32.5,
+                "PER_fwd": 32.2
             },
             "volatility": {
-                "measure_to_base": 0.789,
-                "slope": -0.0000565
+                "measure_to_base": 0.802,
+                "slope": -0.0000585
             },
             "amount": {
-                "measure_to_base": 2.53,
-                "slope": -0.186
+                "measure_to_base": 2.9,
+                "slope": -0.148
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00107,
-                    "beta": 1.02
+                    "alpha": 0.00105,
+                    "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00427,
-                    "beta": 0.634
+                    "alpha": -0.00501,
+                    "beta": 0.643
                 },
                 "measure_duration": {
-                    "alpha": 0.0185,
-                    "beta": 0.904
+                    "alpha": 0.0165,
+                    "beta": 1.04
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:18",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,47 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체/디스플레이 소재",
-            "이차전지 소재"
+            "반도체 전구체",
+            "태양광 소재",
+            "LED/디스플레이 소재",
+            "석유화학 촉매",
+            "2차전지 전고체 소재"
         ],
         "revenue_share": [
-            0.9,
-            0.1
+            0.597,
+            0.258,
+            0.08,
+            0.06,
+            0.005
         ],
         "opmargin": [
+            null,
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "improving",
-            "expanding"
+            "Improving due to industry recovery and 3D-NAND demand",
+            "Stable to weak due to oversupply concerns",
+            "Stable",
+            "Improving with aggressive growth outlook for 2025",
+            "Expanding (Early stage/R&D)"
         ],
         "create_segments": false,
         "key_products": [
-            "TMA, 초고순도 유기금속 화합물, CVD/ALD 전구체",
-            "전고체 전해질 원료"
+            "High-k, Barrier, TiCl4, CVD/ALD 전구체",
+            "PERC/TOPCon 고효율 태양전지 전구체",
+            "LED/OLED 전구체",
+            "메탈로센, MAO 촉매",
+            "전고체 전해질 핵심소재"
         ],
         "competitors": [
-            "삼성전자, SK하이닉스, 글로벌 전구체 기업",
-            "배터리 소재 전문 기업"
+            "디엔에프, 솔브레인, 원익머티리얼즈, 제이아이테크, 덕산유엠티",
+            "한솔케미칼, 글로벌 소재사",
+            "한솔케미칼, LED 전구체 공급사",
+            "국내외 촉매 전문업체, 한솔케미칼, 덕산",
+            "전고체 배터리 소재 경쟁사"
         ]
     },
     "code": "281740",

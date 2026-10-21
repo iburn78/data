@@ -1,7 +1,7 @@
 {
     "key": "화장품 ODM",
     "filename": "화장품_ODM",
-    "updated": "2026-10-20 17:50",
+    "updated": "2026-10-21 17:46",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 17:50",
+            "updated": "2026-10-21 17:46",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 6280.0,
+                "marcap": 6070.0,
                 "revenue_4qtrs": 5980.0,
                 "opincome_4qtrs": 589.0,
                 "revenue_qtr": 1660.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0985
             },
             "PER": {
-                "PER_ltm": 10.7,
-                "PER_qx4": 8.52,
-                "PER_fwd": 7.66
+                "PER_ltm": 10.3,
+                "PER_qx4": 8.24,
+                "PER_fwd": 7.41
             },
             "volatility": {
-                "measure_to_base": 0.657,
-                "slope": 0.000094
+                "measure_to_base": 0.656,
+                "slope": 0.0000898
             },
             "amount": {
-                "measure_to_base": 0.766,
-                "slope": 0.496
+                "measure_to_base": 0.765,
+                "slope": 0.476
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000193,
-                    "beta": 0.521
+                    "alpha": 0.000187,
+                    "beta": 0.522
                 },
                 "base_duration": {
-                    "alpha": 0.00353,
-                    "beta": 0.132
+                    "alpha": 0.0032,
+                    "beta": 0.138
                 },
                 "measure_duration": {
-                    "alpha": -0.00124,
-                    "beta": 0.262
+                    "alpha": -0.00104,
+                    "beta": 0.317
                 }
             }
         },

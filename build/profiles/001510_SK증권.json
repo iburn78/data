@@ -1,22 +1,22 @@
 {
     "key": "001510",
     "filename": "001510_SK증권",
-    "updated": "2026-10-20 17:00",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:19",
+    "llm_research_updated": "2026-10-21 17:19",
     "financials": {
         "meta": {
             "name": "SK증권",
             "code": "001510",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 17:00",
+            "updated": "2026-10-21 17:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 465.0,
+                "marcap": 452.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 17:19",
         "search_theme": [
             "실적",
             "전망"
@@ -36,35 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "자기매매 (Proprietary Trading)",
-            "위탁매매 (Brokerage)",
-            "IB (Investment Banking)"
+            "투자매매 및 중개 (Brokerage & Trading)",
+            "기업금융 (IB)",
+            "자산운용 및 자문 (WM & Advisory)",
+            "자기자본 운용 (Principal Investment)"
         ],
         "revenue_share": [
-            0.7,
-            0.15,
-            0.15
+            0.2,
+            0.3,
+            0.1,
+            0.4
         ],
         "opmargin": [
+            null,
             null,
             null,
             null
         ],
         "trend": [
-            "Strong Growth",
-            "Stable",
-            "Improving"
+            "stable",
+            "facing stronger competition",
+            "stable",
+            "improving but volatile"
         ],
         "create_segments": false,
         "key_products": [
-            "Proprietary Trading, Derivatives, Equity/Bond Trading, ELS/DLS issuance",
-            "Brokerage Services, Trading Commissions",
-            "Underwriting, M&A Advisory, Corporate Financing, IB Advisory"
+            "주식 매매 및 중개, 채권 매매 및 중개, 리테일/기관 영업",
+            "IPO, 회사채 주관, M&A 자문, 부동산 PF",
+            "투자일임, 투자자문, 신탁 서비스",
+            "자기자본 직접 투자, 파생상품 거래, 파생결합증권 발행/판매"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Mirae Asset Securities, Samsung Securities, Kiwoom Securities",
-            "Korea Investment & Securities, NH Investment & Securities, Mirae Asset Securities"
+            "미래에셋증권, 삼성증권, NH투자증권",
+            "한국금융지주, 키움증권, 다올투자증권",
+            "삼성증권, 미래에셋증권, 한국금융지주",
+            "한양증권, DB금융투자, 유진투자증권"
         ]
     },
     "code": "001510",

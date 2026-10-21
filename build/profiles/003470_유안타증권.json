@@ -1,22 +1,22 @@
 {
     "key": "003470",
     "filename": "003470_유안타증권",
-    "updated": "2026-10-20 16:50",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:08",
     "financials": {
         "meta": {
             "name": "유안타증권",
             "code": "003470",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:50",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 777.0,
+                "marcap": 747.0,
                 "revenue_4qtrs": 6560.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 1810.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:08",
         "search_theme": [
             "실적",
             "전망"
@@ -36,41 +36,47 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "위탁영업 (Retail)",
-            "자산관리 (Wholesale/Wealth Management)",
-            "기업금융 (IB)",
-            "벤처투자 (Venture Capital)"
+            "브로커리지(Retail)",
+            "WM(Wealth Management)",
+            "트레이딩(전략운용)",
+            "IB(기업금융)",
+            "이자수익(자금수지)"
         ],
         "revenue_share": [
             0.56,
-            0.2,
             0.15,
-            0.09
+            0.12,
+            0.1,
+            0.07
         ],
         "opmargin": [
+            null,
             null,
             null,
             null,
             null
         ],
         "trend": [
-            "Improving with AI/System integration",
-            "Stable growth",
-            "Improving via Pan-Chinese network",
-            "Expanding in high-tech sectors"
+            "증가세 (Strong growth)",
+            "급증세 (Rapid growth)",
+            "변동세 (Volatile)",
+            "하락세 (Declining due to PF risk)",
+            "완만한 회복세 (Slow recovery)"
         ],
         "create_segments": false,
         "key_products": [
-            "Brokerage, HTS, Robo-advisor",
-            "Asset Management, Wealth Management",
-            "Corporate Finance, IB Solutions",
-            "Venture Capital Investment"
+            "주식/선물/옵션 위탁매매",
+            "랩 어카운트, 펀드, 신탁",
+            "주식, 채권, 파생상품 운용",
+            "IPO, 유가증권 인수, 구조화 금융, 부동산 PF",
+            "신용공여, 채권 이자"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Samsung Securities, Kiwoom Securities",
-            "Korea Investment & Securities, Mirae Asset Securities",
-            "Industrial Bank of Korea Securities, various VC firms"
+            "키움증권, 삼성증권, 미래에셋증권",
+            "미래에셋증권, 한국투자증권, NH투자증권",
+            "삼성증권, 미래에셋증권",
+            "한국투자증권, NH투자증권, 미래에셋증권",
+            "삼성증권, 키움증권"
         ]
     },
     "code": "003470",

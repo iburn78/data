@@ -1,7 +1,7 @@
 {
     "key": "메디컬 바이오",
     "filename": "메디컬_바이오",
-    "updated": "2026-10-20 18:09",
+    "updated": "2026-10-21 17:47",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 18:09",
+            "updated": "2026-10-21 17:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 134000.0,
+                "marcap": 133000.0,
                 "revenue_4qtrs": 19100.0,
                 "opincome_4qtrs": 5390.0,
                 "revenue_qtr": 5420.0,
@@ -46,29 +46,29 @@
                 "4qtrs": 0.282
             },
             "PER": {
-                "PER_ltm": 24.8,
-                "PER_qx4": 22.6,
-                "PER_fwd": 19.3
+                "PER_ltm": 24.7,
+                "PER_qx4": 22.4,
+                "PER_fwd": 19.2
             },
             "volatility": {
-                "measure_to_base": 0.649,
-                "slope": -0.0000629
+                "measure_to_base": 0.675,
+                "slope": -0.0000633
             },
             "amount": {
-                "measure_to_base": 0.867,
-                "slope": -0.515
+                "measure_to_base": 0.891,
+                "slope": -0.549
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00058,
-                    "beta": 0.574
+                    "alpha": 0.000587,
+                    "beta": 0.573
                 },
                 "base_duration": {
-                    "alpha": -0.000653,
+                    "alpha": -0.000575,
                     "beta": 0.165
                 },
                 "measure_duration": {
-                    "alpha": 0.00269,
+                    "alpha": 0.00237,
                     "beta": 0.184
                 }
             }
@@ -77,7 +77,7 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_movement": "Dn",
+            "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",

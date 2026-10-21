@@ -1,22 +1,22 @@
 {
     "key": "003530",
     "filename": "003530_한화투자증권",
-    "updated": "2026-10-20 16:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
             "name": "한화투자증권",
             "code": "003530",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:48",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 896.0,
+                "marcap": 862.0,
                 "revenue_4qtrs": 9030.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 3230.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:07",
         "search_theme": [
             "실적",
             "전망"
@@ -36,16 +36,16 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "WM",
-            "Trading",
-            "Wholesale",
-            "IB"
+            "WM (자산관리)",
+            "IB (투자은행)",
+            "Trading (트레이딩)",
+            "Wholesale (홀세일)"
         ],
         "revenue_share": [
-            0.4,
-            0.2,
-            0.2,
-            0.2
+            0.42,
+            0.18,
+            0.17,
+            0.1
         ],
         "opmargin": [
             null,
@@ -54,23 +54,23 @@
             null
         ],
         "trend": [
-            "improving",
-            "stable",
-            "stable",
-            "stable"
+            "증가세 (주식 거래대금 및 금융상품 판매 호조)",
+            "하락/정체 (부동산 PF 시장 침체 및 규제 영향)",
+            "변동성 큼 (금리 및 파생상품 평가손익 영향)",
+            "소폭 증가 (기관 M/S 증가)"
         ],
         "create_segments": false,
         "key_products": [
-            "Retail brokerage, Asset management consulting",
-            "Proprietary trading, Market making",
-            "Institutional sales, Prime brokerage",
-            "Corporate financing, M&A advisory, Underwriting"
+            "주식/채권 중개, 펀드, 신탁, 랩(Wrap)",
+            "기업금융, IPO 주관, M&A 자문, 프로젝트 파이낸싱(PF), 부동산 금융",
+            "유가증권 운용, 파생상품 거래, 금융자산 운용",
+            "기관 대상 주식/채권 중개, 법인 금융 서비스"
         ],
         "competitors": [
-            "Mirae Asset Securities, Korea Investment & Securities, NH Investment & Securities",
-            "Mirae Asset Securities, Samsung Securities",
-            "Korea Investment & Securities, NH Investment & Securities",
-            "Mirae Asset Securities, Korea Investment & Securities"
+            "미래에셋증권, 삼성증권, 키움증권, 유안타증권, 현대차증권, SK증권, DB금융투자",
+            "미래에셋증권, NH투자증권, 삼성증권, 한국투자증권",
+            "미래에셋증권, NH투자증권, 삼성증권, 키움증권",
+            "미래에셋증권, NH투자증권, 삼성증권, 키움증권"
         ]
     },
     "code": "003530",

@@ -1,22 +1,22 @@
 {
     "key": "음극재",
     "filename": "음극재",
-    "updated": "2026-10-20 15:41",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:10",
     "financials": {
         "meta": {
             "name": "음극재",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:41",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 18500.0,
+                "marcap": 17500.0,
                 "revenue_4qtrs": 3040.0,
                 "opincome_4qtrs": 46.7,
                 "revenue_qtr": 780.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.0154
             },
             "PER": {
-                "PER_ltm": 396.0,
-                "PER_qx4": 138.0,
-                "PER_fwd": 128.0
+                "PER_ltm": 375.0,
+                "PER_qx4": 131.0,
+                "PER_fwd": 121.0
             },
             "volatility": {
-                "measure_to_base": 0.845,
-                "slope": 0.0000604
+                "measure_to_base": 0.846,
+                "slope": 0.0000531
             },
             "amount": {
-                "measure_to_base": 1.75,
-                "slope": -0.883
+                "measure_to_base": 1.69,
+                "slope": -0.787
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00139,
-                    "beta": 0.584
+                    "alpha": -0.00164,
+                    "beta": 0.59
                 },
                 "measure_duration": {
-                    "alpha": 0.00666,
-                    "beta": 0.618
+                    "alpha": 0.00687,
+                    "beta": 0.708
                 }
             }
         },

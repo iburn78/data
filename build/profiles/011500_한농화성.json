@@ -1,22 +1,22 @@
 {
     "key": "011500",
     "filename": "011500_한농화성",
-    "updated": "2026-10-20 15:47",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:21",
     "financials": {
         "meta": {
             "name": "한농화성",
             "code": "011500",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:47",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 232.0,
+                "marcap": 221.0,
                 "revenue_4qtrs": 252.0,
                 "opincome_4qtrs": 20.1,
                 "revenue_qtr": 72.4,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0796
             },
             "PER": {
-                "PER_ltm": 11.6,
-                "PER_qx4": 7.45,
-                "PER_fwd": 6.38
+                "PER_ltm": 11.0,
+                "PER_qx4": 7.1,
+                "PER_fwd": 6.08
             },
             "volatility": {
-                "measure_to_base": 0.753,
-                "slope": -0.0000728
+                "measure_to_base": 0.768,
+                "slope": -0.0000735
             },
             "amount": {
-                "measure_to_base": 1.34,
-                "slope": -0.119
+                "measure_to_base": 2.01,
+                "slope": -0.0635
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000736,
-                    "beta": 0.923
+                    "alpha": 0.000731,
+                    "beta": 0.924
                 },
                 "base_duration": {
-                    "alpha": -0.0036,
-                    "beta": 0.597
+                    "alpha": -0.00398,
+                    "beta": 0.6
                 },
                 "measure_duration": {
-                    "alpha": 0.014,
-                    "beta": 0.854
+                    "alpha": 0.0133,
+                    "beta": 0.915
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:21",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "첨단정밀화학 (Advanced Fine Chemicals)",
-            "산업용 정밀화학 (Industrial Fine Chemicals)"
+            "글리콜에테르(GE)",
+            "계면활성제(EOA)",
+            "특수산업용 유화제(EM)"
         ],
         "revenue_share": [
-            0.6,
-            0.4
+            0.45,
+            0.446,
+            0.104
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "Improving (Strong growth in IT/Semiconductor demand)",
-            "Stable (Growth in electronics, cosmetics, and automotive)"
+            "반도체·IT 수요 회복으로 개선 중",
+            "다품종 수요 확대로 성장 중",
+            "상대적으로 완만한 성장세"
         ],
         "create_segments": false,
         "key_products": [
-            "Glycol Ether (GE), Glyme, Semiconductor/LCD cleaners",
-            "Surfactants (EOA), Special industrial emulsifiers (EM)"
+            "글리콜에테르(GE), 반도체·디스플레이 세정제",
+            "계면활성제(EOA), 전자·퍼스널케어용 첨가제",
+            "특수산업용 유화제(EM), 접착제·페인트·농약용 유화제"
         ],
         "competitors": [
-            "Other fine chemical manufacturers",
-            "Other fine chemical manufacturers"
+            "Dow, BASF, 롯데케미칼",
+            "동남합성, 글로벌 특수화학사",
+            "국내 유화제 전문업체"
         ]
     },
     "code": "011500",

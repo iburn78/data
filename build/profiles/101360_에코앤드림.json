@@ -1,22 +1,22 @@
 {
     "key": "101360",
     "filename": "101360_에코앤드림",
-    "updated": "2026-10-20 15:51",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:28",
     "financials": {
         "meta": {
             "name": "에코앤드림",
             "code": "101360",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:51",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 201.0,
+                "marcap": 197.0,
                 "revenue_4qtrs": 93.9,
                 "opincome_4qtrs": -12.4,
                 "revenue_qtr": 20.2,
@@ -43,12 +43,12 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.808,
-                "slope": 0.000175
+                "measure_to_base": 0.829,
+                "slope": 0.000181
             },
             "amount": {
-                "measure_to_base": 1.84,
-                "slope": 0.00736
+                "measure_to_base": 1.82,
+                "slope": 0.0129
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 0.912
                 },
                 "base_duration": {
-                    "alpha": -0.00327,
-                    "beta": 0.669
+                    "alpha": -0.00337,
+                    "beta": 0.667
                 },
                 "measure_duration": {
-                    "alpha": 0.0367,
-                    "beta": 1.65
+                    "alpha": 0.0387,
+                    "beta": 1.66
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:28",
         "search_theme": [
             "실적",
             "전망"
@@ -87,28 +87,40 @@
         "notes": "",
         "segments": [
             "이차전지소재",
-            "촉매소재"
+            "촉매소재",
+            "촉매시스템",
+            "기타 및 신사업"
         ],
         "revenue_share": [
-            0.8,
-            0.2
+            0.66,
+            0.22,
+            0.06,
+            0.06
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "전기차 시장 둔화로 단기 감소하나 비중국산 수요 증가로 회복 기대",
-            "정부 정책 변화로 실적 악화 및 하락세"
+            "growing (capacity expansion)",
+            "declining (policy changes)",
+            "volatile (policy dependent)",
+            "expanding (new business)"
         ],
         "create_segments": false,
         "key_products": [
-            "NCM 전구체 (NCM Precursor)",
-            "촉매소재 (Catalyst Materials)"
+            "NCM 전구체,하이-니켈 전구체",
+            "배출가스 저감용 촉매 입자",
+            "DPF,매연저감장치",
+            "전구체 리사이클링,건설기계 전동화 소재"
         ],
         "competitors": [
-            "EcoPro BM, LG Chem",
-            "BASF, Johnson Matthey"
+            "CNGR,Huayou Cobalt,Ronbay,Umicore,엘앤에프,에코프로비엠,포스코퓨처엠,코스모신소재",
+            "Umicore,Johnson Matthey,BASF",
+            "Umicore,Johnson Matthey,BASF",
+            "N/A"
         ]
     },
     "code": "101360",

@@ -1,22 +1,22 @@
 {
     "key": "071050",
     "filename": "071050_한국금융지주",
-    "updated": "2026-10-20 16:41",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 14:02",
     "financials": {
         "meta": {
             "name": "한국금융지주",
             "code": "071050",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:41",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 8740.0,
+                "marcap": 8390.0,
                 "revenue_4qtrs": 24000.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 5990.0,
@@ -28,7 +28,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:43",
+        "updated": "2026-10-21 14:02",
         "search_theme": [
             "실적",
             "전망"
@@ -36,35 +36,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "증권 (Securities)",
-            "자산운용 (Asset Management)",
-            "기타 금융 (Other Financial Services)"
+            "금융투자",
+            "자산운용 및 벤처투자",
+            "저축은행",
+            "기타 금융 (캐피탈/신탁)"
         ],
         "revenue_share": [
-            0.8,
-            0.1,
-            0.1
+            0.85,
+            0.07,
+            0.05,
+            0.03
         ],
         "opmargin": [
+            null,
             null,
             null,
             null
         ],
         "trend": [
-            "improving",
-            "stable",
-            "stable"
+            "강력한 증가세",
+            "회복 및 증가세",
+            "하락세 및 정체",
+            "수익성 악화 지속"
         ],
         "create_segments": false,
         "key_products": [
-            "위탁매매, 인수금융, 대체투자",
-            "펀드운용, 자산관리",
-            "소매금융, 리스, 할부금융"
+            "브로커리지, IB, 트레이딩, WM",
+            "ETF 운용, 스타트업 투자, PEF 투자",
+            "소매금융, 기업대출",
+            "여신전문금융, 부동산 신탁"
         ],
         "competitors": [
-            "미래에셋증권, NH투자증권, 삼성증권",
+            "미래에셋증권, NH투자증권, 삼성증권, 키움증권",
             "삼성자산운용, 미래에셋자산운용",
-            "기타 저축은행 및 캐피탈사"
+            "SBI저축은행, OK저축은행",
+            "한국투자캐피탈, 한국투자부동산신탁 관련 경쟁사"
         ]
     },
     "code": "071050",

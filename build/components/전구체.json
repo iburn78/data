@@ -1,22 +1,22 @@
 {
     "key": "전구체",
     "filename": "전구체",
-    "updated": "2026-10-20 16:19",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:22",
     "financials": {
         "meta": {
             "name": "전구체",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:19",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2760.0,
+                "marcap": 2570.0,
                 "revenue_4qtrs": 733.0,
                 "opincome_4qtrs": -14.5,
                 "revenue_qtr": 199.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.735,
-                "slope": -0.0000504
+                "measure_to_base": 0.744,
+                "slope": -0.000053
             },
             "amount": {
-                "measure_to_base": 1.56,
-                "slope": -0.883
+                "measure_to_base": 1.83,
+                "slope": -0.739
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00724,
-                    "beta": 0.807
+                    "alpha": 0.00722,
+                    "beta": 0.81
                 },
                 "base_duration": {
-                    "alpha": -0.00564,
-                    "beta": 0.624
+                    "alpha": -0.00599,
+                    "beta": 0.633
                 },
                 "measure_duration": {
-                    "alpha": 0.0108,
-                    "beta": 1.02
+                    "alpha": 0.0104,
+                    "beta": 1.12
                 }
             }
         },

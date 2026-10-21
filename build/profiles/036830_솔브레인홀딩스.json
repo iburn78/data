@@ -1,22 +1,22 @@
 {
     "key": "036830",
     "filename": "036830_솔브레인홀딩스",
-    "updated": "2026-10-20 15:57",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 17:18",
+    "llm_research_updated": "2026-10-21 11:38",
     "financials": {
         "meta": {
             "name": "솔브레인홀딩스",
             "code": "036830",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:57",
+            "updated": "2026-10-21 17:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 889.0,
+                "marcap": 830.0,
                 "revenue_4qtrs": 734.0,
                 "opincome_4qtrs": 46.9,
                 "revenue_qtr": 209.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0639
             },
             "PER": {
-                "PER_ltm": 18.9,
-                "PER_qx4": 6.97,
-                "PER_fwd": 7.44
+                "PER_ltm": 17.7,
+                "PER_qx4": 6.51,
+                "PER_fwd": 6.95
             },
             "volatility": {
-                "measure_to_base": 0.83,
-                "slope": -0.000112
+                "measure_to_base": 0.835,
+                "slope": -0.000111
             },
             "amount": {
-                "measure_to_base": 2.96,
-                "slope": -0.0608
+                "measure_to_base": 2.68,
+                "slope": -0.0542
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000385,
+                    "alpha": 0.000375,
                     "beta": 1.13
                 },
                 "base_duration": {
-                    "alpha": -0.00237,
-                    "beta": 0.649
+                    "alpha": -0.00233,
+                    "beta": 0.657
                 },
                 "measure_duration": {
-                    "alpha": 0.0117,
-                    "beta": 1.02
+                    "alpha": 0.0113,
+                    "beta": 1.11
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 11:38",
         "search_theme": [
             "실적",
             "전망"
@@ -86,13 +86,13 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체 및 전자재료",
             "2차전지",
+            "반도체/전자재료",
             "바이오헬스케어"
         ],
         "revenue_share": [
-            0.5,
-            0.3,
+            0.4,
+            0.4,
             0.2
         ],
         "opmargin": [
@@ -101,20 +101,20 @@
             null
         ],
         "trend": [
-            "improving (HBM/Packaging demand)",
-            "improving (EV/ESS capacity expansion)",
-            "improving (K-beauty growth)"
+            "Expanding (US/Hungary plants completed)",
+            "Improving (HBM/Packaging materials)",
+            "Growing (K-Beauty popularity)"
         ],
         "create_segments": false,
         "key_products": [
-            "Probe Card, HBM materials, Packaging materials, Glass substrate processing materials",
-            "Battery Electrolytes",
-            "Cosmetics, Bio-healthcare products"
+            "2차전지 전해액",
+            "반도체 Probe Card, 패키징 소재, 유리기판 가공소재",
+            "화장품 OEM/ODM, 바이오헬스케어 제품"
         ],
         "competitors": [
-            "Soulbrain, etc.",
-            "Global battery material firms",
-            "Cosmetics OEM/ODM firms"
+            "Soulbrain, Samsung SDI, LG Chem",
+            "Soulbrain, various semiconductor chemical suppliers",
+            "Cosmax, Kolmar Korea"
         ]
     },
     "code": "036830",

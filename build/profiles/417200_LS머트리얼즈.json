@@ -1,7 +1,7 @@
 {
     "key": "417200",
     "filename": "417200_LS머트리얼즈",
-    "updated": "2026-10-20 17:17",
+    "updated": "2026-10-21 17:20",
     "llm_research_updated": "2026-10-19 12:25",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "417200",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 17:17",
+            "updated": "2026-10-21 17:20",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 961.0,
+                "marcap": 888.0,
                 "revenue_4qtrs": 186.0,
                 "opincome_4qtrs": 1.03,
                 "revenue_qtr": 51.3,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.00555
             },
             "PER": {
-                "PER_ltm": 930.0,
-                "PER_qx4": 451.0,
-                "PER_fwd": 1550.0
+                "PER_ltm": 860.0,
+                "PER_qx4": 416.0,
+                "PER_fwd": 1430.0
             },
             "volatility": {
-                "measure_to_base": 0.911,
-                "slope": -0.000159
+                "measure_to_base": 0.928,
+                "slope": -0.000153
             },
             "amount": {
-                "measure_to_base": 3.42,
-                "slope": -0.797
+                "measure_to_base": 3.34,
+                "slope": -0.784
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00107,
-                    "beta": 0.95
+                    "alpha": -0.00113,
+                    "beta": 0.954
                 },
                 "base_duration": {
-                    "alpha": -0.00238,
-                    "beta": 0.754
+                    "alpha": -0.00364,
+                    "beta": 0.76
                 },
                 "measure_duration": {
-                    "alpha": 0.0163,
-                    "beta": 1.16
+                    "alpha": 0.0136,
+                    "beta": 1.25
                 }
             }
         },

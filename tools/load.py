@@ -44,7 +44,7 @@ def get_volumes():
 def get_name(code): 
     return str(df_krx.loc[code,'Name'])
 
-# also returns exact name too
+# Also returns the exact name.
 def get_code_from_name(name: str):
     # Exact match
     exact = df_krx[df_krx["Name"].eq(name)]
