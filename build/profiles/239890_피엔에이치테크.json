@@ -1,15 +1,15 @@
 {
     "key": "239890",
     "filename": "239890_피엔에이치테크",
-    "updated": "2026-10-20 14:17",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 15:01",
+    "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
             "name": "피엔에이치테크",
             "code": "239890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:17",
+            "updated": "2026-10-20 15:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-20 15:01",
         "search_theme": [
             "실적",
             "전망"
@@ -86,23 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "OLED 소재 및 원료 사업"
+            "OLED 소재 사업",
+            "OLED 원료 사업",
+            "상품 및 기타 사업"
         ],
         "revenue_share": [
-            1.0
+            0.98,
+            0.003,
+            0.017
         ],
         "opmargin": [
+            null,
+            null,
             null
         ],
         "trend": [
-            "IT OLED 확대로 성장 전망하나 단기적 수요 변동성 존재"
+            "declining due to demand volatility",
+            "stable",
+            "stable"
         ],
         "create_segments": false,
         "key_products": [
-            "고굴절 CPL 소재, 레드프라임, 레드호스트, 블루호스트, OLED 합성 촉매 및 원료"
+            "고굴절 CPL, 레드 프라임, 레드 호스트, 장수명 블루 호스트",
+            "팔라듐(Pd) 기반 촉매, 기초 유기 화학물질",
+            "OLED 관련 상품 매매"
         ],
         "competitors": [
-            "UDC, LG Chem, Samsung SDI, Merck"
+            "덕산네오룩스, UDC",
+            "기타 OLED 원료 제조사",
+            "N/A"
         ]
     },
     "code": "239890",

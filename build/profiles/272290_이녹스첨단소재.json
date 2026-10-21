@@ -1,15 +1,15 @@
 {
     "key": "272290",
     "filename": "272290_이녹스첨단소재",
-    "updated": "2026-10-20 14:15",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 15:01",
+    "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
             "name": "이녹스첨단소재",
             "code": "272290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:15",
+            "updated": "2026-10-20 15:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:41",
+        "updated": "2026-10-20 15:01",
         "search_theme": [
             "실적",
             "전망"
@@ -86,35 +86,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "IT/OLED 소재",
-            "반도체 패키지 소재",
-            "배터리 & 모빌리티 소재"
+            "OLED 소재 (INNOLED)",
+            "LCD 및 기타 소재 (SMARTFLEX)",
+            "반도체 소재 (INNOSEM)",
+            "배터리 소재 (이녹스리튬)"
         ],
         "revenue_share": [
-            0.6,
+            0.71,
             0.2,
-            0.2
+            0.08,
+            0.01
         ],
         "opmargin": [
+            null,
             null,
             null,
             null
         ],
         "trend": [
-            "declining due to competition and demand slowdown",
-            "improving due to AI and HBM demand",
-            "expanding as a new growth engine"
+            "improving",
+            "declining",
+            "stable",
+            "expanding"
         ],
         "create_segments": false,
         "key_products": [
-            "OLED 소재, 회로기판 소재",
-            "반도체 패키지 소재",
-            "수산화리튬, 이차전지 소재"
+            "OLED 봉지재, 기능성 필름",
+            "LCD 필름, 디지타이저 소재",
+            "반도체 패키징 소재, 공정용 소재",
+            "고순도 수산화리튬"
         ],
         "competitors": [
-            "중국 저가 패널 소재사",
-            "반도체 소재 전문사",
-            "배터리 소재 전문사"
+            "덕산네오룩스, 글로벌 화학 소재사",
+            "PI첨단소재, 글로벌 화학 소재사",
+            "국내외 반도체 패키징 소재사",
+            "글로벌 리튬 생산 기업"
         ]
     },
     "code": "272290",

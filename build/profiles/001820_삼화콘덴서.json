@@ -1,15 +1,15 @@
 {
     "key": "001820",
     "filename": "001820_삼화콘덴서",
-    "updated": "2026-10-20 14:11",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 15:00",
+    "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
             "name": "삼화콘덴서",
             "code": "001820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:11",
+            "updated": "2026-10-20 15:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:41",
+        "updated": "2026-10-20 15:00",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "세라믹 콘덴서 사업",
-            "필름 콘덴서 사업"
+            "MLCC 사업",
+            "전기차용 필름 콘덴서 사업",
+            "산업용 필름 콘덴서 사업",
+            "단층 세라믹 콘덴서 사업"
         ],
         "revenue_share": [
-            0.7,
-            0.3
+            0.461,
+            0.195,
+            0.151,
+            0.193
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "improving (due to AI and On-device AI)",
-            "improving (due to EV/SiC power semiconductors)"
+            "AI 서버 및 전장 수요로 회복세",
+            "전기차 플랫폼 공급 확대로 상승세",
+            "국내 독점적 지위로 안정적",
+            "범용 제품 중심으로 정체 또는 하락"
         ],
         "create_segments": false,
         "key_products": [
-            "MLCC (적층형 콘덴서), 단층 세라믹 콘덴서",
-            "필름 콘덴서 (전장용 및 산업용)"
+            "MLCC (적층 세라믹 콘덴서)",
+            "DC-Link (전기차용 필름 콘덴서)",
+            "FC (산업용 필름 콘덴서)",
+            "DCC (단층 세라믹 콘덴서)"
         ],
         "competitors": [
-            "Murata, Samsung Electro-Mechanics, TDK",
-            "TDK, Vishay, KEMET"
+            "무라타, TDK, 삼성전기",
+            "일본 및 중국 필름 콘덴서 업체",
+            "일본 및 중국 필름 콘덴서 업체",
+            "삼성전기, 글로벌 수동부품 업체"
         ]
     },
     "code": "001820",

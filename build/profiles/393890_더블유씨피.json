@@ -1,15 +1,15 @@
 {
     "key": "393890",
     "filename": "393890_더블유씨피",
-    "updated": "2026-10-20 09:00",
-    "llm_research_updated": "",
+    "updated": "2026-10-20 16:01",
+    "llm_research_updated": "2026-10-20 16:01",
     "financials": {
         "meta": {
             "name": "더블유씨피",
             "code": "393890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 09:00",
+            "updated": "2026-10-20 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-20 16:01",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "EV 분리막 사업",
+            "전기차(EV) 분리막 사업",
+            "원통형 배터리 분리막 사업",
             "ESS 분리막 사업"
         ],
         "revenue_share": [
-            0.6,
-            0.4
+            0.8,
+            0.1,
+            0.1
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "facing demand slowdown",
-            "improving/driving growth"
+            "declining due to EV demand slowdown",
+            "growth potential through new clients",
+            "improving and driving overall revenue"
         ],
         "create_segments": false,
         "key_products": [
-            "EV용 습식 분리막, CCS",
+            "EV용 습식 분리막",
+            "46시리즈 원통형 분리막",
             "ESS용 분리막"
         ],
         "competitors": [
-            "SK IE Technology, Asahi Kasei, Toray",
-            "삼성SDI, LG에너지솔루션, SK온 (as potential competitors in system integration/supply)"
+            "SKIET, Asahi Kasei",
+            "SKIET, Asahi Kasei",
+            "SKIET, Asahi Kasei"
         ]
     },
     "code": "393890",
@@ -120,17 +126,17 @@
         "updated": "2026-10-07"
     },
     "news": {
-        "updated": "2026-10-17 12:53",
+        "updated": "2026-10-20 15:27",
         "key_facts": [
-            "2026년 2분기 매출 362억 원, 영업손실 155억 원을 기록했으나, 전년 동기 대비 손실 폭이 축소되었으며 당기순이익은 9억 원으로 흑자 전환함.",
-            "삼성SDI가 기존 펀드를 통해 간접 보유하던 지분 114만 6,762주(3.39%)를 직접 취득하여 투자 구조를 단순화함.",
-            "삼성SDI와 2027년까지 약 40억㎡ 규모의 분리막 장기 공급 계약을 체결하여 현재 주력 배터리에 공급 중임.",
-            "2026년 3분기 말부터 삼성SDI 및 SK온의 ESS용 리튬인산철(LFP) 배터리에 분리막을 공급할 예정임.",
-            "최근 한 달간 증권가의 영업이익 컨센서스가 유의미하게 상향된 대표 종목으로 제시됨."
+            "2026년 2분기 매출 362억 원, 영업손실 155억 원을 기록했으나 전년 동기 대비 손실 폭이 축소되었고 당기순이익은 9억 원으로 흑자 전환함.",
+            "삼성SDI가 SVIC49호 조합을 통해 간접 보유하던 지분 114만 6,762주(3.39%)를 직접 취득하며 투자 구조를 단순화함.",
+            "삼성SDI와 2027년까지 약 40억㎡ 규모의 분리막 장기 공급 계약을 체결했으며, 현재 주력 배터리에 제품을 공급 중임.",
+            "2026년 3분기 말부터 삼성SDI 및 SK온의 ESS용 LFP 배터리에 분리막을 공급할 예정이며, 삼성SDI의 미국 인디애나주 LFP 라인에도 적용될 전망임.",
+            "최근 한 달간 증권가의 영업이익 컨센서스가 유의미하게 상향된 종목으로 분석됨."
         ],
         "key_issues": [
-            "전략 고객의 유럽 전기차 수요 공백으로 인한 판매 감소 및 분리막 사업의 고정비 부담과 가동률에 따른 수익성 변동 리스크가 있음."
+            "전략 고객의 유럽 전기차 수요 공백으로 인한 판매 감소 및 분리막 사업의 고정비 부담에 따른 수익성 변동 리스크가 존재함."
         ],
-        "news_summary": "더블유씨피는 2026년 2분기 영업적자가 지속되었으나 손실 폭을 줄였으며, 삼성SDI와의 지분 구조 단순화 및 장기 공급 관계를 통해 협력을 강화하고 있습니다. 3분기 ESS용 LFP 배터리 공급 본격화와 헝가리 라인 준비를 통해 실적 반등을 꾀하고 있으며, 최근 시장의 실적 기대치(컨센서스)가 상향되었습니다."
+        "news_summary": "더블유씨피는 2026년 2분기 영업적자가 지속되었으나 손실 폭을 줄였으며, 삼성SDI의 지분 직접 소유 전환을 통해 파트너십을 강화했습니다. ESS용 LFP 배터리 분리막 공급 확대와 헝가리 라인 가동 준비를 통해 실적 반등을 꾀하고 있으며, 최근 시장의 영업이익 전망치가 상향되었습니다."
     }
 }
