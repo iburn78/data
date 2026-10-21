@@ -1,7 +1,7 @@
 {
     "key": "105560",
     "filename": "105560_KB금융",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-21 17:58",
     "llm_research_updated": "2026-10-21 13:26",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "105560",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-21 17:58",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 13:26",
+        "reviewed": true,
+        "updated": "2026-10-21 17:58",
         "search_theme": [
             "실적",
             "전망"
@@ -47,12 +47,7 @@
             0.1,
             0.1
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "Stable to slightly declining NIM but growing assets",
             "Recovering with growth in brokerage and WM fees",
