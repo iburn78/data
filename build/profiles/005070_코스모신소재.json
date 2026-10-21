@@ -1,7 +1,7 @@
 {
     "key": "005070",
     "filename": "005070_코스모신소재",
-    "updated": "2026-10-20 15:38",
+    "updated": "2026-10-21 10:21",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "005070",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:38",
+            "updated": "2026-10-21 10:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1470.0,
+                "marcap": 1410.0,
                 "revenue_4qtrs": 515.0,
                 "opincome_4qtrs": 10.9,
                 "revenue_qtr": 138.0,
@@ -38,17 +38,17 @@
                 "4qtrs": 0.0211
             },
             "PER": {
-                "PER_ltm": 136.0,
-                "PER_qx4": 79.2,
-                "PER_fwd": 99.3
+                "PER_ltm": 130.0,
+                "PER_qx4": 75.9,
+                "PER_fwd": 95.1
             },
             "volatility": {
-                "measure_to_base": 0.728,
-                "slope": -0.0000126
+                "measure_to_base": 0.738,
+                "slope": -0.0000229
             },
             "amount": {
-                "measure_to_base": 2.77,
-                "slope": -0.138
+                "measure_to_base": 2.94,
+                "slope": -0.113
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 1.15
                 },
                 "base_duration": {
-                    "alpha": -0.00186,
-                    "beta": 0.759
+                    "alpha": -0.00207,
+                    "beta": 0.761
                 },
                 "measure_duration": {
-                    "alpha": 0.0108,
-                    "beta": 0.836
+                    "alpha": 0.0114,
+                    "beta": 0.894
                 }
             }
         },

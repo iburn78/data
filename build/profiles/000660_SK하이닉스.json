@@ -1,7 +1,7 @@
 {
     "key": "000660",
     "filename": "000660_SK하이닉스",
-    "updated": "2026-10-20 14:47",
+    "updated": "2026-10-21 09:47",
     "llm_research_updated": "2026-10-19 09:39",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "000660",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:47",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 952000.0,
+                "marcap": 893000.0,
                 "revenue_4qtrs": 244000.0,
                 "opincome_4qtrs": 178000.0,
                 "revenue_qtr": 79300.0,
@@ -38,29 +38,29 @@
                 "4qtrs": 0.729
             },
             "PER": {
-                "PER_ltm": 5.35,
-                "PER_qx4": 3.93,
-                "PER_fwd": 3.18
+                "PER_ltm": 5.02,
+                "PER_qx4": 3.69,
+                "PER_fwd": 2.99
             },
             "volatility": {
-                "measure_to_base": 0.587,
-                "slope": -0.0000257
+                "measure_to_base": 0.592,
+                "slope": -0.0000377
             },
             "amount": {
-                "measure_to_base": 0.836,
-                "slope": -56.2
+                "measure_to_base": 0.859,
+                "slope": -60.6
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00108,
+                    "alpha": 0.00107,
                     "beta": 1.46
                 },
                 "base_duration": {
-                    "alpha": 0.0028,
+                    "alpha": 0.00284,
                     "beta": 1.56
                 },
                 "measure_duration": {
-                    "alpha": -0.00333,
+                    "alpha": -0.00394,
                     "beta": 1.49
                 }
             }

@@ -1,7 +1,7 @@
 {
     "key": "272290",
     "filename": "272290_이녹스첨단소재",
-    "updated": "2026-10-20 15:01",
+    "updated": "2026-10-21 09:51",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "272290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:01",
+            "updated": "2026-10-21 09:51",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 392.0,
+                "marcap": 380.0,
                 "revenue_4qtrs": 415.0,
                 "opincome_4qtrs": 50.5,
                 "revenue_qtr": 109.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.122
             },
             "PER": {
-                "PER_ltm": 7.77,
-                "PER_qx4": 9.38,
-                "PER_fwd": 13.1
+                "PER_ltm": 7.52,
+                "PER_qx4": 9.08,
+                "PER_fwd": 12.7
             },
             "volatility": {
-                "measure_to_base": 0.639,
-                "slope": -0.000192
+                "measure_to_base": 0.665,
+                "slope": -0.000194
             },
             "amount": {
-                "measure_to_base": 1.33,
-                "slope": -0.106
+                "measure_to_base": 1.42,
+                "slope": -0.101
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000246,
-                    "beta": 0.985
+                    "alpha": -0.000243,
+                    "beta": 0.984
                 },
                 "base_duration": {
-                    "alpha": -0.00417,
-                    "beta": 0.644
+                    "alpha": -0.00406,
+                    "beta": 0.645
                 },
                 "measure_duration": {
-                    "alpha": 0.00657,
-                    "beta": 1.04
+                    "alpha": 0.00594,
+                    "beta": 1.03
                 }
             }
         },
@@ -70,9 +70,9 @@
             "financially_sound": false,
             "PER_level": "Mid",
             "volatility_movement": "Dn",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "confidence",
             "category": "D"
         }
     },

@@ -1,22 +1,22 @@
 {
     "key": "081180",
     "filename": "081180_쎄크",
-    "updated": "2026-10-20 14:50",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 09:47",
+    "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
             "name": "쎄크",
             "code": "081180",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:50",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 52.7,
+                "marcap": 50.0,
                 "revenue_4qtrs": 47.6,
                 "opincome_4qtrs": -10.5,
                 "revenue_qtr": 7.55,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.865,
-                "slope": -8.73e-6
+                "measure_to_base": 0.875,
+                "slope": -0.0000104
             },
             "amount": {
-                "measure_to_base": 3.02,
-                "slope": -0.0248
+                "measure_to_base": 2.54,
+                "slope": -0.0239
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00305,
-                    "beta": 0.777
+                    "alpha": -0.00312,
+                    "beta": 0.779
                 },
                 "base_duration": {
-                    "alpha": -0.00568,
-                    "beta": 0.74
+                    "alpha": -0.00585,
+                    "beta": 0.744
                 },
                 "measure_duration": {
-                    "alpha": 0.00992,
-                    "beta": 0.811
+                    "alpha": 0.0085,
+                    "beta": 0.871
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:41",
+        "updated": "2026-10-21 09:47",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "검사 솔루션",
-            "부품 및 신규사업"
+            "반도체 사업부",
+            "배터리 사업부",
+            "방산 사업부",
+            "분석기기(SEM) 사업부"
         ],
         "revenue_share": [
-            0.6,
-            0.4
+            0.36,
+            0.32,
+            0.17,
+            0.07
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "stable",
-            "declining"
+            "유지 및 소폭 정체",
+            "완만한 회복세 (캐즘 영향)",
+            "강한 성장세 예상 (수주 잔고 높음)",
+            "소폭 성장"
         ],
         "create_segments": false,
         "key_products": [
-            "X-ray Tube, X-ray System",
-            "Semi-scan series, In-line X-ray System"
+            "반도체 기판/전극 결함 검사용 X-ray System",
+            "배터리 셀 내부 검사용 X-ray System, 인라인 X-ray System",
+            "LINAC(선형가속기) System",
+            "Tabletop SEM(탁상형 주사전자현미경)"
         ],
         "competitors": [
-            "Unknown",
-            "Unknown"
+            "글로벌 X-ray 장비사, 국내 반도체 후공정 검사장비사",
+            "글로벌 X-ray 장비사",
+            "국내외 고에너지 가속기 제조사",
+            "ZEISS, Thermo Fisher"
         ]
     },
     "code": "081180",

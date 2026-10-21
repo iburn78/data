@@ -1,7 +1,7 @@
 {
     "key": "MLCC",
     "filename": "MLCC",
-    "updated": "2026-10-20 15:13",
+    "updated": "2026-10-21 09:50",
     "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:13",
+            "updated": "2026-10-21 09:50",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 92000.0,
+                "marcap": 87500.0,
                 "revenue_4qtrs": 13300.0,
                 "opincome_4qtrs": 1420.0,
                 "revenue_qtr": 3540.0,
@@ -46,29 +46,29 @@
                 "4qtrs": 0.107
             },
             "PER": {
-                "PER_ltm": 64.7,
-                "PER_qx4": 51.2,
-                "PER_fwd": 45.0
+                "PER_ltm": 61.5,
+                "PER_qx4": 48.7,
+                "PER_fwd": 42.8
             },
             "volatility": {
-                "measure_to_base": 0.564,
-                "slope": -0.000112
+                "measure_to_base": 0.584,
+                "slope": -0.000124
             },
             "amount": {
-                "measure_to_base": 1.0,
-                "slope": -9.71
+                "measure_to_base": 1.04,
+                "slope": -10.3
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00088,
+                    "alpha": 0.000879,
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": 0.00653,
+                    "alpha": 0.00615,
                     "beta": 1.3
                 },
                 "measure_duration": {
-                    "alpha": 0.00742,
+                    "alpha": 0.00889,
                     "beta": 1.64
                 }
             }

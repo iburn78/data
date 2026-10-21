@@ -1,22 +1,22 @@
 {
     "key": "006400",
     "filename": "006400_삼성SDI",
-    "updated": "2026-10-20 15:30",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 10:19",
+    "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
             "name": "삼성SDI",
             "code": "006400",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:30",
+            "updated": "2026-10-21 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 47200.0,
+                "marcap": 44800.0,
                 "revenue_4qtrs": 15000.0,
                 "opincome_4qtrs": -47.2,
                 "revenue_qtr": 3770.0,
@@ -39,29 +39,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 57.9,
-                "PER_fwd": 71.7
+                "PER_qx4": 55.0,
+                "PER_fwd": 68.0
             },
             "volatility": {
-                "measure_to_base": 0.764,
-                "slope": -0.000112
+                "measure_to_base": 0.77,
+                "slope": -0.000116
             },
             "amount": {
-                "measure_to_base": 1.7,
-                "slope": -3.69
+                "measure_to_base": 1.59,
+                "slope": -3.12
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000491,
+                    "alpha": 0.000486,
                     "beta": 1.04
                 },
                 "base_duration": {
-                    "alpha": 0.000422,
-                    "beta": 0.656
+                    "alpha": 0.0000426,
+                    "beta": 0.66
                 },
                 "measure_duration": {
-                    "alpha": 0.00897,
-                    "beta": 0.576
+                    "alpha": 0.0083,
+                    "beta": 0.661
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 10:19",
         "search_theme": [
             "실적",
             "전망"
@@ -94,21 +94,21 @@
             0.06
         ],
         "opmargin": [
-            null,
-            null
+            0.017,
+            0.252
         ],
         "trend": [
-            "improving (demand increase in EV/ESS)",
-            "stable"
+            "EV 수요 둔화 및 ESS 성장 혼조세",
+            "고부가 OLED 소재 중심 증가세"
         ],
         "create_segments": false,
         "key_products": [
-            "리튬이온 2차전지, ESS, 46파이 원형전지, BBU, 전고체배터리",
-            "반도체 소재, 디스플레이 소재"
+            "EV 배터리, ESS(SBB), 소형전지(원형/파우치)",
+            "반도체 소재, OLED 소재"
         ],
         "competitors": [
-            "CATL, BYD, SK On, Samsung SDI",
-            "Sumitomo Chemical, Merck"
+            "LG에너지솔루션, SK온, CATL, BYD",
+            "화학/소재 전문 기업"
         ]
     },
     "code": "006400",

@@ -1,22 +1,22 @@
 {
     "key": "441270",
     "filename": "441270_파인엠텍",
-    "updated": "2026-10-20 14:25",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 10:18",
+    "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
             "name": "파인엠텍",
             "code": "441270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:25",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 401.0,
+                "marcap": 402.0,
                 "revenue_4qtrs": 298.0,
                 "opincome_4qtrs": 10.5,
                 "revenue_qtr": 95.2,
@@ -43,25 +43,25 @@
                 "PER_fwd": 11.5
             },
             "volatility": {
-                "measure_to_base": 0.801,
-                "slope": 0.00023
+                "measure_to_base": 0.786,
+                "slope": 0.000219
             },
             "amount": {
-                "measure_to_base": 0.83,
-                "slope": 0.0693
+                "measure_to_base": 0.84,
+                "slope": 0.0727
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000165,
-                    "beta": 0.822
+                    "alpha": -0.000129,
+                    "beta": 0.819
                 },
                 "base_duration": {
-                    "alpha": -0.0000129,
-                    "beta": 0.677
+                    "alpha": 0.000385,
+                    "beta": 0.672
                 },
                 "measure_duration": {
-                    "alpha": 0.0062,
-                    "beta": 0.526
+                    "alpha": 0.00575,
+                    "beta": 0.487
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 10:18",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "모바일 기기부품",
-            "에너지 저장장치(ESS) 부품"
+            "내장 힌지 사업부",
+            "외장 힌지 사업부",
+            "EV 부품 사업부"
         ],
         "revenue_share": [
-            0.8,
-            0.2
+            0.964,
+            0.001,
+            0.035
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "improving",
-            "growing"
+            "stable",
+            "rapidly growing",
+            "expanding"
         ],
         "create_segments": false,
         "key_products": [
-            "폴더블 디스플레이 모듈, 정밀 기구부품",
-            "ESS 전용 End-Plate, 정밀부품"
+            "내장 힌지, 백플레이트",
+            "외장 힌지",
+            "EV 배터리 모듈 하우징, ESS End-Plate"
         ],
         "competitors": [
-            "글로벌 스마트폰 부품사",
-            "ESS 부품 제조사"
+            "글로벌 폴더블 힌지 제조사, 정밀 금형 업체",
+            "글로벌 폴더블 힌지 제조사, 정밀 금형 업체",
+            "배터리 케이스 및 하우징 제조사"
         ]
     },
     "code": "441270",

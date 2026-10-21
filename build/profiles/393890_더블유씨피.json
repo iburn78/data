@@ -1,7 +1,7 @@
 {
     "key": "393890",
     "filename": "393890_더블유씨피",
-    "updated": "2026-10-20 16:01",
+    "updated": "2026-10-21 10:18",
     "llm_research_updated": "2026-10-20 16:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "393890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:01",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 351.0,
+                "marcap": 331.0,
                 "revenue_4qtrs": 143.0,
                 "opincome_4qtrs": -91.7,
                 "revenue_qtr": 36.2,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.992,
-                "slope": -0.00015
+                "measure_to_base": 0.997,
+                "slope": -0.000153
             },
             "amount": {
-                "measure_to_base": 1.88,
-                "slope": -0.173
+                "measure_to_base": 2.11,
+                "slope": -0.153
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00149,
-                    "beta": 0.831
+                    "alpha": -0.00154,
+                    "beta": 0.837
                 },
                 "base_duration": {
-                    "alpha": -0.00324,
-                    "beta": 0.512
+                    "alpha": -0.00429,
+                    "beta": 0.523
                 },
                 "measure_duration": {
-                    "alpha": 0.0136,
-                    "beta": 1.14
+                    "alpha": 0.0132,
+                    "beta": 1.29
                 }
             }
         },

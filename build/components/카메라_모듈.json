@@ -1,22 +1,22 @@
 {
     "key": "카메라 모듈",
     "filename": "카메라_모듈",
-    "updated": "2026-10-20 15:10",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 09:48",
+    "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
             "name": "카메라 모듈",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:10",
+            "updated": "2026-10-21 09:48",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 99400.0,
+                "marcap": 94600.0,
                 "revenue_4qtrs": 34700.0,
                 "opincome_4qtrs": 2260.0,
                 "revenue_qtr": 8440.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0651
             },
             "PER": {
-                "PER_ltm": 44.0,
-                "PER_qx4": 40.3,
-                "PER_fwd": 36.7
+                "PER_ltm": 41.9,
+                "PER_qx4": 38.4,
+                "PER_fwd": 34.9
             },
             "volatility": {
-                "measure_to_base": 0.576,
-                "slope": -0.0000874
+                "measure_to_base": 0.596,
+                "slope": -0.0000985
             },
             "amount": {
-                "measure_to_base": 1.02,
-                "slope": -12.8
+                "measure_to_base": 1.07,
+                "slope": -13.4
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000714,
+                    "alpha": 0.000713,
                     "beta": 1.24
                 },
                 "base_duration": {
-                    "alpha": 0.00594,
+                    "alpha": 0.00542,
                     "beta": 1.28
                 },
                 "measure_duration": {
-                    "alpha": 0.00698,
-                    "beta": 1.61
+                    "alpha": 0.00834,
+                    "beta": 1.62
                 }
             }
         },

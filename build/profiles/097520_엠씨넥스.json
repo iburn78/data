@@ -1,22 +1,22 @@
 {
     "key": "097520",
     "filename": "097520_엠씨넥스",
-    "updated": "2026-10-20 14:30",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 09:47",
+    "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
             "name": "엠씨넥스",
             "code": "097520",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:30",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 313.0,
+                "marcap": 310.0,
                 "revenue_4qtrs": 1190.0,
                 "opincome_4qtrs": 24.0,
                 "revenue_qtr": 295.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0201
             },
             "PER": {
-                "PER_ltm": 13.0,
-                "PER_qx4": 35.7,
+                "PER_ltm": 12.9,
+                "PER_qx4": 35.4,
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.738,
-                "slope": -0.0000991
+                "measure_to_base": 0.742,
+                "slope": -0.000101
             },
             "amount": {
-                "measure_to_base": 1.2,
-                "slope": -0.011
+                "measure_to_base": 1.24,
+                "slope": -0.0114
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000609,
-                    "beta": 0.824
+                    "alpha": -0.0000515,
+                    "beta": 0.822
                 },
                 "base_duration": {
-                    "alpha": -0.00186,
-                    "beta": 0.42
+                    "alpha": -0.00176,
+                    "beta": 0.418
                 },
                 "measure_duration": {
-                    "alpha": 0.00123,
-                    "beta": 0.518
+                    "alpha": 0.00151,
+                    "beta": 0.496
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:41",
+        "updated": "2026-10-21 09:47",
         "search_theme": [
             "실적",
             "전망"
@@ -86,35 +86,29 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "휴대폰용 카메라모듈",
-            "자동차용 카메라모듈",
-            "기타 영상 모듈 (생체인식/로봇/CCTV)"
+            "모바일(Mobile)",
+            "전장(Automotive)"
         ],
         "revenue_share": [
-            0.6,
-            0.3,
-            0.1
+            0.67,
+            0.33
         ],
         "opmargin": [
-            null,
             null,
             null
         ],
         "trend": [
-            "declining due to market maturity and competition",
-            "improving due to ADAS and autonomous driving",
-            "expanding into new applications"
+            "declining, facing stronger competition",
+            "improving, growth due to ADAS expansion"
         ],
         "create_segments": false,
         "key_products": [
-            "Mobile Camera Modules, Premium Zoom Modules",
-            "ADAS Camera Modules, Front/Rear Vehicle Cameras",
-            "Biometric Modules, Robot/CCTV/3D Camera Modules"
+            "스마트폰용 카메라 모듈, AF/OIS 구동계",
+            "차량용 카메라 모듈, 생체인식 모듈, ADAS 카메라"
         ],
         "competitors": [
-            "LG Innotek, Samsung Electro-Mechanics",
-            "LG Innotek, Magna International, Continental",
-            "Hikvision, Hanwha Vision"
+            "삼성전기, 파트론, 파워로직스, 캠시스, 나무가",
+            "삼성전기, 글로벌 전장 부품사"
         ]
     },
     "code": "097520",

@@ -1,7 +1,7 @@
 {
     "key": "011070(C)",
     "filename": "011070(C)_모빌리티솔루션",
-    "updated": "2026-10-20 15:08",
+    "updated": "2026-10-21 09:47",
     "llm_research_updated": "2026-10-19 17:47",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "011070",
             "segment_name": "모빌리티솔루션",
             "id": "C",
-            "updated": "2026-10-20 15:08",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 910.0,
+                "marcap": 867.0,
                 "revenue_4qtrs": 2180.0,
                 "opincome_4qtrs": 69.7,
                 "revenue_qtr": 497.0,
@@ -38,29 +38,29 @@
                 "4qtrs": 0.032
             },
             "PER": {
-                "PER_ltm": 13.1,
-                "PER_qx4": 14.3,
-                "PER_fwd": 13.6
+                "PER_ltm": 12.4,
+                "PER_qx4": 13.6,
+                "PER_fwd": 13.0
             },
             "volatility": {
-                "measure_to_base": 0.807,
-                "slope": -0.000183
+                "measure_to_base": 0.829,
+                "slope": -0.000189
             },
             "amount": {
-                "measure_to_base": 1.26,
-                "slope": -0.347
+                "measure_to_base": 1.4,
+                "slope": -0.364
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000455,
+                    "alpha": 0.000454,
                     "beta": 1.18
                 },
                 "base_duration": {
-                    "alpha": 0.00269,
+                    "alpha": 0.0012,
                     "beta": 1.1
                 },
                 "measure_duration": {
-                    "alpha": 0.00244,
+                    "alpha": 0.00254,
                     "beta": 1.31
                 }
             }
@@ -70,7 +70,7 @@
             "financially_sound": false,
             "PER_level": "High",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "D"

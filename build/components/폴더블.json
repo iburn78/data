@@ -1,22 +1,22 @@
 {
     "key": "폴더블",
     "filename": "폴더블",
-    "updated": "2026-10-20 14:25",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 10:18",
+    "llm_research_updated": "2026-10-21 10:17",
     "financials": {
         "meta": {
             "name": "폴더블",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:25",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 791.0,
+                "marcap": 792.0,
                 "revenue_4qtrs": 924.0,
                 "opincome_4qtrs": 29.5,
                 "revenue_qtr": 285.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0319
             },
             "PER": {
-                "PER_ltm": 26.8,
+                "PER_ltm": 26.9,
                 "PER_qx4": 12.7,
-                "PER_fwd": 13.5
+                "PER_fwd": 13.6
             },
             "volatility": {
-                "measure_to_base": 0.678,
-                "slope": 0.0000734
+                "measure_to_base": 0.676,
+                "slope": 0.0000671
             },
             "amount": {
-                "measure_to_base": 0.843,
-                "slope": 0.0332
+                "measure_to_base": 0.855,
+                "slope": 0.0361
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000463,
-                    "beta": 0.991
+                    "alpha": 0.000479,
+                    "beta": 0.989
                 },
                 "base_duration": {
-                    "alpha": -0.00109,
-                    "beta": 0.607
+                    "alpha": -0.000796,
+                    "beta": 0.603
                 },
                 "measure_duration": {
-                    "alpha": 0.00544,
-                    "beta": 0.686
+                    "alpha": 0.00561,
+                    "beta": 0.635
                 }
             }
         },

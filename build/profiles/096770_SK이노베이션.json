@@ -1,7 +1,7 @@
 {
     "key": "096770",
     "filename": "096770_SK이노베이션",
-    "updated": "2026-10-20 15:30",
+    "updated": "2026-10-21 10:19",
     "llm_research_updated": "2026-10-19 17:49",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "096770",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:30",
+            "updated": "2026-10-21 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 27300.0,
+                "marcap": 25000.0,
                 "revenue_4qtrs": 102000.0,
                 "opincome_4qtrs": 9470.0,
                 "revenue_qtr": 29200.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.093
             },
             "PER": {
-                "PER_ltm": 2.88,
-                "PER_qx4": 1.95,
-                "PER_fwd": 1.57
+                "PER_ltm": 2.64,
+                "PER_qx4": 1.79,
+                "PER_fwd": 1.44
             },
             "volatility": {
-                "measure_to_base": 0.921,
-                "slope": 0.000217
+                "measure_to_base": 0.916,
+                "slope": 0.00021
             },
             "amount": {
-                "measure_to_base": 0.928,
-                "slope": 0.595
+                "measure_to_base": 0.939,
+                "slope": 0.617
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000621,
-                    "beta": 0.884
+                    "alpha": 0.000042,
+                    "beta": 0.887
                 },
                 "base_duration": {
-                    "alpha": 0.00266,
-                    "beta": 0.168
+                    "alpha": 0.00201,
+                    "beta": 0.182
                 },
                 "measure_duration": {
-                    "alpha": 0.0116,
-                    "beta": 0.263
+                    "alpha": 0.0086,
+                    "beta": 0.428
                 }
             }
         },

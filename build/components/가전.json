@@ -1,7 +1,7 @@
 {
     "key": "가전",
     "filename": "가전",
-    "updated": "2026-10-20 14:01",
+    "updated": "2026-10-21 09:47",
     "llm_research_updated": "2026-10-20 14:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:01",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 126000.0,
+                "marcap": 120000.0,
                 "revenue_4qtrs": 101000.0,
                 "opincome_4qtrs": 4970.0,
                 "revenue_qtr": 27600.0,
@@ -46,29 +46,29 @@
                 "4qtrs": 0.0494
             },
             "PER": {
-                "PER_ltm": 25.4,
-                "PER_qx4": 24.1,
-                "PER_fwd": 22.8
+                "PER_ltm": 24.2,
+                "PER_qx4": 23.0,
+                "PER_fwd": 21.8
             },
             "volatility": {
-                "measure_to_base": 0.588,
-                "slope": -0.0000487
+                "measure_to_base": 0.598,
+                "slope": -0.0000579
             },
             "amount": {
-                "measure_to_base": 1.06,
-                "slope": -7.76
+                "measure_to_base": 1.11,
+                "slope": -8.15
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000258,
+                    "alpha": 0.000256,
                     "beta": 1.12
                 },
                 "base_duration": {
-                    "alpha": 0.00187,
+                    "alpha": 0.00194,
                     "beta": 1.21
                 },
                 "measure_duration": {
-                    "alpha": 0.00342,
+                    "alpha": 0.00303,
                     "beta": 1.24
                 }
             }

@@ -1,22 +1,22 @@
 {
     "key": "053450",
     "filename": "053450_세코닉스",
-    "updated": "2026-10-20 15:10",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 09:48",
+    "llm_research_updated": "2026-10-21 09:48",
     "financials": {
         "meta": {
             "name": "세코닉스",
             "code": "053450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:10",
+            "updated": "2026-10-21 09:48",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 50.7,
+                "marcap": 49.6,
                 "revenue_4qtrs": 397.0,
                 "opincome_4qtrs": -68.8,
                 "revenue_qtr": 97.6,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.718,
-                "slope": 0.0000664
+                "measure_to_base": 0.749,
+                "slope": 0.0000684
             },
             "amount": {
-                "measure_to_base": 2.32,
-                "slope": -0.00311
+                "measure_to_base": 2.38,
+                "slope": -0.00315
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000696,
-                    "beta": 0.877
+                    "alpha": -0.000691,
+                    "beta": 0.876
                 },
                 "base_duration": {
-                    "alpha": -0.00329,
-                    "beta": 0.361
+                    "alpha": -0.00342,
+                    "beta": 0.362
                 },
                 "measure_duration": {
-                    "alpha": 0.00742,
-                    "beta": -0.107
+                    "alpha": 0.0061,
+                    "beta": -0.0463
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:41",
+        "updated": "2026-10-21 09:48",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "모바일 광학부품",
-            "전장 광학부품"
+            "차량용 카메라 렌즈 및 모듈",
+            "차량용 램프",
+            "모바일 카메라 렌즈",
+            "광학 필름 및 기타"
         ],
         "revenue_share": [
-            0.4,
-            0.6
+            0.32,
+            0.52,
+            0.1,
+            0.06
         ],
         "opmargin": [
+            null,
+            null,
             null,
             null
         ],
         "trend": [
-            "stable",
-            "declining short-term, growing long-term (ADAS/Autonomous)"
+            "성장 전망 (ADAS/자율주행 확산)",
+            "수익성 부진 및 변동성 확대",
+            "비중 축소 추세",
+            "사업 다각화 추진 중 (AI 카메라 등)"
         ],
         "create_segments": false,
         "key_products": [
-            "모바일 카메라 렌즈, 모듈, Watch 심박센서 필름",
-            "차량용 카메라 모듈, 차량용 램프, 광학부품, 시인성개선 필름"
+            "ADAS 렌즈 및 모듈, 서라운드 뷰, DMS 모듈",
+            "헤드램프, 차량용 조명 부품",
+            "스마트폰용 카메라 렌즈",
+            "시인성 개선 필름, Watch용 심박센서 필름"
         ],
         "competitors": [
-            "LG Innotek, Samsung Electro-Mechanics",
-            "Continental, Magna, Valeo"
+            "LG이노텍, 삼성전기, 파트론",
+            "글로벌 자동차 조명 부품사",
+            "LG이노텍, 삼성전기, 파트론",
+            "광학 필름 전문 기업"
         ]
     },
     "code": "053450",

@@ -1,7 +1,7 @@
 {
     "key": "011070",
     "filename": "011070_LG이노텍",
-    "updated": "2026-10-20 15:08",
+    "updated": "2026-10-21 09:47",
     "llm_research_updated": "2026-10-19 09:21",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "011070",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:08",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 10100.0,
+                "marcap": 9630.0,
                 "revenue_4qtrs": 24200.0,
                 "opincome_4qtrs": 1110.0,
                 "revenue_qtr": 5530.0,
@@ -46,29 +46,29 @@
                 "4qtrs": 0.0459
             },
             "PER": {
-                "PER_ltm": 9.09,
-                "PER_qx4": 10.3,
-                "PER_fwd": 9.06
+                "PER_ltm": 8.67,
+                "PER_qx4": 9.8,
+                "PER_fwd": 8.64
             },
             "volatility": {
-                "measure_to_base": 0.807,
-                "slope": -0.000183
+                "measure_to_base": 0.829,
+                "slope": -0.000189
             },
             "amount": {
-                "measure_to_base": 1.26,
-                "slope": -3.85
+                "measure_to_base": 1.4,
+                "slope": -4.05
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000455,
+                    "alpha": 0.000454,
                     "beta": 1.18
                 },
                 "base_duration": {
-                    "alpha": 0.00269,
+                    "alpha": 0.0012,
                     "beta": 1.1
                 },
                 "measure_duration": {
-                    "alpha": 0.00244,
+                    "alpha": 0.00254,
                     "beta": 1.31
                 }
             }
@@ -78,7 +78,7 @@
             "financially_sound": false,
             "PER_level": "Mid",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "out_pfm",
             "market_sentiment": "unchanged",
             "category": "D"

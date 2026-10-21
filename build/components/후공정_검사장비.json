@@ -1,22 +1,22 @@
 {
     "key": "후공정 검사장비",
     "filename": "후공정_검사장비",
-    "updated": "2026-10-20 14:50",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 09:47",
+    "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
             "name": "후공정 검사장비",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:50",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 52.7,
+                "marcap": 50.0,
                 "revenue_4qtrs": 47.6,
                 "opincome_4qtrs": -10.5,
                 "revenue_qtr": 7.55,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.865,
-                "slope": -8.73e-6
+                "measure_to_base": 0.875,
+                "slope": -0.0000104
             },
             "amount": {
-                "measure_to_base": 3.02,
-                "slope": -0.0248
+                "measure_to_base": 2.54,
+                "slope": -0.0239
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00305,
-                    "beta": 0.777
+                    "alpha": -0.00312,
+                    "beta": 0.779
                 },
                 "base_duration": {
-                    "alpha": -0.00568,
-                    "beta": 0.74
+                    "alpha": -0.00585,
+                    "beta": 0.744
                 },
                 "measure_duration": {
-                    "alpha": 0.00992,
-                    "beta": 0.811
+                    "alpha": 0.0085,
+                    "beta": 0.871
                 }
             }
         },

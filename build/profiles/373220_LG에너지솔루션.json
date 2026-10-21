@@ -1,7 +1,7 @@
 {
     "key": "373220",
     "filename": "373220_LG에너지솔루션",
-    "updated": "2026-10-20 15:29",
+    "updated": "2026-10-21 10:18",
     "llm_research_updated": "2026-10-20 10:41",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "373220",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:29",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 99700.0,
+                "marcap": 96900.0,
                 "revenue_4qtrs": 27800.0,
                 "opincome_4qtrs": -103.0,
                 "revenue_qtr": 7560.0,
@@ -39,29 +39,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 220.0,
-                "PER_fwd": 378.0
+                "PER_qx4": 214.0,
+                "PER_fwd": 367.0
             },
             "volatility": {
-                "measure_to_base": 0.788,
-                "slope": -0.0000959
+                "measure_to_base": 0.787,
+                "slope": -0.000105
             },
             "amount": {
-                "measure_to_base": 1.49,
-                "slope": -1.29
+                "measure_to_base": 1.43,
+                "slope": -1.09
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000283,
+                    "alpha": -0.000286,
                     "beta": 0.667
                 },
                 "base_duration": {
-                    "alpha": -0.00011,
-                    "beta": 0.338
+                    "alpha": -0.00034,
+                    "beta": 0.34
                 },
                 "measure_duration": {
-                    "alpha": 0.00918,
-                    "beta": 0.118
+                    "alpha": 0.00854,
+                    "beta": 0.19
                 }
             }
         },

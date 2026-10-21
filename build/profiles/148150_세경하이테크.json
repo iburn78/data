@@ -1,22 +1,22 @@
 {
     "key": "148150",
     "filename": "148150_세경하이테크",
-    "updated": "2026-10-20 14:24",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 10:18",
+    "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
             "name": "세경하이테크",
             "code": "148150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:24",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 125.0,
+                "marcap": 124.0,
                 "revenue_4qtrs": 304.0,
                 "opincome_4qtrs": 5.0,
                 "revenue_qtr": 86.3,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0164
             },
             "PER": {
-                "PER_ltm": 25.0,
-                "PER_qx4": 9.38,
-                "PER_fwd": 26.5
+                "PER_ltm": 24.8,
+                "PER_qx4": 9.31,
+                "PER_fwd": 26.3
             },
             "volatility": {
-                "measure_to_base": 0.699,
-                "slope": 0.0000213
+                "measure_to_base": 0.705,
+                "slope": 0.0000197
             },
             "amount": {
                 "measure_to_base": 1.09,
-                "slope": -0.00363
+                "slope": -0.0036
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000261,
-                    "beta": 0.836
+                    "alpha": -0.000246,
+                    "beta": 0.835
                 },
                 "base_duration": {
-                    "alpha": -0.00222,
-                    "beta": 0.438
+                    "alpha": -0.0022,
+                    "beta": 0.436
                 },
                 "measure_duration": {
-                    "alpha": -0.00274,
-                    "beta": 0.659
+                    "alpha": -0.00238,
+                    "beta": 0.615
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 10:18",
         "search_theme": [
             "실적",
             "전망"
@@ -86,14 +86,14 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "2차 전지 및 전장",
             "광학필름",
-            "데코필름"
+            "데코필름",
+            "사출필름"
         ],
         "revenue_share": [
-            0.1,
-            0.5,
-            0.4
+            0.431,
+            0.374,
+            0.181
         ],
         "opmargin": [
             null,
@@ -101,20 +101,20 @@
             null
         ],
         "trend": [
-            "expanding",
-            "growing",
-            "growing"
+            "회복 및 성장 전망 (폴더블/OLED 확대)",
+            "안정적이나 최근 소폭 하락세",
+            "정체 및 하락세"
         ],
         "create_segments": false,
         "key_products": [
-            "2차 전지 안전 솔루션",
-            "폴더블 스마트폰용 특수보호 필름",
-            "그라데이션 데코필름"
+            "폴더블 특수보호필름, 투명 점착 필름(OCA)",
+            "스마트폰 전후면 데코필름, 그라데이션 제품",
+            "프로텍트 필름, 기능성 테이프"
         ],
         "competitors": [
-            "삼성SDI, LG화학, SK온 (indirectly)",
-            "3M, Nitto Denko",
-            "Competitors in decorative films"
+            "Global material companies, Domestic film processing companies",
+            "Global material companies, Domestic film processing companies",
+            "Domestic film processing companies"
         ]
     },
     "code": "148150",

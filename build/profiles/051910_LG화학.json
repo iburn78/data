@@ -1,7 +1,7 @@
 {
     "key": "051910",
     "filename": "051910_LG화학",
-    "updated": "2026-10-20 15:36",
+    "updated": "2026-10-21 10:20",
     "llm_research_updated": "2026-10-20 13:27",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "051910",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:36",
+            "updated": "2026-10-21 10:20",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 19100.0,
+                "marcap": 17800.0,
                 "revenue_4qtrs": 51800.0,
                 "opincome_4qtrs": 736.0,
                 "revenue_qtr": 14200.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0142
             },
             "PER": {
-                "PER_ltm": 26.0,
-                "PER_qx4": 7.98,
-                "PER_fwd": 7.77
+                "PER_ltm": 24.2,
+                "PER_qx4": 7.43,
+                "PER_fwd": 7.24
             },
             "volatility": {
-                "measure_to_base": 0.862,
-                "slope": -0.0000477
+                "measure_to_base": 0.87,
+                "slope": -0.000049
             },
             "amount": {
-                "measure_to_base": 1.79,
-                "slope": -1.08
+                "measure_to_base": 1.8,
+                "slope": -1.05
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000229,
-                    "beta": 0.97
+                    "alpha": -0.000242,
+                    "beta": 0.972
                 },
                 "base_duration": {
-                    "alpha": -0.00221,
-                    "beta": 0.432
+                    "alpha": -0.00268,
+                    "beta": 0.441
                 },
                 "measure_duration": {
-                    "alpha": 0.00424,
-                    "beta": 0.482
+                    "alpha": 0.0031,
+                    "beta": 0.599
                 }
             }
         },

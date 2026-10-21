@@ -1,7 +1,7 @@
 {
     "key": "분리막",
     "filename": "분리막",
-    "updated": "2026-10-20 16:01",
+    "updated": "2026-10-21 10:18",
     "llm_research_updated": "2026-10-20 16:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:01",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1880.0,
+                "marcap": 1720.0,
                 "revenue_4qtrs": 299.0,
                 "opincome_4qtrs": -368.0,
                 "revenue_qtr": 75.8,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.838,
-                "slope": 0.000136
+                "measure_to_base": 0.821,
+                "slope": 0.000125
             },
             "amount": {
-                "measure_to_base": 1.5,
-                "slope": -0.132
+                "measure_to_base": 1.41,
+                "slope": -0.109
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0013,
-                    "beta": 0.814
+                    "alpha": -0.00134,
+                    "beta": 0.819
                 },
                 "base_duration": {
-                    "alpha": -0.00202,
-                    "beta": 0.329
+                    "alpha": -0.00312,
+                    "beta": 0.342
                 },
                 "measure_duration": {
-                    "alpha": 0.0118,
-                    "beta": 0.461
+                    "alpha": 0.00897,
+                    "beta": 0.629
                 }
             }
         },

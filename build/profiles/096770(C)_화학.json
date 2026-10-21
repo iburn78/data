@@ -1,7 +1,7 @@
 {
     "key": "096770(C)",
     "filename": "096770(C)_화학",
-    "updated": "2026-10-20 15:30",
+    "updated": "2026-10-21 10:19",
     "llm_research_updated": "2026-10-19 18:05",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "096770",
             "segment_name": "화학",
             "id": "C",
-            "updated": "2026-10-20 15:30",
+            "updated": "2026-10-21 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 3540.0,
+                "marcap": 3250.0,
                 "revenue_4qtrs": 13200.0,
                 "opincome_4qtrs": -1320.0,
                 "revenue_qtr": 3790.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.921,
-                "slope": 0.000217
+                "measure_to_base": 0.916,
+                "slope": 0.00021
             },
             "amount": {
-                "measure_to_base": 0.928,
-                "slope": 0.0774
+                "measure_to_base": 0.939,
+                "slope": 0.0802
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000621,
-                    "beta": 0.884
+                    "alpha": 0.000042,
+                    "beta": 0.887
                 },
                 "base_duration": {
-                    "alpha": 0.00266,
-                    "beta": 0.168
+                    "alpha": 0.00201,
+                    "beta": 0.182
                 },
                 "measure_duration": {
-                    "alpha": 0.0116,
-                    "beta": 0.263
+                    "alpha": 0.0086,
+                    "beta": 0.428
                 }
             }
         },

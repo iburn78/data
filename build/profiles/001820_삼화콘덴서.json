@@ -1,7 +1,7 @@
 {
     "key": "001820",
     "filename": "001820_삼화콘덴서",
-    "updated": "2026-10-20 15:00",
+    "updated": "2026-10-21 09:50",
     "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "001820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:00",
+            "updated": "2026-10-21 09:50",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1300.0,
+                "marcap": 1220.0,
                 "revenue_4qtrs": 309.0,
                 "opincome_4qtrs": 21.8,
                 "revenue_qtr": 82.8,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0705
             },
             "PER": {
-                "PER_ltm": 59.4,
-                "PER_qx4": 37.5,
-                "PER_fwd": 36.3
+                "PER_ltm": 56.1,
+                "PER_qx4": 35.4,
+                "PER_fwd": 34.3
             },
             "volatility": {
-                "measure_to_base": 0.736,
-                "slope": -0.000197
+                "measure_to_base": 0.743,
+                "slope": -0.000226
             },
             "amount": {
-                "measure_to_base": 1.05,
-                "slope": -0.155
+                "measure_to_base": 1.06,
+                "slope": -0.227
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000893,
+                    "alpha": 0.000888,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.00917,
-                    "beta": 1.0
+                    "alpha": 0.00925,
+                    "beta": 1.01
                 },
                 "measure_duration": {
-                    "alpha": 0.00353,
-                    "beta": 1.25
+                    "alpha": 0.00471,
+                    "beta": 1.29
                 }
             }
         },

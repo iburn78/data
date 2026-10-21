@@ -1,22 +1,22 @@
 {
     "key": "양극재",
     "filename": "양극재",
-    "updated": "2026-10-20 15:38",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 10:21",
+    "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
             "name": "양극재",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 15:38",
+            "updated": "2026-10-21 10:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 52600.0,
+                "marcap": 49400.0,
                 "revenue_4qtrs": 60400.0,
                 "opincome_4qtrs": 1110.0,
                 "revenue_qtr": 16500.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0183
             },
             "PER": {
-                "PER_ltm": 47.5,
-                "PER_qx4": 19.6,
-                "PER_fwd": 17.2
+                "PER_ltm": 44.7,
+                "PER_qx4": 18.4,
+                "PER_fwd": 16.2
             },
             "volatility": {
-                "measure_to_base": 0.812,
-                "slope": 0.0000387
+                "measure_to_base": 0.816,
+                "slope": 0.0000332
             },
             "amount": {
-                "measure_to_base": 1.59,
-                "slope": -3.38
+                "measure_to_base": 1.56,
+                "slope": -3.15
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000995,
+                    "alpha": 0.0000906,
                     "beta": 1.04
                 },
                 "base_duration": {
-                    "alpha": -0.00267,
-                    "beta": 0.557
+                    "alpha": -0.00297,
+                    "beta": 0.565
                 },
                 "measure_duration": {
-                    "alpha": 0.00614,
-                    "beta": 0.635
+                    "alpha": 0.00588,
+                    "beta": 0.752
                 }
             }
         },

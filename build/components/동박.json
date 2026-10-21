@@ -1,7 +1,7 @@
 {
     "key": "동박",
     "filename": "동박",
-    "updated": "2026-10-20 16:00",
+    "updated": "2026-10-21 10:18",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 16:00",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 8630.0,
+                "marcap": 8160.0,
                 "revenue_4qtrs": 3500.0,
                 "opincome_4qtrs": -325.0,
                 "revenue_qtr": 941.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.867,
-                "slope": -0.000216
+                "measure_to_base": 0.885,
+                "slope": -0.00022
             },
             "amount": {
-                "measure_to_base": 1.95,
-                "slope": -1.71
+                "measure_to_base": 2.05,
+                "slope": -1.69
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000336,
+                    "alpha": 0.000331,
                     "beta": 1.14
                 },
                 "base_duration": {
-                    "alpha": 0.000748,
-                    "beta": 0.919
+                    "alpha": 0.000185,
+                    "beta": 0.921
                 },
                 "measure_duration": {
-                    "alpha": 0.0207,
-                    "beta": 0.982
+                    "alpha": 0.0196,
+                    "beta": 1.06
                 }
             }
         },

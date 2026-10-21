@@ -1,7 +1,7 @@
 {
     "key": "005930(D)",
     "filename": "005930(D)_디스플레이",
-    "updated": "2026-10-20 13:57",
+    "updated": "2026-10-21 09:47",
     "llm_research_updated": "2026-10-20 13:57",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "005930",
             "segment_name": "디스플레이",
             "id": "D",
-            "updated": "2026-10-20 13:57",
+            "updated": "2026-10-21 09:47",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 51900.0,
+                "marcap": 49500.0,
                 "revenue_4qtrs": 22800.0,
                 "opincome_4qtrs": 2050.0,
                 "revenue_qtr": 6860.0,
@@ -38,29 +38,29 @@
                 "4qtrs": 0.09
             },
             "PER": {
-                "PER_ltm": 25.3,
-                "PER_qx4": 21.0,
-                "PER_fwd": 18.4
+                "PER_ltm": 24.1,
+                "PER_qx4": 20.0,
+                "PER_fwd": 17.5
             },
             "volatility": {
-                "measure_to_base": 0.588,
-                "slope": -0.0000185
+                "measure_to_base": 0.595,
+                "slope": -0.000028
             },
             "amount": {
-                "measure_to_base": 0.932,
-                "slope": -1.96
+                "measure_to_base": 0.969,
+                "slope": -2.09
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000433,
+                    "alpha": 0.000432,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.00175,
+                    "alpha": 0.00187,
                     "beta": 1.32
                 },
                 "measure_duration": {
-                    "alpha": 0.00444,
+                    "alpha": 0.00409,
                     "beta": 1.39
                 }
             }

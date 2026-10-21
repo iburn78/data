@@ -1,22 +1,22 @@
 {
     "key": "060720",
     "filename": "060720_KH바텍",
-    "updated": "2026-10-20 14:22",
-    "llm_research_updated": "",
+    "updated": "2026-10-21 10:18",
+    "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
             "name": "KH바텍",
             "code": "060720",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 14:22",
+            "updated": "2026-10-21 10:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 265.0,
+                "marcap": 267.0,
                 "revenue_4qtrs": 321.0,
                 "opincome_4qtrs": 14.0,
                 "revenue_qtr": 104.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0435
             },
             "PER": {
-                "PER_ltm": 19.0,
-                "PER_qx4": 13.3,
-                "PER_fwd": 14.1
+                "PER_ltm": 19.1,
+                "PER_qx4": 13.4,
+                "PER_fwd": 14.2
             },
             "volatility": {
-                "measure_to_base": 0.582,
-                "slope": -7.48e-6
+                "measure_to_base": 0.596,
+                "slope": -8.51e-6
             },
             "amount": {
-                "measure_to_base": 0.897,
-                "slope": -0.0325
+                "measure_to_base": 0.932,
+                "slope": -0.033
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000157,
-                    "beta": 1.03
+                    "alpha": -0.000139,
+                    "beta": 1.02
                 },
                 "base_duration": {
-                    "alpha": -0.00118,
-                    "beta": 0.612
+                    "alpha": -0.000881,
+                    "beta": 0.606
                 },
                 "measure_duration": {
-                    "alpha": 0.0093,
-                    "beta": 0.95
+                    "alpha": 0.0103,
+                    "beta": 0.882
                 }
             }
         },
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-19 10:42",
+        "updated": "2026-10-21 10:18",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "정밀기구 부품 (IT/Robot)",
-            "자동차 부품"
+            "정밀기구 (IT 부품)",
+            "자동차 부품",
+            "기타/신규사업 (로봇/IDC)"
         ],
         "revenue_share": [
-            0.7,
-            0.3
+            0.904,
+            0.096,
+            0.0
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "declining due to mid-to-low end smartphone slowdown",
-            "declining due to EV chasm"
+            "facing stronger competition",
+            "improving",
+            "stable"
         ],
         "create_segments": false,
         "key_products": [
-            "IT device parts (smartphone, laptop, tablet), Communication equipment, Robot parts",
-            "Automotive parts, Moving mechanisms for rollable displays"
+            "폴더블 힌지, 브라켓, 외장케이스",
+            "디스플레이 브라켓, PDU 하우징, 무빙 메커니즘",
+            "통신장비 방열체, IDC 금속 부품, 로봇 관절 및 감속기 부품"
         ],
         "competitors": [
-            "Various IT component manufacturers",
-            "Auto parts suppliers"
+            "켐트로닉스, 세경하이테크, 파트론",
+            "자동차 섀시/프레스 업체",
+            "레인보우로보틱스"
         ]
     },
     "code": "060720",
