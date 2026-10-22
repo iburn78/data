@@ -187,6 +187,7 @@ function hidePreview() {
 }
 
 document.addEventListener("pointerover", event => {
+    if (document.activeElement === document.getElementById("search")) return;
     const link = event.target.closest("#file-list a");
     if (!link || link === previewLink || event.pointerType === "touch") return;
     previewLink = link;
