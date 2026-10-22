@@ -1,7 +1,7 @@
 {
     "key": "007660",
     "filename": "007660_이수페타시스",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 17:26",
     "llm_research_updated": "2026-10-21 09:50",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "007660",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 17:26",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -43,25 +43,25 @@
                 "PER_fwd": 19.1
             },
             "volatility": {
-                "measure_to_base": 0.763,
-                "slope": -0.000129
+                "measure_to_base": 0.786,
+                "slope": -0.000126
             },
             "amount": {
-                "measure_to_base": 2.31,
-                "slope": -1.52
+                "measure_to_base": 1.85,
+                "slope": -1.12
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00137,
+                    "alpha": 0.00135,
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": -0.00213,
-                    "beta": 0.935
+                    "alpha": -0.00173,
+                    "beta": 0.934
                 },
                 "measure_duration": {
-                    "alpha": 0.00866,
-                    "beta": 1.33
+                    "alpha": 0.0111,
+                    "beta": 1.39
                 }
             }
         },
@@ -72,18 +72,18 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "C"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 09:50",
+        "reviewed": true,
+        "updated": "2026-10-22 17:26",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
             "AI 가속기 및 서버 MLB",
@@ -95,11 +95,7 @@
             0.3,
             0.1
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "rapidly growing",
             "stable/upgrading to high-spec",

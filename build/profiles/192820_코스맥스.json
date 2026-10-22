@@ -1,22 +1,22 @@
 {
     "key": "192820",
     "filename": "192820_코스맥스",
-    "updated": "2026-10-21 17:45",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 17:42",
+    "llm_research_updated": "2026-10-22 17:32",
     "financials": {
         "meta": {
             "name": "코스맥스",
             "code": "192820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:45",
+            "updated": "2026-10-22 17:42",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 3070.0,
+                "marcap": 3090.0,
                 "revenue_4qtrs": 2870.0,
                 "opincome_4qtrs": 241.0,
                 "revenue_qtr": 795.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.084
             },
             "PER": {
-                "PER_ltm": 12.7,
-                "PER_qx4": 10.4,
-                "PER_fwd": 9.6
+                "PER_ltm": 12.8,
+                "PER_qx4": 10.5,
+                "PER_fwd": 9.66
             },
             "volatility": {
-                "measure_to_base": 0.75,
-                "slope": 0.0000184
+                "measure_to_base": 0.759,
+                "slope": 0.0000186
             },
             "amount": {
-                "measure_to_base": 0.804,
-                "slope": 0.223
+                "measure_to_base": 0.8,
+                "slope": 0.217
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000363,
+                    "alpha": 0.000359,
                     "beta": 0.517
                 },
                 "base_duration": {
-                    "alpha": 0.00258,
-                    "beta": 0.096
+                    "alpha": 0.00256,
+                    "beta": 0.0959
                 },
                 "measure_duration": {
-                    "alpha": 0.00251,
-                    "beta": 0.289
+                    "alpha": 0.00304,
+                    "beta": 0.304
                 }
             }
         },
@@ -72,37 +72,55 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 17:42",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
-            "화장품 ODM"
+            "코스맥스 한국",
+            "코스맥스 중국",
+            "코스맥스 미국",
+            "코스맥스 동남아시아"
         ],
         "revenue_share": [
-            1.0
+            0.62,
+            0.28,
+            0.06,
+            0.04
         ],
         "opmargin": [
-            null
+            0.09,
+            0.009,
+            -0.186,
+            0.028
         ],
         "trend": [
-            "improving"
+            "Strong growth driven by indie brands",
+            "Recovering with export increase",
+            "Rapid revenue growth, approaching BEP",
+            "Declining due to competition"
         ],
         "create_segments": false,
         "key_products": [
-            "기초화장품, 색조화장품, 마스크시트"
+            "기초화장품, 색조화장품, 마스크시트",
+            "기초화장품, 색조화장품",
+            "인디 브랜드 맞춤형 화장품",
+            "기초화장품, 색조화장품"
         ],
         "competitors": [
-            "한국콜마, 코스메카코리아"
+            "한국콜마, 코스메카코리아, 씨앤씨인터내셔널",
+            "인터코스, 중국 현지 ODM",
+            "인터코스, 미국 현지 ODM",
+            "동남아 현지 ODM"
         ]
     },
     "code": "192820",

@@ -1,7 +1,7 @@
 {
     "key": "화장품 용기 제조",
     "filename": "화장품_용기_제조",
-    "updated": "2026-10-21 17:49",
+    "updated": "2026-10-22 18:54",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:49",
+            "updated": "2026-10-22 18:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 877.0,
+                "marcap": 856.0,
                 "revenue_4qtrs": 403.0,
                 "opincome_4qtrs": 64.6,
                 "revenue_qtr": 117.0,
@@ -46,41 +46,41 @@
                 "4qtrs": 0.16
             },
             "PER": {
-                "PER_ltm": 13.6,
-                "PER_qx4": 10.1,
-                "PER_fwd": 9.28
+                "PER_ltm": 13.2,
+                "PER_qx4": 9.88,
+                "PER_fwd": 9.05
             },
             "volatility": {
-                "measure_to_base": 0.747,
-                "slope": 0.000241
+                "measure_to_base": 0.745,
+                "slope": 0.00023
             },
             "amount": {
-                "measure_to_base": 1.02,
-                "slope": 0.0656
+                "measure_to_base": 1.01,
+                "slope": 0.0661
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000781,
-                    "beta": 0.442
+                    "alpha": 0.00076,
+                    "beta": 0.44
                 },
                 "base_duration": {
-                    "alpha": 0.00515,
-                    "beta": 0.0308
+                    "alpha": 0.0049,
+                    "beta": 0.0258
                 },
                 "measure_duration": {
-                    "alpha": 0.00593,
-                    "beta": -0.137
+                    "alpha": 0.00492,
+                    "beta": -0.178
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": false,
-            "PER_level": "High",
+            "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

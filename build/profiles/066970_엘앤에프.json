@@ -1,7 +1,7 @@
 {
     "key": "066970",
     "filename": "066970_엘앤에프",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-21 10:31",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "066970",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 4030.0,
+                "marcap": 4040.0,
                 "revenue_4qtrs": 3130.0,
                 "opincome_4qtrs": 241.0,
                 "revenue_qtr": 885.0,
@@ -26,7 +26,7 @@
         "assess_data": {
             "opincome": {
                 "positive_last_4qtrs": true,
-                "higher_than_comp": false,
+                "higher_than_comp": true,
                 "slope": 25.8,
                 "growth_per_qtr": 0.427
             },
@@ -43,37 +43,37 @@
                 "PER_fwd": 11.8
             },
             "volatility": {
-                "measure_to_base": 0.8,
-                "slope": 0.000068
+                "measure_to_base": 0.793,
+                "slope": 0.0000615
             },
             "amount": {
-                "measure_to_base": 1.27,
-                "slope": -0.531
+                "measure_to_base": 1.25,
+                "slope": -0.514
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00117,
+                    "alpha": 0.00115,
                     "beta": 1.08
                 },
                 "base_duration": {
-                    "alpha": -0.0037,
-                    "beta": 0.596
+                    "alpha": -0.00356,
+                    "beta": 0.595
                 },
                 "measure_duration": {
-                    "alpha": 0.000303,
-                    "beta": 0.617
+                    "alpha": 0.00181,
+                    "beta": 0.661
                 }
             }
         },
         "assess_result": {
-            "basics": false,
+            "basics": true,
             "financially_sound": true,
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "at_mkt",
-            "market_sentiment": "unchanged",
-            "category": "D"
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "C"
         }
     },
     "info_section": {

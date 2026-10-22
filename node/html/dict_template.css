@@ -50,6 +50,36 @@
     opacity: 0.65;
 }
 
+.deletion-password-dialog {
+    width: min(420px, calc(100vw - 48px));
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 12px 36px #0004;
+}
+
+.deletion-password-dialog::backdrop {
+    background: #0006;
+}
+
+.deletion-password-dialog form {
+    display: grid;
+    gap: 14px;
+}
+
+.deletion-password-dialog input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    font: inherit;
+}
+
+.deletion-password-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
 a {
     color: white;
     text-decoration: none;

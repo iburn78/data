@@ -1,0 +1,119 @@
+{
+    "key": "화학",
+    "filename": "화학",
+    "updated": "2026-10-22 18:43",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "화학",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-22 18:42",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 220.0,
+                "revenue_4qtrs": 252.0,
+                "opincome_4qtrs": 20.1,
+                "revenue_qtr": 72.4,
+                "opincome_qtr": 7.78
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.523,
+                "growth_per_qtr": 0.104
+            },
+            "opmargin": {
+                "25_4Q": 0.0243,
+                "26_1Q": 0.0563,
+                "26_2Q": 0.107,
+                "26_3Q": 0.107,
+                "4qtrs": 0.0796
+            },
+            "PER": {
+                "PER_ltm": 11.0,
+                "PER_qx4": 7.09,
+                "PER_fwd": 6.07
+            },
+            "volatility": {
+                "measure_to_base": 0.783,
+                "slope": -0.0000743
+            },
+            "amount": {
+                "measure_to_base": 2.36,
+                "slope": -0.0477
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000719,
+                    "beta": 0.922
+                },
+                "base_duration": {
+                    "alpha": -0.00375,
+                    "beta": 0.599
+                },
+                "measure_duration": {
+                    "alpha": 0.0106,
+                    "beta": 0.81
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "B"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "밸류체인",
+            "업계"
+        ],
+        "tags": "",
+        "notes": "",
+        "dynamics": "",
+        "key_drivers": ""
+    },
+    "component_keys": [
+        "정밀 화학"
+    ],
+    "news": {
+        "updated": "2026-10-22 18:42",
+        "key_facts": [
+            "에쓰오일이 9조 2,580억 원을 투입한 석유화학 복합시설 '샤힌 프로젝트' 준공식을 2026년 11월 25일에 개최하며, 2027년 상업가동을 목표로 함.",
+            "유럽연합(EU)은 중국산 수입 증가로 인한 산업 압박에 대응하여 자동차 및 화학 산업 보호를 위해 할당량을 통한 수입 제한 조치를 검토 중임.",
+            "LG에너지솔루션이 캐나다 엘레브라 리튬과 4년간 총 24만 톤의 리튬 정광을 공급받는 장기 계약을 체결함.",
+            "글로벌 석유 시장의 불황과 공급과잉, 중국 기업의 진입으로 인해 국내 석유화학 업계가 전반적인 고전과 구조조정을 겪고 있음."
+        ],
+        "new_trends": [
+            "석유화학 공정에 생성형 AI 및 데이터 통합 솔루션을 결합하여 안전성과 생산성을 높이는 지능형 사업장 구축 추세 (에쓰오일 사례).",
+            "단순 제품 판매에서 벗어나 RaaS(Recycle as a Service) 형태의 새로운 수익 모델을 통한 리사이클 밸류체인 확장 전략 추진 (SK케미칼 사례).",
+            "원유 정제 과정의 저부가가치 유분을 석유화학 원료로 직접 전환하는 TC2C(열분해 원유 직접 투입) 기술의 상용화 시도.",
+            "조선, 석유화학, 에너지 산업을 연결하여 그린수소·암모니아 생산부터 소비까지 이어지는 '순환형 그린 밸류체인' 구축 제안.",
+            "배터리 원재료(리튬 정광) 확보부터 완제품 제조까지 북미 지역 내에서 완결하는 현지 공급망 구축 강화."
+        ],
+        "news_summary": "글로벌 석유화학 산업은 중국발 공급과잉과 시장 불황으로 인해 전반적인 구조조정과 경쟁 심화라는 위기에 직면해 있습니다. 이에 대응하여 국내 기업들은 고부가가치 제품 전환, 친환경 리사이클 밸류체인 구축, 그리고 AI 및 데이터 기반의 공정 지능화로 체질 개선을 시도하고 있습니다. 특히 에쓰오일의 대규모 설비 투자와 LG에너지솔루션의 북미 원료 공급망 확보 등 전략적 투자가 이어지고 있으며, 유럽에서는 중국산 화학 제품에 대한 수입 억제 조치가 논의되는 등 무역 장벽이 강화되는 추세입니다."
+    }
+}

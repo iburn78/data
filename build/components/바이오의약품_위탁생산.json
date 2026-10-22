@@ -1,7 +1,7 @@
 {
     "key": "바이오의약품 위탁생산",
     "filename": "바이오의약품_위탁생산",
-    "updated": "2026-10-21 17:43",
+    "updated": "2026-10-22 18:50",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:43",
+            "updated": "2026-10-22 18:50",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 64400.0,
+                "marcap": 65600.0,
                 "revenue_4qtrs": 4210.0,
                 "opincome_4qtrs": 2130.0,
                 "revenue_qtr": 1320.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.507
             },
             "PER": {
-                "PER_ltm": 30.2,
-                "PER_qx4": 27.4,
-                "PER_fwd": 24.2
+                "PER_ltm": 30.8,
+                "PER_qx4": 28.0,
+                "PER_fwd": 24.6
             },
             "volatility": {
-                "measure_to_base": 0.709,
-                "slope": 0.000015
+                "measure_to_base": 0.729,
+                "slope": 0.0000152
             },
             "amount": {
-                "measure_to_base": 1.14,
-                "slope": -0.19
+                "measure_to_base": 1.18,
+                "slope": -0.166
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000811,
+                    "alpha": 0.000812,
                     "beta": 0.49
                 },
                 "base_duration": {
-                    "alpha": -0.000514,
-                    "beta": 0.124
+                    "alpha": -0.000128,
+                    "beta": 0.128
                 },
                 "measure_duration": {
-                    "alpha": -0.000114,
-                    "beta": -0.0107
+                    "alpha": 0.00166,
+                    "beta": 0.0537
                 }
             }
         },
@@ -79,8 +79,8 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "at_mkt",
-            "market_sentiment": "unchanged",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

@@ -1,7 +1,7 @@
 {
     "key": "452430",
     "filename": "452430_사피엔반도체",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 14:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "452430",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 227.0,
+                "marcap": 230.0,
                 "revenue_4qtrs": 30.6,
                 "opincome_4qtrs": 0.741,
                 "revenue_qtr": 7.21,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0242
             },
             "PER": {
-                "PER_ltm": 307.0,
-                "PER_qx4": 182.0,
-                "PER_fwd": 61.5
+                "PER_ltm": 310.0,
+                "PER_qx4": 184.0,
+                "PER_fwd": 62.0
             },
             "volatility": {
-                "measure_to_base": 0.84,
-                "slope": -0.00017
+                "measure_to_base": 0.847,
+                "slope": -0.000184
             },
             "amount": {
-                "measure_to_base": 2.29,
-                "slope": -0.0552
+                "measure_to_base": 2.26,
+                "slope": -0.0559
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000922,
+                    "alpha": -0.000956,
                     "beta": 1.01
                 },
                 "base_duration": {
-                    "alpha": 3.61e-6,
-                    "beta": 0.844
+                    "alpha": -0.0026,
+                    "beta": 0.828
                 },
                 "measure_duration": {
-                    "alpha": -0.00825,
-                    "beta": 0.939
+                    "alpha": -0.00671,
+                    "beta": 0.985
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "C"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 14:01",
+        "reviewed": true,
+        "updated": "2026-10-22 15:37",
         "search_theme": [
             "실적",
             "전망"
@@ -93,10 +93,7 @@
             1.0,
             0.0
         ],
-        "opmargin": [
-            0.014,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "Rapidly growing due to AR/MR demand",
             "Currently stagnant/no recent revenue"

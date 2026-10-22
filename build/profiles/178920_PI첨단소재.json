@@ -1,7 +1,7 @@
 {
     "key": "178920",
     "filename": "178920_PI첨단소재",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:23",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "178920",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 513.0,
+                "marcap": 509.0,
                 "revenue_4qtrs": 277.0,
                 "opincome_4qtrs": 66.6,
                 "revenue_qtr": 77.5,
@@ -38,52 +38,52 @@
                 "4qtrs": 0.24
             },
             "PER": {
-                "PER_ltm": 7.7,
-                "PER_qx4": 5.58,
-                "PER_fwd": 4.9
+                "PER_ltm": 7.63,
+                "PER_qx4": 5.53,
+                "PER_fwd": 4.86
             },
             "volatility": {
-                "measure_to_base": 0.799,
-                "slope": -0.000221
+                "measure_to_base": 0.818,
+                "slope": -0.000223
             },
             "amount": {
-                "measure_to_base": 1.27,
-                "slope": -0.0581
+                "measure_to_base": 1.29,
+                "slope": -0.0578
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000206,
-                    "beta": 0.904
+                    "alpha": 0.000192,
+                    "beta": 0.902
                 },
                 "base_duration": {
-                    "alpha": -0.00225,
-                    "beta": 0.617
+                    "alpha": -0.00232,
+                    "beta": 0.613
                 },
                 "measure_duration": {
-                    "alpha": 0.00488,
-                    "beta": 0.724
+                    "alpha": 0.00324,
+                    "beta": 0.658
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": true,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
-            "category": "B"
+            "market_sentiment": "-",
+            "category": "A"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 15:01",
+        "reviewed": true,
+        "updated": "2026-10-22 16:23",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
             "FPCB용 PI 필름 사업부",
@@ -95,11 +95,7 @@
             0.27,
             0.29
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "improving (high-value shift)",
             "declining (stronger competition)",

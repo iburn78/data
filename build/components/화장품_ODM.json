@@ -1,7 +1,7 @@
 {
     "key": "화장품 ODM",
     "filename": "화장품_ODM",
-    "updated": "2026-10-21 17:46",
+    "updated": "2026-10-22 18:51",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:46",
+            "updated": "2026-10-22 18:51",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 6070.0,
+                "marcap": 6090.0,
                 "revenue_4qtrs": 5980.0,
                 "opincome_4qtrs": 589.0,
                 "revenue_qtr": 1660.0,
@@ -47,29 +47,29 @@
             },
             "PER": {
                 "PER_ltm": 10.3,
-                "PER_qx4": 8.24,
-                "PER_fwd": 7.41
+                "PER_qx4": 8.27,
+                "PER_fwd": 7.43
             },
             "volatility": {
-                "measure_to_base": 0.656,
-                "slope": 0.0000898
+                "measure_to_base": 0.658,
+                "slope": 0.0000855
             },
             "amount": {
-                "measure_to_base": 0.765,
-                "slope": 0.476
+                "measure_to_base": 0.762,
+                "slope": 0.451
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000187,
-                    "beta": 0.522
+                    "alpha": 0.000182,
+                    "beta": 0.521
                 },
                 "base_duration": {
-                    "alpha": 0.0032,
-                    "beta": 0.138
+                    "alpha": 0.00313,
+                    "beta": 0.137
                 },
                 "measure_duration": {
-                    "alpha": -0.00104,
-                    "beta": 0.317
+                    "alpha": -0.000201,
+                    "beta": 0.342
                 }
             }
         },
@@ -79,8 +79,8 @@
             "PER_level": "Mid",
             "volatility_movement": "Dn",
             "amount_movement": "-",
-            "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "alpha_level": "-",
+            "market_sentiment": "-",
             "category": "B"
         }
     },

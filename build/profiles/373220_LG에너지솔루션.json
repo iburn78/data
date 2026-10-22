@@ -1,7 +1,7 @@
 {
     "key": "373220",
     "filename": "373220_LG에너지솔루션",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 10:41",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "373220",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 96900.0,
+                "marcap": 96300.0,
                 "revenue_4qtrs": 27800.0,
                 "opincome_4qtrs": -103.0,
                 "revenue_qtr": 7560.0,
@@ -39,29 +39,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 214.0,
-                "PER_fwd": 367.0
+                "PER_qx4": 212.0,
+                "PER_fwd": 365.0
             },
             "volatility": {
                 "measure_to_base": 0.787,
-                "slope": -0.000105
+                "slope": -0.000114
             },
             "amount": {
                 "measure_to_base": 1.43,
-                "slope": -1.09
+                "slope": -0.989
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000286,
-                    "beta": 0.667
+                    "alpha": -0.000308,
+                    "beta": 0.665
                 },
                 "base_duration": {
-                    "alpha": -0.00034,
-                    "beta": 0.34
+                    "alpha": -0.000148,
+                    "beta": 0.339
                 },
                 "measure_duration": {
-                    "alpha": 0.00854,
-                    "beta": 0.19
+                    "alpha": 0.00863,
+                    "beta": 0.186
                 }
             }
         },
@@ -72,7 +72,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

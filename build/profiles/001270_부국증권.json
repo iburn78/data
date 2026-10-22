@@ -1,7 +1,7 @@
 {
     "key": "001270",
     "filename": "001270_부국증권",
-    "updated": "2026-10-21 17:19",
+    "updated": "2026-10-22 16:01",
     "llm_research_updated": "2026-10-21 17:19",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "001270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:19",
+            "updated": "2026-10-22 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 474.0,
+                "marcap": 466.0,
                 "revenue_4qtrs": 1950.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 583.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 17:19",
+        "reviewed": true,
+        "updated": "2026-10-22 15:33",
         "search_theme": [
             "실적",
             "전망"
@@ -43,19 +43,13 @@
             "여신금융업"
         ],
         "revenue_share": [
-            0.696,
-            0.241,
-            0.039,
-            0.016,
-            0.008
+            0.7,
+            0.24,
+            0.04,
+            0.02,
+            0.01
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "성장세 (핵심 수익원)",
             "안정적",

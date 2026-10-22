@@ -1,22 +1,22 @@
 {
     "key": "388790",
     "filename": "388790_라이콤",
-    "updated": "2026-10-21 17:23",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:00",
+    "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
             "name": "라이콤",
             "code": "388790",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:23",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 131.0,
+                "marcap": 132.0,
                 "revenue_4qtrs": 19.9,
                 "opincome_4qtrs": 1.55,
                 "revenue_qtr": 4.53,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0782
             },
             "PER": {
-                "PER_ltm": 84.0,
-                "PER_qx4": 255.0,
-                "PER_fwd": 56.2
+                "PER_ltm": 85.2,
+                "PER_qx4": 258.0,
+                "PER_fwd": 57.0
             },
             "volatility": {
-                "measure_to_base": 0.958,
-                "slope": -0.000585
+                "measure_to_base": 0.967,
+                "slope": -0.000583
             },
             "amount": {
-                "measure_to_base": 1.57,
-                "slope": -0.119
+                "measure_to_base": 1.42,
+                "slope": -0.122
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00116,
-                    "beta": 0.77
+                    "alpha": 0.00115,
+                    "beta": 0.769
                 },
                 "base_duration": {
-                    "alpha": 0.00037,
-                    "beta": 0.54
+                    "alpha": 0.00106,
+                    "beta": 0.543
                 },
                 "measure_duration": {
-                    "alpha": 0.00832,
-                    "beta": 1.54
+                    "alpha": 0.00555,
+                    "beta": 1.44
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 13:25",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,36 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "광통신 부품",
-            "센서 사업"
+            "광증폭기",
+            "광섬유레이저",
+            "광중계기",
+            "광송수신기"
         ],
         "revenue_share": [
-            0.9,
-            0.1
+            0.56,
+            0.24,
+            0.16,
+            0.04
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "improving",
-            "expanding"
+            "강력한 증가세 (AI 데이터센터 수요)",
+            "본격적 증가세 (방산 프로젝트 수주)",
+            "안정적 유지",
+            "낮은 비중 유지"
         ],
         "create_segments": false,
         "key_products": [
-            "광증폭기(EDFA), 광섬유레이저, SFP+ EDFA, DWDM 광증폭기",
-            "광센서"
+            "DWDM 광증폭기, 플러거블형 소형증폭기, SFP+ EDFA",
+            "방산용 레이저 광원, 우주항공/산업용 레이저",
+            "광중계 모듈",
+            "광송수신기 모듈 (CATV망 등)"
         ],
         "competitors": [
-            "Global Optical Component Manufacturers",
-            "Optical Sensor Companies"
+            "Lumentum, Coherent, 옵티코어, 빛과전자",
+            "Lumentum, Coherent",
+            "옵티코어, 빛과전자",
+            "옵티코어, 빛과전자"
         ]
     },
     "code": "388790",

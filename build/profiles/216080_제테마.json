@@ -1,22 +1,22 @@
 {
     "key": "216080",
     "filename": "216080_제테마",
-    "updated": "2026-10-21 17:34",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 17:30",
+    "llm_research_updated": "2026-10-22 17:29",
     "financials": {
         "meta": {
             "name": "제테마",
             "code": "216080",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:34",
+            "updated": "2026-10-22 17:30",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 224.0,
+                "marcap": 220.0,
                 "revenue_4qtrs": 76.5,
                 "opincome_4qtrs": 5.12,
                 "revenue_qtr": 20.1,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0669
             },
             "PER": {
-                "PER_ltm": 43.8,
-                "PER_qx4": 24.3,
-                "PER_fwd": 23.3
+                "PER_ltm": 43.1,
+                "PER_qx4": 23.9,
+                "PER_fwd": 22.9
             },
             "volatility": {
-                "measure_to_base": 0.928,
-                "slope": 0.000223
+                "measure_to_base": 0.898,
+                "slope": 0.000217
             },
             "amount": {
-                "measure_to_base": 0.926,
-                "slope": -0.00446
+                "measure_to_base": 0.855,
+                "slope": -0.00387
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000451,
-                    "beta": 0.684
+                    "alpha": 0.00043,
+                    "beta": 0.681
                 },
                 "base_duration": {
-                    "alpha": -0.000429,
-                    "beta": 0.0988
+                    "alpha": -0.000566,
+                    "beta": 0.0957
                 },
                 "measure_duration": {
-                    "alpha": -0.00211,
-                    "beta": 0.364
+                    "alpha": -0.00624,
+                    "beta": 0.22
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 17:30",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,31 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "Medical Aesthetic Fillers",
-            "Botulinum Toxin"
+            "필러 사업부",
+            "보툴리눔 톡신 사업부",
+            "리프팅 실 사업부"
         ],
         "revenue_share": [
-            0.6,
-            0.4
+            0.7,
+            0.2,
+            0.1
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "growing due to anti-aging demand",
-            "expanding through global exports and new product launch"
+            "글로벌 수출 확대로 성장 가속화 예상",
+            "국내외 판매 개시로 매출 증가세 전환",
+            "안정적 유지 및 성장 추구"
         ],
         "create_segments": false,
         "key_products": [
-            "Hyaluronic acid filler",
-            "Botulinum toxin"
+            "e.p.t.q. (히알루론산 필러)",
+            "더톡신 (보툴리눔 톡신)",
+            "에피티콘 (리프팅 실)"
         ],
         "competitors": [
-            "Hugel, Medytox, Galderma, Allergan",
-            "Hugel, Medytox, Daewoong Pharmaceutical"
+            "휴젤, 클래시스, 메디톡스, Galderma, Allergan",
+            "메디톡스, 휴젤, 대웅제약",
+            "국내외 의료기기 업체"
         ]
     },
     "code": "216080",

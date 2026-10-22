@@ -1,7 +1,7 @@
 {
     "key": "011790",
     "filename": "011790_SKC",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:38",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,24 +9,32 @@
             "code": "011790",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:38",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 4580.0,
+                "marcap": 4540.0,
                 "revenue_4qtrs": 2220.0,
                 "opincome_4qtrs": -165.0,
                 "revenue_qtr": 645.0,
                 "opincome_qtr": -14.4
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_last_4qtrs": false,
-                "higher_than_comp": true,
+                "higher_than_comp": false,
                 "slope": 5.09,
                 "growth_per_qtr": -0.123
             },
@@ -43,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.992,
-                "slope": -0.000508
+                "measure_to_base": 1.03,
+                "slope": -0.000511
             },
             "amount": {
-                "measure_to_base": 1.44,
-                "slope": -1.4
+                "measure_to_base": 1.48,
+                "slope": -1.41
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000339,
+                    "alpha": 0.000323,
                     "beta": 1.16
                 },
                 "base_duration": {
-                    "alpha": 0.000378,
-                    "beta": 0.985
+                    "alpha": 0.000348,
+                    "beta": 0.98
                 },
                 "measure_duration": {
-                    "alpha": 0.0144,
-                    "beta": 1.07
+                    "alpha": 0.0127,
+                    "beta": 0.997
                 }
             }
         },
@@ -72,13 +80,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 16:00",
+        "reviewed": true,
+        "updated": "2026-10-22 12:25",
         "search_theme": [
             "실적",
             "전망"
@@ -105,7 +113,7 @@
             "강한 증가세(AI 반도체 수요)",
             "반등세(흑자 전환)"
         ],
-        "create_segments": false,
+        "create_segments": true,
         "key_products": [
             "동박(Copper Foil)",
             "실리콘 러버 소켓, 글라스 기판",

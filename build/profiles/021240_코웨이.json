@@ -1,7 +1,7 @@
 {
     "key": "021240",
     "filename": "021240_코웨이",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 10:07",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "021240",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7620.0,
+                "marcap": 7540.0,
                 "revenue_4qtrs": 5490.0,
                 "opincome_4qtrs": 939.0,
                 "revenue_qtr": 1440.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.171
             },
             "PER": {
-                "PER_ltm": 8.12,
-                "PER_qx4": 7.53,
-                "PER_fwd": 7.13
+                "PER_ltm": 8.03,
+                "PER_qx4": 7.45,
+                "PER_fwd": 7.05
             },
             "volatility": {
                 "measure_to_base": 1.12,
-                "slope": -0.0000773
+                "slope": -0.0000812
             },
             "amount": {
-                "measure_to_base": 1.32,
-                "slope": -0.13
+                "measure_to_base": 1.33,
+                "slope": -0.133
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00014,
-                    "beta": 0.406
+                    "alpha": 0.000132,
+                    "beta": 0.405
                 },
                 "base_duration": {
-                    "alpha": 0.00282,
-                    "beta": 0.0858
+                    "alpha": 0.00284,
+                    "beta": 0.084
                 },
                 "measure_duration": {
-                    "alpha": -0.00153,
-                    "beta": -0.147
+                    "alpha": 0.00257,
+                    "beta": -0.0121
                 }
             }
         },
@@ -71,8 +71,8 @@
             "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

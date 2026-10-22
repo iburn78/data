@@ -1,7 +1,7 @@
 {
     "key": "317330",
     "filename": "317330_덕산테코피아",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:01",
     "llm_research_updated": "2026-10-21 11:41",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "317330",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 230.0,
+                "marcap": 225.0,
                 "revenue_4qtrs": 152.0,
                 "opincome_4qtrs": -41.2,
                 "revenue_qtr": 42.2,
@@ -26,7 +26,7 @@
         "assess_data": {
             "opincome": {
                 "positive_last_4qtrs": false,
-                "higher_than_comp": true,
+                "higher_than_comp": false,
                 "slope": -0.525,
                 "growth_per_qtr": 0.0509
             },
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.96,
-                "slope": -0.000064
+                "measure_to_base": 0.942,
+                "slope": -0.0000701
             },
             "amount": {
-                "measure_to_base": 0.985,
-                "slope": -0.0748
+                "measure_to_base": 1.01,
+                "slope": -0.0728
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000938,
+                    "alpha": -0.000124,
                     "beta": 1.09
                 },
                 "base_duration": {
-                    "alpha": -0.00481,
-                    "beta": 0.721
+                    "alpha": -0.00442,
+                    "beta": 0.718
                 },
                 "measure_duration": {
-                    "alpha": 0.00307,
-                    "beta": 1.16
+                    "alpha": 0.00188,
+                    "beta": 1.11
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 11:41",
+        "reviewed": true,
+        "updated": "2026-10-22 13:20",
         "search_theme": [
             "실적",
             "전망"
@@ -92,17 +92,12 @@
             "의약품 중간체 및 정밀화학"
         ],
         "revenue_share": [
-            0.504,
-            0.352,
-            0.057,
-            0.048
+            0.52,
+            0.37,
+            0.06,
+            0.05
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "improving",
             "improving",

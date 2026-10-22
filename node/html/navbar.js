@@ -23,6 +23,21 @@
     search.placeholder = "(/) Search...";
     nav.appendChild(search);
 
+    // Escape leaves the active text-editing field on every page.
+    document.addEventListener("keydown", event => {
+        if (event.key !== "Escape") return;
+
+        const target = event.target;
+        const isTextEditor = target.matches(
+            "textarea, [contenteditable='true'], input:not([type='checkbox']):not([type='radio']):not([type='button']):not([type='submit']):not([type='reset'])"
+        );
+
+        if (isTextEditor) {
+            event.preventDefault();
+            target.blur();
+        }
+    });
+
     const isLandingPage =
         location.pathname === "/" || location.pathname.endsWith("/index.html");
     if (!isLandingPage) {

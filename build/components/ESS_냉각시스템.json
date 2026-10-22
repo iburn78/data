@@ -1,22 +1,22 @@
 {
     "key": "ESS 냉각시스템",
     "filename": "ESS_냉각시스템",
-    "updated": "2026-10-21 17:27",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 18:34",
+    "llm_research_updated": "2026-10-22 18:34",
     "financials": {
         "meta": {
             "name": "ESS 냉각시스템",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:27",
+            "updated": "2026-10-22 18:34",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 443.0,
+                "marcap": 456.0,
                 "revenue_4qtrs": 200.0,
                 "opincome_4qtrs": -9.72,
                 "revenue_qtr": 42.6,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.797,
-                "slope": -0.000194
+                "measure_to_base": 0.799,
+                "slope": -0.000186
             },
             "amount": {
-                "measure_to_base": 2.59,
-                "slope": -0.0846
+                "measure_to_base": 2.09,
+                "slope": -0.0611
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha": 0.00332,
-                    "beta": 0.58
+                    "beta": 0.581
                 },
                 "base_duration": {
-                    "alpha": -0.00143,
-                    "beta": 0.651
+                    "alpha": -0.000621,
+                    "beta": 0.657
                 },
                 "measure_duration": {
-                    "alpha": 0.0205,
-                    "beta": 1.13
+                    "alpha": 0.0223,
+                    "beta": 1.18
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

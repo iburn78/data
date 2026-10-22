@@ -1,7 +1,7 @@
 {
     "key": "247540",
     "filename": "247540_에코프로비엠",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:48",
     "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "247540",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:48",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 10300.0,
+                "marcap": 10600.0,
                 "revenue_4qtrs": 2260.0,
                 "opincome_4qtrs": 98.5,
                 "revenue_qtr": 577.0,
@@ -38,17 +38,17 @@
                 "4qtrs": 0.0437
             },
             "PER": {
-                "PER_ltm": 104.0,
-                "PER_qx4": 143.0,
-                "PER_fwd": 92.0
+                "PER_ltm": 108.0,
+                "PER_qx4": 148.0,
+                "PER_fwd": 95.1
             },
             "volatility": {
-                "measure_to_base": 0.825,
-                "slope": 0.0000613
+                "measure_to_base": 0.831,
+                "slope": 0.0000514
             },
             "amount": {
-                "measure_to_base": 1.91,
-                "slope": -1.12
+                "measure_to_base": 1.95,
+                "slope": -1.11
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 1.06
                 },
                 "base_duration": {
-                    "alpha": -0.00421,
-                    "beta": 0.712
+                    "alpha": -0.00359,
+                    "beta": 0.717
                 },
                 "measure_duration": {
-                    "alpha": 0.0122,
-                    "beta": 1.06
+                    "alpha": 0.0131,
+                    "beta": 1.08
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 10:19",
+        "reviewed": true,
+        "updated": "2026-10-22 16:48",
         "search_theme": [
             "실적",
             "전망"
@@ -95,11 +95,7 @@
             0.1,
             0.1
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "회복세 및 외형 성장",
             "변동성 및 성장 둔화",

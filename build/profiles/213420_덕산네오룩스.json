@@ -1,7 +1,7 @@
 {
     "key": "213420",
     "filename": "213420_덕산네오룩스",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
@@ -9,18 +9,26 @@
             "code": "213420",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 648.0,
+                "marcap": 665.0,
                 "revenue_4qtrs": 389.0,
                 "opincome_4qtrs": 77.2,
                 "revenue_qtr": 94.6,
                 "opincome_qtr": 18.5
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
             }
         },
         "assess_data": {
@@ -38,47 +46,47 @@
                 "4qtrs": 0.198
             },
             "PER": {
-                "PER_ltm": 8.4,
-                "PER_qx4": 8.76,
-                "PER_fwd": 7.77
+                "PER_ltm": 8.63,
+                "PER_qx4": 8.99,
+                "PER_fwd": 7.98
             },
             "volatility": {
-                "measure_to_base": 0.813,
-                "slope": -0.000111
+                "measure_to_base": 0.81,
+                "slope": -0.000114
             },
             "amount": {
-                "measure_to_base": 0.929,
-                "slope": -0.0602
+                "measure_to_base": 0.914,
+                "slope": -0.0603
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000331,
+                    "alpha": 0.00033,
                     "beta": 0.901
                 },
                 "base_duration": {
-                    "alpha": -0.00484,
-                    "beta": 0.572
+                    "alpha": -0.00437,
+                    "beta": 0.576
                 },
                 "measure_duration": {
-                    "alpha": 0.000222,
-                    "beta": 0.734
+                    "alpha": 0.00318,
+                    "beta": 0.833
                 }
             }
         },
         "assess_result": {
             "basics": true,
-            "financially_sound": false,
+            "financially_sound": true,
             "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "at_mkt",
-            "market_sentiment": "unchanged",
-            "category": "D"
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "B"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 15:00",
+        "reviewed": true,
+        "updated": "2026-10-22 13:18",
         "search_theme": [
             "실적",
             "전망"
@@ -86,8 +94,8 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "OLED 소재 사업",
-            "터보기계 사업"
+            "OLED 소재",
+            "터보기계"
         ],
         "revenue_share": [
             0.71,
@@ -101,7 +109,7 @@
             "IT OLED 침투율 확대로 중장기 우상향",
             "원전 및 데이터센터 수주 확대로 가파른 성장세"
         ],
-        "create_segments": false,
+        "create_segments": true,
         "key_products": [
             "HTL, Red Host, R Prime, G Prime, Black PDL, CP",
             "산업용 펌프, 압축기, 친환경 연료 펌프"

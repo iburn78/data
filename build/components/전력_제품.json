@@ -1,0 +1,120 @@
+{
+    "key": "전력 제품",
+    "filename": "전력_제품",
+    "updated": "2026-10-22 16:00",
+    "llm_research_updated": "2026-10-22 09:29",
+    "financials": {
+        "meta": {
+            "name": "전력 제품",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-22 16:00",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 166.0,
+                "revenue_4qtrs": 167.0,
+                "opincome_4qtrs": 17.7,
+                "revenue_qtr": 48.6,
+                "opincome_qtr": 6.3
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.433,
+                "growth_per_qtr": 0.0981
+            },
+            "opmargin": {
+                "25_4Q": 0.0983,
+                "26_1Q": 0.0498,
+                "26_2Q": 0.129,
+                "26_3Q": 0.129,
+                "4qtrs": 0.106
+            },
+            "PER": {
+                "PER_ltm": 9.42,
+                "PER_qx4": 6.61,
+                "PER_fwd": 5.64
+            },
+            "volatility": {
+                "measure_to_base": 0.768,
+                "slope": -0.0000649
+            },
+            "amount": {
+                "measure_to_base": 2.6,
+                "slope": -0.019
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000665,
+                    "beta": 0.716
+                },
+                "base_duration": {
+                    "alpha": 0.00114,
+                    "beta": 0.479
+                },
+                "measure_duration": {
+                    "alpha": 0.00357,
+                    "beta": 0.757
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "B"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "086670",
+            "name": "비엠티"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-22 09:29",
+        "key_facts": [
+            "북미와 유럽을 중심으로 노후 전력망 교체 및 신규 전력 인프라 투자가 지속되고 있음.",
+            "AI 데이터센터 증설로 인해 변압기, 전력 케이블, 송배전 설비, 비상발전기 등 전력 인프라 제품의 수요가 증가함.",
+            "베트남 하띤성의 경우 2026년 9월 30일 기준 전년 동기 대비 산업 부문 전력 수요가 26.75%, 상업 및 서비스 부문이 17.84% 증가함.",
+            "베트남 전력 시장에서 전력 직접 구매 계약(DPPA) 제도가 확대되어 산업단지 및 특구 내 전력 소매업체까지 적용 범위가 넓어짐."
+        ],
+        "new_trends": [
+            "엣지 컴퓨팅 및 임베디드 AI를 활용하여 에너지 효율을 높이고 하드웨어 의존도를 낮추는 산업 지능형 솔루션 개발.",
+            "소프트웨어 정의 하드웨어(Software-defined Hardware)를 위한 애플리케이션별 집적 회로 및 전력 전자 장치 도입.",
+            "베트남 내 단일 구매자 모델(EVN 독점)에서 벗어나 소비자가 전력 공급업체를 선택할 수 있는 경쟁형 소매 전력 시장으로의 구조 개편 추진.",
+            "SiC MOSFET 및 GaN HEMT 전력 트랜지스터를 활용한 고속 인버터 모델링 연구."
+        ],
+        "news_summary": "전력 제품 산업은 AI 데이터센터 확대로 인한 전력 수요 급증과 북미·유럽의 노후 전력망 교체 수요가 맞물리며 성장세를 보이고 있습니다. 특히 변압기, 케이블, 송배전 설비 등 전반적인 전력 인프라 제품의 수주 확대 기대감이 높습니다. 기술적으로는 에너지 효율을 극대화하기 위한 엣지 AI 및 소프트웨어 정의 하드웨어 적용이 시도되고 있으며, 베트남과 같은 신흥 시장에서는 전력 시장의 독점 구조를 해소하고 경쟁 체제로 전환하려는 제도적 변화가 나타나고 있습니다."
+    }
+}

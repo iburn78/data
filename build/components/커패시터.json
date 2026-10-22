@@ -1,0 +1,125 @@
+{
+    "key": "커패시터",
+    "filename": "커패시터",
+    "updated": "2026-10-22 18:33",
+    "llm_research_updated": "2026-10-22 18:33",
+    "financials": {
+        "meta": {
+            "name": "커패시터",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-22 18:33",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 869.0,
+                "revenue_4qtrs": 156.0,
+                "opincome_4qtrs": -1.37,
+                "revenue_qtr": 45.6,
+                "opincome_qtr": 0.0875
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": 0.188,
+                "growth_per_qtr": -0.549
+            },
+            "opmargin": {
+                "25_4Q": 0.0109,
+                "26_1Q": -0.0553,
+                "26_2Q": 0.00192,
+                "26_3Q": 0.00192,
+                "4qtrs": -0.00877
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": 2480.0,
+                "PER_fwd": 389.0
+            },
+            "volatility": {
+                "measure_to_base": 0.822,
+                "slope": -0.000181
+            },
+            "amount": {
+                "measure_to_base": 3.3,
+                "slope": -0.324
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00212,
+                    "beta": 0.884
+                },
+                "base_duration": {
+                    "alpha": -0.000678,
+                    "beta": 0.948
+                },
+                "measure_duration": {
+                    "alpha": 0.0197,
+                    "beta": 1.26
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "417200(A)",
+            "name": "LS머트리얼즈(A)"
+        },
+        {
+            "key": "126340",
+            "name": "비나텍"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-22 18:33",
+        "key_facts": [
+            "전 세계 커패시터 밸런싱 회로 시장은 2026년부터 2035년까지 연평균 8.2% 성장하여 2035년 시장 지수가 220(2025년=100)에 도달할 전망임.",
+            "리튬 슈퍼커패시터(LIC) 시장 규모는 2025년 3,150만 달러에서 2026년 3,418만 달러로 성장하고, 2032년에는 5,576만 달러에 이를 것으로 예측됨.",
+            "AI 데이터센터(AIDC)의 전력 소비 증가로 인해 수소연료전지 시스템의 출력을 안정시키는 울트라커패시터(UC) 수요가 확대되고 있음.",
+            "전기차 플랫폼이 800V 이상 고전압 아키텍처로 전환됨에 따라, 배터리 수명 연장과 안전을 위한 능동 밸런싱 회로 채택이 가속화되고 있음.",
+            "커패시터 밸런싱 회로는 전기차 배터리 팩, 계통 에너지 저장 시스템(ESS), 무정전 전원장치(UPS), 재생에너지 인버터 등의 표준 부품으로 자리 잡음."
+        ],
+        "new_trends": [
+            "능동 밸런싱 토폴로지: 고전압 전기차 및 계통 저장장치를 중심으로 수동 방식에서 능동 방식으로의 기술 전환이 빠르게 진행 중임.",
+            "통합 및 무선화: 밸런싱 기능의 배터리 관리 IC(BMIC) 통합 및 배선 복잡성을 줄이는 무선 배터리 관리 시스템(Wireless BMS) 채택이 증가하는 추세임.",
+            "하이브리드 축전 장치: 고출력 특성과 축전 특성을 결합한 리튬 슈퍼커패시터(LIC)가 스마트 미터, IoT 단말기부터 산업용 전압 저하 보상까지 용도가 확대됨.",
+            "AI 인프라 확장: AI 데이터센터 확충에 따른 전력 인프라 수요 증가로 고부가가치 콘덴서 및 MLCC(적층세라믹콘덴서) 업황 개선 기대감이 높아짐."
+        ],
+        "news_summary": "커패시터 산업은 AI 데이터센터 확충, 전기차의 고전압화, 재생에너지 전환이라는 세 가지 핵심 동력에 의해 성장하고 있습니다. 특히 커패시터 밸런싱 회로 시장은 고전압 배터리 팩과 에너지 저장 장치(ESS) 수요에 힘입어 2035년까지 지속적인 성장이 예상되며, 효율성이 높은 능동 밸런싱 기술로의 전환이 뚜렷합니다. 또한, 리튬 슈퍼커패시터와 울트라커패시터는 각각 고신뢰성 산업 전원과 AI 데이터센터 전력 인프라라는 새로운 시장을 개척하며 영역을 넓히고 있습니다. 전반적으로 단순 부품 공급에서 벗어나 전압 관리, 전력 변환을 포함한 시스템 통합 솔루션으로의 기술 고도화가 진행 중입니다."
+    }
+}

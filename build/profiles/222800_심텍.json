@@ -1,7 +1,7 @@
 {
     "key": "222800",
     "filename": "222800_심텍",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:33",
     "llm_research_updated": "2026-10-19 09:27",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "222800",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 4770.0,
+                "marcap": 4850.0,
                 "revenue_4qtrs": 1840.0,
                 "opincome_4qtrs": 150.0,
                 "revenue_qtr": 515.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0812
             },
             "PER": {
-                "PER_ltm": 31.9,
-                "PER_qx4": 19.0,
-                "PER_fwd": 14.8
+                "PER_ltm": 32.4,
+                "PER_qx4": 19.3,
+                "PER_fwd": 15.0
             },
             "volatility": {
-                "measure_to_base": 0.706,
-                "slope": -0.0000562
+                "measure_to_base": 0.711,
+                "slope": -0.0000656
             },
             "amount": {
-                "measure_to_base": 1.09,
-                "slope": 0.105
+                "measure_to_base": 1.12,
+                "slope": 0.0908
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00116,
+                    "alpha": 0.00115,
                     "beta": 1.27
                 },
                 "base_duration": {
-                    "alpha": 0.00649,
-                    "beta": 1.15
+                    "alpha": 0.00658,
+                    "beta": 1.14
                 },
                 "measure_duration": {
-                    "alpha": 0.0131,
-                    "beta": 1.42
+                    "alpha": 0.0155,
+                    "beta": 1.48
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "C"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 09:27",
+        "reviewed": true,
+        "updated": "2026-10-22 16:33",
         "search_theme": [
             "실적",
             "전망"
@@ -95,11 +95,7 @@
             0.24,
             0.0
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "Improving due to high-performance demand",
             "Growing with new product mass production",

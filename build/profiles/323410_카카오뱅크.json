@@ -1,7 +1,7 @@
 {
     "key": "323410",
     "filename": "323410_카카오뱅크",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 17:31",
     "llm_research_updated": "2026-10-21 13:27",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "323410",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 17:31",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 9660.0,
+                "marcap": 9640.0,
                 "revenue_4qtrs": 3240.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 829.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 13:27",
+        "reviewed": true,
+        "updated": "2026-10-22 17:31",
         "search_theme": [
             "실적",
             "전망"
@@ -45,11 +45,7 @@
             0.2,
             0.2
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "Growth slowing due to regulations",
             "Rapidly expanding",

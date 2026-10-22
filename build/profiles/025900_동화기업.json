@@ -1,7 +1,7 @@
 {
     "key": "025900",
     "filename": "025900_동화기업",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:01",
     "llm_research_updated": "2026-10-21 11:34",
     "financials": {
         "meta": {
@@ -9,24 +9,32 @@
             "code": "025900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 336.0,
+                "marcap": 327.0,
                 "revenue_4qtrs": 906.0,
                 "opincome_4qtrs": -10.7,
                 "revenue_qtr": 234.0,
                 "opincome_qtr": -0.865
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_last_4qtrs": false,
-                "higher_than_comp": true,
+                "higher_than_comp": false,
                 "slope": -0.759,
                 "growth_per_qtr": 0.284
             },
@@ -43,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.612,
-                "slope": 0.0000766
+                "measure_to_base": 0.616,
+                "slope": 0.0000661
             },
             "amount": {
-                "measure_to_base": 0.852,
-                "slope": -0.0122
+                "measure_to_base": 0.806,
+                "slope": -0.0107
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000054,
-                    "beta": 0.906
+                    "alpha": -0.0000733,
+                    "beta": 0.903
                 },
                 "base_duration": {
-                    "alpha": -0.00389,
-                    "beta": 0.499
+                    "alpha": -0.0039,
+                    "beta": 0.494
                 },
                 "measure_duration": {
-                    "alpha": 0.00502,
-                    "beta": 0.74
+                    "alpha": 0.00304,
+                    "beta": 0.658
                 }
             }
         },
@@ -72,13 +80,13 @@
             "volatility_movement": "Dn",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 11:34",
+        "reviewed": true,
+        "updated": "2026-10-22 13:21",
         "search_theme": [
             "실적",
             "전망"
@@ -105,7 +113,7 @@
             "stable",
             "declining"
         ],
-        "create_segments": false,
+        "create_segments": true,
         "key_products": [
             "MDF, PB, 합판",
             "바닥재, 강화마루, 인테리어 자재",

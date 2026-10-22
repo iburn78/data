@@ -1,22 +1,22 @@
 {
     "key": "광케이블",
     "filename": "광케이블",
-    "updated": "2026-10-21 17:25",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 18:33",
+    "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
             "name": "광케이블",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:25",
+            "updated": "2026-10-22 18:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1980.0,
+                "marcap": 2220.0,
                 "revenue_4qtrs": 161.0,
                 "opincome_4qtrs": -7.05,
                 "revenue_qtr": 49.1,
@@ -47,29 +47,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 518.0,
-                "PER_fwd": 175.0
+                "PER_qx4": 581.0,
+                "PER_fwd": 197.0
             },
             "volatility": {
-                "measure_to_base": 0.951,
-                "slope": -0.000539
+                "measure_to_base": 0.958,
+                "slope": -0.000528
             },
             "amount": {
-                "measure_to_base": 2.17,
-                "slope": -5.26
+                "measure_to_base": 2.07,
+                "slope": -5.3
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00124,
-                    "beta": 1.24
+                    "alpha": 0.00127,
+                    "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": 0.00217,
-                    "beta": 1.14
+                    "alpha": 0.00347,
+                    "beta": 1.16
                 },
                 "measure_duration": {
-                    "alpha": 0.0036,
-                    "beta": 1.56
+                    "alpha": 0.00238,
+                    "beta": 1.54
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

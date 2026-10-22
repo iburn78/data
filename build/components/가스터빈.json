@@ -1,0 +1,120 @@
+{
+    "key": "가스터빈",
+    "filename": "가스터빈",
+    "updated": "2026-10-22 18:34",
+    "llm_research_updated": "2026-10-22 18:34",
+    "financials": {
+        "meta": {
+            "name": "가스터빈",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-22 18:34",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 193.0,
+                "revenue_4qtrs": 113.0,
+                "opincome_4qtrs": 27.6,
+                "revenue_qtr": 27.4,
+                "opincome_qtr": 6.72
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.415,
+                "growth_per_qtr": 0.06
+            },
+            "opmargin": {
+                "25_4Q": 0.245,
+                "26_1Q": 0.245,
+                "26_2Q": 0.245,
+                "26_3Q": 0.245,
+                "4qtrs": 0.245
+            },
+            "PER": {
+                "PER_ltm": 6.98,
+                "PER_qx4": 7.18,
+                "PER_fwd": 6.22
+            },
+            "volatility": {
+                "measure_to_base": 0.81,
+                "slope": -0.000114
+            },
+            "amount": {
+                "measure_to_base": 0.914,
+                "slope": -0.0175
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00033,
+                    "beta": 0.901
+                },
+                "base_duration": {
+                    "alpha": -0.00437,
+                    "beta": 0.576
+                },
+                "measure_duration": {
+                    "alpha": 0.00318,
+                    "beta": 0.833
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "A"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "213420(B)",
+            "name": "덕산네오룩스(B)"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-22 18:34",
+        "key_facts": [
+            "AI 데이터센터 확산으로 인한 안정적인 전력 확보 수요 증가로 가스터빈 및 가스복합화력발전 설비 시장이 성장하고 있음",
+            "국산 대형 가스터빈(380MW급)이 미국 시장에 첫 출하를 완료했으며, 북미 지역에서 10~12기 규모의 수주가 이루어짐",
+            "가스터빈 시장의 글로벌 선도 기업들은 수년 치의 주문이 밀려 있는 상태이며, 주문부터 공급까지 최소 3년이 소요됨",
+            "가스터빈은 원전 대비 건설 기간이 짧고 기동 후 10~20분 내 전력 생산이 가능해 데이터센터 전원으로 각광받고 있음",
+            "배열회수보일러(HRSG) 시장이 가스복합화력발전소 확대와 맞물려 함께 성장하고 있음"
+        ],
+        "new_trends": [
+            "탄소 배출 저감을 위해 LNG와 수소를 50% 혼합 연소하는 수소터빈 및 초대형 수소 전소 터빈 개발 추진",
+            "AI 전력난 대응을 위해 가스터빈, SMR, 대형원전, 풍력터빈을 아우르는 종합 전력 솔루션 포트폴리오 전략 확대",
+            "HRSG 설계 기술과 제조 역량을 결합하여 기자재 공급부터 설비 제작까지 수직계열화를 구축하려는 시도(미코그룹-넴에너지 사례)"
+        ],
+        "news_summary": "AI 데이터센터의 급증으로 인한 전력난이 가스터빈 및 관련 설비 산업의 성장 동력이 되고 있습니다. 특히 가스터빈은 빠른 공급 속도와 안정적인 전원 공급 능력을 바탕으로 빅테크 기업들의 수요가 몰리고 있으며, 국산 대형 가스터빈의 북미 수출이 시작되는 등 시장 확대가 가속화되고 있습니다. 이와 함께 발전 효율을 높이는 배열회수보일러(HRSG) 시장이 성장하고 있으며, 업계에서는 탄소 중립을 위한 수소터빈 개발과 SMR 등 차세대 전원을 결합한 종합 전력 솔루션 구축을 통해 중장기 수요에 대응하는 추세입니다."
+    }
+}

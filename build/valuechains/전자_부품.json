@@ -1,7 +1,7 @@
 {
     "key": "전자 부품",
     "filename": "전자_부품",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:35",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 120000.0,
-                "revenue_4qtrs": 46700.0,
-                "opincome_4qtrs": 3600.0,
-                "revenue_qtr": 11600.0,
-                "opincome_qtr": 1020.0
+                "marcap": 98500.0,
+                "revenue_4qtrs": 38200.0,
+                "opincome_4qtrs": 2540.0,
+                "revenue_qtr": 9390.0,
+                "opincome_qtr": 698.0
             },
             "share": {
                 "marcap": "-",
@@ -35,53 +35,53 @@
             "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": 46.3,
-                "growth_per_qtr": 0.0513
+                "slope": 21.7,
+                "growth_per_qtr": 0.0342
             },
             "opmargin": {
-                "25_4Q": 0.0636,
-                "26_1Q": 0.0711,
-                "26_2Q": 0.0876,
-                "26_3Q": 0.0876,
-                "4qtrs": 0.0773
+                "25_4Q": 0.0561,
+                "26_1Q": 0.062,
+                "26_2Q": 0.0743,
+                "26_3Q": 0.0743,
+                "4qtrs": 0.0664
             },
             "PER": {
-                "PER_ltm": 33.3,
-                "PER_qx4": 29.5,
-                "PER_fwd": 26.5
+                "PER_ltm": 38.8,
+                "PER_qx4": 35.3,
+                "PER_fwd": 32.8
             },
             "volatility": {
-                "measure_to_base": 0.593,
-                "slope": -0.0000429
+                "measure_to_base": 0.613,
+                "slope": -0.0000948
             },
             "amount": {
-                "measure_to_base": 1.15,
-                "slope": -16.3
+                "measure_to_base": 1.12,
+                "slope": -14.4
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000638,
-                    "beta": 1.23
+                    "alpha": 0.000612,
+                    "beta": 1.21
                 },
                 "base_duration": {
-                    "alpha": 0.00416,
-                    "beta": 1.23
+                    "alpha": 0.00517,
+                    "beta": 1.26
                 },
                 "measure_duration": {
-                    "alpha": 0.00901,
-                    "beta": 1.54
+                    "alpha": 0.00592,
+                    "beta": 1.5
                 }
             }
         },
         "assess_result": {
             "basics": true,
-            "financially_sound": true,
+            "financially_sound": false,
             "PER_level": "High",
             "volatility_movement": "Dn",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
-            "category": "C"
+            "market_sentiment": "-",
+            "category": "D"
         }
     },
     "info_section": {
@@ -98,9 +98,6 @@
     "component_keys": [
         "스마트글래스",
         "카메라 모듈",
-        "메모리 기판",
-        "PCB 기판",
-        "MLCC",
         "Display",
         "폴더블"
     ],

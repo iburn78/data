@@ -1,7 +1,7 @@
 {
     "key": "001200",
     "filename": "001200_유진투자증권",
-    "updated": "2026-10-21 17:19",
+    "updated": "2026-10-22 17:16",
     "llm_research_updated": "2026-10-21 17:19",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "001200",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:19",
+            "updated": "2026-10-22 17:16",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 346.0,
+                "marcap": 353.0,
                 "revenue_4qtrs": 4640.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 1500.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 17:19",
+        "reviewed": true,
+        "updated": "2026-10-22 17:16",
         "search_theme": [
             "실적",
             "전망"
@@ -45,20 +45,13 @@
         ],
         "revenue_share": [
             0.37,
-            0.269,
-            0.125,
-            0.121,
-            0.101,
+            0.27,
+            0.12,
+            0.12,
+            0.1,
             0.02
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "improving (max revenue source)",
             "stable",

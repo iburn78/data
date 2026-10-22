@@ -1,7 +1,7 @@
 {
     "key": "145020",
     "filename": "145020_휴젤",
-    "updated": "2026-10-21 17:29",
+    "updated": "2026-10-22 16:19",
     "llm_research_updated": "2026-10-19 09:44",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "145020",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:29",
+            "updated": "2026-10-22 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2310.0,
+                "marcap": 2330.0,
                 "revenue_4qtrs": 512.0,
                 "opincome_4qtrs": 218.0,
                 "revenue_qtr": 138.0,
@@ -38,52 +38,52 @@
                 "4qtrs": 0.425
             },
             "PER": {
-                "PER_ltm": 10.6,
-                "PER_qx4": 10.3,
-                "PER_fwd": 9.41
+                "PER_ltm": 10.7,
+                "PER_qx4": 10.4,
+                "PER_fwd": 9.49
             },
             "volatility": {
-                "measure_to_base": 0.897,
-                "slope": -0.0000695
+                "measure_to_base": 0.919,
+                "slope": -0.0000722
             },
             "amount": {
-                "measure_to_base": 1.27,
-                "slope": -0.0608
+                "measure_to_base": 1.3,
+                "slope": -0.0645
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0006,
+                    "alpha": 0.000596,
                     "beta": 0.588
                 },
                 "base_duration": {
-                    "alpha": -0.0023,
-                    "beta": 0.17
+                    "alpha": -0.00214,
+                    "beta": 0.172
                 },
                 "measure_duration": {
-                    "alpha": -0.01,
-                    "beta": 0.152
+                    "alpha": -0.00384,
+                    "beta": 0.361
                 }
             }
         },
         "assess_result": {
             "basics": true,
-            "financially_sound": false,
+            "financially_sound": true,
             "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
-            "category": "D"
+            "market_sentiment": "-",
+            "category": "B"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 09:44",
+        "reviewed": true,
+        "updated": "2026-10-22 16:19",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
             "보툴리눔 톡신",
@@ -95,11 +95,7 @@
             0.31,
             0.14
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "성장세 (글로벌 시장 확대)",
             "보합/정체 (글로벌 수요 약세)",

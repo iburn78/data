@@ -1,22 +1,22 @@
 {
     "key": "336570",
     "filename": "336570_원텍",
-    "updated": "2026-10-21 17:38",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:59",
+    "llm_research_updated": "2026-10-22 16:57",
     "financials": {
         "meta": {
             "name": "원텍",
             "code": "336570",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:38",
+            "updated": "2026-10-22 16:59",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 370.0,
+                "marcap": 357.0,
                 "revenue_4qtrs": 182.0,
                 "opincome_4qtrs": 45.6,
                 "revenue_qtr": 47.5,
@@ -38,71 +38,79 @@
                 "4qtrs": 0.251
             },
             "PER": {
-                "PER_ltm": 8.1,
-                "PER_qx4": 8.33,
-                "PER_fwd": 7.7
+                "PER_ltm": 7.83,
+                "PER_qx4": 8.05,
+                "PER_fwd": 7.44
             },
             "volatility": {
-                "measure_to_base": 0.731,
-                "slope": -0.000314
+                "measure_to_base": 0.741,
+                "slope": -0.000326
             },
             "amount": {
-                "measure_to_base": 1.14,
-                "slope": -0.122
+                "measure_to_base": 1.17,
+                "slope": -0.125
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000419,
-                    "beta": 0.458
+                    "alpha": 0.000392,
+                    "beta": 0.455
                 },
                 "base_duration": {
-                    "alpha": -0.00361,
-                    "beta": 0.496
+                    "alpha": -0.00402,
+                    "beta": 0.488
                 },
                 "measure_duration": {
-                    "alpha": -0.00439,
-                    "beta": 0.528
+                    "alpha": -0.00664,
+                    "beta": 0.439
                 }
             }
         },
         "assess_result": {
             "basics": true,
-            "financially_sound": false,
-            "PER_level": "Mid",
+            "financially_sound": true,
+            "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
-            "category": "D"
+            "market_sentiment": "-",
+            "category": "A"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 16:59",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
-            "에너지 기반 의료기기 (EBD)"
+            "RF & HIFU",
+            "Laser",
+            "Tip (소모품)"
         ],
         "revenue_share": [
-            1.0
+            0.4,
+            0.34,
+            0.26
         ],
-        "opmargin": [
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "Improving via product upgrades and global expansion"
+            "Improving (Growth driver)",
+            "Expanding exports",
+            "Increasing (High-margin growth)"
         ],
         "create_segments": false,
         "key_products": [
-            "Oligio, Oligio X, Kiss, Picocare, Tightan"
+            "올리지오, 올리지오X, Kiss",
+            "피코케어, 라비앙",
+            "일회용 팁 (Disposable Tips)"
         ],
         "competitors": [
-            "Classys, Jeisys Medical"
+            "클래시스, 제이시스메디칼, 비올, 솔타메디칼, 큐테라",
+            "클래시스, 제이시스메디칼, 솔타메디칼, 큐테라",
+            "클래시스, 비올"
         ]
     },
     "code": "336570",

@@ -1,7 +1,7 @@
 {
     "key": "003530",
     "filename": "003530_한화투자증권",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:17",
     "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "003530",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:17",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 862.0,
+                "marcap": 884.0,
                 "revenue_4qtrs": 9030.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 3230.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 14:07",
+        "reviewed": true,
+        "updated": "2026-10-22 18:17",
         "search_theme": [
             "실적",
             "전망"
@@ -42,17 +42,12 @@
             "Wholesale (홀세일)"
         ],
         "revenue_share": [
-            0.42,
-            0.18,
-            0.17,
-            0.1
+            0.48,
+            0.21,
+            0.2,
+            0.11
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "증가세 (주식 거래대금 및 금융상품 판매 호조)",
             "하락/정체 (부동산 PF 시장 침체 및 규제 영향)",

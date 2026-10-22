@@ -1,22 +1,22 @@
 {
     "key": "200670",
     "filename": "200670_휴메딕스",
-    "updated": "2026-10-21 17:33",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:19",
+    "llm_research_updated": "2026-10-22 16:10",
     "financials": {
         "meta": {
             "name": "휴메딕스",
             "code": "200670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:33",
+            "updated": "2026-10-22 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 268.0,
+                "marcap": 264.0,
                 "revenue_4qtrs": 187.0,
                 "opincome_4qtrs": 43.4,
                 "revenue_qtr": 50.4,
@@ -38,36 +38,36 @@
                 "4qtrs": 0.232
             },
             "PER": {
-                "PER_ltm": 6.17,
-                "PER_qx4": 5.73,
-                "PER_fwd": 5.75
+                "PER_ltm": 6.08,
+                "PER_qx4": 5.65,
+                "PER_fwd": 5.67
             },
             "volatility": {
-                "measure_to_base": 0.623,
-                "slope": -0.000043
+                "measure_to_base": 0.634,
+                "slope": -0.0000477
             },
             "amount": {
-                "measure_to_base": 1.5,
+                "measure_to_base": 1.55,
                 "slope": -0.0108
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000212,
-                    "beta": 0.725
+                    "alpha": -0.000225,
+                    "beta": 0.723
                 },
                 "base_duration": {
-                    "alpha": -0.00238,
-                    "beta": 0.371
+                    "alpha": -0.00255,
+                    "beta": 0.367
                 },
                 "measure_duration": {
-                    "alpha": 0.00432,
-                    "beta": 0.621
+                    "alpha": 0.00323,
+                    "beta": 0.572
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": false,
+            "financially_sound": true,
             "PER_level": "Low",
             "volatility_movement": "Dn",
             "amount_movement": "Up",
@@ -77,13 +77,13 @@
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 16:19",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
             "에스테틱 (Aesthetics)",
@@ -93,10 +93,7 @@
             0.7,
             0.3
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "expanding global market share",
             "stable"

@@ -1,7 +1,7 @@
 {
     "key": "005930",
     "filename": "005930_삼성전자",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:31",
     "llm_research_updated": "2026-10-19 09:04",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "005930",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:31",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1240000.0,
+                "marcap": 1310000.0,
                 "revenue_4qtrs": 571000.0,
                 "opincome_4qtrs": 256000.0,
                 "revenue_qtr": 171000.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.449
             },
             "PER": {
-                "PER_ltm": 4.82,
-                "PER_qx4": 3.45,
-                "PER_fwd": 2.81
+                "PER_ltm": 5.1,
+                "PER_qx4": 3.65,
+                "PER_fwd": 2.97
             },
             "volatility": {
-                "measure_to_base": 0.595,
-                "slope": -0.000028
+                "measure_to_base": 0.61,
+                "slope": -0.0000366
             },
             "amount": {
-                "measure_to_base": 0.969,
-                "slope": -52.2
+                "measure_to_base": 1.01,
+                "slope": -55.3
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000432,
+                    "alpha": 0.000438,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.00187,
+                    "alpha": 0.00181,
                     "beta": 1.32
                 },
                 "measure_duration": {
-                    "alpha": 0.00409,
-                    "beta": 1.39
+                    "alpha": 0.00657,
+                    "beta": 1.47
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "Dn",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "A"
         }
     },

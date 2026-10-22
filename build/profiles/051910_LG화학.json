@@ -1,7 +1,7 @@
 {
     "key": "051910",
     "filename": "051910_LG화학",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 13:27",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "051910",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 17800.0,
+                "marcap": 18000.0,
                 "revenue_4qtrs": 51800.0,
                 "opincome_4qtrs": 736.0,
                 "revenue_qtr": 14200.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0142
             },
             "PER": {
-                "PER_ltm": 24.2,
-                "PER_qx4": 7.43,
-                "PER_fwd": 7.24
+                "PER_ltm": 24.5,
+                "PER_qx4": 7.52,
+                "PER_fwd": 7.32
             },
             "volatility": {
-                "measure_to_base": 0.87,
-                "slope": -0.000049
+                "measure_to_base": 0.877,
+                "slope": -0.0000503
             },
             "amount": {
-                "measure_to_base": 1.8,
-                "slope": -1.05
+                "measure_to_base": 1.84,
+                "slope": -1.04
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000242,
-                    "beta": 0.972
+                    "alpha": -0.000249,
+                    "beta": 0.971
                 },
                 "base_duration": {
-                    "alpha": -0.00268,
-                    "beta": 0.441
+                    "alpha": -0.00266,
+                    "beta": 0.442
                 },
                 "measure_duration": {
-                    "alpha": 0.0031,
-                    "beta": 0.599
+                    "alpha": 0.00423,
+                    "beta": 0.633
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

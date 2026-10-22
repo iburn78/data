@@ -1,7 +1,7 @@
 {
     "key": "전고체",
     "filename": "전고체",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:40",
     "llm_research_updated": "2026-10-21 11:11",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:40",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2140.0,
+                "marcap": 2170.0,
                 "revenue_4qtrs": 9170.0,
                 "opincome_4qtrs": 550.0,
                 "revenue_qtr": 2530.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0599
             },
             "PER": {
-                "PER_ltm": 3.9,
-                "PER_qx4": 2.65,
-                "PER_fwd": 2.36
+                "PER_ltm": 3.95,
+                "PER_qx4": 2.68,
+                "PER_fwd": 2.39
             },
             "volatility": {
-                "measure_to_base": 0.764,
+                "measure_to_base": 0.781,
                 "slope": -0.000107
             },
             "amount": {
-                "measure_to_base": 2.32,
-                "slope": -0.332
+                "measure_to_base": 2.48,
+                "slope": -0.294
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha": 0.00288,
-                    "beta": 0.948
+                    "beta": 0.947
                 },
                 "base_duration": {
-                    "alpha": -0.0052,
-                    "beta": 0.431
+                    "alpha": -0.00492,
+                    "beta": 0.433
                 },
                 "measure_duration": {
-                    "alpha": 0.00242,
-                    "beta": 0.631
+                    "alpha": 0.00229,
+                    "beta": 0.623
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "A"
         }
     },

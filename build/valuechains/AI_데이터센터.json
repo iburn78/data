@@ -1,0 +1,125 @@
+{
+    "key": "AI 데이터센터",
+    "filename": "AI_데이터센터",
+    "updated": "2026-10-22 18:35",
+    "llm_research_updated": "2026-10-22 18:35",
+    "financials": {
+        "meta": {
+            "name": "AI 데이터센터",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-22 18:35",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 11100.0,
+                "revenue_4qtrs": 3770.0,
+                "opincome_4qtrs": 119.0,
+                "revenue_qtr": 1040.0,
+                "opincome_qtr": 37.1
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 3.27,
+                "growth_per_qtr": 0.11
+            },
+            "opmargin": {
+                "25_4Q": 0.0221,
+                "26_1Q": 0.0305,
+                "26_2Q": 0.0357,
+                "26_3Q": 0.0357,
+                "4qtrs": 0.0316
+            },
+            "PER": {
+                "PER_ltm": 93.4,
+                "PER_qx4": 75.0,
+                "PER_fwd": 61.5
+            },
+            "volatility": {
+                "measure_to_base": 0.854,
+                "slope": -0.0000527
+            },
+            "amount": {
+                "measure_to_base": 2.49,
+                "slope": -5.91
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00095,
+                    "beta": 1.08
+                },
+                "base_duration": {
+                    "alpha": 0.00566,
+                    "beta": 1.07
+                },
+                "measure_duration": {
+                    "alpha": 0.00162,
+                    "beta": 1.34
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "밸류체인",
+            "업계"
+        ],
+        "tags": "",
+        "notes": "",
+        "dynamics": "",
+        "key_drivers": ""
+    },
+    "component_keys": [
+        "커패시터",
+        "버스덕트",
+        "광증폭기",
+        "광케이블",
+        "ESS 냉각시스템",
+        "가스터빈"
+    ],
+    "news": {
+        "updated": "2026-10-22 18:35",
+        "key_facts": [
+            "엔비디아가 공장 조립식 표준 설계 'DSX POD'를 공개하여, AI 데이터센터 구축 기간을 기존 6개월에서 최단 14일로 단축함.",
+            "kt cloud가 2029년 준공 목표로 50MW 규모의 '안산 AI 데이터센터'를 착공하며 2031년까지 1GW AIDC 공급 전략을 추진함.",
+            "포항 광명일반산업단지에 1단계 40MW 규모의 Neo AI 데이터센터가 건설 중이며, 향후 300MW급 클러스터 확장을 검토 중임.",
+            "소프트뱅크가 미국 오하이오주에 10GW 규모의 AI 데이터센터와 발전 설비를 조성하는 '포츠머스 컨소시엄' 투자를 추진함.",
+            "AI 인프라 전문 클라우드 기업들의 과도한 차입 투자로 인해 신용부도스와프(CDS) 프리미엄이 상승하는 등 자금 조달 압박이 심화됨."
+        ],
+        "new_trends": [
+            "모듈형 데이터센터(PMDC) 도입을 통한 구축 기간 단축 및 표준화 경향.",
+            "액체 냉각(Liquid Cooling) 및 액침 냉각 등 고발열 AI 서버 대응 특화 냉각 기술 적용 확대.",
+            "GPU를 담보 가치를 지닌 자산으로 활용하는 '자산담보형 금융' 및 GPU 파이낸싱 모델 등장.",
+            "데이터센터 건설 기업이 지역사회에 배당금 등 직접적인 경제적 혜택을 제공하여 지지를 확보하려는 시도.",
+            "전력 생산 단계부터 AI 기술을 적용하여 에너지 효율을 높이는 AI 밸류체인 전방 확장."
+        ],
+        "news_summary": "AI 데이터센터 산업은 구축 기간 단축을 위한 모듈화와 고발열 대응 액체 냉각 기술 도입 등 기술적 표준화 단계로 진입하고 있습니다. 국내외적으로 하이퍼스케일 AIDC 구축 경쟁이 치열하며, 전력 확보와 냉각 인프라가 핵심 경쟁력으로 부상했습니다. 그러나 막대한 선행 투자에 따른 금융 비용 증가와 자금 회수 불확실성으로 인해 일부 기업의 신용 불안이 커지고 있으며, 전력·물 소비로 인한 지역사회 갈등 해결이 사업 추진의 주요 변수로 작용하고 있습니다. 이에 따라 전력 생산부터 운영까지 아우르는 밸류체인 확장과 지역사회 이익 공유 모델 등이 대안으로 제시되고 있습니다."
+    }
+}

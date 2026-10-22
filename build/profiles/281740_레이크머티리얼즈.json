@@ -1,7 +1,7 @@
 {
     "key": "281740",
     "filename": "281740_레이크머티리얼즈",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-21 11:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "281740",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 790.0,
+                "marcap": 818.0,
                 "revenue_4qtrs": 149.0,
                 "opincome_4qtrs": 21.2,
                 "revenue_qtr": 37.2,
@@ -38,17 +38,17 @@
                 "4qtrs": 0.142
             },
             "PER": {
-                "PER_ltm": 37.3,
-                "PER_qx4": 32.5,
-                "PER_fwd": 32.2
+                "PER_ltm": 38.6,
+                "PER_qx4": 33.6,
+                "PER_fwd": 33.3
             },
             "volatility": {
-                "measure_to_base": 0.802,
-                "slope": -0.0000585
+                "measure_to_base": 0.815,
+                "slope": -0.0000603
             },
             "amount": {
-                "measure_to_base": 2.9,
-                "slope": -0.148
+                "measure_to_base": 3.18,
+                "slope": -0.126
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00501,
-                    "beta": 0.643
+                    "alpha": -0.0043,
+                    "beta": 0.649
                 },
                 "measure_duration": {
-                    "alpha": 0.0165,
-                    "beta": 1.04
+                    "alpha": 0.0185,
+                    "beta": 1.11
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 11:18",
+        "reviewed": true,
+        "updated": "2026-10-22 13:26",
         "search_theme": [
             "실적",
             "전망"
@@ -93,19 +93,13 @@
             "2차전지 전고체 소재"
         ],
         "revenue_share": [
-            0.597,
-            0.258,
+            0.6,
+            0.26,
             0.08,
             0.06,
-            0.005
+            0.01
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "Improving due to industry recovery and 3D-NAND demand",
             "Stable to weak due to oversupply concerns",

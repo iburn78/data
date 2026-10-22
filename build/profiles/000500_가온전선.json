@@ -1,22 +1,22 @@
 {
     "key": "000500",
     "filename": "000500_가온전선",
-    "updated": "2026-10-21 17:21",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:00",
+    "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
             "name": "가온전선",
             "code": "000500",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:21",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 6910.0,
+                "marcap": 7250.0,
                 "revenue_4qtrs": 3120.0,
                 "opincome_4qtrs": 108.0,
                 "revenue_qtr": 869.0,
@@ -38,17 +38,17 @@
                 "4qtrs": 0.0347
             },
             "PER": {
-                "PER_ltm": 63.9,
-                "PER_qx4": 47.8,
-                "PER_fwd": 40.9
+                "PER_ltm": 67.1,
+                "PER_qx4": 50.2,
+                "PER_fwd": 43.0
             },
             "volatility": {
-                "measure_to_base": 0.912,
-                "slope": -0.000385
+                "measure_to_base": 0.924,
+                "slope": -0.00041
             },
             "amount": {
                 "measure_to_base": 1.36,
-                "slope": -0.0712
+                "slope": -0.105
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 1.07
                 },
                 "base_duration": {
-                    "alpha": 0.0129,
-                    "beta": 1.17
+                    "alpha": 0.0118,
+                    "beta": 1.16
                 },
                 "measure_duration": {
-                    "alpha": 0.0127,
-                    "beta": 1.77
+                    "alpha": -0.00111,
+                    "beta": 1.3
                 }
             }
         },
@@ -71,14 +71,14 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "Up",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "-",
             "category": "C"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 12:48",
         "search_theme": [
             "실적",
             "전망"
@@ -92,35 +92,35 @@
             "목드럼사업부"
         ],
         "revenue_share": [
-            0.7,
-            0.15,
-            0.1,
-            0.05
+            0.82,
+            0.07,
+            0.08,
+            0.03
         ],
         "opmargin": [
-            null,
-            null,
-            null,
-            null
+            0.032,
+            0.046,
+            0.004,
+            0.004
         ],
         "trend": [
-            "improving",
-            "stable",
-            "stable",
-            "stable"
+            "강한 성장세 (AI 데이터센터 수요)",
+            "안정적 유지",
+            "정체 또는 저성장",
+            "안정적 유지"
         ],
         "create_segments": false,
         "key_products": [
-            "전력케이블, 버스덕트",
-            "통신케이블",
-            "특수케이블",
-            "목드럼"
+            "초고압/중저압 전력케이블, 버스덕트(Bus Duct)",
+            "광통신케이블, 데이터 케이블",
+            "자동차전선, 선재, 전선용 컴파운드",
+            "케이블 권취용 목재 드럼"
         ],
         "competitors": [
+            "LS전선, 대한전선, 일진전기, 산일전기",
             "LS전선, 대한전선",
             "LS전선, 대한전선",
-            "LS전선, 대한전선",
-            "기타 목재제품 제조업체"
+            "기타 목재 드럼 제조사"
         ]
     },
     "code": "000500",

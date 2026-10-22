@@ -1,7 +1,7 @@
 {
     "key": "417200(A)",
     "filename": "417200(A)_커패시터",
-    "updated": "2026-10-21 17:20",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 13:55",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "417200",
             "segment_name": "커패시터",
             "id": "A",
-            "updated": "2026-10-21 17:20",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 178.0,
+                "marcap": 189.0,
                 "revenue_4qtrs": 37.2,
                 "opincome_4qtrs": -1.49,
                 "revenue_qtr": 10.3,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.928,
-                "slope": -0.000153
+                "measure_to_base": 0.944,
+                "slope": -0.000146
             },
             "amount": {
-                "measure_to_base": 3.34,
-                "slope": -0.157
+                "measure_to_base": 3.59,
+                "slope": -0.141
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00113,
-                    "beta": 0.954
+                    "alpha": -0.00109,
+                    "beta": 0.957
                 },
                 "base_duration": {
-                    "alpha": -0.00364,
-                    "beta": 0.76
+                    "alpha": -0.00356,
+                    "beta": 0.766
                 },
                 "measure_duration": {
-                    "alpha": 0.0136,
-                    "beta": 1.25
+                    "alpha": 0.0145,
+                    "beta": 1.28
                 }
             }
         },
@@ -72,7 +72,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

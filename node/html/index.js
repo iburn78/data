@@ -172,6 +172,38 @@ function createModelLink(section, item) {
     return link;
 }
 
+// Show a non-interactive page preview beside hovered search results.
+const preview = document.createElement("div");
+preview.className = "result-preview";
+preview.setAttribute("aria-hidden", "true");
+preview.innerHTML = '<iframe title="Page preview" tabindex="-1" sandbox=""></iframe>';
+document.body.appendChild(preview);
+const previewFrame = preview.querySelector("iframe");
+let previewLink = null;
+
+function hidePreview() {
+    previewLink = null;
+    preview.classList.remove("visible");
+}
+
+document.addEventListener("pointerover", event => {
+    const link = event.target.closest("#file-list a");
+    if (!link || link === previewLink || event.pointerType === "touch") return;
+    previewLink = link;
+    previewFrame.src = link.href;
+    preview.classList.add("visible");
+});
+
+document.addEventListener("pointerout", event => {
+    const link = event.target.closest("#file-list a");
+    if (link && !link.contains(event.relatedTarget)) {
+        hidePreview();
+    }
+});
+
+// The preview can cover the search box while the pointer stays over a result.
+document.getElementById("search").addEventListener("focus", hidePreview);
+
 
 let searchRequest = 0;
 async function showMainSearch(queryOverride = null) {
@@ -364,14 +396,6 @@ document.getElementById("search").addEventListener("keydown", event => {
         }
     });
 });
-
-document.getElementById("search").addEventListener("keydown", event => {
-    if (event.key === "Escape") {
-        event.preventDefault();
-        event.currentTarget.blur();
-    }
-});
-
 
 // "/" → focus search
 document.addEventListener("keydown", event => {

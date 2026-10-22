@@ -1,7 +1,7 @@
 {
     "key": "020150",
     "filename": "020150_롯데에너지머티리얼즈",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "020150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2960.0,
+                "marcap": 2880.0,
                 "revenue_4qtrs": 719.0,
                 "opincome_4qtrs": -72.6,
                 "revenue_qtr": 194.0,
@@ -26,7 +26,7 @@
         "assess_data": {
             "opincome": {
                 "positive_last_4qtrs": false,
-                "higher_than_comp": true,
+                "higher_than_comp": false,
                 "slope": -0.739,
                 "growth_per_qtr": 0.0407
             },
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 1.0,
-                "slope": -0.000017
+                "measure_to_base": 1.01,
+                "slope": -0.0000186
             },
             "amount": {
-                "measure_to_base": 2.19,
-                "slope": -0.14
+                "measure_to_base": 2.11,
+                "slope": -0.115
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000615,
-                    "beta": 1.14
+                    "alpha": 0.000593,
+                    "beta": 1.13
                 },
                 "base_duration": {
-                    "alpha": 0.00166,
-                    "beta": 0.879
+                    "alpha": 0.00108,
+                    "beta": 0.869
                 },
                 "measure_duration": {
-                    "alpha": 0.031,
-                    "beta": 1.04
+                    "alpha": 0.0233,
+                    "beta": 0.76
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 16:00",
+        "reviewed": true,
+        "updated": "2026-10-22 13:28",
         "search_theme": [
             "실적",
             "전망"
@@ -93,10 +93,7 @@
             0.88,
             0.12
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "회복 중 (AI 수요 증가 및 가동률 상승)",
             "부진 (국내 건설 경기 위축)"

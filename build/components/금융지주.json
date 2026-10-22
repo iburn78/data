@@ -1,7 +1,7 @@
 {
     "key": "금융지주",
     "filename": "금융지주",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:01",
     "llm_research_updated": "2026-10-21 13:26",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 195000.0,
+                "marcap": 194000.0,
                 "revenue_4qtrs": 3240.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 829.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.827,
-                "slope": -0.0000274
+                "measure_to_base": 0.826,
+                "slope": -0.0000307
             },
             "amount": {
-                "measure_to_base": 0.963,
-                "slope": -1.76
+                "measure_to_base": 0.97,
+                "slope": -1.91
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000384,
-                    "beta": 0.596
+                    "alpha": 0.000376,
+                    "beta": 0.595
                 },
                 "base_duration": {
-                    "alpha": -0.000146,
-                    "beta": 0.126
+                    "alpha": -0.000256,
+                    "beta": 0.125
                 },
                 "measure_duration": {
-                    "alpha": -0.00696,
-                    "beta": -0.0149
+                    "alpha": -0.00553,
+                    "beta": 0.0337
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

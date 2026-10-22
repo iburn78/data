@@ -1,22 +1,22 @@
 {
     "key": "010170",
     "filename": "010170_대한광통신",
-    "updated": "2026-10-21 17:25",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:00",
+    "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
             "name": "대한광통신",
             "code": "010170",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:25",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1980.0,
+                "marcap": 2220.0,
                 "revenue_4qtrs": 161.0,
                 "opincome_4qtrs": -7.05,
                 "revenue_qtr": 49.1,
@@ -39,29 +39,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 518.0,
-                "PER_fwd": 175.0
+                "PER_qx4": 581.0,
+                "PER_fwd": 197.0
             },
             "volatility": {
-                "measure_to_base": 0.951,
-                "slope": -0.000539
+                "measure_to_base": 0.958,
+                "slope": -0.000528
             },
             "amount": {
-                "measure_to_base": 2.17,
-                "slope": -5.26
+                "measure_to_base": 2.07,
+                "slope": -5.3
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00124,
-                    "beta": 1.24
+                    "alpha": 0.00127,
+                    "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": 0.00217,
-                    "beta": 1.14
+                    "alpha": 0.00347,
+                    "beta": 1.16
                 },
                 "measure_duration": {
-                    "alpha": 0.0036,
-                    "beta": 1.56
+                    "alpha": 0.00238,
+                    "beta": 1.54
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 13:12",
         "search_theme": [
             "실적",
             "전망"
@@ -86,23 +86,31 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "광통신 인프라 제조"
+            "통신사업부",
+            "전력사업부",
+            "신규/특수사업부"
         ],
         "revenue_share": [
-            1.0
+            0.57,
+            0.42,
+            0.01
         ],
-        "opmargin": [
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "improving due to AI/IoT and infrastructure replacement"
+            "improving (AI 데이터센터 수요 증가)",
+            "stable (미국 전력 시장 호황)",
+            "expanding (미래 성장 동력 추진)"
         ],
         "create_segments": false,
         "key_products": [
-            "광섬유, 광케이블"
+            "광섬유, 광케이블, AI 데이터센터용 초고밀도 광케이블",
+            "광복합가공지선(OPGW), 전력 케이블",
+            "특수광섬유, 반도체/광학용 부품"
         ],
         "competitors": [
-            "LS전선, 대한광통신"
+            "LS전선, 대한전선, 가온전선, Corning, Sumitomo",
+            "LS전선, 대한전선, 가온전선",
+            "Corning, Sumitomo"
         ]
     },
     "code": "010170",

@@ -1,0 +1,109 @@
+{
+    "key": "011790(A)",
+    "filename": "011790(A)_이차전지_소재",
+    "updated": "2026-10-22 16:00",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "SKC",
+            "code": "011790",
+            "segment_name": "이차전지 소재",
+            "id": "A",
+            "updated": "2026-10-22 16:00",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1410.0,
+                "revenue_4qtrs": 687.0,
+                "opincome_4qtrs": -142.0,
+                "revenue_qtr": 200.0,
+                "opincome_qtr": -41.4
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": false,
+                "slope": -1.24,
+                "growth_per_qtr": 0.0349
+            },
+            "opmargin": {
+                "25_4Q": -0.207,
+                "26_1Q": -0.207,
+                "26_2Q": -0.207,
+                "26_3Q": -0.207,
+                "4qtrs": -0.207
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base": 1.03,
+                "slope": -0.000511
+            },
+            "amount": {
+                "measure_to_base": 1.48,
+                "slope": -0.438
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000323,
+                    "beta": 1.16
+                },
+                "base_duration": {
+                    "alpha": 0.000348,
+                    "beta": 0.98
+                },
+                "measure_duration": {
+                    "alpha": 0.0127,
+                    "beta": 0.997
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부",
+            "실적"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.31,
+        "marcap_share": 0.31,
+        "opmargin": -0.207,
+        "trend": "하락 후 회복세(ESS 수요 증가)"
+    },
+    "id": "A",
+    "profile_name": "SKC",
+    "profile_code": "011790",
+    "segment_name": "이차전지 소재",
+    "news": {
+        "updated": "2026-10-22 12:25",
+        "key_financials": [
+            "2026년 상반기 반기순손실 1,344억원 기록"
+        ],
+        "key_facts": [],
+        "key_issues": [
+            "글로벌 전기차 수요 둔화로 인한 수익성 회복 지연 및 적자 지속",
+            "글로벌 전기차 시장 성장세 둔화 및 원자재 가격 변동성이 동박 사업에 부정적 영향 미침",
+            "공급 과잉 우려 및 주요 완성차 업체들의 생산량 조정으로 인한 중장기적 불확실성 증대"
+        ],
+        "news_summary": "SKC의 이차전지 소재 사업은 글로벌 전기차 수요 둔화와 원자재 가격 변동성, 공급 과잉 우려 등의 영향으로 수익성 악화와 적자가 지속되고 있습니다. 특히 2026년 상반기에 1,344억원의 반기순손실을 기록하며 실적 반등 및 수익성 회복이 늦어지고 있는 상황입니다."
+    }
+}

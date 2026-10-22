@@ -1,7 +1,7 @@
 {
     "key": "272290",
     "filename": "272290_이녹스첨단소재",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 17:17",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "272290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 17:17",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 380.0,
+                "marcap": 378.0,
                 "revenue_4qtrs": 415.0,
                 "opincome_4qtrs": 50.5,
                 "revenue_qtr": 109.0,
@@ -38,29 +38,29 @@
                 "4qtrs": 0.122
             },
             "PER": {
-                "PER_ltm": 7.52,
-                "PER_qx4": 9.08,
-                "PER_fwd": 12.7
+                "PER_ltm": 7.49,
+                "PER_qx4": 9.04,
+                "PER_fwd": 12.6
             },
             "volatility": {
-                "measure_to_base": 0.665,
-                "slope": -0.000194
+                "measure_to_base": 0.69,
+                "slope": -0.000197
             },
             "amount": {
-                "measure_to_base": 1.42,
-                "slope": -0.101
+                "measure_to_base": 1.47,
+                "slope": -0.099
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000243,
-                    "beta": 0.984
+                    "alpha": -0.000258,
+                    "beta": 0.982
                 },
                 "base_duration": {
-                    "alpha": -0.00406,
-                    "beta": 0.645
+                    "alpha": -0.00398,
+                    "beta": 0.643
                 },
                 "measure_duration": {
-                    "alpha": 0.00594,
+                    "alpha": 0.00623,
                     "beta": 1.03
                 }
             }
@@ -68,17 +68,17 @@
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Mid",
-            "volatility_movement": "Dn",
+            "PER_level": "Low",
+            "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "confidence",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 15:01",
+        "reviewed": true,
+        "updated": "2026-10-22 17:17",
         "search_theme": [
             "실적",
             "전망"
@@ -97,12 +97,7 @@
             0.08,
             0.01
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "improving",
             "declining",

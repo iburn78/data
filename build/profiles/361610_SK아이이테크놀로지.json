@@ -1,7 +1,7 @@
 {
     "key": "361610",
     "filename": "361610_SK아이이테크놀로지",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:00",
     "llm_research_updated": "2026-10-20 16:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "361610",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:00",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1390.0,
+                "marcap": 1450.0,
                 "revenue_4qtrs": 157.0,
                 "opincome_4qtrs": -276.0,
                 "revenue_qtr": 39.5,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.813,
-                "slope": 0.000181
+                "measure_to_base": 0.791,
+                "slope": 0.000168
             },
             "amount": {
-                "measure_to_base": 0.781,
-                "slope": 0.0434
+                "measure_to_base": 0.762,
+                "slope": 0.0492
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00147,
-                    "beta": 0.813
+                    "alpha": -0.00146,
+                    "beta": 0.814
                 },
                 "base_duration": {
-                    "alpha": -0.00245,
-                    "beta": 0.304
+                    "alpha": -0.00179,
+                    "beta": 0.311
                 },
                 "measure_duration": {
-                    "alpha": 0.00815,
-                    "beta": 0.461
+                    "alpha": 0.0127,
+                    "beta": 0.617
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 16:01",
+        "reviewed": true,
+        "updated": "2026-10-22 12:37",
         "search_theme": [
             "실적",
             "전망"
@@ -92,7 +92,7 @@
             1.0
         ],
         "opmargin": [
-            -1.33
+            -0.9
         ],
         "trend": [
             "declining due to EV market slowdown"

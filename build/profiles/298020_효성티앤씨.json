@@ -1,7 +1,7 @@
 {
     "key": "298020",
     "filename": "298020_효성티앤씨",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:28",
     "llm_research_updated": "2026-10-21 11:15",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "298020",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:28",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -43,25 +43,25 @@
                 "PER_fwd": 1.34
             },
             "volatility": {
-                "measure_to_base": 0.872,
-                "slope": -0.00015
+                "measure_to_base": 0.885,
+                "slope": -0.000147
             },
             "amount": {
-                "measure_to_base": 1.78,
-                "slope": -0.121
+                "measure_to_base": 1.79,
+                "slope": -0.12
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000783,
-                    "beta": 0.762
+                    "alpha": 0.0000667,
+                    "beta": 0.76
                 },
                 "base_duration": {
-                    "alpha": -0.00519,
-                    "beta": 0.276
+                    "alpha": -0.00523,
+                    "beta": 0.275
                 },
                 "measure_duration": {
-                    "alpha": -0.0078,
-                    "beta": 0.302
+                    "alpha": -0.00889,
+                    "beta": 0.265
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "A"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 11:15",
+        "reviewed": true,
+        "updated": "2026-10-22 18:28",
         "search_theme": [
             "실적",
             "전망"
@@ -90,8 +90,8 @@
             "무역 등"
         ],
         "revenue_share": [
-            0.386,
-            0.614
+            0.39,
+            0.61
         ],
         "opmargin": [
             0.0601,

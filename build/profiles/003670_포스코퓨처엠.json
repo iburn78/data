@@ -1,7 +1,7 @@
 {
     "key": "003670",
     "filename": "003670_포스코퓨처엠",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:11",
     "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "003670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:11",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 15900.0,
+                "marcap": 16100.0,
                 "revenue_4qtrs": 2670.0,
                 "opincome_4qtrs": 19.3,
                 "revenue_qtr": 679.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.00722
             },
             "PER": {
-                "PER_ltm": 821.0,
-                "PER_qx4": 148.0,
-                "PER_fwd": 135.0
+                "PER_ltm": 833.0,
+                "PER_qx4": 151.0,
+                "PER_fwd": 137.0
             },
             "volatility": {
                 "measure_to_base": 0.857,
-                "slope": 0.0000625
+                "slope": 0.0000551
             },
             "amount": {
                 "measure_to_base": 1.4,
-                "slope": -0.337
+                "slope": -0.318
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00106,
+                    "alpha": 0.00105,
                     "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00164,
-                    "beta": 0.591
+                    "alpha": -0.00126,
+                    "beta": 0.592
                 },
                 "measure_duration": {
-                    "alpha": 0.00627,
-                    "beta": 0.738
+                    "alpha": 0.00761,
+                    "beta": 0.777
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 10:19",
+        "reviewed": true,
+        "updated": "2026-10-22 18:11",
         "search_theme": [
             "실적",
             "전망"
@@ -95,11 +95,7 @@
             0.04,
             0.37
         ],
-        "opmargin": [
-            null,
-            null,
-            0.027
-        ],
+        "opmargin": [],
         "trend": [
             "Recovering from metal price volatility",
             "Expanding capacity and diversifying from China",

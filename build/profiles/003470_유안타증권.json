@@ -1,7 +1,7 @@
 {
     "key": "003470",
     "filename": "003470_유안타증권",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 17:14",
     "llm_research_updated": "2026-10-21 14:08",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "003470",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 17:14",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 747.0,
+                "marcap": 762.0,
                 "revenue_4qtrs": 6560.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 1810.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 14:08",
+        "reviewed": true,
+        "updated": "2026-10-22 17:14",
         "search_theme": [
             "실적",
             "전망"
@@ -49,13 +49,7 @@
             0.1,
             0.07
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "증가세 (Strong growth)",
             "급증세 (Rapid growth)",

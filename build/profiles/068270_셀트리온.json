@@ -1,22 +1,22 @@
 {
     "key": "068270",
     "filename": "068270_셀트리온",
-    "updated": "2026-10-21 17:40",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:27",
+    "llm_research_updated": "2026-10-22 16:26",
     "financials": {
         "meta": {
             "name": "셀트리온",
             "code": "068270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:40",
+            "updated": "2026-10-22 16:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 45800.0,
+                "marcap": 45900.0,
                 "revenue_4qtrs": 5260.0,
                 "opincome_4qtrs": 1700.0,
                 "revenue_qtr": 1390.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.323
             },
             "PER": {
-                "PER_ltm": 26.9,
-                "PER_qx4": 25.3,
+                "PER_ltm": 27.0,
+                "PER_qx4": 25.4,
                 "PER_fwd": 20.5
             },
             "volatility": {
-                "measure_to_base": 0.74,
-                "slope": -0.000123
+                "measure_to_base": 0.768,
+                "slope": -0.000125
             },
             "amount": {
-                "measure_to_base": 0.975,
-                "slope": -0.437
+                "measure_to_base": 1.01,
+                "slope": -0.452
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000482,
-                    "beta": 0.603
+                    "alpha": 0.000475,
+                    "beta": 0.601
                 },
                 "base_duration": {
-                    "alpha": 0.000491,
-                    "beta": 0.154
+                    "alpha": 0.000386,
+                    "beta": 0.153
                 },
                 "measure_duration": {
-                    "alpha": 0.00703,
-                    "beta": 0.247
+                    "alpha": 0.00744,
+                    "beta": 0.256
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "C"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 16:27",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,36 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "바이오시밀러 (Biosimilars)",
-            "신약 개발 (Novel Drug Development)"
+            "바이오시밀러 (Biologics)",
+            "신약 및 차별화 제품 (Novel Drugs)",
+            "케미컬 의약품 (Non-Biologics)",
+            "신사업 (CDMO)"
         ],
         "revenue_share": [
-            0.9,
-            0.1
+            0.93,
+            0.04,
+            0.03,
+            0.0
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "improving",
-            "expanding"
+            "Improving (Market dominance in EU/US)",
+            "Improving (Zymfentra prescription growth)",
+            "Slightly declining",
+            "Expanding (New growth engine)"
         ],
         "create_segments": false,
         "key_products": [
-            "램시마,바이오시밀러 11개 품목",
-            "CT-P70, CT-P71, CT-P73 (ADC 신약)"
+            "램시마,트룩시마,허쥬마,유플라이마,베그젤마",
+            "짐펜트라",
+            "개량신약,일반의약품",
+            "CDMO 서비스"
         ],
         "competitors": [
-            "Samsung Bioepis,Amgen,Sandoz",
-            "AstraZeneca,Roche,Merck"
+            "Sandoz,Viatris,Biocon",
+            "Sandoz,Samsung Biologics",
+            "Domestic pharmaceutical companies",
+            "Samsung Biologics"
         ]
     },
     "code": "068270",

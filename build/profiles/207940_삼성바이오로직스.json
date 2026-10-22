@@ -1,22 +1,22 @@
 {
     "key": "207940",
     "filename": "207940_삼성바이오로직스",
-    "updated": "2026-10-21 17:43",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:01",
+    "llm_research_updated": "2026-10-22 15:48",
     "financials": {
         "meta": {
             "name": "삼성바이오로직스",
             "code": "207940",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:43",
+            "updated": "2026-10-22 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 64400.0,
+                "marcap": 65600.0,
                 "revenue_4qtrs": 4210.0,
                 "opincome_4qtrs": 2130.0,
                 "revenue_qtr": 1320.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.507
             },
             "PER": {
-                "PER_ltm": 30.2,
-                "PER_qx4": 27.4,
-                "PER_fwd": 24.2
+                "PER_ltm": 30.8,
+                "PER_qx4": 28.0,
+                "PER_fwd": 24.6
             },
             "volatility": {
-                "measure_to_base": 0.709,
-                "slope": 0.000015
+                "measure_to_base": 0.729,
+                "slope": 0.0000152
             },
             "amount": {
-                "measure_to_base": 1.14,
-                "slope": -0.19
+                "measure_to_base": 1.18,
+                "slope": -0.166
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000811,
+                    "alpha": 0.000812,
                     "beta": 0.49
                 },
                 "base_duration": {
-                    "alpha": -0.000514,
-                    "beta": 0.124
+                    "alpha": -0.000128,
+                    "beta": 0.128
                 },
                 "measure_duration": {
-                    "alpha": -0.000114,
-                    "beta": -0.0107
+                    "alpha": 0.00166,
+                    "beta": 0.0537
                 }
             }
         },
@@ -71,38 +71,33 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "at_mkt",
-            "market_sentiment": "unchanged",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 15:58",
         "search_theme": [
             "실적",
             "전망"
         ],
         "tags": "",
         "notes": "",
-        "segments": [
-            "CDMO (위탁개발생산)"
-        ],
-        "revenue_share": [
-            1.0
-        ],
-        "opmargin": [
-            null
-        ],
+        "segments": [],
+        "revenue_share": [],
+        "opmargin": [],
         "trend": [
-            "expanding (ADC 및 글로벌 생산거점 확대)"
+            "expanding capacity and ADC services",
+            "increasing sales via new product launches"
         ],
         "create_segments": false,
         "key_products": [
-            "CMO, CDO, ADC 생산 서비스"
+            "CMO, CDO, Peptide CDMO"
         ],
         "competitors": [
-            "Lonza, WuXi Biologics, Catalent"
+            "Lonza, Thermo Fisher Scientific, WuXi Biologics"
         ]
     },
     "code": "207940",

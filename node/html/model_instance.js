@@ -11,6 +11,44 @@ if (typeof window.showPythonProgress !== "function") {
     };
 }
 
+function requestDeletionPassword() {
+    const dialog = document.createElement("dialog");
+    dialog.className = "deletion-password-dialog";
+    dialog.innerHTML = `
+        <form>
+            <label for="deletion-password">Enter the info-section password to confirm deletion:</label>
+            <input id="deletion-password" type="password" autocomplete="current-password" required>
+            <div class="deletion-password-actions">
+                <button type="button" data-cancel>Cancel</button>
+                <button type="submit">Continue</button>
+            </div>
+        </form>
+    `;
+    document.body.appendChild(dialog);
+
+    return new Promise(resolve => {
+        const input = dialog.querySelector("input");
+        const finish = value => {
+            dialog.close();
+            dialog.remove();
+            resolve(value);
+        };
+
+        dialog.querySelector("form").addEventListener("submit", event => {
+            event.preventDefault();
+            finish(input.value);
+        });
+        dialog.querySelector("[data-cancel]").addEventListener("click", () => finish(null));
+        dialog.addEventListener("cancel", event => {
+            event.preventDefault();
+            finish(null);
+        });
+
+        dialog.showModal();
+        input.focus();
+    });
+}
+
 document.querySelectorAll(".model-instance-update-button").forEach(updateButton => {
     let actions = updateButton.closest(".model-instance-actions");
     if (!actions) {
@@ -79,7 +117,7 @@ document.querySelectorAll(".model-instance-delete-button").forEach(button => {
             return;
         }
 
-        const password = window.prompt("Enter the info-section password to confirm deletion:");
+        const password = await requestDeletionPassword();
         if (password === null) return;
         if (!password) {
             alert("Enter password.");

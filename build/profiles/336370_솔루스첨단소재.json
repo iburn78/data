@@ -1,7 +1,7 @@
 {
     "key": "336370",
     "filename": "336370_솔루스첨단소재",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:29",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "336370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:29",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 625.0,
+                "marcap": 629.0,
                 "revenue_4qtrs": 566.0,
                 "opincome_4qtrs": -87.3,
                 "revenue_qtr": 102.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 1.15,
-                "slope": -0.000395
+                "measure_to_base": 1.18,
+                "slope": -0.00039
             },
             "amount": {
-                "measure_to_base": 1.26,
-                "slope": -0.159
+                "measure_to_base": 1.37,
+                "slope": -0.147
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000912,
-                    "beta": 0.986
+                    "alpha": 0.000898,
+                    "beta": 0.984
                 },
                 "base_duration": {
-                    "alpha": -0.00146,
-                    "beta": 0.667
+                    "alpha": -0.00279,
+                    "beta": 0.658
                 },
                 "measure_duration": {
-                    "alpha": 0.019,
-                    "beta": 1.14
+                    "alpha": 0.0153,
+                    "beta": 1.0
                 }
             }
         },
@@ -70,15 +70,15 @@
             "financially_sound": true,
             "PER_level": "(na)",
             "volatility_movement": "-",
-            "amount_movement": "-",
+            "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-20 16:00",
+        "reviewed": true,
+        "updated": "2026-10-22 16:29",
         "search_theme": [
             "실적",
             "전망"
@@ -95,11 +95,7 @@
             0.26,
             0.0
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "매출 성장세/수익성 개선 추진",
             "보합 및 점진적 회복세",

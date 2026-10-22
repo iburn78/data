@@ -1,22 +1,22 @@
 {
     "key": "광증폭기",
     "filename": "광증폭기",
-    "updated": "2026-10-21 17:23",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 18:33",
+    "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
             "name": "광증폭기",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:23",
+            "updated": "2026-10-22 18:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 131.0,
+                "marcap": 132.0,
                 "revenue_4qtrs": 19.9,
                 "opincome_4qtrs": 1.55,
                 "revenue_qtr": 4.53,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0782
             },
             "PER": {
-                "PER_ltm": 84.0,
-                "PER_qx4": 255.0,
-                "PER_fwd": 56.2
+                "PER_ltm": 85.2,
+                "PER_qx4": 258.0,
+                "PER_fwd": 57.0
             },
             "volatility": {
-                "measure_to_base": 0.958,
-                "slope": -0.000585
+                "measure_to_base": 0.967,
+                "slope": -0.000583
             },
             "amount": {
-                "measure_to_base": 1.57,
-                "slope": -0.119
+                "measure_to_base": 1.42,
+                "slope": -0.122
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00116,
-                    "beta": 0.77
+                    "alpha": 0.00115,
+                    "beta": 0.769
                 },
                 "base_duration": {
-                    "alpha": 0.00037,
-                    "beta": 0.54
+                    "alpha": 0.00106,
+                    "beta": 0.543
                 },
                 "measure_duration": {
-                    "alpha": 0.00832,
-                    "beta": 1.54
+                    "alpha": 0.00555,
+                    "beta": 1.44
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

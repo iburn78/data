@@ -1,22 +1,22 @@
 {
     "key": "214450",
     "filename": "214450_파마리서치",
-    "updated": "2026-10-21 17:30",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 17:59",
+    "llm_research_updated": "2026-10-22 17:59",
     "financials": {
         "meta": {
             "name": "파마리서치",
             "code": "214450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:30",
+            "updated": "2026-10-22 17:59",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2760.0,
+                "marcap": 2740.0,
                 "revenue_4qtrs": 647.0,
                 "opincome_4qtrs": 242.0,
                 "revenue_qtr": 179.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.374
             },
             "PER": {
-                "PER_ltm": 11.4,
-                "PER_qx4": 10.4,
-                "PER_fwd": 8.98
+                "PER_ltm": 11.3,
+                "PER_qx4": 10.3,
+                "PER_fwd": 8.91
             },
             "volatility": {
-                "measure_to_base": 0.608,
-                "slope": -0.0000369
+                "measure_to_base": 0.606,
+                "slope": -0.0000477
             },
             "amount": {
-                "measure_to_base": 0.556,
-                "slope": 0.0352
+                "measure_to_base": 0.563,
+                "slope": 0.00619
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000629,
-                    "beta": 0.656
+                    "alpha": 0.000618,
+                    "beta": 0.655
                 },
                 "base_duration": {
-                    "alpha": -0.0000998,
-                    "beta": 0.197
+                    "alpha": -0.000383,
+                    "beta": 0.193
                 },
                 "measure_duration": {
-                    "alpha": -0.0043,
-                    "beta": 0.703
+                    "alpha": -0.0044,
+                    "beta": 0.692
                 }
             }
         },
@@ -77,13 +77,13 @@
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 17:58",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
             "의료기기 (Medical Devices)",
@@ -97,12 +97,7 @@
             0.1,
             0.1
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "Improving",
             "Stable",

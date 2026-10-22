@@ -1,7 +1,7 @@
 {
     "key": "148150",
     "filename": "148150_세경하이테크",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:09",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "148150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:09",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 124.0,
+                "marcap": 121.0,
                 "revenue_4qtrs": 304.0,
                 "opincome_4qtrs": 5.0,
                 "revenue_qtr": 86.3,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0164
             },
             "PER": {
-                "PER_ltm": 24.8,
-                "PER_qx4": 9.31,
-                "PER_fwd": 26.3
+                "PER_ltm": 24.3,
+                "PER_qx4": 9.13,
+                "PER_fwd": 25.8
             },
             "volatility": {
-                "measure_to_base": 0.705,
-                "slope": 0.0000197
+                "measure_to_base": 0.713,
+                "slope": 0.0000175
             },
             "amount": {
-                "measure_to_base": 1.09,
-                "slope": -0.0036
+                "measure_to_base": 1.12,
+                "slope": -0.00349
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000246,
-                    "beta": 0.835
+                    "alpha": -0.00027,
+                    "beta": 0.832
                 },
                 "base_duration": {
-                    "alpha": -0.0022,
-                    "beta": 0.436
+                    "alpha": -0.00237,
+                    "beta": 0.431
                 },
                 "measure_duration": {
-                    "alpha": -0.00238,
-                    "beta": 0.615
+                    "alpha": -0.00546,
+                    "beta": 0.501
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 10:18",
+        "reviewed": true,
+        "updated": "2026-10-22 16:09",
         "search_theme": [
             "실적",
             "전망"
@@ -91,15 +91,11 @@
             "사출필름"
         ],
         "revenue_share": [
-            0.431,
-            0.374,
-            0.181
+            0.44,
+            0.38,
+            0.18
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "회복 및 성장 전망 (폴더블/OLED 확대)",
             "안정적이나 최근 소폭 하락세",

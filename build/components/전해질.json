@@ -1,7 +1,7 @@
 {
     "key": "전해질",
     "filename": "전해질",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:40",
     "llm_research_updated": "2026-10-21 11:28",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:40",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1840.0,
-                "revenue_4qtrs": 2170.0,
-                "opincome_4qtrs": -81.6,
-                "revenue_qtr": 587.0,
-                "opincome_qtr": 8.9
+                "marcap": 1570.0,
+                "revenue_4qtrs": 1460.0,
+                "opincome_4qtrs": -82.9,
+                "revenue_qtr": 405.0,
+                "opincome_qtr": 6.68
             },
             "share": {
                 "marcap": "-",
@@ -35,40 +35,40 @@
             "opincome": {
                 "positive_last_4qtrs": false,
                 "higher_than_comp": true,
-                "slope": -3.03,
-                "growth_per_qtr": 0.149
+                "slope": -2.28,
+                "growth_per_qtr": 0.11
             },
             "opmargin": {
-                "25_4Q": -0.128,
-                "26_1Q": -0.0734,
-                "26_2Q": 0.0152,
-                "26_3Q": 0.0152,
-                "4qtrs": -0.0376
+                "25_4Q": -0.196,
+                "26_1Q": -0.104,
+                "26_2Q": 0.0165,
+                "26_3Q": 0.0165,
+                "4qtrs": -0.0566
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 51.6,
-                "PER_fwd": 350.0
+                "PER_qx4": 58.7,
+                "PER_fwd": 396.0
             },
             "volatility": {
-                "measure_to_base": 0.697,
-                "slope": -4.83e-6
+                "measure_to_base": 0.711,
+                "slope": -0.000019
             },
             "amount": {
-                "measure_to_base": 2.02,
-                "slope": -0.222
+                "measure_to_base": 1.99,
+                "slope": -0.189
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000286,
-                    "beta": 1.03
+                    "alpha": 0.000557,
+                    "beta": 1.06
                 },
                 "base_duration": {
-                    "alpha": -0.00428,
-                    "beta": 0.633
+                    "alpha": -0.00388,
+                    "beta": 0.656
                 },
                 "measure_duration": {
-                    "alpha": 0.00846,
+                    "alpha": 0.00828,
                     "beta": 1.04
                 }
             }
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
@@ -100,8 +100,8 @@
             "name": "엔켐"
         },
         {
-            "key": "025900",
-            "name": "동화기업"
+            "key": "025900(C)",
+            "name": "동화기업(C)"
         },
         {
             "key": "036830",

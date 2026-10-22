@@ -1,22 +1,22 @@
 {
     "key": "214150",
     "filename": "214150_클래시스",
-    "updated": "2026-10-21 17:37",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 17:41",
+    "llm_research_updated": "2026-10-22 17:39",
     "financials": {
         "meta": {
             "name": "클래시스",
             "code": "214150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:37",
+            "updated": "2026-10-22 17:41",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1940.0,
+                "marcap": 1840.0,
                 "revenue_4qtrs": 392.0,
                 "opincome_4qtrs": 176.0,
                 "revenue_qtr": 106.0,
@@ -38,71 +38,79 @@
                 "4qtrs": 0.45
             },
             "PER": {
-                "PER_ltm": 11.0,
-                "PER_qx4": 11.0,
-                "PER_fwd": 10.0
+                "PER_ltm": 10.4,
+                "PER_qx4": 10.4,
+                "PER_fwd": 9.5
             },
             "volatility": {
-                "measure_to_base": 0.623,
-                "slope": -0.0000894
+                "measure_to_base": 0.639,
+                "slope": -0.000094
             },
             "amount": {
-                "measure_to_base": 0.767,
-                "slope": -0.0945
+                "measure_to_base": 0.825,
+                "slope": -0.097
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000967,
-                    "beta": 0.628
+                    "alpha": 0.000941,
+                    "beta": 0.624
                 },
                 "base_duration": {
-                    "alpha": -0.00472,
-                    "beta": 0.245
+                    "alpha": -0.00529,
+                    "beta": 0.235
                 },
                 "measure_duration": {
-                    "alpha": 0.00158,
-                    "beta": 0.492
+                    "alpha": -0.00219,
+                    "beta": 0.346
                 }
             }
         },
         "assess_result": {
             "basics": true,
-            "financially_sound": false,
+            "financially_sound": true,
             "PER_level": "Mid",
             "volatility_movement": "Dn",
             "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
-            "category": "D"
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "-",
+            "category": "B"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 17:41",
         "search_theme": [
             "실적",
             "전망"
         ],
-        "tags": "",
+        "tags": "#watch",
         "notes": "",
         "segments": [
-            "미용 의료기기"
+            "장비 사업부",
+            "소모품 사업부",
+            "홈케어 사업부"
         ],
         "revenue_share": [
-            1.0
+            0.52,
+            0.46,
+            0.01
         ],
-        "opmargin": [
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "성장세(소모품 매출 확대)"
+            "수출 중심 확대 및 신제품 출시로 성장세",
+            "장비 보급 확대에 따른 지속적 성장 및 고마진 유지",
+            "초기 성장 단계 및 사업 확장 중"
         ],
         "create_segments": false,
         "key_products": [
-            "슈링크 시리즈, 볼뉴머, 쿼드세이, 리팟"
+            "슈링크, 볼뉴머, 쿼드세이, 리팟",
+            "카트리지, 팁, 젤패드",
+            "홈케어 뷰티 디바이스"
         ],
         "competitors": [
-            "Classys, Jeisys Medical, Lutronic"
+            "제이시스메디칼, 비올, 인모드, 솔타메디칼",
+            "제이시스메디칼, 비올, 인모드, 솔타메디칼",
+            "가정용 뷰티 디바이스 업체"
         ]
     },
     "code": "214150",

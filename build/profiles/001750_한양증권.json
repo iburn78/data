@@ -1,7 +1,7 @@
 {
     "key": "001750",
     "filename": "001750_한양증권",
-    "updated": "2026-10-21 17:19",
+    "updated": "2026-10-22 18:24",
     "llm_research_updated": "2026-10-21 17:19",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "001750",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:19",
+            "updated": "2026-10-22 18:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 282.0,
+                "marcap": 281.0,
                 "revenue_4qtrs": 2390.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 813.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 17:19",
+        "reviewed": true,
+        "updated": "2026-10-22 18:24",
         "search_theme": [
             "실적",
             "전망"
@@ -47,12 +47,7 @@
             0.04,
             0.02
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "양호한 유지세",
             "강한 성장세",

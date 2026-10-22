@@ -1,22 +1,22 @@
 {
     "key": "0126Z0",
     "filename": "0126Z0_삼성에피스홀딩스",
-    "updated": "2026-10-21 17:41",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 16:03",
+    "llm_research_updated": "2026-10-22 16:01",
     "financials": {
         "meta": {
             "name": "삼성에피스홀딩스",
             "code": "0126Z0",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:41",
+            "updated": "2026-10-22 16:03",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 8190.0,
+                "marcap": 8340.0,
                 "revenue_4qtrs": 1240.0,
                 "opincome_4qtrs": 208.0,
                 "revenue_qtr": 392.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 16:03",
         "search_theme": [
             "실적",
             "전망"
@@ -36,29 +36,31 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "바이오시밀러 (Biosimilars)",
-            "신약 개발 (Novel Drug Development)"
+            "바이오시밀러 사업",
+            "차세대 기술 플랫폼 및 신약 개발",
+            "바이오 투자 및 지주 관리"
         ],
         "revenue_share": [
-            0.95,
-            0.05
+            0.9,
+            0.08,
+            0.02
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "expanding global sales",
-            "early-stage clinical development"
+            "글로벌 시장 판매 확대 및 성장세",
+            "임상 진행 및 파이프라인 확장 단계",
+            "전략적 자회사 관리 및 투자 확대"
         ],
         "create_segments": false,
         "key_products": [
-            "Biosimilars (Autoimmune, Oncology, Ophthalmology, Hematology, Bone diseases)",
-            "Nectin-4 ADC, Long-acting obesity treatment"
+            "바이오시밀러 11종 (자가면역, 종양, 안과, 혈액, 골질환)",
+            "Nectin-4 ADC, 장기 지속형 비만치료제",
+            "자회사 관리, 바이오 전략 투자 및 M&A"
         ],
         "competitors": [
-            "Sandoz, Celltrion, Amgen, Teva",
-            "AstraZeneca, Daiichi Sankyo, Merck"
+            "셀트리온, 산도즈, 암젠",
+            "글로벌 바이오텍 및 제약사",
+            "N/A"
         ]
     },
     "code": "0126Z0",

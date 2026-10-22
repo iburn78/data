@@ -1,7 +1,7 @@
 {
     "key": "Display",
     "filename": "Display",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:35",
     "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2080.0,
-                "revenue_4qtrs": 2690.0,
-                "opincome_4qtrs": 286.0,
-                "revenue_qtr": 689.0,
-                "opincome_qtr": 74.1
+                "marcap": 1910.0,
+                "revenue_4qtrs": 2580.0,
+                "opincome_4qtrs": 250.0,
+                "revenue_qtr": 661.0,
+                "opincome_qtr": 65.6
             },
             "share": {
                 "marcap": "-",
@@ -35,52 +35,52 @@
             "opincome": {
                 "positive_last_4qtrs": true,
                 "higher_than_comp": true,
-                "slope": -2.25,
-                "growth_per_qtr": -0.0314
+                "slope": -2.57,
+                "growth_per_qtr": -0.0411
             },
             "opmargin": {
-                "25_4Q": 0.0997,
-                "26_1Q": 0.111,
-                "26_2Q": 0.108,
-                "26_3Q": 0.108,
-                "4qtrs": 0.106
+                "25_4Q": 0.0905,
+                "26_1Q": 0.0993,
+                "26_2Q": 0.0992,
+                "26_3Q": 0.0992,
+                "4qtrs": 0.097
             },
             "PER": {
-                "PER_ltm": 7.29,
-                "PER_qx4": 7.03,
-                "PER_fwd": 7.61
+                "PER_ltm": 7.63,
+                "PER_qx4": 7.27,
+                "PER_fwd": 8.06
             },
             "volatility": {
-                "measure_to_base": 0.693,
-                "slope": -0.0000927
+                "measure_to_base": 0.694,
+                "slope": -0.0000996
             },
             "amount": {
-                "measure_to_base": 1.38,
-                "slope": -0.317
+                "measure_to_base": 1.36,
+                "slope": -0.297
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000246,
-                    "beta": 0.882
+                    "alpha": 0.0000117,
+                    "beta": 0.88
                 },
                 "base_duration": {
-                    "alpha": -0.00406,
-                    "beta": 0.599
+                    "alpha": -0.00394,
+                    "beta": 0.6
                 },
                 "measure_duration": {
-                    "alpha": 0.0022,
-                    "beta": 0.772
+                    "alpha": 0.00301,
+                    "beta": 0.789
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
@@ -96,8 +96,8 @@
     },
     "listed_companies": [
         {
-            "key": "213420",
-            "name": "덕산네오룩스"
+            "key": "213420(A)",
+            "name": "덕산네오룩스(A)"
         },
         {
             "key": "272290",

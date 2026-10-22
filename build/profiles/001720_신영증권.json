@@ -1,7 +1,7 @@
 {
     "key": "001720",
     "filename": "001720_신영증권",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:32",
     "llm_research_updated": "2026-10-21 14:08",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "001720",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:32",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2030.0,
+                "marcap": 2050.0,
                 "revenue_4qtrs": 5390.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 1660.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 14:08",
+        "reviewed": true,
+        "updated": "2026-10-22 16:32",
         "search_theme": [
             "실적",
             "전망"
@@ -42,17 +42,12 @@
             "Institutional Business (기관영업)"
         ],
         "revenue_share": [
-            0.03,
-            0.761,
-            0.015,
-            0.011
+            0.04,
+            0.93,
+            0.02,
+            0.01
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "stable",
             "improving",

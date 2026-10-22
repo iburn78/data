@@ -1,7 +1,7 @@
 {
     "key": "030610",
     "filename": "030610_교보증권",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:01",
     "llm_research_updated": "2026-10-21 14:08",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "030610",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1010.0,
+                "marcap": 1000.0,
                 "revenue_4qtrs": 9140.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 2710.0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 14:08",
+        "reviewed": true,
+        "updated": "2026-10-22 12:50",
         "search_theme": [
             "실적",
             "전망"
@@ -43,11 +43,11 @@
             "기타 (WM/Asset Management)"
         ],
         "revenue_share": [
-            0.038,
+            0.04,
             0.13,
             0.8,
-            0.015,
-            0.017
+            0.02,
+            0.02
         ],
         "opmargin": [
             0.476,

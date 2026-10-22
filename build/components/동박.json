@@ -1,7 +1,7 @@
 {
     "key": "동박",
     "filename": "동박",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 18:38",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,18 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 18:38",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 8160.0,
-                "revenue_4qtrs": 3500.0,
-                "opincome_4qtrs": -325.0,
-                "revenue_qtr": 941.0,
-                "opincome_qtr": -53.0
+                "marcap": 4920.0,
+                "revenue_4qtrs": 1970.0,
+                "opincome_4qtrs": -302.0,
+                "revenue_qtr": 496.0,
+                "opincome_qtr": -80.0
             },
             "share": {
                 "marcap": "-",
@@ -34,16 +34,16 @@
         "assess_data": {
             "opincome": {
                 "positive_last_4qtrs": false,
-                "higher_than_comp": true,
-                "slope": 3.26,
-                "growth_per_qtr": -0.0401
+                "higher_than_comp": false,
+                "slope": -3.08,
+                "growth_per_qtr": 0.0407
             },
             "opmargin": {
-                "25_4Q": -0.213,
-                "26_1Q": -0.0657,
-                "26_2Q": -0.0563,
-                "26_3Q": -0.0563,
-                "4qtrs": -0.0929
+                "25_4Q": -0.176,
+                "26_1Q": -0.116,
+                "26_2Q": -0.161,
+                "26_3Q": -0.161,
+                "4qtrs": -0.153
             },
             "PER": {
                 "PER_ltm": null,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.885,
-                "slope": -0.00022
+                "measure_to_base": 0.92,
+                "slope": -0.0000789
             },
             "amount": {
-                "measure_to_base": 2.05,
-                "slope": -1.69
+                "measure_to_base": 2.81,
+                "slope": -0.7
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000331,
-                    "beta": 1.14
+                    "alpha": 0.000408,
+                    "beta": 1.12
                 },
                 "base_duration": {
-                    "alpha": 0.000185,
-                    "beta": 0.921
+                    "alpha": -0.000234,
+                    "beta": 0.87
                 },
                 "measure_duration": {
-                    "alpha": 0.0196,
-                    "beta": 1.06
+                    "alpha": 0.0184,
+                    "beta": 0.862
                 }
             }
         },
@@ -80,7 +80,7 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
@@ -96,8 +96,8 @@
     },
     "listed_companies": [
         {
-            "key": "011790",
-            "name": "SKC"
+            "key": "011790(A)",
+            "name": "SKC(A)"
         },
         {
             "key": "020150",

@@ -1,7 +1,7 @@
 {
     "key": "016360",
     "filename": "016360_삼성증권",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:07",
     "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "016360",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:07",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 6990.0,
+                "marcap": 7090.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 14:07",
+        "reviewed": true,
+        "updated": "2026-10-22 16:07",
         "search_theme": [
             "실적",
             "전망"
@@ -47,12 +47,7 @@
             0.35,
             0.11
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "증가세 (국내외 주식 및 HNWI 유입)",
             "정체/하락세 (부동산 PF 위축)",

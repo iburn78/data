@@ -1,7 +1,7 @@
 {
     "key": "증권사",
     "filename": "증권사",
-    "updated": "2026-10-21 17:20",
+    "updated": "2026-10-22 18:45",
     "llm_research_updated": "2026-10-21 13:53",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:20",
+            "updated": "2026-10-22 18:45",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 52000.0,
+                "marcap": 52800.0,
                 "revenue_4qtrs": 194000.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 61000.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.594,
-                "slope": -0.000252
+                "measure_to_base": 0.623,
+                "slope": -0.000255
             },
             "amount": {
                 "measure_to_base": 1.19,
-                "slope": -7.59
+                "slope": -7.7
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000159,
-                    "beta": 1.03
+                    "alpha": 9.43e-6,
+                    "beta": 1.02
                 },
                 "base_duration": {
-                    "alpha": -0.00451,
+                    "alpha": -0.00447,
                     "beta": 0.71
                 },
                 "measure_duration": {
-                    "alpha": -0.00143,
-                    "beta": 0.743
+                    "alpha": 0.000264,
+                    "beta": 0.797
                 }
             }
         },
@@ -79,8 +79,8 @@
             "PER_level": "(na)",
             "volatility_movement": "Dn",
             "amount_movement": "-",
-            "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "alpha_level": "-",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

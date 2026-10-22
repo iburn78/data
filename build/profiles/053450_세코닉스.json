@@ -1,7 +1,7 @@
 {
     "key": "053450",
     "filename": "053450_세코닉스",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:25",
     "llm_research_updated": "2026-10-21 09:48",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "053450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.749,
-                "slope": 0.0000684
+                "measure_to_base": 0.78,
+                "slope": 0.0000703
             },
             "amount": {
-                "measure_to_base": 2.38,
-                "slope": -0.00315
+                "measure_to_base": 2.46,
+                "slope": -0.0032
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000691,
-                    "beta": 0.876
+                    "alpha": -0.000701,
+                    "beta": 0.875
                 },
                 "base_duration": {
-                    "alpha": -0.00342,
-                    "beta": 0.362
+                    "alpha": -0.00356,
+                    "beta": 0.36
                 },
                 "measure_duration": {
-                    "alpha": 0.0061,
-                    "beta": -0.0463
+                    "alpha": 0.00661,
+                    "beta": -0.031
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 09:48",
+        "reviewed": true,
+        "updated": "2026-10-22 16:25",
         "search_theme": [
             "실적",
             "전망"
@@ -97,12 +97,7 @@
             0.1,
             0.06
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "성장 전망 (ADAS/자율주행 확산)",
             "수익성 부진 및 변동성 확대",

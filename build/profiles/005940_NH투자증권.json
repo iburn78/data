@@ -1,7 +1,7 @@
 {
     "key": "005940",
     "filename": "005940_NH투자증권",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:01",
     "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "005940",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:01",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 8930.0,
+                "marcap": 8860.0,
                 "revenue_4qtrs": 0.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 0,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 14:07",
+        "reviewed": true,
+        "updated": "2026-10-22 11:56",
         "search_theme": [
             "실적",
             "전망"
@@ -47,12 +47,7 @@
             0.39,
             0.01
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "증가세 (해외주식 및 디지털 채널 성장)",
             "보합/완만한 회복세 (IPO 시장 회복)",

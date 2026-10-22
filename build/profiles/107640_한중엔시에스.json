@@ -1,22 +1,22 @@
 {
     "key": "107640",
     "filename": "107640_한중엔시에스",
-    "updated": "2026-10-21 17:27",
-    "llm_research_updated": "",
+    "updated": "2026-10-22 18:25",
+    "llm_research_updated": "2026-10-22 18:25",
     "financials": {
         "meta": {
             "name": "한중엔시에스",
             "code": "107640",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:27",
+            "updated": "2026-10-22 18:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 443.0,
+                "marcap": 456.0,
                 "revenue_4qtrs": 200.0,
                 "opincome_4qtrs": -9.72,
                 "revenue_qtr": 42.6,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.797,
-                "slope": -0.000194
+                "measure_to_base": 0.799,
+                "slope": -0.000186
             },
             "amount": {
-                "measure_to_base": 2.59,
-                "slope": -0.0846
+                "measure_to_base": 2.09,
+                "slope": -0.0611
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha": 0.00332,
-                    "beta": 0.58
+                    "beta": 0.581
                 },
                 "base_duration": {
-                    "alpha": -0.00143,
-                    "beta": 0.651
+                    "alpha": -0.000621,
+                    "beta": 0.657
                 },
                 "measure_duration": {
-                    "alpha": 0.0205,
-                    "beta": 1.13
+                    "alpha": 0.0223,
+                    "beta": 1.18
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-19 10:44",
+        "reviewed": true,
+        "updated": "2026-10-22 18:25",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,26 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "ESS",
-            "자동차부품 (Automotive Parts)"
+            "에너지저장장치(ESS)",
+            "자동차부품"
         ],
         "revenue_share": [
-            0.6,
-            0.4
+            0.97,
+            0.03
         ],
-        "opmargin": [
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "고성장 전망 (High growth outlook)",
-            "stable"
+            "고성장 및 확대 추세",
+            "내연기관 철수 및 EV 중심 재편으로 하락세"
         ],
         "create_segments": false,
         "key_products": [
-            "수냉식 냉각시스템 (Water-cooled cooling systems)",
-            "EV 전용 Cooling Fan Module"
+            "수냉식 냉각시스템, Battery Pack Module, Chiller, HVAC",
+            "Cooling Fan Module, Active Air Flap Module, Cooling Plate"
         ],
         "competitors": [
-            "Global cooling system providers",
-            "Global automotive component suppliers"
+            "아모그린텍, 와이엠텍, 신성에스티, Vertiv Holdings",
+            "글로벌 전장부품사"
         ]
     },
     "code": "107640",

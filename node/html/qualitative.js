@@ -351,10 +351,12 @@ function collectEditValues(card) {
             values[key] = scalarValue === "None" ? null : scalarValue;
 
             if (key === "tags") {
-                values[key] = values[key]
+                const normalizedTags = values[key]
                     .split(/[\s,]+/)
                     .map(tag => tag.replace(/[^\p{L}\p{N}_]/gu, "").toLowerCase())
-                    .filter(tag => Array.from(tag).length > 1)
+                    .filter(tag => Array.from(tag).length > 1);
+
+                values[key] = [...new Set(normalizedTags)]
                     .map(tag => `#${tag}`)
                     .join(" ");
             }
@@ -516,10 +518,16 @@ function openLlmResearchWindow(dialog) {
     const objectId = dialog.dataset.objectId;
     const windowName = `llm-research-${objectType}-${objectId}`
         .replace(/[^a-zA-Z0-9_-]/g, "-");
+    const popupHeight = Math.round(window.screen.availHeight * 0.8);
+    const popupWidth = 1000;
+    const popupLeft = window.screen.availLeft
+        + Math.max(0, window.screen.availWidth - popupWidth);
+    const popupTop = window.screen.availTop
+        + Math.round(window.screen.availHeight * 0.1);
     const researchWindow = window.open(
         "",
         windowName,
-        "popup=yes,width=1000,height=850,resizable=yes,scrollbars=yes"
+        `popup=yes,width=${popupWidth},height=${popupHeight},left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`
     );
     if (!researchWindow) {
         dialog.showModal();

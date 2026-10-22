@@ -1,7 +1,7 @@
 {
     "key": "081180",
     "filename": "081180_쎄크",
-    "updated": "2026-10-21 17:18",
+    "updated": "2026-10-22 16:45",
     "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "081180",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:45",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 50.0,
+                "marcap": 51.0,
                 "revenue_4qtrs": 47.6,
                 "opincome_4qtrs": -10.5,
                 "revenue_qtr": 7.55,
@@ -43,12 +43,12 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.875,
-                "slope": -0.0000104
+                "measure_to_base": 0.885,
+                "slope": -0.0000124
             },
             "amount": {
-                "measure_to_base": 2.54,
-                "slope": -0.0239
+                "measure_to_base": 2.55,
+                "slope": -0.024
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -56,12 +56,12 @@
                     "beta": 0.779
                 },
                 "base_duration": {
-                    "alpha": -0.00585,
-                    "beta": 0.744
+                    "alpha": -0.00574,
+                    "beta": 0.745
                 },
                 "measure_duration": {
-                    "alpha": 0.0085,
-                    "beta": 0.871
+                    "alpha": 0.00636,
+                    "beta": 0.795
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 09:47",
+        "reviewed": true,
+        "updated": "2026-10-22 16:45",
         "search_theme": [
             "실적",
             "전망"
@@ -92,17 +92,12 @@
             "분석기기(SEM) 사업부"
         ],
         "revenue_share": [
-            0.36,
-            0.32,
-            0.17,
-            0.07
+            0.39,
+            0.35,
+            0.18,
+            0.08
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "유지 및 소폭 정체",
             "완만한 회복세 (캐즘 영향)",

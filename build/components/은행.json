@@ -1,0 +1,152 @@
+{
+    "key": "은행",
+    "filename": "은행",
+    "updated": "2026-10-22 18:45",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "은행",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-22 18:44",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "w"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 194000.0,
+                "revenue_4qtrs": 3240.0,
+                "opincome_4qtrs": 0.0,
+                "revenue_qtr": 829.0,
+                "opincome_qtr": 0.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": false,
+                "higher_than_comp": true,
+                "slope": 0.0,
+                "growth_per_qtr": null
+            },
+            "opmargin": {
+                "25_4Q": 0.0,
+                "26_1Q": 0.0,
+                "26_2Q": 0.0,
+                "26_3Q": 0.0,
+                "4qtrs": 0.0
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base": 0.826,
+                "slope": -0.0000307
+            },
+            "amount": {
+                "measure_to_base": 0.97,
+                "slope": -1.91
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000376,
+                    "beta": 0.595
+                },
+                "base_duration": {
+                    "alpha": -0.000256,
+                    "beta": 0.125
+                },
+                "measure_duration": {
+                    "alpha": -0.00553,
+                    "beta": 0.0337
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "-",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "105560",
+            "name": "KB금융"
+        },
+        {
+            "key": "055550",
+            "name": "신한지주"
+        },
+        {
+            "key": "086790",
+            "name": "하나금융지주"
+        },
+        {
+            "key": "316140",
+            "name": "우리금융지주"
+        },
+        {
+            "key": "138930",
+            "name": "BNK금융지주"
+        },
+        {
+            "key": "139130",
+            "name": "iM금융지주"
+        },
+        {
+            "key": "175330",
+            "name": "JB금융지주"
+        },
+        {
+            "key": "024110",
+            "name": "기업은행"
+        },
+        {
+            "key": "006220",
+            "name": "제주은행"
+        },
+        {
+            "key": "323410",
+            "name": "카카오뱅크"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-22 18:44",
+        "key_facts": [
+            "IBK기업은행은 코스닥 상장사 1,581곳의 2026년 상반기 실적을 분석하여 발표함.",
+            "하나은행과 하나카드는 동국제강 '스틸샵'과 협력하여 중소 철강 구매 기업을 위한 공급망 금융 플랫폼을 구축하며, 연내 최종 론칭 예정임.",
+            "한국산업은행의 본점 부산 이전은 현행 산업은행법상 본점 주소지가 서울로 명시되어 있어 국회의 법 개정이 필요한 사안임."
+        ],
+        "new_trends": [
+            "B2B 이커머스 플랫폼과 은행-카드사의 역량을 결합한 '단일 트랜잭션(One-Transaction)' 결제 시스템 및 공급망 금융 모델 도입"
+        ],
+        "news_summary": "은행 부문에서는 기업 금융 서비스의 디지털 전환과 공공 금융기관의 거점 이전 이슈가 두드러졌습니다. 하나은행은 B2B 플랫폼과 연계한 차세대 공급망 금융 시스템을 구축해 중소기업 지원을 강화하고 있으며, IBK기업은행은 코스닥 상장사 분석을 통해 업종별 수익성 격차를 진단하고 관련 리서치 및 IR 지원을 확대할 계획입니다. 한편, 산업은행의 부산 이전 문제는 정부 관계자의 발언과 국회 법 개정 필요성이 맞물리며 논란이 지속되고 있습니다."
+    }
+}

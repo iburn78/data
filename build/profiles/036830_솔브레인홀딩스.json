@@ -1,22 +1,22 @@
 {
     "key": "036830",
     "filename": "036830_솔브레인홀딩스",
-    "updated": "2026-10-21 17:18",
-    "llm_research_updated": "2026-10-21 11:38",
+    "updated": "2026-10-22 16:31",
+    "llm_research_updated": "2026-10-22 16:30",
     "financials": {
         "meta": {
             "name": "솔브레인홀딩스",
             "code": "036830",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:18",
+            "updated": "2026-10-22 16:31",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 830.0,
+                "marcap": 836.0,
                 "revenue_4qtrs": 734.0,
                 "opincome_4qtrs": 46.9,
                 "revenue_qtr": 209.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0639
             },
             "PER": {
-                "PER_ltm": 17.7,
-                "PER_qx4": 6.51,
-                "PER_fwd": 6.95
+                "PER_ltm": 17.8,
+                "PER_qx4": 6.55,
+                "PER_fwd": 7.0
             },
             "volatility": {
-                "measure_to_base": 0.835,
-                "slope": -0.000111
+                "measure_to_base": 0.838,
+                "slope": -0.00011
             },
             "amount": {
-                "measure_to_base": 2.68,
-                "slope": -0.0542
+                "measure_to_base": 2.81,
+                "slope": -0.0544
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000375,
-                    "beta": 1.13
+                    "alpha": 0.000364,
+                    "beta": 1.12
                 },
                 "base_duration": {
-                    "alpha": -0.00233,
-                    "beta": 0.657
+                    "alpha": -0.00192,
+                    "beta": 0.658
                 },
                 "measure_duration": {
-                    "alpha": 0.0113,
-                    "beta": 1.11
+                    "alpha": 0.0105,
+                    "beta": 1.07
                 }
             }
         },
@@ -72,13 +72,13 @@
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "unchanged",
+            "market_sentiment": "-",
             "category": "D"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 11:38",
+        "reviewed": true,
+        "updated": "2026-10-22 16:31",
         "search_theme": [
             "실적",
             "전망"
@@ -87,34 +87,35 @@
         "notes": "",
         "segments": [
             "2차전지",
+            "디스플레이",
             "반도체/전자재료",
-            "바이오헬스케어"
+            "바이오헬스케어 및 기타"
         ],
         "revenue_share": [
-            0.4,
-            0.4,
-            0.2
+            0.43,
+            0.18,
+            0.18,
+            0.21
         ],
-        "opmargin": [
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
-            "Expanding (US/Hungary plants completed)",
-            "Improving (HBM/Packaging materials)",
-            "Growing (K-Beauty popularity)"
+            "Improving via capacity expansion",
+            "Declining due to trend shift to Flexible OLED",
+            "Improving due to AI semiconductor demand",
+            "Strategic discontinuation/sale"
         ],
         "create_segments": false,
         "key_products": [
-            "2차전지 전해액",
-            "반도체 Probe Card, 패키징 소재, 유리기판 가공소재",
-            "화장품 OEM/ODM, 바이오헬스케어 제품"
+            "전해액, 리드탭",
+            "Rigid OLED Glass Scribing, Cell 임가공, 광학필름",
+            "Probe Card, 공정 소재",
+            "진단시약, 마스크팩, 부동산 임대"
         ],
         "competitors": [
-            "Soulbrain, Samsung SDI, LG Chem",
-            "Soulbrain, various semiconductor chemical suppliers",
-            "Cosmax, Kolmar Korea"
+            "엔켐, 동화일렉트로라이트",
+            "기타 임가공 업체",
+            "솔브레인(주), 한솔케미칼",
+            "-"
         ]
     },
     "code": "036830",

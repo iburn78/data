@@ -1,7 +1,7 @@
 {
     "key": "001290",
     "filename": "001290_상상인증권",
-    "updated": "2026-10-21 17:20",
+    "updated": "2026-10-22 16:08",
     "llm_research_updated": "2026-10-21 17:20",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "001290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-21 17:20",
+            "updated": "2026-10-22 16:08",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 82.0,
+                "marcap": 82.2,
                 "revenue_4qtrs": 221.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 58.7,
@@ -27,8 +27,8 @@
         "assess_result": {}
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-10-21 17:20",
+        "reviewed": true,
+        "updated": "2026-10-22 16:08",
         "search_theme": [
             "실적",
             "전망"
@@ -47,12 +47,7 @@
             0.3,
             0.2
         ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
-        ],
+        "opmargin": [],
         "trend": [
             "확대 중 (온라인 서비스 및 신용공여)",
             "회복세 (PF 수익 회복)",
