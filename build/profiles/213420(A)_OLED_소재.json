@@ -1,7 +1,7 @@
 {
     "key": "213420(A)",
     "filename": "213420(A)_OLED_소재",
-    "updated": "2026-10-22 16:00",
+    "updated": "2026-10-23 10:19",
     "llm_research_updated": "2026-10-22 13:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "213420",
             "segment_name": "OLED 소재",
             "id": "A",
-            "updated": "2026-10-22 16:00",
+            "updated": "2026-10-23 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 472.0,
+                "marcap": 455.0,
                 "revenue_4qtrs": 276.0,
                 "opincome_4qtrs": 41.2,
                 "revenue_qtr": 67.2,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.149
             },
             "PER": {
-                "PER_ltm": 11.5,
-                "PER_qx4": 11.8,
-                "PER_fwd": 10.2
+                "PER_ltm": 11.0,
+                "PER_qx4": 11.4,
+                "PER_fwd": 9.85
             },
             "volatility": {
-                "measure_to_base": 0.81,
-                "slope": -0.000114
+                "measure_to_base": 0.808,
+                "slope": -0.000115
             },
             "amount": {
-                "measure_to_base": 0.914,
-                "slope": -0.0428
+                "measure_to_base": 0.867,
+                "slope": -0.0409
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00033,
+                    "alpha": 0.000328,
                     "beta": 0.901
                 },
                 "base_duration": {
-                    "alpha": -0.00437,
-                    "beta": 0.576
+                    "alpha": -0.00485,
+                    "beta": 0.578
                 },
                 "measure_duration": {
-                    "alpha": 0.00318,
-                    "beta": 0.833
+                    "alpha": 0.00358,
+                    "beta": 0.871
                 }
             }
         },

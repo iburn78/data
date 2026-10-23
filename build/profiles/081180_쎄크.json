@@ -1,7 +1,7 @@
 {
     "key": "081180",
     "filename": "081180_쎄크",
-    "updated": "2026-10-22 16:45",
+    "updated": "2026-10-23 10:19",
     "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "081180",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:45",
+            "updated": "2026-10-23 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 51.0,
+                "marcap": 50.0,
                 "revenue_4qtrs": 47.6,
                 "opincome_4qtrs": -10.5,
                 "revenue_qtr": 7.55,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.885,
-                "slope": -0.0000124
+                "measure_to_base": 0.9,
+                "slope": -0.0000153
             },
             "amount": {
-                "measure_to_base": 2.55,
-                "slope": -0.024
+                "measure_to_base": 2.57,
+                "slope": -0.0239
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00312,
-                    "beta": 0.779
+                    "alpha": -0.00308,
+                    "beta": 0.778
                 },
                 "base_duration": {
-                    "alpha": -0.00574,
-                    "beta": 0.745
+                    "alpha": -0.00569,
+                    "beta": 0.743
                 },
                 "measure_duration": {
-                    "alpha": 0.00636,
-                    "beta": 0.795
+                    "alpha": 0.00501,
+                    "beta": 0.753
                 }
             }
         },

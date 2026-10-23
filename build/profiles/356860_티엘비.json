@@ -1,7 +1,7 @@
 {
     "key": "356860",
     "filename": "356860_티엘비",
-    "updated": "2026-10-22 17:57",
+    "updated": "2026-10-23 10:19",
     "llm_research_updated": "2026-10-19 09:25",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "356860",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 17:57",
+            "updated": "2026-10-23 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 926.0,
+                "marcap": 889.0,
                 "revenue_4qtrs": 321.0,
                 "opincome_4qtrs": 44.8,
                 "revenue_qtr": 88.2,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.14
             },
             "PER": {
-                "PER_ltm": 20.6,
-                "PER_qx4": 18.1,
-                "PER_fwd": 14.1
+                "PER_ltm": 19.8,
+                "PER_qx4": 17.4,
+                "PER_fwd": 13.5
             },
             "volatility": {
-                "measure_to_base": 0.715,
-                "slope": 0.0000652
+                "measure_to_base": 0.727,
+                "slope": 0.0000618
             },
             "amount": {
-                "measure_to_base": 1.28,
-                "slope": 0.0554
+                "measure_to_base": 1.3,
+                "slope": 0.0529
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000874,
+                    "alpha": 0.000876,
                     "beta": 1.21
                 },
                 "base_duration": {
-                    "alpha": 0.00299,
+                    "alpha": 0.00251,
                     "beta": 1.06
                 },
                 "measure_duration": {
-                    "alpha": 0.0159,
-                    "beta": 1.26
+                    "alpha": 0.0163,
+                    "beta": 1.3
                 }
             }
         },

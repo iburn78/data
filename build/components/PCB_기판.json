@@ -1,7 +1,7 @@
 {
     "key": "PCB 기판",
     "filename": "PCB_기판",
-    "updated": "2026-10-22 18:32",
+    "updated": "2026-10-23 10:19",
     "llm_research_updated": "2026-10-21 09:50",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:32",
+            "updated": "2026-10-23 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7040.0,
+                "marcap": 6640.0,
                 "revenue_4qtrs": 1400.0,
                 "opincome_4qtrs": 278.0,
                 "revenue_qtr": 380.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.199
             },
             "PER": {
-                "PER_ltm": 25.3,
-                "PER_qx4": 22.8,
-                "PER_fwd": 19.1
+                "PER_ltm": 23.9,
+                "PER_qx4": 21.5,
+                "PER_fwd": 18.0
             },
             "volatility": {
-                "measure_to_base": 0.786,
-                "slope": -0.000126
+                "measure_to_base": 0.811,
+                "slope": -0.000123
             },
             "amount": {
-                "measure_to_base": 1.85,
-                "slope": -1.12
+                "measure_to_base": 1.67,
+                "slope": -1.07
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": -0.00173,
-                    "beta": 0.934
+                    "alpha": -0.00212,
+                    "beta": 0.937
                 },
                 "measure_duration": {
-                    "alpha": 0.0111,
-                    "beta": 1.39
+                    "alpha": 0.00706,
+                    "beta": 1.34
                 }
             }
         },

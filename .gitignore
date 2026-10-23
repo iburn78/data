@@ -222,17 +222,9 @@ __marimo__/
 
 .DS_Store
 
-# Track model data and LLM research; leave generated pages and news archives ignored.
+# reinsert build dir (removed above)
 !/build/
-/build/*
-!/build/profiles/
-/build/profiles/*
-!/build/components/
-/build/components/*
-!/build/valuechains/
-/build/valuechains/*
-!/build/*/*.json
-!/build/*/*.md
+/build/news/*
 
 node/node_modules/
 node/.env

@@ -1,7 +1,7 @@
 {
     "key": "광증폭기",
     "filename": "광증폭기",
-    "updated": "2026-10-22 18:33",
+    "updated": "2026-10-23 10:19",
     "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:33",
+            "updated": "2026-10-23 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 132.0,
+                "marcap": 127.0,
                 "revenue_4qtrs": 19.9,
                 "opincome_4qtrs": 1.55,
                 "revenue_qtr": 4.53,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0782
             },
             "PER": {
-                "PER_ltm": 85.2,
-                "PER_qx4": 258.0,
-                "PER_fwd": 57.0
+                "PER_ltm": 81.7,
+                "PER_qx4": 248.0,
+                "PER_fwd": 54.7
             },
             "volatility": {
-                "measure_to_base": 0.967,
-                "slope": -0.000583
+                "measure_to_base": 0.976,
+                "slope": -0.000581
             },
             "amount": {
-                "measure_to_base": 1.42,
-                "slope": -0.122
+                "measure_to_base": 1.28,
+                "slope": -0.126
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00115,
-                    "beta": 0.769
+                    "alpha": 0.00113,
+                    "beta": 0.77
                 },
                 "base_duration": {
-                    "alpha": 0.00106,
-                    "beta": 0.543
+                    "alpha": 0.00114,
+                    "beta": 0.547
                 },
                 "measure_duration": {
-                    "alpha": 0.00555,
-                    "beta": 1.44
+                    "alpha": 0.00315,
+                    "beta": 1.36
                 }
             }
         },
@@ -78,7 +78,7 @@
             "financially_sound": true,
             "PER_level": "High",
             "volatility_movement": "-",
-            "amount_movement": "Up",
+            "amount_movement": "-",
             "alpha_level": "out_pfm",
             "market_sentiment": "-",
             "category": "D"

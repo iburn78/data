@@ -1,7 +1,7 @@
 {
     "key": "광케이블",
     "filename": "광케이블",
-    "updated": "2026-10-22 18:33",
+    "updated": "2026-10-23 10:19",
     "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:33",
+            "updated": "2026-10-23 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2220.0,
+                "marcap": 2070.0,
                 "revenue_4qtrs": 161.0,
                 "opincome_4qtrs": -7.05,
                 "revenue_qtr": 49.1,
@@ -47,29 +47,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 581.0,
-                "PER_fwd": 197.0
+                "PER_qx4": 542.0,
+                "PER_fwd": 184.0
             },
             "volatility": {
-                "measure_to_base": 0.958,
-                "slope": -0.000528
+                "measure_to_base": 0.957,
+                "slope": -0.000519
             },
             "amount": {
-                "measure_to_base": 2.07,
-                "slope": -5.3
+                "measure_to_base": 1.57,
+                "slope": -5.41
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00127,
+                    "alpha": 0.00126,
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": 0.00347,
+                    "alpha": 0.00381,
                     "beta": 1.16
                 },
                 "measure_duration": {
-                    "alpha": 0.00238,
-                    "beta": 1.54
+                    "alpha": 0.00539,
+                    "beta": 1.66
                 }
             }
         },

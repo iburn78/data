@@ -1,7 +1,7 @@
 {
     "key": "005930",
     "filename": "005930_삼성전자",
-    "updated": "2026-10-22 18:31",
+    "updated": "2026-10-23 10:19",
     "llm_research_updated": "2026-10-19 09:04",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "005930",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:31",
+            "updated": "2026-10-23 10:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1310000.0,
+                "marcap": 1250000.0,
                 "revenue_4qtrs": 571000.0,
                 "opincome_4qtrs": 256000.0,
                 "revenue_qtr": 171000.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.449
             },
             "PER": {
-                "PER_ltm": 5.1,
-                "PER_qx4": 3.65,
-                "PER_fwd": 2.97
+                "PER_ltm": 4.89,
+                "PER_qx4": 3.5,
+                "PER_fwd": 2.85
             },
             "volatility": {
-                "measure_to_base": 0.61,
-                "slope": -0.0000366
+                "measure_to_base": 0.627,
+                "slope": -0.0000456
             },
             "amount": {
-                "measure_to_base": 1.01,
-                "slope": -55.3
+                "measure_to_base": 1.02,
+                "slope": -57.2
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000438,
+                    "alpha": 0.000439,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.00181,
+                    "alpha": 0.00205,
                     "beta": 1.32
                 },
                 "measure_duration": {
-                    "alpha": 0.00657,
-                    "beta": 1.47
+                    "alpha": 0.00467,
+                    "beta": 1.41
                 }
             }
         },
