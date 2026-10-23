@@ -1,7 +1,7 @@
 {
     "key": "스마트글래스",
     "filename": "스마트글래스",
-    "updated": "2026-10-22 18:35",
+    "updated": "2026-10-23 13:12",
     "llm_research_updated": "2026-10-20 14:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:35",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 230.0,
+                "marcap": 220.0,
                 "revenue_4qtrs": 30.6,
                 "opincome_4qtrs": 0.741,
                 "revenue_qtr": 7.21,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0242
             },
             "PER": {
-                "PER_ltm": 310.0,
-                "PER_qx4": 184.0,
-                "PER_fwd": 62.0
+                "PER_ltm": 298.0,
+                "PER_qx4": 177.0,
+                "PER_fwd": 59.6
             },
             "volatility": {
-                "measure_to_base": 0.847,
-                "slope": -0.000184
+                "measure_to_base": 0.849,
+                "slope": -0.000185
             },
             "amount": {
-                "measure_to_base": 2.26,
-                "slope": -0.0559
+                "measure_to_base": 2.53,
+                "slope": -0.0404
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000956,
+                    "alpha": -0.000961,
                     "beta": 1.01
                 },
                 "base_duration": {
-                    "alpha": -0.0026,
-                    "beta": 0.828
+                    "alpha": -0.00253,
+                    "beta": 0.829
                 },
                 "measure_duration": {
-                    "alpha": -0.00671,
-                    "beta": 0.985
+                    "alpha": -0.00522,
+                    "beta": 1.02
                 }
             }
         },

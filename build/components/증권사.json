@@ -1,7 +1,7 @@
 {
     "key": "증권사",
     "filename": "증권사",
-    "updated": "2026-10-22 18:45",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-21 13:53",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:45",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 52800.0,
+                "marcap": 51600.0,
                 "revenue_4qtrs": 194000.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 61000.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.623,
-                "slope": -0.000255
+                "measure_to_base": 0.656,
+                "slope": -0.000258
             },
             "amount": {
-                "measure_to_base": 1.19,
-                "slope": -7.7
+                "measure_to_base": 1.17,
+                "slope": -7.77
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 9.43e-6,
-                    "beta": 1.02
+                    "alpha": 0.0000115,
+                    "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00447,
-                    "beta": 0.71
+                    "alpha": -0.00445,
+                    "beta": 0.709
                 },
                 "measure_duration": {
-                    "alpha": 0.000264,
-                    "beta": 0.797
+                    "alpha": 0.0000112,
+                    "beta": 0.788
                 }
             }
         },

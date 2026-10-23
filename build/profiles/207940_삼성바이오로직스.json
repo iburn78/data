@@ -1,7 +1,7 @@
 {
     "key": "207940",
     "filename": "207940_삼성바이오로직스",
-    "updated": "2026-10-22 16:01",
+    "updated": "2026-10-23 13:18",
     "llm_research_updated": "2026-10-22 15:48",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "207940",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:01",
+            "updated": "2026-10-23 13:18",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 65600.0,
+                "marcap": 63000.0,
                 "revenue_4qtrs": 4210.0,
                 "opincome_4qtrs": 2130.0,
                 "revenue_qtr": 1320.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.507
             },
             "PER": {
-                "PER_ltm": 30.8,
-                "PER_qx4": 28.0,
-                "PER_fwd": 24.6
+                "PER_ltm": 29.6,
+                "PER_qx4": 26.9,
+                "PER_fwd": 23.6
             },
             "volatility": {
-                "measure_to_base": 0.729,
-                "slope": 0.0000152
+                "measure_to_base": 0.751,
+                "slope": 0.0000164
             },
             "amount": {
-                "measure_to_base": 1.18,
-                "slope": -0.166
+                "measure_to_base": 1.19,
+                "slope": -0.109
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000812,
-                    "beta": 0.49
+                    "alpha": 0.000802,
+                    "beta": 0.491
                 },
                 "base_duration": {
-                    "alpha": -0.000128,
-                    "beta": 0.128
+                    "alpha": -0.000497,
+                    "beta": 0.134
                 },
                 "measure_duration": {
-                    "alpha": 0.00166,
-                    "beta": 0.0537
+                    "alpha": 0.000335,
+                    "beta": 0.117
                 }
             }
         },
@@ -71,7 +71,7 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "market_sentiment": "-",
             "category": "D"
         }

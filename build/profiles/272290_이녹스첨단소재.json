@@ -1,7 +1,7 @@
 {
     "key": "272290",
     "filename": "272290_이녹스첨단소재",
-    "updated": "2026-10-22 17:17",
+    "updated": "2026-10-23 13:12",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "272290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 17:17",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 378.0,
+                "marcap": 367.0,
                 "revenue_4qtrs": 415.0,
                 "opincome_4qtrs": 50.5,
                 "revenue_qtr": 109.0,
@@ -38,29 +38,29 @@
                 "4qtrs": 0.122
             },
             "PER": {
-                "PER_ltm": 7.49,
-                "PER_qx4": 9.04,
-                "PER_fwd": 12.6
+                "PER_ltm": 7.27,
+                "PER_qx4": 8.78,
+                "PER_fwd": 12.2
             },
             "volatility": {
-                "measure_to_base": 0.69,
-                "slope": -0.000197
+                "measure_to_base": 0.72,
+                "slope": -0.000199
             },
             "amount": {
-                "measure_to_base": 1.47,
-                "slope": -0.099
+                "measure_to_base": 1.52,
+                "slope": -0.0976
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000258,
+                    "alpha": -0.000256,
                     "beta": 0.982
                 },
                 "base_duration": {
-                    "alpha": -0.00398,
+                    "alpha": -0.00435,
                     "beta": 0.643
                 },
                 "measure_duration": {
-                    "alpha": 0.00623,
+                    "alpha": 0.00651,
                     "beta": 1.03
                 }
             }

@@ -1,7 +1,7 @@
 {
     "key": "메디컬 바이오",
     "filename": "메디컬_바이오",
-    "updated": "2026-10-22 18:53",
+    "updated": "2026-10-23 13:20",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:52",
+            "updated": "2026-10-23 13:20",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 134000.0,
+                "marcap": 131000.0,
                 "revenue_4qtrs": 19100.0,
                 "opincome_4qtrs": 5390.0,
                 "revenue_qtr": 5420.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.282
             },
             "PER": {
-                "PER_ltm": 24.9,
-                "PER_qx4": 22.7,
-                "PER_fwd": 19.4
+                "PER_ltm": 24.2,
+                "PER_qx4": 22.0,
+                "PER_fwd": 18.9
             },
             "volatility": {
-                "measure_to_base": 0.704,
-                "slope": -0.0000639
+                "measure_to_base": 0.734,
+                "slope": -0.0000642
             },
             "amount": {
-                "measure_to_base": 0.919,
-                "slope": -0.606
+                "measure_to_base": 0.915,
+                "slope": -0.617
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000583,
-                    "beta": 0.572
+                    "alpha": 0.00058,
+                    "beta": 0.573
                 },
                 "base_duration": {
-                    "alpha": -0.000469,
-                    "beta": 0.166
+                    "alpha": -0.00074,
+                    "beta": 0.17
                 },
                 "measure_duration": {
-                    "alpha": 0.00358,
-                    "beta": 0.224
+                    "alpha": 0.00311,
+                    "beta": 0.271
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "053450",
     "filename": "053450_세코닉스",
-    "updated": "2026-10-22 16:25",
+    "updated": "2026-10-23 13:12",
     "llm_research_updated": "2026-10-21 09:48",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "053450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:25",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 49.6,
+                "marcap": 47.7,
                 "revenue_4qtrs": 397.0,
                 "opincome_4qtrs": -68.8,
                 "revenue_qtr": 97.6,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.78,
-                "slope": 0.0000703
+                "measure_to_base": 0.813,
+                "slope": 0.0000721
             },
             "amount": {
-                "measure_to_base": 2.46,
-                "slope": -0.0032
+                "measure_to_base": 2.44,
+                "slope": -0.00287
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000701,
+                    "alpha": -0.000704,
                     "beta": 0.875
                 },
                 "base_duration": {
-                    "alpha": -0.00356,
-                    "beta": 0.36
+                    "alpha": -0.0037,
+                    "beta": 0.364
                 },
                 "measure_duration": {
-                    "alpha": 0.00661,
-                    "beta": -0.031
+                    "alpha": 0.00657,
+                    "beta": 0.0841
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "450080",
     "filename": "450080_에코프로머티",
-    "updated": "2026-10-22 16:48",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-21 11:25",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "450080",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:48",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2370.0,
+                "marcap": 2200.0,
                 "revenue_4qtrs": 639.0,
                 "opincome_4qtrs": -2.14,
                 "revenue_qtr": 179.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.758,
-                "slope": -0.0000608
+                "measure_to_base": 0.772,
+                "slope": -0.0000609
             },
             "amount": {
-                "measure_to_base": 1.56,
-                "slope": -0.712
+                "measure_to_base": 1.64,
+                "slope": -0.673
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000799,
-                    "beta": 0.986
+                    "alpha": -0.000859,
+                    "beta": 0.99
                 },
                 "base_duration": {
-                    "alpha": -0.00573,
-                    "beta": 0.632
+                    "alpha": -0.00671,
+                    "beta": 0.64
                 },
                 "measure_duration": {
-                    "alpha": 0.00893,
-                    "beta": 1.08
+                    "alpha": 0.01,
+                    "beta": 1.23
                 }
             }
         },

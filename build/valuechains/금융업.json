@@ -1,22 +1,22 @@
 {
     "key": "금융업",
     "filename": "금융업",
-    "updated": "2026-10-22 18:46",
-    "llm_research_updated": "",
+    "updated": "2026-10-23 13:14",
+    "llm_research_updated": "2026-10-23 13:14",
     "financials": {
         "meta": {
             "name": "금융업",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:45",
+            "updated": "2026-10-23 13:14",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 247000.0,
+                "marcap": 243000.0,
                 "revenue_4qtrs": 197000.0,
                 "opincome_4qtrs": 0.0,
                 "revenue_qtr": 61800.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.801,
-                "slope": -0.000104
+                "measure_to_base": 0.806,
+                "slope": -0.000106
             },
             "amount": {
-                "measure_to_base": 1.23,
-                "slope": -9.61
+                "measure_to_base": 1.22,
+                "slope": -9.85
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000246,
+                    "alpha": 0.000249,
                     "beta": 0.712
                 },
                 "base_duration": {
-                    "alpha": -0.00149,
-                    "beta": 0.279
+                    "alpha": -0.00155,
+                    "beta": 0.281
                 },
                 "measure_duration": {
-                    "alpha": -0.00432,
-                    "beta": 0.2
+                    "alpha": -0.0055,
+                    "beta": 0.18
                 }
             }
         },

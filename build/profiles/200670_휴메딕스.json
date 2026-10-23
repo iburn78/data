@@ -1,7 +1,7 @@
 {
     "key": "200670",
     "filename": "200670_휴메딕스",
-    "updated": "2026-10-22 16:19",
+    "updated": "2026-10-23 13:15",
     "llm_research_updated": "2026-10-22 16:10",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "200670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:19",
+            "updated": "2026-10-23 13:15",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 264.0,
+                "marcap": 261.0,
                 "revenue_4qtrs": 187.0,
                 "opincome_4qtrs": 43.4,
                 "revenue_qtr": 50.4,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.232
             },
             "PER": {
-                "PER_ltm": 6.08,
-                "PER_qx4": 5.65,
-                "PER_fwd": 5.67
+                "PER_ltm": 6.01,
+                "PER_qx4": 5.58,
+                "PER_fwd": 5.6
             },
             "volatility": {
-                "measure_to_base": 0.634,
-                "slope": -0.0000477
+                "measure_to_base": 0.652,
+                "slope": -0.0000524
             },
             "amount": {
-                "measure_to_base": 1.55,
-                "slope": -0.0108
+                "measure_to_base": 1.13,
+                "slope": -0.0107
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000225,
+                    "alpha": -0.00022,
                     "beta": 0.723
                 },
                 "base_duration": {
-                    "alpha": -0.00255,
-                    "beta": 0.367
+                    "alpha": -0.00275,
+                    "beta": 0.366
                 },
                 "measure_duration": {
-                    "alpha": 0.00323,
-                    "beta": 0.572
+                    "alpha": 0.0051,
+                    "beta": 0.611
                 }
             }
         },
@@ -70,9 +70,9 @@
             "financially_sound": true,
             "PER_level": "Low",
             "volatility_movement": "Dn",
-            "amount_movement": "Up",
+            "amount_movement": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "confidence",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

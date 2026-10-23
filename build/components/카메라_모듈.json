@@ -1,7 +1,7 @@
 {
     "key": "카메라 모듈",
     "filename": "카메라_모듈",
-    "updated": "2026-10-22 18:35",
+    "updated": "2026-10-23 13:12",
     "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:35",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 95600.0,
+                "marcap": 93600.0,
                 "revenue_4qtrs": 34700.0,
                 "opincome_4qtrs": 2260.0,
                 "revenue_qtr": 8440.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0651
             },
             "PER": {
-                "PER_ltm": 42.3,
-                "PER_qx4": 38.8,
-                "PER_fwd": 35.3
+                "PER_ltm": 41.4,
+                "PER_qx4": 38.0,
+                "PER_fwd": 34.6
             },
             "volatility": {
-                "measure_to_base": 0.616,
-                "slope": -0.000109
+                "measure_to_base": 0.638,
+                "slope": -0.000119
             },
             "amount": {
-                "measure_to_base": 1.11,
-                "slope": -14.1
+                "measure_to_base": 1.13,
+                "slope": -14.6
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000702,
+                    "alpha": 0.000711,
                     "beta": 1.24
                 },
                 "base_duration": {
-                    "alpha": 0.00559,
+                    "alpha": 0.00556,
                     "beta": 1.28
                 },
                 "measure_duration": {
-                    "alpha": 0.00599,
-                    "beta": 1.52
+                    "alpha": 0.00716,
+                    "beta": 1.49
                 }
             }
         },

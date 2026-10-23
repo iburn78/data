@@ -1,7 +1,7 @@
 {
     "key": "배터리 분리막",
     "filename": "배터리_분리막",
-    "updated": "2026-10-22 16:00",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-21 11:05",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:00",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1760.0,
+                "marcap": 1610.0,
                 "revenue_4qtrs": 299.0,
                 "opincome_4qtrs": -368.0,
                 "revenue_qtr": 75.8,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.805,
-                "slope": 0.000115
+                "measure_to_base": 0.791,
+                "slope": 0.000108
             },
             "amount": {
-                "measure_to_base": 1.3,
-                "slope": -0.0806
+                "measure_to_base": 1.23,
+                "slope": -0.0734
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00135,
-                    "beta": 0.819
+                    "alpha": -0.00139,
+                    "beta": 0.823
                 },
                 "base_duration": {
-                    "alpha": -0.0026,
-                    "beta": 0.346
+                    "alpha": -0.00338,
+                    "beta": 0.359
                 },
                 "measure_duration": {
-                    "alpha": 0.0108,
-                    "beta": 0.687
+                    "alpha": 0.00873,
+                    "beta": 0.814
                 }
             }
         },

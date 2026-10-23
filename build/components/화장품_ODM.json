@@ -1,7 +1,7 @@
 {
     "key": "화장품 ODM",
     "filename": "화장품_ODM",
-    "updated": "2026-10-22 18:51",
+    "updated": "2026-10-23 13:19",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:51",
+            "updated": "2026-10-23 13:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 6090.0,
+                "marcap": 6040.0,
                 "revenue_4qtrs": 5980.0,
                 "opincome_4qtrs": 589.0,
                 "revenue_qtr": 1660.0,
@@ -47,28 +47,28 @@
             },
             "PER": {
                 "PER_ltm": 10.3,
-                "PER_qx4": 8.27,
-                "PER_fwd": 7.43
+                "PER_qx4": 8.2,
+                "PER_fwd": 7.37
             },
             "volatility": {
-                "measure_to_base": 0.658,
-                "slope": 0.0000855
+                "measure_to_base": 0.66,
+                "slope": 0.0000806
             },
             "amount": {
-                "measure_to_base": 0.762,
-                "slope": 0.451
+                "measure_to_base": 0.753,
+                "slope": 0.424
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000182,
+                    "alpha": 0.000186,
                     "beta": 0.521
                 },
                 "base_duration": {
-                    "alpha": 0.00313,
-                    "beta": 0.137
+                    "alpha": 0.00277,
+                    "beta": 0.138
                 },
                 "measure_duration": {
-                    "alpha": -0.000201,
+                    "alpha": 0.000179,
                     "beta": 0.342
                 }
             }

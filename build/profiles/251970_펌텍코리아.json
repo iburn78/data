@@ -1,7 +1,7 @@
 {
     "key": "251970",
     "filename": "251970_펌텍코리아",
-    "updated": "2026-10-22 18:03",
+    "updated": "2026-10-23 13:21",
     "llm_research_updated": "2026-10-22 18:03",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "251970",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:03",
+            "updated": "2026-10-23 13:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 856.0,
+                "marcap": 866.0,
                 "revenue_4qtrs": 403.0,
                 "opincome_4qtrs": 64.6,
                 "revenue_qtr": 117.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.16
             },
             "PER": {
-                "PER_ltm": 13.2,
-                "PER_qx4": 9.88,
-                "PER_fwd": 9.05
+                "PER_ltm": 13.4,
+                "PER_qx4": 9.99,
+                "PER_fwd": 9.16
             },
             "volatility": {
-                "measure_to_base": 0.745,
-                "slope": 0.00023
+                "measure_to_base": 0.744,
+                "slope": 0.000219
             },
             "amount": {
                 "measure_to_base": 1.01,
-                "slope": 0.0661
+                "slope": 0.0648
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00076,
-                    "beta": 0.44
+                    "alpha": 0.000776,
+                    "beta": 0.438
                 },
                 "base_duration": {
-                    "alpha": 0.0049,
-                    "beta": 0.0258
+                    "alpha": 0.00489,
+                    "beta": 0.0244
                 },
                 "measure_duration": {
-                    "alpha": 0.00492,
-                    "beta": -0.178
+                    "alpha": 0.00744,
+                    "beta": -0.113
                 }
             }
         },

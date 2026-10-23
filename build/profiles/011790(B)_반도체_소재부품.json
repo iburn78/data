@@ -1,22 +1,22 @@
 {
     "key": "011790(B)",
     "filename": "011790(B)_반도체_소재부품",
-    "updated": "2026-10-22 18:37",
-    "llm_research_updated": "",
+    "updated": "2026-10-23 13:12",
+    "llm_research_updated": "2026-10-23 13:12",
     "financials": {
         "meta": {
             "name": "SKC",
             "code": "011790",
             "segment_name": "반도체 소재/부품",
             "id": "B",
-            "updated": "2026-10-22 18:37",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 590.0,
+                "marcap": 553.0,
                 "revenue_4qtrs": 288.0,
                 "opincome_4qtrs": 99.4,
                 "revenue_qtr": 83.9,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.345
             },
             "PER": {
-                "PER_ltm": 5.94,
-                "PER_qx4": 5.1,
-                "PER_fwd": 4.74
+                "PER_ltm": 5.56,
+                "PER_qx4": 4.77,
+                "PER_fwd": 4.44
             },
             "volatility": {
-                "measure_to_base": 1.03,
-                "slope": -0.000511
+                "measure_to_base": 1.07,
+                "slope": -0.000514
             },
             "amount": {
-                "measure_to_base": 1.48,
-                "slope": -0.184
+                "measure_to_base": 1.5,
+                "slope": -0.187
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000323,
+                    "alpha": 0.000313,
                     "beta": 1.16
                 },
                 "base_duration": {
-                    "alpha": 0.000348,
-                    "beta": 0.98
+                    "alpha": -0.000231,
+                    "beta": 0.985
                 },
                 "measure_duration": {
-                    "alpha": 0.0127,
-                    "beta": 0.997
+                    "alpha": 0.0124,
+                    "beta": 1.09
                 }
             }
         },

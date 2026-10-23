@@ -1,7 +1,7 @@
 {
     "key": "전자 부품",
     "filename": "전자_부품",
-    "updated": "2026-10-22 18:35",
+    "updated": "2026-10-23 13:12",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:35",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 98500.0,
+                "marcap": 96500.0,
                 "revenue_4qtrs": 38200.0,
                 "opincome_4qtrs": 2540.0,
                 "revenue_qtr": 9390.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0664
             },
             "PER": {
-                "PER_ltm": 38.8,
-                "PER_qx4": 35.3,
-                "PER_fwd": 32.8
+                "PER_ltm": 38.0,
+                "PER_qx4": 34.6,
+                "PER_fwd": 32.1
             },
             "volatility": {
-                "measure_to_base": 0.613,
-                "slope": -0.0000948
+                "measure_to_base": 0.635,
+                "slope": -0.000105
             },
             "amount": {
-                "measure_to_base": 1.12,
-                "slope": -14.4
+                "measure_to_base": 1.13,
+                "slope": -14.9
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000612,
+                    "alpha": 0.000621,
                     "beta": 1.21
                 },
                 "base_duration": {
-                    "alpha": 0.00517,
+                    "alpha": 0.00514,
                     "beta": 1.26
                 },
                 "measure_duration": {
-                    "alpha": 0.00592,
-                    "beta": 1.5
+                    "alpha": 0.00709,
+                    "beta": 1.47
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "020150",
     "filename": "020150_롯데에너지머티리얼즈",
-    "updated": "2026-10-22 16:00",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "020150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:00",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2880.0,
+                "marcap": 2760.0,
                 "revenue_4qtrs": 719.0,
                 "opincome_4qtrs": -72.6,
                 "revenue_qtr": 194.0,
@@ -44,24 +44,24 @@
             },
             "volatility": {
                 "measure_to_base": 1.01,
-                "slope": -0.0000186
+                "slope": -0.0000203
             },
             "amount": {
-                "measure_to_base": 2.11,
-                "slope": -0.115
+                "measure_to_base": 2.04,
+                "slope": -0.0996
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000593,
+                    "alpha": 0.000592,
                     "beta": 1.13
                 },
                 "base_duration": {
-                    "alpha": 0.00108,
-                    "beta": 0.869
+                    "alpha": 0.000362,
+                    "beta": 0.871
                 },
                 "measure_duration": {
-                    "alpha": 0.0233,
-                    "beta": 0.76
+                    "alpha": 0.0257,
+                    "beta": 0.918
                 }
             }
         },

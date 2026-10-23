@@ -1,7 +1,7 @@
 {
     "key": "에스테틱 의료기기",
     "filename": "에스테틱_의료기기",
-    "updated": "2026-10-22 18:48",
+    "updated": "2026-10-23 13:16",
     "llm_research_updated": "",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:48",
+            "updated": "2026-10-23 13:16",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2190.0,
+                "marcap": 2200.0,
                 "revenue_4qtrs": 573.0,
                 "opincome_4qtrs": 222.0,
                 "revenue_qtr": 153.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.387
             },
             "PER": {
-                "PER_ltm": 9.89,
-                "PER_qx4": 9.97,
-                "PER_fwd": 9.09
+                "PER_ltm": 9.92,
+                "PER_qx4": 10.0,
+                "PER_fwd": 9.12
             },
             "volatility": {
-                "measure_to_base": 0.641,
-                "slope": -0.0001
+                "measure_to_base": 0.661,
+                "slope": -0.000105
             },
             "amount": {
-                "measure_to_base": 1.18,
-                "slope": -0.222
+                "measure_to_base": 1.21,
+                "slope": -0.228
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000969,
-                    "beta": 0.579
+                    "alpha": 0.000978,
+                    "beta": 0.578
                 },
                 "base_duration": {
-                    "alpha": -0.00521,
-                    "beta": 0.275
+                    "alpha": -0.00535,
+                    "beta": 0.272
                 },
                 "measure_duration": {
-                    "alpha": -0.00299,
-                    "beta": 0.362
+                    "alpha": -0.00109,
+                    "beta": 0.364
                 }
             }
         },

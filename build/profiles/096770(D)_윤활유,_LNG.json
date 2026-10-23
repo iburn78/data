@@ -1,7 +1,7 @@
 {
     "key": "096770(D)",
     "filename": "096770(D)_윤활유,_LNG",
-    "updated": "2026-10-22 18:40",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-19 18:05",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "096770",
             "segment_name": "윤활유, LNG",
             "id": "D",
-            "updated": "2026-10-22 18:40",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 1300.0,
+                "marcap": 1200.0,
                 "revenue_4qtrs": 5090.0,
                 "opincome_4qtrs": 764.0,
                 "revenue_qtr": 1460.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.15
             },
             "PER": {
-                "PER_ltm": 1.71,
-                "PER_qx4": 1.49,
-                "PER_fwd": 1.37
+                "PER_ltm": 1.57,
+                "PER_qx4": 1.37,
+                "PER_fwd": 1.26
             },
             "volatility": {
-                "measure_to_base": 0.912,
-                "slope": 0.000203
+                "measure_to_base": 0.91,
+                "slope": 0.000198
             },
             "amount": {
-                "measure_to_base": 0.957,
-                "slope": 0.0308
+                "measure_to_base": 0.97,
+                "slope": 0.0304
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000464,
-                    "beta": 0.888
+                    "alpha": 0.0000257,
+                    "beta": 0.891
                 },
                 "base_duration": {
-                    "alpha": 0.00237,
-                    "beta": 0.188
+                    "alpha": 0.00177,
+                    "beta": 0.202
                 },
                 "measure_duration": {
-                    "alpha": 0.0127,
-                    "beta": 0.571
+                    "alpha": 0.0102,
+                    "beta": 0.69
                 }
             }
         },

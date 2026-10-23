@@ -1,7 +1,7 @@
 {
     "key": "192820",
     "filename": "192820_코스맥스",
-    "updated": "2026-10-22 17:42",
+    "updated": "2026-10-23 13:19",
     "llm_research_updated": "2026-10-22 17:32",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "192820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 17:42",
+            "updated": "2026-10-23 13:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -40,35 +40,35 @@
             "PER": {
                 "PER_ltm": 12.8,
                 "PER_qx4": 10.5,
-                "PER_fwd": 9.66
+                "PER_fwd": 9.68
             },
             "volatility": {
-                "measure_to_base": 0.759,
-                "slope": 0.0000186
+                "measure_to_base": 0.77,
+                "slope": 0.0000181
             },
             "amount": {
-                "measure_to_base": 0.8,
-                "slope": 0.217
+                "measure_to_base": 0.795,
+                "slope": 0.21
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000359,
-                    "beta": 0.517
+                    "alpha": 0.000367,
+                    "beta": 0.516
                 },
                 "base_duration": {
-                    "alpha": 0.00256,
-                    "beta": 0.0959
+                    "alpha": 0.00228,
+                    "beta": 0.0953
                 },
                 "measure_duration": {
-                    "alpha": 0.00304,
-                    "beta": 0.304
+                    "alpha": 0.00383,
+                    "beta": 0.301
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": false,
-            "PER_level": "High",
+            "PER_level": "Mid",
             "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",

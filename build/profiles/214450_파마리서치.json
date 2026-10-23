@@ -1,7 +1,7 @@
 {
     "key": "214450",
     "filename": "214450_파마리서치",
-    "updated": "2026-10-22 17:59",
+    "updated": "2026-10-23 13:15",
     "llm_research_updated": "2026-10-22 17:59",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "214450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 17:59",
+            "updated": "2026-10-23 13:15",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2740.0,
+                "marcap": 2650.0,
                 "revenue_4qtrs": 647.0,
                 "opincome_4qtrs": 242.0,
                 "revenue_qtr": 179.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.374
             },
             "PER": {
-                "PER_ltm": 11.3,
-                "PER_qx4": 10.3,
-                "PER_fwd": 8.91
+                "PER_ltm": 10.9,
+                "PER_qx4": 9.96,
+                "PER_fwd": 8.6
             },
             "volatility": {
-                "measure_to_base": 0.606,
-                "slope": -0.0000477
+                "measure_to_base": 0.605,
+                "slope": -0.0000588
             },
             "amount": {
-                "measure_to_base": 0.563,
-                "slope": 0.00619
+                "measure_to_base": 0.568,
+                "slope": -0.0166
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000618,
-                    "beta": 0.655
+                    "alpha": 0.000614,
+                    "beta": 0.656
                 },
                 "base_duration": {
-                    "alpha": -0.000383,
-                    "beta": 0.193
+                    "alpha": -0.000963,
+                    "beta": 0.198
                 },
                 "measure_duration": {
-                    "alpha": -0.0044,
-                    "beta": 0.692
+                    "alpha": -0.0038,
+                    "beta": 0.72
                 }
             }
         },

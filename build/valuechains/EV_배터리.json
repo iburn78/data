@@ -1,7 +1,7 @@
 {
     "key": "EV 배터리",
     "filename": "EV_배터리",
-    "updated": "2026-10-22 18:40",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-21 11:42",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:40",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 209000.0,
+                "marcap": 196000.0,
                 "revenue_4qtrs": 130000.0,
                 "opincome_4qtrs": -558.0,
                 "revenue_qtr": 35400.0,
@@ -47,29 +47,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 80.6,
-                "PER_fwd": 82.5
+                "PER_qx4": 75.4,
+                "PER_fwd": 77.2
             },
             "volatility": {
-                "measure_to_base": 0.79,
-                "slope": -0.0000452
+                "measure_to_base": 0.797,
+                "slope": -0.00005
             },
             "amount": {
-                "measure_to_base": 1.66,
-                "slope": -9.17
+                "measure_to_base": 1.65,
+                "slope": -8.76
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000509,
-                    "beta": 0.906
+                    "alpha": 0.000496,
+                    "beta": 0.908
                 },
                 "base_duration": {
-                    "alpha": -0.00108,
-                    "beta": 0.484
+                    "alpha": -0.0017,
+                    "beta": 0.492
                 },
                 "measure_duration": {
-                    "alpha": 0.00829,
-                    "beta": 0.486
+                    "alpha": 0.00901,
+                    "beta": 0.645
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "025900(A)",
     "filename": "025900(A)_소재사업",
-    "updated": "2026-10-22 16:00",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-22 13:22",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "025900",
             "segment_name": "소재사업",
             "id": "A",
-            "updated": "2026-10-22 16:00",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 200.0,
+                "marcap": 193.0,
                 "revenue_4qtrs": 553.0,
                 "opincome_4qtrs": -4.97,
                 "revenue_qtr": 142.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.616,
-                "slope": 0.0000661
+                "measure_to_base": 0.622,
+                "slope": 0.0000557
             },
             "amount": {
-                "measure_to_base": 0.806,
-                "slope": -0.00654
+                "measure_to_base": 0.809,
+                "slope": -0.00616
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000733,
+                    "alpha": -0.0000735,
                     "beta": 0.903
                 },
                 "base_duration": {
-                    "alpha": -0.0039,
-                    "beta": 0.494
+                    "alpha": -0.00406,
+                    "beta": 0.496
                 },
                 "measure_duration": {
-                    "alpha": 0.00304,
-                    "beta": 0.658
+                    "alpha": 0.00535,
+                    "beta": 0.749
                 }
             }
         },

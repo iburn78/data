@@ -1,7 +1,7 @@
 {
     "key": "148150",
     "filename": "148150_세경하이테크",
-    "updated": "2026-10-22 16:09",
+    "updated": "2026-10-23 13:12",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "148150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:09",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 121.0,
+                "marcap": 119.0,
                 "revenue_4qtrs": 304.0,
                 "opincome_4qtrs": 5.0,
                 "revenue_qtr": 86.3,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0164
             },
             "PER": {
-                "PER_ltm": 24.3,
-                "PER_qx4": 9.13,
-                "PER_fwd": 25.8
+                "PER_ltm": 23.8,
+                "PER_qx4": 8.93,
+                "PER_fwd": 25.2
             },
             "volatility": {
-                "measure_to_base": 0.713,
-                "slope": 0.0000175
+                "measure_to_base": 0.72,
+                "slope": 0.0000147
             },
             "amount": {
-                "measure_to_base": 1.12,
-                "slope": -0.00349
+                "measure_to_base": 1.09,
+                "slope": -0.00321
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00027,
-                    "beta": 0.832
+                    "alpha": -0.000266,
+                    "beta": 0.831
                 },
                 "base_duration": {
-                    "alpha": -0.00237,
-                    "beta": 0.431
+                    "alpha": -0.00248,
+                    "beta": 0.432
                 },
                 "measure_duration": {
-                    "alpha": -0.00546,
-                    "beta": 0.501
+                    "alpha": -0.00209,
+                    "beta": 0.586
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "239890",
     "filename": "239890_피엔에이치테크",
-    "updated": "2026-10-22 18:12",
+    "updated": "2026-10-23 13:12",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "239890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:12",
+            "updated": "2026-10-23 13:12",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 33.2,
+                "marcap": 32.2,
                 "revenue_4qtrs": 27.6,
                 "opincome_4qtrs": 2.25,
                 "revenue_qtr": 6.96,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0815
             },
             "PER": {
-                "PER_ltm": 14.8,
-                "PER_qx4": 53.1,
-                "PER_fwd": 202.0
+                "PER_ltm": 14.3,
+                "PER_qx4": 51.5,
+                "PER_fwd": 196.0
             },
             "volatility": {
-                "measure_to_base": 0.757,
-                "slope": -0.00015
+                "measure_to_base": 0.775,
+                "slope": -0.000159
             },
             "amount": {
-                "measure_to_base": 0.898,
-                "slope": -0.00546
+                "measure_to_base": 0.903,
+                "slope": -0.0049
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000202,
-                    "beta": 0.584
+                    "alpha": -0.0000243,
+                    "beta": 0.585
                 },
                 "base_duration": {
-                    "alpha": -0.00472,
-                    "beta": 0.564
+                    "alpha": -0.00474,
+                    "beta": 0.565
                 },
                 "measure_duration": {
-                    "alpha": 0.00157,
-                    "beta": 0.474
+                    "alpha": -0.001,
+                    "beta": 0.443
                 }
             }
         },
@@ -71,7 +71,7 @@
             "PER_level": "High",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "udr_pfm",
             "market_sentiment": "-",
             "category": "D"
         }

@@ -1,7 +1,7 @@
 {
     "key": "066570",
     "filename": "066570_LG전자",
-    "updated": "2026-10-22 18:56",
+    "updated": "2026-10-23 13:23",
     "llm_research_updated": "2026-10-20 09:33",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "066570",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 18:56",
+            "updated": "2026-10-23 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 26900.0,
+                "marcap": 26100.0,
                 "revenue_4qtrs": 95200.0,
                 "opincome_4qtrs": 4720.0,
                 "revenue_qtr": 23800.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0496
             },
             "PER": {
-                "PER_ltm": 5.69,
-                "PER_qx4": 4.26,
-                "PER_fwd": 4.0
+                "PER_ltm": 5.52,
+                "PER_qx4": 4.13,
+                "PER_fwd": 3.88
             },
             "volatility": {
-                "measure_to_base": 0.911,
-                "slope": -0.00045
+                "measure_to_base": 0.948,
+                "slope": -0.00047
             },
             "amount": {
-                "measure_to_base": 1.3,
-                "slope": -7.64
+                "measure_to_base": 1.27,
+                "slope": -7.9
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000331,
+                    "alpha": 0.000332,
                     "beta": 0.918
                 },
                 "base_duration": {
-                    "alpha": 0.00463,
-                    "beta": 0.797
+                    "alpha": 0.00476,
+                    "beta": 0.798
                 },
                 "measure_duration": {
-                    "alpha": -0.00117,
-                    "beta": 0.825
+                    "alpha": -0.0019,
+                    "beta": 0.807
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "036830",
     "filename": "036830_솔브레인홀딩스",
-    "updated": "2026-10-22 16:31",
+    "updated": "2026-10-23 13:13",
     "llm_research_updated": "2026-10-22 16:30",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "036830",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 16:31",
+            "updated": "2026-10-23 13:13",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 836.0,
+                "marcap": 783.0,
                 "revenue_4qtrs": 734.0,
                 "opincome_4qtrs": 46.9,
                 "revenue_qtr": 209.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0639
             },
             "PER": {
-                "PER_ltm": 17.8,
-                "PER_qx4": 6.55,
-                "PER_fwd": 7.0
+                "PER_ltm": 16.7,
+                "PER_qx4": 6.14,
+                "PER_fwd": 6.56
             },
             "volatility": {
-                "measure_to_base": 0.838,
-                "slope": -0.00011
+                "measure_to_base": 0.844,
+                "slope": -0.000108
             },
             "amount": {
-                "measure_to_base": 2.81,
-                "slope": -0.0544
+                "measure_to_base": 2.63,
+                "slope": -0.0527
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000364,
-                    "beta": 1.12
+                    "alpha": 0.000354,
+                    "beta": 1.13
                 },
                 "base_duration": {
-                    "alpha": -0.00192,
-                    "beta": 0.658
+                    "alpha": -0.00256,
+                    "beta": 0.664
                 },
                 "measure_duration": {
-                    "alpha": 0.0105,
-                    "beta": 1.07
+                    "alpha": 0.0136,
+                    "beta": 1.24
                 }
             }
         },
