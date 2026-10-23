@@ -213,8 +213,7 @@ app.post("/api/delete-markdown", async (req, res) => {
     if (!allowedTypes.has(objectType) || typeof objectId !== "string" || !objectId
         || !["news_article", "llm_research"].includes(kind)
         || typeof htmlPath !== "string"
-        || (kind === "news_article" && (typeof markdownName !== "string" || typeof markdownPath !== "string"))
-        || (kind === "llm_research" && objectType !== "Profile")) {
+        || (kind === "news_article" && (typeof markdownName !== "string" || typeof markdownPath !== "string"))) {
         return res.status(400).json({ ok: false, error: "Invalid model or Markdown file." });
     }
 

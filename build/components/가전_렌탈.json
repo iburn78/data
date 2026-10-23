@@ -1,22 +1,22 @@
 {
     "key": "가전 렌탈",
     "filename": "가전_렌탈",
-    "updated": "2026-10-20 08:58",
-    "llm_research_updated": "",
+    "updated": "2026-10-23 14:23",
+    "llm_research_updated": "2026-10-23 14:23",
     "financials": {
         "meta": {
             "name": "가전 렌탈",
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-20 08:58",
+            "updated": "2026-10-23 14:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 7690.0,
+                "marcap": 7510.0,
                 "revenue_4qtrs": 5490.0,
                 "opincome_4qtrs": 939.0,
                 "revenue_qtr": 1440.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.171
             },
             "PER": {
-                "PER_ltm": 8.18,
-                "PER_qx4": 7.59,
-                "PER_fwd": 7.18
+                "PER_ltm": 8.0,
+                "PER_qx4": 7.41,
+                "PER_fwd": 7.02
             },
             "volatility": {
                 "measure_to_base": 1.11,
-                "slope": -0.0000733
+                "slope": -0.0000877
             },
             "amount": {
-                "measure_to_base": 1.37,
-                "slope": -0.139
+                "measure_to_base": 1.21,
+                "slope": -0.12
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000137,
-                    "beta": 0.407
+                    "alpha": 0.000136,
+                    "beta": 0.405
                 },
                 "base_duration": {
-                    "alpha": 0.00279,
-                    "beta": 0.0841
+                    "alpha": 0.00216,
+                    "beta": 0.0847
                 },
                 "measure_duration": {
-                    "alpha": -0.000596,
-                    "beta": -0.169
+                    "alpha": 0.0028,
+                    "beta": 0.0132
                 }
             }
         },
@@ -78,9 +78,9 @@
             "financially_sound": false,
             "PER_level": "Mid",
             "volatility_movement": "-",
-            "amount_movement": "Up",
-            "alpha_level": "udr_pfm",
-            "market_sentiment": "unchanged",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
             "category": "D"
         }
     },

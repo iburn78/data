@@ -585,6 +585,35 @@ function openLlmResearchWindow(dialog) {
     );
 }
 
+function openRomaPlotWindow(button) {
+    const template = document.getElementById(button.getAttribute("aria-controls"));
+    if (!template) return;
+    const popupWidth = Math.round(window.screen.availWidth * 0.8);
+    const popupHeight = Math.round(window.screen.availHeight * 0.7);
+    const popupLeft = window.screen.availLeft
+        + Math.max(0, (window.screen.availWidth - popupWidth) / 2);
+    const popupTop = window.screen.availTop
+        + Math.round(window.screen.availHeight * 0.1);
+    const plotWindow = window.open(
+        "",
+        `roma-plot-${template.id}`,
+        `popup=yes,width=${popupWidth},height=${popupHeight},left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`
+    );
+    if (!plotWindow) return;
+
+    const title = template.dataset.title || "ROMA plot";
+    const stylesheets = [...document.querySelectorAll('link[rel="stylesheet"]')]
+        .map(link => `<link rel="stylesheet" href="${link.href}">`)
+        .join("");
+    plotWindow.document.open();
+    plotWindow.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>${title.replace(/[<>&"']/g, "")}</title>${stylesheets}
+        <style>html,body{width:100%;height:100%;margin:0}body{overflow:hidden}.roma-plot-popup{width:100%;height:100%}.roma-plot-popup .plotly-graph-div{width:100%!important;height:100%!important}</style>
+        </head><body><main class="roma-plot-popup">${template.innerHTML}</main></body></html>`);
+    plotWindow.document.close();
+}
+
 /*
  * Initial event handlers
  */
@@ -721,6 +750,25 @@ document.addEventListener("DOMContentLoaded", () => {
         dialog.addEventListener("click", event => {
             if (event.target === dialog) dialog.close();
         });
+    });
+
+    document.querySelectorAll(".roma-plot-link").forEach(button => {
+        button.addEventListener("click", () => openRomaPlotWindow(button));
+    });
+
+    document.addEventListener("keydown", event => {
+        const target = event.target;
+        const typing = target instanceof Element && (
+            target.matches("input, textarea, select, [contenteditable='true']")
+            || target.closest("[contenteditable='true']")
+        );
+        if (event.key.toLowerCase() !== "r" || event.altKey || event.ctrlKey
+            || event.metaKey || event.shiftKey || typing) return;
+        const button = document.querySelector(".roma-plot-link");
+        if (button) {
+            event.preventDefault();
+            openRomaPlotWindow(button);
+        }
     });
 
     document.querySelectorAll(".llm-research-delete-button").forEach(button => {
