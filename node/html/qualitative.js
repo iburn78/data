@@ -519,7 +519,7 @@ function openLlmResearchWindow(dialog) {
     const windowName = `llm-research-${objectType}-${objectId}`
         .replace(/[^a-zA-Z0-9_-]/g, "-");
     const popupHeight = Math.round(window.screen.availHeight * 0.8);
-    const popupWidth = 1000;
+    const popupWidth = Math.round(window.screen.availWidth * 0.8);
     const popupLeft = window.screen.availLeft
         + Math.max(0, window.screen.availWidth - popupWidth);
     const popupTop = window.screen.availTop
