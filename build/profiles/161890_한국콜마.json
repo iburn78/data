@@ -1,7 +1,7 @@
 {
     "key": "161890",
     "filename": "161890_한국콜마",
-    "updated": "2026-10-24 12:02",
+    "updated": "2026-10-26 11:52",
     "llm_research_updated": "2026-10-22 18:15",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "161890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-24 12:02",
+            "updated": "2026-10-26 11:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2950.0,
+                "marcap": 2890.0,
                 "revenue_4qtrs": 3110.0,
                 "opincome_4qtrs": 347.0,
                 "revenue_qtr": 861.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.112
             },
             "PER": {
-                "PER_ltm": 8.48,
-                "PER_qx4": 6.67,
-                "PER_fwd": 5.9
+                "PER_ltm": 8.32,
+                "PER_qx4": 6.55,
+                "PER_fwd": 5.79
             },
             "volatility": {
-                "measure_to_base": 0.621,
-                "slope": 0.000118
+                "measure_to_base": 0.623,
+                "slope": 0.000109
             },
             "amount": {
-                "measure_to_base": 0.724,
-                "slope": 0.214
+                "measure_to_base": 0.727,
+                "slope": 0.197
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000146,
+                    "alpha": 0.000139,
                     "beta": 0.527
                 },
                 "base_duration": {
-                    "alpha": 0.00351,
-                    "beta": 0.181
+                    "alpha": 0.00344,
+                    "beta": 0.182
                 },
                 "measure_duration": {
-                    "alpha": -0.00297,
-                    "beta": 0.396
+                    "alpha": -0.00425,
+                    "beta": 0.376
                 }
             }
         },

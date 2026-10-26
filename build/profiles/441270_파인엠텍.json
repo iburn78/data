@@ -1,7 +1,7 @@
 {
     "key": "441270",
     "filename": "441270_파인엠텍",
-    "updated": "2026-10-23 14:47",
+    "updated": "2026-10-26 11:25",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "441270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-23 14:47",
+            "updated": "2026-10-26 11:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 431.0,
+                "marcap": 476.0,
                 "revenue_4qtrs": 298.0,
                 "opincome_4qtrs": 10.5,
                 "revenue_qtr": 95.2,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0353
             },
             "PER": {
-                "PER_ltm": 41.0,
-                "PER_qx4": 14.7,
-                "PER_fwd": 12.3
+                "PER_ltm": 45.3,
+                "PER_qx4": 16.2,
+                "PER_fwd": 13.6
             },
             "volatility": {
-                "measure_to_base": 0.757,
-                "slope": 0.000197
+                "measure_to_base": 0.744,
+                "slope": 0.000189
             },
             "amount": {
-                "measure_to_base": 0.842,
-                "slope": 0.0826
+                "measure_to_base": 0.946,
+                "slope": 0.0996
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000427,
-                    "beta": 0.81
+                    "alpha": 0.0000565,
+                    "beta": 0.813
                 },
                 "base_duration": {
-                    "alpha": 0.0015,
-                    "beta": 0.659
+                    "alpha": 0.00244,
+                    "beta": 0.667
                 },
                 "measure_duration": {
-                    "alpha": 0.0165,
-                    "beta": 0.606
+                    "alpha": 0.026,
+                    "beta": 0.814
                 }
             }
         },

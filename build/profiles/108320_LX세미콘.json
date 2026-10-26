@@ -1,7 +1,7 @@
 {
     "key": "108320",
     "filename": "108320_LX세미콘",
-    "updated": "2026-10-23 14:45",
+    "updated": "2026-10-26 11:25",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "108320",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-23 14:45",
+            "updated": "2026-10-26 11:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 499.0,
+                "marcap": 496.0,
                 "revenue_4qtrs": 1580.0,
                 "opincome_4qtrs": 89.5,
                 "revenue_qtr": 401.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0566
             },
             "PER": {
-                "PER_ltm": 5.58,
-                "PER_qx4": 5.67,
-                "PER_fwd": 8.96
+                "PER_ltm": 5.54,
+                "PER_qx4": 5.64,
+                "PER_fwd": 8.9
             },
             "volatility": {
-                "measure_to_base": 0.717,
-                "slope": -0.000143
+                "measure_to_base": 0.729,
+                "slope": -0.000153
             },
             "amount": {
-                "measure_to_base": 1.15,
-                "slope": -0.0888
+                "measure_to_base": 1.23,
+                "slope": -0.0768
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000131,
+                    "alpha": -0.000134,
                     "beta": 0.875
                 },
                 "base_duration": {
-                    "alpha": -0.00519,
-                    "beta": 0.594
+                    "alpha": -0.00525,
+                    "beta": 0.593
                 },
                 "measure_duration": {
-                    "alpha": 0.000755,
-                    "beta": 0.747
+                    "alpha": 0.000342,
+                    "beta": 0.74
                 }
             }
         },
@@ -71,7 +71,7 @@
             "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "market_sentiment": "-",
             "category": "D"
         }

@@ -1,7 +1,7 @@
 {
     "key": "086900",
     "filename": "086900_메디톡스",
-    "updated": "2026-10-24 11:57",
+    "updated": "2026-10-26 11:52",
     "llm_research_updated": "2026-10-22 15:31",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "086900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-24 11:57",
+            "updated": "2026-10-26 11:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 493.0,
+                "marcap": 492.0,
                 "revenue_4qtrs": 259.0,
                 "opincome_4qtrs": 13.2,
                 "revenue_qtr": 68.7,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0511
             },
             "PER": {
-                "PER_ltm": 37.3,
-                "PER_qx4": 25.9,
-                "PER_fwd": 27.4
+                "PER_ltm": 37.2,
+                "PER_qx4": 25.8,
+                "PER_fwd": 27.3
             },
             "volatility": {
-                "measure_to_base": 0.619,
-                "slope": -0.0000809
+                "measure_to_base": 0.621,
+                "slope": -0.0000881
             },
             "amount": {
                 "measure_to_base": 1.07,
-                "slope": -0.0483
+                "slope": -0.0495
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00037,
+                    "alpha": -0.000372,
                     "beta": 0.615
                 },
                 "base_duration": {
-                    "alpha": -0.00328,
+                    "alpha": -0.0033,
                     "beta": 0.223
                 },
                 "measure_duration": {
-                    "alpha": 0.00382,
-                    "beta": 0.315
+                    "alpha": 0.00368,
+                    "beta": 0.312
                 }
             }
         },

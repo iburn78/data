@@ -1,7 +1,7 @@
 {
     "key": "025900(A)",
     "filename": "025900(A)_소재사업",
-    "updated": "2026-10-23 14:47",
+    "updated": "2026-10-26 11:37",
     "llm_research_updated": "2026-10-22 13:22",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "025900",
             "segment_name": "소재사업",
             "id": "A",
-            "updated": "2026-10-23 14:47",
+            "updated": "2026-10-26 11:37",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 193.0,
+                "marcap": 184.0,
                 "revenue_4qtrs": 553.0,
                 "opincome_4qtrs": -4.97,
                 "revenue_qtr": 142.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.622,
-                "slope": 0.0000557
+                "measure_to_base": 0.631,
+                "slope": 0.0000456
             },
             "amount": {
-                "measure_to_base": 0.809,
-                "slope": -0.00616
+                "measure_to_base": 0.813,
+                "slope": -0.00599
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000735,
-                    "beta": 0.903
+                    "alpha": -0.0000919,
+                    "beta": 0.902
                 },
                 "base_duration": {
-                    "alpha": -0.00406,
-                    "beta": 0.496
+                    "alpha": -0.0042,
+                    "beta": 0.498
                 },
                 "measure_duration": {
-                    "alpha": 0.00535,
-                    "beta": 0.749
+                    "alpha": 0.00263,
+                    "beta": 0.704
                 }
             }
         },
@@ -94,12 +94,12 @@
     "profile_code": "025900",
     "segment_name": "소재사업",
     "news": {
-        "updated": "2026-10-22 13:22",
+        "updated": "2026-10-26 11:37",
         "key_financials": [],
         "key_facts": [
-            "2026년 10월 19일, 전고체 배터리 및 2차전지 소재 관련주로 분류되어 주가 상승세를 보임"
+            "2026년 10월 19일, 전고체 배터리 및 2차전지 소재 관련주로 분류되며 주가 상승세를 보임"
         ],
         "key_issues": [],
-        "news_summary": "동화기업의 소재사업과 관련하여 구체적인 사업 현황이나 실적 등의 세부 정보는 기재되어 있지 않으나, 2026년 10월 19일 전고체 배터리 및 2차전지 소재 관련 테마주로 묶이며 주가가 상승세를 보였다는 내용이 보고되었습니다."
+        "news_summary": "동화기업의 소재사업과 관련하여 구체적인 사업 현황이나 재무 실적은 보고되지 않았으나, 2026년 10월 중 2차전지 및 전고체 배터리 관련 소재주로 시장에서 주목받으며 주가가 상승한 사실이 보도되었습니다."
     }
 }

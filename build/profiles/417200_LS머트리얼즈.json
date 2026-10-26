@@ -1,7 +1,7 @@
 {
     "key": "417200",
     "filename": "417200_LS머트리얼즈",
-    "updated": "2026-10-23 14:42",
+    "updated": "2026-10-26 11:21",
     "llm_research_updated": "2026-10-19 12:25",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "417200",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-23 14:42",
+            "updated": "2026-10-26 11:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 942.0,
+                "marcap": 875.0,
                 "revenue_4qtrs": 186.0,
                 "opincome_4qtrs": 1.03,
                 "revenue_qtr": 51.3,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.00555
             },
             "PER": {
-                "PER_ltm": 913.0,
-                "PER_qx4": 442.0,
-                "PER_fwd": 1520.0
+                "PER_ltm": 848.0,
+                "PER_qx4": 411.0,
+                "PER_fwd": 1410.0
             },
             "volatility": {
-                "measure_to_base": 0.965,
-                "slope": -0.000139
+                "measure_to_base": 0.986,
+                "slope": -0.000132
             },
             "amount": {
-                "measure_to_base": 3.84,
-                "slope": -0.597
+                "measure_to_base": 4.09,
+                "slope": -0.53
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00104,
+                    "alpha": -0.00114,
                     "beta": 0.953
                 },
                 "base_duration": {
-                    "alpha": -0.00372,
-                    "beta": 0.76
+                    "alpha": -0.00404,
+                    "beta": 0.763
                 },
                 "measure_duration": {
-                    "alpha": 0.0176,
-                    "beta": 1.29
+                    "alpha": 0.0144,
+                    "beta": 1.23
                 }
             }
         },

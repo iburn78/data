@@ -1,7 +1,7 @@
 {
     "key": "216080",
     "filename": "216080_제테마",
-    "updated": "2026-10-24 11:58",
+    "updated": "2026-10-26 11:52",
     "llm_research_updated": "2026-10-22 17:29",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "216080",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-24 11:58",
+            "updated": "2026-10-26 11:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 222.0,
+                "marcap": 226.0,
                 "revenue_4qtrs": 76.5,
                 "opincome_4qtrs": 5.12,
                 "revenue_qtr": 20.1,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0669
             },
             "PER": {
-                "PER_ltm": 43.3,
-                "PER_qx4": 24.1,
-                "PER_fwd": 23.1
+                "PER_ltm": 44.1,
+                "PER_qx4": 24.5,
+                "PER_fwd": 23.5
             },
             "volatility": {
-                "measure_to_base": 0.873,
-                "slope": 0.000211
+                "measure_to_base": 0.847,
+                "slope": 0.000203
             },
             "amount": {
-                "measure_to_base": 0.849,
-                "slope": -0.00387
+                "measure_to_base": 0.803,
+                "slope": -0.00373
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000449,
+                    "alpha": 0.000458,
                     "beta": 0.679
                 },
                 "base_duration": {
-                    "alpha": -0.00054,
-                    "beta": 0.0938
+                    "alpha": -0.000208,
+                    "beta": 0.0966
                 },
                 "measure_duration": {
-                    "alpha": -0.00982,
-                    "beta": 0.0741
+                    "alpha": -0.00751,
+                    "beta": 0.11
                 }
             }
         },

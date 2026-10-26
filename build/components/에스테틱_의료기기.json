@@ -1,7 +1,7 @@
 {
     "key": "에스테틱 의료기기",
     "filename": "에스테틱_의료기기",
-    "updated": "2026-10-24 11:59",
+    "updated": "2026-10-26 11:52",
     "llm_research_updated": "2026-10-23 14:31",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-24 11:59",
+            "updated": "2026-10-26 11:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2200.0,
+                "marcap": 2150.0,
                 "revenue_4qtrs": 573.0,
                 "opincome_4qtrs": 222.0,
                 "revenue_qtr": 153.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.387
             },
             "PER": {
-                "PER_ltm": 9.92,
-                "PER_qx4": 10.0,
-                "PER_fwd": 9.12
+                "PER_ltm": 9.69,
+                "PER_qx4": 9.77,
+                "PER_fwd": 8.91
             },
             "volatility": {
-                "measure_to_base": 0.661,
-                "slope": -0.000105
+                "measure_to_base": 0.683,
+                "slope": -0.000109
             },
             "amount": {
-                "measure_to_base": 1.21,
-                "slope": -0.228
+                "measure_to_base": 1.26,
+                "slope": -0.23
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000978,
+                    "alpha": 0.000968,
                     "beta": 0.578
                 },
                 "base_duration": {
-                    "alpha": -0.00535,
-                    "beta": 0.272
+                    "alpha": -0.00566,
+                    "beta": 0.27
                 },
                 "measure_duration": {
-                    "alpha": -0.00109,
-                    "beta": 0.364
+                    "alpha": -0.00221,
+                    "beta": 0.346
                 }
             }
         },
@@ -77,7 +77,7 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Mid",
-            "volatility_movement": "Dn",
+            "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "udr_pfm",
             "market_sentiment": "-",

@@ -1,7 +1,7 @@
 {
     "key": "009150",
     "filename": "009150_삼성전기",
-    "updated": "2026-10-23 14:43",
+    "updated": "2026-10-26 11:25",
     "llm_research_updated": "2026-10-22 16:06",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "009150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-23 14:43",
+            "updated": "2026-10-26 11:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 85500.0,
+                "marcap": 83800.0,
                 "revenue_4qtrs": 13000.0,
                 "opincome_4qtrs": 1400.0,
                 "revenue_qtr": 3460.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.108
             },
             "PER": {
-                "PER_ltm": 61.1,
-                "PER_qx4": 48.6,
-                "PER_fwd": 42.6
+                "PER_ltm": 59.8,
+                "PER_qx4": 47.6,
+                "PER_fwd": 41.7
             },
             "volatility": {
-                "measure_to_base": 0.628,
-                "slope": -0.000147
+                "measure_to_base": 0.65,
+                "slope": -0.000159
             },
             "amount": {
-                "measure_to_base": 1.09,
-                "slope": -11.1
+                "measure_to_base": 1.13,
+                "slope": -11.7
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000889,
+                    "alpha": 0.00088,
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": 0.00643,
+                    "alpha": 0.0064,
                     "beta": 1.3
                 },
                 "measure_duration": {
-                    "alpha": 0.00772,
-                    "beta": 1.51
+                    "alpha": 0.00371,
+                    "beta": 1.45
                 }
             }
         },

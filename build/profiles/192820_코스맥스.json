@@ -1,7 +1,7 @@
 {
     "key": "192820",
     "filename": "192820_코스맥스",
-    "updated": "2026-10-24 12:02",
+    "updated": "2026-10-26 11:52",
     "llm_research_updated": "2026-10-22 17:32",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "192820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-24 12:02",
+            "updated": "2026-10-26 11:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
@@ -43,25 +43,25 @@
                 "PER_fwd": 9.68
             },
             "volatility": {
-                "measure_to_base": 0.77,
-                "slope": 0.0000181
+                "measure_to_base": 0.787,
+                "slope": 0.0000159
             },
             "amount": {
-                "measure_to_base": 0.795,
-                "slope": 0.21
+                "measure_to_base": 0.813,
+                "slope": 0.213
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000367,
+                    "alpha": 0.000366,
                     "beta": 0.516
                 },
                 "base_duration": {
-                    "alpha": 0.00228,
-                    "beta": 0.0953
+                    "alpha": 0.00235,
+                    "beta": 0.0965
                 },
                 "measure_duration": {
-                    "alpha": 0.00383,
-                    "beta": 0.301
+                    "alpha": 0.00472,
+                    "beta": 0.314
                 }
             }
         },

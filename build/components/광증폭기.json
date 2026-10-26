@@ -1,7 +1,7 @@
 {
     "key": "광증폭기",
     "filename": "광증폭기",
-    "updated": "2026-10-23 14:42",
+    "updated": "2026-10-26 11:22",
     "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-23 14:42",
+            "updated": "2026-10-26 11:22",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 127.0,
+                "marcap": 125.0,
                 "revenue_4qtrs": 19.9,
                 "opincome_4qtrs": 1.55,
                 "revenue_qtr": 4.53,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.0782
             },
             "PER": {
-                "PER_ltm": 81.7,
-                "PER_qx4": 248.0,
-                "PER_fwd": 54.7
+                "PER_ltm": 80.5,
+                "PER_qx4": 244.0,
+                "PER_fwd": 53.9
             },
             "volatility": {
-                "measure_to_base": 0.976,
-                "slope": -0.000581
+                "measure_to_base": 0.983,
+                "slope": -0.00058
             },
             "amount": {
-                "measure_to_base": 1.28,
-                "slope": -0.126
+                "measure_to_base": 1.02,
+                "slope": -0.13
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00113,
+                    "alpha": 0.00112,
                     "beta": 0.77
                 },
                 "base_duration": {
-                    "alpha": 0.00114,
-                    "beta": 0.547
+                    "alpha": 0.000852,
+                    "beta": 0.545
                 },
                 "measure_duration": {
-                    "alpha": 0.00315,
-                    "beta": 1.36
+                    "alpha": 0.00488,
+                    "beta": 1.39
                 }
             }
         },

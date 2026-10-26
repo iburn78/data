@@ -1,7 +1,7 @@
 {
     "key": "066570(D)",
     "filename": "066570(D)_Business_Solutions",
-    "updated": "2026-10-23 14:52",
+    "updated": "2026-10-26 11:54",
     "llm_research_updated": "2026-10-20 09:42",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "066570",
             "segment_name": "Business Solutions",
             "id": "D",
-            "updated": "2026-10-23 14:52",
+            "updated": "2026-10-26 11:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "w"
         },
         "shape": {
             "financials": {
-                "marcap": 2350.0,
+                "marcap": 2300.0,
                 "revenue_4qtrs": 8570.0,
                 "opincome_4qtrs": -471.0,
                 "revenue_qtr": 2140.0,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.948,
-                "slope": -0.00047
+                "measure_to_base": 0.986,
+                "slope": -0.00049
             },
             "amount": {
-                "measure_to_base": 1.27,
-                "slope": -0.711
+                "measure_to_base": 1.26,
+                "slope": -0.737
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000332,
+                    "alpha": 0.000324,
                     "beta": 0.918
                 },
                 "base_duration": {
-                    "alpha": 0.00476,
+                    "alpha": 0.00457,
                     "beta": 0.798
                 },
                 "measure_duration": {
-                    "alpha": -0.0019,
-                    "beta": 0.807
+                    "alpha": -0.00693,
+                    "beta": 0.732
                 }
             }
         },
