@@ -34,6 +34,13 @@ body {
     max-width: 400px;
 }
 
+#profile-plot {
+    height: min(56vh, 560px);
+    min-height: 380px;
+    margin: 10px 15px 18px;
+    background: #fff;
+}
+
 #file-list a {
     display: block;
     padding: 7px 12px;

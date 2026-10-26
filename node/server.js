@@ -2,6 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const { execFile } = require("child_process");
 const { runPython, getPythonProgress } = require("./python_runner");
 
 const PYTHON = path.join(
@@ -54,11 +55,92 @@ const ROOT = path.join(__dirname, "..");
 
 app.use(express.static(ROOT));
 
+// Serve the Plotly bundle from the build project's existing Python environment.
+app.get("/plotly.min.js", (req, res) => {
+    const libraryRoot = path.join(__dirname, "../../build/venv/lib");
+    let bundlePath = null;
+    try {
+        const pythonDirectory = fs.readdirSync(libraryRoot)
+            .find(name => /^python\d/.test(name));
+        if (pythonDirectory) {
+            const candidate = path.join(
+                libraryRoot,
+                pythonDirectory,
+                "site-packages/plotly/package_data/plotly.min.js"
+            );
+            if (fs.existsSync(candidate)) bundlePath = candidate;
+        }
+    } catch (error) {
+        console.error("Could not locate the Plotly browser bundle:", error);
+    }
+    if (!bundlePath) {
+        return res.status(404).send("Plotly browser bundle is unavailable.");
+    }
+    res.sendFile(bundlePath);
+});
+
 const DIRS = {
     profiles: path.join(ROOT, "build", "profiles"),
     components: path.join(ROOT, "build", "components"),
     valuechains: path.join(ROOT, "build", "valuechains"),
 };
+
+let profilePlotCache = { signature: null, payload: null };
+let profilePlotRequest = null;
+
+function profileJsonSignature() {
+    return fs.readdirSync(DIRS.profiles)
+        .filter(file => file.endsWith(".json"))
+        .sort()
+        .map(file => {
+            const jsonStat = fs.statSync(path.join(DIRS.profiles, file));
+            const htmlPath = path.join(DIRS.profiles, file.replace(/\.json$/, ".html"));
+            let htmlState = "missing";
+            try {
+                const htmlStat = fs.statSync(htmlPath);
+                htmlState = `${htmlStat.size}:${htmlStat.mtimeMs}`;
+            } catch (error) {
+                if (error.code !== "ENOENT") throw error;
+            }
+            return `${file}:${jsonStat.size}:${jsonStat.mtimeMs}:${htmlState}`;
+        })
+        .join("|");
+}
+
+function loadProfilePlotData() {
+    const signature = profileJsonSignature();
+    if (profilePlotCache.signature === signature && profilePlotCache.payload) {
+        return Promise.resolve(profilePlotCache.payload);
+    }
+    if (profilePlotRequest?.signature === signature) {
+        return profilePlotRequest.promise;
+    }
+
+    const script = path.join(__dirname, "../../build/analysis/mp_plot.py");
+    const promise = new Promise((resolve, reject) => {
+        execFile(PYTHON, [script, "--json"], {
+            encoding: "utf8",
+            maxBuffer: 4 * 1024 * 1024,
+        }, (error, stdout, stderr) => {
+            if (error) {
+                reject(new Error(stderr || error.message));
+                return;
+            }
+            try {
+                const payload = JSON.parse(stdout);
+                profilePlotCache = { signature, payload };
+                resolve(payload);
+            } catch (parseError) {
+                reject(parseError);
+            }
+        });
+    });
+    profilePlotRequest = { signature, promise };
+    promise.finally(() => {
+        if (profilePlotRequest?.promise === promise) profilePlotRequest = null;
+    }).catch(() => {});
+    return promise;
+}
 
 function uniqueRelationTargets(items) {
     return [...new Map(items.map(item => [item.file, item])).values()];
@@ -340,6 +422,39 @@ app.get("/api/tag-index", (req, res) => {
     }
 
     res.json(entries);
+});
+
+app.get("/api/profile-plot", async (req, res) => {
+    try {
+        res.json(await loadProfilePlotData());
+    } catch (error) {
+        console.error("Could not prepare profile plot data:", error);
+        res.status(500).json({ error: "Could not prepare profile plot data." });
+    }
+});
+
+app.get("/api/mp-plot", (req, res) => {
+    const { type, key } = req.query;
+    if (!['Component', 'ValueChain'].includes(type) || typeof key !== "string" || !key) {
+        return res.status(400).json({ error: "A Component or ValueChain type and key are required." });
+    }
+
+    const script = path.join(__dirname, "../../build/analysis/mp_plot.py");
+    execFile(PYTHON, [script, "--figure", type, key], {
+        encoding: "utf8",
+        maxBuffer: 8 * 1024 * 1024,
+    }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not create MP plot:", stderr || error);
+            return res.status(500).json({ error: "Could not create MP plot." });
+        }
+        try {
+            res.json({ figure: JSON.parse(stdout) });
+        } catch (parseError) {
+            console.error("Could not read MP plot output:", parseError);
+            res.status(500).json({ error: "Could not read MP plot output." });
+        }
+    });
 });
 
 app.get("/api/:section", (req, res) => {

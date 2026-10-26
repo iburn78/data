@@ -26,7 +26,8 @@
     background: #f1f5f9;
 }
 
-.roma-plot-link {
+.roma-plot-link,
+.mp-plot-link {
     margin-left: 6px;
     padding: 5px 10px;
     border: 1px solid #cbd5e1;
@@ -36,7 +37,8 @@
     cursor: pointer;
 }
 
-.roma-plot-link:hover { background: #f1f5f9; }
+.roma-plot-link:hover,
+.mp-plot-link:hover { background: #f1f5f9; }
 
 .llm-research-link.llm-research-missing {
     color: #e88b8b;

@@ -1,6 +1,151 @@
 let currentSection = "";
 let currentItems = [];
 let lastTagSearchQuery = "";
+let profilePlotLoadId = 0;
+let plotlyLoadPromise = null;
+
+function hideProfilePlot() {
+    profilePlotLoadId += 1;
+    document.getElementById("profile-plot").hidden = true;
+}
+
+function loadPlotly() {
+    if (window.Plotly) return Promise.resolve(window.Plotly);
+    if (plotlyLoadPromise) return plotlyLoadPromise;
+
+    plotlyLoadPromise = new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = "/plotly.min.js";
+        script.onload = () => resolve(window.Plotly);
+        script.onerror = () => {
+            plotlyLoadPromise = null;
+            reject(new Error("Could not load Plotly."));
+        };
+        document.head.appendChild(script);
+    });
+    return plotlyLoadPromise;
+}
+
+async function showProfilePlot() {
+    const plot = document.getElementById("profile-plot");
+    const loadId = ++profilePlotLoadId;
+    plot.hidden = false;
+    if (!plot.dataset.ready) plot.textContent = "Loading profile plot…";
+
+    try {
+        const [response] = await Promise.all([
+            fetch("/api/profile-plot"),
+            loadPlotly(),
+        ]);
+        if (!response.ok) throw new Error("Could not load profile plot data.");
+        const { points, category_colors: colors, per_bound: perBound } = await response.json();
+        if (loadId !== profilePlotLoadId || plot.hidden) return;
+
+        const pointsByCoordinates = new Map();
+        for (const point of points) {
+            const key = `${point.opmargin_4qtrs}\u0000${point.PER_ltm}`;
+            if (!pointsByCoordinates.has(key)) pointsByCoordinates.set(key, []);
+            pointsByCoordinates.get(key).push(point);
+        }
+        const labelOffsets = new Map();
+        for (const samePosition of pointsByCoordinates.values()) {
+            samePosition.sort((a, b) => a.label.localeCompare(b.label));
+            samePosition.forEach((point, index) => {
+                if (samePosition.length === 1) {
+                    labelOffsets.set(point, { xshift: 0, yshift: 14, xanchor: "center" });
+                    return;
+                }
+                const column = index % 2;
+                const row = Math.floor(index / 2);
+                let verticalDirection = point.PER_ltm >= perBound * 0.85 ? -1 : 1;
+                if (point.PER_ltm <= perBound * 0.1) verticalDirection = 1;
+                labelOffsets.set(point, {
+                    xshift: (column === 0 ? -1 : 1) * (12 + row * 2),
+                    yshift: verticalDirection * (14 + row * 20),
+                    xanchor: column === 0 ? "right" : "left",
+                });
+            });
+        }
+        const annotations = points.map(point => ({
+            x: point.opmargin_4qtrs,
+            y: point.PER_ltm,
+            xref: "x",
+            yref: "y",
+            text: point.label,
+            name: `${point.category}::${point.page_url}`,
+            showarrow: false,
+            captureevents: true,
+            ...labelOffsets.get(point),
+            font: { color: colors[point.category], weight: 400 },
+        }));
+
+        const traces = ["A", "B", "C", "D"].map(category => {
+            const categoryPoints = points.filter(point => point.category === category);
+            return {
+                type: "scatter",
+                mode: "markers",
+                name: category,
+                x: categoryPoints.map(point => point.opmargin_4qtrs),
+                y: categoryPoints.map(point => point.PER_ltm),
+                text: categoryPoints.map(point => point.label),
+                customdata: categoryPoints.map(point => [point.page_url, point.code]),
+                marker: { color: colors[category], size: 10, opacity: 0.85 },
+                hovertemplate: "%{text}<br>Code: %{customdata[1]}<br>"
+                    + "Operating margin: %{x:.1%}<br>PER (LTM): %{y:.2f}"
+                    + "<extra>" + category + "</extra>",
+            };
+        });
+
+        if (!plot.dataset.ready) plot.replaceChildren();
+        await window.Plotly.react(plot, traces, {
+            title: "Profile and segment operating margin vs. LTM PER",
+            template: "plotly_white",
+            margin: { t: 55, r: 25, b: 90, l: 95 },
+            annotations,
+            xaxis: {
+                title: { text: "X: Operating margin (4 quarters)", standoff: 14 },
+                tickformat: ".0%",
+                automargin: true,
+            },
+            yaxis: {
+                title: { text: "Y: PER (LTM)", standoff: 14 },
+                range: [0, perBound],
+                automargin: true,
+            },
+            legend: { title: { text: "Category" }, itemclick: "toggle",
+                itemdoubleclick: false },
+            clickmode: "event",
+        }, { responsive: true });
+        if (loadId !== profilePlotLoadId || plot.hidden) return;
+        plot.dataset.ready = "true";
+
+        plot.removeAllListeners?.("plotly_clickannotation");
+        plot.removeAllListeners?.("plotly_legendclick");
+        plot.on("plotly_clickannotation", event => {
+            const name = event.annotation?.name || "";
+            const url = name.slice(name.indexOf("::") + 2);
+            if (url) window.open(new URL(url, location.origin), "_blank", "noopener");
+        });
+        const categoryVisibility = new Map(traces.map(trace => [trace.name, true]));
+        plot.on("plotly_legendclick", event => {
+            const category = traces[event.curveNumber]?.name;
+            if (!category) return;
+            const visible = !categoryVisibility.get(category);
+            categoryVisibility.set(category, visible);
+            setTimeout(() => {
+                const nextAnnotations = annotations.map(annotation =>
+                    annotation.name.startsWith(`${category}::`)
+                        ? { ...annotation, visible }
+                        : annotation
+                );
+                window.Plotly.relayout(plot, { annotations: nextAnnotations });
+            }, 0);
+        });
+    } catch (error) {
+        if (loadId !== profilePlotLoadId) return;
+        plot.textContent = error.message || "Could not load profile plot.";
+    }
+}
 
 // Use Unicode NFC followed by JavaScript's locale-independent UTF-16 order,
 // with the original spelling as a deterministic tie-breaker.
@@ -140,6 +285,11 @@ async function getItems(section) {
 
 async function showFiles(section) {
     currentSection = section;
+    if (section === "profiles" && !document.getElementById("search").value.trim()) {
+        showProfilePlot();
+    } else {
+        hideProfilePlot();
+    }
     currentItems = await getItems(section);
 
     renderSection();
@@ -208,6 +358,7 @@ document.getElementById("search").addEventListener("focus", hidePreview);
 
 let searchRequest = 0;
 async function showMainSearch(queryOverride = null) {
+    hideProfilePlot();
     const request = ++searchRequest;
     const search = (queryOverride ?? document.getElementById("search").value)
         .trim().toLowerCase().normalize("NFC");
@@ -348,6 +499,11 @@ document.addEventListener("click", event => {
 // Search box
 document.getElementById("search").addEventListener("input", () => {
     const query = document.getElementById("search").value.trim();
+    if (location.hash === "#profiles" && !query) {
+        showProfilePlot();
+    } else {
+        hideProfilePlot();
+    }
     if (query.startsWith("#")) {
         lastTagSearchQuery = "";
         document.getElementById("file-list").replaceChildren();

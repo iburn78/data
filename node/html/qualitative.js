@@ -585,7 +585,7 @@ function openLlmResearchWindow(dialog) {
     );
 }
 
-function openRomaPlotWindow(button) {
+function openPlotWindow(button, plotType) {
     const template = document.getElementById(button.getAttribute("aria-controls"));
     if (!template) return;
     const popupWidth = Math.round(window.screen.availWidth * 0.8);
@@ -596,12 +596,12 @@ function openRomaPlotWindow(button) {
         + Math.round(window.screen.availHeight * 0.1);
     const plotWindow = window.open(
         "",
-        `roma-plot-${template.id}`,
+        `${plotType}-plot-${template.id}`,
         `popup=yes,width=${popupWidth},height=${popupHeight},left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`
     );
     if (!plotWindow) return;
 
-    const title = template.dataset.title || "ROMA plot";
+    const title = template.dataset.title || `${plotType.toUpperCase()} plot`;
     const stylesheets = [...document.querySelectorAll('link[rel="stylesheet"]')]
         .map(link => `<link rel="stylesheet" href="${link.href}">`)
         .join("");
@@ -609,15 +609,113 @@ function openRomaPlotWindow(button) {
     plotWindow.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>${title.replace(/[<>&"']/g, "")}</title>${stylesheets}
-        <style>html,body{width:100%;height:100%;margin:0}body{overflow:hidden}.roma-plot-popup{width:100%;height:100%}.roma-plot-popup .plotly-graph-div{width:100%!important;height:100%!important}</style>
-        </head><body><main class="roma-plot-popup">${template.innerHTML}</main></body></html>`);
+        <style>html,body{width:100%;height:100%;margin:0}body{overflow:hidden}.${plotType}-plot-popup{width:100%;height:100%}.${plotType}-plot-popup .plotly-graph-div{width:100%!important;height:100%!important}</style>
+        </head><body><main class="${plotType}-plot-popup">${template.innerHTML}</main></body></html>`);
     plotWindow.document.close();
+}
+
+function openRomaPlotWindow(button) {
+    openPlotWindow(button, "roma");
+}
+
+function openMpPlotWindow(button) {
+    const objectType = button.dataset.objectType;
+    const objectKey = button.dataset.objectId;
+    const popupWidth = Math.round(window.screen.availWidth * 0.8);
+    const popupHeight = Math.round(window.screen.availHeight * 0.7);
+    const popupLeft = window.screen.availLeft
+        + Math.max(0, (window.screen.availWidth - popupWidth) / 2);
+    const popupTop = window.screen.availTop
+        + Math.round(window.screen.availHeight * 0.1);
+    const plotWindow = window.open(
+        "",
+        `mp-plot-${objectType}-${objectKey}`,
+        `popup=yes,width=${popupWidth},height=${popupHeight},left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`
+    );
+    if (!plotWindow) return;
+
+    plotWindow.document.open();
+    plotWindow.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>html,body{width:100%;height:100%;margin:0}body{overflow:hidden}
+        #mp-plot{width:100%;height:100%}</style>
+        </head><body><div id="mp-plot-status" style="padding:12px">Loading MP plot…</div>
+        <div id="mp-plot"></div></body></html>`);
+    plotWindow.document.close();
+    plotWindow.document.title = `MP plot — ${objectKey}`;
+
+    const plotlyScript = plotWindow.document.createElement("script");
+    plotlyScript.src = new URL("/plotly.min.js", location.origin).href;
+    plotlyScript.onload = async () => {
+        const status = plotWindow.document.getElementById("mp-plot-status");
+        try {
+            const endpoint = new URL("/api/mp-plot", location.origin);
+            endpoint.searchParams.set("type", objectType);
+            endpoint.searchParams.set("key", objectKey);
+            const response = await fetch(endpoint);
+            const result = await response.json();
+            if (!response.ok) throw new Error(result.error || "Could not load MP plot.");
+
+            const graph = plotWindow.document.getElementById("mp-plot");
+            await plotWindow.Plotly.react(
+                graph,
+                result.figure.data,
+                result.figure.layout,
+                { responsive: true }
+            );
+            status.remove();
+            graph.on("plotly_clickannotation", event => {
+                const name = event.annotation?.name || "";
+                const pageUrl = name.slice(name.indexOf("::") + 2);
+                if (pageUrl) plotWindow.open(new URL(pageUrl, location.origin), "_blank", "noopener");
+            });
+            const categoryVisibility = new Map(
+                result.figure.data.map(trace => [trace.legendgroup || trace.name, true])
+            );
+            graph.on("plotly_legendclick", event => {
+                const category = graph.data[event.curveNumber]?.legendgroup;
+                if (!category) return;
+                const visible = !categoryVisibility.get(category);
+                categoryVisibility.set(category, visible);
+                setTimeout(() => {
+                    const annotations = (graph.layout.annotations || []).map(annotation =>
+                        annotation.name?.startsWith(`${category}::`)
+                            ? { ...annotation, visible }
+                            : annotation
+                    );
+                    plotWindow.Plotly.relayout(graph, { annotations });
+                }, 0);
+            });
+        } catch (error) {
+            status.textContent = error.message || "Could not load MP plot.";
+        }
+    };
+    plotlyScript.onerror = () => {
+        plotWindow.document.getElementById("mp-plot-status").textContent = "Could not load Plotly.";
+    };
+    plotWindow.document.head.appendChild(plotlyScript);
 }
 
 /*
  * Initial event handlers
  */
 document.addEventListener("DOMContentLoaded", () => {
+
+    const plotTarget = [...document.querySelectorAll(".llm-research-trigger-row")]
+        .find(row => ["Component", "ValueChain"].includes(row.dataset.objectType));
+    if (plotTarget && !plotTarget.querySelector(".mp-plot-link")) {
+        const mpButton = document.createElement("button");
+        mpButton.className = "mp-plot-link";
+        mpButton.type = "button";
+        mpButton.textContent = "MP plot (m)";
+        mpButton.title = "Margin vs PER plot (m)";
+        mpButton.setAttribute("aria-haspopup", "dialog");
+        mpButton.dataset.objectType = plotTarget.dataset.objectType;
+        mpButton.dataset.objectId = plotTarget.dataset.objectId;
+        const romaButton = plotTarget.querySelector(".roma-plot-link");
+        if (romaButton) romaButton.after(mpButton);
+        else plotTarget.appendChild(mpButton);
+    }
 
     // Keep the research entry point available on older generated Profile pages.
     const profileButton = [...document.querySelectorAll(".model-instance-update-button")]
@@ -755,6 +853,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".roma-plot-link").forEach(button => {
         button.addEventListener("click", () => openRomaPlotWindow(button));
     });
+    document.querySelectorAll(".mp-plot-link").forEach(button => {
+        button.addEventListener("click", () => openMpPlotWindow(button));
+    });
 
     document.addEventListener("keydown", event => {
         const target = event.target;
@@ -762,12 +863,17 @@ document.addEventListener("DOMContentLoaded", () => {
             target.matches("input, textarea, select, [contenteditable='true']")
             || target.closest("[contenteditable='true']")
         );
-        if (event.key.toLowerCase() !== "r" || event.altKey || event.ctrlKey
-            || event.metaKey || event.shiftKey || typing) return;
-        const button = document.querySelector(".roma-plot-link");
+        if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || typing) return;
+        const key = event.key.toLowerCase();
+        const button = key === "r"
+            ? document.querySelector(".roma-plot-link")
+            : key === "m"
+                ? document.querySelector(".mp-plot-link")
+                : null;
         if (button) {
             event.preventDefault();
-            openRomaPlotWindow(button);
+            if (key === "r") openRomaPlotWindow(button);
+            else openMpPlotWindow(button);
         }
     });
 
