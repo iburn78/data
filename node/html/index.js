@@ -37,7 +37,10 @@ async function showProfilePlot() {
             fetch("/api/profile-plot"),
             loadPlotly(),
         ]);
-        if (!response.ok) throw new Error("Could not load profile plot data.");
+        if (!response.ok) {
+            const result = await response.json().catch(() => ({}));
+            throw new Error(result.error || `Could not load profile plot data (HTTP ${response.status}).`);
+        }
         const { points, category_colors: colors, per_bound: perBound } = await response.json();
         if (loadId !== profilePlotLoadId || plot.hidden) return;
 

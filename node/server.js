@@ -55,28 +55,28 @@ const ROOT = path.join(__dirname, "..");
 
 app.use(express.static(ROOT));
 
-// Serve the Plotly bundle from the build project's existing Python environment.
+// Serve Plotly's browser bundle from the same Python environment used by the API.
 app.get("/plotly.min.js", (req, res) => {
-    const libraryRoot = path.join(__dirname, "../../build/venv/lib");
-    let bundlePath = null;
-    try {
-        const pythonDirectory = fs.readdirSync(libraryRoot)
-            .find(name => /^python\d/.test(name));
-        if (pythonDirectory) {
-            const candidate = path.join(
-                libraryRoot,
-                pythonDirectory,
-                "site-packages/plotly/package_data/plotly.min.js"
+    execFile(PYTHON, [
+        "-c",
+        "import plotly, pathlib; print(pathlib.Path(plotly.__file__).parent / 'package_data' / 'plotly.min.js')",
+    ], { encoding: "utf8" }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not locate the Plotly browser bundle:", stderr || error.message);
+            return res.status(500).type("text/plain").send(
+                `Could not locate Plotly using ${PYTHON}: ${stderr.trim() || error.message}`
             );
-            if (fs.existsSync(candidate)) bundlePath = candidate;
         }
-    } catch (error) {
-        console.error("Could not locate the Plotly browser bundle:", error);
-    }
-    if (!bundlePath) {
-        return res.status(404).send("Plotly browser bundle is unavailable.");
-    }
-    res.sendFile(bundlePath);
+
+        const bundlePath = stdout.trim();
+        if (!bundlePath || !fs.existsSync(bundlePath)) {
+            console.error("Plotly browser bundle is missing:", bundlePath || "Python returned an empty path");
+            return res.status(404).type("text/plain").send(
+                `Plotly is installed at ${bundlePath || "an unknown path"}, but its browser bundle plotly.min.js was not found.`
+            );
+        }
+        res.sendFile(bundlePath);
+    });
 });
 
 const DIRS = {
@@ -121,6 +121,7 @@ function loadProfilePlotData() {
         execFile(PYTHON, [script, "--json"], {
             encoding: "utf8",
             maxBuffer: 4 * 1024 * 1024,
+            env: { ...process.env, PYTHONIOENCODING: "utf-8", PYTHONUTF8: "1" },
         }, (error, stdout, stderr) => {
             if (error) {
                 reject(new Error(stderr || error.message));
