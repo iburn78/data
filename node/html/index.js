@@ -374,6 +374,41 @@ async function showMainSearch(queryOverride = null) {
     }
 
     const isTagQuery = search.startsWith("#");
+    if (search === "#tags") {
+        const response = await fetch("/api/tag-index");
+        if (!response.ok) throw new Error("Failed to load tags");
+        const tagIndex = await response.json();
+        if (request !== searchRequest) return -1;
+
+        const allTags = new Map();
+        for (const entry of tagIndex) {
+            for (const tag of (entry.tags ?? "").match(/#[\p{L}\p{N}_]+/gu) ?? []) {
+                const normalized = tag.slice(1).toLowerCase().normalize("NFC");
+                if (normalized) allTags.set(normalized, tag);
+            }
+        }
+        const message = document.createElement("div");
+        message.className = "search-message";
+        message.textContent = `All tags (${allTags.size}):`;
+        list.appendChild(message);
+        const tagList = document.createElement("div");
+        tagList.className = "tag-list";
+        for (const tag of [...allTags.values()].sort((a, b) => a.localeCompare(b, "ko"))) {
+            const link = document.createElement("a");
+            link.href = `/?q=${encodeURIComponent(tag)}`;
+            link.textContent = tag;
+            link.addEventListener("click", event => {
+                event.preventDefault();
+                const searchBox = document.getElementById("search");
+                searchBox.value = tag;
+                showMainSearch(tag);
+            });
+            tagList.appendChild(link);
+        }
+        list.appendChild(tagList);
+        lastTagSearchQuery = search;
+        return allTags.size;
+    }
     const tagQuery = search.slice(1).match(/^[\p{L}\p{N}_]+/u)?.[0] ?? "";
     if (isTagQuery) {
         if (!tagQuery) return 0;
@@ -409,6 +444,10 @@ async function showMainSearch(queryOverride = null) {
             lastTagSearchQuery = search;
             const message = document.createElement("div");
             message.className = "search-message";
+            const hint = document.createElement("span");
+            hint.className = "tag-search-hint";
+            hint.textContent = "to list all tags, enter #tags";
+            list.appendChild(hint);
             message.textContent = sectionMatches.length > 0
                 ? `tag search result of #${tagQuery}:`
                 : `tag search result of #${tagQuery}: none found`;

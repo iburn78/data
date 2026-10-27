@@ -1,0 +1,156 @@
+{
+    "key": "소부장",
+    "filename": "소부장",
+    "updated": "2026-10-27 09:51",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "소부장",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:51",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 60500.0,
+                "revenue_4qtrs": 9940.0,
+                "opincome_4qtrs": 1330.0,
+                "revenue_qtr": 2830.0,
+                "opincome_qtr": 498.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 37.0,
+                "growth_per_qtr": 0.111
+            },
+            "opmargin": {
+                "25_4Q": 0.0517,
+                "26_1Q": 0.105,
+                "26_2Q": 0.176,
+                "26_3Q": 0.176,
+                "4qtrs": 0.134
+            },
+            "PER": {
+                "PER_ltm": 45.4,
+                "PER_qx4": 30.4,
+                "PER_fwd": 25.6
+            },
+            "volatility": {
+                "measure_to_base": 0.784,
+                "slope": -0.0000648
+            },
+            "amount": {
+                "measure_to_base": 1.41,
+                "slope": -12.9
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000808,
+                    "beta": 1.21
+                },
+                "base_duration": {
+                    "alpha": -0.000634,
+                    "beta": 1.09
+                },
+                "measure_duration": {
+                    "alpha": 0.00631,
+                    "beta": 1.42
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "042700",
+            "name": "한미반도체"
+        },
+        {
+            "key": "036930",
+            "name": "주성엔지니어링"
+        },
+        {
+            "key": "007660",
+            "name": "이수페타시스"
+        },
+        {
+            "key": "240810",
+            "name": "원익IPS"
+        },
+        {
+            "key": "403870",
+            "name": "HPSP"
+        },
+        {
+            "key": "058470",
+            "name": "리노공업"
+        },
+        {
+            "key": "353200",
+            "name": "대덕전자"
+        },
+        {
+            "key": "222800",
+            "name": "심텍"
+        },
+        {
+            "key": "319660",
+            "name": "피에스케이"
+        },
+        {
+            "key": "011790",
+            "name": "SKC"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-27 09:50",
+        "key_facts": [
+            "용인특례시는 2028년 12월 준공을 목표로 1374억 원 규모의 '용인 통삼2 일반산업단지' 조성계획을 승인하여 반도체 소부장 기업 집적화를 추진함.",
+            "현대차 넥쏘의 국내 누적 판매량이 5만 대를 돌파하며 관련 소재·부품·장비 생태계 성장과 고용 창출(수소사업체 종사자 약 3만 7천 명)로 이어짐.",
+            "충북도와 청주시는 해외 바이오의약품 산업 종사자를 대상으로 국산 소부장 제품을 홍보하는 '글로벌 K-바이오 소부장 컨벤션'을 개최함.",
+            "반도체 제조사의 설비투자 확대로 일부 소부장 업체에서 선납금 지급이나 우선 공급을 조건으로 가격을 인상하는 사례가 발생함."
+        ],
+        "new_trends": [
+            "AI 데이터센터 중심의 서버 수요 급증으로 인해 반도체 소부장 산업이 과거보다 더 긴 '멀티이어 슈퍼사이클'에 진입할 가능성이 제기됨.",
+            "HBM 및 AI 반도체 수요 집중으로 인해 반도체 후공정 장비 분야가 직접적인 수혜 분야로 주목받음.",
+            "반도체 소부장 투자 전략이 설비투자 초기 '장비주' 중심에서 공장 가동률 상승 시 '소재·부품주'로 이동하는 흐름이 나타남.",
+            "바이오 소부장 분야에서 해외 의존도(95%)를 낮추기 위한 트랙레코드 지원사업이 추진 중임."
+        ],
+        "news_summary": "반도체, 바이오, 수소차 등 주요 산업 분야에서 소부장(소재·부품·장비) 생태계 확장이 가속화되고 있습니다. 반도체 분야에서는 삼성전자와 SK하이닉스의 설비투자 확대와 AI 수요 급증으로 후공정 장비 및 전반적인 소부장 기업의 실적 개선 기대감이 높으며, 이를 뒷받침하기 위한 용인 통삼2 일반산업단지 조성 등 인프라 구축이 진행 중입니다. 바이오 분야에서는 국산 제품의 글로벌 인지도 제고와 수출 판로 모색을 위한 노력이 이어지고 있으며, 수소차 분야는 누적 판매량 증가에 힘입어 부품 국산화율 90% 이상을 달성하며 고용 창출과 산업 전반의 파급효과를 내고 있습니다."
+    }
+}

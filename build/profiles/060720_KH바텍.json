@@ -1,7 +1,7 @@
 {
     "key": "060720",
     "filename": "060720_KH바텍",
-    "updated": "2026-10-26 16:19",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "060720",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:19",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 264.0,
+                "marcap": 255.0,
                 "revenue_4qtrs": 321.0,
                 "opincome_4qtrs": 14.0,
                 "revenue_qtr": 104.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0435
             },
             "PER": {
-                "PER_ltm": 18.8,
-                "PER_qx4": 13.2,
-                "PER_fwd": 14.0
+                "PER_ltm": 18.2,
+                "PER_qx4": 12.8,
+                "PER_fwd": 13.6
             },
             "volatility": {
-                "measure_to_base": 0.647,
-                "slope": -0.0000118
+                "measure_to_base": 0.67,
+                "slope": -0.0000135
             },
             "amount": {
-                "measure_to_base": 1.04,
-                "slope": -0.0322
+                "measure_to_base": 0.952,
+                "slope": -0.0313
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000143,
+                    "alpha": -0.00015,
                     "beta": 1.02
                 },
                 "base_duration": {
-                    "alpha": -0.000979,
-                    "beta": 0.61
+                    "alpha": -0.000994,
+                    "beta": 0.612
                 },
                 "measure_duration": {
                     "alpha": 0.0128,
-                    "beta": 0.978
+                    "beta": 1.02
                 }
             }
         },
@@ -69,7 +69,7 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "Dn",
+            "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
             "market_sentiment": "-",

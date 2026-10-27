@@ -1,0 +1,143 @@
+{
+    "key": "067310",
+    "filename": "067310_하나마이크론",
+    "updated": "2026-10-27 09:46",
+    "llm_research_updated": "2026-10-27 09:35",
+    "financials": {
+        "meta": {
+            "name": "하나마이크론",
+            "code": "067310",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:46",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2220.0,
+                "revenue_4qtrs": 2320.0,
+                "opincome_4qtrs": 404.0,
+                "revenue_qtr": 683.0,
+                "opincome_qtr": 142.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 12.0,
+                "growth_per_qtr": 0.119
+            },
+            "opmargin": {
+                "25_4Q": 0.105,
+                "26_1Q": 0.142,
+                "26_2Q": 0.208,
+                "26_3Q": 0.208,
+                "4qtrs": 0.174
+            },
+            "PER": {
+                "PER_ltm": 5.49,
+                "PER_qx4": 3.9,
+                "PER_fwd": 3.22
+            },
+            "volatility": {
+                "measure_to_base": 0.895,
+                "slope": -0.0000534
+            },
+            "amount": {
+                "measure_to_base": 1.24,
+                "slope": -0.597
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000877,
+                    "beta": 1.25
+                },
+                "base_duration": {
+                    "alpha": 0.00143,
+                    "beta": 0.915
+                },
+                "measure_duration": {
+                    "alpha": 0.000625,
+                    "beta": 1.23
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "A"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-27 09:35",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "OSAT (반도체 후공정)",
+            "브랜드 사업 (모듈 제조)",
+            "반도체 소부장 (소재/부품/장비)"
+        ],
+        "revenue_share": [
+            0.8,
+            0.13,
+            0.07
+        ],
+        "opmargin": [
+            0.12,
+            0.19,
+            0.16
+        ],
+        "trend": [
+            "Strongly improving due to AI server demand and Vietnam plant turnaround",
+            "Recovering with DDR5 transition in Brazil",
+            "Stable growth driven by memory recovery and customer diversification"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "반도체 패키징, 테스트 서비스",
+            "반도체 모듈 제조 및 판매",
+            "실리콘 파츠 (식각 공정용 소재/부품)"
+        ],
+        "competitors": [
+            "ASE, Amkor, JCET, SFA반도체, 두산테스나",
+            "글로벌 메모리 모듈 제조사",
+            "TJC, 글로벌 실리콘 파츠사"
+        ]
+    },
+    "code": "067310",
+    "name": "하나마이크론",
+    "overview": {
+        "title": "공정기술 경쟁력 기반 실적 대폭 개선",
+        "desc": "동사는 2001년 반도체 후공정 전문기업으로 설립되어 2005년 코스닥시장에 상장하였으며, 주요 종속회사로 하나머티리얼즈, HT MICRON 등을 보유하고 있음. 반도체 제조부문에서는 패키징, 테스트, 모듈 사업을 영위하고 있으며, 삼성전자, SK하이닉스를 주요 고객으로 두고 있음. 고부가가치 메모리 제품 확장과 비메모리 사업확대를 추진하며, 수익성 제고 및 시장확대를 가속화하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 82.7% 증가, 영업이익은 410.9% 증가, 당기순이익 흑자전환. 반도체 제조부문은 납기·품질 경쟁력과 모바일·서버용 D램 공정기술 우위로 실적이 크게 개선되었으며, 재료부문도 고밀도 플라즈마 환경 도입과 Dry Etching 공정 확산으로 실적 증가세를 보임. AI 수요 확대로 서버 시장이 성장하고 인터넷 가능기기의 고성장이 지속되면서 반도체 시장규모가 확대될 전망임.",
+        "as_of": "2026-08-31",
+        "updated": "2026-10-27 09:34"
+    },
+    "news": {
+        "updated": "2026-10-27 09:35",
+        "key_facts": [
+            "2026년 2분기 매출 6,832억원, 영업이익 1,423억원을 기록하며 분기 기준 역대 최대 실적을 달성함",
+            "충남 천안·아산 '제3기 소부장 특화단지' 지정으로 AI 반도체 후공정 역량 강화에 3,700억원을 투자할 계획임",
+            "실리콘 인터포저와 TSV가 없는 2.xD 패키징 솔루션 'HiC' 기술을 개발했으며, 2026년 5월 ECTC 2025 우수 논문상을 수상함",
+            "브라질 법인의 메모리 가격 상승 수혜 및 베트남 법인의 생산능력(CAPA) 확대를 통해 글로벌 매출 체력을 강화하고 있음",
+            "2025년 1월 반도체 제품 패키징 및 테스트 사업부문을 인적분할하여 2025년 7월 1일자로 분할 신설회사를 설립하기로 결정함"
+        ],
+        "key_issues": [
+            "2.5D 패키징 사업은 현재 개발 및 인증 단계로, 2027년 말 이후 양산 예정이며 실제 실적 기여 여부는 고객 확보 및 검증 결과에 달려 있음",
+            "브라질 법인의 실적 지속성은 메모리 가격 추이 및 웨이퍼 수급 상황이 주요 변수임"
+        ],
+        "news_summary": "하나마이크론은 2026년 2분기 역대 최대 실적을 경신했으며, 브라질과 베트남 법인의 성장 및 국내 본사의 비메모리 사업 확대를 통해 중장기 성장 기반을 마련하고 있습니다. 특히 'HiC'와 같은 첨단 패키징 기술 확보와 소부장 특화단지 지정을 통한 투자 확대로 AI 반도체 후공정 시장에서의 경쟁력을 높이고 있으며, 2025년 인적분할을 통한 사업 구조 개편을 추진 중입니다."
+    }
+}

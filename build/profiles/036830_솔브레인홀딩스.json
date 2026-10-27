@@ -1,7 +1,7 @@
 {
     "key": "036830",
     "filename": "036830_솔브레인홀딩스",
-    "updated": "2026-10-26 16:21",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-22 16:30",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "036830",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:21",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 763.0,
+                "marcap": 733.0,
                 "revenue_4qtrs": 734.0,
                 "opincome_4qtrs": 46.9,
                 "revenue_qtr": 209.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.0639
             },
             "PER": {
-                "PER_ltm": 16.3,
-                "PER_qx4": 5.98,
-                "PER_fwd": 6.39
+                "PER_ltm": 15.6,
+                "PER_qx4": 5.75,
+                "PER_fwd": 6.14
             },
             "volatility": {
-                "measure_to_base": 0.873,
-                "slope": -0.000105
+                "measure_to_base": 0.901,
+                "slope": -0.000101
             },
             "amount": {
-                "measure_to_base": 2.67,
-                "slope": -0.0524
+                "measure_to_base": 2.52,
+                "slope": -0.0484
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000343,
+                    "alpha": 0.000334,
                     "beta": 1.13
                 },
                 "base_duration": {
-                    "alpha": -0.00374,
+                    "alpha": -0.00467,
                     "beta": 0.651
                 },
                 "measure_duration": {
-                    "alpha": 0.0131,
-                    "beta": 1.23
+                    "alpha": 0.00923,
+                    "beta": 1.19
                 }
             }
         },

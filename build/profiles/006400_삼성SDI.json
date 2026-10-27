@@ -1,7 +1,7 @@
 {
     "key": "006400",
     "filename": "006400_삼성SDI",
-    "updated": "2026-10-26 16:20",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "006400",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:20",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 39500.0,
+                "marcap": 38700.0,
                 "revenue_4qtrs": 15000.0,
                 "opincome_4qtrs": -47.2,
                 "revenue_qtr": 3770.0,
@@ -39,29 +39,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 48.5,
-                "PER_fwd": 60.0
+                "PER_qx4": 47.5,
+                "PER_fwd": 58.8
             },
             "volatility": {
-                "measure_to_base": 0.8,
-                "slope": -0.000123
+                "measure_to_base": 0.814,
+                "slope": -0.000124
             },
             "amount": {
-                "measure_to_base": 1.57,
-                "slope": -2.54
+                "measure_to_base": 1.61,
+                "slope": -2.52
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000439,
+                    "alpha": 0.000437,
                     "beta": 1.04
                 },
                 "base_duration": {
-                    "alpha": -0.000505,
-                    "beta": 0.669
+                    "alpha": -0.00117,
+                    "beta": 0.668
                 },
                 "measure_duration": {
-                    "alpha": 0.00601,
-                    "beta": 0.762
+                    "alpha": 0.00756,
+                    "beta": 0.815
                 }
             }
         },

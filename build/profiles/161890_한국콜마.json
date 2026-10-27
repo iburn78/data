@@ -1,7 +1,7 @@
 {
     "key": "161890",
     "filename": "161890_한국콜마",
-    "updated": "2026-10-26 16:22",
+    "updated": "2026-10-27 09:54",
     "llm_research_updated": "2026-10-22 18:15",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "161890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:22",
+            "updated": "2026-10-27 09:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2890.0,
+                "marcap": 2740.0,
                 "revenue_4qtrs": 3110.0,
                 "opincome_4qtrs": 347.0,
                 "revenue_qtr": 861.0,
@@ -38,42 +38,42 @@
                 "4qtrs": 0.112
             },
             "PER": {
-                "PER_ltm": 8.32,
-                "PER_qx4": 6.55,
-                "PER_fwd": 5.79
+                "PER_ltm": 7.87,
+                "PER_qx4": 6.2,
+                "PER_fwd": 5.48
             },
             "volatility": {
-                "measure_to_base": 0.623,
-                "slope": 0.000109
+                "measure_to_base": 0.629,
+                "slope": 0.0000996
             },
             "amount": {
-                "measure_to_base": 0.727,
-                "slope": 0.197
+                "measure_to_base": 0.724,
+                "slope": 0.183
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000139,
-                    "beta": 0.527
+                    "alpha": 0.00012,
+                    "beta": 0.528
                 },
                 "base_duration": {
-                    "alpha": 0.00344,
-                    "beta": 0.182
+                    "alpha": 0.00312,
+                    "beta": 0.186
                 },
                 "measure_duration": {
-                    "alpha": -0.00425,
-                    "beta": 0.376
+                    "alpha": -0.00693,
+                    "beta": 0.371
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": true,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_movement": "Dn",
             "amount_movement": "-",
             "alpha_level": "udr_pfm",
             "market_sentiment": "-",
-            "category": "B"
+            "category": "A"
         }
     },
     "info_section": {

@@ -1,7 +1,7 @@
 {
     "key": "메모리",
     "filename": "메모리",
-    "updated": "2026-10-26 16:12",
+    "updated": "2026-10-27 09:45",
     "llm_research_updated": "2026-10-19 12:21",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:12",
+            "updated": "2026-10-27 09:45",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1790000.0,
+                "marcap": 1770000.0,
                 "revenue_4qtrs": 632000.0,
                 "opincome_4qtrs": 450000.0,
                 "revenue_qtr": 196000.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.711
             },
             "PER": {
-                "PER_ltm": 3.98,
-                "PER_qx4": 3.15,
-                "PER_fwd": 2.66
+                "PER_ltm": 3.94,
+                "PER_qx4": 3.12,
+                "PER_fwd": 2.63
             },
             "volatility": {
-                "measure_to_base": 0.627,
-                "slope": -0.0000405
+                "measure_to_base": 0.645,
+                "slope": -0.0000515
             },
             "amount": {
-                "measure_to_base": 0.946,
-                "slope": -114.0
+                "measure_to_base": 0.958,
+                "slope": -120.0
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000607,
+                    "alpha": 0.000611,
                     "beta": 1.32
                 },
                 "base_duration": {
-                    "alpha": 0.00256,
+                    "alpha": 0.00272,
                     "beta": 1.46
                 },
                 "measure_duration": {
-                    "alpha": 0.00227,
-                    "beta": 1.49
+                    "alpha": 0.00236,
+                    "beta": 1.48
                 }
             }
         },

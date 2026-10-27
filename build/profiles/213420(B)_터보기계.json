@@ -1,7 +1,7 @@
 {
     "key": "213420(B)",
     "filename": "213420(B)_터보기계",
-    "updated": "2026-10-26 16:15",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-22 13:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "213420",
             "segment_name": "터보기계",
             "id": "B",
-            "updated": "2026-10-26 16:15",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 184.0,
+                "marcap": 177.0,
                 "revenue_4qtrs": 113.0,
                 "opincome_4qtrs": 27.6,
                 "revenue_qtr": 27.4,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.245
             },
             "PER": {
-                "PER_ltm": 6.67,
-                "PER_qx4": 6.86,
-                "PER_fwd": 5.94
+                "PER_ltm": 6.41,
+                "PER_qx4": 6.59,
+                "PER_fwd": 5.71
             },
             "volatility": {
-                "measure_to_base": 0.805,
-                "slope": -0.000117
+                "measure_to_base": 0.803,
+                "slope": -0.000118
             },
             "amount": {
-                "measure_to_base": 0.891,
-                "slope": -0.0169
+                "measure_to_base": 0.898,
+                "slope": -0.0168
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000324,
-                    "beta": 0.901
+                    "alpha": 0.000314,
+                    "beta": 0.902
                 },
                 "base_duration": {
-                    "alpha": -0.005,
-                    "beta": 0.577
+                    "alpha": -0.00505,
+                    "beta": 0.579
                 },
                 "measure_duration": {
-                    "alpha": 0.00481,
-                    "beta": 0.888
+                    "alpha": 0.00366,
+                    "beta": 0.901
                 }
             }
         },

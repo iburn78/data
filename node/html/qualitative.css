@@ -281,9 +281,15 @@ input[type="checkbox"] {
     flex: 1;
 }
 
-.edit-value input[type="text"] {
+.edit-value input[type="text"],
+.edit-value textarea {
     width: 100%;
     box-sizing: border-box;
+}
+
+.edit-value textarea.edit-notes {
+    min-height: 9em;
+    resize: both;
 }
 
 .edit-list-item {

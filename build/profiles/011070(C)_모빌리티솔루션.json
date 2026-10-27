@@ -1,7 +1,7 @@
 {
     "key": "011070(C)",
     "filename": "011070(C)_모빌리티솔루션",
-    "updated": "2026-10-26 16:12",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-19 17:47",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "011070",
             "segment_name": "모빌리티솔루션",
             "id": "C",
-            "updated": "2026-10-26 16:12",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 807.0,
+                "marcap": 773.0,
                 "revenue_4qtrs": 2180.0,
                 "opincome_4qtrs": 69.7,
                 "revenue_qtr": 497.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.032
             },
             "PER": {
-                "PER_ltm": 11.6,
-                "PER_qx4": 12.7,
-                "PER_fwd": 12.1
+                "PER_ltm": 11.1,
+                "PER_qx4": 12.1,
+                "PER_fwd": 11.6
             },
             "volatility": {
-                "measure_to_base": 0.891,
-                "slope": -0.000195
+                "measure_to_base": 0.914,
+                "slope": -0.000198
             },
             "amount": {
-                "measure_to_base": 1.44,
-                "slope": -0.393
+                "measure_to_base": 1.4,
+                "slope": -0.405
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000428,
+                    "alpha": 0.000418,
                     "beta": 1.18
                 },
                 "base_duration": {
-                    "alpha": 0.000273,
+                    "alpha": -0.000555,
                     "beta": 1.09
                 },
                 "measure_duration": {
-                    "alpha": -0.00305,
-                    "beta": 1.13
+                    "alpha": -0.00314,
+                    "beta": 1.16
                 }
             }
         },

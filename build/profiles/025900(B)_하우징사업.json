@@ -1,7 +1,7 @@
 {
     "key": "025900(B)",
     "filename": "025900(B)_하우징사업",
-    "updated": "2026-10-26 16:21",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-22 13:22",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "025900",
             "segment_name": "하우징사업",
             "id": "B",
-            "updated": "2026-10-26 16:21",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 51.3,
+                "marcap": 49.3,
                 "revenue_4qtrs": 154.0,
                 "opincome_4qtrs": 7.7,
                 "revenue_qtr": 39.7,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.05
             },
             "PER": {
-                "PER_ltm": 6.66,
-                "PER_qx4": 6.46,
-                "PER_fwd": 6.47
+                "PER_ltm": 6.41,
+                "PER_qx4": 6.21,
+                "PER_fwd": 6.22
             },
             "volatility": {
-                "measure_to_base": 0.631,
-                "slope": 0.0000456
+                "measure_to_base": 0.641,
+                "slope": 0.0000361
             },
             "amount": {
-                "measure_to_base": 0.813,
-                "slope": -0.00167
+                "measure_to_base": 0.816,
+                "slope": -0.00161
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000919,
-                    "beta": 0.902
+                    "alpha": -0.000102,
+                    "beta": 0.903
                 },
                 "base_duration": {
-                    "alpha": -0.0042,
-                    "beta": 0.498
+                    "alpha": -0.00446,
+                    "beta": 0.5
                 },
                 "measure_duration": {
-                    "alpha": 0.00263,
-                    "beta": 0.704
+                    "alpha": 0.00171,
+                    "beta": 0.722
                 }
             }
         },

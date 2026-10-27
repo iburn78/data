@@ -1,7 +1,7 @@
 {
     "key": "005930(D)",
     "filename": "005930(D)_디스플레이",
-    "updated": "2026-10-26 16:12",
+    "updated": "2026-10-27 09:54",
     "llm_research_updated": "2026-10-20 13:57",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "005930",
             "segment_name": "디스플레이",
             "id": "D",
-            "updated": "2026-10-26 16:12",
+            "updated": "2026-10-27 09:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 50400.0,
+                "marcap": 49600.0,
                 "revenue_4qtrs": 22800.0,
                 "opincome_4qtrs": 2050.0,
                 "revenue_qtr": 6860.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.09
             },
             "PER": {
-                "PER_ltm": 24.5,
-                "PER_qx4": 20.4,
-                "PER_fwd": 17.8
+                "PER_ltm": 24.1,
+                "PER_qx4": 20.1,
+                "PER_fwd": 17.5
             },
             "volatility": {
-                "measure_to_base": 0.647,
-                "slope": -0.0000556
+                "measure_to_base": 0.666,
+                "slope": -0.0000658
             },
             "amount": {
-                "measure_to_base": 1.02,
-                "slope": -2.41
+                "measure_to_base": 1.04,
+                "slope": -2.53
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000439,
+                    "alpha": 0.00044,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.00211,
+                    "alpha": 0.00227,
                     "beta": 1.32
                 },
                 "measure_duration": {
-                    "alpha": 0.00424,
-                    "beta": 1.4
+                    "alpha": 0.00309,
+                    "beta": 1.38
                 }
             }
         },

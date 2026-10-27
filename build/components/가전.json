@@ -1,7 +1,7 @@
 {
     "key": "가전",
     "filename": "가전",
-    "updated": "2026-10-26 16:23",
+    "updated": "2026-10-27 09:54",
     "llm_research_updated": "2026-10-20 14:00",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:23",
+            "updated": "2026-10-27 09:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 122000.0,
+                "marcap": 120000.0,
                 "revenue_4qtrs": 101000.0,
                 "opincome_4qtrs": 4970.0,
                 "revenue_qtr": 27600.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.0494
             },
             "PER": {
-                "PER_ltm": 24.5,
-                "PER_qx4": 23.2,
-                "PER_fwd": 22.0
+                "PER_ltm": 24.1,
+                "PER_qx4": 22.9,
+                "PER_fwd": 21.6
             },
             "volatility": {
-                "measure_to_base": 0.653,
-                "slope": -0.000085
+                "measure_to_base": 0.673,
+                "slope": -0.0000951
             },
             "amount": {
-                "measure_to_base": 1.23,
-                "slope": -9.18
+                "measure_to_base": 1.25,
+                "slope": -9.58
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 1.12
                 },
                 "base_duration": {
-                    "alpha": 0.0021,
+                    "alpha": 0.00217,
                     "beta": 1.21
                 },
                 "measure_duration": {
-                    "alpha": 0.00278,
-                    "beta": 1.25
+                    "alpha": 0.00193,
+                    "beta": 1.23
                 }
             }
         },
@@ -77,7 +77,7 @@
             "basics": true,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "Dn",
+            "volatility_movement": "-",
             "amount_movement": "-",
             "alpha_level": "out_pfm",
             "market_sentiment": "-",

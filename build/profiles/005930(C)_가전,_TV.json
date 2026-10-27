@@ -1,7 +1,7 @@
 {
     "key": "005930(C)",
     "filename": "005930(C)_가전,_TV",
-    "updated": "2026-10-26 16:12",
+    "updated": "2026-10-27 09:54",
     "llm_research_updated": "2026-10-20 08:57",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "005930",
             "segment_name": "가전, TV",
             "id": "C",
-            "updated": "2026-10-26 16:12",
+            "updated": "2026-10-27 09:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 101000.0,
+                "marcap": 99200.0,
                 "revenue_4qtrs": 45700.0,
                 "opincome_4qtrs": 913.0,
                 "revenue_qtr": 13700.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.02
             },
             "PER": {
-                "PER_ltm": 110.0,
-                "PER_qx4": 91.8,
-                "PER_fwd": 80.2
+                "PER_ltm": 109.0,
+                "PER_qx4": 90.3,
+                "PER_fwd": 78.9
             },
             "volatility": {
-                "measure_to_base": 0.647,
-                "slope": -0.0000556
+                "measure_to_base": 0.666,
+                "slope": -0.0000658
             },
             "amount": {
-                "measure_to_base": 1.02,
-                "slope": -4.81
+                "measure_to_base": 1.04,
+                "slope": -5.06
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000439,
+                    "alpha": 0.00044,
                     "beta": 1.22
                 },
                 "base_duration": {
-                    "alpha": 0.00211,
+                    "alpha": 0.00227,
                     "beta": 1.32
                 },
                 "measure_duration": {
-                    "alpha": 0.00424,
-                    "beta": 1.4
+                    "alpha": 0.00309,
+                    "beta": 1.38
                 }
             }
         },

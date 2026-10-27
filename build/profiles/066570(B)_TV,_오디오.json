@@ -1,7 +1,7 @@
 {
     "key": "066570(B)",
     "filename": "066570(B)_TV,_오디오",
-    "updated": "2026-10-26 16:23",
+    "updated": "2026-10-27 09:54",
     "llm_research_updated": "2026-10-20 09:41",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "066570",
             "segment_name": "TV, 오디오",
             "id": "B",
-            "updated": "2026-10-26 16:23",
+            "updated": "2026-10-27 09:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 5890.0,
+                "marcap": 5800.0,
                 "revenue_4qtrs": 21900.0,
                 "opincome_4qtrs": 285.0,
                 "revenue_qtr": 5480.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.013
             },
             "PER": {
-                "PER_ltm": 20.7,
-                "PER_qx4": 20.7,
-                "PER_fwd": 20.1
+                "PER_ltm": 20.4,
+                "PER_qx4": 20.4,
+                "PER_fwd": 19.8
             },
             "volatility": {
-                "measure_to_base": 0.986,
-                "slope": -0.00049
+                "measure_to_base": 1.02,
+                "slope": -0.000513
             },
             "amount": {
-                "measure_to_base": 1.26,
-                "slope": -1.88
+                "measure_to_base": 1.15,
+                "slope": -1.95
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000324,
+                    "alpha": 0.000323,
                     "beta": 0.918
                 },
                 "base_duration": {
-                    "alpha": 0.00457,
-                    "beta": 0.798
+                    "alpha": 0.00392,
+                    "beta": 0.797
                 },
                 "measure_duration": {
-                    "alpha": -0.00693,
-                    "beta": 0.732
+                    "alpha": -0.00526,
+                    "beta": 0.764
                 }
             }
         },

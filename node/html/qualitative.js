@@ -210,14 +210,19 @@ function renderEditor(card, values) {
          * Scalar
          */
         else {
-
-            const input = document.createElement("input");
-
-            input.type = "text";
-            input.className = "edit-scalar";
-            input.value = value ?? "";
-
-            valueDiv.appendChild(input);
+            if (key === "notes") {
+                const input = document.createElement("textarea");
+                input.className = "edit-scalar edit-notes";
+                input.rows = 6;
+                input.value = value ?? "";
+                valueDiv.appendChild(input);
+            } else {
+                const input = document.createElement("input");
+                input.type = "text";
+                input.className = "edit-scalar";
+                input.value = value ?? "";
+                valueDiv.appendChild(input);
+            }
         }
 
         row.appendChild(label);

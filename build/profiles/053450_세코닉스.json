@@ -1,7 +1,7 @@
 {
     "key": "053450",
     "filename": "053450_세코닉스",
-    "updated": "2026-10-26 16:16",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-21 09:48",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "053450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:16",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 45.3,
+                "marcap": 44.3,
                 "revenue_4qtrs": 397.0,
                 "opincome_4qtrs": -68.8,
                 "revenue_qtr": 97.6,
@@ -43,25 +43,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.848,
-                "slope": 0.0000744
+                "measure_to_base": 0.886,
+                "slope": 0.0000763
             },
             "amount": {
-                "measure_to_base": 2.5,
-                "slope": -0.00287
+                "measure_to_base": 2.57,
+                "slope": -0.00299
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000723,
+                    "alpha": -0.000727,
                     "beta": 0.875
                 },
                 "base_duration": {
-                    "alpha": -0.00411,
-                    "beta": 0.363
+                    "alpha": -0.00423,
+                    "beta": 0.364
                 },
                 "measure_duration": {
-                    "alpha": 0.00332,
-                    "beta": 0.0314
+                    "alpha": -0.00185,
+                    "beta": -0.0499
                 }
             }
         },
@@ -71,7 +71,7 @@
             "PER_level": "(na)",
             "volatility_movement": "-",
             "amount_movement": "Up",
-            "alpha_level": "out_pfm",
+            "alpha_level": "udr_pfm",
             "market_sentiment": "-",
             "category": "D"
         }

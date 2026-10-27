@@ -1,7 +1,7 @@
 {
     "key": "배터리 셀",
     "filename": "배터리_셀",
-    "updated": "2026-10-26 16:20",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-21 11:06",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:20",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 132000.0,
+                "marcap": 130000.0,
                 "revenue_4qtrs": 56000.0,
                 "opincome_4qtrs": -1470.0,
                 "revenue_qtr": 15100.0,
@@ -51,25 +51,25 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.81,
-                "slope": -0.000109
+                "measure_to_base": 0.82,
+                "slope": -0.000113
             },
             "amount": {
-                "measure_to_base": 1.5,
-                "slope": -3.42
+                "measure_to_base": 1.53,
+                "slope": -3.4
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00121,
+                    "alpha": 0.0012,
                     "beta": 0.77
                 },
                 "base_duration": {
-                    "alpha": -0.00061,
+                    "alpha": -0.000994,
                     "beta": 0.444
                 },
                 "measure_duration": {
-                    "alpha": 0.00783,
-                    "beta": 0.474
+                    "alpha": 0.00803,
+                    "beta": 0.504
                 }
             }
         },

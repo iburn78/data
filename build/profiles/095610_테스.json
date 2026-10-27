@@ -1,0 +1,145 @@
+{
+    "key": "095610",
+    "filename": "095610_테스",
+    "updated": "2026-10-27 09:52",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "테스",
+            "code": "095610",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:52",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2000.0,
+                "revenue_4qtrs": 462.0,
+                "opincome_4qtrs": 87.0,
+                "revenue_qtr": 124.0,
+                "opincome_qtr": 26.0
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 1.91,
+                "growth_per_qtr": 0.0879
+            },
+            "opmargin": {
+                "25_4Q": 0.109,
+                "26_1Q": 0.228,
+                "26_2Q": 0.21,
+                "26_3Q": 0.21,
+                "4qtrs": 0.189
+            },
+            "PER": {
+                "PER_ltm": 23.0,
+                "PER_qx4": 19.2,
+                "PER_fwd": 16.3
+            },
+            "volatility": {
+                "measure_to_base": 0.79,
+                "slope": -0.0000878
+            },
+            "amount": {
+                "measure_to_base": 0.802,
+                "slope": -0.282
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000937,
+                    "beta": 1.22
+                },
+                "base_duration": {
+                    "alpha": 0.00534,
+                    "beta": 0.991
+                },
+                "measure_duration": {
+                    "alpha": -0.00236,
+                    "beta": 1.46
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "-",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-27 09:48",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "반도체 전공정 장비",
+            "디스플레이 장비",
+            "LED 장비"
+        ],
+        "revenue_share": [
+            0.96,
+            0.02,
+            0.02
+        ],
+        "opmargin": [
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "improving",
+            "stable",
+            "stable"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "PECVD, Gas Phase Etch & Cleaning",
+            "Thin-film Encapsulation (TFE)",
+            "MOCVD for UVC LED"
+        ],
+        "competitors": [
+            "Applied Materials, Lam Research, TEL",
+            "Hanmi Semiconductor, Wonik IPS",
+            "Various LED equipment makers"
+        ]
+    },
+    "code": "095610",
+    "name": "테스",
+    "overview": {
+        "title": "AI·빅데이터 수요로 실적 개선",
+        "desc": "동사는 2002년 설립되어 2008년 코스닥에 상장된 반도체 장비 전문 기업으로, 현재 3개의 비상장 종속회사를 보유하고 있음. 전공정 장비 제조를 주력으로 하고 있으며, PECVD와 Gas Phase Etch & Cleaning 장비가 핵심임. 디스플레이용 박막봉지장비와 UVC LED용 MOCVD 장비 사업도 진행 중이며, 반도체 장비 관련 매출 비중이 95% 이상임.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 32.6% 증가, 영업이익은 31.6% 증가, 당기순이익은 68.6% 증가. AI, 빅데이터, 자율주행, 전기차, IoT 등 산업 발달로 반도체 수요 증가와 장비 산업도 함께 성장 중임. 소자업체들의 설비 투자 확대로 동사의 PECVD 및 Gas Phase Etch & Cleaning 장비 실적이 크게 개선됨.",
+        "as_of": "2026-08-31",
+        "updated": "2026-10-27 09:48"
+    },
+    "news": {
+        "updated": "2026-10-27 09:49",
+        "key_facts": [
+            "2026년 상반기 매출 1,578억 원(전년 동기 대비 16.7% 증가) 및 영업이익 153억 원으로 흑자전환함.",
+            "웨이퍼 테스트 분야 국내 점유율 1위 기업으로, 2022년 두산그룹에 인수됨.",
+            "2026년 4월 1,909억 원 규모의 장비 양수를 결정했으며, 평택 2공장을 2027년 11월 준공 목표로 투자 중임.",
+            "삼성전자 파운드리 4나노 '그록3 LPU' 테스트가 2026년 11월 양산 예정이며, 북미향 CIS 테스트는 2027년 2분기 본격화 전망임.",
+            "증권가(메리츠, iM증권 등)는 2027년 매출 약 4,900억 원, 영업이익 1,000억 원 이상의 사상 최대 실적을 예상함."
+        ],
+        "key_issues": [
+            "상반기 기준 단일 고객사 매출 비중이 약 95%에 달하는 높은 고객 쏠림 현상.",
+            "장치산업 특성상 설비 가동률 하락 시 감가상각비 부담으로 수익성이 악화되는 구조.",
+            "3분기 계절적 비수기에 따른 일시적 실적 부진 가능성.",
+            "전방 산업인 반도체 시장의 회복 속도 및 주요 고객사의 투자 전략 변경 리스크."
+        ],
+        "news_summary": "두산테스나는 시스템반도체 테스트 국내 1위 기업으로, LPU 및 CIS 등 신규 물량 확보와 공격적인 설비 투자를 통해 2027년 사상 최대 실적 달성을 목표로 하고 있습니다. 2026년 상반기 흑자전환에 성공하며 성장세를 보이고 있으나, 특정 고객사에 대한 높은 의존도와 가동률에 따른 고정비 부담은 주요 해결 과제로 남아있습니다."
+    }
+}

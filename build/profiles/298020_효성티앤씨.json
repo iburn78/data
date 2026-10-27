@@ -1,7 +1,7 @@
 {
     "key": "298020",
     "filename": "298020_효성티앤씨",
-    "updated": "2026-10-26 16:21",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-21 11:15",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "298020",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:21",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1090.0,
+                "marcap": 1060.0,
                 "revenue_4qtrs": 8770.0,
                 "opincome_4qtrs": 509.0,
                 "revenue_qtr": 2420.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.058
             },
             "PER": {
-                "PER_ltm": 2.14,
-                "PER_qx4": 1.44,
-                "PER_fwd": 1.28
+                "PER_ltm": 2.09,
+                "PER_qx4": 1.4,
+                "PER_fwd": 1.25
             },
             "volatility": {
-                "measure_to_base": 0.912,
-                "slope": -0.000141
+                "measure_to_base": 0.926,
+                "slope": -0.000138
             },
             "amount": {
-                "measure_to_base": 1.83,
-                "slope": -0.116
+                "measure_to_base": 1.55,
+                "slope": -0.103
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000577,
+                    "alpha": 0.0000511,
                     "beta": 0.761
                 },
                 "base_duration": {
-                    "alpha": -0.00525,
+                    "alpha": -0.0057,
                     "beta": 0.281
                 },
                 "measure_duration": {
-                    "alpha": -0.00727,
-                    "beta": 0.339
+                    "alpha": -0.00747,
+                    "beta": 0.349
                 }
             }
         },

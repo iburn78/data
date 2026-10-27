@@ -1,0 +1,137 @@
+{
+    "key": "240810",
+    "filename": "240810_원익IPS",
+    "updated": "2026-10-27 09:52",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "원익IPS",
+            "code": "240810",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:52",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 4330.0,
+                "revenue_4qtrs": 873.0,
+                "opincome_4qtrs": 64.7,
+                "revenue_qtr": 216.0,
+                "opincome_qtr": 18.4
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": false,
+                "slope": 2.89,
+                "growth_per_qtr": 0.178
+            },
+            "opmargin": {
+                "25_4Q": 0.0626,
+                "26_1Q": 0.0651,
+                "26_2Q": 0.0849,
+                "26_3Q": 0.0849,
+                "4qtrs": 0.0741
+            },
+            "PER": {
+                "PER_ltm": 67.0,
+                "PER_qx4": 58.9,
+                "PER_fwd": 42.3
+            },
+            "volatility": {
+                "measure_to_base": 0.754,
+                "slope": -0.0002
+            },
+            "amount": {
+                "measure_to_base": 1.06,
+                "slope": -0.679
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000604,
+                    "beta": 1.33
+                },
+                "base_duration": {
+                    "alpha": 0.00174,
+                    "beta": 1.25
+                },
+                "measure_duration": {
+                    "alpha": 0.000208,
+                    "beta": 1.49
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "-",
+            "market_sentiment": "-",
+            "category": "D"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-27 09:42",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "증착 장비",
+            "열처리 및 기타 장비"
+        ],
+        "revenue_share": [
+            0.7,
+            0.3
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "improving (AI/HBM demand)",
+            "stable"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "CVD, METAL 증착 장비",
+            "ALD, 열처리 장비"
+        ],
+        "competitors": [
+            "Applied Materials, Lam Research, TEL",
+            "ASM International, TEL"
+        ]
+    },
+    "code": "240810",
+    "name": "원익IPS",
+    "overview": {
+        "title": "AI·HBM 수요 확대 성장 지속",
+        "desc": "동사는 2016년 원익홀딩스의 반도체, Display, Solar Cell 장비 사업부문을 인적분할하여 설립되었음. 반도체 및 Display 제조용 핵심 장비를 생산·판매하며, 증착 장비와 열처리 장비를 주로 공급하고 있음. CVD, ALD, METAL 증착 장비는 DRAM, NAND, LOGIC 핵심 공정에 적용되며, 저온 PECVD 국산화를 추진하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 4.1% 증가, 영업이익은 0.2% 증가, 당기순이익은 388.2% 증가. 반도체 장비 시장이 하이엔드 중심으로 재편되는 가운데, 동사의 증착 장비가 높은 생산성을 기반으로 주요 고객사 양산라인에 적용되며 매출 확대를 달성함. 생성형 AI 인프라 확충과 지능화로 HBM과 초미세 파운드리 등 맞춤형 칩이 시장 성장을 주도하고 반도체 장비 시장도 중장기적으로 지속 성장할 전망임.",
+        "as_of": "2026-09-06",
+        "updated": "2026-10-27 09:41"
+    },
+    "news": {
+        "updated": "2026-10-27 09:42",
+        "key_facts": [
+            "2분기말 수주잔고가 6,346억 원으로 전년 대비 220% 증가하며 3분기 영업이익이 전년 동기 대비 약 2배(539억~583억 원) 증가할 전망임.",
+            "삼성전자(P4, P5) 및 SK하이닉스(M15X, 용인 Y1, 청주 M17) 등 국내 메모리 고객사의 신규 팹 장비 공급이 2028년까지 확대될 전망임.",
+            "삼성전자는 내년 2분기 P5, SK하이닉스는 내년 1분기 용인 Y1 디램 팹에 장비 반입을 시작할 것으로 예상됨.",
+            "해외 고객사향으로 올해 말 상하이 팹과 내년 허페이 팹의 증설이 진행될 예정임.",
+            "올해 매출액은 약 1조 2,000억 원대, 내년 매출액은 1조 5,620억~1조 6,399억 원, 영업이익은 2,654억~2,923억 원으로 추정됨."
+        ],
+        "key_issues": [
+            "국내 고객사의 테일러 파운드리 팹향 장비 매출 인식이 4분기로 이연되어 3분기 영업이익이 시장 기대치를 하회할 것으로 예상됨.",
+            "3분기 중 보유 주식의 주가 하락에 따른 비현금성 금융자산평가손실로 인해 순이익 감소가 불가피함."
+        ],
+        "news_summary": "원익IPS는 삼성전자와 SK하이닉스의 신규 팹 투자 및 해외 고객사 증설에 힘입어 2028년까지 장기적인 실적 성장이 기대됩니다. 3분기에는 일부 매출 인식 이연과 금융자산평가손실로 인해 단기적인 변동성이 예상되나, 전년 대비 영업이익은 큰 폭으로 증가할 전망이며 내년에는 더욱 가파른 매출 및 이익 성장이 추정됩니다."
+    }
+}

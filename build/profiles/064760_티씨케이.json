@@ -1,0 +1,138 @@
+{
+    "key": "064760",
+    "filename": "064760_티씨케이",
+    "updated": "2026-10-27 09:50",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "티씨케이",
+            "code": "064760",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:50",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2210.0,
+                "revenue_4qtrs": 356.0,
+                "opincome_4qtrs": 101.0,
+                "revenue_qtr": 94.9,
+                "opincome_qtr": 26.8
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.786,
+                "growth_per_qtr": 0.0312
+            },
+            "opmargin": {
+                "25_4Q": 0.261,
+                "26_1Q": 0.299,
+                "26_2Q": 0.283,
+                "26_3Q": 0.283,
+                "4qtrs": 0.283
+            },
+            "PER": {
+                "PER_ltm": 22.0,
+                "PER_qx4": 20.6,
+                "PER_fwd": 19.2
+            },
+            "volatility": {
+                "measure_to_base": 0.78,
+                "slope": -0.0000439
+            },
+            "amount": {
+                "measure_to_base": 1.11,
+                "slope": -0.0612
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000786,
+                    "beta": 1.02
+                },
+                "base_duration": {
+                    "alpha": -0.00157,
+                    "beta": 0.822
+                },
+                "measure_duration": {
+                    "alpha": -0.000434,
+                    "beta": 1.27
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "udr_pfm",
+            "market_sentiment": "-",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-27 09:49",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "반도체 부품 (Solid-SiC)",
+            "태양전지 및 LED 부품"
+        ],
+        "revenue_share": [
+            0.9,
+            0.1
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "improving",
+            "stable"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "Solid-SiC parts",
+            "Solar cell & LED components"
+        ],
+        "competitors": [
+            "Not specified",
+            "Not specified"
+        ]
+    },
+    "code": "064760",
+    "name": "티씨케이",
+    "overview": {
+        "title": "미세화공정확대,SolidSiC수요증가",
+        "desc": "동사는 1996년 일본 TOKAI CARBON CO.,LTD.와 (주)케이씨텍, 슝크카본테크놀로지(유)의 합작계약으로 설립되었으며, 2003년 코스닥시장에 상장하였음. 반도체, 태양전지 및 LED용 부품전문 제조회사로 국내 최초로 가공공정, 고순화공정, CVD SiC-Coating공정의 일괄생산체제를 구축하였음. 반도체 시장의 미세화 공정 진전에 따라 Solid-SiC 제조기술 경쟁력 강화에 주력하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 26.0% 증가, 영업이익은 28.9% 증가, 당기순이익은 37.3% 증가. Solid SiC 부문이 전체 매출의 약 90%를 차지하며, 반도체 미세화 공정 진전에 따라 수요가 증가해 매출과 영업이익이 증가함. 반도체 재료산업은 소모성 중심 구조로 경기변화에 덜 민감하며, Solid-SiC 제조기술 경쟁력이 부각되고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-10-27 09:49"
+    },
+    "news": {
+        "updated": "2026-10-27 09:50",
+        "key_facts": [
+            "2026년 상반기 개별 기준 매출액 1,903억원(전년 동기 대비 26% 증가) 및 영업이익 554억원(동기 대비 29% 증가)을 기록함.",
+            "2026년 2분기 SiC 수주잔고가 1,763억원으로 1분기(819억원) 대비 115% 급증하며 향후 실적 성장 지표를 확보함.",
+            "안성 신규 부지 매입 및 공장 증설을 통해 중장기 연 매출 생산능력 1조원, 영업이익 3,000억원 수준의 체력을 확보할 계획임.",
+            "HBM용 TSV 식각 및 차세대 공정(GAA, CFET) 적용 제품의 채택을 위한 품질 검증을 진행하며 제품 포트폴리오를 확대 중임.",
+            "KB증권은 2026년 3분기 매출 1,063억원, 4분기 매출 1,139억원으로 전망하며 2027년 낸드향 풀가동 흐름이 지속될 것으로 예상함."
+        ],
+        "key_issues": [
+            "반도체 고객사의 설비투자 속도 및 메모리 가격/생산량 변화가 실적의 변수로 작용할 수 있음.",
+            "차세대 반도체 공정(GAA, CFET 등)에서의 SiC 부품 채택 확대 여부가 중장기 가치 평가의 핵심임.",
+            "급증한 수주잔고가 실제 출하 및 매출로 전환되는 속도가 향후 실적 가늠의 변수임."
+        ],
+        "news_summary": "티씨케이는 NAND 고단화로 인한 SiC 포커스링 수요의 구조적 증가와 반도체 업황 회복에 힘입어 2026년 상반기 실적 성장과 수주잔고 급증을 달성했습니다. 신공장 증설을 통한 생산능력 확대와 HBM 및 차세대 공정용 부품 개발을 통해 중장기 성장 기반을 강화하고 있습니다."
+    }
+}

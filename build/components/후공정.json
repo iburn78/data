@@ -1,0 +1,158 @@
+{
+    "key": "후공정",
+    "filename": "후공정",
+    "updated": "2026-10-27 09:46",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "후공정",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:46",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 48600.0,
+                "revenue_4qtrs": 8630.0,
+                "opincome_4qtrs": 1880.0,
+                "revenue_qtr": 2500.0,
+                "opincome_qtr": 632.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 42.8,
+                "growth_per_qtr": 0.0911
+            },
+            "opmargin": {
+                "25_4Q": 0.156,
+                "26_1Q": 0.182,
+                "26_2Q": 0.253,
+                "26_3Q": 0.253,
+                "4qtrs": 0.218
+            },
+            "PER": {
+                "PER_ltm": 25.8,
+                "PER_qx4": 19.2,
+                "PER_fwd": 16.4
+            },
+            "volatility": {
+                "measure_to_base": 0.774,
+                "slope": -0.0000581
+            },
+            "amount": {
+                "measure_to_base": 1.46,
+                "slope": -8.17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000743,
+                    "beta": 1.21
+                },
+                "base_duration": {
+                    "alpha": -0.00143,
+                    "beta": 1.08
+                },
+                "measure_duration": {
+                    "alpha": 0.00649,
+                    "beta": 1.38
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "007660",
+            "name": "이수페타시스"
+        },
+        {
+            "key": "042700",
+            "name": "한미반도체"
+        },
+        {
+            "key": "353200",
+            "name": "대덕전자"
+        },
+        {
+            "key": "039030",
+            "name": "이오테크닉스"
+        },
+        {
+            "key": "058470",
+            "name": "리노공업"
+        },
+        {
+            "key": "067310",
+            "name": "하나마이크론"
+        },
+        {
+            "key": "031980",
+            "name": "피에스케이홀딩스"
+        },
+        {
+            "key": "131290",
+            "name": "티에스이"
+        },
+        {
+            "key": "089030",
+            "name": "테크윙"
+        },
+        {
+            "key": "195870",
+            "name": "해성디에스"
+        },
+        {
+            "key": "081180",
+            "name": "쎄크"
+        }
+    ],
+    "news": {
+        "updated": "2026-10-27 09:33",
+        "key_facts": [
+            "천안·아산 지역이 '반도체 후공정' 소재·부품·장비(소부장) 특화단지로 지정되었으며, 2030년까지 민간 3,700억 원 규모의 투자가 추진될 예정임.",
+            "LB세미콘이 구미시에 전력반도체 후공정 라인(TBDB 등)을 증설하기로 경북도 및 구미시와 투자양해각서를 체결함.",
+            "무안군은 무안국제공항 및 국가산업단지를 연계하여 반도체 후공정과 첨단소재 산업 유치를 추진 중임.",
+            "뉴욕증권거래소의 반도체 장비 및 테스트 업종에서 ASE 테크놀로지, 폼팩터 등 후공정·테스트 관련 일부 종목은 상승했으나, 앰코 테크놀로지는 급락하며 종목별 차별화된 흐름을 보임."
+        ],
+        "new_trends": [
+            "HBM(고대역폭 메모리) 및 AI 반도체 수요 증가로 인해 후공정 장비 분야로의 수요 집중 및 투자 확대 경향이 나타남.",
+            "첨단 패키징 기술 고도화와 고성능 반도체 생산 확대에 따른 후공정 생태계 구축 및 기술 수요 증가."
+        ],
+        "news_summary": "반도체 후공정 산업은 AI 반도체 및 HBM 수요 급증에 따라 첨단 패키징과 테스트 장비 분야를 중심으로 성장이 기대되고 있습니다. 이에 따라 천안·아산의 소부장 특화단지 지정, 구미의 전력반도체 라인 증설, 무안군의 산업 육성 추진 등 국내 지역별 거점 구축이 활발히 진행되고 있습니다. 다만, 글로벌 시장에서는 기업의 실적 전망과 투자 여건에 따라 주가가 엇갈리는 차별화 양상이 나타나고 있습니다."
+    }
+}

@@ -175,6 +175,20 @@ body {
     font-weight: normal;
 }
 
+.tag-search-hint {
+    display: block;
+    margin: 5px 0;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    padding: 5px 10px;
+}
+
 .search-section:first-child {
     margin-top: 5px;
 }

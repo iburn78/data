@@ -1,7 +1,7 @@
 {
     "key": "010170",
     "filename": "010170_대한광통신",
-    "updated": "2026-10-26 16:14",
+    "updated": "2026-10-27 09:52",
     "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "010170",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:14",
+            "updated": "2026-10-27 09:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2160.0,
+                "marcap": 2050.0,
                 "revenue_4qtrs": 161.0,
                 "opincome_4qtrs": -7.05,
                 "revenue_qtr": 49.1,
@@ -39,29 +39,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 564.0,
-                "PER_fwd": 191.0
+                "PER_qx4": 535.0,
+                "PER_fwd": 181.0
             },
             "volatility": {
                 "measure_to_base": 0.958,
-                "slope": -0.000508
+                "slope": -0.000496
             },
             "amount": {
-                "measure_to_base": 1.48,
-                "slope": -5.49
+                "measure_to_base": 1.43,
+                "slope": -5.29
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00127,
+                    "alpha": 0.00126,
                     "beta": 1.25
                 },
                 "base_duration": {
-                    "alpha": 0.00264,
-                    "beta": 1.14
+                    "alpha": 0.00289,
+                    "beta": 1.15
                 },
                 "measure_duration": {
-                    "alpha": 0.00859,
-                    "beta": 1.71
+                    "alpha": 0.00914,
+                    "beta": 1.76
                 }
             }
         },

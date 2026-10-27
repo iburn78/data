@@ -1,0 +1,131 @@
+{
+    "key": "403870",
+    "filename": "403870_HPSP",
+    "updated": "2026-10-27 09:50",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "HPSP",
+            "code": "403870",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:50",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 3670.0,
+                "revenue_4qtrs": 177.0,
+                "opincome_4qtrs": 100.0,
+                "revenue_qtr": 46.1,
+                "opincome_qtr": 28.3
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.513,
+                "growth_per_qtr": 0.0205
+            },
+            "opmargin": {
+                "25_4Q": 0.521,
+                "26_1Q": 0.505,
+                "26_2Q": 0.614,
+                "26_3Q": 0.614,
+                "4qtrs": 0.567
+            },
+            "PER": {
+                "PER_ltm": 36.6,
+                "PER_qx4": 32.4,
+                "PER_fwd": 31.0
+            },
+            "volatility": {
+                "measure_to_base": 0.817,
+                "slope": -0.00021
+            },
+            "amount": {
+                "measure_to_base": 1.3,
+                "slope": -1.91
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.00115,
+                    "beta": 1.23
+                },
+                "base_duration": {
+                    "alpha": 0.0019,
+                    "beta": 1.09
+                },
+                "measure_duration": {
+                    "alpha": 0.00757,
+                    "beta": 1.32
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-27 09:46",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "반도체 전공정 장비"
+        ],
+        "revenue_share": [
+            1.0
+        ],
+        "opmargin": [
+            null
+        ],
+        "trend": [
+            "Mid-to-long term growth expected despite short-term slowdown"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "GENI-SYS (High-Pressure Hydrogen Annealing Equipment)"
+        ],
+        "competitors": [
+            "Global semiconductor equipment peers"
+        ]
+    },
+    "code": "403870",
+    "name": "HPSP",
+    "overview": {
+        "title": "업황 변동성 속 공정 미세화 기대",
+        "desc": "동사는 2017년 설립된 반도체 전공정 장비 전문 기업으로, 2022년 코스닥에 상장되었으며, 2026년 중소기업에서 중견기업으로 분류가 변경됨. 고압 수소 어닐링 기술 기반의 반도체 전공정 장비 제조·판매를 주요 사업으로 하며, 글로벌 반도체 기업에 GENI-SYS 장비를 공급하고 있음. 세계 유일 고압 수소 어닐링 장비 업체로 글로벌 반도체 업체들의 공정 미세화에 따른 수혜가 예상되며 기술격차 확대에 주력하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 11.5% 감소, 영업이익은 6.1% 감소, 당기순이익은 36.4% 증가. 글로벌 거시경제 불확실성과 반도체 업황 변동성 속에서 업체들의 설비 투자 속도 조절로 고압 수소 어닐링 장비 수요가 일시적으로 둔화되며 실적이 감소함. 다만 AI 확산, 데이터센터 수요 증가 등 첨단 산업 성장에 따른 중장기 수요 확대와 메모리·파운드리의 선단 공정 전환 가속화로 장비 수요 확대가 기대됨.",
+        "as_of": "2026-09-06",
+        "updated": "2026-10-27 09:46"
+    },
+    "news": {
+        "updated": "2026-10-27 09:47",
+        "key_facts": [
+            "2026년 상반기 매출액 780.63억원, 영업이익 444.50억원을 기록했으며, 4분기부터 본격적인 실적 개선이 전망됨.",
+            "고압 수소 어닐링(HPA) 장비를 통해 파운드리 중심에서 낸드 및 D램 등 메모리 반도체로 매출 구조를 확장 중임.",
+            "테슬라 텍사스 오스틴 선행 연구 팹에 2027년 상반기까지 고압 수소 어닐링 테스트 장비 인도를 확정함.",
+            "크레센도에쿼티파트너스가 이기두 대표를 선임하며 중장기 기업가치 제고를 위한 직접 경영 체제로 전환함.",
+            "HPO 및 Toxin 가스 활용 신규 장비를 준비하며 제품 포트폴리오를 확대하고 있음."
+        ],
+        "key_issues": [
+            "특허 소송으로 인한 독점력 약화 우려가 제기되었으나, 실제 양산 라인 설치 실적을 바탕으로 영향이 제한적일 것으로 분석됨.",
+            "신규 경쟁사 진입 시 2028년까지 점유율에 미칠 영향은 10% 이내로 추정됨."
+        ],
+        "news_summary": "HPSP는 독보적인 고압 수소 어닐링(HPA) 기술을 바탕으로 기존 파운드리 중심의 사업 구조를 메모리 반도체와 테슬라 프로젝트 등으로 확장하며 성장세를 강화하고 있습니다. 최근 최대주주의 직접 경영 체제 전환과 고객사 다변화, 선단 공정 투자 확대에 힘입어 실적 반등이 예상되며, 증권가에서는 목표주가를 상향하며 긍정적인 전망을 제시하고 있습니다."
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "key": "089030",
+    "filename": "089030_테크윙",
+    "updated": "2026-10-27 09:46",
+    "llm_research_updated": "2026-10-27 09:37",
+    "financials": {
+        "meta": {
+            "name": "테크윙",
+            "code": "089030",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:46",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1340.0,
+                "revenue_4qtrs": 200.0,
+                "opincome_4qtrs": 35.3,
+                "revenue_qtr": 56.8,
+                "opincome_qtr": 12.5
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 0.583,
+                "growth_per_qtr": 0.066
+            },
+            "opmargin": {
+                "25_4Q": 0.0172,
+                "26_1Q": 0.185,
+                "26_2Q": 0.22,
+                "26_3Q": 0.22,
+                "4qtrs": 0.177
+            },
+            "PER": {
+                "PER_ltm": 37.8,
+                "PER_qx4": 26.7,
+                "PER_fwd": 23.9
+            },
+            "volatility": {
+                "measure_to_base": 0.782,
+                "slope": -0.0000711
+            },
+            "amount": {
+                "measure_to_base": 1.75,
+                "slope": -0.971
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000847,
+                    "beta": 1.22
+                },
+                "base_duration": {
+                    "alpha": -0.00123,
+                    "beta": 1.05
+                },
+                "measure_duration": {
+                    "alpha": 0.0026,
+                    "beta": 1.3
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_movement": "-",
+            "amount_movement": "Up",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "C"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-10-27 09:37",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "반도체 테스트 핸들러 및 검사장비",
+            "COK 및 소모성 부품",
+            "HBM 전수검사 솔루션",
+            "웨이퍼 레벨 검사 장비",
+            "디스플레이 검사장비"
+        ],
+        "revenue_share": [
+            0.47,
+            0.47,
+            0.0,
+            0.0,
+            0.06
+        ],
+        "opmargin": [
+            0.12,
+            0.2,
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "Recovering strongly due to DDR5/AI demand",
+            "Steady growth based on installed base",
+            "Explosive growth phase (mass production starting)",
+            "Expanding market share via localization",
+            "Declining/Stable"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "Memory/SoC/SSD Test Handler, Burn-in Chamber",
+            "Change Over Kit (COK), Interface Board, Parts",
+            "Cube Prober",
+            "Probe Station",
+            "Optical Evaluation System, Module Appearance Inspection Machine"
+        ],
+        "competitors": [
+            "Cohu, Seishin Age, Neosem",
+            "None",
+            "Global HBM Testers",
+            "Tokyo Electron (TEL)",
+            "None"
+        ]
+    },
+    "code": "089030",
+    "name": "테크윙",
+    "overview": {
+        "title": "AI·HBM 수요로 검사장비 호조",
+        "desc": "동사는 2002년 설립 후 2011년 코스닥 상장한 반도체 검사장비 전문업체로, SK하이닉스, 삼성전자 등 글로벌 기업에 제품 공급하고 있음. 주력 제품으로는 HBM 테스트 장비 Cube Prober, Probe Station, Memory 및 SOC Test Handler가 있으며, 반도체 후공정 전 분야 검사 솔루션 제공 중임. 디스플레이 검사장비 사업도 하고 있으며 광학평가시스템, Module 외관검사기를 공급하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 30.8% 증가, 영업이익은 172.7% 증가, 당기순이익 적자전환. AI 및 고성능 컴퓨팅 수요 증가로 반도체 칩이 복잡해지면서 HBM 등 첨단 패키징 공정에서 검사장비 수요가 증가함. 동사는 Cube Prober로 HBM Test 장비 시장을 선도하고 Probe Station 양산라인 진입 후 시장 점유율 확대를 추진하고 있음.",
+        "as_of": "2026-09-04",
+        "updated": "2026-10-27 09:36"
+    },
+    "news": {
+        "updated": "2026-10-27 09:37",
+        "key_facts": [
+            "테크윙의 2026년 2분기 매출액은 전년 동기 대비 16% 증가한 568억 원, 영업이익은 97% 증가한 125억 원을 기록함.",
+            "2026년 2분기 영업이익률은 22%로 전년 동기 대비 9.0%p 개선되었으며, 이는 최근 3년 중 최고 매출액 및 영업이익 실적임.",
+            "2026년 3분기 연결 영업이익은 179억 원으로 전년 대비 153% 증가함.",
+            "2026년 7월 20일 106.7억 원(매출액 대비 6.70%), 8월 10일 91.8억 원(매출액 대비 5.77%) 규모의 반도체 검사장비 공급계약을 각각 체결함.",
+            "2026년 2분기 실적 발표 전 5일간 외국인 투자자가 5.4만 주를 순매수했으며, 해당 기간 주가는 13.2% 상승함."
+        ],
+        "key_issues": [],
+        "news_summary": "테크윙은 2026년 2분기와 3분기에 걸쳐 전년 대비 큰 폭의 영업이익 성장을 기록하며 최근 3년 내 최고 실적을 달성하였으며, 지속적인 반도체 검사장비 공급계약 체결과 외국인 투자자의 순매수세를 보였습니다."
+    }
+}

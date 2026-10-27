@@ -1,7 +1,7 @@
 {
     "key": "커패시터",
     "filename": "커패시터",
-    "updated": "2026-10-26 16:14",
+    "updated": "2026-10-27 09:52",
     "llm_research_updated": "2026-10-22 18:33",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:14",
+            "updated": "2026-10-27 09:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1030.0,
+                "marcap": 904.0,
                 "revenue_4qtrs": 156.0,
                 "opincome_4qtrs": -1.37,
                 "revenue_qtr": 45.6,
@@ -47,29 +47,29 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 2950.0,
-                "PER_fwd": 463.0
+                "PER_qx4": 2580.0,
+                "PER_fwd": 405.0
             },
             "volatility": {
-                "measure_to_base": 0.852,
-                "slope": -0.000201
+                "measure_to_base": 0.872,
+                "slope": -0.000209
             },
             "amount": {
-                "measure_to_base": 2.71,
-                "slope": -0.24
+                "measure_to_base": 2.68,
+                "slope": -0.232
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0022,
-                    "beta": 0.876
+                    "alpha": 0.00215,
+                    "beta": 0.879
                 },
                 "base_duration": {
-                    "alpha": 0.00131,
-                    "beta": 0.927
+                    "alpha": -0.0000179,
+                    "beta": 0.933
                 },
                 "measure_duration": {
-                    "alpha": 0.0302,
-                    "beta": 1.13
+                    "alpha": 0.0237,
+                    "beta": 1.16
                 }
             }
         },

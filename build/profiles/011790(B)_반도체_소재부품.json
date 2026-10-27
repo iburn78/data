@@ -1,7 +1,7 @@
 {
     "key": "011790(B)",
     "filename": "011790(B)_반도체_소재부품",
-    "updated": "2026-10-26 16:20",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-23 13:12",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "011790",
             "segment_name": "반도체 소재/부품",
             "id": "B",
-            "updated": "2026-10-26 16:20",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 530.0,
+                "marcap": 506.0,
                 "revenue_4qtrs": 288.0,
                 "opincome_4qtrs": 99.4,
                 "revenue_qtr": 83.9,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.345
             },
             "PER": {
-                "PER_ltm": 5.33,
-                "PER_qx4": 4.58,
-                "PER_fwd": 4.26
+                "PER_ltm": 5.09,
+                "PER_qx4": 4.37,
+                "PER_fwd": 4.07
             },
             "volatility": {
-                "measure_to_base": 1.11,
-                "slope": -0.000516
+                "measure_to_base": 1.15,
+                "slope": -0.000518
             },
             "amount": {
-                "measure_to_base": 1.51,
-                "slope": -0.191
+                "measure_to_base": 1.55,
+                "slope": -0.183
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000297,
+                    "alpha": 0.000285,
                     "beta": 1.16
                 },
                 "base_duration": {
-                    "alpha": -0.00105,
-                    "beta": 0.978
+                    "alpha": -0.00125,
+                    "beta": 0.981
                 },
                 "measure_duration": {
-                    "alpha": 0.00972,
-                    "beta": 1.05
+                    "alpha": 0.00885,
+                    "beta": 1.08
                 }
             }
         },
@@ -92,5 +92,16 @@
     "id": "B",
     "profile_name": "SKC",
     "profile_code": "011790",
-    "segment_name": "반도체 소재/부품"
+    "segment_name": "반도체 소재/부품",
+    "news": {
+        "updated": "2026-10-27 07:14",
+        "key_financials": [],
+        "key_facts": [
+            "SKC는 ISC(테스트 소켓 및 인터페이스 장비)와 앱솔릭스(패키징용 글라스기판)를 편입하여 반도체 후공정 사업 중심의 포트폴리오를 재편함",
+            "반도체 소재·부품 플랫폼 확장을 위해 추가적인 인수·합병(M&A) 가능성을 열어두고 있음",
+            "2025년 5월, 반도체 사업 성장 동력 확보를 명분으로 1조 2,000억 원 규모의 유상증자를 단행함"
+        ],
+        "key_issues": [],
+        "news_summary": "SKC는 ISC와 앱솔릭스 편입을 통해 반도체 후공정 중심의 소재·부품 플랫폼을 구축하고 있으며, 이를 위해 유상증자를 실시하고 추가 M&A 가능성을 열어두는 등 포트폴리오 재편을 추진하고 있습니다. 다만, 그룹 내 반도체 자산이 SK에코플랜트로 분산되어 있어 사업 간 연결성 및 시너지에 대한 논의가 제기되고 있습니다."
+    }
 }

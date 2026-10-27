@@ -1,7 +1,7 @@
 {
     "key": "바이오의약품 위탁생산",
     "filename": "바이오의약품_위탁생산",
-    "updated": "2026-10-26 16:22",
+    "updated": "2026-10-27 09:54",
     "llm_research_updated": "2026-10-24 12:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:22",
+            "updated": "2026-10-27 09:54",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 67900.0,
+                "marcap": 66400.0,
                 "revenue_4qtrs": 4210.0,
                 "opincome_4qtrs": 2130.0,
                 "revenue_qtr": 1320.0,
@@ -46,30 +46,30 @@
                 "4qtrs": 0.507
             },
             "PER": {
-                "PER_ltm": 31.8,
-                "PER_qx4": 28.9,
-                "PER_fwd": 25.5
+                "PER_ltm": 31.2,
+                "PER_qx4": 28.3,
+                "PER_fwd": 24.9
             },
             "volatility": {
-                "measure_to_base": 0.778,
-                "slope": 0.0000192
+                "measure_to_base": 0.806,
+                "slope": 0.000021
             },
             "amount": {
-                "measure_to_base": 1.23,
-                "slope": -0.0737
+                "measure_to_base": 1.24,
+                "slope": -0.0717
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000832,
+                    "alpha": 0.000826,
                     "beta": 0.492
                 },
                 "base_duration": {
-                    "alpha": 0.000278,
-                    "beta": 0.137
+                    "alpha": 0.000151,
+                    "beta": 0.139
                 },
                 "measure_duration": {
-                    "alpha": 0.00584,
-                    "beta": 0.205
+                    "alpha": 0.00618,
+                    "beta": 0.242
                 }
             }
         },

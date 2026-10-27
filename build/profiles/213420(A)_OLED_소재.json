@@ -1,7 +1,7 @@
 {
     "key": "213420(A)",
     "filename": "213420(A)_OLED_소재",
-    "updated": "2026-10-26 16:15",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-22 13:18",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "213420",
             "segment_name": "OLED 소재",
             "id": "A",
-            "updated": "2026-10-26 16:15",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 451.0,
+                "marcap": 434.0,
                 "revenue_4qtrs": 276.0,
                 "opincome_4qtrs": 41.2,
                 "revenue_qtr": 67.2,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.149
             },
             "PER": {
-                "PER_ltm": 11.0,
-                "PER_qx4": 11.3,
-                "PER_fwd": 9.77
+                "PER_ltm": 10.5,
+                "PER_qx4": 10.8,
+                "PER_fwd": 9.39
             },
             "volatility": {
-                "measure_to_base": 0.805,
-                "slope": -0.000117
+                "measure_to_base": 0.803,
+                "slope": -0.000118
             },
             "amount": {
-                "measure_to_base": 0.891,
-                "slope": -0.0414
+                "measure_to_base": 0.898,
+                "slope": -0.041
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000324,
-                    "beta": 0.901
+                    "alpha": 0.000314,
+                    "beta": 0.902
                 },
                 "base_duration": {
-                    "alpha": -0.005,
-                    "beta": 0.577
+                    "alpha": -0.00505,
+                    "beta": 0.579
                 },
                 "measure_duration": {
-                    "alpha": 0.00481,
-                    "beta": 0.888
+                    "alpha": 0.00366,
+                    "beta": 0.901
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "011070(A)",
     "filename": "011070(A)_광학솔루션",
-    "updated": "2026-10-26 16:12",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-19 16:36",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "011070",
             "segment_name": "광학솔루션",
             "id": "A",
-            "updated": "2026-10-26 16:12",
+            "updated": "2026-10-27 09:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 7440.0,
+                "marcap": 7130.0,
                 "revenue_4qtrs": 20100.0,
                 "opincome_4qtrs": 904.0,
                 "revenue_qtr": 4590.0,
@@ -38,37 +38,37 @@
                 "4qtrs": 0.045
             },
             "PER": {
-                "PER_ltm": 8.24,
-                "PER_qx4": 9.02,
-                "PER_fwd": 8.6
+                "PER_ltm": 7.89,
+                "PER_qx4": 8.64,
+                "PER_fwd": 8.24
             },
             "volatility": {
-                "measure_to_base": 0.891,
-                "slope": -0.000195
+                "measure_to_base": 0.914,
+                "slope": -0.000198
             },
             "amount": {
-                "measure_to_base": 1.44,
-                "slope": -3.62
+                "measure_to_base": 1.4,
+                "slope": -3.73
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000428,
+                    "alpha": 0.000418,
                     "beta": 1.18
                 },
                 "base_duration": {
-                    "alpha": 0.000273,
+                    "alpha": -0.000555,
                     "beta": 1.09
                 },
                 "measure_duration": {
-                    "alpha": -0.00305,
-                    "beta": 1.13
+                    "alpha": -0.00314,
+                    "beta": 1.16
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": false,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_movement": "-",
             "amount_movement": "Up",
             "alpha_level": "udr_pfm",

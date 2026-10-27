@@ -1,0 +1,125 @@
+{
+    "key": "반도체",
+    "filename": "반도체",
+    "updated": "2026-10-27 09:51",
+    "llm_research_updated": "",
+    "financials": {
+        "meta": {
+            "name": "반도체",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-10-27 09:51",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1950000.0,
+                "revenue_4qtrs": 666000.0,
+                "opincome_4qtrs": 454000.0,
+                "revenue_qtr": 205000.0,
+                "opincome_qtr": 144000.0
+            },
+            "share": {
+                "marcap": "-",
+                "-m_rank": "-",
+                "revenue": "-",
+                "-r_rank": "-",
+                "opincome": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_last_4qtrs": true,
+                "higher_than_comp": true,
+                "slope": 10500.0,
+                "growth_per_qtr": 0.0927
+            },
+            "opmargin": {
+                "25_4Q": 0.619,
+                "26_1Q": 0.675,
+                "26_2Q": 0.7,
+                "26_3Q": 0.7,
+                "4qtrs": 0.681
+            },
+            "PER": {
+                "PER_ltm": 4.28,
+                "PER_qx4": 3.38,
+                "PER_fwd": 2.86
+            },
+            "volatility": {
+                "measure_to_base": 0.645,
+                "slope": -0.000044
+            },
+            "amount": {
+                "measure_to_base": 1.02,
+                "slope": -149.0
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha": 0.000604,
+                    "beta": 1.31
+                },
+                "base_duration": {
+                    "alpha": 0.00259,
+                    "beta": 1.43
+                },
+                "measure_duration": {
+                    "alpha": 0.0025,
+                    "beta": 1.47
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_movement": "Dn",
+            "amount_movement": "-",
+            "alpha_level": "out_pfm",
+            "market_sentiment": "-",
+            "category": "A"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "밸류체인",
+            "업계"
+        ],
+        "tags": "",
+        "notes": "",
+        "dynamics": "",
+        "key_drivers": ""
+    },
+    "component_keys": [
+        "메모리",
+        "후공정",
+        "전공정",
+        "소부장",
+        "전력 제품",
+        "메모리 기판",
+        "PCB 기판",
+        "MLCC"
+    ],
+    "news": {
+        "updated": "2026-10-27 09:51",
+        "key_facts": [
+            "용인특례시는 2027년 3월 용인반도체고 개교 및 2028년 마이스터고 전환, 2027년 7월 '트리니티팹' 운영 및 2028년 12월 '통삼2 일반산업단지' 준공을 통해 인프라와 인력을 확충할 계획임.",
+            "정부는 반도체 산단 조성 기간을 10년에서 5년 이내로 단축하는 '초광역특구법' 제정을 추진하며, 대통령은 R&D 인력의 특별연장근로 제도 개선 방안 검토를 주문함.",
+            "글로벌 빅테크 기업들이 비용 절감과 최적화를 위해 엔비디아 의존도를 낮추고 독자 AI 반도체 설계 및 내재화를 추진하는 수직계열화 경향이 뚜렷함.",
+            "AI 스타트업 앤트로픽(Anthropic)의 IPO 추진 소식으로 AI 인프라 증설 기대감이 형성되며 HBM 공급망 핵심 기업의 가치가 재평가됨.",
+            "하이퍼스케일러들의 막대한 자본지출(CapEx)에 대해 시장은 단순 투자 확대보다 실제 수익성(ROI)과 현금흐름 창출 능력을 검증하는 엄격한 잣대를 적용하기 시작함."
+        ],
+        "new_trends": [
+            "AI 반도체 수요가 단순 제조를 넘어 데이터센터 구축, 전력 공급, 네트워크 인프라 등 전방위적인 밸류체인으로 확산되는 경향이 나타남.",
+            "표준 규격의 메모리 대량 공급 방식에서 고객사 독자 아키텍처에 맞춘 맞춤형(Custom) HBM 및 특화 메모리 솔루션 체제로의 전환 요구가 증가함.",
+            "글로벌 투자 시장에서 AI 설비투자의 양적 확대보다 펀더멘털 중심의 수익성 검증과 회의론이 강화되는 추세임."
+        ],
+        "news_summary": "반도체 산업은 AI 인프라 확산에 따른 성장 기회와 빅테크의 자체 칩 내재화 및 수익성 검증이라는 구조적 도전 과제에 직면해 있습니다. 국내에서는 용인시를 중심으로 인력 양성 및 소부장 테스트베드, 산업단지 조성이 가속화되고 있으며, 정부는 초광역특구법과 근로시간 제도 개선을 통해 투자 환경을 조성하고 있습니다. 글로벌 시장에서는 빅테크의 수직계열화 추세로 인해 메모리 및 파운드리 기업들에 단순 하드웨어 공급을 넘어선 맞춤형 전략과 공정 경쟁력 확보가 요구되는 상황입니다."
+    }
+}

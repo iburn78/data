@@ -1,7 +1,7 @@
 {
     "key": "003670",
     "filename": "003670_포스코퓨처엠",
-    "updated": "2026-10-26 16:20",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "003670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:20",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 14300.0,
+                "marcap": 13900.0,
                 "revenue_4qtrs": 2670.0,
                 "opincome_4qtrs": 19.3,
                 "revenue_qtr": 679.0,
@@ -38,30 +38,30 @@
                 "4qtrs": 0.00722
             },
             "PER": {
-                "PER_ltm": 741.0,
-                "PER_qx4": 134.0,
-                "PER_fwd": 122.0
+                "PER_ltm": 719.0,
+                "PER_qx4": 130.0,
+                "PER_fwd": 118.0
             },
             "volatility": {
-                "measure_to_base": 0.868,
-                "slope": 0.0000442
+                "measure_to_base": 0.876,
+                "slope": 0.0000381
             },
             "amount": {
                 "measure_to_base": 1.43,
-                "slope": -0.306
+                "slope": -0.32
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00102,
+                    "alpha": 0.00101,
                     "beta": 1.03
                 },
                 "base_duration": {
-                    "alpha": -0.00206,
+                    "alpha": -0.00266,
                     "beta": 0.603
                 },
                 "measure_duration": {
-                    "alpha": 0.00407,
-                    "beta": 0.88
+                    "alpha": 0.00608,
+                    "beta": 0.949
                 }
             }
         },

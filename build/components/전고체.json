@@ -1,7 +1,7 @@
 {
     "key": "전고체",
     "filename": "전고체",
-    "updated": "2026-10-26 16:21",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-21 11:11",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:21",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2000.0,
+                "marcap": 1950.0,
                 "revenue_4qtrs": 9170.0,
                 "opincome_4qtrs": 550.0,
                 "revenue_qtr": 2530.0,
@@ -46,17 +46,17 @@
                 "4qtrs": 0.0599
             },
             "PER": {
-                "PER_ltm": 3.65,
-                "PER_qx4": 2.47,
-                "PER_fwd": 2.21
+                "PER_ltm": 3.55,
+                "PER_qx4": 2.41,
+                "PER_fwd": 2.15
             },
             "volatility": {
-                "measure_to_base": 0.826,
-                "slope": -0.000105
+                "measure_to_base": 0.85,
+                "slope": -0.000104
             },
             "amount": {
-                "measure_to_base": 2.61,
-                "slope": -0.256
+                "measure_to_base": 2.39,
+                "slope": -0.234
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -64,12 +64,12 @@
                     "beta": 0.948
                 },
                 "base_duration": {
-                    "alpha": -0.00532,
+                    "alpha": -0.00566,
                     "beta": 0.44
                 },
                 "measure_duration": {
-                    "alpha": 0.00294,
-                    "beta": 0.728
+                    "alpha": 0.00286,
+                    "beta": 0.75
                 }
             }
         },

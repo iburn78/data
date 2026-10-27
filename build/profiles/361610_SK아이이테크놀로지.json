@@ -1,7 +1,7 @@
 {
     "key": "361610",
     "filename": "361610_SK아이이테크놀로지",
-    "updated": "2026-10-26 16:20",
+    "updated": "2026-10-27 09:53",
     "llm_research_updated": "2026-10-20 16:01",
     "financials": {
         "meta": {
@@ -9,14 +9,14 @@
             "code": "361610",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-26 16:20",
+            "updated": "2026-10-27 09:53",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1290.0,
+                "marcap": 1280.0,
                 "revenue_4qtrs": 157.0,
                 "opincome_4qtrs": -276.0,
                 "revenue_qtr": 39.5,
@@ -43,12 +43,12 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.753,
-                "slope": 0.000145
+                "measure_to_base": 0.734,
+                "slope": 0.000134
             },
             "amount": {
                 "measure_to_base": 0.724,
-                "slope": 0.047
+                "slope": 0.0452
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -60,8 +60,8 @@
                     "beta": 0.326
                 },
                 "measure_duration": {
-                    "alpha": 0.00816,
-                    "beta": 0.705
+                    "alpha": 0.00469,
+                    "beta": 0.642
                 }
             }
         },
