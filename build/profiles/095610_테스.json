@@ -1,15 +1,15 @@
 {
     "key": "095610",
     "filename": "095610_테스",
-    "updated": "2026-10-27 09:52",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
             "name": "테스",
             "code": "095610",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:52",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:48",
+        "updated": "2026-10-27 15:47",
         "search_theme": [
             "실적",
             "전망"
@@ -86,35 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체 전공정 장비",
-            "디스플레이 장비",
-            "LED 장비"
+            "반도체 증착 장비",
+            "반도체 세정/식각 장비",
+            "기타 장비 및 부품"
         ],
         "revenue_share": [
-            0.96,
-            0.02,
-            0.02
+            0.6,
+            0.25,
+            0.15
         ],
         "opmargin": [
-            null,
-            null,
+            0.2,
+            0.18,
             null
         ],
         "trend": [
-            "improving",
-            "stable",
-            "stable"
+            "improving (NAND 고단화 수혜)",
+            "improving (건식 세정 수요 증가)",
+            "stable (부품 매출 지지)"
         ],
         "create_segments": false,
         "key_products": [
-            "PECVD, Gas Phase Etch & Cleaning",
-            "Thin-film Encapsulation (TFE)",
-            "MOCVD for UVC LED"
+            "PECVD (ACL, ARC)",
+            "GPE (Gas Phase Etch)",
+            "TFE, MOCVD, 장비 부품"
         ],
         "competitors": [
-            "Applied Materials, Lam Research, TEL",
-            "Hanmi Semiconductor, Wonik IPS",
-            "Various LED equipment makers"
+            "원익IPS, 유진테크",
+            "피에스케이, 원익IPS",
+            "원익IPS, 유진테크"
         ]
     },
     "code": "095610",

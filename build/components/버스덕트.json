@@ -1,7 +1,7 @@
 {
     "key": "버스덕트",
     "filename": "버스덕트",
-    "updated": "2026-10-27 09:52",
+    "updated": "2026-10-27 16:19",
     "llm_research_updated": "2026-10-21 17:20",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:52",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -70,6 +70,10 @@
                 "measure_duration": {
                     "alpha": -0.000488,
                     "beta": 1.26
+                },
+                "ind_plot_period": {
+                    "alpha": null,
+                    "beta": null
                 }
             }
         },
@@ -87,7 +91,8 @@
     "info_section": {
         "reviewed": false,
         "search_theme": [
-            "섹터 전망"
+            "산업",
+            "업종"
         ],
         "tags": "",
         "notes": "",

@@ -1,15 +1,15 @@
 {
     "key": "089970",
     "filename": "089970_브이엠",
-    "updated": "2026-10-27 09:52",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 15:48",
     "financials": {
         "meta": {
             "name": "브이엠",
             "code": "089970",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:52",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:50",
+        "updated": "2026-10-27 15:48",
         "search_theme": [
             "실적",
             "전망"
@@ -86,23 +86,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체 제조 장비"
+            "Poly Etcher 사업부",
+            "Metal Etcher 사업부",
+            "부품 및 서비스 사업부",
+            "차세대 장비 개발부"
         ],
         "revenue_share": [
-            1.0
+            0.36,
+            0.42,
+            0.22,
+            0.0
         ],
         "opmargin": [
+            null,
+            null,
+            null,
             null
         ],
         "trend": [
-            "improving"
+            "improving",
+            "improving",
+            "stable",
+            "expanding"
         ],
         "create_segments": false,
         "key_products": [
-            "300mm 실리콘 식각장비, 금속막 식각장비, 건식 식각장비"
+            "Leo NK I-C, Leo WH, Leo WS",
+            "Nardo-M",
+            "유지보수 서비스, 소모성 부품",
+            "Mona LISA(Oxide), APES A(ALE)"
         ],
         "competitors": [
-            "Lam Research, Applied Materials, TEL"
+            "Lam Research, Applied Materials, Tokyo Electron",
+            "Lam Research, Applied Materials, Tokyo Electron",
+            "KoMiCo, PSK Holdings",
+            "Lam Research, Applied Materials, Tokyo Electron"
         ]
     },
     "code": "089970",

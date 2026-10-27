@@ -1,7 +1,7 @@
 {
     "key": "증권사",
     "filename": "증권사",
-    "updated": "2026-10-27 09:54",
+    "updated": "2026-10-27 16:22",
     "llm_research_updated": "2026-10-21 13:53",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:54",
+            "updated": "2026-10-27 16:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -70,6 +70,10 @@
                 "measure_duration": {
                     "alpha": -0.0013,
                     "beta": 0.781
+                },
+                "ind_plot_period": {
+                    "alpha": null,
+                    "beta": null
                 }
             }
         },
@@ -87,7 +91,8 @@
     "info_section": {
         "reviewed": false,
         "search_theme": [
-            "섹터 전망"
+            "산업",
+            "업종"
         ],
         "tags": "",
         "notes": "",

@@ -1,15 +1,15 @@
 {
     "key": "084370",
     "filename": "084370_유진테크",
-    "updated": "2026-10-27 09:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 15:46",
     "financials": {
         "meta": {
             "name": "유진테크",
             "code": "084370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:48",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:47",
+        "updated": "2026-10-27 15:46",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체 전공정 장비",
-            "반도체 소재 및 특수가스"
+            "반도체 장비",
+            "반도체 소재",
+            "기타"
         ],
         "revenue_share": [
-            0.8,
-            0.2
+            0.803,
+            0.036,
+            0.161
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "improving",
-            "expanding"
+            "improving through export expansion and localization",
+            "growth attempt focused on precursors",
+            "stable"
         ],
         "create_segments": false,
         "key_products": [
-            "BlueJay, Albatross, Harrier",
-            "산업가스, 전공정 소재, 패키지 소재"
+            "BlueJay(LPCVD), Albatross(Plasma Treatment), Harrier(Batch ALD)",
+            "전구체(Precursor), 산업가스",
+            "부동산 임대, 상품 매출"
         ],
         "competitors": [
-            "Applied Materials, Lam Research, TEL",
-            "Air Liquide, Linde, specialty gas suppliers"
+            "주성엔지니어링, 원익IPS, Applied Materials, Lam Research, Tokyo Electron",
+            "반도체 소재 전문 기업",
+            "N/A"
         ]
     },
     "code": "084370",

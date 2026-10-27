@@ -1,7 +1,7 @@
 {
     "key": "가스터빈",
     "filename": "가스터빈",
-    "updated": "2026-10-27 09:52",
+    "updated": "2026-10-27 16:20",
     "llm_research_updated": "2026-10-22 18:34",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:52",
+            "updated": "2026-10-27 16:20",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -70,6 +70,10 @@
                 "measure_duration": {
                     "alpha": 0.00366,
                     "beta": 0.901
+                },
+                "ind_plot_period": {
+                    "alpha": null,
+                    "beta": null
                 }
             }
         },

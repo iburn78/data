@@ -1,7 +1,7 @@
 {
     "key": "EV 배터리",
     "filename": "EV_배터리",
-    "updated": "2026-10-27 09:53",
+    "updated": "2026-10-27 16:21",
     "llm_research_updated": "2026-10-21 11:42",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:53",
+            "updated": "2026-10-27 16:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -70,6 +70,10 @@
                 "measure_duration": {
                     "alpha": 0.00751,
                     "beta": 0.649
+                },
+                "ind_plot_period": {
+                    "alpha": null,
+                    "beta": null
                 }
             }
         },
@@ -87,8 +91,9 @@
     "info_section": {
         "reviewed": false,
         "search_theme": [
-            "산업 전망",
-            "밸류체인"
+            "산업",
+            "밸류체인",
+            "업계"
         ],
         "tags": "",
         "notes": "",

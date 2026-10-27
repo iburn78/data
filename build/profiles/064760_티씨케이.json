@@ -1,15 +1,15 @@
 {
     "key": "064760",
     "filename": "064760_티씨케이",
-    "updated": "2026-10-27 09:50",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
             "name": "티씨케이",
             "code": "064760",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:50",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:49",
+        "updated": "2026-10-27 15:48",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체 부품 (Solid-SiC)",
-            "태양전지 및 LED 부품"
+            "SiC 부품 사업",
+            "고순도 흑연 사업",
+            "기타 세라믹 및 코팅 사업"
         ],
         "revenue_share": [
-            0.9,
-            0.1
+            0.85,
+            0.1,
+            0.05
         ],
         "opmargin": [
-            null,
+            0.3,
+            0.2,
             null
         ],
         "trend": [
-            "improving",
-            "stable"
+            "improving, 수요 증가 및 파운드리 확대 기대",
+            "stable, 전방 산업 경기 변동 영향",
+            "stable, 국산화 수요 존재"
         ],
         "create_segments": false,
         "key_products": [
-            "Solid-SiC parts",
-            "Solar cell & LED components"
+            "SiC 포커스 링,SiC 샤워헤드",
+            "고순도 흑연 제품,Graphite 가공 부품",
+            "LED 칩 생산용 서셉터,SiC 웨이퍼,CVD-SiC 코팅 부품"
         ],
         "competitors": [
-            "Not specified",
-            "Not specified"
+            "하나머티리얼즈,케이엔제이,월덱스,디에스테크노",
+            "국내외 특수 탄소 소재 기업",
+            "국내외 세라믹 부품 기업"
         ]
     },
     "code": "064760",

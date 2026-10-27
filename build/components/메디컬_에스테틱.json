@@ -1,7 +1,7 @@
 {
     "key": "메디컬 에스테틱",
     "filename": "메디컬_에스테틱",
-    "updated": "2026-10-27 11:15",
+    "updated": "2026-10-27 16:22",
     "llm_research_updated": "2026-10-23 14:33",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 11:15",
+            "updated": "2026-10-27 16:22",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -70,6 +70,10 @@
                 "measure_duration": {
                     "alpha": -0.00182,
                     "beta": 0.587
+                },
+                "ind_plot_period": {
+                    "alpha": null,
+                    "beta": null
                 }
             }
         },
@@ -88,7 +92,8 @@
         "reviewed": true,
         "updated": "2026-10-27 11:15",
         "search_theme": [
-            "전망"
+            "산업",
+            "업종"
         ],
         "tags": "#기대하락",
         "notes": "내수 성장 정체, 해외 확장 필요한데 환율 하락하는 데다, 해외 확장 위한 Capex 지출로 인해 단기 실적 또한 제한적. 해외 성장에 대한 기대감도 사라지는 듯",

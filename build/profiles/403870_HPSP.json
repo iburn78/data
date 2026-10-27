@@ -1,15 +1,15 @@
 {
     "key": "403870",
     "filename": "403870_HPSP",
-    "updated": "2026-10-27 09:50",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 13:14",
     "financials": {
         "meta": {
             "name": "HPSP",
             "code": "403870",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:50",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:46",
+        "updated": "2026-10-27 13:14",
         "search_theme": [
             "실적",
             "전망"
@@ -86,23 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체 전공정 장비"
+            "고압 수소 어닐링 장비 사업",
+            "HPA 서비스 및 소재 사업",
+            "차세대 고압 열처리 장비 개발"
         ],
         "revenue_share": [
-            1.0
+            0.9,
+            0.08,
+            0.02
         ],
         "opmargin": [
+            null,
+            null,
             null
         ],
         "trend": [
-            "Mid-to-long term growth expected despite short-term slowdown"
+            "AI 가속기 및 선단 공정 전환으로 중장기 수요 확대 기대",
+            "장비 설치 대수 증가에 따라 안정적 성장 예상",
+            "R&D 단계에서 상용화 추진 중"
         ],
         "create_segments": false,
         "key_products": [
-            "GENI-SYS (High-Pressure Hydrogen Annealing Equipment)"
+            "GENI-SYS (고압 수소 어닐링 장비)",
+            "HPA 유지보수, 공정 소재 서비스",
+            "고압 산화 공정(HPO) 장비"
         ],
         "competitors": [
-            "Global semiconductor equipment peers"
+            "예스티, Applied Materials, Lam Research, Tokyo Electron, ASM International",
+            "N/A",
+            "N/A"
         ]
     },
     "code": "403870",

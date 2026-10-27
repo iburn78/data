@@ -1,15 +1,15 @@
 {
     "key": "357780",
     "filename": "357780_솔브레인",
-    "updated": "2026-10-27 09:49",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
             "name": "솔브레인",
             "code": "357780",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:49",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:49",
+        "updated": "2026-10-27 15:47",
         "search_theme": [
             "실적",
             "전망"
@@ -91,30 +91,30 @@
             "2차전지 소재"
         ],
         "revenue_share": [
-            0.6,
-            0.2,
-            0.2
+            0.8,
+            0.1,
+            0.07
         ],
         "opmargin": [
-            null,
-            null,
-            null
+            0.2,
+            0.1,
+            0.05
         ],
         "trend": [
-            "improving (strong growth due to AI)",
-            "stable",
-            "stable"
+            "improving (AI 및 HBM 수요 증가)",
+            "declining (Rigid OLED 축소 및 사업 다변화 중)",
+            "facing stronger competition (EV 수요 둔화 및 마진 압박)"
         ],
         "create_segments": false,
         "key_products": [
-            "GAA 특수 식각액, HBM4 CMP Slurry",
-            "디스플레이 공정용 화학 소재",
-            "2차전지 전해액"
+            "식각액(에천트), CMP 슬러리, 전구체(Precursor)",
+            "TFT 식각액, 유기재료, 유리기판(신사업)",
+            "전해액, 리드탭"
         ],
         "competitors": [
-            "삼성전자, SK하이닉스 (as clients), other chemical suppliers",
-            "LG디스플레이, Samsung Display (as clients)",
-            "EcoPro BM, L&F"
+            "한솔케미칼, 동진세미켐, 원익머티리얼즈, 이엔에프테크놀로지",
+            "삼성디스플레이, LG디스플레이 (고객사 겸 경쟁 구도)",
+            "엔켐"
         ]
     },
     "code": "357780",

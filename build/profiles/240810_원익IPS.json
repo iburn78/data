@@ -1,15 +1,15 @@
 {
     "key": "240810",
     "filename": "240810_원익IPS",
-    "updated": "2026-10-27 09:52",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 13:13",
     "financials": {
         "meta": {
             "name": "원익IPS",
             "code": "240810",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:52",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:42",
+        "updated": "2026-10-27 13:14",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,35 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "증착 장비",
-            "열처리 및 기타 장비"
+            "반도체 장비",
+            "디스플레이 장비",
+            "태양전지 장비"
         ],
         "revenue_share": [
-            0.7,
-            0.3
+            0.78,
+            0.21,
+            0.01
         ],
         "opmargin": [
+            null,
             null,
             null
         ],
         "trend": [
-            "improving (AI/HBM demand)",
-            "stable"
+            "강한 회복 및 성장세 (HBM, AI 수요 증대)",
+            "변동성 있는 회복세 (OLED 투자 연계)",
+            "실적 기여도 낮음 및 정체"
         ],
         "create_segments": false,
         "key_products": [
-            "CVD, METAL 증착 장비",
-            "ALD, 열처리 장비"
+            "PECVD, ALD, Diffusion(확산/열처리) 장비",
+            "Dry Etcher, PECVD, LTPS Furnace, PI Curing",
+            "RIE Etcher(반응성 이온 식각 장비)"
         ],
         "competitors": [
-            "Applied Materials, Lam Research, TEL",
-            "ASM International, TEL"
+            "Applied Materials, Lam Research, Tokyo Electron, 주성엔지니어링, 유진테크, 테스(TES)",
+            "중국 패널 업체 및 글로벌 디스플레이 장비사",
+            "글로벌 태양전지 장비사"
         ]
     },
     "code": "240810",

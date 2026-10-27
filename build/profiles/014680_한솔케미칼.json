@@ -1,15 +1,15 @@
 {
     "key": "014680",
     "filename": "014680_한솔케미칼",
-    "updated": "2026-10-27 09:48",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
             "name": "한솔케미칼",
             "code": "014680",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:48",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:48",
+        "updated": "2026-10-27 15:47",
         "search_theme": [
             "실적",
             "전망"
@@ -86,29 +86,41 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "정밀화학",
-            "전자 및 이차전지소재"
+            "반도체 소재",
+            "디스플레이 소재",
+            "이차전지 소재",
+            "정밀화학"
         ],
         "revenue_share": [
             0.4,
-            0.6
+            0.2,
+            0.2,
+            0.2
         ],
         "opmargin": [
-            null,
-            null
+            0.2,
+            0.2,
+            0.25,
+            0.05
         ],
         "trend": [
-            "stable",
-            "improving"
+            "성장세(가동률 회복 및 증설 수혜)",
+            "보합(계절성 및 TV 시장 변동)",
+            "회복세(중국 고객사 확보 및 ESS 수요)",
+            "보합(전방산업 성장 제한적)"
         ],
         "create_segments": false,
         "key_products": [
-            "과산화수소, BPO",
-            "반도체 박막소재, 디스플레이용 Resin, 음극바인더, 실리콘음극재"
+            "과산화수소, 프리커서, 특수가스",
+            "퀀텀닷(QD) 소재, 기능성 레진",
+            "음극 바인더, 이차전지용 테이프, 실리콘 음극재",
+            "제지용 라텍스, 수처리 제품, 차아황산소다"
         ],
         "competitors": [
-            "Not specified",
-            "Not specified"
+            "솔브레인, 동진쎄미켐, OCI",
+            "Merck, 글로벌 화학기업",
+            "배터리 소재 기업",
+            "제지 화학물질 업체"
         ]
     },
     "code": "014680",

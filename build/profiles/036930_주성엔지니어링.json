@@ -1,15 +1,15 @@
 {
     "key": "036930",
     "filename": "036930_주성엔지니어링",
-    "updated": "2026-10-27 09:50",
-    "llm_research_updated": "",
+    "updated": "2026-10-27 16:19",
+    "llm_research_updated": "2026-10-27 13:13",
     "financials": {
         "meta": {
             "name": "주성엔지니어링",
             "code": "036930",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 09:50",
+            "updated": "2026-10-27 16:19",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
@@ -78,7 +78,7 @@
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:39",
+        "updated": "2026-10-27 13:13",
         "search_theme": [
             "실적",
             "전망"
@@ -86,14 +86,14 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "반도체 장비",
-            "태양광 장비",
-            "디스플레이 장비"
+            "반도체 제조장비",
+            "태양전지 제조장비",
+            "디스플레이 제조장비"
         ],
         "revenue_share": [
-            0.6,
-            0.2,
-            0.2
+            0.978,
+            0.001,
+            0.021
         ],
         "opmargin": [
             null,
@@ -101,20 +101,20 @@
             null
         ],
         "trend": [
-            "Recovering via AI demand",
-            "Expanding into next-gen cells",
-            "Stable/Developing"
+            "회복세 진입 및 고객 다변화 추진",
+            "중장기적 성장 잠재력 보유",
+            "전방 시장 성장 둔화로 정체 추세"
         ],
         "create_segments": false,
         "key_products": [
-            "ALG-based Semiconductor Equipment, Compound Semiconductor Equipment",
-            "Next-gen Tandem Solar Cell Equipment",
-            "Next-gen Display Equipment"
+            "ALD 장비, CVD 장비, SDP System",
+            "HJT 장비, 페로브스카이트 장비, 탠덤 태양전지 장비",
+            "OLED 봉지(Encapsulation) 장비, Oxide TFT 장비"
         ],
         "competitors": [
-            "Applied Materials, Lam Research, Tokyo Electron",
-            "Hanwha Solutions, First Solar",
-            "Applied Materials, LG Display (internal)"
+            "ASM International, TEL, Lam Research, 원익IPS",
+            "글로벌 HJT 장비사, 중국 로컬 업체",
+            "글로벌 디스플레이 전공정 장비사"
         ]
     },
     "code": "036930",
