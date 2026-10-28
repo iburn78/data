@@ -1,7 +1,7 @@
 {
     "key": "298020",
     "filename": "298020_효성티앤씨",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 11:15",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "298020",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1060.0,
-                "revenue_4qtrs": 8770.0,
-                "opincome_4qtrs": 509.0,
-                "revenue_qtr": 2420.0,
-                "opincome_qtr": 189.0
+                "marcap": 1080,
+                "revenue_ltm": 8770,
+                "opincome_ltm": 509,
+                "revenue_qtr": 2420,
+                "opincome_qtr": 189
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 9.27,
-                "growth_per_qtr": 0.0729
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 9.3,
+                "growth(%)": 10
             },
             "opmargin": {
-                "25_4Q": 0.0243,
-                "26_1Q": 0.0412,
-                "26_2Q": 0.0781,
-                "26_3Q": 0.0781,
-                "4qtrs": 0.058
+                "25_4Q(%)": 2.4,
+                "26_1Q(%)": 4.1,
+                "26_2Q(%)": 7.8,
+                "26_3Q(%)": 7.8,
+                "ltm(%)": 5.8
             },
             "PER": {
-                "PER_ltm": 2.09,
-                "PER_qx4": 1.4,
-                "PER_fwd": 1.25
+                "PER_ltm": 2.13,
+                "PER_qx4": 1.43,
+                "PER_fwd": 1.28
             },
             "volatility": {
-                "measure_to_base": 0.926,
-                "slope": -0.000138
+                "measure_to_base(%)": 83
             },
             "amount": {
-                "measure_to_base": 1.55,
-                "slope": -0.103
+                "measure_to_base(%)": 52
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000511,
-                    "beta": 0.761
+                    "alpha(%)": 0.005,
+                    "beta": 0.76
                 },
                 "base_duration": {
-                    "alpha": -0.0057,
-                    "beta": 0.281
+                    "alpha(%)": -0.56,
+                    "beta": 0.28
                 },
                 "measure_duration": {
-                    "alpha": -0.00747,
-                    "beta": 0.349
+                    "alpha(%)": -0.69,
+                    "beta": 0.42
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "-",
+            "amount_level": "Dn",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "-",
-            "category": "A"
+            "category": "A",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

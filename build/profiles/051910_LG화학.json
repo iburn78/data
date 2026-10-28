@@ -1,7 +1,7 @@
 {
     "key": "051910",
     "filename": "051910_LG화학",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-20 13:27",
     "financials": {
         "meta": {
@@ -9,67 +9,65 @@
             "code": "051910",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 15700.0,
-                "revenue_4qtrs": 51800.0,
-                "opincome_4qtrs": 736.0,
-                "revenue_qtr": 14200.0,
-                "opincome_qtr": 600.0
+                "marcap": 16200,
+                "revenue_ltm": 51800,
+                "opincome_ltm": 736,
+                "revenue_qtr": 14200,
+                "opincome_qtr": 600
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": 6.51,
-                "growth_per_qtr": 0.0354
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 6.5,
+                "growth(%)": 2.2
             },
             "opmargin": {
-                "25_4Q": -0.0369,
-                "26_1Q": -0.00406,
-                "26_2Q": 0.0423,
-                "26_3Q": 0.0423,
-                "4qtrs": 0.0142
+                "25_4Q(%)": -3.7,
+                "26_1Q(%)": -0.41,
+                "26_2Q(%)": 4.2,
+                "26_3Q(%)": 4.2,
+                "ltm(%)": 1.4
             },
             "PER": {
-                "PER_ltm": 21.3,
-                "PER_qx4": 6.55,
-                "PER_fwd": 6.38
+                "PER_ltm": 22,
+                "PER_qx4": 6.74,
+                "PER_fwd": 6.56
             },
             "volatility": {
-                "measure_to_base": 0.927,
-                "slope": -0.000051
+                "measure_to_base(%)": 120
             },
             "amount": {
-                "measure_to_base": 1.94,
-                "slope": -1.03
+                "measure_to_base(%)": 73
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000283,
-                    "beta": 0.974
+                    "alpha(%)": -0.028,
+                    "beta": 0.97
                 },
                 "base_duration": {
-                    "alpha": -0.00358,
-                    "beta": 0.454
+                    "alpha(%)": -0.37,
+                    "beta": 0.46
                 },
                 "measure_duration": {
-                    "alpha": 0.00493,
-                    "beta": 0.811
+                    "alpha(%)": 0.27,
+                    "beta": 0.87
                 }
             }
         },
@@ -77,11 +75,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

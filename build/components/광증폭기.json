@@ -1,7 +1,7 @@
 {
     "key": "광증폭기",
     "filename": "광증폭기",
-    "updated": "2026-10-27 16:20",
+    "updated": "2026-10-28 16:35",
     "llm_research_updated": "2026-10-22 09:30",
     "financials": {
         "meta": {
@@ -9,83 +9,81 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:20",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 129.0,
-                "revenue_4qtrs": 19.9,
-                "opincome_4qtrs": 1.55,
+                "marcap": 130,
+                "revenue_ltm": 19.9,
+                "opincome_ltm": 1.55,
                 "revenue_qtr": 4.53,
                 "opincome_qtr": 0.128
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": true,
-                "slope": 0.181,
-                "growth_per_qtr": 0.466
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 0.18,
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": 0.268,
-                "26_1Q": -0.326,
-                "26_2Q": 0.0283,
-                "26_3Q": 0.0283,
-                "4qtrs": 0.0782
+                "25_4Q(%)": 27,
+                "26_1Q(%)": -33,
+                "26_2Q(%)": 2.8,
+                "26_3Q(%)": 2.8,
+                "ltm(%)": 7.8
             },
             "PER": {
-                "PER_ltm": 83.2,
-                "PER_qx4": 252.0,
-                "PER_fwd": 55.7
+                "PER_ltm": 83.8,
+                "PER_qx4": 254,
+                "PER_fwd": 56.1
             },
             "volatility": {
-                "measure_to_base": 0.988,
-                "slope": -0.000579
+                "measure_to_base(%)": 60
             },
             "amount": {
-                "measure_to_base": 0.925,
-                "slope": -0.134
+                "measure_to_base(%)": 23
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00115,
-                    "beta": 0.769
+                    "alpha(%)": 0.11,
+                    "beta": 0.77
                 },
                 "base_duration": {
-                    "alpha": 0.00177,
-                    "beta": 0.544
+                    "alpha(%)": 0.16,
+                    "beta": 0.54
                 },
                 "measure_duration": {
-                    "alpha": 0.0075,
-                    "beta": 1.38
+                    "alpha(%)": 0.4,
+                    "beta": 1.3
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": true,
+            "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

@@ -1,7 +1,7 @@
 {
     "key": "가전",
     "filename": "가전",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:37",
     "llm_research_updated": "2026-10-20 14:00",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:37",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 120000.0,
-                "revenue_4qtrs": 101000.0,
-                "opincome_4qtrs": 4970.0,
-                "revenue_qtr": 27600.0,
-                "opincome_qtr": 1310.0
+                "marcap": 125000,
+                "revenue_ltm": 101000,
+                "opincome_ltm": 4970,
+                "revenue_qtr": 27600,
+                "opincome_qtr": 1310
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 30.0,
-                "growth_per_qtr": 0.0241
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 30,
+                "growth(%)": 2.7
             },
             "opmargin": {
-                "25_4Q": 0.0525,
-                "26_1Q": 0.051,
-                "26_2Q": 0.0475,
-                "26_3Q": 0.0475,
-                "4qtrs": 0.0494
+                "25_4Q(%)": 5.3,
+                "26_1Q(%)": 5.1,
+                "26_2Q(%)": 4.7,
+                "26_3Q(%)": 4.7,
+                "ltm(%)": 4.9
             },
             "PER": {
-                "PER_ltm": 24.1,
-                "PER_qx4": 22.9,
-                "PER_fwd": 21.6
+                "PER_ltm": 25.1,
+                "PER_qx4": 23.8,
+                "PER_fwd": 22.5
             },
             "volatility": {
-                "measure_to_base": 0.673,
-                "slope": -0.0000951
+                "measure_to_base(%)": 73
             },
             "amount": {
-                "measure_to_base": 1.25,
-                "slope": -9.58
+                "measure_to_base(%)": 47
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00026,
-                    "beta": 1.12
+                    "alpha(%)": 0.026,
+                    "beta": 1.1
                 },
                 "base_duration": {
-                    "alpha": 0.00217,
-                    "beta": 1.21
+                    "alpha(%)": 0.22,
+                    "beta": 1.2
                 },
                 "measure_duration": {
-                    "alpha": 0.00193,
-                    "beta": 1.23
+                    "alpha(%)": 0.27,
+                    "beta": 1.2
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": true,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

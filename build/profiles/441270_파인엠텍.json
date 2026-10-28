@@ -1,7 +1,7 @@
 {
     "key": "441270",
     "filename": "441270_파인엠텍",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "441270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 409.0,
-                "revenue_4qtrs": 298.0,
-                "opincome_4qtrs": 10.5,
+                "marcap": 420,
+                "revenue_ltm": 298,
+                "opincome_ltm": 10.5,
                 "revenue_qtr": 95.2,
                 "opincome_qtr": 7.33
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": true,
-                "slope": 0.567,
-                "growth_per_qtr": 0.216
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 0.57,
+                "growth(%)": 96
             },
             "opmargin": {
-                "25_4Q": -0.0317,
-                "26_1Q": -0.0478,
-                "26_2Q": 0.077,
-                "26_3Q": 0.077,
-                "4qtrs": 0.0353
+                "25_4Q(%)": -3.2,
+                "26_1Q(%)": -4.8,
+                "26_2Q(%)": 7.7,
+                "26_3Q(%)": 7.7,
+                "ltm(%)": 3.5
             },
             "PER": {
-                "PER_ltm": 38.9,
-                "PER_qx4": 14.0,
-                "PER_fwd": 11.7
+                "PER_ltm": 40,
+                "PER_qx4": 14.3,
+                "PER_fwd": 12
             },
             "volatility": {
-                "measure_to_base": 0.734,
-                "slope": 0.000185
+                "measure_to_base(%)": 92
             },
             "amount": {
-                "measure_to_base": 0.999,
-                "slope": 0.107
+                "measure_to_base(%)": 240
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000799,
-                    "beta": 0.818
+                    "alpha(%)": -0.0079,
+                    "beta": 0.82
                 },
                 "base_duration": {
-                    "alpha": 0.00164,
-                    "beta": 0.677
+                    "alpha(%)": 0.17,
+                    "beta": 0.68
                 },
                 "measure_duration": {
-                    "alpha": 0.0169,
-                    "beta": 0.805
+                    "alpha(%)": 1.6,
+                    "beta": 0.76
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "-",
+            "amount_level": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

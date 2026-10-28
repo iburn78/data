@@ -1,67 +1,65 @@
 {
     "key": "417200(B)",
     "filename": "417200(B)_알루미늄",
-    "updated": "2026-10-27 16:24",
-    "llm_research_updated": "2026-10-20 13:56",
+    "updated": "2026-10-28 16:35",
+    "llm_research_updated": "2026-10-28 16:33",
     "financials": {
         "meta": {
             "name": "LS머트리얼즈",
             "code": "417200",
             "segment_name": "알루미늄",
             "id": "B",
-            "updated": "2026-10-27 16:24",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 642.0,
-                "revenue_4qtrs": 149.0,
-                "opincome_4qtrs": 7.45,
-                "revenue_qtr": 41.0,
+                "marcap": 671,
+                "revenue_ltm": 149,
+                "opincome_ltm": 7.45,
+                "revenue_qtr": 41,
                 "opincome_qtr": 2.05
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 0.0662,
-                "growth_per_qtr": 0.0355
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 0.066,
+                "growth(%)": 4.1
             },
             "opmargin": {
-                "25_4Q": 0.05,
-                "26_1Q": 0.05,
-                "26_2Q": 0.05,
-                "26_3Q": 0.05,
-                "4qtrs": 0.05
+                "25_4Q(%)": 5,
+                "26_1Q(%)": 5,
+                "26_2Q(%)": 5,
+                "26_3Q(%)": 5,
+                "ltm(%)": 5
             },
             "PER": {
-                "PER_ltm": 86.2,
-                "PER_qx4": 78.2,
-                "PER_fwd": 72.4
+                "PER_ltm": 90.1,
+                "PER_qx4": 81.8,
+                "PER_fwd": 75.7
             },
             "volatility": {
-                "measure_to_base": 1.01,
-                "slope": -0.000124
+                "measure_to_base(%)": 130
             },
             "amount": {
-                "measure_to_base": 4.2,
-                "slope": -0.401
+                "measure_to_base(%)": 140
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00125,
-                    "beta": 0.956
+                    "alpha(%)": -0.12,
+                    "beta": 0.96
                 },
                 "base_duration": {
-                    "alpha": -0.00467,
-                    "beta": 0.767
+                    "alpha(%)": -0.58,
+                    "beta": 0.76
                 },
                 "measure_duration": {
-                    "alpha": 0.0118,
-                    "beta": 1.27
+                    "alpha(%)": 1.2,
+                    "beta": 1.2
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": true,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "Up",
+            "amount_level": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "unstable"
         }
     },
     "info_section": {

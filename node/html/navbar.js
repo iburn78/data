@@ -8,6 +8,7 @@
         ["profiles", "profiles", "/#profiles"],
         ["components", "components", "/#components"],
         ["valuechains", "valuechains", "/#valuechains"],
+        ["manual", "manual", "/#manual"],
     ]) {
         const link = document.createElement("a");
         link.className = "nav-link";

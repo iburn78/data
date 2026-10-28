@@ -1,67 +1,65 @@
 {
     "key": "402340",
     "filename": "402340_SK스퀘어",
-    "updated": "2026-10-27 16:19",
-    "llm_research_updated": "",
+    "updated": "2026-10-28 16:35",
+    "llm_research_updated": "2026-10-28 16:32",
     "financials": {
         "meta": {
             "name": "SK스퀘어",
             "code": "402340",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:19",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 101000.0,
-                "revenue_4qtrs": 1150.0,
-                "opincome_4qtrs": 49800.0,
-                "revenue_qtr": 329.0,
-                "opincome_qtr": 19200.0
+                "marcap": 111000,
+                "revenue_ltm": 1150,
+                "opincome_ltm": 49800,
+                "revenue_qtr": 329,
+                "opincome_qtr": 19200
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 1760.0,
-                "growth_per_qtr": 0.141
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 1800,
+                "growth(%)": 33
             },
             "opmargin": {
-                "25_4Q": 16.0,
-                "26_1Q": 27.6,
-                "26_2Q": 58.5,
-                "26_3Q": 58.5,
-                "4qtrs": 43.3
+                "25_4Q(%)": 1600,
+                "26_1Q(%)": 2800,
+                "26_2Q(%)": 5900,
+                "26_3Q(%)": 5900,
+                "ltm(%)": 4300
             },
             "PER": {
-                "PER_ltm": 2.03,
-                "PER_qx4": 1.32,
-                "PER_fwd": 1.07
+                "PER_ltm": 2.23,
+                "PER_qx4": 1.44,
+                "PER_fwd": 1.17
             },
             "volatility": {
-                "measure_to_base": 0.721,
-                "slope": -0.0000516
+                "measure_to_base(%)": 77
             },
             "amount": {
-                "measure_to_base": 1.11,
-                "slope": -10.3
+                "measure_to_base(%)": 50
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00158,
-                    "beta": 1.59
+                    "alpha(%)": 0.16,
+                    "beta": 1.6
                 },
                 "base_duration": {
-                    "alpha": 0.00332,
-                    "beta": 1.56
+                    "alpha(%)": 0.36,
+                    "beta": 1.6
                 },
                 "measure_duration": {
-                    "alpha": 0.000831,
-                    "beta": 1.67
+                    "alpha(%)": 0.54,
+                    "beta": 1.8
                 }
             }
         },
@@ -69,16 +67,16 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "-",
+            "amount_level": "Dn",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "A"
+            "category": "A",
+            "market_sentiment": "-"
         }
     },
     "info_section": {
         "reviewed": false,
-        "updated": "2026-10-27 09:52",
+        "updated": "2026-10-28 16:33",
         "search_theme": [
             "실적",
             "전망"
@@ -86,16 +84,16 @@
         "tags": "",
         "notes": "",
         "segments": [
-            "지주사업 (Semiconductor)",
+            "투자사업",
             "모빌리티사업",
-            "커머스사업",
-            "기타 지주사업"
+            "플랫폼사업",
+            "커머스사업"
         ],
         "revenue_share": [
-            0.9,
-            0.05,
-            0.04,
-            0.01
+            0.01,
+            0.4,
+            0.25,
+            0.34
         ],
         "opmargin": [
             null,
@@ -104,23 +102,23 @@
             null
         ],
         "trend": [
-            "Improving (Strong recovery)",
-            "Improving (Growth in data/solutions)",
-            "Improving (Reducing losses)",
-            "Stable"
+            "폭발적 성장(AI 및 HBM 수요 증가)",
+            "성장 및 수익성 개선 추세",
+            "소폭 적자 지속 및 정체",
+            "적자폭 감소 및 회복세"
         ],
         "create_segments": false,
         "key_products": [
-            "DRAM, NAND Flash",
-            "TMAP Navigation, Mobility Solutions",
-            "E-commerce Marketplace, Advertising",
-            "Brand Management, Investment"
+            "지분 관리,신규 투자(SK하이닉스 등)",
+            "내비게이션,데이터 및 AI 솔루션,물류 BPO",
+            "마케팅 플랫폼(OK캐쉬백,Syrup),앱마켓(원스토어)",
+            "전자상거래 오픈마켓"
         ],
         "competitors": [
-            "Samsung Electronics, Micron Technology",
-            "Kakao Mobility",
-            "Coupang, Naver Shopping",
-            "Other holding companies"
+            "글로벌 투자사,삼성전자",
+            "카카오모빌리티",
+            "구글 플레이스토어,삼성 갤럭시스토어",
+            "쿠팡,네이버쇼핑,알리익스프레스,테무"
         ]
     },
     "code": "402340",

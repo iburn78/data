@@ -1,7 +1,7 @@
 {
     "key": "005930",
     "filename": "005930_삼성전자",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:37",
     "llm_research_updated": "2026-10-19 09:04",
     "financials": {
         "meta": {
@@ -9,67 +9,65 @@
             "code": "005930",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:37",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1240000.0,
-                "revenue_4qtrs": 571000.0,
-                "opincome_4qtrs": 256000.0,
-                "revenue_qtr": 171000.0,
-                "opincome_qtr": 89500.0
+                "marcap": 1300000,
+                "revenue_ltm": 571000,
+                "opincome_ltm": 256000,
+                "revenue_qtr": 171000,
+                "opincome_qtr": 89500
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 8250.0,
-                "growth_per_qtr": 0.129
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 8200,
+                "growth(%)": 29
             },
             "opmargin": {
-                "25_4Q": 0.214,
-                "26_1Q": 0.428,
-                "26_2Q": 0.522,
-                "26_3Q": 0.522,
-                "4qtrs": 0.449
+                "25_4Q(%)": 21,
+                "26_1Q(%)": 43,
+                "26_2Q(%)": 52,
+                "26_3Q(%)": 52,
+                "ltm(%)": 45
             },
             "PER": {
-                "PER_ltm": 4.84,
-                "PER_qx4": 3.46,
-                "PER_fwd": 2.81
+                "PER_ltm": 5.08,
+                "PER_qx4": 3.63,
+                "PER_fwd": 2.95
             },
             "volatility": {
-                "measure_to_base": 0.666,
-                "slope": -0.0000658
+                "measure_to_base(%)": 74
             },
             "amount": {
-                "measure_to_base": 1.04,
-                "slope": -63.2
+                "measure_to_base(%)": 52
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00044,
-                    "beta": 1.22
+                    "alpha(%)": 0.044,
+                    "beta": 1.2
                 },
                 "base_duration": {
-                    "alpha": 0.00227,
-                    "beta": 1.32
+                    "alpha(%)": 0.23,
+                    "beta": 1.3
                 },
                 "measure_duration": {
-                    "alpha": 0.00309,
-                    "beta": 1.38
+                    "alpha(%)": 0.44,
+                    "beta": 1.4
                 }
             }
         },
@@ -77,11 +75,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Low",
-            "volatility_movement": "Dn",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "A"
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "A",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

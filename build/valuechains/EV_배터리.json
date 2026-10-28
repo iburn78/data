@@ -1,7 +1,7 @@
 {
     "key": "EV 배터리",
     "filename": "EV_배터리",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 11:42",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 185000.0,
-                "revenue_4qtrs": 130000.0,
-                "opincome_4qtrs": -558.0,
-                "revenue_qtr": 35400.0,
-                "opincome_qtr": 649.0
+                "marcap": 191000,
+                "revenue_ltm": 130000,
+                "opincome_ltm": -558,
+                "revenue_qtr": 35400,
+                "opincome_qtr": 649
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": true,
-                "slope": -6.02,
-                "growth_per_qtr": 0.0431
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": -6,
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": -0.0426,
-                "26_1Q": -0.0206,
-                "26_2Q": 0.0183,
-                "26_3Q": 0.0183,
-                "4qtrs": -0.00428
+                "25_4Q(%)": -4.3,
+                "26_1Q(%)": -2.1,
+                "26_2Q(%)": 1.8,
+                "26_3Q(%)": 1.8,
+                "ltm(%)": -0.43
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 71.3,
-                "PER_fwd": 73.0
+                "PER_qx4": 73.6,
+                "PER_fwd": 75.3
             },
             "volatility": {
-                "measure_to_base": 0.822,
-                "slope": -0.0000591
+                "measure_to_base(%)": 98
             },
             "amount": {
-                "measure_to_base": 1.67,
-                "slope": -8.26
+                "measure_to_base(%)": 93
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000478,
-                    "beta": 0.908
+                    "alpha(%)": 0.048,
+                    "beta": 0.91
                 },
                 "base_duration": {
-                    "alpha": -0.00211,
-                    "beta": 0.495
+                    "alpha(%)": -0.21,
+                    "beta": 0.5
                 },
                 "measure_duration": {
-                    "alpha": 0.00751,
-                    "beta": 0.649
+                    "alpha(%)": 0.64,
+                    "beta": 0.7
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "-",
+            "amount_level": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

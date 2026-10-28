@@ -1,7 +1,7 @@
 {
     "key": "메모리 기판",
     "filename": "메모리_기판",
-    "updated": "2026-10-27 16:19",
+    "updated": "2026-10-28 16:35",
     "llm_research_updated": "2026-10-21 09:48",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:19",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 95200.0,
-                "revenue_4qtrs": 19600.0,
-                "opincome_4qtrs": 2130.0,
-                "revenue_qtr": 5170.0,
-                "opincome_qtr": 664.0
+                "marcap": 104000,
+                "revenue_ltm": 19600,
+                "opincome_ltm": 2130,
+                "revenue_qtr": 5170,
+                "opincome_qtr": 664
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 42.6,
-                "growth_per_qtr": 0.0801
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 43,
+                "growth(%)": 12
             },
             "opmargin": {
-                "25_4Q": 0.0839,
-                "26_1Q": 0.0886,
-                "26_2Q": 0.128,
-                "26_3Q": 0.128,
-                "4qtrs": 0.109
+                "25_4Q(%)": 8.4,
+                "26_1Q(%)": 8.9,
+                "26_2Q(%)": 13,
+                "26_3Q(%)": 13,
+                "ltm(%)": 11
             },
             "PER": {
-                "PER_ltm": 44.7,
-                "PER_qx4": 35.9,
-                "PER_fwd": 30.9
+                "PER_ltm": 48.7,
+                "PER_qx4": 39,
+                "PER_fwd": 33.6
             },
             "volatility": {
-                "measure_to_base": 0.666,
-                "slope": -0.000123
+                "measure_to_base(%)": 73
             },
             "amount": {
-                "measure_to_base": 1.16,
-                "slope": -13.4
+                "measure_to_base(%)": 68
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000859,
-                    "beta": 1.25
+                    "alpha(%)": 0.088,
+                    "beta": 1.3
                 },
                 "base_duration": {
-                    "alpha": 0.00549,
-                    "beta": 1.28
+                    "alpha(%)": 0.6,
+                    "beta": 1.3
                 },
                 "measure_duration": {
-                    "alpha": 0.00507,
-                    "beta": 1.44
+                    "alpha(%)": 0.69,
+                    "beta": 1.6
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_movement": "Dn",
-            "amount_movement": "-",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "C"
+            "category": "C",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

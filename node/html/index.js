@@ -46,7 +46,7 @@ async function showProfilePlot() {
 
         const pointsByCoordinates = new Map();
         for (const point of points) {
-            const key = `${point.opmargin_4qtrs}\u0000${point.PER_ltm}`;
+            const key = `${point.opmargin_ltm}\u0000${point.PER_ltm}`;
             if (!pointsByCoordinates.has(key)) pointsByCoordinates.set(key, []);
             pointsByCoordinates.get(key).push(point);
         }
@@ -70,7 +70,7 @@ async function showProfilePlot() {
             });
         }
         const annotations = points.map(point => ({
-            x: point.opmargin_4qtrs,
+            x: point.opmargin_ltm,
             y: point.PER_ltm,
             xref: "x",
             yref: "y",
@@ -88,7 +88,7 @@ async function showProfilePlot() {
                 type: "scatter",
                 mode: "markers",
                 name: category,
-                x: categoryPoints.map(point => point.opmargin_4qtrs),
+                x: categoryPoints.map(point => point.opmargin_ltm),
                 y: categoryPoints.map(point => point.PER_ltm),
                 text: categoryPoints.map(point => point.label),
                 customdata: categoryPoints.map(point => [point.page_url, point.code]),
@@ -106,7 +106,7 @@ async function showProfilePlot() {
             margin: { t: 55, r: 25, b: 90, l: 95 },
             annotations,
             xaxis: {
-                title: { text: "X: Operating margin (4 quarters)", standoff: 14 },
+                title: { text: "X: Operating margin (LTM)", standoff: 14 },
                 tickformat: ".0%",
                 automargin: true,
             },
@@ -296,6 +296,27 @@ async function showFiles(section) {
     currentItems = await getItems(section);
 
     renderSection();
+}
+
+async function showManual() {
+    currentSection = "";
+    currentItems = [];
+    hideProfilePlot();
+    document.getElementById("file-list").replaceChildren();
+
+    const content = document.getElementById("content");
+    const article = document.createElement("article");
+    article.className = "manual-content";
+    article.textContent = "Loading manual…";
+    content.replaceChildren(article);
+
+    try {
+        const response = await fetch("/api/manual");
+        if (!response.ok) throw new Error("Could not load the manual.");
+        article.innerHTML = await response.text();
+    } catch (error) {
+        article.textContent = error.message || "Could not load the manual.";
+    }
 }
 
 
@@ -529,7 +550,17 @@ document.addEventListener("click", event => {
     if (!link) return;
 
     const section = link.dataset.section;
-    if (section === "QP" || !sections[section]) return;
+    if (section === "QP") return;
+
+    if (section === "manual") {
+        event.preventDefault();
+        history.pushState(null, "", "/#manual");
+        document.getElementById("search").value = "";
+        showManual();
+        return;
+    }
+
+    if (!sections[section]) return;
 
     event.preventDefault();
     history.pushState(null, "", "/#" + section);
@@ -588,8 +619,16 @@ document.getElementById("search").addEventListener("keydown", event => {
     if (query.startsWith("#")) return;
 
     showMainSearch(query).then(matches => {
-        if (matches === 1) {
-            document.querySelector("#file-list a")?.click();
+        const links = [...document.querySelectorAll("#file-list a")];
+        const normalizedQuery = query.toLowerCase().normalize("NFC");
+        const exactMatches = links.filter(link =>
+            link.textContent.trim().toLowerCase().normalize("NFC") === normalizedQuery
+        );
+
+        if (exactMatches.length === 1) {
+            exactMatches[0].click();
+        } else if (matches === 1) {
+            links[0]?.click();
         } else if (matches === 0) {
             getPublicCompanyProfile(query);
         }
@@ -604,7 +643,18 @@ document.addEventListener("keydown", event => {
         !event.target.matches("input, textarea, [contenteditable='true']")
     ) {
         event.preventDefault();
-        document.getElementById("search").focus();
+
+        const search = document.getElementById("search");
+        history.pushState(null, "", "/");
+        search.value = "";
+        currentSection = "";
+        currentItems = [];
+        searchRequest += 1;
+        lastTagSearchQuery = "";
+        hideProfilePlot();
+        document.getElementById("file-list").replaceChildren();
+        document.getElementById("content").replaceChildren();
+        search.focus();
     }
 });
 
@@ -617,7 +667,9 @@ document.addEventListener("DOMContentLoaded", () => {
 // Initial page
 const section = location.hash.slice(1);
 
-if (section && sections[section]) {
+if (section === "manual") {
+    showManual();
+} else if (section && sections[section]) {
     showFiles(section);
 }
 const initialQuery = new URLSearchParams(location.search).get("q");

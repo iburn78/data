@@ -1,7 +1,7 @@
 {
     "key": "336370",
     "filename": "336370_솔루스첨단소재",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,33 +9,33 @@
             "code": "336370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 560.0,
-                "revenue_4qtrs": 566.0,
-                "opincome_4qtrs": -87.3,
-                "revenue_qtr": 102.0,
+                "marcap": 565,
+                "revenue_ltm": 566,
+                "opincome_ltm": -87.3,
+                "revenue_qtr": 102,
                 "opincome_qtr": -21.7
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
+                "positive_ltm": false,
+                "higher(comp)": false,
                 "slope": -1.1,
-                "growth_per_qtr": 0.0502
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": -0.129,
-                "26_1Q": -0.115,
-                "26_2Q": -0.213,
-                "26_3Q": -0.213,
-                "4qtrs": -0.154
+                "25_4Q(%)": -13,
+                "26_1Q(%)": -11,
+                "26_2Q(%)": -21,
+                "26_3Q(%)": -21,
+                "ltm(%)": -15
             },
             "PER": {
                 "PER_ltm": null,
@@ -43,37 +43,35 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 1.25,
-                "slope": -0.000369
+                "measure_to_base(%)": 110
             },
             "amount": {
-                "measure_to_base": 1.84,
-                "slope": -0.0864
+                "measure_to_base(%)": 53
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000855,
-                    "beta": 0.987
+                    "alpha(%)": 0.084,
+                    "beta": 0.99
                 },
                 "base_duration": {
-                    "alpha": -0.00369,
-                    "beta": 0.669
+                    "alpha(%)": -0.34,
+                    "beta": 0.67
                 },
                 "measure_duration": {
-                    "alpha": 0.0216,
-                    "beta": 1.31
+                    "alpha(%)": 1.6,
+                    "beta": 1.2
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": true,
+            "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "-",
+            "amount_level": "Dn",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

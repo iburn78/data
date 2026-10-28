@@ -1,7 +1,7 @@
 {
     "key": "373220",
     "filename": "373220_LG에너지솔루션",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-20 10:41",
     "financials": {
         "meta": {
@@ -9,71 +9,69 @@
             "code": "373220",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 87900.0,
-                "revenue_4qtrs": 27800.0,
-                "opincome_4qtrs": -103.0,
-                "revenue_qtr": 7560.0,
-                "opincome_qtr": 113.0
+                "marcap": 89700,
+                "revenue_ltm": 27800,
+                "opincome_ltm": -103,
+                "revenue_qtr": 7560,
+                "opincome_qtr": 113
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": -18.9,
-                "growth_per_qtr": 0.734
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -19,
+                "growth(%)": -11
             },
             "opmargin": {
-                "25_4Q": -0.0199,
-                "26_1Q": -0.0317,
-                "26_2Q": 0.015,
-                "26_3Q": 0.015,
-                "4qtrs": -0.00371
+                "25_4Q(%)": -2,
+                "26_1Q(%)": -3.2,
+                "26_2Q(%)": 1.5,
+                "26_3Q(%)": 1.5,
+                "ltm(%)": -0.37
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 194.0,
-                "PER_fwd": 333.0
+                "PER_qx4": 198,
+                "PER_fwd": 340
             },
             "volatility": {
-                "measure_to_base": 0.802,
-                "slope": -0.000136
+                "measure_to_base(%)": 77
             },
             "amount": {
-                "measure_to_base": 1.49,
-                "slope": -0.953
+                "measure_to_base(%)": 110
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00036,
-                    "beta": 0.668
+                    "alpha(%)": -0.036,
+                    "beta": 0.67
                 },
                 "base_duration": {
-                    "alpha": -0.000796,
-                    "beta": 0.351
+                    "alpha(%)": -0.07,
+                    "beta": 0.35
                 },
                 "measure_duration": {
-                    "alpha": 0.00849,
-                    "beta": 0.353
+                    "alpha(%)": 0.75,
+                    "beta": 0.39
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": true,
+            "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "-",
+            "amount_level": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

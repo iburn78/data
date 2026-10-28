@@ -1,7 +1,7 @@
 {
     "key": "003670",
     "filename": "003670_포스코퓨처엠",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "003670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 13900.0,
-                "revenue_4qtrs": 2670.0,
-                "opincome_4qtrs": 19.3,
-                "revenue_qtr": 679.0,
+                "marcap": 14300,
+                "revenue_ltm": 2670,
+                "opincome_ltm": 19.3,
+                "revenue_qtr": 679,
                 "opincome_qtr": 26.7
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": 1.07,
-                "growth_per_qtr": 0.221
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 1.1,
+                "growth(%)": 11
             },
             "opmargin": {
-                "25_4Q": -0.0928,
-                "26_1Q": 0.0234,
-                "26_2Q": 0.0393,
-                "26_3Q": 0.0393,
-                "4qtrs": 0.00722
+                "25_4Q(%)": -9.3,
+                "26_1Q(%)": 2.3,
+                "26_2Q(%)": 3.9,
+                "26_3Q(%)": 3.9,
+                "ltm(%)": 0.72
             },
             "PER": {
-                "PER_ltm": 719.0,
-                "PER_qx4": 130.0,
-                "PER_fwd": 118.0
+                "PER_ltm": 739,
+                "PER_qx4": 134,
+                "PER_fwd": 122
             },
             "volatility": {
-                "measure_to_base": 0.876,
-                "slope": 0.0000381
+                "measure_to_base(%)": 100
             },
             "amount": {
-                "measure_to_base": 1.43,
-                "slope": -0.32
+                "measure_to_base(%)": 110
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00101,
-                    "beta": 1.03
+                    "alpha(%)": 0.1,
+                    "beta": 1
                 },
                 "base_duration": {
-                    "alpha": -0.00266,
-                    "beta": 0.603
+                    "alpha(%)": -0.25,
+                    "beta": 0.61
                 },
                 "measure_duration": {
-                    "alpha": 0.00608,
-                    "beta": 0.949
+                    "alpha(%)": 0.41,
+                    "beta": 0.97
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

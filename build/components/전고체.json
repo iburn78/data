@@ -1,7 +1,7 @@
 {
     "key": "전고체",
     "filename": "전고체",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 11:11",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1950.0,
-                "revenue_4qtrs": 9170.0,
-                "opincome_4qtrs": 550.0,
-                "revenue_qtr": 2530.0,
-                "opincome_qtr": 203.0
+                "marcap": 2000,
+                "revenue_ltm": 9170,
+                "opincome_ltm": 550,
+                "revenue_qtr": 2530,
+                "opincome_qtr": 203
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 9.81,
-                "growth_per_qtr": 0.0714
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 9.8,
+                "growth(%)": 10
             },
             "opmargin": {
-                "25_4Q": 0.0262,
-                "26_1Q": 0.0429,
-                "26_2Q": 0.0802,
-                "26_3Q": 0.0802,
-                "4qtrs": 0.0599
+                "25_4Q(%)": 2.6,
+                "26_1Q(%)": 4.3,
+                "26_2Q(%)": 8,
+                "26_3Q(%)": 8,
+                "ltm(%)": 6
             },
             "PER": {
-                "PER_ltm": 3.55,
-                "PER_qx4": 2.41,
-                "PER_fwd": 2.15
+                "PER_ltm": 3.65,
+                "PER_qx4": 2.47,
+                "PER_fwd": 2.21
             },
             "volatility": {
-                "measure_to_base": 0.85,
-                "slope": -0.000104
+                "measure_to_base(%)": 100
             },
             "amount": {
-                "measure_to_base": 2.39,
-                "slope": -0.234
+                "measure_to_base(%)": 84
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00285,
-                    "beta": 0.948
+                    "alpha(%)": 0.28,
+                    "beta": 0.95
                 },
                 "base_duration": {
-                    "alpha": -0.00566,
+                    "alpha(%)": -0.55,
                     "beta": 0.44
                 },
                 "measure_duration": {
-                    "alpha": 0.00286,
-                    "beta": 0.75
+                    "alpha(%)": 0.16,
+                    "beta": 0.79
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "A"
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "A",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

@@ -1,7 +1,7 @@
 {
     "key": "020150",
     "filename": "020150_롯데에너지머티리얼즈",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,33 +9,33 @@
             "code": "020150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2370.0,
-                "revenue_4qtrs": 719.0,
-                "opincome_4qtrs": -72.6,
-                "revenue_qtr": 194.0,
+                "marcap": 2340,
+                "revenue_ltm": 719,
+                "opincome_ltm": -72.6,
+                "revenue_qtr": 194,
                 "opincome_qtr": -16.9
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": -0.739,
-                "growth_per_qtr": 0.0407
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.74,
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": -0.198,
-                "26_1Q": -0.0312,
-                "26_2Q": -0.087,
-                "26_3Q": -0.087,
-                "4qtrs": -0.101
+                "25_4Q(%)": -20,
+                "26_1Q(%)": -3.1,
+                "26_2Q(%)": -8.7,
+                "26_3Q(%)": -8.7,
+                "ltm(%)": -10
             },
             "PER": {
                 "PER_ltm": null,
@@ -43,25 +43,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 1.03,
-                "slope": -0.0000207
+                "measure_to_base(%)": 110
             },
             "amount": {
-                "measure_to_base": 1.97,
-                "slope": -0.0736
+                "measure_to_base(%)": 180
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000541,
-                    "beta": 1.14
+                    "alpha(%)": 0.052,
+                    "beta": 1.1
                 },
                 "base_duration": {
-                    "alpha": -0.000486,
-                    "beta": 0.88
+                    "alpha(%)": -0.091,
+                    "beta": 0.87
                 },
                 "measure_duration": {
-                    "alpha": 0.0218,
-                    "beta": 0.964
+                    "alpha(%)": 1.4,
+                    "beta": 0.85
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "-",
+            "amount_level": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

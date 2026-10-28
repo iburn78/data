@@ -1,7 +1,7 @@
 {
     "key": "417200",
     "filename": "417200_LS머트리얼즈",
-    "updated": "2026-10-27 16:24",
+    "updated": "2026-10-28 16:35",
     "llm_research_updated": "2026-10-19 12:25",
     "financials": {
         "meta": {
@@ -9,67 +9,65 @@
             "code": "417200",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:19",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 802.0,
-                "revenue_4qtrs": 186.0,
-                "opincome_4qtrs": 1.03,
+                "marcap": 839,
+                "revenue_ltm": 186,
+                "opincome_ltm": 1.03,
                 "revenue_qtr": 51.3,
                 "opincome_qtr": 0.533
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": true,
-                "slope": -0.151,
-                "growth_per_qtr": -0.585
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": -0.15,
+                "growth(%)": -28
             },
             "opmargin": {
-                "25_4Q": 0.0275,
-                "26_1Q": -0.0267,
-                "26_2Q": 0.0104,
-                "26_3Q": 0.0104,
-                "4qtrs": 0.00555
+                "25_4Q(%)": 2.7,
+                "26_1Q(%)": -2.7,
+                "26_2Q(%)": 1,
+                "26_3Q(%)": 1,
+                "ltm(%)": 0.55
             },
             "PER": {
-                "PER_ltm": 777.0,
-                "PER_qx4": 376.0,
-                "PER_fwd": 1290.0
+                "PER_ltm": 812,
+                "PER_qx4": 394,
+                "PER_fwd": 1350
             },
             "volatility": {
-                "measure_to_base": 1.01,
-                "slope": -0.000124
+                "measure_to_base(%)": 130
             },
             "amount": {
-                "measure_to_base": 4.2,
-                "slope": -0.501
+                "measure_to_base(%)": 140
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00125,
-                    "beta": 0.956
+                    "alpha(%)": -0.12,
+                    "beta": 0.96
                 },
                 "base_duration": {
-                    "alpha": -0.00467,
-                    "beta": 0.767
+                    "alpha(%)": -0.58,
+                    "beta": 0.76
                 },
                 "measure_duration": {
-                    "alpha": 0.0118,
-                    "beta": 1.27
+                    "alpha(%)": 1.2,
+                    "beta": 1.2
                 }
             }
         },
@@ -77,11 +75,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "Up",
+            "amount_level": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "unstable"
         }
     },
     "info_section": {

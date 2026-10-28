@@ -1,7 +1,7 @@
 {
     "key": "066570",
     "filename": "066570_LG전자",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:37",
     "llm_research_updated": "2026-10-20 09:33",
     "financials": {
         "meta": {
@@ -9,67 +9,65 @@
             "code": "066570",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:37",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 25200.0,
-                "revenue_4qtrs": 95200.0,
-                "opincome_4qtrs": 4720.0,
-                "revenue_qtr": 23800.0,
-                "opincome_qtr": 1580.0
+                "marcap": 25600,
+                "revenue_ltm": 95200,
+                "opincome_ltm": 4720,
+                "revenue_qtr": 23800,
+                "opincome_qtr": 1580
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": true,
-                "slope": 40.5,
-                "growth_per_qtr": 0.0343
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 41,
+                "growth(%)": 4.2
             },
             "opmargin": {
-                "25_4Q": -0.00457,
-                "26_1Q": 0.0705,
-                "26_2Q": 0.0663,
-                "26_3Q": 0.0663,
-                "4qtrs": 0.0496
+                "25_4Q(%)": -0.46,
+                "26_1Q(%)": 7.1,
+                "26_2Q(%)": 6.6,
+                "26_3Q(%)": 6.6,
+                "ltm(%)": 5
             },
             "PER": {
-                "PER_ltm": 5.34,
-                "PER_qx4": 3.99,
-                "PER_fwd": 3.75
+                "PER_ltm": 5.43,
+                "PER_qx4": 4.06,
+                "PER_fwd": 3.81
             },
             "volatility": {
-                "measure_to_base": 1.02,
-                "slope": -0.000513
+                "measure_to_base(%)": 58
             },
             "amount": {
-                "measure_to_base": 1.15,
-                "slope": -8.49
+                "measure_to_base(%)": 30
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000323,
-                    "beta": 0.918
+                    "alpha(%)": 0.032,
+                    "beta": 0.92
                 },
                 "base_duration": {
-                    "alpha": 0.00392,
-                    "beta": 0.797
+                    "alpha(%)": 0.42,
+                    "beta": 0.8
                 },
                 "measure_duration": {
-                    "alpha": -0.00526,
-                    "beta": 0.764
+                    "alpha(%)": -0.72,
+                    "beta": 0.81
                 }
             }
         },
@@ -77,11 +75,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

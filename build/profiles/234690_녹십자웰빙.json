@@ -1,7 +1,7 @@
 {
     "key": "234690",
     "filename": "234690_녹십자웰빙",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-22 12:53",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "234690",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 194.0,
-                "revenue_4qtrs": 202.0,
-                "opincome_4qtrs": 17.0,
+                "marcap": 193,
+                "revenue_ltm": 202,
+                "opincome_ltm": 17,
                 "revenue_qtr": 52.1,
                 "opincome_qtr": 4.63
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": false,
-                "slope": 0.145,
-                "growth_per_qtr": 0.0342
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.14,
+                "growth(%)": 3.6
             },
             "opmargin": {
-                "25_4Q": 0.0589,
-                "26_1Q": 0.0982,
-                "26_2Q": 0.0889,
-                "26_3Q": 0.0889,
-                "4qtrs": 0.0839
+                "25_4Q(%)": 5.9,
+                "26_1Q(%)": 9.8,
+                "26_2Q(%)": 8.9,
+                "26_3Q(%)": 8.9,
+                "ltm(%)": 8.4
             },
             "PER": {
-                "PER_ltm": 11.5,
-                "PER_qx4": 10.5,
-                "PER_fwd": 9.73
+                "PER_ltm": 11.4,
+                "PER_qx4": 10.4,
+                "PER_fwd": 9.65
             },
             "volatility": {
-                "measure_to_base": 1.06,
-                "slope": 0.0000728
+                "measure_to_base(%)": 130
             },
             "amount": {
-                "measure_to_base": 0.742,
-                "slope": 0.0292
+                "measure_to_base(%)": 140
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000371,
-                    "beta": 0.621
+                    "alpha(%)": 0.0023,
+                    "beta": 0.62
                 },
                 "base_duration": {
-                    "alpha": -0.00115,
-                    "beta": 0.255
+                    "alpha(%)": -0.1,
+                    "beta": 0.25
                 },
                 "measure_duration": {
-                    "alpha": 0.0192,
-                    "beta": 0.625
+                    "alpha(%)": 1.4,
+                    "beta": 0.55
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "Mid",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "Up",
+            "amount_level": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "unstable"
         }
     },
     "info_section": {

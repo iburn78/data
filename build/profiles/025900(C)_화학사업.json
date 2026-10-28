@@ -1,7 +1,7 @@
 {
     "key": "025900(C)",
     "filename": "025900(C)_화학사업",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-22 13:22",
     "financials": {
         "meta": {
@@ -9,33 +9,33 @@
             "code": "025900",
             "segment_name": "화학사업",
             "id": "C",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 63.8,
-                "revenue_4qtrs": 199.0,
-                "opincome_4qtrs": -12.0,
+                "marcap": 64.3,
+                "revenue_ltm": 199,
+                "opincome_ltm": -12,
                 "revenue_qtr": 51.4,
                 "opincome_qtr": -3.08
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": 0.000407,
-                "growth_per_qtr": -0.000136
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.00041,
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": -0.06,
-                "26_1Q": -0.06,
-                "26_2Q": -0.06,
-                "26_3Q": -0.06,
-                "4qtrs": -0.06
+                "25_4Q(%)": -6,
+                "26_1Q(%)": -6,
+                "26_2Q(%)": -6,
+                "26_3Q(%)": -6,
+                "ltm(%)": -6
             },
             "PER": {
                 "PER_ltm": null,
@@ -43,25 +43,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.641,
-                "slope": 0.0000361
+                "measure_to_base(%)": 82
             },
             "amount": {
-                "measure_to_base": 0.816,
-                "slope": -0.00208
+                "measure_to_base(%)": 41
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000102,
-                    "beta": 0.903
+                    "alpha(%)": -0.011,
+                    "beta": 0.9
                 },
                 "base_duration": {
-                    "alpha": -0.00446,
+                    "alpha(%)": -0.47,
                     "beta": 0.5
                 },
                 "measure_duration": {
-                    "alpha": 0.00171,
-                    "beta": 0.722
+                    "alpha(%)": -0.12,
+                    "beta": 0.72
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "Dn",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

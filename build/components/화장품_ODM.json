@@ -1,7 +1,7 @@
 {
     "key": "화장품 ODM",
     "filename": "화장품_ODM",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:37",
     "llm_research_updated": "2026-10-23 14:22",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:37",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 5720.0,
-                "revenue_4qtrs": 5980.0,
-                "opincome_4qtrs": 589.0,
-                "revenue_qtr": 1660.0,
-                "opincome_qtr": 184.0
+                "marcap": 5750,
+                "revenue_ltm": 5980,
+                "opincome_ltm": 589,
+                "revenue_qtr": 1660,
+                "opincome_qtr": 184
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
+                "positive_ltm": true,
+                "higher(comp)": true,
                 "slope": 8.3,
-                "growth_per_qtr": 0.0564
+                "growth(%)": 7
             },
             "opmargin": {
-                "25_4Q": 0.0706,
-                "26_1Q": 0.0936,
-                "26_2Q": 0.111,
-                "26_3Q": 0.111,
-                "4qtrs": 0.0985
+                "25_4Q(%)": 7.1,
+                "26_1Q(%)": 9.4,
+                "26_2Q(%)": 11,
+                "26_3Q(%)": 11,
+                "ltm(%)": 9.8
             },
             "PER": {
-                "PER_ltm": 9.72,
-                "PER_qx4": 7.77,
-                "PER_fwd": 6.98
+                "PER_ltm": 9.76,
+                "PER_qx4": 7.8,
+                "PER_fwd": 7.01
             },
             "volatility": {
-                "measure_to_base": 0.675,
-                "slope": 0.0000679
+                "measure_to_base(%)": 97
             },
             "amount": {
-                "measure_to_base": 0.764,
-                "slope": 0.387
+                "measure_to_base(%)": 98
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000168,
-                    "beta": 0.521
+                    "alpha(%)": 0.016,
+                    "beta": 0.52
                 },
                 "base_duration": {
-                    "alpha": 0.00257,
-                    "beta": 0.143
+                    "alpha(%)": 0.26,
+                    "beta": 0.14
                 },
                 "measure_duration": {
-                    "alpha": -0.00199,
-                    "beta": 0.343
+                    "alpha(%)": -0.3,
+                    "beta": 0.35
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Mid",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "udr_pfm",
-            "market_sentiment": "-",
-            "category": "B"
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "B",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

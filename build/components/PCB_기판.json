@@ -1,7 +1,7 @@
 {
     "key": "PCB 기판",
     "filename": "PCB_기판",
-    "updated": "2026-10-27 16:19",
+    "updated": "2026-10-28 16:35",
     "llm_research_updated": "2026-10-21 09:50",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:19",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 6020.0,
-                "revenue_4qtrs": 1400.0,
-                "opincome_4qtrs": 278.0,
-                "revenue_qtr": 380.0,
+                "marcap": 6540,
+                "revenue_ltm": 1400,
+                "opincome_ltm": 278,
+                "revenue_qtr": 380,
                 "opincome_qtr": 77.1
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 6.05,
-                "growth_per_qtr": 0.0871
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 6,
+                "growth(%)": 13
             },
             "opmargin": {
-                "25_4Q": 0.19,
-                "26_1Q": 0.198,
-                "26_2Q": 0.203,
-                "26_3Q": 0.203,
-                "4qtrs": 0.199
+                "25_4Q(%)": 19,
+                "26_1Q(%)": 20,
+                "26_2Q(%)": 20,
+                "26_3Q(%)": 20,
+                "ltm(%)": 20
             },
             "PER": {
-                "PER_ltm": 21.7,
-                "PER_qx4": 19.5,
-                "PER_fwd": 16.3
+                "PER_ltm": 23.5,
+                "PER_qx4": 21.2,
+                "PER_fwd": 17.7
             },
             "volatility": {
-                "measure_to_base": 0.852,
-                "slope": -0.000121
+                "measure_to_base(%)": 110
             },
             "amount": {
-                "measure_to_base": 1.57,
-                "slope": -1.05
+                "measure_to_base(%)": 77
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00132,
-                    "beta": 1.25
+                    "alpha(%)": 0.13,
+                    "beta": 1.3
                 },
                 "base_duration": {
-                    "alpha": -0.00247,
-                    "beta": 0.941
+                    "alpha(%)": -0.17,
+                    "beta": 0.95
                 },
                 "measure_duration": {
-                    "alpha": -0.00213,
-                    "beta": 1.22
+                    "alpha(%)": 0.29,
+                    "beta": 1.3
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
-            "alpha_level": "udr_pfm",
-            "market_sentiment": "-",
-            "category": "C"
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "C",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

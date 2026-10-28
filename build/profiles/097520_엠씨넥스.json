@@ -1,7 +1,7 @@
 {
     "key": "097520",
     "filename": "097520_엠씨넥스",
-    "updated": "2026-10-27 16:20",
+    "updated": "2026-10-28 16:35",
     "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
@@ -9,71 +9,69 @@
             "code": "097520",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:20",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 323.0,
-                "revenue_4qtrs": 1190.0,
-                "opincome_4qtrs": 24.0,
-                "revenue_qtr": 295.0,
+                "marcap": 366,
+                "revenue_ltm": 1190,
+                "opincome_ltm": 24,
+                "revenue_qtr": 295,
                 "opincome_qtr": 2.19
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": false,
-                "slope": -0.878,
-                "growth_per_qtr": -0.146
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": -0.88,
+                "growth(%)": -8.6
             },
             "opmargin": {
-                "25_4Q": 0.0273,
-                "26_1Q": 0.0376,
-                "26_2Q": 0.00742,
-                "26_3Q": 0.00742,
-                "4qtrs": 0.0201
+                "25_4Q(%)": 2.7,
+                "26_1Q(%)": 3.8,
+                "26_2Q(%)": 0.74,
+                "26_3Q(%)": 0.74,
+                "ltm(%)": 2
             },
             "PER": {
-                "PER_ltm": 13.4,
-                "PER_qx4": 36.9,
+                "PER_ltm": 15.3,
+                "PER_qx4": 41.9,
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.767,
-                "slope": -0.000109
+                "measure_to_base(%)": 100
             },
             "amount": {
-                "measure_to_base": 1.41,
-                "slope": -0.0121
+                "measure_to_base(%)": 110
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000301,
-                    "beta": 0.819
+                    "alpha(%)": 0.00085,
+                    "beta": 0.82
                 },
                 "base_duration": {
-                    "alpha": -0.0013,
-                    "beta": 0.416
+                    "alpha(%)": -0.02,
+                    "beta": 0.44
                 },
                 "measure_duration": {
-                    "alpha": 0.00906,
-                    "beta": 0.626
+                    "alpha(%)": 1.7,
+                    "beta": 0.94
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Mid",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

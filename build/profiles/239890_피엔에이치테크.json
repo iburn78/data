@@ -1,7 +1,7 @@
 {
     "key": "239890",
     "filename": "239890_피엔에이치테크",
-    "updated": "2026-10-27 16:20",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "239890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:20",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 31.2,
-                "revenue_4qtrs": 27.6,
-                "opincome_4qtrs": 2.25,
+                "marcap": 32.2,
+                "revenue_ltm": 27.6,
+                "opincome_ltm": 2.25,
                 "revenue_qtr": 6.96,
                 "opincome_qtr": 0.157
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": false,
-                "slope": -0.0462,
-                "growth_per_qtr": -0.0821
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": -0.046,
+                "growth(%)": -7.6
             },
             "opmargin": {
-                "25_4Q": 0.141,
-                "26_1Q": 0.141,
-                "26_2Q": 0.0225,
-                "26_3Q": 0.0225,
-                "4qtrs": 0.0815
+                "25_4Q(%)": 14,
+                "26_1Q(%)": 14,
+                "26_2Q(%)": 2.2,
+                "26_3Q(%)": 2.2,
+                "ltm(%)": 8.1
             },
             "PER": {
-                "PER_ltm": 13.9,
-                "PER_qx4": 49.9,
-                "PER_fwd": 190.0
+                "PER_ltm": 14.3,
+                "PER_qx4": 51.4,
+                "PER_fwd": 196
             },
             "volatility": {
-                "measure_to_base": 0.805,
-                "slope": -0.000177
+                "measure_to_base(%)": 62
             },
             "amount": {
-                "measure_to_base": 0.988,
-                "slope": -0.00445
+                "measure_to_base(%)": 26
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.0000336,
-                    "beta": 0.584
+                    "alpha(%)": -0.0029,
+                    "beta": 0.58
                 },
                 "base_duration": {
-                    "alpha": -0.00491,
-                    "beta": 0.562
+                    "alpha(%)": -0.45,
+                    "beta": 0.57
                 },
                 "measure_duration": {
-                    "alpha": 0.000226,
-                    "beta": 0.448
+                    "alpha(%)": 0.06,
+                    "beta": 0.52
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
             "alpha_level": "-",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

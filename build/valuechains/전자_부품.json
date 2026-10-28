@@ -1,7 +1,7 @@
 {
     "key": "전자 부품",
     "filename": "전자_부품",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 93200.0,
-                "revenue_4qtrs": 38200.0,
-                "opincome_4qtrs": 2540.0,
-                "revenue_qtr": 9390.0,
-                "opincome_qtr": 698.0
+                "marcap": 101000,
+                "revenue_ltm": 38200,
+                "opincome_ltm": 2540,
+                "revenue_qtr": 9390,
+                "opincome_qtr": 698
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 21.7,
-                "growth_per_qtr": 0.0342
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 22,
+                "growth(%)": 4
             },
             "opmargin": {
-                "25_4Q": 0.0561,
-                "26_1Q": 0.062,
-                "26_2Q": 0.0743,
-                "26_3Q": 0.0743,
-                "4qtrs": 0.0664
+                "25_4Q(%)": 5.6,
+                "26_1Q(%)": 6.2,
+                "26_2Q(%)": 7.4,
+                "26_3Q(%)": 7.4,
+                "ltm(%)": 6.6
             },
             "PER": {
-                "PER_ltm": 36.7,
-                "PER_qx4": 33.4,
-                "PER_fwd": 31.0
+                "PER_ltm": 39.7,
+                "PER_qx4": 36.1,
+                "PER_fwd": 33.5
             },
             "volatility": {
-                "measure_to_base": 0.677,
-                "slope": -0.000129
+                "measure_to_base(%)": 75
             },
             "amount": {
-                "measure_to_base": 1.19,
-                "slope": -16.5
+                "measure_to_base(%)": 57
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000613,
-                    "beta": 1.21
+                    "alpha(%)": 0.063,
+                    "beta": 1.2
                 },
                 "base_duration": {
-                    "alpha": 0.00475,
-                    "beta": 1.26
+                    "alpha(%)": 0.53,
+                    "beta": 1.3
                 },
                 "measure_duration": {
-                    "alpha": 0.00403,
-                    "beta": 1.42
+                    "alpha(%)": 0.52,
+                    "beta": 1.6
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": true,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "-",
+            "amount_level": "Dn",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

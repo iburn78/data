@@ -1,7 +1,7 @@
 {
     "key": "361610",
     "filename": "361610_SK아이이테크놀로지",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-20 16:01",
     "financials": {
         "meta": {
@@ -9,33 +9,33 @@
             "code": "361610",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1280.0,
-                "revenue_4qtrs": 157.0,
-                "opincome_4qtrs": -276.0,
+                "marcap": 1300,
+                "revenue_ltm": 157,
+                "opincome_ltm": -276,
                 "revenue_qtr": 39.5,
                 "opincome_qtr": -63.4
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": 0.497,
-                "growth_per_qtr": -0.0072
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.5,
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": -1.81,
-                "26_1Q": -2.04,
-                "26_2Q": -1.61,
-                "26_3Q": -1.61,
-                "4qtrs": -1.76
+                "25_4Q(%)": -180,
+                "26_1Q(%)": -200,
+                "26_2Q(%)": -160,
+                "26_3Q(%)": -160,
+                "ltm(%)": -180
             },
             "PER": {
                 "PER_ltm": null,
@@ -43,25 +43,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.734,
-                "slope": 0.000134
+                "measure_to_base(%)": 100
             },
             "amount": {
-                "measure_to_base": 0.724,
-                "slope": 0.0452
+                "measure_to_base(%)": 90
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.00152,
-                    "beta": 0.818
+                    "alpha(%)": -0.15,
+                    "beta": 0.82
                 },
                 "base_duration": {
-                    "alpha": -0.00265,
-                    "beta": 0.326
+                    "alpha(%)": -0.27,
+                    "beta": 0.33
                 },
                 "measure_duration": {
-                    "alpha": 0.00469,
-                    "beta": 0.642
+                    "alpha(%)": 0.14,
+                    "beta": 0.71
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

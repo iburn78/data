@@ -1,7 +1,7 @@
 {
     "key": "348370",
     "filename": "348370_엔켐",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 11:32",
     "financials": {
         "meta": {
@@ -9,33 +9,33 @@
             "code": "348370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 379.0,
-                "revenue_4qtrs": 379.0,
-                "opincome_4qtrs": -76.6,
-                "revenue_qtr": 102.0,
+                "marcap": 388,
+                "revenue_ltm": 379,
+                "opincome_ltm": -76.6,
+                "revenue_qtr": 102,
                 "opincome_qtr": -11.6
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": -0.936,
-                "growth_per_qtr": 0.0488
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.94,
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": -0.324,
-                "26_1Q": -0.288,
-                "26_2Q": -0.113,
-                "26_3Q": -0.113,
-                "4qtrs": -0.202
+                "25_4Q(%)": -32,
+                "26_1Q(%)": -29,
+                "26_2Q(%)": -11,
+                "26_3Q(%)": -11,
+                "ltm(%)": -20
             },
             "PER": {
                 "PER_ltm": null,
@@ -43,25 +43,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base": 0.647,
-                "slope": 0.0000202
+                "measure_to_base(%)": 81
             },
             "amount": {
-                "measure_to_base": 0.938,
-                "slope": -0.0375
+                "measure_to_base(%)": 61
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000466,
-                    "beta": 0.959
+                    "alpha(%)": -0.047,
+                    "beta": 0.96
                 },
                 "base_duration": {
-                    "alpha": -0.00551,
-                    "beta": 0.685
+                    "alpha(%)": -0.54,
+                    "beta": 0.69
                 },
                 "measure_duration": {
-                    "alpha": 0.0085,
-                    "beta": 1.16
+                    "alpha(%)": 0.5,
+                    "beta": 1.2
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_movement": "Dn",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

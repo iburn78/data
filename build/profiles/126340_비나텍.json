@@ -1,7 +1,7 @@
 {
     "key": "126340",
     "filename": "126340_비나텍",
-    "updated": "2026-10-27 16:19",
+    "updated": "2026-10-28 16:35",
     "llm_research_updated": "2026-10-19 12:23",
     "financials": {
         "meta": {
@@ -9,71 +9,69 @@
             "code": "126340",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:19",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 744.0,
-                "revenue_4qtrs": 119.0,
-                "opincome_4qtrs": 0.12,
+                "marcap": 798,
+                "revenue_ltm": 119,
+                "opincome_ltm": 0.12,
                 "revenue_qtr": 35.4,
                 "opincome_qtr": 0.498
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": 0.201,
-                "growth_per_qtr": 6.69
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.2,
+                "growth(%)": null
             },
             "opmargin": {
-                "25_4Q": 0.029,
-                "26_1Q": -0.0605,
-                "26_2Q": 0.0141,
-                "26_3Q": 0.0141,
-                "4qtrs": 0.00101
+                "25_4Q(%)": 2.9,
+                "26_1Q(%)": -6.1,
+                "26_2Q(%)": 1.4,
+                "26_3Q(%)": 1.4,
+                "ltm(%)": 0.1
             },
             "PER": {
-                "PER_ltm": 6180.0,
-                "PER_qx4": 374.0,
-                "PER_fwd": 186.0
+                "PER_ltm": 6640,
+                "PER_qx4": 401,
+                "PER_fwd": 199
             },
             "volatility": {
-                "measure_to_base": 0.886,
-                "slope": -0.000232
+                "measure_to_base(%)": 99
             },
             "amount": {
-                "measure_to_base": 2.16,
-                "slope": -0.131
+                "measure_to_base(%)": 140
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.00202,
-                    "beta": 0.875
+                    "alpha(%)": 0.2,
+                    "beta": 0.88
                 },
                 "base_duration": {
-                    "alpha": 0.00177,
-                    "beta": 0.994
+                    "alpha(%)": -0.033,
+                    "beta": 0.99
                 },
                 "measure_duration": {
-                    "alpha": 0.0275,
-                    "beta": 1.13
+                    "alpha(%)": 3,
+                    "beta": 1.1
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": true,
+            "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "-",
+            "amount_level": "Up",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

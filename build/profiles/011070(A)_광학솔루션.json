@@ -1,7 +1,7 @@
 {
     "key": "011070(A)",
     "filename": "011070(A)_광학솔루션",
-    "updated": "2026-10-27 16:20",
+    "updated": "2026-10-28 16:35",
     "llm_research_updated": "2026-10-19 16:36",
     "financials": {
         "meta": {
@@ -9,71 +9,69 @@
             "code": "011070",
             "segment_name": "광학솔루션",
             "id": "A",
-            "updated": "2026-10-27 16:20",
+            "updated": "2026-10-28 16:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 7130.0,
-                "revenue_4qtrs": 20100.0,
-                "opincome_4qtrs": 904.0,
-                "revenue_qtr": 4590.0,
-                "opincome_qtr": 206.0
+                "marcap": 7310,
+                "revenue_ltm": 20100,
+                "opincome_ltm": 904,
+                "revenue_qtr": 4590,
+                "opincome_qtr": 206
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 3.99,
-                "growth_per_qtr": 0.0177
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 4,
+                "growth(%)": 2
             },
             "opmargin": {
-                "25_4Q": 0.045,
-                "26_1Q": 0.045,
-                "26_2Q": 0.045,
-                "26_3Q": 0.045,
-                "4qtrs": 0.045
+                "25_4Q(%)": 4.5,
+                "26_1Q(%)": 4.5,
+                "26_2Q(%)": 4.5,
+                "26_3Q(%)": 4.5,
+                "ltm(%)": 4.5
             },
             "PER": {
-                "PER_ltm": 7.89,
-                "PER_qx4": 8.64,
-                "PER_fwd": 8.24
+                "PER_ltm": 8.08,
+                "PER_qx4": 8.85,
+                "PER_fwd": 8.44
             },
             "volatility": {
-                "measure_to_base": 0.914,
-                "slope": -0.000198
+                "measure_to_base(%)": 94
             },
             "amount": {
-                "measure_to_base": 1.4,
-                "slope": -3.73
+                "measure_to_base(%)": 38
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000418,
-                    "beta": 1.18
+                    "alpha(%)": 0.041,
+                    "beta": 1.2
                 },
                 "base_duration": {
-                    "alpha": -0.000555,
-                    "beta": 1.09
+                    "alpha(%)": -0.078,
+                    "beta": 1.1
                 },
                 "measure_duration": {
-                    "alpha": -0.00314,
-                    "beta": 1.16
+                    "alpha(%)": -0.81,
+                    "beta": 1.3
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": false,
-            "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "PER_level": "Mid",
+            "volatility_level": "-",
+            "amount_level": "Dn",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

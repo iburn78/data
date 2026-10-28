@@ -1,7 +1,7 @@
 {
     "key": "068270",
     "filename": "068270_셀트리온",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:37",
     "llm_research_updated": "2026-10-22 16:26",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "068270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:37",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 43900.0,
-                "revenue_4qtrs": 5260.0,
-                "opincome_4qtrs": 1700.0,
-                "revenue_qtr": 1390.0,
-                "opincome_qtr": 452.0
+                "marcap": 43600,
+                "revenue_ltm": 5260,
+                "opincome_ltm": 1700,
+                "revenue_qtr": 1390,
+                "opincome_qtr": 452
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 43.2,
-                "growth_per_qtr": 0.102
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 43,
+                "growth(%)": 16
             },
             "opmargin": {
-                "25_4Q": 0.357,
-                "26_1Q": 0.281,
-                "26_2Q": 0.324,
-                "26_3Q": 0.324,
-                "4qtrs": 0.323
+                "25_4Q(%)": 36,
+                "26_1Q(%)": 28,
+                "26_2Q(%)": 32,
+                "26_3Q(%)": 32,
+                "ltm(%)": 32
             },
             "PER": {
-                "PER_ltm": 25.8,
-                "PER_qx4": 24.3,
-                "PER_fwd": 19.6
+                "PER_ltm": 25.7,
+                "PER_qx4": 24.1,
+                "PER_fwd": 19.5
             },
             "volatility": {
-                "measure_to_base": 0.858,
-                "slope": -0.000131
+                "measure_to_base(%)": 64
             },
             "amount": {
-                "measure_to_base": 1.06,
-                "slope": -0.493
+                "measure_to_base(%)": 81
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000469,
-                    "beta": 0.602
+                    "alpha(%)": 0.046,
+                    "beta": 0.6
                 },
                 "base_duration": {
-                    "alpha": 0.0000824,
-                    "beta": 0.159
+                    "alpha(%)": 0.011,
+                    "beta": 0.16
                 },
                 "measure_duration": {
-                    "alpha": 0.00769,
-                    "beta": 0.326
+                    "alpha(%)": 0.57,
+                    "beta": 0.26
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "Dn",
+            "amount_level": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "C"
+            "category": "C",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

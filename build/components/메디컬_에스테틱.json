@@ -1,7 +1,7 @@
 {
     "key": "메디컬 에스테틱",
     "filename": "메디컬_에스테틱",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-23 14:33",
     "financials": {
         "meta": {
@@ -9,70 +9,68 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 5710.0,
-                "revenue_4qtrs": 1880.0,
-                "opincome_4qtrs": 538.0,
-                "revenue_qtr": 508.0,
-                "opincome_qtr": 146.0
+                "marcap": 5820,
+                "revenue_ltm": 1880,
+                "opincome_ltm": 538,
+                "revenue_qtr": 508,
+                "opincome_qtr": 146
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 6.35,
-                "growth_per_qtr": 0.0471
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 6.3,
+                "growth(%)": 5.4
             },
             "opmargin": {
-                "25_4Q": 0.277,
-                "26_1Q": 0.292,
-                "26_2Q": 0.287,
-                "26_3Q": 0.287,
-                "4qtrs": 0.286
+                "25_4Q(%)": 28,
+                "26_1Q(%)": 29,
+                "26_2Q(%)": 29,
+                "26_3Q(%)": 29,
+                "ltm(%)": 29
             },
             "PER": {
-                "PER_ltm": 10.6,
-                "PER_qx4": 9.78,
-                "PER_fwd": 8.82
+                "PER_ltm": 10.8,
+                "PER_qx4": 9.97,
+                "PER_fwd": 8.99
             },
             "volatility": {
-                "measure_to_base": 0.684,
-                "slope": -0.0000694
+                "measure_to_base(%)": 72
             },
             "amount": {
-                "measure_to_base": 0.689,
-                "slope": -0.159
+                "measure_to_base(%)": 58
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.0000177,
-                    "beta": 0.631
+                    "alpha(%)": 0.0017,
+                    "beta": 0.63
                 },
                 "base_duration": {
-                    "alpha": -0.00255,
-                    "beta": 0.189
+                    "alpha(%)": -0.24,
+                    "beta": 0.19
                 },
                 "measure_duration": {
-                    "alpha": -0.00182,
-                    "beta": 0.587
+                    "alpha(%)": -0.21,
+                    "beta": 0.61
                 },
-                "ind_plot_period": {
-                    "alpha": null,
+                "indplot_period": {
+                    "alpha(%)": null,
                     "beta": null
                 }
             }
@@ -81,11 +79,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Mid",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "udr_pfm",
-            "market_sentiment": "-",
-            "category": "B"
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "B",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

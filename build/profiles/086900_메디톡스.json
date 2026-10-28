@@ -1,7 +1,7 @@
 {
     "key": "086900",
     "filename": "086900_메디톡스",
-    "updated": "2026-10-27 16:22",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-22 15:31",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "086900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:22",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 484.0,
-                "revenue_4qtrs": 259.0,
-                "opincome_4qtrs": 13.2,
+                "marcap": 489,
+                "revenue_ltm": 259,
+                "opincome_ltm": 13.2,
                 "revenue_qtr": 68.7,
                 "opincome_qtr": 4.76
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": false,
-                "slope": -0.105,
-                "growth_per_qtr": -0.0317
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.1,
+                "growth(%)": -2.1
             },
             "opmargin": {
-                "25_4Q": -0.0608,
-                "26_1Q": 0.121,
-                "26_2Q": 0.0694,
-                "26_3Q": 0.0694,
-                "4qtrs": 0.0511
+                "25_4Q(%)": -6.1,
+                "26_1Q(%)": 12,
+                "26_2Q(%)": 6.9,
+                "26_3Q(%)": 6.9,
+                "ltm(%)": 5.1
             },
             "PER": {
-                "PER_ltm": 36.6,
-                "PER_qx4": 25.4,
-                "PER_fwd": 26.9
+                "PER_ltm": 37,
+                "PER_qx4": 25.7,
+                "PER_fwd": 27.2
             },
             "volatility": {
-                "measure_to_base": 0.624,
-                "slope": -0.0000955
+                "measure_to_base(%)": 62
             },
             "amount": {
-                "measure_to_base": 1.04,
-                "slope": -0.0509
+                "measure_to_base(%)": 28
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000375,
-                    "beta": 0.615
+                    "alpha(%)": -0.038,
+                    "beta": 0.62
                 },
                 "base_duration": {
-                    "alpha": -0.00336,
-                    "beta": 0.224
+                    "alpha(%)": -0.34,
+                    "beta": 0.22
                 },
                 "measure_duration": {
-                    "alpha": 0.0038,
-                    "beta": 0.333
+                    "alpha(%)": 0.26,
+                    "beta": 0.35
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "Dn",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

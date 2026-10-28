@@ -84,6 +84,7 @@ const DIRS = {
     components: path.join(ROOT, "build", "components"),
     valuechains: path.join(ROOT, "build", "valuechains"),
 };
+const MANUAL_PATH = path.join(__dirname, "../../build/analysis/manual.md");
 
 let profilePlotCache = { signature: null, payload: null };
 let profilePlotRequest = null;
@@ -455,6 +456,26 @@ app.get("/api/mp-plot", (req, res) => {
             console.error("Could not read MP plot output:", parseError);
             res.status(500).json({ error: "Could not read MP plot output." });
         }
+    });
+});
+
+app.get("/api/manual", (req, res) => {
+    const renderMarkdown = [
+        "from pathlib import Path",
+        "from markdown_it import MarkdownIt",
+        "import sys",
+        "print(MarkdownIt('default').enable('table').render(Path(sys.argv[1]).read_text(encoding='utf-8')))"
+    ].join("; ");
+
+    execFile(PYTHON, ["-c", renderMarkdown, MANUAL_PATH], {
+        encoding: "utf8",
+        maxBuffer: 2 * 1024 * 1024,
+    }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not render manual:", stderr || error);
+            return res.status(500).type("text/plain").send("Could not load the manual.");
+        }
+        res.type("html").send(stdout);
     });
 });
 

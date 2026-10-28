@@ -1,7 +1,7 @@
 {
     "key": "148150",
     "filename": "148150_세경하이테크",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "148150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:20",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 116.0,
-                "revenue_4qtrs": 304.0,
-                "opincome_4qtrs": 5.0,
+                "marcap": 115,
+                "revenue_ltm": 304,
+                "opincome_ltm": 5,
                 "revenue_qtr": 86.3,
                 "opincome_qtr": 3.33
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": true,
+                "positive_ltm": false,
+                "higher(comp)": true,
                 "slope": -0.86,
-                "growth_per_qtr": -0.688
+                "growth(%)": -25
             },
             "opmargin": {
-                "25_4Q": 0.00726,
-                "26_1Q": -0.0355,
-                "26_2Q": 0.0385,
-                "26_3Q": 0.0385,
-                "4qtrs": 0.0164
+                "25_4Q(%)": 0.73,
+                "26_1Q(%)": -3.6,
+                "26_2Q(%)": 3.9,
+                "26_3Q(%)": 3.9,
+                "ltm(%)": 1.6
             },
             "PER": {
-                "PER_ltm": 23.2,
-                "PER_qx4": 8.72,
-                "PER_fwd": 24.7
+                "PER_ltm": 23,
+                "PER_qx4": 8.64,
+                "PER_fwd": 24.5
             },
             "volatility": {
-                "measure_to_base": 0.731,
-                "slope": 8.13e-6
+                "measure_to_base(%)": 86
             },
             "amount": {
-                "measure_to_base": 1.06,
-                "slope": -0.00316
+                "measure_to_base(%)": 56
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000273,
-                    "beta": 0.832
+                    "alpha(%)": -0.029,
+                    "beta": 0.83
                 },
                 "base_duration": {
-                    "alpha": -0.0024,
-                    "beta": 0.435
+                    "alpha(%)": -0.25,
+                    "beta": 0.43
                 },
                 "measure_duration": {
-                    "alpha": -0.00301,
-                    "beta": 0.589
+                    "alpha(%)": -0.7,
+                    "beta": 0.58
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "-",
+            "volatility_level": "-",
+            "amount_level": "Dn",
             "alpha_level": "udr_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {

@@ -1,7 +1,7 @@
 {
     "key": "036830",
     "filename": "036830_솔브레인홀딩스",
-    "updated": "2026-10-27 16:21",
+    "updated": "2026-10-28 16:36",
     "llm_research_updated": "2026-10-22 16:30",
     "financials": {
         "meta": {
@@ -9,59 +9,57 @@
             "code": "036830",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 16:21",
+            "updated": "2026-10-28 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 733.0,
-                "revenue_4qtrs": 734.0,
-                "opincome_4qtrs": 46.9,
-                "revenue_qtr": 209.0,
+                "marcap": 774,
+                "revenue_ltm": 734,
+                "opincome_ltm": 46.9,
+                "revenue_qtr": 209,
                 "opincome_qtr": 31.9
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": false,
-                "higher_than_comp": true,
-                "slope": -0.815,
-                "growth_per_qtr": -0.0695
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": -0.82,
+                "growth(%)": -4.8
             },
             "opmargin": {
-                "25_4Q": -0.131,
-                "26_1Q": 0.00846,
-                "26_2Q": 0.153,
-                "26_3Q": 0.153,
-                "4qtrs": 0.0639
+                "25_4Q(%)": -13,
+                "26_1Q(%)": 0.85,
+                "26_2Q(%)": 15,
+                "26_3Q(%)": 15,
+                "ltm(%)": 6.4
             },
             "PER": {
-                "PER_ltm": 15.6,
-                "PER_qx4": 5.75,
-                "PER_fwd": 6.14
+                "PER_ltm": 16.5,
+                "PER_qx4": 6.07,
+                "PER_fwd": 6.48
             },
             "volatility": {
-                "measure_to_base": 0.901,
-                "slope": -0.000101
+                "measure_to_base(%)": 110
             },
             "amount": {
-                "measure_to_base": 2.52,
-                "slope": -0.0484
+                "measure_to_base(%)": 100
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000334,
-                    "beta": 1.13
+                    "alpha(%)": 0.034,
+                    "beta": 1.1
                 },
                 "base_duration": {
-                    "alpha": -0.00467,
-                    "beta": 0.651
+                    "alpha(%)": -0.46,
+                    "beta": 0.66
                 },
                 "measure_duration": {
-                    "alpha": 0.00923,
-                    "beta": 1.19
+                    "alpha(%)": 1,
+                    "beta": 1.2
                 }
             }
         },
@@ -69,11 +67,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "-",
+            "amount_level": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {
