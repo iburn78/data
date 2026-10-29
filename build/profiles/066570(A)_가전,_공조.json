@@ -1,7 +1,7 @@
 {
     "key": "066570(A)",
     "filename": "066570(A)_가전,_공조",
-    "updated": "2026-10-28 16:37",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-20 09:40",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "066570",
             "segment_name": "가전, 공조",
             "id": "A",
-            "updated": "2026-10-28 16:37",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 13300,
+                "marcap": 13700,
                 "revenue_ltm": 49500,
                 "opincome_ltm": 3120,
                 "revenue_qtr": 12400,
@@ -30,36 +33,36 @@
                 "slope": 8.4,
                 "growth(%)": 1.1
             },
-            "opmargin": {
-                "25_4Q(%)": 6.3,
-                "26_1Q(%)": 6.3,
-                "26_2Q(%)": 6.3,
-                "26_3Q(%)": 6.3,
-                "ltm(%)": 6.3
+            "opmargin(%)": {
+                "25_4Q": 6.3,
+                "26_1Q": 6.3,
+                "26_2Q": 6.3,
+                "26_3Q": 6.3,
+                "ltm": 6.3
             },
             "PER": {
-                "PER_ltm": 4.27,
-                "PER_qx4": 4.27,
-                "PER_fwd": 4.16
+                "PER_ltm": 4.4,
+                "PER_qx4": 4.4,
+                "PER_fwd": 4.28
             },
             "volatility": {
-                "measure_to_base(%)": 58
+                "measure_to_base(%)": -40
             },
             "amount": {
-                "measure_to_base(%)": 30
+                "measure_to_base(%)": -70
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.032,
-                    "beta": 0.92
+                    "alpha(%)": 0.031,
+                    "beta": 0.91
                 },
-                "base_duration": {
-                    "alpha(%)": 0.42,
-                    "beta": 0.8
+                "base_period": {
+                    "alpha(%)": 0.36,
+                    "beta": 0.79
                 },
-                "measure_duration": {
-                    "alpha(%)": -0.72,
-                    "beta": 0.81
+                "measure_period": {
+                    "alpha(%)": -0.91,
+                    "beta": 0.75
                 }
             }
         },

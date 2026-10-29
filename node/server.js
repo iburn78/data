@@ -16,6 +16,7 @@ const PYTHON = path.join(
 const { loadData } = require("./data");
 const { getComponents, getComponentsForMember, getValuechains } = require("./lookup");
 const app = express();
+const activeModelUpdates = new Set();
 
 // Use Unicode NFC followed by JavaScript's locale-independent UTF-16 order,
 // with the original spelling as a deterministic tie-breaker.
@@ -197,6 +198,16 @@ app.post("/api/update-instance", async (req, res) => {
         return res.status(400).json({ ok: false, error: "Invalid model type or identifier." });
     }
 
+    const updateKey = JSON.stringify([objectType, objectId]);
+    if (activeModelUpdates.has(updateKey)) {
+        return res.status(409).json({
+            ok: false,
+            error: `${objectType} ${objectId} is already being updated.`,
+        });
+    }
+
+    // Reserve synchronously before awaiting so duplicate requests cannot race.
+    activeModelUpdates.add(updateKey);
     try {
         const { code, result } = await runPythonRequest(
             req,
@@ -216,6 +227,8 @@ app.post("/api/update-instance", async (req, res) => {
                 ? "Could not send model update request."
                 : "Invalid response from model update.";
         res.status(500).json({ ok: false, error: message });
+    } finally {
+        activeModelUpdates.delete(updateKey);
     }
 });
 

@@ -1,7 +1,7 @@
 {
     "key": "메디컬 에스테틱",
     "filename": "메디컬_에스테틱",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-23 14:33",
     "financials": {
         "meta": {
@@ -9,9 +9,12 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
@@ -38,36 +41,36 @@
                 "slope": 6.3,
                 "growth(%)": 5.4
             },
-            "opmargin": {
-                "25_4Q(%)": 28,
-                "26_1Q(%)": 29,
-                "26_2Q(%)": 29,
-                "26_3Q(%)": 29,
-                "ltm(%)": 29
+            "opmargin(%)": {
+                "25_4Q": 28,
+                "26_1Q": 29,
+                "26_2Q": 29,
+                "26_3Q": 29,
+                "ltm": 29
             },
             "PER": {
                 "PER_ltm": 10.8,
-                "PER_qx4": 9.97,
-                "PER_fwd": 8.99
+                "PER_qx4": 9.98,
+                "PER_fwd": 9
             },
             "volatility": {
-                "measure_to_base(%)": 72
+                "measure_to_base(%)": -29
             },
             "amount": {
-                "measure_to_base(%)": 58
+                "measure_to_base(%)": -41
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0017,
+                    "alpha(%)": 0.00045,
                     "beta": 0.63
                 },
-                "base_duration": {
-                    "alpha(%)": -0.24,
+                "base_period": {
+                    "alpha(%)": -0.22,
                     "beta": 0.19
                 },
-                "measure_duration": {
-                    "alpha(%)": -0.21,
-                    "beta": 0.61
+                "measure_period": {
+                    "alpha(%)": -0.45,
+                    "beta": 0.48
                 },
                 "indplot_period": {
                     "alpha(%)": null,

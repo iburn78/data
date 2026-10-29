@@ -3,6 +3,7 @@ let currentItems = [];
 let lastTagSearchQuery = "";
 let profilePlotLoadId = 0;
 let plotlyLoadPromise = null;
+let manualLoadId = 0;
 
 function hideProfilePlot() {
     profilePlotLoadId += 1;
@@ -287,6 +288,8 @@ async function getItems(section) {
 
 
 async function showFiles(section) {
+    manualLoadId += 1;
+    document.getElementById("content").replaceChildren();
     currentSection = section;
     if (section === "profiles" && !document.getElementById("search").value.trim()) {
         showProfilePlot();
@@ -299,6 +302,7 @@ async function showFiles(section) {
 }
 
 async function showManual() {
+    const loadId = ++manualLoadId;
     currentSection = "";
     currentItems = [];
     hideProfilePlot();
@@ -313,8 +317,11 @@ async function showManual() {
     try {
         const response = await fetch("/api/manual");
         if (!response.ok) throw new Error("Could not load the manual.");
-        article.innerHTML = await response.text();
+        const manual = await response.text();
+        if (loadId !== manualLoadId) return;
+        article.innerHTML = manual;
     } catch (error) {
+        if (loadId !== manualLoadId) return;
         article.textContent = error.message || "Could not load the manual.";
     }
 }

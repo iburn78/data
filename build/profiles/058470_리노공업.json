@@ -1,7 +1,7 @@
 {
     "key": "058470",
     "filename": "058470_리노공업",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:23",
     "llm_research_updated": "2026-10-27 09:34",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "058470",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 4670,
+                "marcap": 4850,
                 "revenue_ltm": 471,
                 "opincome_ltm": 235,
                 "revenue_qtr": 143,
@@ -30,36 +33,36 @@
                 "slope": 4.4,
                 "growth(%)": 9.7
             },
-            "opmargin": {
-                "25_4Q(%)": 48,
-                "26_1Q(%)": 47,
-                "26_2Q(%)": 51,
-                "26_3Q(%)": 51,
-                "ltm(%)": 50
+            "opmargin(%)": {
+                "25_4Q": 48,
+                "26_1Q": 47,
+                "26_2Q": 51,
+                "26_3Q": 51,
+                "ltm": 50
             },
             "PER": {
-                "PER_ltm": 19.9,
-                "PER_qx4": 15.9,
-                "PER_fwd": 13.8
+                "PER_ltm": 20.7,
+                "PER_qx4": 16.5,
+                "PER_fwd": 14.4
             },
             "volatility": {
-                "measure_to_base(%)": 120
+                "measure_to_base(%)": 19
             },
             "amount": {
-                "measure_to_base(%)": 86
+                "measure_to_base(%)": -13
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha(%)": 0.065,
                     "beta": 0.84
                 },
-                "base_duration": {
-                    "alpha(%)": -0.33,
-                    "beta": 0.82
+                "base_period": {
+                    "alpha(%)": -0.41,
+                    "beta": 0.83
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.67,
-                    "beta": 1.3
+                "measure_period": {
+                    "alpha(%)": 0.072,
+                    "beta": 1.1
                 }
             }
         },
@@ -69,7 +72,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "C",
             "market_sentiment": "-"
         }

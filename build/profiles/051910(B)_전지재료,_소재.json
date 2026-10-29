@@ -1,7 +1,7 @@
 {
     "key": "051910(B)",
     "filename": "051910(B)_전지재료,_소재",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:24",
     "llm_research_updated": "2026-10-20 13:31",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "051910",
             "segment_name": "전지재료, 소재",
             "id": "B",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 3880,
+                "marcap": 4110,
                 "revenue_ltm": 12400,
                 "opincome_ltm": 994,
                 "revenue_qtr": 3400,
@@ -30,35 +33,35 @@
                 "slope": 2.8,
                 "growth(%)": 1.2
             },
-            "opmargin": {
-                "25_4Q(%)": 8,
-                "26_1Q(%)": 8,
-                "26_2Q(%)": 8,
-                "26_3Q(%)": 8,
-                "ltm(%)": 8
+            "opmargin(%)": {
+                "25_4Q": 8,
+                "26_1Q": 8,
+                "26_2Q": 8,
+                "26_3Q": 8,
+                "ltm": 8
             },
             "PER": {
-                "PER_ltm": 3.9,
-                "PER_qx4": 3.56,
-                "PER_fwd": 3.48
+                "PER_ltm": 4.13,
+                "PER_qx4": 3.77,
+                "PER_fwd": 3.68
             },
             "volatility": {
-                "measure_to_base(%)": 120
+                "measure_to_base(%)": 20
             },
             "amount": {
-                "measure_to_base(%)": 73
+                "measure_to_base(%)": -25
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.028,
+                    "alpha(%)": -0.029,
                     "beta": 0.97
                 },
-                "base_duration": {
-                    "alpha(%)": -0.37,
-                    "beta": 0.46
+                "base_period": {
+                    "alpha(%)": -0.33,
+                    "beta": 0.47
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.27,
+                "measure_period": {
+                    "alpha(%)": 0.46,
                     "beta": 0.87
                 }
             }
@@ -68,7 +71,7 @@
             "financially_sound": false,
             "PER_level": "Low",
             "volatility_level": "-",
-            "amount_level": "Dn",
+            "amount_level": "-",
             "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"

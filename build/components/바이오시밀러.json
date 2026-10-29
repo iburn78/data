@@ -1,7 +1,7 @@
 {
     "key": "바이오시밀러",
     "filename": "바이오시밀러",
-    "updated": "2026-10-28 16:37",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-24 11:59",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:37",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 51400,
+                "marcap": 52000,
                 "revenue_ltm": 6500,
                 "opincome_ltm": 1910,
                 "revenue_qtr": 1790,
@@ -38,36 +41,36 @@
                 "slope": 50,
                 "growth(%)": 18
             },
-            "opmargin": {
-                "25_4Q(%)": 36,
-                "26_1Q(%)": 26,
-                "26_2Q(%)": 29,
-                "26_3Q(%)": 29,
-                "ltm(%)": 29
+            "opmargin(%)": {
+                "25_4Q": 36,
+                "26_1Q": 26,
+                "26_2Q": 29,
+                "26_3Q": 29,
+                "ltm": 29
             },
             "PER": {
-                "PER_ltm": 26.9,
-                "PER_qx4": 25.2,
-                "PER_fwd": 20.2
+                "PER_ltm": 27.3,
+                "PER_qx4": 25.5,
+                "PER_fwd": 20.4
             },
             "volatility": {
-                "measure_to_base(%)": 67
+                "measure_to_base(%)": -30
             },
             "amount": {
-                "measure_to_base(%)": 75
+                "measure_to_base(%)": -24
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.052,
+                    "alpha(%)": 0.051,
                     "beta": 0.62
                 },
-                "base_duration": {
-                    "alpha(%)": -0.071,
+                "base_period": {
+                    "alpha(%)": -0.059,
                     "beta": 0.21
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.58,
-                    "beta": 0.36
+                "measure_period": {
+                    "alpha(%)": 0.43,
+                    "beta": 0.3
                 },
                 "indplot_period": {
                     "alpha(%)": null,
@@ -81,7 +84,7 @@
             "PER_level": "High",
             "volatility_level": "Dn",
             "amount_level": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "C",
             "market_sentiment": "-"
         }

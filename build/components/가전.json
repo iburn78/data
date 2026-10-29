@@ -1,7 +1,7 @@
 {
     "key": "가전",
     "filename": "가전",
-    "updated": "2026-10-28 16:37",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-20 14:00",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:37",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 125000,
+                "marcap": 135000,
                 "revenue_ltm": 101000,
                 "opincome_ltm": 4970,
                 "revenue_qtr": 27600,
@@ -38,35 +41,35 @@
                 "slope": 30,
                 "growth(%)": 2.7
             },
-            "opmargin": {
-                "25_4Q(%)": 5.3,
-                "26_1Q(%)": 5.1,
-                "26_2Q(%)": 4.7,
-                "26_3Q(%)": 4.7,
-                "ltm(%)": 4.9
+            "opmargin(%)": {
+                "25_4Q": 5.3,
+                "26_1Q": 5.1,
+                "26_2Q": 4.7,
+                "26_3Q": 4.7,
+                "ltm": 4.9
             },
             "PER": {
-                "PER_ltm": 25.1,
-                "PER_qx4": 23.8,
-                "PER_fwd": 22.5
+                "PER_ltm": 27.2,
+                "PER_qx4": 25.8,
+                "PER_fwd": 24.4
             },
             "volatility": {
-                "measure_to_base(%)": 73
+                "measure_to_base(%)": -24
             },
             "amount": {
-                "measure_to_base(%)": 47
+                "measure_to_base(%)": -54
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha(%)": 0.026,
                     "beta": 1.1
                 },
-                "base_duration": {
+                "base_period": {
                     "alpha(%)": 0.22,
                     "beta": 1.2
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.27,
+                "measure_period": {
+                    "alpha(%)": 0.2,
                     "beta": 1.2
                 },
                 "indplot_period": {
@@ -79,11 +82,11 @@
             "basics": true,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_level": "Dn",
+            "volatility_level": "-",
             "amount_level": "Dn",
             "alpha_level": "-",
             "category": "D",
-            "market_sentiment": "consumed"
+            "market_sentiment": "-"
         }
     },
     "info_section": {

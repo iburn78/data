@@ -1,7 +1,7 @@
 {
     "key": "에스테틱 의료기기",
     "filename": "에스테틱_의료기기",
-    "updated": "2026-10-28 16:37",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-23 14:31",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:37",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2080,
+                "marcap": 2110,
                 "revenue_ltm": 573,
                 "opincome_ltm": 222,
                 "revenue_qtr": 153,
@@ -38,34 +41,34 @@
                 "slope": 2.1,
                 "growth(%)": 4.3
             },
-            "opmargin": {
-                "25_4Q(%)": 45,
-                "26_1Q(%)": 38,
-                "26_2Q(%)": 36,
-                "26_3Q(%)": 36,
-                "ltm(%)": 39
+            "opmargin(%)": {
+                "25_4Q": 45,
+                "26_1Q": 38,
+                "26_2Q": 36,
+                "26_3Q": 36,
+                "ltm": 39
             },
             "PER": {
-                "PER_ltm": 9.38,
-                "PER_qx4": 9.46,
-                "PER_fwd": 8.63
+                "PER_ltm": 9.53,
+                "PER_qx4": 9.61,
+                "PER_fwd": 8.77
             },
             "volatility": {
-                "measure_to_base(%)": 72
+                "measure_to_base(%)": -26
             },
             "amount": {
-                "measure_to_base(%)": 40
+                "measure_to_base(%)": -58
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.095,
-                    "beta": 0.58
+                    "alpha(%)": 0.094,
+                    "beta": 0.57
                 },
-                "base_duration": {
-                    "alpha(%)": -0.56,
+                "base_period": {
+                    "alpha(%)": -0.53,
                     "beta": 0.27
                 },
-                "measure_duration": {
+                "measure_period": {
                     "alpha(%)": -0.49,
                     "beta": 0.33
                 },

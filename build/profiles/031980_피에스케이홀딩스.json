@@ -1,7 +1,7 @@
 {
     "key": "031980",
     "filename": "031980_피에스케이홀딩스",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:23",
     "llm_research_updated": "2026-10-27 09:35",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "031980",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 3650,
+                "marcap": 4180,
                 "revenue_ltm": 174,
                 "opincome_ltm": 50.9,
                 "revenue_qtr": 47.3,
@@ -30,36 +33,36 @@
                 "slope": -0.52,
                 "growth(%)": -2.9
             },
-            "opmargin": {
-                "25_4Q(%)": 28,
-                "26_1Q(%)": 33,
-                "26_2Q(%)": 29,
-                "26_3Q(%)": 29,
-                "ltm(%)": 29
+            "opmargin(%)": {
+                "25_4Q": 28,
+                "26_1Q": 33,
+                "26_2Q": 29,
+                "26_3Q": 29,
+                "ltm": 29
             },
             "PER": {
-                "PER_ltm": 71.6,
-                "PER_qx4": 66.1,
-                "PER_fwd": 73
+                "PER_ltm": 82,
+                "PER_qx4": 75.7,
+                "PER_fwd": 83.6
             },
             "volatility": {
-                "measure_to_base(%)": 84
+                "measure_to_base(%)": -6.4
             },
             "amount": {
-                "measure_to_base(%)": 140
+                "measure_to_base(%)": 47
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.13,
+                    "alpha(%)": 0.14,
                     "beta": 1.1
                 },
-                "base_duration": {
-                    "alpha(%)": 0.58,
-                    "beta": 0.94
+                "base_period": {
+                    "alpha(%)": 0.68,
+                    "beta": 0.97
                 },
-                "measure_duration": {
+                "measure_period": {
                     "alpha(%)": 1.5,
-                    "beta": 1.2
+                    "beta": 1.4
                 }
             }
         },

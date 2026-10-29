@@ -1,7 +1,7 @@
 {
     "key": "바이오의약품 위탁생산",
     "filename": "바이오의약품_위탁생산",
-    "updated": "2026-10-28 16:37",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-24 12:01",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:37",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 63400,
+                "marcap": 63200,
                 "revenue_ltm": 4210,
                 "opincome_ltm": 2130,
                 "revenue_qtr": 1320,
@@ -38,36 +41,36 @@
                 "slope": 32,
                 "growth(%)": 6.8
             },
-            "opmargin": {
-                "25_4Q(%)": 120,
-                "26_1Q(%)": 46,
-                "26_2Q(%)": 44,
-                "26_3Q(%)": 44,
-                "ltm(%)": 51
+            "opmargin(%)": {
+                "25_4Q": 120,
+                "26_1Q": 46,
+                "26_2Q": 44,
+                "26_3Q": 44,
+                "ltm": 51
             },
             "PER": {
                 "PER_ltm": 29.7,
                 "PER_qx4": 27,
-                "PER_fwd": 23.8
+                "PER_fwd": 23.7
             },
             "volatility": {
-                "measure_to_base(%)": 150
+                "measure_to_base(%)": 52
             },
             "amount": {
-                "measure_to_base(%)": 130
+                "measure_to_base(%)": 29
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.08,
-                    "beta": 0.49
+                    "alpha(%)": 0.079,
+                    "beta": 0.48
                 },
-                "base_duration": {
-                    "alpha(%)": -0.0094,
+                "base_period": {
+                    "alpha(%)": -0.018,
                     "beta": 0.13
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.082,
-                    "beta": 0.099
+                "measure_period": {
+                    "alpha(%)": 0.055,
+                    "beta": 0.067
                 },
                 "indplot_period": {
                     "alpha(%)": null,

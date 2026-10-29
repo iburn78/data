@@ -1,7 +1,7 @@
 {
     "key": "014680",
     "filename": "014680_한솔케미칼",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:23",
     "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "014680",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2200,
+                "marcap": 2360,
                 "revenue_ltm": 949,
                 "opincome_ltm": 161,
                 "revenue_qtr": 248,
@@ -30,36 +33,36 @@
                 "slope": 1.4,
                 "growth(%)": 3.6
             },
-            "opmargin": {
-                "25_4Q(%)": 7.6,
-                "26_1Q(%)": 19,
-                "26_2Q(%)": 20,
-                "26_3Q(%)": 20,
-                "ltm(%)": 17
+            "opmargin(%)": {
+                "25_4Q": 7.6,
+                "26_1Q": 19,
+                "26_2Q": 20,
+                "26_3Q": 20,
+                "ltm": 17
             },
             "PER": {
-                "PER_ltm": 13.7,
-                "PER_qx4": 11.1,
-                "PER_fwd": 10.3
+                "PER_ltm": 14.7,
+                "PER_qx4": 11.9,
+                "PER_fwd": 11.1
             },
             "volatility": {
-                "measure_to_base(%)": 85
+                "measure_to_base(%)": -15
             },
             "amount": {
-                "measure_to_base(%)": 75
+                "measure_to_base(%)": -25
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha(%)": 0.038,
                     "beta": 0.88
                 },
-                "base_duration": {
-                    "alpha(%)": -0.18,
-                    "beta": 0.47
+                "base_period": {
+                    "alpha(%)": -0.12,
+                    "beta": 0.48
                 },
-                "measure_duration": {
-                    "alpha(%)": -0.1,
-                    "beta": 0.65
+                "measure_period": {
+                    "alpha(%)": -0.056,
+                    "beta": 0.74
                 }
             }
         },

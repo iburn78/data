@@ -1,7 +1,7 @@
 {
     "key": "089030",
     "filename": "089030_테크윙",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:23",
     "llm_research_updated": "2026-10-27 09:37",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "089030",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1430,
+                "marcap": 1530,
                 "revenue_ltm": 200,
                 "opincome_ltm": 35.3,
                 "revenue_qtr": 56.8,
@@ -30,36 +33,36 @@
                 "slope": 0.58,
                 "growth(%)": 8.7
             },
-            "opmargin": {
-                "25_4Q(%)": 1.7,
-                "26_1Q(%)": 19,
-                "26_2Q(%)": 22,
-                "26_3Q(%)": 22,
-                "ltm(%)": 18
+            "opmargin(%)": {
+                "25_4Q": 1.7,
+                "26_1Q": 19,
+                "26_2Q": 22,
+                "26_3Q": 22,
+                "ltm": 18
             },
             "PER": {
-                "PER_ltm": 40.4,
-                "PER_qx4": 28.5,
-                "PER_fwd": 25.5
+                "PER_ltm": 43.5,
+                "PER_qx4": 30.7,
+                "PER_fwd": 27.5
             },
             "volatility": {
-                "measure_to_base(%)": 93
+                "measure_to_base(%)": 0.37
             },
             "amount": {
-                "measure_to_base(%)": 46
+                "measure_to_base(%)": -53
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha(%)": 0.086,
                     "beta": 1.2
                 },
-                "base_duration": {
-                    "alpha(%)": -0.074,
+                "base_period": {
+                    "alpha(%)": -0.052,
                     "beta": 1.1
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.34,
-                    "beta": 1.4
+                "measure_period": {
+                    "alpha(%)": -0.083,
+                    "beta": 1.3
                 }
             }
         },

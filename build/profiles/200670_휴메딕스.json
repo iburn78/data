@@ -1,7 +1,7 @@
 {
     "key": "200670",
     "filename": "200670_휴메딕스",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-22 16:10",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "200670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 254,
+                "marcap": 263,
                 "revenue_ltm": 187,
                 "opincome_ltm": 43.4,
                 "revenue_qtr": 50.4,
@@ -30,36 +33,36 @@
                 "slope": -0.017,
                 "growth(%)": -0.16
             },
-            "opmargin": {
-                "25_4Q(%)": 24,
-                "26_1Q(%)": 22,
-                "26_2Q(%)": 23,
-                "26_3Q(%)": 23,
-                "ltm(%)": 23
+            "opmargin(%)": {
+                "25_4Q": 24,
+                "26_1Q": 22,
+                "26_2Q": 23,
+                "26_3Q": 23,
+                "ltm": 23
             },
             "PER": {
-                "PER_ltm": 5.85,
-                "PER_qx4": 5.44,
-                "PER_fwd": 5.46
+                "PER_ltm": 6.06,
+                "PER_qx4": 5.62,
+                "PER_fwd": 5.65
             },
             "volatility": {
-                "measure_to_base(%)": 74
+                "measure_to_base(%)": -23
             },
             "amount": {
-                "measure_to_base(%)": 45
+                "measure_to_base(%)": -55
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.023,
+                    "alpha(%)": -0.024,
                     "beta": 0.72
                 },
-                "base_duration": {
-                    "alpha(%)": -0.32,
+                "base_period": {
+                    "alpha(%)": -0.28,
                     "beta": 0.37
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.3,
-                    "beta": 0.62
+                "measure_period": {
+                    "alpha(%)": 0.15,
+                    "beta": 0.58
                 }
             }
         },
@@ -67,11 +70,11 @@
             "basics": false,
             "financially_sound": true,
             "PER_level": "Low",
-            "volatility_level": "Dn",
+            "volatility_level": "-",
             "amount_level": "Dn",
             "alpha_level": "-",
             "category": "D",
-            "market_sentiment": "consumed"
+            "market_sentiment": "-"
         }
     },
     "info_section": {

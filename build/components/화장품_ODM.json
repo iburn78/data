@@ -1,7 +1,7 @@
 {
     "key": "화장품 ODM",
     "filename": "화장품_ODM",
-    "updated": "2026-10-28 16:37",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-23 14:22",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:37",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 5750,
+                "marcap": 5710,
                 "revenue_ltm": 5980,
                 "opincome_ltm": 589,
                 "revenue_qtr": 1660,
@@ -38,36 +41,36 @@
                 "slope": 8.3,
                 "growth(%)": 7
             },
-            "opmargin": {
-                "25_4Q(%)": 7.1,
-                "26_1Q(%)": 9.4,
-                "26_2Q(%)": 11,
-                "26_3Q(%)": 11,
-                "ltm(%)": 9.8
+            "opmargin(%)": {
+                "25_4Q": 7.1,
+                "26_1Q": 9.4,
+                "26_2Q": 11,
+                "26_3Q": 11,
+                "ltm": 9.8
             },
             "PER": {
-                "PER_ltm": 9.76,
-                "PER_qx4": 7.8,
-                "PER_fwd": 7.01
+                "PER_ltm": 9.69,
+                "PER_qx4": 7.75,
+                "PER_fwd": 6.96
             },
             "volatility": {
-                "measure_to_base(%)": 97
+                "measure_to_base(%)": -3
             },
             "amount": {
-                "measure_to_base(%)": 98
+                "measure_to_base(%)": -0.41
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.016,
+                    "alpha(%)": 0.015,
                     "beta": 0.52
                 },
-                "base_duration": {
-                    "alpha(%)": 0.26,
-                    "beta": 0.14
+                "base_period": {
+                    "alpha(%)": 0.27,
+                    "beta": 0.13
                 },
-                "measure_duration": {
-                    "alpha(%)": -0.3,
-                    "beta": 0.35
+                "measure_period": {
+                    "alpha(%)": -0.63,
+                    "beta": 0.25
                 },
                 "indplot_period": {
                     "alpha(%)": null,
@@ -81,7 +84,7 @@
             "PER_level": "Mid",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "B",
             "market_sentiment": "-"
         }

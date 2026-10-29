@@ -1,7 +1,7 @@
 {
     "key": "441270",
     "filename": "441270_파인엠텍",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:24",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "441270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 420,
+                "marcap": 413,
                 "revenue_ltm": 298,
                 "opincome_ltm": 10.5,
                 "revenue_qtr": 95.2,
@@ -30,36 +33,36 @@
                 "slope": 0.57,
                 "growth(%)": 96
             },
-            "opmargin": {
-                "25_4Q(%)": -3.2,
-                "26_1Q(%)": -4.8,
-                "26_2Q(%)": 7.7,
-                "26_3Q(%)": 7.7,
-                "ltm(%)": 3.5
+            "opmargin(%)": {
+                "25_4Q": -3.2,
+                "26_1Q": -4.8,
+                "26_2Q": 7.7,
+                "26_3Q": 7.7,
+                "ltm": 3.5
             },
             "PER": {
-                "PER_ltm": 40,
-                "PER_qx4": 14.3,
-                "PER_fwd": 12
+                "PER_ltm": 39.3,
+                "PER_qx4": 14.1,
+                "PER_fwd": 11.8
             },
             "volatility": {
-                "measure_to_base(%)": 92
+                "measure_to_base(%)": -6.3
             },
             "amount": {
-                "measure_to_base(%)": 240
+                "measure_to_base(%)": 150
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.0079,
-                    "beta": 0.82
+                    "alpha(%)": -0.014,
+                    "beta": 0.81
                 },
-                "base_duration": {
-                    "alpha(%)": 0.17,
-                    "beta": 0.68
+                "base_period": {
+                    "alpha(%)": 0.12,
+                    "beta": 0.66
                 },
-                "measure_duration": {
-                    "alpha(%)": 1.6,
-                    "beta": 0.76
+                "measure_period": {
+                    "alpha(%)": 0.95,
+                    "beta": 0.47
                 }
             }
         },

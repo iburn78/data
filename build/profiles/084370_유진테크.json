@@ -1,7 +1,7 @@
 {
     "key": "084370",
     "filename": "084370_유진테크",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:23",
     "llm_research_updated": "2026-10-27 15:46",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "084370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2480,
+                "marcap": 2670,
                 "revenue_ltm": 446,
                 "opincome_ltm": 72.8,
                 "revenue_qtr": 122,
@@ -30,36 +33,36 @@
                 "slope": 0.74,
                 "growth(%)": 4.9
             },
-            "opmargin": {
-                "25_4Q(%)": 18,
-                "26_1Q(%)": 18,
-                "26_2Q(%)": 15,
-                "26_3Q(%)": 15,
-                "ltm(%)": 16
+            "opmargin(%)": {
+                "25_4Q": 18,
+                "26_1Q": 18,
+                "26_2Q": 15,
+                "26_3Q": 15,
+                "ltm": 16
             },
             "PER": {
-                "PER_ltm": 34,
-                "PER_qx4": 34,
-                "PER_fwd": 30.9
+                "PER_ltm": 36.6,
+                "PER_qx4": 36.6,
+                "PER_fwd": 33.2
             },
             "volatility": {
-                "measure_to_base(%)": 89
+                "measure_to_base(%)": -8.1
             },
             "amount": {
-                "measure_to_base(%)": 90
+                "measure_to_base(%)": -8.1
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.082,
+                    "alpha(%)": 0.081,
                     "beta": 1.2
                 },
-                "base_duration": {
-                    "alpha(%)": 0.14,
+                "base_period": {
+                    "alpha(%)": 0.19,
                     "beta": 1.1
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.0069,
-                    "beta": 1.6
+                "measure_period": {
+                    "alpha(%)": -0.66,
+                    "beta": 1.5
                 }
             }
         },
@@ -69,7 +72,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "C",
             "market_sentiment": "-"
         }

@@ -1,7 +1,7 @@
 {
     "key": "148150",
     "filename": "148150_세경하이테크",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:24",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,9 +9,12 @@
             "code": "148150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
@@ -30,36 +33,36 @@
                 "slope": -0.86,
                 "growth(%)": -25
             },
-            "opmargin": {
-                "25_4Q(%)": 0.73,
-                "26_1Q(%)": -3.6,
-                "26_2Q(%)": 3.9,
-                "26_3Q(%)": 3.9,
-                "ltm(%)": 1.6
+            "opmargin(%)": {
+                "25_4Q": 0.73,
+                "26_1Q": -3.6,
+                "26_2Q": 3.9,
+                "26_3Q": 3.9,
+                "ltm": 1.6
             },
             "PER": {
-                "PER_ltm": 23,
-                "PER_qx4": 8.64,
-                "PER_fwd": 24.5
+                "PER_ltm": 22.9,
+                "PER_qx4": 8.62,
+                "PER_fwd": 24.4
             },
             "volatility": {
-                "measure_to_base(%)": 86
+                "measure_to_base(%)": -14
             },
             "amount": {
-                "measure_to_base(%)": 56
+                "measure_to_base(%)": -47
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.029,
-                    "beta": 0.83
+                    "alpha(%)": -0.032,
+                    "beta": 0.82
                 },
-                "base_duration": {
-                    "alpha(%)": -0.25,
-                    "beta": 0.43
+                "base_period": {
+                    "alpha(%)": -0.27,
+                    "beta": 0.42
                 },
-                "measure_duration": {
-                    "alpha(%)": -0.7,
-                    "beta": 0.58
+                "measure_period": {
+                    "alpha(%)": -0.9,
+                    "beta": 0.46
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "272290",
     "filename": "272290_이녹스첨단소재",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:24",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "272290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 353,
+                "marcap": 359,
                 "revenue_ltm": 415,
                 "opincome_ltm": 50.5,
                 "revenue_qtr": 109,
@@ -30,36 +33,36 @@
                 "slope": -1.2,
                 "growth(%)": -6.3
             },
-            "opmargin": {
-                "25_4Q(%)": 12,
-                "26_1Q(%)": 18,
-                "26_2Q(%)": 9.6,
-                "26_3Q(%)": 9.6,
-                "ltm(%)": 12
+            "opmargin(%)": {
+                "25_4Q": 12,
+                "26_1Q": 18,
+                "26_2Q": 9.6,
+                "26_3Q": 9.6,
+                "ltm": 12
             },
             "PER": {
-                "PER_ltm": 6.99,
-                "PER_qx4": 8.44,
-                "PER_fwd": 11.8
+                "PER_ltm": 7.12,
+                "PER_qx4": 8.6,
+                "PER_fwd": 12
             },
             "volatility": {
-                "measure_to_base(%)": 80
+                "measure_to_base(%)": -18
             },
             "amount": {
-                "measure_to_base(%)": 43
+                "measure_to_base(%)": -57
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.028,
+                    "alpha(%)": -0.03,
                     "beta": 0.98
                 },
-                "base_duration": {
+                "base_period": {
                     "alpha(%)": -0.45,
-                    "beta": 0.65
+                    "beta": 0.64
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.17,
-                    "beta": 1
+                "measure_period": {
+                    "alpha(%)": -0.34,
+                    "beta": 0.83
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "036930",
     "filename": "036930_주성엔지니어링",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:23",
     "llm_research_updated": "2026-10-27 13:13",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "036930",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 8150,
+                "marcap": 8620,
                 "revenue_ltm": 227,
                 "opincome_ltm": -16.8,
                 "revenue_qtr": 59.9,
@@ -30,36 +33,36 @@
                 "slope": -3.7,
                 "growth(%)": -32
             },
-            "opmargin": {
-                "25_4Q(%)": -24,
-                "26_1Q(%)": -13,
-                "26_2Q(%)": 2.4,
-                "26_3Q(%)": 2.4,
-                "ltm(%)": -7.4
+            "opmargin(%)": {
+                "25_4Q": -24,
+                "26_1Q": -13,
+                "26_2Q": 2.4,
+                "26_3Q": 2.4,
+                "ltm": -7.4
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 1430,
+                "PER_qx4": 1510,
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 92
+                "measure_to_base(%)": -3
             },
             "amount": {
-                "measure_to_base(%)": 99
+                "measure_to_base(%)": 0.58
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha(%)": 0.12,
                     "beta": 1.2
                 },
-                "base_duration": {
-                    "alpha(%)": 0.71,
+                "base_period": {
+                    "alpha(%)": 0.7,
                     "beta": 0.94
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.74,
-                    "beta": 1.4
+                "measure_period": {
+                    "alpha(%)": 0.14,
+                    "beta": 1.2
                 }
             }
         },
@@ -69,7 +72,7 @@
             "PER_level": "(na)",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }

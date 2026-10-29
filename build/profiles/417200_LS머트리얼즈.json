@@ -1,7 +1,7 @@
 {
     "key": "417200",
     "filename": "417200_LS머트리얼즈",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:24",
     "llm_research_updated": "2026-10-19 12:25",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "417200",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 839,
+                "marcap": 840,
                 "revenue_ltm": 186,
                 "opincome_ltm": 1.03,
                 "revenue_qtr": 51.3,
@@ -38,36 +41,36 @@
                 "slope": -0.15,
                 "growth(%)": -28
             },
-            "opmargin": {
-                "25_4Q(%)": 2.7,
-                "26_1Q(%)": -2.7,
-                "26_2Q(%)": 1,
-                "26_3Q(%)": 1,
-                "ltm(%)": 0.55
+            "opmargin(%)": {
+                "25_4Q": 2.7,
+                "26_1Q": -2.7,
+                "26_2Q": 1,
+                "26_3Q": 1,
+                "ltm": 0.55
             },
             "PER": {
-                "PER_ltm": 812,
+                "PER_ltm": 814,
                 "PER_qx4": 394,
                 "PER_fwd": 1350
             },
             "volatility": {
-                "measure_to_base(%)": 130
+                "measure_to_base(%)": 30
             },
             "amount": {
-                "measure_to_base(%)": 140
+                "measure_to_base(%)": 75
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.12,
-                    "beta": 0.96
+                    "alpha(%)": -0.13,
+                    "beta": 0.95
                 },
-                "base_duration": {
-                    "alpha(%)": -0.58,
-                    "beta": 0.76
+                "base_period": {
+                    "alpha(%)": -0.6,
+                    "beta": 0.75
                 },
-                "measure_duration": {
-                    "alpha(%)": 1.2,
-                    "beta": 1.2
+                "measure_period": {
+                    "alpha(%)": 0.48,
+                    "beta": 0.92
                 }
             }
         },
@@ -77,7 +80,7 @@
             "PER_level": "High",
             "volatility_level": "Up",
             "amount_level": "Up",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "unstable"
         }

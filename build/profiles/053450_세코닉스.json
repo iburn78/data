@@ -1,7 +1,7 @@
 {
     "key": "053450",
     "filename": "053450_세코닉스",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:24",
     "llm_research_updated": "2026-10-21 09:48",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "053450",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 45,
+                "marcap": 45.5,
                 "revenue_ltm": 397,
                 "opincome_ltm": -68.8,
                 "revenue_qtr": 97.6,
@@ -30,12 +33,12 @@
                 "slope": -3.2,
                 "growth(%)": null
             },
-            "opmargin": {
-                "25_4Q(%)": -4.1,
-                "26_1Q(%)": 1,
-                "26_2Q(%)": -34,
-                "26_3Q(%)": -34,
-                "ltm(%)": -17
+            "opmargin(%)": {
+                "25_4Q": -4.1,
+                "26_1Q": 1,
+                "26_2Q": -34,
+                "26_3Q": -34,
+                "ltm": -17
             },
             "PER": {
                 "PER_ltm": null,
@@ -43,23 +46,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 130
+                "measure_to_base(%)": 28
             },
             "amount": {
-                "measure_to_base(%)": 210
+                "measure_to_base(%)": 110
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.073,
+                    "alpha(%)": -0.075,
                     "beta": 0.87
                 },
-                "base_duration": {
-                    "alpha(%)": -0.42,
+                "base_period": {
+                    "alpha(%)": -0.45,
                     "beta": 0.36
                 },
-                "measure_duration": {
-                    "alpha(%)": -0.068,
-                    "beta": 0.0069
+                "measure_period": {
+                    "alpha(%)": -0.026,
+                    "beta": 0.046
                 }
             }
         },

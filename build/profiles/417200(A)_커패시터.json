@@ -1,7 +1,7 @@
 {
     "key": "417200(A)",
     "filename": "417200(A)_커패시터",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:24",
     "llm_research_updated": "2026-10-20 13:55",
     "financials": {
         "meta": {
@@ -9,9 +9,12 @@
             "code": "417200",
             "segment_name": "커패시터",
             "id": "A",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
@@ -30,12 +33,12 @@
                 "slope": -0.013,
                 "growth(%)": null
             },
-            "opmargin": {
-                "25_4Q(%)": -4,
-                "26_1Q(%)": -4,
-                "26_2Q(%)": -4,
-                "26_3Q(%)": -4,
-                "ltm(%)": -4
+            "opmargin(%)": {
+                "25_4Q": -4,
+                "26_1Q": -4,
+                "26_2Q": -4,
+                "26_3Q": -4,
+                "ltm": -4
             },
             "PER": {
                 "PER_ltm": null,
@@ -43,23 +46,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 130
+                "measure_to_base(%)": 30
             },
             "amount": {
-                "measure_to_base(%)": 140
+                "measure_to_base(%)": 75
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.12,
-                    "beta": 0.96
+                    "alpha(%)": -0.13,
+                    "beta": 0.95
                 },
-                "base_duration": {
-                    "alpha(%)": -0.58,
-                    "beta": 0.76
+                "base_period": {
+                    "alpha(%)": -0.6,
+                    "beta": 0.75
                 },
-                "measure_duration": {
-                    "alpha(%)": 1.2,
-                    "beta": 1.2
+                "measure_period": {
+                    "alpha(%)": 0.48,
+                    "beta": 0.92
                 }
             }
         },
@@ -69,7 +72,7 @@
             "PER_level": "(na)",
             "volatility_level": "Up",
             "amount_level": "Up",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "unstable"
         }

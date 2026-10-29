@@ -1,7 +1,7 @@
 {
     "key": "131290",
     "filename": "131290_티에스이",
-    "updated": "2026-10-28 16:35",
+    "updated": "2026-10-29 13:23",
     "llm_research_updated": "2026-10-27 09:36",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "131290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:35",
+            "updated": "2026-10-29 13:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2880,
+                "marcap": 3040,
                 "revenue_ltm": 652,
                 "opincome_ltm": 167,
                 "revenue_qtr": 189,
@@ -30,36 +33,36 @@
                 "slope": 4.9,
                 "growth(%)": 23
             },
-            "opmargin": {
-                "25_4Q(%)": 16,
-                "26_1Q(%)": 28,
-                "26_2Q(%)": 28,
-                "26_3Q(%)": 28,
-                "ltm(%)": 26
+            "opmargin(%)": {
+                "25_4Q": 16,
+                "26_1Q": 28,
+                "26_2Q": 28,
+                "26_3Q": 28,
+                "ltm": 26
             },
             "PER": {
-                "PER_ltm": 17.2,
-                "PER_qx4": 13.7,
-                "PER_fwd": 11.1
+                "PER_ltm": 18.2,
+                "PER_qx4": 14.5,
+                "PER_fwd": 11.7
             },
             "volatility": {
-                "measure_to_base(%)": 84
+                "measure_to_base(%)": -12
             },
             "amount": {
-                "measure_to_base(%)": 110
+                "measure_to_base(%)": 12
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha(%)": 0.13,
                     "beta": 1.1
                 },
-                "base_duration": {
-                    "alpha(%)": 0.71,
+                "base_period": {
+                    "alpha(%)": 0.7,
                     "beta": 0.86
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.86,
-                    "beta": 1.3
+                "measure_period": {
+                    "alpha(%)": 0.51,
+                    "beta": 1.1
                 }
             }
         },

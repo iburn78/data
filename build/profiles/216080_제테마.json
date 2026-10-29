@@ -1,7 +1,7 @@
 {
     "key": "216080",
     "filename": "216080_제테마",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-22 17:29",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "216080",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 230,
+                "marcap": 223,
                 "revenue_ltm": 76.5,
                 "opincome_ltm": 5.12,
                 "revenue_qtr": 20.1,
@@ -30,36 +33,36 @@
                 "slope": 0.039,
                 "growth(%)": 3.6
             },
-            "opmargin": {
-                "25_4Q(%)": 5.8,
-                "26_1Q(%)": -4.2,
-                "26_2Q(%)": 11,
-                "26_3Q(%)": 11,
-                "ltm(%)": 6.7
+            "opmargin(%)": {
+                "25_4Q": 5.8,
+                "26_1Q": -4.2,
+                "26_2Q": 11,
+                "26_3Q": 11,
+                "ltm": 6.7
             },
             "PER": {
-                "PER_ltm": 45,
-                "PER_qx4": 25,
-                "PER_fwd": 24
+                "PER_ltm": 43.5,
+                "PER_qx4": 24.1,
+                "PER_fwd": 23.2
             },
             "volatility": {
-                "measure_to_base(%)": 68
+                "measure_to_base(%)": -27
             },
             "amount": {
-                "measure_to_base(%)": 63
+                "measure_to_base(%)": -38
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.046,
-                    "beta": 0.68
+                    "alpha(%)": 0.042,
+                    "beta": 0.67
                 },
-                "base_duration": {
-                    "alpha(%)": 0.0023,
-                    "beta": 0.1
+                "base_period": {
+                    "alpha(%)": -0.035,
+                    "beta": 0.089
                 },
-                "measure_duration": {
-                    "alpha(%)": -0.45,
-                    "beta": 0.17
+                "measure_period": {
+                    "alpha(%)": -0.6,
+                    "beta": 0.035
                 }
             }
         },
@@ -69,7 +72,7 @@
             "PER_level": "High",
             "volatility_level": "Dn",
             "amount_level": "Dn",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "D",
             "market_sentiment": "consumed"
         }

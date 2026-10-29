@@ -1,7 +1,7 @@
 {
     "key": "086900",
     "filename": "086900_메디톡스",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-22 15:31",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "086900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 489,
+                "marcap": 482,
                 "revenue_ltm": 259,
                 "opincome_ltm": 13.2,
                 "revenue_qtr": 68.7,
@@ -30,36 +33,36 @@
                 "slope": -0.1,
                 "growth(%)": -2.1
             },
-            "opmargin": {
-                "25_4Q(%)": -6.1,
-                "26_1Q(%)": 12,
-                "26_2Q(%)": 6.9,
-                "26_3Q(%)": 6.9,
-                "ltm(%)": 5.1
+            "opmargin(%)": {
+                "25_4Q": -6.1,
+                "26_1Q": 12,
+                "26_2Q": 6.9,
+                "26_3Q": 6.9,
+                "ltm": 5.1
             },
             "PER": {
-                "PER_ltm": 37,
-                "PER_qx4": 25.7,
-                "PER_fwd": 27.2
+                "PER_ltm": 36.5,
+                "PER_qx4": 25.3,
+                "PER_fwd": 26.8
             },
             "volatility": {
-                "measure_to_base(%)": 62
+                "measure_to_base(%)": -39
             },
             "amount": {
-                "measure_to_base(%)": 28
+                "measure_to_base(%)": -72
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.038,
-                    "beta": 0.62
+                    "alpha(%)": -0.039,
+                    "beta": 0.61
                 },
-                "base_duration": {
+                "base_period": {
                     "alpha(%)": -0.34,
-                    "beta": 0.22
+                    "beta": 0.21
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.26,
-                    "beta": 0.35
+                "measure_period": {
+                    "alpha(%)": 0.08,
+                    "beta": 0.21
                 }
             }
         },

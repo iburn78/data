@@ -1,7 +1,7 @@
 {
     "key": "051910",
     "filename": "051910_LG화학",
-    "updated": "2026-10-28 16:36",
+    "updated": "2026-10-29 13:25",
     "llm_research_updated": "2026-10-20 13:27",
     "financials": {
         "meta": {
@@ -9,14 +9,17 @@
             "code": "051910",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-28 16:36",
+            "updated": "2026-10-29 13:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_per": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 16200,
+                "marcap": 17100,
                 "revenue_ltm": 51800,
                 "opincome_ltm": 736,
                 "revenue_qtr": 14200,
@@ -38,35 +41,35 @@
                 "slope": 6.5,
                 "growth(%)": 2.2
             },
-            "opmargin": {
-                "25_4Q(%)": -3.7,
-                "26_1Q(%)": -0.41,
-                "26_2Q(%)": 4.2,
-                "26_3Q(%)": 4.2,
-                "ltm(%)": 1.4
+            "opmargin(%)": {
+                "25_4Q": -3.7,
+                "26_1Q": -0.41,
+                "26_2Q": 4.2,
+                "26_3Q": 4.2,
+                "ltm": 1.4
             },
             "PER": {
-                "PER_ltm": 22,
-                "PER_qx4": 6.74,
-                "PER_fwd": 6.56
+                "PER_ltm": 23.3,
+                "PER_qx4": 7.14,
+                "PER_fwd": 6.95
             },
             "volatility": {
-                "measure_to_base(%)": 120
+                "measure_to_base(%)": 20
             },
             "amount": {
-                "measure_to_base(%)": 73
+                "measure_to_base(%)": -25
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.028,
+                    "alpha(%)": -0.029,
                     "beta": 0.97
                 },
-                "base_duration": {
-                    "alpha(%)": -0.37,
-                    "beta": 0.46
+                "base_period": {
+                    "alpha(%)": -0.33,
+                    "beta": 0.47
                 },
-                "measure_duration": {
-                    "alpha(%)": 0.27,
+                "measure_period": {
+                    "alpha(%)": 0.46,
                     "beta": 0.87
                 }
             }
@@ -76,7 +79,7 @@
             "financially_sound": false,
             "PER_level": "High",
             "volatility_level": "-",
-            "amount_level": "Dn",
+            "amount_level": "-",
             "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
