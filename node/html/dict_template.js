@@ -74,6 +74,32 @@ document.querySelectorAll(".dict-table .section-row")
 updateVisibility();
 
 // news and images pop-up
+function openImagePopup(sourceImage) {
+    const chromeWidth = Math.max(0, window.outerWidth - window.innerWidth);
+    const chromeHeight = Math.max(0, window.outerHeight - window.innerHeight);
+    const tempWidth = Math.min(sourceImage.naturalWidth, Math.max(1, screen.availWidth - chromeWidth));
+    const tempHeight = Math.min(sourceImage.naturalHeight, Math.max(1, screen.availHeight - chromeHeight));
+    const fittedHeight = sourceImage.naturalHeight * tempWidth / sourceImage.naturalWidth;
+    const popupHeight = Math.round(Math.min(fittedHeight, tempHeight));
+    const windowWidth = tempWidth + chromeWidth;
+    const windowHeight = popupHeight + chromeHeight;
+    const popup = window.open(
+        "",
+        "_blank",
+        `width=${windowWidth},height=${windowHeight},scrollbars=yes,resizable=yes`
+    );
+    if (!popup) return;
+
+    popup.document.title = "Image";
+    popup.document.documentElement.style.cssText = "margin:0; padding:0; background:#fff;";
+    popup.document.body.style.cssText = "margin:0; padding:0; overflow:auto; background:#fff;";
+    const image = popup.document.createElement("img");
+    image.alt = sourceImage.alt || "";
+    image.style.cssText = `display:block; width:${tempWidth}px; max-width:100vw; height:auto;`;
+    image.src = sourceImage.src;
+    popup.document.body.appendChild(image);
+}
+
 function openPopup(url, fullWindow = false) {
     let targetUrl;
 
@@ -91,6 +117,17 @@ function openPopup(url, fullWindow = false) {
             .split("/")
             .map(encodeURIComponent)
             .join("/");
+    }
+
+    if (!fullWindow) {
+        const absoluteImageUrl = new URL(url, location.href).href;
+        const sourceImage = [...document.querySelectorAll(".analysis-image")].find(
+            image => image.src === absoluteImageUrl
+        );
+        if (sourceImage?.naturalWidth && sourceImage?.naturalHeight) {
+            openImagePopup(sourceImage);
+            return;
+        }
     }
 
     const features = fullWindow

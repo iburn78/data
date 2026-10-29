@@ -1,7 +1,7 @@
 {
     "key": "Display",
     "filename": "Display",
-    "updated": "2026-10-29 13:24",
+    "updated": "2026-10-29 14:52",
     "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 13:24",
+            "updated": "2026-10-29 14:52",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
@@ -102,6 +102,14 @@
     },
     "listed_companies": [
         {
+            "key": "108320",
+            "name": "LX세미콘"
+        },
+        {
+            "key": "178920",
+            "name": "PI첨단소재"
+        },
+        {
             "key": "213420(A)",
             "name": "덕산네오룩스(A)"
         },
@@ -112,14 +120,6 @@
         {
             "key": "239890",
             "name": "피엔에이치테크"
-        },
-        {
-            "key": "178920",
-            "name": "PI첨단소재"
-        },
-        {
-            "key": "108320",
-            "name": "LX세미콘"
         }
     ],
     "news": {

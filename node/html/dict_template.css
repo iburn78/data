@@ -104,19 +104,29 @@ a {
 .table-panel {
     flex: 0 1 auto;
     min-width: 420px;
+    max-width: 100%;
 }
 
 .table-wrapper {
-    width: fit-content;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    overflow-x: auto;
 }
 
 .dict-table {
     width: max-content;
     min-width: 420px;
-    max-width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
+}
+
+.dict-table .row-label-column {
+    width: 180px;
+}
+
+.dict-table .financial-column {
+    width: 120px;
 }
 
 .dict-table th,
@@ -133,6 +143,57 @@ a {
 .dict-table .value {
     text-align: right;
     font-variant-numeric: tabular-nums;
+}
+
+.column-name {
+    position: relative;
+    display: inline-block;
+    width: min(10ch, 100%);
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: bottom;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.column-name-preview {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.column-name-marquee {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    min-width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    background: inherit;
+    z-index: 5;
+}
+
+.column-name-marquee > span {
+    display: inline-block;
+    width: max-content;
+}
+
+.column-name:hover .column-name-preview,
+.column-name:focus-within .column-name-preview {
+    visibility: hidden;
+}
+
+.column-name:hover .column-name-marquee,
+.column-name:focus-within .column-name-marquee {
+    display: block;
+    animation: column-name-flow 8s linear infinite;
+}
+
+@keyframes column-name-flow {
+    0%, 10% { transform: translateX(0); }
+    90%, 100% { transform: translateX(-50%); }
 }
 
 
