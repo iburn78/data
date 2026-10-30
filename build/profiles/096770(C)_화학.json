@@ -1,7 +1,7 @@
 {
     "key": "096770(C)",
     "filename": "096770(C)_화학",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:31",
     "llm_research_updated": "2026-10-19 18:05",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "096770",
             "segment_name": "화학",
             "id": "C",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:31",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 3070,
+                "marcap": 2850,
                 "revenue_ltm": 13200,
                 "opincome_ltm": -1320,
                 "revenue_qtr": 3790,
@@ -46,23 +47,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 14
+                "measure_to_base(%)": 12
             },
             "amount": {
-                "measure_to_base(%)": 23
+                "measure_to_base(%)": 26
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.00046,
-                    "beta": 0.88
+                    "alpha(%)": -0.0028,
+                    "beta": 0.89
                 },
                 "base_period": {
-                    "alpha(%)": 0.068,
-                    "beta": 0.2
+                    "alpha(%)": 0.022,
+                    "beta": 0.21
                 },
                 "measure_period": {
-                    "alpha(%)": 0.23,
-                    "beta": 0.56
+                    "alpha(%)": -0.21,
+                    "beta": 0.57
                 }
             }
         },
@@ -71,7 +72,7 @@
             "financially_sound": false,
             "PER_level": "(na)",
             "volatility_level": "-",
-            "amount_level": "-",
+            "amount_level": "Up",
             "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"

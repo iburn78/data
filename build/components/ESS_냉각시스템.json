@@ -1,7 +1,7 @@
 {
     "key": "ESS 냉각시스템",
     "filename": "ESS_냉각시스템",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:26",
     "llm_research_updated": "2026-10-22 18:34",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:26",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 424,
+                "marcap": 436,
                 "revenue_ltm": 200,
                 "opincome_ltm": -9.72,
                 "revenue_qtr": 42.6,
@@ -54,10 +55,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 29
+                "measure_to_base(%)": 33
             },
             "amount": {
-                "measure_to_base(%)": 50
+                "measure_to_base(%)": 66
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -65,14 +66,18 @@
                     "beta": 0.6
                 },
                 "base_period": {
-                    "alpha(%)": -0.14,
-                    "beta": 0.7
+                    "alpha(%)": -0.12,
+                    "beta": 0.69
                 },
                 "measure_period": {
-                    "alpha(%)": 1.9,
+                    "alpha(%)": 2,
                     "beta": 1.4
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }

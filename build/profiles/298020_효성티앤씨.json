@@ -1,7 +1,7 @@
 {
     "key": "298020",
     "filename": "298020_효성티앤씨",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 11:15",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "298020",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1130,
+                "marcap": 1140,
                 "revenue_ltm": 8770,
                 "opincome_ltm": 509,
                 "revenue_qtr": 2420,
@@ -49,19 +50,19 @@
                 "measure_to_base(%)": -11
             },
             "amount": {
-                "measure_to_base(%)": -47
+                "measure_to_base(%)": -51
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0048,
+                    "alpha(%)": 0.0054,
                     "beta": 0.76
                 },
                 "base_period": {
-                    "alpha(%)": -0.51,
-                    "beta": 0.29
+                    "alpha(%)": -0.48,
+                    "beta": 0.3
                 },
                 "measure_period": {
-                    "alpha(%)": -0.18,
+                    "alpha(%)": 0.063,
                     "beta": 0.52
                 }
             }

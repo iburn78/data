@@ -472,6 +472,30 @@ app.get("/api/mp-plot", (req, res) => {
     });
 });
 
+app.get("/api/mv-plot", (req, res) => {
+    const { code } = req.query;
+    if (typeof code !== "string" || !/^\d{6}$/.test(code)) {
+        return res.status(400).json({ error: "A six-digit company code is required." });
+    }
+
+    const script = path.join(__dirname, "../../build/analysis/mv_plot.py");
+    execFile(PYTHON, [script, "--figure", code], {
+        encoding: "utf8",
+        maxBuffer: 8 * 1024 * 1024,
+    }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not create MV plot:", stderr || error);
+            return res.status(500).json({ error: "Could not create MV plot." });
+        }
+        try {
+            res.json({ figure: JSON.parse(stdout) });
+        } catch (parseError) {
+            console.error("Could not read MV plot output:", parseError);
+            res.status(500).json({ error: "Could not read MV plot output." });
+        }
+    });
+});
+
 app.get("/api/manual", (req, res) => {
     const renderMarkdown = [
         "from pathlib import Path",

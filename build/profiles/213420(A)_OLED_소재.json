@@ -1,7 +1,7 @@
 {
     "key": "213420(A)",
     "filename": "213420(A)_OLED_소재",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:29",
     "llm_research_updated": "2026-10-22 13:18",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "213420",
             "segment_name": "OLED 소재",
             "id": "A",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:29",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 432,
+                "marcap": 423,
                 "revenue_ltm": 276,
                 "opincome_ltm": 41.2,
                 "revenue_qtr": 67.2,
@@ -41,15 +42,15 @@
                 "ltm": 15
             },
             "PER": {
-                "PER_ltm": 10.5,
-                "PER_qx4": 10.8,
-                "PER_fwd": 9.35
+                "PER_ltm": 10.3,
+                "PER_qx4": 10.6,
+                "PER_fwd": 9.16
             },
             "volatility": {
-                "measure_to_base(%)": -30
+                "measure_to_base(%)": -28
             },
             "amount": {
-                "measure_to_base(%)": -56
+                "measure_to_base(%)": -55
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -57,11 +58,11 @@
                     "beta": 0.89
                 },
                 "base_period": {
-                    "alpha(%)": -0.52,
-                    "beta": 0.56
+                    "alpha(%)": -0.55,
+                    "beta": 0.55
                 },
                 "measure_period": {
-                    "alpha(%)": -0.53,
+                    "alpha(%)": -0.57,
                     "beta": 0.6
                 }
             }

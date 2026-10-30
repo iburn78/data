@@ -1,7 +1,7 @@
 {
     "key": "0126Z0",
     "filename": "0126Z0_삼성에피스홀딩스",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-22 16:01",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "0126Z0",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 7960,
+                "marcap": 7650,
                 "revenue_ltm": 1240,
                 "opincome_ltm": 208,
                 "revenue_qtr": 392,

@@ -1,7 +1,7 @@
 {
     "key": "055550",
     "filename": "055550_신한지주",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 13:26",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "055550",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 41100,
+                "marcap": 41900,
                 "revenue_ltm": 0,
                 "opincome_ltm": 0,
                 "revenue_qtr": 0,

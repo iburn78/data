@@ -1,7 +1,7 @@
 {
     "key": "086670",
     "filename": "086670_비엠티",
-    "updated": "2026-10-29 14:51",
+    "updated": "2026-10-30 10:23",
     "llm_research_updated": "2026-10-22 09:29",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "086670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:51",
+            "updated": "2026-10-30 10:23",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 169,
+                "marcap": 160,
                 "revenue_ltm": 167,
                 "opincome_ltm": 17.7,
                 "revenue_qtr": 48.6,
@@ -41,28 +42,28 @@
                 "ltm": 11
             },
             "PER": {
-                "PER_ltm": 9.55,
-                "PER_qx4": 6.7,
-                "PER_fwd": 5.72
+                "PER_ltm": 9.03,
+                "PER_qx4": 6.34,
+                "PER_fwd": 5.41
             },
             "volatility": {
-                "measure_to_base(%)": -20
+                "measure_to_base(%)": -12
             },
             "amount": {
-                "measure_to_base(%)": -28
+                "measure_to_base(%)": -22
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.066,
+                    "alpha(%)": 0.064,
                     "beta": 0.72
                 },
                 "base_period": {
-                    "alpha(%)": 0.026,
-                    "beta": 0.49
+                    "alpha(%)": 0.0072,
+                    "beta": 0.5
                 },
                 "measure_period": {
-                    "alpha(%)": -0.22,
-                    "beta": 0.73
+                    "alpha(%)": -0.34,
+                    "beta": 0.74
                 }
             }
         },
@@ -71,7 +72,7 @@
             "financially_sound": true,
             "PER_level": "Mid",
             "volatility_level": "-",
-            "amount_level": "Dn",
+            "amount_level": "-",
             "alpha_level": "-",
             "category": "B",
             "market_sentiment": "-"

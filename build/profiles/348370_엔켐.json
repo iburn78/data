@@ -1,7 +1,7 @@
 {
     "key": "348370",
     "filename": "348370_엔켐",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 11:32",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "348370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 394,
+                "marcap": 365,
                 "revenue_ltm": 379,
                 "opincome_ltm": -76.6,
                 "revenue_qtr": 102,
@@ -46,23 +47,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -20
+                "measure_to_base(%)": -14
             },
             "amount": {
-                "measure_to_base(%)": -39
+                "measure_to_base(%)": -38
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.05,
+                    "alpha(%)": -0.055,
                     "beta": 0.95
                 },
                 "base_period": {
-                    "alpha(%)": -0.52,
+                    "alpha(%)": -0.56,
                     "beta": 0.68
                 },
                 "measure_period": {
-                    "alpha(%)": 0.12,
-                    "beta": 0.93
+                    "alpha(%)": -0.31,
+                    "beta": 0.95
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "336370",
     "filename": "336370_솔루스첨단소재",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:31",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "336370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:31",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 565,
+                "marcap": 548,
                 "revenue_ltm": 566,
                 "opincome_ltm": -87.3,
                 "revenue_qtr": 102,
@@ -46,23 +47,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 11
+                "measure_to_base(%)": 12
             },
             "amount": {
-                "measure_to_base(%)": -46
+                "measure_to_base(%)": -39
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.081,
+                    "alpha(%)": 0.08,
                     "beta": 0.98
                 },
                 "base_period": {
-                    "alpha(%)": -0.25,
-                    "beta": 0.65
+                    "alpha(%)": -0.28,
+                    "beta": 0.64
                 },
                 "measure_period": {
-                    "alpha(%)": 1,
-                    "beta": 0.88
+                    "alpha(%)": 0.72,
+                    "beta": 0.89
                 }
             }
         },

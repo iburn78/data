@@ -1,7 +1,7 @@
 {
     "key": "005070",
     "filename": "005070_코스모신소재",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 16:36",
     "llm_research_updated": "2026-10-21 11:08",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "005070",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 16:36",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1320,
+                "marcap": 1270,
                 "revenue_ltm": 515,
                 "opincome_ltm": 10.9,
                 "revenue_qtr": 138,
@@ -41,15 +42,15 @@
                 "ltm": 2.1
             },
             "PER": {
-                "PER_ltm": 121,
-                "PER_qx4": 70.8,
-                "PER_fwd": 88.7
+                "PER_ltm": 117,
+                "PER_qx4": 68.4,
+                "PER_fwd": 85.7
             },
             "volatility": {
-                "measure_to_base(%)": -13
+                "measure_to_base(%)": -11
             },
             "amount": {
-                "measure_to_base(%)": -10
+                "measure_to_base(%)": -12
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -57,11 +58,11 @@
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.21,
+                    "alpha(%)": -0.25,
                     "beta": 0.77
                 },
                 "measure_period": {
-                    "alpha(%)": 0.21,
+                    "alpha(%)": 0.082,
                     "beta": 0.93
                 }
             }

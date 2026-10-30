@@ -1,7 +1,7 @@
 {
     "key": "373220",
     "filename": "373220_LG에너지솔루션",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:31",
     "llm_research_updated": "2026-10-20 10:41",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "373220",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:31",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 87400,
+                "marcap": 83200,
                 "revenue_ltm": 27800,
                 "opincome_ltm": -103,
                 "revenue_qtr": 7560,
@@ -42,27 +43,27 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 193,
-                "PER_fwd": 331
+                "PER_qx4": 184,
+                "PER_fwd": 315
             },
             "volatility": {
-                "measure_to_base(%)": -23
+                "measure_to_base(%)": -19
             },
             "amount": {
-                "measure_to_base(%)": 8.8
+                "measure_to_base(%)": 17
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.041,
+                    "alpha(%)": -0.045,
                     "beta": 0.66
                 },
                 "base_period": {
-                    "alpha(%)": -0.094,
+                    "alpha(%)": -0.14,
                     "beta": 0.34
                 },
                 "measure_period": {
-                    "alpha(%)": 0.46,
-                    "beta": 0.19
+                    "alpha(%)": 0.19,
+                    "beta": 0.2
                 }
             }
         },

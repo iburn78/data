@@ -1,7 +1,7 @@
 {
     "key": "금융업",
     "filename": "금융업",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-23 13:14",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 238000,
+                "marcap": 244000,
                 "revenue_ltm": 197000,
                 "opincome_ltm": 0,
                 "revenue_qtr": 61800,
@@ -54,25 +55,29 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -20
+                "measure_to_base(%)": -15
             },
             "amount": {
-                "measure_to_base(%)": -40
+                "measure_to_base(%)": -39
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.022,
+                    "alpha(%)": 0.023,
                     "beta": 0.71
                 },
                 "base_period": {
-                    "alpha(%)": -0.18,
-                    "beta": 0.29
+                    "alpha(%)": -0.16,
+                    "beta": 0.28
                 },
                 "measure_period": {
-                    "alpha(%)": -0.59,
-                    "beta": 0.3
+                    "alpha(%)": -0.33,
+                    "beta": 0.29
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }
@@ -84,7 +89,7 @@
             "PER_level": "(na)",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }

@@ -1,7 +1,7 @@
 {
     "key": "화장품 ODM",
     "filename": "화장품_ODM",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-23 14:22",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 5710,
+                "marcap": 5510,
                 "revenue_ltm": 5980,
                 "opincome_ltm": 589,
                 "revenue_qtr": 1660,
@@ -49,30 +50,34 @@
                 "ltm": 9.8
             },
             "PER": {
-                "PER_ltm": 9.69,
-                "PER_qx4": 7.75,
-                "PER_fwd": 6.96
+                "PER_ltm": 9.35,
+                "PER_qx4": 7.48,
+                "PER_fwd": 6.72
             },
             "volatility": {
-                "measure_to_base(%)": -3
+                "measure_to_base(%)": 0.38
             },
             "amount": {
-                "measure_to_base(%)": -0.41
+                "measure_to_base(%)": 0.24
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.015,
+                    "alpha(%)": 0.014,
                     "beta": 0.52
                 },
                 "base_period": {
-                    "alpha(%)": 0.27,
-                    "beta": 0.13
+                    "alpha(%)": 0.25,
+                    "beta": 0.14
                 },
                 "measure_period": {
-                    "alpha(%)": -0.63,
-                    "beta": 0.25
+                    "alpha(%)": -0.64,
+                    "beta": 0.26
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }

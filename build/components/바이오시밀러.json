@@ -1,7 +1,7 @@
 {
     "key": "바이오시밀러",
     "filename": "바이오시밀러",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-24 11:59",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 52000,
+                "marcap": 51700,
                 "revenue_ltm": 6500,
                 "opincome_ltm": 1910,
                 "revenue_qtr": 1790,
@@ -49,15 +50,15 @@
                 "ltm": 29
             },
             "PER": {
-                "PER_ltm": 27.3,
-                "PER_qx4": 25.5,
-                "PER_fwd": 20.4
+                "PER_ltm": 27.1,
+                "PER_qx4": 25.3,
+                "PER_fwd": 20.3
             },
             "volatility": {
                 "measure_to_base(%)": -30
             },
             "amount": {
-                "measure_to_base(%)": -24
+                "measure_to_base(%)": -23
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -65,14 +66,18 @@
                     "beta": 0.62
                 },
                 "base_period": {
-                    "alpha(%)": -0.059,
-                    "beta": 0.21
+                    "alpha(%)": -0.039,
+                    "beta": 0.22
                 },
                 "measure_period": {
-                    "alpha(%)": 0.43,
+                    "alpha(%)": 0.41,
                     "beta": 0.3
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }

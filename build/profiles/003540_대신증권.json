@@ -1,7 +1,7 @@
 {
     "key": "003540",
     "filename": "003540_대신증권",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 14:07",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "003540",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1070,
+                "marcap": 1060,
                 "revenue_ltm": 9290,
                 "opincome_ltm": 0,
                 "revenue_qtr": 2550,

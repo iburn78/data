@@ -1,7 +1,7 @@
 {
     "key": "음극재",
     "filename": "음극재",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 11:10",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 16500,
+                "marcap": 15800,
                 "revenue_ltm": 3040,
                 "opincome_ltm": 46.7,
                 "revenue_qtr": 780,
@@ -49,30 +50,34 @@
                 "ltm": 1.5
             },
             "PER": {
-                "PER_ltm": 353,
-                "PER_qx4": 123,
-                "PER_fwd": 114
+                "PER_ltm": 339,
+                "PER_qx4": 118,
+                "PER_fwd": 110
             },
             "volatility": {
-                "measure_to_base(%)": 9.1
+                "measure_to_base(%)": 9.4
             },
             "amount": {
                 "measure_to_base(%)": 14
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.099,
+                    "alpha(%)": 0.098,
                     "beta": 1
                 },
                 "base_period": {
-                    "alpha(%)": -0.23,
-                    "beta": 0.61
+                    "alpha(%)": -0.27,
+                    "beta": 0.6
                 },
                 "measure_period": {
-                    "alpha(%)": 0.51,
-                    "beta": 0.88
+                    "alpha(%)": 0.25,
+                    "beta": 0.89
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }
@@ -84,7 +89,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }

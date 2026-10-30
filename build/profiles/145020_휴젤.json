@@ -1,7 +1,7 @@
 {
     "key": "145020",
     "filename": "145020_휴젤",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-19 09:44",
     "financials": {
         "meta": {
@@ -9,12 +9,13 @@
             "code": "145020",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
@@ -46,10 +47,10 @@
                 "PER_fwd": 9.3
             },
             "volatility": {
-                "measure_to_base(%)": -37
+                "measure_to_base(%)": -39
             },
             "amount": {
-                "measure_to_base(%)": -35
+                "measure_to_base(%)": -39
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -57,11 +58,11 @@
                     "beta": 0.59
                 },
                 "base_period": {
-                    "alpha(%)": -0.21,
-                    "beta": 0.18
+                    "alpha(%)": -0.23,
+                    "beta": 0.17
                 },
                 "measure_period": {
-                    "alpha(%)": 0.3,
+                    "alpha(%)": 0.46,
                     "beta": 0.49
                 }
             }

@@ -27,7 +27,8 @@
 }
 
 .roma-plot-link,
-.mp-plot-link {
+.mp-plot-link,
+.mv-plot-link {
     margin-left: 6px;
     padding: 5px 10px;
     border: 1px solid #cbd5e1;
@@ -38,7 +39,8 @@
 }
 
 .roma-plot-link:hover,
-.mp-plot-link:hover { background: #f1f5f9; }
+.mp-plot-link:hover,
+.mv-plot-link:hover { background: #f1f5f9; }
 
 .llm-research-link.llm-research-missing {
     color: #e88b8b;

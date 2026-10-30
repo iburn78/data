@@ -1,7 +1,7 @@
 {
     "key": "317330",
     "filename": "317330_덕산테코피아",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 11:41",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "317330",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 209,
+                "marcap": 204,
                 "revenue_ltm": 152,
                 "opincome_ltm": -41.2,
                 "revenue_qtr": 42.2,
@@ -49,19 +50,19 @@
                 "measure_to_base(%)": -12
             },
             "amount": {
-                "measure_to_base(%)": -71
+                "measure_to_base(%)": -72
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.019,
+                    "alpha(%)": -0.02,
                     "beta": 1.1
                 },
                 "base_period": {
-                    "alpha(%)": -0.55,
+                    "alpha(%)": -0.57,
                     "beta": 0.72
                 },
                 "measure_period": {
-                    "alpha(%)": -0.23,
+                    "alpha(%)": -0.31,
                     "beta": 1.1
                 }
             }

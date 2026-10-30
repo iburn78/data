@@ -1,7 +1,7 @@
 {
     "key": "195870",
     "filename": "195870_해성디에스",
-    "updated": "2026-10-29 14:51",
+    "updated": "2026-10-30 10:24",
     "llm_research_updated": "2026-10-19 09:30",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "195870",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:51",
+            "updated": "2026-10-30 10:24",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 913,
+                "marcap": 876,
                 "revenue_ltm": 791,
                 "opincome_ltm": 82.5,
                 "revenue_qtr": 211,
@@ -41,27 +42,27 @@
                 "ltm": 10
             },
             "PER": {
-                "PER_ltm": 11.1,
-                "PER_qx4": 9.18,
-                "PER_fwd": 8.47
+                "PER_ltm": 10.6,
+                "PER_qx4": 8.8,
+                "PER_fwd": 8.12
             },
             "volatility": {
-                "measure_to_base(%)": 15
+                "measure_to_base(%)": 13
             },
             "amount": {
-                "measure_to_base(%)": -49
+                "measure_to_base(%)": -46
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.043,
+                    "alpha(%)": 0.042,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.12,
+                    "alpha(%)": -0.088,
                     "beta": 1
                 },
                 "measure_period": {
-                    "alpha(%)": 0.5,
+                    "alpha(%)": 0.49,
                     "beta": 1.8
                 }
             }

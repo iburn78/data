@@ -1,7 +1,7 @@
 {
     "key": "214150",
     "filename": "214150_클래시스",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-22 17:39",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "214150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1760,
+                "marcap": 1740,
                 "revenue_ltm": 392,
                 "opincome_ltm": 176,
                 "revenue_qtr": 106,
@@ -41,27 +42,27 @@
                 "ltm": 45
             },
             "PER": {
-                "PER_ltm": 9.99,
-                "PER_qx4": 10,
-                "PER_fwd": 9.11
+                "PER_ltm": 9.86,
+                "PER_qx4": 9.89,
+                "PER_fwd": 9
             },
             "volatility": {
-                "measure_to_base(%)": -24
+                "measure_to_base(%)": -22
             },
             "amount": {
-                "measure_to_base(%)": -55
+                "measure_to_base(%)": -52
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.092,
+                    "alpha(%)": 0.091,
                     "beta": 0.62
                 },
                 "base_period": {
-                    "alpha(%)": -0.54,
+                    "alpha(%)": -0.55,
                     "beta": 0.23
                 },
                 "measure_period": {
-                    "alpha(%)": -0.44,
+                    "alpha(%)": -0.43,
                     "beta": 0.29
                 }
             }

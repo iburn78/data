@@ -1,7 +1,7 @@
 {
     "key": "066570",
     "filename": "066570_LG전자",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:35",
     "llm_research_updated": "2026-10-20 09:33",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "066570",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:35",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 26400,
+                "marcap": 25200,
                 "revenue_ltm": 95200,
                 "opincome_ltm": 4720,
                 "revenue_qtr": 23800,
@@ -49,27 +50,27 @@
                 "ltm": 5
             },
             "PER": {
-                "PER_ltm": 5.59,
-                "PER_qx4": 4.18,
-                "PER_fwd": 3.93
+                "PER_ltm": 5.34,
+                "PER_qx4": 3.99,
+                "PER_fwd": 3.75
             },
             "volatility": {
-                "measure_to_base(%)": -40
+                "measure_to_base(%)": -36
             },
             "amount": {
-                "measure_to_base(%)": -70
+                "measure_to_base(%)": -69
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.031,
+                    "alpha(%)": 0.03,
                     "beta": 0.91
                 },
                 "base_period": {
-                    "alpha(%)": 0.36,
-                    "beta": 0.79
+                    "alpha(%)": 0.35,
+                    "beta": 0.8
                 },
                 "measure_period": {
-                    "alpha(%)": -0.91,
+                    "alpha(%)": -1.1,
                     "beta": 0.75
                 }
             }

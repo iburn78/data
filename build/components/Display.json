@@ -1,7 +1,7 @@
 {
     "key": "Display",
     "filename": "Display",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:30",
     "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:30",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 1800,
+                "marcap": 1760,
                 "revenue_ltm": 2580,
                 "opincome_ltm": 250,
                 "revenue_qtr": 661,
@@ -49,30 +50,34 @@
                 "ltm": 9.7
             },
             "PER": {
-                "PER_ltm": 7.19,
-                "PER_qx4": 6.85,
-                "PER_fwd": 7.59
+                "PER_ltm": 7.02,
+                "PER_qx4": 6.69,
+                "PER_fwd": 7.41
             },
             "volatility": {
-                "measure_to_base(%)": -20
+                "measure_to_base(%)": -16
             },
             "amount": {
-                "measure_to_base(%)": -59
+                "measure_to_base(%)": -58
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.0023,
+                    "alpha(%)": -0.0028,
                     "beta": 0.87
                 },
                 "base_period": {
-                    "alpha(%)": -0.47,
-                    "beta": 0.59
+                    "alpha(%)": -0.51,
+                    "beta": 0.58
                 },
                 "measure_period": {
-                    "alpha(%)": -0.43,
+                    "alpha(%)": -0.55,
                     "beta": 0.63
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }
@@ -84,7 +89,7 @@
             "PER_level": "Low",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "D",
             "market_sentiment": "-"
         }
@@ -123,15 +128,18 @@
         }
     ],
     "news": {
-        "updated": "2026-10-26 16:17",
+        "updated": "2026-10-30 10:28",
         "key_facts": [
-            "IT 기기(태블릿, 노트북) 및 차량용 디스플레이 시장 내 OLED 적용이 확대되고 있음",
-            "디스플레이 섹터 전반적으로 경쟁 심화에 따른 가격 하락 압력이 지속되고 있음"
+            "2026년 10월 27일 중국 선전에서 OLED, Micro LED, AI 스마트 글래스 및 반도체 패키징 기술을 다루는 'C-TOUCH & DISPLAY SHENZHEN 2026' 전시회가 개막함.",
+            "2026년 10월 22일 한국디스플레이산업협회(KDIA)와 한국인공지능소프트웨어산업협회(KOSA)가 '2026 AX Connect day'를 개최하여 디스플레이 소부장 기업의 AI 전환(AX) 사례를 공유함.",
+            "초광역특구법을 통해 증손회사 지분율 규제 완화(100%→50%)가 추진되었으나, 적용 대상이 '반도체 업종'으로 한정되어 디스플레이 산업은 제외됨."
         ],
         "new_trends": [
-            "IT용 OLED 패널 수요 증가",
-            "자동차 산업의 전장화 추세에 따른 차량용 OLED 시장 성장"
+            "제조 AI 전환(AX): AI 기반 예측 정비, IoT 센서, 실시간 모니터링을 통한 생산성 향상 및 불량률 감소 추세.",
+            "차세대 디스플레이 융합: OLED, Micro LED와 AI·AR 기술이 결합된 스마트 글래스 및 웨어러블 기기 개발 가속화.",
+            "공정 혁신: 유리 기판 관통 전극 형성 기술인 TGV(Through-Glass Via)를 활용한 첨단 패키징 공정 주목.",
+            "신시장 확대: IT 기기(태블릿, 노트북) 및 차량용 전장 디스플레이로의 OLED 적용 확대."
         ],
-        "news_summary": "디스플레이 산업은 IT 기기와 차량용 디스플레이를 중심으로 OLED 적용 확대와 수요 증가라는 긍정적인 성장 동력을 맞이하고 있습니다. 다만, 산업 전반의 경쟁 심화로 인한 가격 하락 압력과 매크로 경제의 불확실성은 여전히 리스크 요인으로 작용하고 있습니다."
+        "news_summary": "디스플레이 산업은 현재 AI 기반의 제조 혁신(AX)과 차세대 디스플레이 기술 융합에 집중하고 있습니다. 업계에서는 AI를 활용해 생산성을 높이고 불량률을 낮추는 공정 최적화가 경쟁력의 핵심으로 부상하고 있으며, OLED와 Micro LED를 넘어 AI·AR 스마트 글래스와 차량용 디스플레이 등 신시장 개척이 활발히 진행 중입니다. 다만, 정부의 증손회사 지분율 규제 완화 혜택에서 디스플레이 업종이 제외되며 형평성 논란이 제기되는 등 정책적 제약 요소도 공존하고 있습니다."
     }
 }

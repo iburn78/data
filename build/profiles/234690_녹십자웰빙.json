@@ -1,7 +1,7 @@
 {
     "key": "234690",
     "filename": "234690_녹십자웰빙",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-22 12:53",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "234690",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 202,
+                "marcap": 200,
                 "revenue_ltm": 202,
                 "opincome_ltm": 17,
                 "revenue_qtr": 52.1,
@@ -41,27 +42,27 @@
                 "ltm": 8.4
             },
             "PER": {
-                "PER_ltm": 11.9,
-                "PER_qx4": 10.9,
-                "PER_fwd": 10.1
+                "PER_ltm": 11.8,
+                "PER_qx4": 10.8,
+                "PER_fwd": 10
             },
             "volatility": {
-                "measure_to_base(%)": 38
+                "measure_to_base(%)": 39
             },
             "amount": {
-                "measure_to_base(%)": 46
+                "measure_to_base(%)": 53
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0027,
+                    "alpha(%)": 0.0024,
                     "beta": 0.62
                 },
                 "base_period": {
-                    "alpha(%)": -0.036,
-                    "beta": 0.26
+                    "alpha(%)": -0.023,
+                    "beta": 0.27
                 },
                 "measure_period": {
-                    "alpha(%)": 1.5,
+                    "alpha(%)": 1.1,
                     "beta": 0.56
                 }
             }

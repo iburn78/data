@@ -1,7 +1,7 @@
 {
     "key": "192820",
     "filename": "192820_코스맥스",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-22 17:32",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "192820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2940,
+                "marcap": 2800,
                 "revenue_ltm": 2870,
                 "opincome_ltm": 241,
                 "revenue_qtr": 795,
@@ -41,28 +42,28 @@
                 "ltm": 8.4
             },
             "PER": {
-                "PER_ltm": 12.2,
-                "PER_qx4": 9.97,
-                "PER_fwd": 9.2
+                "PER_ltm": 11.6,
+                "PER_qx4": 9.49,
+                "PER_fwd": 8.75
             },
             "volatility": {
-                "measure_to_base(%)": 5
+                "measure_to_base(%)": 14
             },
             "amount": {
-                "measure_to_base(%)": 26
+                "measure_to_base(%)": 27
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.033,
+                    "alpha(%)": 0.032,
                     "beta": 0.51
                 },
                 "base_period": {
-                    "alpha(%)": 0.24,
-                    "beta": 0.087
+                    "alpha(%)": 0.21,
+                    "beta": 0.094
                 },
                 "measure_period": {
-                    "alpha(%)": -0.21,
-                    "beta": 0.16
+                    "alpha(%)": -0.26,
+                    "beta": 0.18
                 }
             }
         },

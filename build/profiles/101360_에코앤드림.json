@@ -1,7 +1,7 @@
 {
     "key": "101360",
     "filename": "101360_에코앤드림",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 11:28",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "101360",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 180,
+                "marcap": 168,
                 "revenue_ltm": 93.9,
                 "opincome_ltm": -12.4,
                 "revenue_qtr": 20.2,
@@ -46,10 +47,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 77
+                "measure_to_base(%)": 81
             },
             "amount": {
-                "measure_to_base(%)": 480
+                "measure_to_base(%)": 500
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -57,11 +58,11 @@
                     "beta": 0.92
                 },
                 "base_period": {
-                    "alpha(%)": -0.36,
-                    "beta": 0.69
+                    "alpha(%)": -0.4,
+                    "beta": 0.7
                 },
                 "measure_period": {
-                    "alpha(%)": 2.9,
+                    "alpha(%)": 2.2,
                     "beta": 1.5
                 }
             }

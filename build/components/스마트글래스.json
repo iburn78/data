@@ -1,7 +1,7 @@
 {
     "key": "스마트글래스",
     "filename": "스마트글래스",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:27",
     "llm_research_updated": "2026-10-20 14:01",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 219,
+                "marcap": 211,
                 "revenue_ltm": 30.6,
                 "opincome_ltm": 0.741,
                 "revenue_qtr": 7.21,
@@ -49,12 +50,12 @@
                 "ltm": 2.4
             },
             "PER": {
-                "PER_ltm": 295,
-                "PER_qx4": 175,
-                "PER_fwd": 59.1
+                "PER_ltm": 284,
+                "PER_qx4": 169,
+                "PER_fwd": 56.9
             },
             "volatility": {
-                "measure_to_base(%)": -19
+                "measure_to_base(%)": -18
             },
             "amount": {
                 "measure_to_base(%)": -47
@@ -65,14 +66,18 @@
                     "beta": 1
                 },
                 "base_period": {
-                    "alpha(%)": -0.22,
+                    "alpha(%)": -0.23,
                     "beta": 0.85
                 },
                 "measure_period": {
-                    "alpha(%)": -1.4,
+                    "alpha(%)": -1.3,
                     "beta": 1
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }

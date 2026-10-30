@@ -1,7 +1,7 @@
 {
     "key": "011070(B)",
     "filename": "011070(B)_패키지솔루션",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:27",
     "llm_research_updated": "2026-10-19 17:00",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "011070",
             "segment_name": "패키지솔루션",
             "id": "B",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 781,
+                "marcap": 735,
                 "revenue_ltm": 2180,
                 "opincome_ltm": 231,
                 "revenue_qtr": 497,
@@ -41,28 +42,28 @@
                 "ltm": 11
             },
             "PER": {
-                "PER_ltm": 3.38,
-                "PER_qx4": 3.7,
-                "PER_fwd": 3.53
+                "PER_ltm": 3.18,
+                "PER_qx4": 3.48,
+                "PER_fwd": 3.32
             },
             "volatility": {
-                "measure_to_base(%)": -12
+                "measure_to_base(%)": -7.8
             },
             "amount": {
-                "measure_to_base(%)": -63
+                "measure_to_base(%)": -64
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.038,
+                    "alpha(%)": 0.037,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.14,
+                    "alpha(%)": -0.16,
                     "beta": 1.1
                 },
                 "measure_period": {
                     "alpha(%)": -1.7,
-                    "beta": 0.93
+                    "beta": 0.94
                 }
             }
         },

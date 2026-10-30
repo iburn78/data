@@ -1,7 +1,7 @@
 {
     "key": "가전 렌탈",
     "filename": "가전_렌탈",
-    "updated": "2026-10-27 10:44",
+    "updated": "2026-10-30 10:09",
     "llm_research_updated": "2026-10-23 14:23",
     "financials": {
         "meta": {
@@ -9,67 +9,77 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-27 10:44",
+            "updated": "2026-10-30 10:09",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 7330.0,
-                "revenue_4qtrs": 5490.0,
-                "opincome_4qtrs": 939.0,
-                "revenue_qtr": 1440.0,
-                "opincome_qtr": 253.0
+                "marcap": 7270,
+                "revenue_ltm": 5490,
+                "opincome_ltm": 939,
+                "revenue_qtr": 1440,
+                "opincome_qtr": 253
             },
             "share": {
-                "marcap": "-",
+                "marcap(%)": "-",
                 "-m_rank": "-",
-                "revenue": "-",
+                "revenue_qtr(%)": "-",
                 "-r_rank": "-",
-                "opincome": "-",
+                "opincome_qtr(%)": "-",
                 "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
-                "slope": 5.68,
-                "growth_per_qtr": 0.0242
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 5.7,
+                "growth(%)": 2.6
             },
-            "opmargin": {
-                "25_4Q": 0.142,
-                "26_1Q": 0.189,
-                "26_2Q": 0.176,
-                "26_3Q": 0.176,
-                "4qtrs": 0.171
+            "opmargin(%)": {
+                "25_4Q": 14,
+                "26_1Q": 19,
+                "26_2Q": 18,
+                "26_3Q": 18,
+                "ltm": 17
             },
             "PER": {
-                "PER_ltm": 7.81,
-                "PER_qx4": 7.24,
-                "PER_fwd": 6.85
+                "PER_ltm": 7.74,
+                "PER_qx4": 7.18,
+                "PER_fwd": 6.79
             },
             "volatility": {
-                "measure_to_base": 1.09,
-                "slope": -0.0000961
+                "measure_to_base(%)": -42
             },
             "amount": {
-                "measure_to_base": 1.16,
-                "slope": -0.101
+                "measure_to_base(%)": -15
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": 0.000128,
-                    "beta": 0.405
+                    "alpha(%)": 0.011,
+                    "beta": 0.4
                 },
-                "base_duration": {
-                    "alpha": 0.00203,
-                    "beta": 0.0866
+                "base_period": {
+                    "alpha(%)": 0.18,
+                    "beta": 0.075
                 },
-                "measure_duration": {
-                    "alpha": 0.00256,
-                    "beta": 0.0326
+                "measure_period": {
+                    "alpha(%)": 0.15,
+                    "beta": -0.044
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
                 }
             }
         },
@@ -77,17 +87,18 @@
             "basics": true,
             "financially_sound": false,
             "PER_level": "Low",
-            "volatility_movement": "-",
-            "amount_movement": "-",
-            "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "D"
+            "volatility_level": "Dn",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
         }
     },
     "info_section": {
         "reviewed": false,
         "search_theme": [
-            "섹터 전망"
+            "산업",
+            "업종"
         ],
         "tags": "",
         "notes": "",
@@ -99,5 +110,20 @@
             "key": "021240",
             "name": "코웨이"
         }
-    ]
+    ],
+    "news": {
+        "updated": "2026-10-30 10:08",
+        "key_facts": [
+            "LG전자의 가전 구독 매출은 2026년 3분기 누적 2조 800억 원으로 전년 동기 대비 10.1% 증가했으며, 2023년(50% 이상)과 2024년(70%)에 이어 두 자릿수 성장세를 유지하고 있음.",
+            "코웨이의 해외법인 매출 비중은 2025년 기준 38%까지 상승했으며, 2026년 2분기 해외법인 매출은 5,875억 원으로 전년 동기 대비 24.2% 증가함.",
+            "쿠쿠는 북미 진출 10주년을 맞아 기존 밥솥 중심에서 정수기, 공기청정기 등 렌탈 및 생활가전으로 제품군을 확장하고 있음."
+        ],
+        "new_trends": [
+            "정수기·공기청정기 등 환경가전 중심의 렌탈에서 대형 가전, 침대, 안마의자, 웨어러블 로봇, 의료기기 등으로 품목이 다변화되는 추세임.",
+            "단순 제품 대여를 넘어 상담, 설치, 정기 케어, 사후관리를 통합한 '구독' 모델로의 전환 및 고도화가 진행 중임.",
+            "30대와 40대를 중심으로 가전 구독 서비스에 대한 인지도와 친숙도가 높아지며 소비 트렌드가 '소유'에서 '경험' 중심으로 이동함.",
+            "초프리미엄 가전 전용 구독 서비스(전문 인력 전담 케어, 부품 교체 등)와 같은 고부가가치 서비스 모델이 등장함."
+        ],
+        "news_summary": "가전 렌탈 산업은 기존의 환경가전 중심에서 대형 가전 및 헬스케어 기기까지 품목을 확장하고, 단순 렌탈에서 통합 관리형 '구독' 모델로 진화하고 있습니다. 특히 3040 젊은 소비층을 중심으로 구독 서비스에 대한 선호도가 높아지며 시장이 성장하고 있으며, 국내 기업들은 북미, 동남아시아 등 해외 시장 진출 및 렌탈 계정 확대를 통해 수익 구조를 다변화하고 있습니다."
+    }
 }

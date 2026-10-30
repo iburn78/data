@@ -1,7 +1,7 @@
 {
     "key": "전구체",
     "filename": "전구체",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-21 11:22",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 2320,
+                "marcap": 2210,
                 "revenue_ltm": 733,
                 "opincome_ltm": -14.5,
                 "revenue_qtr": 199,
@@ -54,10 +55,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 9.8
+                "measure_to_base(%)": 13
             },
             "amount": {
-                "measure_to_base(%)": -24
+                "measure_to_base(%)": -22
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -65,14 +66,18 @@
                     "beta": 0.81
                 },
                 "base_period": {
-                    "alpha(%)": -0.68,
-                    "beta": 0.64
+                    "alpha(%)": -0.74,
+                    "beta": 0.63
                 },
                 "measure_period": {
-                    "alpha(%)": 0.25,
+                    "alpha(%)": -0.039,
                     "beta": 1
                 },
-                "indplot_period": {
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
                     "alpha(%)": null,
                     "beta": null
                 }

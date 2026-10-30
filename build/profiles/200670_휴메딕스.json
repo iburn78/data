@@ -1,7 +1,7 @@
 {
     "key": "200670",
     "filename": "200670_휴메딕스",
-    "updated": "2026-10-29 14:53",
+    "updated": "2026-10-30 10:33",
     "llm_research_updated": "2026-10-22 16:10",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "200670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:53",
+            "updated": "2026-10-30 10:33",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 263,
+                "marcap": 255,
                 "revenue_ltm": 187,
                 "opincome_ltm": 43.4,
                 "revenue_qtr": 50.4,
@@ -41,28 +42,28 @@
                 "ltm": 23
             },
             "PER": {
-                "PER_ltm": 6.06,
-                "PER_qx4": 5.62,
-                "PER_fwd": 5.65
+                "PER_ltm": 5.87,
+                "PER_qx4": 5.45,
+                "PER_fwd": 5.47
             },
             "volatility": {
-                "measure_to_base(%)": -23
+                "measure_to_base(%)": -17
             },
             "amount": {
                 "measure_to_base(%)": -55
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.024,
+                    "alpha(%)": -0.025,
                     "beta": 0.72
                 },
                 "base_period": {
-                    "alpha(%)": -0.28,
+                    "alpha(%)": -0.3,
                     "beta": 0.37
                 },
                 "measure_period": {
-                    "alpha(%)": 0.15,
-                    "beta": 0.58
+                    "alpha(%)": 0.012,
+                    "beta": 0.59
                 }
             }
         },

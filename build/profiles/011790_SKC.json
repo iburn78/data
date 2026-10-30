@@ -1,7 +1,7 @@
 {
     "key": "011790",
     "filename": "011790_SKC",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:31",
     "llm_research_updated": "2026-10-20 16:00",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "011790",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:31",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 4100,
+                "marcap": 3660,
                 "revenue_ltm": 2220,
                 "opincome_ltm": -165,
                 "revenue_qtr": 645,
@@ -54,23 +55,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -3.3
+                "measure_to_base(%)": 5.2
             },
             "amount": {
-                "measure_to_base(%)": -56
+                "measure_to_base(%)": -55
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.027,
+                    "alpha(%)": 0.023,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.12,
-                    "beta": 0.96
+                    "alpha(%)": -0.2,
+                    "beta": 0.97
                 },
                 "measure_period": {
-                    "alpha(%)": 0.061,
-                    "beta": 0.83
+                    "alpha(%)": -0.79,
+                    "beta": 0.85
                 }
             }
         },
@@ -80,7 +81,7 @@
             "PER_level": "(na)",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "D",
             "market_sentiment": "-"
         }

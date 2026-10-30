@@ -1,7 +1,7 @@
 {
     "key": "011070(A)",
     "filename": "011070(A)_광학솔루션",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:27",
     "llm_research_updated": "2026-10-19 16:36",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "011070",
             "segment_name": "광학솔루션",
             "id": "A",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 7200,
+                "marcap": 6780,
                 "revenue_ltm": 20100,
                 "opincome_ltm": 904,
                 "revenue_qtr": 4590,
@@ -41,28 +42,28 @@
                 "ltm": 4.5
             },
             "PER": {
-                "PER_ltm": 7.97,
-                "PER_qx4": 8.72,
-                "PER_fwd": 8.32
+                "PER_ltm": 7.5,
+                "PER_qx4": 8.21,
+                "PER_fwd": 7.83
             },
             "volatility": {
-                "measure_to_base(%)": -12
+                "measure_to_base(%)": -7.8
             },
             "amount": {
-                "measure_to_base(%)": -63
+                "measure_to_base(%)": -64
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.038,
+                    "alpha(%)": 0.037,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.14,
+                    "alpha(%)": -0.16,
                     "beta": 1.1
                 },
                 "measure_period": {
                     "alpha(%)": -1.7,
-                    "beta": 0.93
+                    "beta": 0.94
                 }
             }
         },

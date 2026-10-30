@@ -1,7 +1,7 @@
 {
     "key": "213420(B)",
     "filename": "213420(B)_터보기계",
-    "updated": "2026-10-29 14:52",
+    "updated": "2026-10-30 10:29",
     "llm_research_updated": "2026-10-22 13:18",
     "financials": {
         "meta": {
@@ -9,17 +9,18 @@
             "code": "213420",
             "segment_name": "터보기계",
             "id": "B",
-            "updated": "2026-10-29 14:52",
+            "updated": "2026-10-30 10:29",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
-            "indplot_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
             "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 176,
+                "marcap": 173,
                 "revenue_ltm": 113,
                 "opincome_ltm": 27.6,
                 "revenue_qtr": 27.4,
@@ -41,15 +42,15 @@
                 "ltm": 24
             },
             "PER": {
-                "PER_ltm": 6.38,
-                "PER_qx4": 6.56,
-                "PER_fwd": 5.69
+                "PER_ltm": 6.25,
+                "PER_qx4": 6.43,
+                "PER_fwd": 5.57
             },
             "volatility": {
-                "measure_to_base(%)": -30
+                "measure_to_base(%)": -28
             },
             "amount": {
-                "measure_to_base(%)": -56
+                "measure_to_base(%)": -55
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -57,11 +58,11 @@
                     "beta": 0.89
                 },
                 "base_period": {
-                    "alpha(%)": -0.52,
-                    "beta": 0.56
+                    "alpha(%)": -0.55,
+                    "beta": 0.55
                 },
                 "measure_period": {
-                    "alpha(%)": -0.53,
+                    "alpha(%)": -0.57,
                     "beta": 0.6
                 }
             }

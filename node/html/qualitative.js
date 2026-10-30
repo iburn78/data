@@ -701,6 +701,59 @@ function openMpPlotWindow(button) {
     plotWindow.document.head.appendChild(plotlyScript);
 }
 
+function openMvPlotWindow(button) {
+    const code = button.dataset.code;
+    const popupWidth = Math.round(window.screen.availWidth * 0.85);
+    const popupHeight = Math.round(window.screen.availHeight * 0.8);
+    const popupLeft = window.screen.availLeft
+        + Math.max(0, (window.screen.availWidth - popupWidth) / 2);
+    const popupTop = window.screen.availTop
+        + Math.round(window.screen.availHeight * 0.08);
+    const plotWindow = window.open(
+        "",
+        `mv-plot-${code}`,
+        `popup=yes,width=${popupWidth},height=${popupHeight},left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`
+    );
+    if (!plotWindow) return;
+
+    plotWindow.document.open();
+    plotWindow.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MV plot — ${code}</title>
+        <style>html,body{width:100%;height:100%;margin:0}body{overflow:hidden}
+        #mv-plot{width:100%;height:100%}</style>
+        </head><body><div id="mv-plot-status" style="padding:12px">Loading MV plot…</div>
+        <div id="mv-plot"></div></body></html>`);
+    plotWindow.document.close();
+
+    const plotlyScript = plotWindow.document.createElement("script");
+    plotlyScript.src = new URL("/plotly.min.js", location.origin).href;
+    plotlyScript.onload = async () => {
+        const status = plotWindow.document.getElementById("mv-plot-status");
+        try {
+            const endpoint = new URL("/api/mv-plot", location.origin);
+            endpoint.searchParams.set("code", code);
+            const response = await fetch(endpoint);
+            const result = await response.json();
+            if (!response.ok) throw new Error(result.error || "Could not load MV plot.");
+
+            await plotWindow.Plotly.react(
+                plotWindow.document.getElementById("mv-plot"),
+                result.figure.data,
+                result.figure.layout,
+                { responsive: true }
+            );
+            status.remove();
+        } catch (error) {
+            status.textContent = error.message || "Could not load MV plot.";
+        }
+    };
+    plotlyScript.onerror = () => {
+        plotWindow.document.getElementById("mv-plot-status").textContent = "Could not load Plotly.";
+    };
+    plotWindow.document.head.appendChild(plotlyScript);
+}
+
 /*
  * Initial event handlers
  */
@@ -838,6 +891,28 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // Add MV plot buttons to existing Profile/Segment pages generated before
+    // the button was added to their HTML markup.
+    document.querySelectorAll(".llm-research-trigger-row").forEach(row => {
+        if (!(["Profile", "Segment"].includes(row.dataset.objectType))
+            || row.querySelector(".mv-plot-link")) return;
+        const objectId = row.dataset.objectId || "";
+        const code = row.dataset.objectType === "Segment"
+            ? objectId.match(/^(\d{6})\([A-Za-z]\)$/)?.[1]
+            : objectId;
+        if (!code) return;
+        const mvButton = document.createElement("button");
+        mvButton.className = "mv-plot-link";
+        mvButton.type = "button";
+        mvButton.textContent = "MV plot (v)";
+        mvButton.title = "Market-cap movement plot (v)";
+        mvButton.setAttribute("aria-haspopup", "dialog");
+        mvButton.dataset.code = code;
+        const romaButton = row.querySelector(".roma-plot-link");
+        if (romaButton) romaButton.after(mvButton);
+        else row.appendChild(mvButton);
+    });
+
     document.querySelectorAll(".llm-research-link").forEach(button => {
         const dialog = document.getElementById(button.getAttribute("aria-controls"));
         if (!dialog) return;
@@ -861,6 +936,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".mp-plot-link").forEach(button => {
         button.addEventListener("click", () => openMpPlotWindow(button));
     });
+    document.querySelectorAll(".mv-plot-link").forEach(button => {
+        button.addEventListener("click", () => openMvPlotWindow(button));
+    });
 
     document.addEventListener("keydown", event => {
         const target = event.target;
@@ -874,11 +952,14 @@ document.addEventListener("DOMContentLoaded", () => {
             ? document.querySelector(".roma-plot-link")
             : key === "m"
                 ? document.querySelector(".mp-plot-link")
-                : null;
+                : key === "v"
+                    ? document.querySelector(".mv-plot-link")
+                    : null;
         if (button) {
             event.preventDefault();
             if (key === "r") openRomaPlotWindow(button);
-            else openMpPlotWindow(button);
+            else if (key === "m") openMpPlotWindow(button);
+            else openMvPlotWindow(button);
         }
     });
 
