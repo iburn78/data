@@ -1,0 +1,152 @@
+{
+    "key": "017670",
+    "filename": "017670_SK텔레콤",
+    "updated": "2026-11-06 11:51",
+    "llm_research_updated": "2026-11-06 11:46",
+    "financials": {
+        "meta": {
+            "name": "SK텔레콤",
+            "code": "017670",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-06 11:51",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 16600,
+                "revenue_ltm": 17400,
+                "opincome_ltm": 1790,
+                "revenue_qtr": 4360,
+                "opincome_qtr": 566
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": -2.9,
+                "growth(%)": -0.71
+            },
+            "opmargin(%)": {
+                "25_4Q": 2.8,
+                "26_1Q": 12,
+                "26_2Q": 13,
+                "26_3Q": 13,
+                "ltm": 10
+            },
+            "PER": {
+                "PER_ltm": 9.31,
+                "PER_qx4": 7.35,
+                "PER_fwd": 7.45
+            },
+            "volatility": {
+                "measure_to_base(%)": -8.1
+            },
+            "amount": {
+                "measure_to_base(%)": -60
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.022,
+                    "beta": 0.43
+                },
+                "base_period": {
+                    "alpha(%)": -0.079,
+                    "beta": 0.42
+                },
+                "measure_period": {
+                    "alpha(%)": 0.17,
+                    "beta": 0.54
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-06 11:46",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "무선통신사업",
+            "유선통신사업",
+            "AI DC",
+            "AI B2B/B2C"
+        ],
+        "revenue_share": [
+            0.74,
+            0.24,
+            0.01,
+            0.01
+        ],
+        "opmargin": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "stable",
+            "improving",
+            "rapidly growing",
+            "expanding"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "5G 이동통신, LTE, 로밍 서비스",
+            "초고속인터넷, IPTV, B2B 전용회선",
+            "GPUaaS, AI 데이터센터(Hyperscale, Modular, Dedicated)",
+            "에이닷(A.), 에스터(Aster), AICC, Enterprise AI"
+        ],
+        "competitors": [
+            "KT, LG유플러스",
+            "KT, LG유플러스",
+            "네이버클라우드, 카카오엔터프라이즈, AWS, Azure",
+            "네이버, 카카오"
+        ]
+    },
+    "code": "017670",
+    "name": "SK텔레콤",
+    "overview": {
+        "title": "비용 효율화와 AI 인프라 확장",
+        "desc": "동사는 1984년 설립된 SK그룹 계열의 이동통신 사업자로, 2019년 세계 최초 5G 상용화를 통해 국내 1위 사업자의 위상을 이어가고 있음. 연결대상 종속회사로 SK브로드밴드 등 18개사를 보유하며, 무선통신사업(74%), 유선통신사업(24%), 기타사업(2%)을 영위하고 있음. 동사는 5G 네트워크 기반 AI 연계 신규 서비스 출시 및 IoT 기반 B2B 사업 성장을 추진하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 0.5% 감소, 영업이익은 21.9% 증가, 당기순이익은 74.6% 증가. 무선통신사업은 5G 가입자 기반의 안정적 매출과 네트워크 투자·운용 효율화로 견고한 수익성을 유지하고 있음. 유선통신사업은 초고속인터넷과 B2B 사업 성장으로 매출이 증가했으며, AI 데이터센터 등 신규 영역과 홈 플랫폼을 통해 성장 기회를 확대하고 있음.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-02 15:03"
+    },
+    "news": {
+        "updated": "2026-11-06 11:44",
+        "key_facts": [
+            "2026년 3분기 연결 매출 4조 4,973억 원, 영업이익 5,523억 원(전년 동기 대비 1,040.3% 증가)을 기록하며 3개 분기 연속 5,000억 원대 영업이익을 유지함.",
+            "3분기 AI 데이터센터(AIDC) 매출 1,261억 원(6.2%↑) 및 AI B2B·B2C 매출 700억 원(27.3%↑)을 기록하며 AI 사업 성장세를 보임.",
+            "AI 데이터센터 사업을 위해 개발 법인 'SK하이퍼'(26년 7월)와 인프라 운영·확장 법인 'SK호라이즌'(26년 8월)을 설립하여 이원화 전략을 추진함.",
+            "SK하이퍼에 2030년까지 최대 7,500억 원 출자를 약정했으며, SK호라이즌 지분 매각을 통해 2027년 3월 약 1조 8,811억 원의 재원 확보 예정임.",
+            "울산 데이터센터 일부 용량 건축허가를 획득하고 글로벌 사업자 3~4곳과 사업 조건을 협의하는 등 고객 유치 단계에 진입함."
+        ],
+        "key_issues": [
+            "지난해 해킹 사고로 인한 배당 미시행 이후 주주 신뢰 회복 및 배당 수준의 정상화 여부가 과제로 남음.",
+            "AI 데이터센터(AIDC) 투자를 위한 대규모 자본 지출과 주주환원 사이의 우선순위 설정 및 균형 확보가 필요함.",
+            "글로벌 사업자와의 계약 구체화 및 신규 인프라의 실제 매출 전환 능력이 향후 실적의 핵심 변수임."
+        ],
+        "news_summary": "SK텔레콤은 2026년 3분기, 해킹 사고 관련 일회성 비용 해소와 통신 본업의 회복으로 영업이익이 전년 대비 1,040.3% 급증하며 실적 정상화를 달성했다. 현재 SK하이퍼와 SK호라이즌을 통해 AI 데이터센터(AIDC) 사업을 공격적으로 확장하며 글로벌 고객 유치에 집중하고 있으며, 이 과정에서 투자 재원 확보와 주주환원 정책 사이의 균형을 맞추는 것이 주요 경영 과제로 분석된다."
+    }
+}

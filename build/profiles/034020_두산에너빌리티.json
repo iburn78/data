@@ -1,0 +1,154 @@
+{
+    "key": "034020",
+    "filename": "034020_두산에너빌리티",
+    "updated": "2026-11-06 11:29",
+    "llm_research_updated": "2026-11-06 11:29",
+    "financials": {
+        "meta": {
+            "name": "두산에너빌리티",
+            "code": "034020",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-06 11:29",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 31600,
+                "revenue_ltm": 18600,
+                "opincome_ltm": 1070,
+                "revenue_qtr": 4720,
+                "opincome_qtr": 314
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 0.94,
+                "growth(%)": 0.39
+            },
+            "opmargin(%)": {
+                "25_4Q": 4.4,
+                "26_1Q": 5.5,
+                "26_2Q": 6.7,
+                "26_3Q": 6.7,
+                "ltm": 5.8
+            },
+            "PER": {
+                "PER_ltm": 29.4,
+                "PER_qx4": 25.1,
+                "PER_fwd": 24.9
+            },
+            "volatility": {
+                "measure_to_base(%)": 22
+            },
+            "amount": {
+                "measure_to_base(%)": -37
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.052,
+                    "beta": 1
+                },
+                "base_period": {
+                    "alpha(%)": -0.53,
+                    "beta": 0.74
+                },
+                "measure_period": {
+                    "alpha(%)": -1.2,
+                    "beta": 1
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-06 11:29",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "원자력 발전",
+            "가스/수소 발전",
+            "건설기계(두산밥캣)",
+            "연료전지(두산퓨얼셀)"
+        ],
+        "revenue_share": [
+            0.43,
+            0.02,
+            0.55,
+            0.01
+        ],
+        "opmargin": [
+            0.029,
+            null,
+            0.142,
+            0.008
+        ],
+        "trend": [
+            "improving (SMR and Czech project expectations)",
+            "improving (Commercial operation of gas turbines)",
+            "stable to declining (North American demand slowdown)",
+            "recovering (Hydrogen power bidding market)"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "대형원전, SMR, 원전 주기기, 원전 시공",
+            "가스터빈, 스팀터빈, 복합화력 EPC, 가스터빈 서비스",
+            "소형 건설기계, 산업 차량",
+            "발전용 연료전지, 연료전지 유지보수 서비스"
+        ],
+        "competitors": [
+            "GE Vernova, Westinghouse, NuScale Power",
+            "GE, Siemens, Mitsubishi",
+            "Caterpillar, Deere, HD현대인프라코어",
+            "정부 수소발전 입찰 시장 경쟁사"
+        ]
+    },
+    "code": "034020",
+    "name": "두산에너빌리티",
+    "overview": {
+        "title": "가스터빈 수주 확대로 실적 개선",
+        "desc": "동사는 1962년 현대양행으로 설립되어 2001년 두산그룹에 인수된 후 2022년 두산에너빌리티로 사명을 변경하고, 두산밥캣과 두산퓨얼셀을 포함하고 있음. 주조/단조 기반 기초 소재 생산부터 발전설비 설계·제작 및 서비스, 발전플랜트 EPC 사업을 영위하는 발전설비 제작 및 시공 전문 기업임. 대형 가스터빈 상업운전 성공 이후 수주 본격화 중이며, 해상풍력 터빈 및 수소 등 친환경에너지 사업으로 영역을 확대하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 8.0% 증가, 영업이익은 32.4% 증가, 당기순이익은 155.2% 증가. 두산밥캣은 북미 주택건설 및 농업·조경 시장의 소형 건설기계 수요로 실적을 유지했으며, 두산에너빌리티는 대형 가스터빈 수주와 체코 신규원전 기자재 공급 계약으로 실적이 개선됨. AI 확산에 따른 데이터센터 구축으로 전력수요가 늘고 있으며, 가스복합발전 및 원자력발전 수요가 지속 확대될 전망임.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-02 10:41"
+    },
+    "news": {
+        "updated": "2026-11-06 11:29",
+        "key_facts": [
+            "2026년 3분기 연결 기준 매출 4조 4,494억원(전년비 14.7%↑), 영업이익 2,612억원(90.6%↑), 순이익 149억원(흑자전환)을 기록함.",
+            "2026년 3분기 누적 매출 13조 4,354억원, 누적 영업이익 8,090억원을 달성하고 누적 수주액 약 10조원을 기록함.",
+            "수주잔고는 26조 5,805억원이며, 연간 수주 목표액 13조 3,000억원을 유지하고 있음.",
+            "2026년 10월 29일 미국 뉴스케일파워와 SMR 원자로 모듈 제작 계약을 체결했으며, 엑스에너지와 핵심 소재 예약계약을 맺음.",
+            "체코 두코바니 원전 공정, 오만 및 사우디아라비아 발전소 건설 프로젝트 등이 주요 매출에 기여함."
+        ],
+        "key_issues": [
+            "체코 두코바니 원전 시공계약 협상이 공사비 및 계약 방식 이견으로 결렬되어 재입찰을 준비 중임. (주기기 공급계약은 정상 추진)",
+            "SMR 사업의 수주 목표 달성 시점이 지속적으로 지연되고 있으며, 대규모 상업 수주 계약은 아직 부재한 상태임.",
+            "시공사 교체에 따른 체코 원전 사업의 일정 지연(1년 이상 예상) 가능성이 주기기 매출 인식 시점에 영향을 줄 수 있음.",
+            "해외 사업 악재와 SMR 지연 등의 영향으로 주가가 52주 최저가 수준으로 하락함.",
+            "주요 증권사들이 기업가치 평가배수 하락 및 이익 추정치 조정을 이유로 목표주가를 하향 조정함."
+        ],
+        "news_summary": "두산에너빌리티는 2026년 3분기 매출과 영업이익이 전년 대비 크게 성장했으나, 체코 원전 시공 협상 결렬과 SMR 사업 지연으로 인해 주가가 52주 최저가 수준으로 하락했습니다. 뉴스케일파워와의 SMR 제작 계약 등 기자재 사업을 확장하고 있으며, 가스터빈 및 원전 수주 모멘텀을 통해 4분기 실적 반등과 연간 수주 목표 달성을 추진 중입니다."
+    }
+}

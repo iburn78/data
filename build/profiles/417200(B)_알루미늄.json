@@ -1,7 +1,7 @@
 {
     "key": "417200(B)",
     "filename": "417200(B)_알루미늄",
-    "updated": "2026-10-30 10:26",
+    "updated": "2026-11-06 13:16",
     "llm_research_updated": "2026-10-28 16:33",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "417200",
             "segment_name": "알루미늄",
             "id": "B",
-            "updated": "2026-10-30 10:26",
+            "updated": "2026-11-06 09:17",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
@@ -20,7 +20,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 626,
+                "marcap": 514,
                 "revenue_ltm": 149,
                 "opincome_ltm": 7.45,
                 "revenue_qtr": 41,
@@ -42,28 +42,28 @@
                 "ltm": 5
             },
             "PER": {
-                "PER_ltm": 84.1,
-                "PER_qx4": 76.3,
-                "PER_fwd": 70.6
+                "PER_ltm": 69,
+                "PER_qx4": 62.6,
+                "PER_fwd": 58
             },
             "volatility": {
-                "measure_to_base(%)": 33
+                "measure_to_base(%)": 53
             },
             "amount": {
-                "measure_to_base(%)": 86
+                "measure_to_base(%)": 100
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.14,
-                    "beta": 0.95
+                    "alpha(%)": -0.15,
+                    "beta": 0.97
                 },
                 "base_period": {
-                    "alpha(%)": -0.62,
-                    "beta": 0.76
+                    "alpha(%)": -0.46,
+                    "beta": 0.84
                 },
                 "measure_period": {
-                    "alpha(%)": -0.15,
-                    "beta": 0.93
+                    "alpha(%)": -1.3,
+                    "beta": 1.2
                 }
             }
         },
@@ -73,7 +73,7 @@
             "PER_level": "High",
             "volatility_level": "Up",
             "amount_level": "Up",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "D",
             "market_sentiment": "unstable"
         }
@@ -96,14 +96,14 @@
     "profile_code": "417200",
     "segment_name": "알루미늄",
     "news": {
-        "updated": "2026-10-27 16:24",
+        "updated": "2026-11-06 13:16",
         "key_financials": [],
         "key_facts": [
             "LS머트리얼즈의 알루미늄 부문은 종속회사인 LS알스코를 통해 고강도 알루미늄 소재 및 자동차·산업용 부품을 생산 및 판매함",
-            "LS머트리얼즈는 핵심 자회사인 LS알스코와 미국 법인(LS Materials America LLC)의 지분을 100% 보유하고 있음",
-            "2026년 반기 기준, 알루미늄 부문은 전체 매출의 약 70%를 차지함"
+            "LS머트리얼즈는 알루미늄 사업을 영위하는 핵심 자회사 엘에스알스코와 미국 법인(LS Materials America LLC)의 지분 100%를 소유하고 있음",
+            "2026년 반기 기준 전체 매출 중 알루미늄 부문의 비중은 약 70%를 차지함"
         ],
         "key_issues": [],
-        "news_summary": "LS머트리얼즈의 알루미늄 부문은 자회사 LS알스코를 통해 고강도 알루미늄 소재 및 자동차·산업용 부품 사업을 영위하고 있으며, 2026년 반기 기준 전체 매출의 약 70%를 차지하는 핵심 사업 부문입니다."
+        "news_summary": "LS머트리얼즈의 알루미늄 부문은 자회사 LS알스코 및 미국 법인을 통해 고강도 알루미늄 소재와 자동차·산업용 부품 사업을 운영하고 있으며, 2026년 반기 기준 전사 매출의 약 70%를 차지하는 핵심 사업 부문입니다."
     }
 }

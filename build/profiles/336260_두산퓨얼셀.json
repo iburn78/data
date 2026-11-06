@@ -1,0 +1,147 @@
+{
+    "key": "336260",
+    "filename": "336260_두산퓨얼셀",
+    "updated": "2026-11-06 14:14",
+    "llm_research_updated": "2026-11-06 14:14",
+    "financials": {
+        "meta": {
+            "name": "두산퓨얼셀",
+            "code": "336260",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-06 14:14",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1850,
+                "revenue_ltm": 369,
+                "opincome_ltm": -180,
+                "revenue_qtr": 44.3,
+                "opincome_qtr": -50.9
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -5.7,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -56,
+                "26_1Q": -0.89,
+                "26_2Q": -120,
+                "26_3Q": -120,
+                "ltm": -49
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -8
+            },
+            "amount": {
+                "measure_to_base(%)": -58
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.11,
+                    "beta": 1.3
+                },
+                "base_period": {
+                    "alpha(%)": -0.43,
+                    "beta": 1.1
+                },
+                "measure_period": {
+                    "alpha(%)": -0.67,
+                    "beta": 1.3
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-06 14:14",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "PAFC 주기기 공급",
+            "SOFC 사업",
+            "LTSA 서비스"
+        ],
+        "revenue_share": [
+            0.6,
+            0.2,
+            0.2
+        ],
+        "opmargin": [
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "데이터센터 수요 확대 및 북미 진출 추진",
+            "양산 시작 및 해외 스택 판매 확대 중",
+            "누적 설치량 증가로 기반 확대되나 품질 비용 리스크 존재"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "PAFC 주기기, 데이터센터용 전원 솔루션",
+            "SOFC 시스템, 셀 스택(Cell Stack) 파운드리",
+            "LTSA(장기유지보수서비스), 스택 교체 서비스"
+        ],
+        "competitors": [
+            "Bloom Energy, FuelCell Energy, Plug Power, SK에코플랜트",
+            "Ceres Power, Bloom Energy, Plug Power",
+            "Bloom Energy, FuelCell Energy"
+        ]
+    },
+    "code": "336260",
+    "name": "두산퓨얼셀",
+    "overview": {
+        "title": "입찰경쟁 속 SOFC 양산으로 성장",
+        "desc": "동사는 2019년 두산 연료전지 사업부문을 인적분할 해 설립된 연료전지 기업임. 2024년 하이엑시움모터스 지분 인수로 친환경 상용차 부문을 추가했으며, 발전용 연료전지 기자재 공급과 장기 유지보수 서비스를 주 사업으로 하고 있음. 국내 누적점유율 1위며, PAFC 외 SOFC 기술도 확보하여 2025년 양산 시작 및 세레스파워와 협력해 기술 포트폴리오 다각화와 해외 시장 확대를 추진하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 17.1% 감소, 영업손실은 287.7% 증가, 당기순손실은 441.8% 증가. 연료전지 주기기 부문에서 CHPS 시행으로 입찰시장 경쟁 심화와 수요 변동으로 기자재 공급 실적이 감소하고 SOFC 양산 초기 투자비용 부담이 가중되며 실적이 악화됨. AI 데이터센터 시장 성장과 분산에너지 중요성 부각으로 연료전지 산업 성장 기회가 확대되고 있음.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-02 10:42"
+    },
+    "news": {
+        "updated": "2026-11-06 14:14",
+        "key_facts": [
+            "2026년 3분기 매출액 1,452억원(전년 동기 대비 약 60% 증가) 및 영업손실 170억원을 기록했으며, 주기기 매출은 1,193억원으로 75% 증가함.",
+            "2026년 3분기 누적 수주액 10조원(전년 동기 대비 85.5% 증가) 및 수주잔고 26조 6,000억원을 달성함.",
+            "미국 자회사 하이엑시엄을 통해 총 8,236억원 규모의 PAFC 공급계약을 체결했으며, 2027년 1분기부터 실적에 반영될 예정임.",
+            "2026년 8~9월 중 독일(1,087억원) 및 미국(8,236억원)에서 대규모 해외 수주를 확보함.",
+            "영구 전환사채(CB) 3,000억원 및 영구 신주인수권부사채(BW) 1,000억원 등 총 4,000억원 규모의 사모 영구 메자닌을 발행해 자본을 확충함."
+        ],
+        "key_issues": [
+            "PAFC 스택 교체 및 품질 이슈 관련 비용이 지속 발생하고 있으며, 2026년이 정점일 것으로 추정됨.",
+            "환율 하락에 따른 외화환산손실(약 800억원) 영향으로 2026년 3분기 당기순손실 418억원을 기록함.",
+            "영구 메자닌 발행건에 풋옵션이 없어, 주가 반등 지연 시 인수 증권사들의 자금 회수 기간이 길어질 위험이 있음.",
+            "해외 대형 프로젝트의 공정 지연이나 원가 상승 시 수익성에 부담이 될 가능성이 있음."
+        ],
+        "news_summary": "두산퓨얼셀은 2026년 3분기 매출 성장에도 불구하고 영업적자를 기록했으나, 미국 AI 데이터센터향 대규모 수주와 고부가가치 사업 확대, 스택 교체 비용 감소 등으로 2027년 1분기부터 실적 턴어라운드가 기대됩니다. 또한 4,000억원 규모의 영구 메자닌 발행을 통해 재무구조를 개선하고 해외 시장 공략을 가속화하고 있습니다."
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "key": "SK디스커버리그룹",
+    "filename": "SK디스커버리그룹",
+    "updated": "2026-11-06 14:13",
+    "llm_research_updated": "2026-11-06 14:12",
+    "financials": {
+        "meta": {
+            "name": "SK디스커버리그룹",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-06 14:13",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 4740,
+                "revenue_ltm": 15500,
+                "opincome_ltm": 2.67,
+                "revenue_qtr": 3960,
+                "opincome_qtr": -13.7
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.98,
+                "growth(%)": 3.3
+            },
+            "opmargin(%)": {
+                "25_4Q": -2.8,
+                "26_1Q": 3.1,
+                "26_2Q": -0.35,
+                "26_3Q": -0.35,
+                "ltm": 0.017
+            },
+            "PER": {
+                "PER_ltm": 1770,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 12
+            },
+            "amount": {
+                "measure_to_base(%)": -17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.15,
+                    "beta": 0.65
+                },
+                "base_period": {
+                    "alpha(%)": 0.015,
+                    "beta": 0.23
+                },
+                "measure_period": {
+                    "alpha(%)": -0.09,
+                    "beta": 0.16
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "302440",
+            "name": "SK바이오사이언스"
+        },
+        {
+            "key": "006120",
+            "name": "SK디스커버리"
+        },
+        {
+            "key": "285130",
+            "name": "SK케미칼"
+        }
+    ],
+    "news": {
+        "updated": "2026-11-06 14:12",
+        "key_facts": [
+            "2027년 사장단 인사에서 윤병석 전 SK가스 사장이 SK디스커버리 대표이사로, 송경열 전 전략본부장이 SK가스 사장으로 내정됨.",
+            "SK디스커버리는 2026년 8월까지 SK이터닉스와 SK디앤디 지분 매각 등 비핵심 사업 정리를 통한 사업 포트폴리오 재편을 마무리함.",
+            "SK디스커버리는 2028년까지 600억원 규모의 자사주 매입·소각 및 연간 최소 주당 1,700원의 배당을 포함한 기업가치 제고 계획을 발표함.",
+            "SK가스는 2024년 말 울산GPS 상업가동을 시작했으며, 2023년 연결 영업이익 4,428억원으로 전년 대비 54.2% 증가함.",
+            "SK디스커버리는 2025년 영업이익 3,614억원을 기록했으나, 2026년 2분기에는 304억원의 영업손실을 기록하며 실적 변동성을 보임."
+        ],
+        "new_trends": [
+            "에너지·소재·바이오 3개 사업축 중심의 중장기 성장 전략 구체화 추진.",
+            "기존 LPG/LNG 사업의 효율화 및 가치사슬(Value Chain) 고도화.",
+            "AI 데이터센터 대상 전력 및 유틸리티 사업으로의 영역 확장 계획.",
+            "북미 가스전 개발 등 신규 사업 기회 발굴 및 투자 추진."
+        ],
+        "news_summary": "SK디스커버리그룹은 2027년 경영진 인사를 통해 에너지 사업의 경쟁력 강화와 미래 성장 동력 확보에 집중하고 있습니다. 윤병석 신임 SK디스커버리 사장은 중장기 성장 전략을, 송경열 신임 SK가스 사장은 밸류체인 고도화와 재무구조 개선을 이끌 예정입니다. 그룹은 최근 비핵심 계열사 매각을 통해 포트폴리오 재편을 마쳤으며, 핵심 캐시카우인 SK가스의 LNG 사업 확대와 AI 데이터센터 전력 사업 등 신사업 진출을 통해 저평가된 기업 가치를 제고하고 지속 가능한 성장을 도모하고 있습니다."
+    }
+}

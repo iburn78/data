@@ -1,0 +1,154 @@
+{
+    "key": "두산그룹",
+    "filename": "두산그룹",
+    "updated": "2026-11-06 14:15",
+    "llm_research_updated": "2026-11-06 14:13",
+    "financials": {
+        "meta": {
+            "name": "두산그룹",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-06 09:21",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 53400,
+                "revenue_ltm": 50900,
+                "opincome_ltm": 3670,
+                "revenue_qtr": 12900,
+                "opincome_qtr": 1050
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 14,
+                "growth(%)": 1.8
+            },
+            "opmargin(%)": {
+                "25_4Q": 5.4,
+                "26_1Q": 7.2,
+                "26_2Q": 8.1,
+                "26_3Q": 8.1,
+                "ltm": 7.2
+            },
+            "PER": {
+                "PER_ltm": 14.5,
+                "PER_qx4": 12.7,
+                "PER_fwd": 12.3
+            },
+            "volatility": {
+                "measure_to_base(%)": 33
+            },
+            "amount": {
+                "measure_to_base(%)": -39
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.046,
+                    "beta": 1.1
+                },
+                "base_period": {
+                    "alpha(%)": -0.46,
+                    "beta": 0.81
+                },
+                "measure_period": {
+                    "alpha(%)": -1.1,
+                    "beta": 1.1
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "Up",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "speculators"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "034020",
+            "name": "두산에너빌리티"
+        },
+        {
+            "key": "000150",
+            "name": "두산"
+        },
+        {
+            "key": "241560",
+            "name": "두산밥캣"
+        },
+        {
+            "key": "454910",
+            "name": "두산로보틱스"
+        },
+        {
+            "key": "336260",
+            "name": "두산퓨얼셀"
+        },
+        {
+            "key": "131970",
+            "name": "두산테스나"
+        },
+        {
+            "key": "010470",
+            "name": "오리콤"
+        }
+    ],
+    "news": {
+        "updated": "2026-11-06 14:14",
+        "key_facts": [
+            "두산은 AI 데이터센터용 하이엔드 동박적층판(CCL) 생산 능력 확대를 위해 한국(전북 김제)과 중국(창수시)에 총 9,700억 원을 투자하여 2028년 하반기부터 순차 가동할 계획이다.",
+            "두산 전자BG의 매출은 2024년 최초 1조 원 돌파 후 2025년 약 1조 9,000억 원을 기록하며 그룹의 핵심 성장 사업으로 부상했다.",
+            "두산에너빌리티는 미국 뉴스케일파워와 상업용 SMR 상부 원자로 모듈(URPV) 제작 계약을 체결하며 SMR 상용화의 실제 제작 단계에 진입했다.",
+            "두산에너빌리티의 2026년 3분기 연결 매출은 4조 4,494억 원, 영업이익은 2,612억 원으로 전년 동기 대비 각각 14.7%, 90.6% 증가했다.",
+            "두산, 두산에너빌리티 등 5개 계열사가 각 400억 원씩 출자해 총 2,000억 원 규모의 '두산신기술투자조합 2호' 펀드를 조성했다."
+        ],
+        "new_trends": [
+            "AI 데이터센터 확산으로 인한 전력 인프라(가스터빈, SMR, 연료전지) 및 AI 반도체 핵심 소재(하이엔드 CCL) 중심의 사업 포트폴리오 재편",
+            "SMR(소형모듈원전) 기술이 설계 및 인허가 단계를 넘어 실제 상업용 원자로 제작 단계로 진입하는 추세",
+            "로보틱스, 반도체, AI, 자동화, 그린에너지 등 미래 먹거리 발굴을 위한 CVC(기업형 벤처캐피털)를 통한 전략적 투자 확대"
+        ],
+        "news_summary": "두산그룹은 AI 데이터센터 시장의 급성장에 맞춰 전력 인프라와 첨단 반도체 소재를 중심으로 사업 구조를 빠르게 재편하고 있습니다. 전자BG는 AI 가속기 및 광모듈용 하이엔드 CCL 시장 선점을 위해 한국과 중국에 대규모 투자를 집행 중이며, 두산에너빌리티는 가스터빈 및 SMR(소형모듈원전) 제작 역량을 통해 전력 수요 증가에 대응하고 있습니다. 특히 SMR 분야에서는 실제 상업용 원자로 제작 단계에 진입하는 성과를 거두었습니다. 아울러 2,000억 원 규모의 신기술 투자 펀드를 조성하여 AI, 로봇, 그린에너지 등 미래 성장 동력 확보에 주력하고 있습니다."
+    }
+}
