@@ -460,6 +460,32 @@ app.get("/api/search-help", (req, res) => {
     });
 });
 
+app.get("/api/list-scopes", (req, res) => {
+    const projectsRoot = path.resolve(__dirname, "../..");
+    const pythonCode = [
+        "import json, sys",
+        "sys.path.insert(0, sys.argv[1])",
+        "from build.models.settings import PROFILE_LIST_SCOPES, COMPONENT_LIST_SCOPES, VALUECHAIN_LIST_SCOPES",
+        "print(json.dumps({'profiles': PROFILE_LIST_SCOPES, 'components': COMPONENT_LIST_SCOPES, 'valuechains': VALUECHAIN_LIST_SCOPES}, ensure_ascii=False))",
+    ].join("; ");
+
+    execFile(PYTHON, ["-c", pythonCode, projectsRoot], {
+        encoding: "utf8",
+        env: { ...process.env, PYTHONIOENCODING: "utf-8", PYTHONUTF8: "1" },
+    }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not load model list scopes:", stderr || error.message);
+            return res.status(500).json({ error: "Could not load model list scopes." });
+        }
+        try {
+            res.json({ scopes: JSON.parse(stdout) });
+        } catch (parseError) {
+            console.error("Could not parse model list scopes:", parseError);
+            res.status(500).json({ error: "Could not parse model list scopes." });
+        }
+    });
+});
+
 app.get("/api/profile-plot", async (req, res) => {
     try {
         res.json(await loadProfilePlotData());

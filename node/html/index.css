@@ -34,6 +34,68 @@ body {
     max-width: 400px;
 }
 
+.list-actions {
+    display: flex;
+    gap: 4px;
+    margin: 14px 15px 6px;
+}
+
+.list-actions[hidden] {
+    display: none;
+}
+
+.list-action {
+    width: 28px;
+    height: 24px;
+    padding: 0;
+    border: 1px solid #c9cdd2;
+    border-radius: 4px;
+    background: #fff;
+    color: #555;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.list-action:hover {
+    background: #f0f1f3;
+}
+
+.profile-scope-group {
+    margin: 0 0 14px;
+}
+
+.profile-scope-group > summary {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3px 0 5px;
+    border-bottom: 4px solid #555;
+    color: #222;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    list-style: none;
+}
+
+.profile-scope-group > summary::-webkit-details-marker {
+    display: none;
+}
+
+.profile-scope-group > summary::after {
+    content: "+";
+    float: right;
+    color: #777;
+    font-weight: 400;
+}
+
+.profile-scope-group[open] > summary::after {
+    content: "−";
+}
+
+.profile-scope-items {
+    padding-top: 4px;
+}
+
 .manual-content {
     max-width: 980px;
     margin: 24px auto;

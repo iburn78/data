@@ -5,6 +5,107 @@ let profilePlotLoadId = 0;
 let plotlyLoadPromise = null;
 let manualLoadId = 0;
 let searchHelpRequest = 0;
+let listScopes = null;
+const expandedScopes = new Map();
+
+const HANGUL_INITIALS = [
+    "ㄱ", "ㄲ", "ㄴ", "ㄷ", "ㄸ", "ㄹ", "ㅁ", "ㅂ", "ㅃ", "ㅅ",
+    "ㅆ", "ㅇ", "ㅈ", "ㅉ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ",
+];
+const DOUBLE_HANGUL_INITIALS = {
+    "ㄱ": "ㄲ",
+    "ㄷ": "ㄸ",
+    "ㅂ": "ㅃ",
+    "ㅅ": "ㅆ",
+    "ㅈ": "ㅉ",
+};
+
+function scopeCharacters(label) {
+    if (/^[A-Z]-[A-Z]$/.test(label)) {
+        const [first, last] = label.split("-").map(letter => letter.charCodeAt(0));
+        return Array.from({ length: last - first + 1 }, (_, index) =>
+            String.fromCharCode(first + index)
+        ).join("");
+    }
+    if (/^[ㄱ-ㅎ]-[ㄱ-ㅎ]$/.test(label)) {
+        const [first, last] = label.split("-");
+        const firstIndex = HANGUL_INITIALS.indexOf(first);
+        const lastIndex = HANGUL_INITIALS.indexOf(last);
+        if (firstIndex >= 0 && lastIndex >= firstIndex) {
+            return HANGUL_INITIALS.slice(firstIndex, lastIndex + 1).join("");
+        }
+    }
+
+    const characters = new Set();
+    for (const character of label.normalize("NFC")) {
+        if (HANGUL_INITIALS.includes(character)) {
+            characters.add(character);
+            if (DOUBLE_HANGUL_INITIALS[character]) {
+                characters.add(DOUBLE_HANGUL_INITIALS[character]);
+            }
+        } else if (/^[A-Z0-9]$/i.test(character)) {
+            characters.add(character.toUpperCase());
+        }
+    }
+    return [...characters].join("");
+}
+
+async function loadListScopes() {
+    if (listScopes) return;
+    const response = await fetch("/api/list-scopes");
+    if (!response.ok) throw new Error("Could not load list scopes.");
+    const result = await response.json();
+    listScopes = result.scopes ?? {};
+}
+
+function getListScope(name, section) {
+    const first = Array.from((name || "").trim().normalize("NFC"))[0] || "";
+    if (!first) return "Other";
+
+    const code = first.codePointAt(0);
+    const initial = code >= 0xac00 && code <= 0xd7a3
+        ? HANGUL_INITIALS[Math.floor((code - 0xac00) / 588)]
+        : first.toUpperCase();
+    return (listScopes?.[section] ?? []).find(label =>
+        scopeCharacters(label).includes(initial)
+    ) ?? "Other";
+}
+
+function getExpandedScopes(section) {
+    if (!expandedScopes.has(section)) {
+        expandedScopes.set(section, new Set([...(listScopes?.[section] ?? []), "Other"]));
+    }
+    return expandedScopes.get(section);
+}
+
+function renderListActions() {
+    const actions = document.getElementById("list-actions");
+    actions.replaceChildren();
+    actions.hidden = !listScopes?.[currentSection];
+    if (actions.hidden) return;
+
+    for (const [label, title, expand] of [
+        ["+", `Expand all ${sections[currentSection].toLowerCase()} groups`, true],
+        ["−", `Collapse all ${sections[currentSection].toLowerCase()} groups`, false],
+    ]) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "list-action";
+        button.textContent = label;
+        button.title = title;
+        button.setAttribute("aria-label", title);
+        button.addEventListener("click", () => {
+            expandedScopes.set(
+                currentSection,
+                expand
+                    ? new Set([...listScopes[currentSection], "Other"])
+                    : new Set(),
+            );
+            renderSection();
+        });
+        actions.appendChild(button);
+    }
+}
 
 function hideSearchHelp() {
     searchHelpRequest += 1;
@@ -238,6 +339,7 @@ async function getItems(section) {
             groups.set(base, {
                 profile: item,
                 segments: [],
+                key: base,
             });
             continue;
         }
@@ -249,6 +351,7 @@ async function getItems(section) {
             groups.set(code, {
                 profile: null,
                 segments: [],
+                key: code,
             });
         }
 
@@ -276,10 +379,16 @@ async function getItems(section) {
     return sortedGroups.flatMap(group => {
         group.segments.sort((a, b) => compareText(a.segment, b.segment));
 
-        return [
+        const groupItems = [
             ...(group.profile ? [group.profile] : []),
             ...group.segments.map(segment => segment.item),
         ];
+        const profileName = group.profile?.text.replace(/\s+\([^)]*\)$/, "") ?? "";
+        for (const item of groupItems) {
+            item.profileName = profileName;
+            item.profileGroupKey = group.key;
+        }
+        return groupItems;
     });
 }
 
@@ -322,6 +431,8 @@ async function showFiles(section) {
         hideProfilePlot();
     }
     currentItems = await getItems(section);
+    if (["profiles", "components", "valuechains"].includes(section)) await loadListScopes();
+    renderListActions();
 
     renderSection();
 }
@@ -331,6 +442,7 @@ async function showManual() {
     const loadId = ++manualLoadId;
     currentSection = "";
     currentItems = [];
+    renderListActions();
     hideProfilePlot();
     document.getElementById("file-list").replaceChildren();
 
@@ -359,12 +471,109 @@ function renderSection() {
 
     list.replaceChildren();
 
+    if (currentSection === "profiles") {
+        renderProfileGroups(search, list);
+        return;
+    }
+
+    if (currentSection === "components" || currentSection === "valuechains") {
+        renderScopedItems(search, list);
+        return;
+    }
+
     for (const item of currentItems) {
         if (!item.text.toLowerCase().normalize("NFC").includes(search)) {
             continue;
         }
 
         list.appendChild(createModelLink(currentSection, item));
+    }
+}
+
+function renderScopeGroup(label, count, section, list, renderItems) {
+    const details = document.createElement("details");
+    details.className = "profile-scope-group";
+    const expanded = getExpandedScopes(section);
+    details.open = expanded.has(label);
+    details.addEventListener("toggle", () => {
+        if (details.open) expanded.add(label);
+        else expanded.delete(label);
+    });
+
+    const heading = document.createElement("summary");
+    heading.textContent = `${label} (${count})`;
+    details.appendChild(heading);
+    const items = document.createElement("div");
+    items.className = "profile-scope-items";
+    renderItems(items);
+    details.appendChild(items);
+    list.appendChild(details);
+}
+
+function renderProfileGroups(search, list) {
+    const groups = new Map();
+    for (const item of currentItems) {
+        if (!groups.has(item.profileGroupKey)) {
+            groups.set(item.profileGroupKey, {
+                profileName: item.profileName,
+                items: [],
+            });
+        }
+        groups.get(item.profileGroupKey).items.push(item);
+    }
+
+    const groupedByScope = new Map();
+    for (const group of groups.values()) {
+        let matchingItems = group.items.filter(item =>
+            item.text.toLowerCase().normalize("NFC").includes(search.normalize("NFC"))
+        );
+        if (matchingItems.length === 0) continue;
+
+        // Keep the parent profile visible when the query matches one of its segments.
+        const parent = group.items.find(item => !item.isSegment);
+        if (parent && matchingItems.some(item => item.isSegment) && !matchingItems.includes(parent)) {
+            matchingItems = [parent, ...matchingItems];
+        }
+
+        const scope = getListScope(group.profileName, "profiles");
+        if (!groupedByScope.has(scope)) groupedByScope.set(scope, []);
+        groupedByScope.get(scope).push(matchingItems);
+    }
+
+    const scopeLabels = [...(listScopes?.profiles ?? []), "Other"];
+    for (const label of scopeLabels) {
+        const profileGroups = groupedByScope.get(label);
+        if (!profileGroups?.length) continue;
+
+        const profileCount = profileGroups.reduce(
+            (count, profileItems) => count + Number(profileItems.some(item => !item.isSegment)),
+            0,
+        );
+        renderScopeGroup(label, profileCount, "profiles", list, items => {
+            for (const profileItems of profileGroups) {
+                for (const item of profileItems) {
+                    items.appendChild(createModelLink("profiles", item));
+                }
+            }
+        });
+    }
+}
+
+function renderScopedItems(search, list) {
+    const grouped = new Map();
+    for (const item of currentItems) {
+        if (!item.text.toLowerCase().normalize("NFC").includes(search.normalize("NFC"))) continue;
+        const scope = getListScope(item.text, currentSection);
+        if (!grouped.has(scope)) grouped.set(scope, []);
+        grouped.get(scope).push(item);
+    }
+
+    for (const label of [...(listScopes?.[currentSection] ?? []), "Other"]) {
+        const items = grouped.get(label);
+        if (!items?.length) continue;
+        renderScopeGroup(label, items.length, currentSection, list, container => {
+            for (const item of items) container.appendChild(createModelLink(currentSection, item));
+        });
     }
 }
 
@@ -683,6 +892,7 @@ document.addEventListener("keydown", event => {
         search.value = "";
         currentSection = "";
         currentItems = [];
+        renderListActions();
         searchRequest += 1;
         lastTagSearchQuery = "";
         hideProfilePlot();
