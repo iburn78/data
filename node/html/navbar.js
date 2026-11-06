@@ -5,9 +5,9 @@
 
     for (const [section, label, href] of [
         ["QP", "QP", "/"],
-        ["profiles", "profiles", "/#profiles"],
-        ["components", "components", "/#components"],
-        ["valuechains", "valuechains", "/#valuechains"],
+        ["profiles", "(P)rofiles", "/#profiles"],
+        ["components", "(C)omponents", "/#components"],
+        ["valuechains", "(V)aluechains", "/#valuechains"],
         ["manual", "manual", "/#manual"],
     ]) {
         const link = document.createElement("a");
@@ -17,6 +17,27 @@
         link.textContent = label;
         nav.appendChild(link);
     }
+
+    document.addEventListener("keydown", event => {
+        const target = event.target;
+        const typing = target instanceof Element && (
+            target.matches("input, textarea, select, [contenteditable='true']")
+            || target.closest("[contenteditable='true']")
+        );
+        if (!event.shiftKey || event.altKey || event.ctrlKey || event.metaKey || typing) return;
+
+        const section = {
+            p: "profiles",
+            c: "components",
+            v: "valuechains",
+        }[event.key.toLowerCase()];
+        if (!section) return;
+
+        const link = nav.querySelector(`.nav-link[data-section="${section}"]`);
+        if (!link) return;
+        event.preventDefault();
+        link.click();
+    });
 
     const search = document.createElement("input");
     search.id = "search";

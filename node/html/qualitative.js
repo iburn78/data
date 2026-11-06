@@ -765,8 +765,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const mpButton = document.createElement("button");
         mpButton.className = "mp-plot-link";
         mpButton.type = "button";
-        mpButton.textContent = "MP plot (m)";
-        mpButton.title = "Margin vs PER plot (m)";
+        mpButton.textContent = "MP plot (n)";
+        mpButton.title = "Margin vs PER plot (n)";
         mpButton.setAttribute("aria-haspopup", "dialog");
         mpButton.dataset.objectType = plotTarget.dataset.objectType;
         mpButton.dataset.objectId = plotTarget.dataset.objectId;
@@ -904,8 +904,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const mvButton = document.createElement("button");
         mvButton.className = "mv-plot-link";
         mvButton.type = "button";
-        mvButton.textContent = "MV plot (v)";
-        mvButton.title = "Market-cap movement plot (v)";
+        mvButton.textContent = "MV plot (m)";
+        mvButton.title = "Market-cap movement plot (m)";
         mvButton.setAttribute("aria-haspopup", "dialog");
         mvButton.dataset.code = code;
         const romaButton = row.querySelector(".roma-plot-link");
@@ -934,9 +934,13 @@ document.addEventListener("DOMContentLoaded", () => {
         button.addEventListener("click", () => openRomaPlotWindow(button));
     });
     document.querySelectorAll(".mp-plot-link").forEach(button => {
+        button.textContent = "MP plot (n)";
+        button.title = "Margin vs PER plot (n)";
         button.addEventListener("click", () => openMpPlotWindow(button));
     });
     document.querySelectorAll(".mv-plot-link").forEach(button => {
+        button.textContent = "MV plot (m)";
+        button.title = "Market-cap movement plot (m)";
         button.addEventListener("click", () => openMvPlotWindow(button));
     });
 
@@ -951,15 +955,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const button = key === "r"
             ? document.querySelector(".roma-plot-link")
             : key === "m"
-                ? document.querySelector(".mp-plot-link")
-                : key === "v"
-                    ? document.querySelector(".mv-plot-link")
+                ? document.querySelector(".mv-plot-link")
+                : key === "n"
+                    ? document.querySelector(".mp-plot-link")
                     : null;
         if (button) {
             event.preventDefault();
             if (key === "r") openRomaPlotWindow(button);
-            else if (key === "m") openMpPlotWindow(button);
-            else openMvPlotWindow(button);
+            else if (key === "m") openMvPlotWindow(button);
+            else openMpPlotWindow(button);
         }
     });
 

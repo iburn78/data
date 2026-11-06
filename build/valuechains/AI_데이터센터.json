@@ -1,7 +1,7 @@
 {
     "key": "AI 데이터센터",
     "filename": "AI_데이터센터",
-    "updated": "2026-11-06 13:21",
+    "updated": "2026-11-06 14:58",
     "llm_research_updated": "2026-10-22 18:35",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-06 09:17",
+            "updated": "2026-11-06 14:58",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
@@ -20,7 +20,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 9260,
+                "marcap": 9460,
                 "revenue_ltm": 3770,
                 "opincome_ltm": 119,
                 "revenue_qtr": 1040,
@@ -50,28 +50,28 @@
                 "ltm": 3.2
             },
             "PER": {
-                "PER_ltm": 77.8,
-                "PER_qx4": 62.5,
-                "PER_fwd": 51.2
+                "PER_ltm": 79.4,
+                "PER_qx4": 63.8,
+                "PER_fwd": 52.2
             },
             "volatility": {
-                "measure_to_base(%)": -3.2
+                "measure_to_base(%)": -3.3
             },
             "amount": {
-                "measure_to_base(%)": -52
+                "measure_to_base(%)": -39
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.09,
+                    "alpha(%)": 0.091,
                     "beta": 1.1
                 },
                 "base_period": {
-                    "alpha(%)": 0.012,
+                    "alpha(%)": 0.03,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -0.0042,
-                    "beta": 1.5
+                    "alpha(%)": 0.12,
+                    "beta": 1.6
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -111,6 +111,7 @@
         "광케이블",
         "커패시터",
         "ESS 냉각시스템",
+        "산업용 열교환기",
         "가스터빈",
         "광증폭기"
     ],

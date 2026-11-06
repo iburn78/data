@@ -439,6 +439,27 @@ app.get("/api/tag-index", (req, res) => {
     res.json(entries);
 });
 
+app.get("/api/search-help", (req, res) => {
+    const projectsRoot = path.resolve(__dirname, "../..");
+    const pythonCode = [
+        "import sys",
+        "sys.path.insert(0, sys.argv[1])",
+        "from build.models.settings import show_in_search",
+        "print(show_in_search)",
+    ].join("; ");
+
+    execFile(PYTHON, ["-c", pythonCode, projectsRoot], {
+        encoding: "utf8",
+        env: { ...process.env, PYTHONIOENCODING: "utf-8", PYTHONUTF8: "1" },
+    }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not load search tips:", stderr || error.message);
+            return res.status(500).json({ error: "Could not load search tips." });
+        }
+        res.json({ text: stdout.trimEnd() });
+    });
+});
+
 app.get("/api/profile-plot", async (req, res) => {
     try {
         res.json(await loadProfilePlotData());

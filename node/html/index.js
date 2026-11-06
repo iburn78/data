@@ -4,6 +4,30 @@ let lastTagSearchQuery = "";
 let profilePlotLoadId = 0;
 let plotlyLoadPromise = null;
 let manualLoadId = 0;
+let searchHelpRequest = 0;
+
+function hideSearchHelp() {
+    searchHelpRequest += 1;
+    document.getElementById("search-help").hidden = true;
+}
+
+async function showSearchHelp() {
+    const help = document.getElementById("search-help");
+    const request = ++searchHelpRequest;
+    help.hidden = false;
+    help.textContent = "Loading search tips…";
+
+    try {
+        const response = await fetch("/api/search-help");
+        if (!response.ok) throw new Error("Could not load search tips.");
+        const result = await response.json();
+        if (request !== searchHelpRequest) return;
+        help.textContent = result.text || "";
+    } catch (error) {
+        if (request !== searchHelpRequest) return;
+        help.textContent = error.message || "Could not load search tips.";
+    }
+}
 
 function hideProfilePlot() {
     profilePlotLoadId += 1;
@@ -288,6 +312,7 @@ async function getItems(section) {
 
 
 async function showFiles(section) {
+    hideSearchHelp();
     manualLoadId += 1;
     document.getElementById("content").replaceChildren();
     currentSection = section;
@@ -302,6 +327,7 @@ async function showFiles(section) {
 }
 
 async function showManual() {
+    hideSearchHelp();
     const loadId = ++manualLoadId;
     currentSection = "";
     currentItems = [];
@@ -578,6 +604,7 @@ document.addEventListener("click", event => {
 
 // Search box
 document.getElementById("search").addEventListener("input", () => {
+    hideSearchHelp();
     const query = document.getElementById("search").value.trim();
     if (location.hash === "#profiles" && !query) {
         showProfilePlot();
@@ -661,12 +688,14 @@ document.addEventListener("keydown", event => {
         hideProfilePlot();
         document.getElementById("file-list").replaceChildren();
         document.getElementById("content").replaceChildren();
+        showSearchHelp();
         search.focus();
     }
 });
 
 document.addEventListener("DOMContentLoaded", () => {
     if (new URLSearchParams(location.search).get("focus") === "search") {
+        showSearchHelp();
         document.getElementById("search").focus();
     }
 });

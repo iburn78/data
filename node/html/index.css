@@ -132,6 +132,31 @@ body {
     box-sizing: border-box;
 }
 
+#search:focus {
+    position: relative;
+    z-index: 1;
+    outline: 4px solid #ffd400;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 7px rgb(255 212 0 / 32%);
+}
+
+.search-help {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    margin: 24px 0 12px;
+    padding: 16px 24px;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    white-space: pre-line;
+}
+
+.search-help[hidden] {
+    display: none;
+}
+
 .result-preview {
     position: fixed;
     z-index: 9000;

@@ -1,851 +1,753 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"/>
 <title>[profile] 솔브레인</title>
-<link rel="stylesheet" href="../../node/html/index.css">
-<link rel="stylesheet" href="../../node/html/dict_template.css">
-<link rel="stylesheet" href="../../node/html/qualitative.css">
-<script src="../../node/html/navbar.js" defer></script>
+<link href="../../node/html/index.css" rel="stylesheet"/>
+<link href="../../node/html/dict_template.css" rel="stylesheet"/>
+<link href="../../node/html/qualitative.css" rel="stylesheet"/>
+<script defer="" src="../../node/html/navbar.js"></script>
 </head>
 <body>
 <div class="dict-content">
-    <div id="relations-section" class="relations-section">
-        <div id="relations-content"></div>
-        <hr>
-    </div>
-    <h3 class="financials-heading">
-        <span>Financials Analysis</span>
-        <span class="model-instance-actions">
-            <button class="model-instance-delete-button" type="button"
-                data-object-type="Profile"
-                data-object-id="357780">Delete</button>
-            <button class="model-instance-update-button" type="button"
-                data-object-type="Profile"
-                data-object-id="357780">Update</button>
-        </span>
-    </h3>
-    <div class="dashboard">
-        <div class="table-panel">
-            <div class="table-wrapper">
-                <div class="table-controls">
-                    <button onclick="expandAll()">+</button>
-                    <button onclick="collapseAll()">-</button>
-                    
-                    <div class="ext-links">
-                        <a class="ext-link" href="http://localhost:3000">QP</a>
-                        <a class="ext-link" href="#" onclick="openPopup('https://stock.naver.com/domestic/stock/357780/price', true); return false;">NV</a>
-                        <a class="ext-link" href="#" onclick="openPopup('https://wcomp.fnguide.com/CompanyInfo/Snapshot?c_id=AA&menu_type=01&cmp_cd=357780', true); return false;">FN</a>
-                    </div>
-                </div>
-                <table class="dict-table">
-                    <colgroup><col class="row-label-column"><col class="financial-column"></colgroup>
-                    <thead>
-                        <tr class="header-row">
-                            <th class="label"><a href="http://localhost:3000/#profiles">Profile</a></th>
-                            <th class="value"><a href="../profiles/357780_솔브레인.html"><span class="column-name">솔브레인</span></a></th>
-                        </tr>    
-                    </thead>
-                    <tbody>
-                        <tr class="section-row level-0 collapsed">
-                            <td class="label" colspan="2">meta</td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">name</td>
-                            <td class="value">
-                                <span>솔브레인</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">code</td>
-                            <td class="value">
-                                <span>357780</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">segment_name</td>
-                            <td class="value">
-                                <span></span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">id</td>
-                            <td class="value">
-                                <span></span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">updated</td>
-                            <td class="value">
-                                <span>2026-11-06 09:17</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">unit</td>
-                            <td class="value">
-                                <span>1e+09</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">start_date</td>
-                            <td class="value">
-                                <span>2024-01-01</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">base_per</td>
-                            <td class="value">
-                                <span>120</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">measure_per</td>
-                            <td class="value">
-                                <span>20</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">indplot_long (within the group)</td>
-                            <td class="value">
-                                <span>120</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">indplot_short (within the group)</td>
-                            <td class="value">
-                                <span>20</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">aggregation</td>
-                            <td class="value">
-                                <span>d</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-0">
-                            <td class="label" colspan="2">shape</td>
-                        </tr>    
-                        <tr class="section-row level-1 collapsed">
-                            <td class="label" colspan="2">financials (in unit)</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">marcap</td>
-                            <td class="value">
-                                <span>2,070</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">revenue_ltm</td>
-                            <td class="value">
-                                <span>1,130</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">opincome_ltm</td>
-                            <td class="value">
-                                <span>180</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">revenue_qtr</td>
-                            <td class="value">
-                                <span>312</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">opincome_qtr</td>
-                            <td class="value">
-                                <span>46</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-0">
-                            <td class="label" colspan="2">assess_data</td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">opincome</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">positive_ltm</td>
-                            <td class="value">
-                                <span><span class="true_bool">✓</span></span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">higher(comp)</td>
-                            <td class="value">
-                                <span><span class="true_bool">✓</span></span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">slope (qtr, in unit)</td>
-                            <td class="value">
-                                <span>0.25</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">growth(%)</td>
-                            <td class="value">
-                                <span>0.63</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">opmargin(%)</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">25_4Q</td>
-                            <td class="value">
-                                <span>18</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">26_1Q</td>
-                            <td class="value">
-                                <span>17</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">26_2Q</td>
-                            <td class="value">
-                                <span>15</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">26_3Q</td>
-                            <td class="value">
-                                <span>15</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">ltm</td>
-                            <td class="value">
-                                <span>16</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">PER</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">PER_ltm</td>
-                            <td class="value">
-                                <span>11.5</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">PER_qx4</td>
-                            <td class="value">
-                                <span>11.2</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">PER_fwd</td>
-                            <td class="value">
-                                <span>11.1</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">volatility</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">measure_to_base(%)</td>
-                            <td class="value">
-                                <span>-3.2</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">amount</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">measure_to_base(%)</td>
-                            <td class="value">
-                                <span>-52</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">alpha_beta</td>
-                        </tr>    
-                        <tr class="section-row level-2 collapsed">
-                            <td class="label" colspan="2">from_start_date</td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">alpha (%, daily)</td>
-                            <td class="value">
-                                <span>-0.019</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">beta</td>
-                            <td class="value">
-                                <span>1</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar proportion-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-2">
-                            <td class="label" colspan="2">base_period</td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">alpha (%, daily)</td>
-                            <td class="value">
-                                <span>-0.058</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">beta</td>
-                            <td class="value">
-                                <span>0.86</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-2">
-                            <td class="label" colspan="2">measure_period</td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">alpha (%, daily)</td>
-                            <td class="value">
-                                <span>-1.1</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">beta</td>
-                            <td class="value">
-                                <span>1.1</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-0">
-                            <td class="label" colspan="2">assess_result</td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">basics</td>
-                            <td class="value">
-                                <span><span class="true_bool">✓</span></span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">financially_sound</td>
-                            <td class="value">
-                                <span><span class="true_bool">✓</span></span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">PER_level</td>
-                            <td class="value">
-                                <span>Mid</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">volatility (measure)</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">amount (measure)</td>
-                            <td class="value">
-                                <span>Dn</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">alpha (measure)</td>
-                            <td class="value">
-                                <span>udr_pfm</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">category</td>
-                            <td class="value">
-                                <span>B</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-1">
-                            <td class="label">market_sentiment</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="charts-panel">
-            <div class="chart-card">
-                <img src="357780_솔브레인.png" class="analysis-image" onclick="openPopup('357780_솔브레인.png');">
-            </div>
-            <div class="chart-card">
-                <img src="http://10.245.110.101:3000/data/357780.png" class="analysis-image" onclick="openPopup('http://10.245.110.101:3000/data/357780.png');">
-            </div>
-        </div>
-    </div>
-    
-        <h3>Qualitative Analysis</h3>
-
-        <div class="qualitative-section">
-            <div class="qualitative-grid">
-                <div
-                    class="qualitative-card"
-                    data-section="info_section"
-                    data-object-type="Profile"
-                    data-object-id="357780"
-                >
-
-                    <div class="qualitative-header">
-
-                        <h4>business</h4>
-
-                        <div class="qualitative-actions">
-
-                            
-                    <span class="reviewed-badge not-reviewed">
-                        ○ Not reviewed
+<div class="relations-section" id="relations-section">
+<div id="relations-content"></div>
+<hr/>
+</div>
+<h3 class="financials-heading">
+<span>Financials Analysis</span>
+<span class="model-instance-actions">
+<button class="model-instance-delete-button" data-object-id="357780" data-object-type="Profile" type="button">Delete</button>
+<button class="model-instance-update-button" data-object-id="357780" data-object-type="Profile" type="button">Update</button>
+</span>
+</h3>
+<div class="dashboard">
+<div class="table-panel">
+<div class="table-wrapper">
+<div class="table-controls">
+<button onclick="expandAll()">+</button>
+<button onclick="collapseAll()">-</button>
+<div class="ext-links">
+<a class="ext-link" href="http://localhost:3000">QP</a>
+<a class="ext-link" href="#" onclick="openPopup('https://stock.naver.com/domestic/stock/357780/price', true); return false;">NV</a>
+<a class="ext-link" href="#" onclick="openPopup('https://wcomp.fnguide.com/CompanyInfo/Snapshot?c_id=AA&amp;menu_type=01&amp;cmp_cd=357780', true); return false;">FN</a>
+</div>
+</div>
+<table class="dict-table">
+<colgroup><col class="row-label-column"/><col class="financial-column"/></colgroup>
+<thead>
+<tr class="header-row">
+<th class="label"><a href="http://localhost:3000/#profiles">Profile</a></th>
+<th class="value"><a href="../profiles/357780_솔브레인.html"><span class="column-name">솔브레인</span></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="section-row level-0 collapsed">
+<td class="label" colspan="2">meta</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">name</td>
+<td class="value">
+<span>솔브레인</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">code</td>
+<td class="value">
+<span>357780</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">segment_name</td>
+<td class="value">
+<span></span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">id</td>
+<td class="value">
+<span></span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">updated</td>
+<td class="value">
+<span>2026-11-06 09:17</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">unit</td>
+<td class="value">
+<span>1e+09</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">start_date</td>
+<td class="value">
+<span>2024-01-01</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">base_per</td>
+<td class="value">
+<span>120</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">measure_per</td>
+<td class="value">
+<span>20</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">indplot_long (within the group)</td>
+<td class="value">
+<span>120</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">indplot_short (within the group)</td>
+<td class="value">
+<span>20</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">aggregation</td>
+<td class="value">
+<span>d</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="section-row level-0">
+<td class="label" colspan="2">shape</td>
+</tr>
+<tr class="section-row level-1 collapsed">
+<td class="label" colspan="2">financials (in unit)</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">marcap</td>
+<td class="value">
+<span>2,070</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">revenue_ltm</td>
+<td class="value">
+<span>1,130</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">opincome_ltm</td>
+<td class="value">
+<span>180</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">revenue_qtr</td>
+<td class="value">
+<span>312</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">opincome_qtr</td>
+<td class="value">
+<span>46</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-0">
+<td class="label" colspan="2">assess_data</td>
+</tr>
+<tr class="section-row level-1">
+<td class="label" colspan="2">opincome</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">positive_ltm</td>
+<td class="value">
+<span><span class="true_bool">✓</span></span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">higher(comp)</td>
+<td class="value">
+<span><span class="true_bool">✓</span></span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">slope (qtr, in unit)</td>
+<td class="value">
+<span>0.25</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">growth(%)</td>
+<td class="value">
+<span>0.63</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-1">
+<td class="label" colspan="2">opmargin(%)</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">25_4Q</td>
+<td class="value">
+<span>18</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">26_1Q</td>
+<td class="value">
+<span>17</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">26_2Q</td>
+<td class="value">
+<span>15</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">26_3Q</td>
+<td class="value">
+<span>15</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">ltm</td>
+<td class="value">
+<span>16</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-1">
+<td class="label" colspan="2">PER</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">PER_ltm</td>
+<td class="value">
+<span>11.5</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">PER_qx4</td>
+<td class="value">
+<span>11.2</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">PER_fwd</td>
+<td class="value">
+<span>11.1</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-1">
+<td class="label" colspan="2">volatility</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">measure_to_base(%)</td>
+<td class="value">
+<span>-3.2</span>
+<div class="value-bar-container">
+<div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-1">
+<td class="label" colspan="2">amount</td>
+</tr>
+<tr class="value-row level-2">
+<td class="label">measure_to_base(%)</td>
+<td class="value">
+<span>-52</span>
+<div class="value-bar-container">
+<div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-1">
+<td class="label" colspan="2">alpha_beta</td>
+</tr>
+<tr class="section-row level-2 collapsed">
+<td class="label" colspan="2">from_start_date</td>
+</tr>
+<tr class="value-row level-3">
+<td class="label">alpha (%, daily)</td>
+<td class="value">
+<span>-0.019</span>
+<div class="value-bar-container">
+<div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-3">
+<td class="label">beta</td>
+<td class="value">
+<span>1</span>
+<div class="value-bar-container">
+<div class="value-bar proportion-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-2">
+<td class="label" colspan="2">base_period</td>
+</tr>
+<tr class="value-row level-3">
+<td class="label">alpha (%, daily)</td>
+<td class="value">
+<span>-0.058</span>
+<div class="value-bar-container">
+<div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-3">
+<td class="label">beta</td>
+<td class="value">
+<span>0.86</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-2">
+<td class="label" colspan="2">measure_period</td>
+</tr>
+<tr class="value-row level-3">
+<td class="label">alpha (%, daily)</td>
+<td class="value">
+<span>-1.1</span>
+<div class="value-bar-container">
+<div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+</div>
+</td>
+</tr>
+<tr class="value-row level-3">
+<td class="label">beta</td>
+<td class="value">
+<span>1.1</span>
+<div class="value-bar-container">
+<div class="value-bar" style="height:100.0%; bottom: 0"></div>
+</div>
+</td>
+</tr>
+<tr class="section-row level-0">
+<td class="label" colspan="2">assess_result</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">basics</td>
+<td class="value">
+<span><span class="true_bool">✓</span></span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">financially_sound</td>
+<td class="value">
+<span><span class="true_bool">✓</span></span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">PER_level</td>
+<td class="value">
+<span>Mid</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">volatility (measure)</td>
+<td class="value">
+<span>-</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">amount (measure)</td>
+<td class="value">
+<span>Dn</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">alpha (measure)</td>
+<td class="value">
+<span>udr_pfm</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">category</td>
+<td class="value">
+<span>B</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+<tr class="value-row level-1">
+<td class="label">market_sentiment</td>
+<td class="value">
+<span>-</span>
+<div class="value-bar-container">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="charts-panel">
+<div class="chart-card">
+<img class="analysis-image" onclick="openPopup('357780_솔브레인.png');" src="357780_솔브레인.png"/>
+</div>
+<div class="chart-card">
+<img class="analysis-image" onclick="openPopup('http://10.245.110.101:3000/data/357780.png');" src="http://10.245.110.101:3000/data/357780.png"/>
+</div>
+</div>
+</div>
+<h3>Qualitative Analysis</h3>
+<div class="qualitative-section">
+<div class="qualitative-grid">
+<div class="qualitative-card" data-object-id="357780" data-object-type="Profile" data-section="info_section">
+<div class="qualitative-header">
+<h4>business</h4>
+<div class="qualitative-actions">
+<span class="reviewed-badge reviewed">
+                        ✓ Reviewed
                     </span>
-        
-
-                            <input
-                                class="edit-password"
-                                type="password"
-                                maxlength="4"
-                                inputmode="numeric"
-                                placeholder="....(p)"
-                            >
-
-                            <button
-                                class="edit-button"
-                                type="button"
-                                title="Edit"
-                            >✎</button>
-
-                        </div>
-                    </div>
-
-                    <div class="qualitative-content">
-                        
-                <div class="info-section-view">
-                    <table class="qualitative-table">
-                        <tbody>
-                            <tr class="reviewed-row">
-                                <th>reviewed</th>
-                                <td>
-                                    <span class="reviewed-status not-reviewed">
-                                        Not reviewed
+<input class="edit-password" inputmode="numeric" maxlength="4" placeholder="....(p)" type="password"/>
+<button class="edit-button" title="Edit" type="button">✎</button>
+</div>
+</div>
+<div class="qualitative-content">
+<div class="info-section-view">
+<table class="qualitative-table">
+<tbody>
+<tr class="reviewed-row">
+<th>reviewed</th>
+<td>
+<span class="reviewed-status reviewed">
+                                        Reviewed
                                     </span>
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <th>updated</th>
-                                <td>2026-10-27 15:47</td>
-                            </tr>
-        
-                            <tr>
-                                <th>search_theme</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>실적</td>
-                            </tr>
-                            <tr>
-                                <td>전망</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-        
-                            <tr>
-                                <th>tags</th>
-                                <td></td>
-                            </tr>
-        
-                            <tr>
-                                <th>notes</th>
-                                <td></td>
-                            </tr>
-        
-                            <tr>
-                                <th>segments</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>반도체 소재</td>
-                            </tr>
-                            <tr>
-                                <td>디스플레이 소재</td>
-                            </tr>
-                            <tr>
-                                <td>2차전지 소재</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-        
-                            <tr>
-                                <th>revenue_share</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>0.8</td>
-                            </tr>
-                            <tr>
-                                <td>0.1</td>
-                            </tr>
-                            <tr>
-                                <td>0.07</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-        
-                            <tr>
-                                <th>opmargin</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>0.2</td>
-                            </tr>
-                            <tr>
-                                <td>0.1</td>
-                            </tr>
-                            <tr>
-                                <td>0.05</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-        
-                            <tr>
-                                <th>trend</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>improving (AI 및 HBM 수요 증가)</td>
-                            </tr>
-                            <tr>
-                                <td>declining (Rigid OLED 축소 및 사업 다변화 중)</td>
-                            </tr>
-                            <tr>
-                                <td>facing stronger competition (EV 수요 둔화 및 마진 압박)</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-        
-                            <tr>
-                                <th>create_segments</th>
-                                <td>
-                                    <input
-                                        class="qualitative-checkbox"
-                                        type="checkbox"
-                                        aria-label="create_segments"
-                                        disabled
-                                    >
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <th>key_products</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>식각액(에천트), CMP 슬러리, 전구체(Precursor)</td>
-                            </tr>
-                            <tr>
-                                <td>TFT 식각액, 유기재료, 유리기판(신사업)</td>
-                            </tr>
-                            <tr>
-                                <td>전해액, 리드탭</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-        
-                            <tr>
-                                <th>competitors</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>한솔케미칼, 동진세미켐, 원익머티리얼즈, 이엔에프테크놀로지</td>
-                            </tr>
-                            <tr>
-                                <td>삼성디스플레이, LG디스플레이 (고객사 겸 경쟁 구도)</td>
-                            </tr>
-                            <tr>
-                                <td>엔켐</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-    
-                    </div>
-
-                </div>
-    
-                <div class="qualitative-card" data-news-card>
-
-                    <div class="qualitative-header">
-                        <h4>news</h4>
-                        
-                    <div class="qualitative-actions">
-                        <button class="news-update-button" type="button"
-                            data-object-type="Profile"
-                            data-object-id="357780">Update</button>
-                    </div>
-                
-                    </div>
-
-                    <div class="qualitative-content">
-                        <table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <th>updated</th>
-                                <td>2026-11-06 13:05</td>
-                            </tr>
-                            <tr>
-                                <th>key_facts</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>솔브레인홀딩스는 2026년 상반기 연결 매출 3,851억원을 기록했으며, 이차전지(37.8%)와 바이오헬스케어(26.1%)를 중심으로 사업 포트폴리오를 구축함.</td>
-                            </tr>
-                            <tr>
-                                <td>솔브레인은 2026년 상반기 매출 5,757.76억원, 영업이익 907.22억원을 기록하며 전년 대비 각각 31.4%, 56.2% 성장함.</td>
-                            </tr>
-                            <tr>
-                                <td>솔브레인은 2026년 8월 삼성전자 테일러 팹으로 초도 물량을 출하했으며, 텍사스 테일러 공장을 착공하여 2028년 상반기 현지 공급을 목표로 함.</td>
-                            </tr>
-                            <tr>
-                                <td>솔브레인은 전구체 전문 기업 디엔에프(DNF)를 연결 자회사로 편입하여 반도체 소재 포트폴리오를 강화함.</td>
-                            </tr>
-                            <tr>
-                                <td>솔브레인은 현재 고객사 테스트 단계인 유리기판 관련 신사업을 통해 비메모리 분야로 사업 영역을 확대 중임.</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-                            <tr>
-                                <th>key_issues</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <td>솔브레인홀딩스의 이차전지 사업은 유럽 전기차 시장의 회복 여부에 따라 소재 수요가 변동될 수 있음.</td>
-                            </tr>
-                            <tr>
-                                <td>솔브레인은 원화 강세 및 성과급 등 일회성 비용 발생으로 인해 단기 영업이익이 시장 기대치를 하회할 가능성이 있음.</td>
-                            </tr>
-                            <tr>
-                                <td>원재료 가격 상승 폭이 판매가격 상승보다 커 수익성에 부담이 되었으며, 자회사 디엔에프의 낮은 수익성이 마진을 희석함.</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
-                            </tr>
-                            <tr>
-                                <th>news_summary</th>
-                                <td>솔브레인홀딩스는 이차전지와 바이오헬스케어 등 사업 다각화를 통해 성장 동력을 확보하고 있으며, 자회사 솔브레인은 삼성전자와 SK하이닉스의 신규 팹 투자 및 AI 인프라 확대에 힘입어 2028년까지 안정적인 성장이 기대된다. 솔브레인은 미국 테일러 공장 건설과 유리기판 신사업으로 비메모리 영역을 확장하고 있으나, 환율 변동과 원재료비 상승, 자회사 수익성 관리 등이 단기적인 재무 변수로 작용하고 있다.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    </div>
-
-                </div>
-            
-                <div class="qualitative-card">
-
-                    <div class="qualitative-header">
-                        <h4>overview</h4>
-                        
-                    </div>
-
-                    <div class="qualitative-content">
-                        <table class="qualitative-table">
-                        <tbody>
-                            <tr>
-                                <th>title</th>
-                                <td>AI 반도체 수요 확대로 실적 개선</td>
-                            </tr>
-                            <tr>
-                                <th>desc</th>
-                                <td>동사는 2020년 솔브레인홀딩스㈜로부터 반도체, 디스플레이, 2차전지 전해액 및 전자 관련 화학 소재 제조사업부문을 인적분할하여 설립된 분할신설법인으로, 동년 코스닥시장에 상장함. 당반기 중 ㈜디엔에프 추가 지분 취득으로 종속기업으로 편입하였으며, 솔브레인엔티씨㈜를 신규 설립함. 반도체·디스플레이 공정용 화학 소재, 2차전지 소재 등을 생산하며 삼성전자, SK하이닉스, 삼성SDI 등 국내 주요 제조사에 공급하고 있음.
+</td>
+</tr>
+<tr>
+<th>updated</th>
+<td>2026-11-06 16:18</td>
+</tr>
+<tr>
+<th>search_theme</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>실적</td>
+</tr>
+<tr>
+<td>전망</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>tags</th>
+<td></td>
+</tr>
+<tr>
+<th>notes</th>
+<td></td>
+</tr>
+<tr>
+<th>segments</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>반도체 소재</td>
+</tr>
+<tr>
+<td>디스플레이 소재</td>
+</tr>
+<tr>
+<td>2차전지 소재</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>revenue_share</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>0.82</td>
+</tr>
+<tr>
+<td>0.1</td>
+</tr>
+<tr>
+<td>0.07</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>opmargin</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>0.2</td>
+</tr>
+<tr>
+<td>0.1</td>
+</tr>
+<tr>
+<td>0.05</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>trend</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>improving (AI 및 HBM 수요 증가)</td>
+</tr>
+<tr>
+<td>declining (Rigid OLED 축소 및 사업 다변화 중)</td>
+</tr>
+<tr>
+<td>facing stronger competition (EV 수요 둔화 및 마진 압박)</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>create_segments</th>
+<td>
+<input aria-label="create_segments" class="qualitative-checkbox" disabled="" type="checkbox"/>
+</td>
+</tr>
+<tr>
+<th>key_products</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>식각액(에천트), CMP 슬러리, 전구체(Precursor)</td>
+</tr>
+<tr>
+<td>TFT 식각액, 유기재료, 유리기판(신사업)</td>
+</tr>
+<tr>
+<td>전해액, 리드탭</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>competitors</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>한솔케미칼, 동진세미켐, 원익머티리얼즈, 이엔에프테크놀로지</td>
+</tr>
+<tr>
+<td>삼성디스플레이, LG디스플레이 (고객사 겸 경쟁 구도)</td>
+</tr>
+<tr>
+<td>엔켐</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="qualitative-card" data-news-card="">
+<div class="qualitative-header">
+<h4>news</h4>
+<div class="qualitative-actions">
+<button class="news-update-button" data-object-id="357780" data-object-type="Profile" type="button">Update</button>
+</div>
+</div>
+<div class="qualitative-content">
+<table class="qualitative-table">
+<tbody>
+<tr>
+<th>updated</th>
+<td>2026-11-06 13:05</td>
+</tr>
+<tr>
+<th>key_facts</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>솔브레인홀딩스는 2026년 상반기 연결 매출 3,851억원을 기록했으며, 이차전지(37.8%)와 바이오헬스케어(26.1%)를 중심으로 사업 포트폴리오를 구축함.</td>
+</tr>
+<tr>
+<td>솔브레인은 2026년 상반기 매출 5,757.76억원, 영업이익 907.22억원을 기록하며 전년 대비 각각 31.4%, 56.2% 성장함.</td>
+</tr>
+<tr>
+<td>솔브레인은 2026년 8월 삼성전자 테일러 팹으로 초도 물량을 출하했으며, 텍사스 테일러 공장을 착공하여 2028년 상반기 현지 공급을 목표로 함.</td>
+</tr>
+<tr>
+<td>솔브레인은 전구체 전문 기업 디엔에프(DNF)를 연결 자회사로 편입하여 반도체 소재 포트폴리오를 강화함.</td>
+</tr>
+<tr>
+<td>솔브레인은 현재 고객사 테스트 단계인 유리기판 관련 신사업을 통해 비메모리 분야로 사업 영역을 확대 중임.</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>key_issues</th>
+<td><table class="qualitative-table">
+<tbody>
+<tr>
+<td>솔브레인홀딩스의 이차전지 사업은 유럽 전기차 시장의 회복 여부에 따라 소재 수요가 변동될 수 있음.</td>
+</tr>
+<tr>
+<td>솔브레인은 원화 강세 및 성과급 등 일회성 비용 발생으로 인해 단기 영업이익이 시장 기대치를 하회할 가능성이 있음.</td>
+</tr>
+<tr>
+<td>원재료 가격 상승 폭이 판매가격 상승보다 커 수익성에 부담이 되었으며, 자회사 디엔에프의 낮은 수익성이 마진을 희석함.</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<th>news_summary</th>
+<td>솔브레인홀딩스는 이차전지와 바이오헬스케어 등 사업 다각화를 통해 성장 동력을 확보하고 있으며, 자회사 솔브레인은 삼성전자와 SK하이닉스의 신규 팹 투자 및 AI 인프라 확대에 힘입어 2028년까지 안정적인 성장이 기대된다. 솔브레인은 미국 테일러 공장 건설과 유리기판 신사업으로 비메모리 영역을 확장하고 있으나, 환율 변동과 원재료비 상승, 자회사 수익성 관리 등이 단기적인 재무 변수로 작용하고 있다.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="qualitative-card">
+<div class="qualitative-header">
+<h4>overview</h4>
+</div>
+<div class="qualitative-content">
+<table class="qualitative-table">
+<tbody>
+<tr>
+<th>title</th>
+<td>AI 반도체 수요 확대로 실적 개선</td>
+</tr>
+<tr>
+<th>desc</th>
+<td>동사는 2020년 솔브레인홀딩스㈜로부터 반도체, 디스플레이, 2차전지 전해액 및 전자 관련 화학 소재 제조사업부문을 인적분할하여 설립된 분할신설법인으로, 동년 코스닥시장에 상장함. 당반기 중 ㈜디엔에프 추가 지분 취득으로 종속기업으로 편입하였으며, 솔브레인엔티씨㈜를 신규 설립함. 반도체·디스플레이 공정용 화학 소재, 2차전지 소재 등을 생산하며 삼성전자, SK하이닉스, 삼성SDI 등 국내 주요 제조사에 공급하고 있음.
 
 2026년 상반기 전년동기 대비 연결기준 매출액은 31.4% 증가, 영업이익은 61.4% 증가, 당기순이익은 114.7% 증가. AI 반도체 수요 폭증에 따른 HBM 및 첨단 패키징 공정 중요성 확대로 반도체 소재 부문이 실적 성장을 견인함. GAA 공정용 특수 식각액, HBM4 적층 공정용 CMP Slurry 등 고부가가치 소재 공급 확대와 선단 공정 양산 협력으로 시장 지배력을 공고히 하고 있음.</td>
-                            </tr>
-                            <tr>
-                                <th>as_of</th>
-                                <td>2026-09-02</td>
-                            </tr>
-                            <tr>
-                                <th>updated</th>
-                                <td>2026-10-27 09:49</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    
-    
-    <div class="llm-research-trigger-row" data-object-type="Profile"
-        data-object-id="357780">
-        <button class="llm-research-link" type="button" aria-haspopup="dialog"
-            aria-controls="llm-research-dialog-357780">LLM Research (l)</button>
-        
-        <button class="roma-plot-link" type="button" aria-haspopup="dialog"
-            aria-controls="roma-plot-357780" title="ROMA plot (r)">ROMA plot (r)</button>
-        <template class="roma-plot-template" id="roma-plot-357780"
-            data-title="ROMA plot — 357780"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-357780" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-357780")) {                    Plotly.newPlot(                        "roma-plot-357780",                        [{"customdata":[["2020-10-01",1530.170044],["2021-01-01",1157.8763861],["2021-04-01",1227.3803813],["2021-07-01",749.2218031000001],["2021-10-01",930.8316903999998],["2022-01-01",638.3812256],["2022-04-01",412.3105675],["2022-07-01",387.69035830000007],["2022-10-01",284.16050730000006],["2023-01-01",213.98728260000001],["2023-04-01",259.7968579],["2023-07-01",367.7499815],["2023-10-01",554.0529544999999],["2024-01-01",572.3666220000001],["2024-04-01",652.0825189999999],["2024-07-01",632.997985],["2024-10-01",366.08545399999997],["2025-01-01",238.84811119999998],["2025-04-01",331.13993990000006],["2025-07-01",221.595583],["2025-10-01",705.0795698000001],["2026-01-01",619.9720135],["2026-04-01",1587.50261],["2026-07-01",1925.7553050000001]],"hovertemplate":"\uc194\ube0c\ub808\uc778\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"rFHbjOpIO0D4Z4hBnWI4QBTLOLZj9ThApAP5GfKXNEAmHubxiWE2QDxYpt3YZDNAMFnY8VyRMEDKdXAtljcwQLZs2B3mNC1AUbbVmc+qKkB+IRoUZF0sQJVDPfGG2S9AUu9EEtpoMkB5NAgXIKEyQAiDzykujDNA2DwEGkdVM0Dg6lCa2swvQJhFsufbmytARz8j1s67LkC5BIFhAPYqQLx7kR6QIDRAvh+O8FMvM0CMwfdCz7I7QAAAAAAAAD5A"},"sizemode":"diameter"},"mode":"lines+markers","name":"\uc194\ube0c\ub808\uc778","x":{"dtype":"f8","bdata":"OXMXeqf0N0BVNByv9eo3QLZ7Wd1hWThAhruX2AyXO0AytxZFyog6QOAqcVO6KDxAteQwGYBHO0D7\u002fZpgQ547QDX0ghi3BzpAhmh7U5RMOEASCC9STN41QCOPeBq2vDJAXuCmgY5\u002fM0BCmuB8KxI1QD6ISeHGoDVAaSVbQ4P9NUC+dKlGdaU1QG4I16Fv8jRAPTC14vHhNkBOVl8xMBw4QJre9FgCZjhAJnY+EmdhOkDO6ZJmdTI\u002fQM7pkmZ1Mj9A"},"y":{"dtype":"f8","bdata":"8ZEJAijZSECODpGY9UFJQE5yx2jLkUVAPgYKQAxISUA+BgpADEhJQD4GCkAMSElAPgYKQAxISUA+BgpADEhJQD4GCkAMSElAPgYKQAxISUA+BgpADEhJQD4GCkAMSElAPgYKQAxISUDLu++67AVHQO80zOKb4UZA1Fl89hvcQ0CGQe9GzDVCQH4A73A9BkJA5lX7RoQrNECVjVXqXDFBQDuoV9ndhEVAHNdr7KVZRkBkDzGBwgJHQGQPMYHCAkdA"},"z":{"dtype":"f8","bdata":"v2DKzyzbMED3u\u002fRSWC41QKalh9uA1DZATOrMibJXOUAKePIZ66o0QDGuPHHOqTVAqhYvGz+VMkAiBD8FG+swQDbZYl4XrStA01X5HxLzMEAqepbWlUcyQNo9swMyhjNA5pYUJxDaMUAShiJZl6U3QEOa6xPEYjhA4XFZnmroNkAsG+\u002fxtkQxQHLn5VdDuylA5CGdyx5WLkC\u002fefBhliAsQBMne3S4ojZAZAS3Yj1hNEBG64dcmc0+QAWMaBqYVDpA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\uc194\ube0c\ub808\uc778"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[31.197103892199998],"y":[46.021560811],"z":[26.330445909999998],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 193","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 963","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 1,926","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-2.495768311376,33.692872203575995],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-4.0450299076,54.607903752599995],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-2.4642497088,33.267371068799996],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
-    
-        <button class="mv-plot-link" type="button" aria-haspopup="dialog"
-            data-code="357780"
-            title="Market-cap movement plot (v)">MV plot (v)</button>
-    
-    </div>
-    <dialog class="llm-research-dialog" id="llm-research-dialog-357780"
-        data-object-type="Profile" data-object-id="357780" data-research-hash="f8b7cfa0df4f70e27521cc1e5c6b7b75a4883398a6718003d4808f86d4e6f295"
-        aria-labelledby="llm-research-dialog-357780-title">
-        <div class="llm-research-dialog-header">
-            <h2 id="llm-research-dialog-357780-title">LLM Research</h2>
-            <div class="llm-research-dialog-header-actions">
-                <button class="llm-research-delete-button" type="button">Delete</button>
-                <button class="llm-research-close" type="button" aria-label="Close research">×</button>
-            </div>
-        </div>
-        <div class="llm-research-dialog-content">
-            <p class="llm-research-updated">Updated: 2026-10-27 15:47</p>
-            <div class="llm-research-markdown"><p>한국 상장사 **솔브레인(Soulbrain, 357780)**에 대해 조사한 결과입니다.</p>
+</tr>
+<tr>
+<th>as_of</th>
+<td>2026-09-02</td>
+</tr>
+<tr>
+<th>updated</th>
+<td>2026-10-27 09:49</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="llm-research-trigger-row" data-object-id="357780" data-object-type="Profile">
+<button aria-controls="llm-research-dialog-357780" aria-haspopup="dialog" class="llm-research-link" type="button">LLM Research (l)</button>
+<button aria-controls="roma-plot-357780" aria-haspopup="dialog" class="roma-plot-link" title="ROMA plot (r)" type="button">ROMA plot (r)</button>
+<template class="roma-plot-template" data-title="ROMA plot — 357780" id="roma-plot-357780"><div style="height:100%; width:100%;"> <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+<script charset="utf-8" crossorigin="anonymous" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" src="https://cdn.plot.ly/plotly-4.1.1.min.js"></script> <div class="plotly-graph-div" id="roma-plot-357780" style="height:100%; width:100%;"></div> <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-357780")) {                    Plotly.newPlot(                        "roma-plot-357780",                        [{"customdata":[["2020-10-01",1530.170044],["2021-01-01",1157.8763861],["2021-04-01",1227.3803813],["2021-07-01",749.2218031000001],["2021-10-01",930.8316903999998],["2022-01-01",638.3812256],["2022-04-01",412.3105675],["2022-07-01",387.69035830000007],["2022-10-01",284.16050730000006],["2023-01-01",213.98728260000001],["2023-04-01",259.7968579],["2023-07-01",367.7499815],["2023-10-01",554.0529544999999],["2024-01-01",572.3666220000001],["2024-04-01",652.0825189999999],["2024-07-01",632.997985],["2024-10-01",366.08545399999997],["2025-01-01",238.84811119999998],["2025-04-01",331.13993990000006],["2025-07-01",221.595583],["2025-10-01",705.0795698000001],["2026-01-01",619.9720135],["2026-04-01",1587.50261],["2026-07-01",1925.7553050000001]],"hovertemplate":"\uc194\ube0c\ub808\uc778\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"rFHbjOpIO0D4Z4hBnWI4QBTLOLZj9ThApAP5GfKXNEAmHubxiWE2QDxYpt3YZDNAMFnY8VyRMEDKdXAtljcwQLZs2B3mNC1AUbbVmc+qKkB+IRoUZF0sQJVDPfGG2S9AUu9EEtpoMkB5NAgXIKEyQAiDzykujDNA2DwEGkdVM0Dg6lCa2swvQJhFsufbmytARz8j1s67LkC5BIFhAPYqQLx7kR6QIDRAvh+O8FMvM0CMwfdCz7I7QAAAAAAAAD5A"},"sizemode":"diameter"},"mode":"lines+markers","name":"\uc194\ube0c\ub808\uc778","x":{"dtype":"f8","bdata":"OXMXeqf0N0BVNByv9eo3QLZ7Wd1hWThAhruX2AyXO0AytxZFyog6QOAqcVO6KDxAteQwGYBHO0D7\u002fZpgQ547QDX0ghi3BzpAhmh7U5RMOEASCC9STN41QCOPeBq2vDJAXuCmgY5\u002fM0BCmuB8KxI1QD6ISeHGoDVAaSVbQ4P9NUC+dKlGdaU1QG4I16Fv8jRAPTC14vHhNkBOVl8xMBw4QJre9FgCZjhAJnY+EmdhOkDO6ZJmdTI\u002fQM7pkmZ1Mj9A"},"y":{"dtype":"f8","bdata":"8ZEJAijZSECODpGY9UFJQE5yx2jLkUVAPgYKQAxISUA+BgpADEhJQD4GCkAMSElAPgYKQAxISUA+BgpADEhJQD4GCkAMSElAPgYKQAxISUA+BgpADEhJQD4GCkAMSElAPgYKQAxISUDLu++67AVHQO80zOKb4UZA1Fl89hvcQ0CGQe9GzDVCQH4A73A9BkJA5lX7RoQrNECVjVXqXDFBQDuoV9ndhEVAHNdr7KVZRkBkDzGBwgJHQGQPMYHCAkdA"},"z":{"dtype":"f8","bdata":"v2DKzyzbMED3u\u002fRSWC41QKalh9uA1DZATOrMibJXOUAKePIZ66o0QDGuPHHOqTVAqhYvGz+VMkAiBD8FG+swQDbZYl4XrStA01X5HxLzMEAqepbWlUcyQNo9swMyhjNA5pYUJxDaMUAShiJZl6U3QEOa6xPEYjhA4XFZnmroNkAsG+\u002fxtkQxQHLn5VdDuylA5CGdyx5WLkC\u002fefBhliAsQBMne3S4ojZAZAS3Yj1hNEBG64dcmc0+QAWMaBqYVDpA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\uc194\ube0c\ub808\uc778"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[31.197103892199998],"y":[46.021560811],"z":[26.330445909999998],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 193","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 963","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 1,926","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-2.495768311376,33.692872203575995],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-4.0450299076,54.607903752599995],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-2.4642497088,33.267371068799996],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script> </div></template>
+<button aria-haspopup="dialog" class="mv-plot-link" data-code="357780" title="Market-cap movement plot (m)" type="button">MV plot (m)</button>
+</div>
+<dialog aria-labelledby="llm-research-dialog-357780-title" class="llm-research-dialog" data-object-id="357780" data-object-type="Profile" data-research-hash="f8b7cfa0df4f70e27521cc1e5c6b7b75a4883398a6718003d4808f86d4e6f295" id="llm-research-dialog-357780">
+<div class="llm-research-dialog-header">
+<h2 id="llm-research-dialog-357780-title">LLM Research</h2>
+<div class="llm-research-dialog-header-actions">
+<button class="llm-research-delete-button" type="button">Delete</button>
+<button aria-label="Close research" class="llm-research-close" type="button">×</button>
+</div>
+</div>
+<div class="llm-research-dialog-content">
+<p class="llm-research-updated">Updated: 2026-10-27 15:47</p>
+<div class="llm-research-markdown"><p>한국 상장사 **솔브레인(Soulbrain, 357780)**에 대해 조사한 결과입니다.</p>
 <p>솔브레인은 2020년 솔브레인홀딩스로부터 인적분할되어 설립된 사업회사로, 주로 반도체 및 디스플레이 공정용 화학 소재를 공급하는 기업입니다. (※ 주의: 지주회사인 '솔브레인홀딩스'와 사업회사인 '솔브레인'을 구분하여 분석하였습니다.)</p>
 <h3>1. 주요 사업부 구성 (3개 부문)</h3>
 <p>솔브레인의 사업은 크게 전방 산업에 따라 다음과 같이 나눌 수 있습니다.</p>
@@ -854,7 +756,7 @@
 <li><strong>디스플레이 소재 부문:</strong> TFT 식각액, 유기재료 등 OLED 및 LCD 패널 제조용 소재를 공급합니다.</li>
 <li><strong>2차전지 소재 부문:</strong> 전해액 및 리드탭 등 배터리 핵심 소재를 생산 및 판매합니다.</li>
 </ul>
-<hr />
+<hr/>
 <h3>2. 사업부별 최근 실적 및 추이</h3>
 <p><em>(참고: 사업부별 정밀한 분기 영업이익은 공시되지 않으나, 전체 연결 실적과 분석 리포트를 기반으로 재구성하였습니다.)</em></p>
 <table>
@@ -890,7 +792,7 @@
 <ul>
 <li><strong>전체 실적 (2025년~2026년 전망):</strong> 2025년에는 일회성 비용과 2차전지 부진으로 영업이익이 일시 정체되었으나, 2026년부터 반도체 가동률 상승과 신제품(초산계 에천트 등) 효과로 매출 1조 원 돌파 및 영업이익 회복이 예상됩니다.</li>
 </ul>
-<hr />
+<hr/>
 <h3>3. 경쟁사 및 밸류에이션 (PER)</h3>
 <p>솔브레인은 국내 '소부장' 대표 기업으로, 각 부문별 경쟁사는 다음과 같습니다.</p>
 <table>
@@ -920,7 +822,7 @@
 <ul>
 <li><strong>솔브레인 PER:</strong> 최근 리포트에 따르면 12M Fwd PER 기준 <strong>약 10~13배</strong> 수준에서 거래되고 있으며, 이는 경쟁사 평균 대비 다소 저평가되었거나 업황 회복 기대감을 반영하고 있는 수치입니다.</li>
 </ul>
-<hr />
+<hr/>
 <h3>4. 사업부별 주요 이슈 및 리스크</h3>
 <h4><strong>① 반도체 소재 (Opportunity &amp; Risk)</strong></h4>
 <ul>
@@ -938,8 +840,8 @@
 <li><strong>리스크:</strong> 전기차 수요 둔화로 인해 공장 가동률이 낮아져 고정비 부담이 커지는 '마진 스퀴즈' 현상이 발생하고 있습니다. 특히 리튬염 등 원재료 가격 변동에 취약합니다.</li>
 </ul>
 <h3>요약</h3>
-<p>솔브레인은 **&quot;반도체 업황 회복 $\rightarrow$ 실적 견인 $\rightarrow$ 2차전지/유리기판 신사업으로 다변화&quot;**하는 전략을 취하고 있습니다. 현재는 반도체 부문의 강력한 지배력을 바탕으로 2차전지의 수익성 저하를 상쇄하고 있는 구조입니다.</p>
-<hr />
+<p>솔브레인은 **"반도체 업황 회복 $\rightarrow$ 실적 견인 $\rightarrow$ 2차전지/유리기판 신사업으로 다변화"**하는 전략을 취하고 있습니다. 현재는 반도체 부문의 강력한 지배력을 바탕으로 2차전지의 수익성 저하를 상쇄하고 있는 구조입니다.</p>
+<hr/>
 <h2>Web search results</h2>
 <h3>Search 1: Soulbrain business segments revenue operating profit margin quarterly trend</h3>
 <p>솔브레인
@@ -2330,10 +2232,10 @@ https://comp.wisereport.co.kr/company/c1060001.aspx?cmp_cd=357780&amp;cn=
 </ul>
 </li>
 </ul>
-<p>솔브레인, 재상장 이후 주가 빙향은?...&quot;경쟁사 대비 저평가&quot; - 글로벌이코노믹
+<p>솔브레인, 재상장 이후 주가 빙향은?..."경쟁사 대비 저평가" - 글로벌이코노믹
 https://www.g-enews.com/article/Securities/2020/08/202008080852513852edf69f862c_1
-솔브레인, 재상장 이후 주가 빙향은?...&quot;경쟁사 대비 저평가&quot; - 글로벌이코노믹</p>
-<h1>솔브레인, 재상장 이후 주가 빙향은?...&quot;경쟁사 대비 저평가&quot;</h1>
+솔브레인, 재상장 이후 주가 빙향은?..."경쟁사 대비 저평가" - 글로벌이코노믹</p>
+<h1>솔브레인, 재상장 이후 주가 빙향은?..."경쟁사 대비 저평가"</h1>
 <p>정준범 기자</p>
 <p>입력 2020-08-10 06:00</p>
 <p>이미지 확대보기</p>
@@ -2360,7 +2262,7 @@ https://ronniere.tistory.com/150
 <li>로니의 한 줄 요약 (One-Page View)</li>
 </ol>
 <blockquote>
-<p>&quot;SFS 프로젝트 참여로 강화되는 '소재 + 장비' 밸류체인, 2026년 이익 레벨업의 원년이 될 것인가.&quot;</p>
+<p>"SFS 프로젝트 참여로 강화되는 '소재 + 장비' 밸류체인, 2026년 이익 레벨업의 원년이 될 것인가."</p>
 </blockquote>
 <ol start="2">
 <li>현재가 &amp; 밸류에이션 팩트 체크</li>
@@ -2384,14 +2286,14 @@ https://ronniere.tistory.com/150
 <li>2020년 ~ 현재 솔브레인홀딩스(지주)와 솔브레인(사업)으로 인적분할. 현재 솔브레인은 반도체·2차전지·디스플레이 소재 전문 상장사로 재편됐습니다.</li>
 </ul>
 <p>3-2. 비즈니스 모델(BM) 정밀 해부: 반도체 공정의 '혈액'과 '혈관'</p>
-<p>솔브레인의 비즈니스 모델은 단순한 '화학 약품 납품'이 아닙니다. 고객사의 수율(Yield)을 결정짓는 **&quot;초미세 공정의 솔루션 프로바이더&quot;**로서, 기술적 진입장벽과 고객 락인(Lock-in) 효과가 매우 강력합니다.</p>
+<p>솔브레인의 비즈니스 모델은 단순한 '화학 약품 납품'이 아닙니다. 고객사의 수율(Yield)을 결정짓는 **"초미세 공정의 솔루션 프로바이더"**로서, 기술적 진입장벽과 고객 락인(Lock-in) 효과가 매우 강력합니다.</p>
 <p>① 반도체 소재: 기술 난이도의 정점 (매출 비중 약 70% 추정)</p>
 <p>솔브레인의 핵심 이익 창출원(Cash Cow)이자 미래 성장 동력입니다. 메모리 반도체의 단수가 높아지고(NAND), 회로 선폭이 좁아질수록(DRAM/Logic) 솔브레인의 소재 사용량은 기하급수적으로 늘어납니다.</p>
 <p>고선택비 인산 (High Selectivity H3PO4 for 3D NAND) - [핵심 중의 핵심]</p>
 <ul>
 <li>역할 3D NAND 플래시는 수백 층의 빌딩을 쌓는 것과 같습니다. 이때 층과 층 사이를 구분하는 '질화막(Nitride)'을 제거하고 전자가 머물 방을 만들어야 하는데, 뼈대가 되는 '산화막(Oxide)'은 건드리지 않고 오직 질화막만 녹여내야 합니다.</li>
 <li>기술 장벽 낸드가 128단 → 236단 → 300단 이상으로 높아질수록, 식각액이 침투해야 할 깊이는 깊어지고 구멍은 좁아집니다. 이때 뼈대를 갉아먹으면 건물이 무너집니다(불량 발생). 솔브레인의 인산은 경쟁사 대비 높은 **선택비(Selectivity)**를 통해 산화막 손상 없이 질화막만 정밀 타격하는 고선택비 인산을 공급하는 것으로 평가됩니다.</li>
-<li>수익 구조 낸드 고단화 경쟁(Tech Migration)이 심화될수록, 웨이퍼 장당 투입되는 인산의 양과 공정 반복 횟수는 늘어납니다. 즉, **&quot;고객사의 기술 경쟁이 곧 솔브레인의 매출 성장&quot;**으로 직결되는 구조입니다.</li>
+<li>수익 구조 낸드 고단화 경쟁(Tech Migration)이 심화될수록, 웨이퍼 장당 투입되는 인산의 양과 공정 반복 횟수는 늘어납니다. 즉, **"고객사의 기술 경쟁이 곧 솔브레인의 매출 성장"**으로 직결되는 구조입니다.</li>
 </ul>
 <p>초고순도 불산 (Ultra-High Purity HF)</p>
 <ul>
@@ -2815,18 +2717,18 @@ https://www.bosoop.com/6a0fedb6-4c0b-4ee4-8164-50d9b9faa73a/
 <p>보고서의 숲_보숲</p>
 <p>Data Driven Analysis</p>
 <p>안녕하세요, 투자자 여러분. 오늘은 솔브레인홀딩스(036830) 이야기를 좀 해볼까 합니다.</p>
-<p>2025년 3분기 실적을 보면, 표면적인 숫자와 숨은 숫자가 정말 다른 회사입니다. 매출은 30%나 뛰었는데, 정작 영업이익은 27%나 떨어졌다고요. &quot;도대체 공장은 돌아가는데, 돈은 어디로 사라진 거지?&quot;라는 질문이 자연스럽게 나옵니다. 오늘은 그 답을 공장 가동률, 원재료 가격, 그리고 급증한 차입금 속에서 찾아보겠습니다.</p>
+<p>2025년 3분기 실적을 보면, 표면적인 숫자와 숨은 숫자가 정말 다른 회사입니다. 매출은 30%나 뛰었는데, 정작 영업이익은 27%나 떨어졌다고요. "도대체 공장은 돌아가는데, 돈은 어디로 사라진 거지?"라는 질문이 자연스럽게 나옵니다. 오늘은 그 답을 공장 가동률, 원재료 가격, 그리고 급증한 차입금 속에서 찾아보겠습니다.</p>
 <h3>바쁜 분들을 위한 3줄 요약</h3>
 <ul>
 <li>매출은 30% 성장했지만, 영업이익은 27% 추락한 '마진 스퀴즈' 확인. 2차전지 전해액 가동률이 21.58%로 극히 낮아, 설비 증설 효과가 제대로 나오지 않고 있습니다.</li>
 <li>단기차입금이 2.5배 폭증(885억→2,228억)하며 재무 부담 가중. 특히 외화차입금(1,704억원)의 금리가 최대 7.26%에 달해, 환율·금리 리스크가 큽니다.</li>
-<li>&quot;체질 개선 중인 환자&quot;로 봐야. 바이오 매각 등 불확실성은 해소했지만, 투자 매력은 2차전지 부문의 가동률과 영업이익률 회복에 달렸습니다. 즉각적인 매수 판단보다는 지켜보는 전략이 유리해 보입니다.</li>
+<li>"체질 개선 중인 환자"로 봐야. 바이오 매각 등 불확실성은 해소했지만, 투자 매력은 2차전지 부문의 가동률과 영업이익률 회복에 달렸습니다. 즉각적인 매수 판단보다는 지켜보는 전략이 유리해 보입니다.</li>
 </ul>
 <h2>1. 도대체 뭐로 돈을 버는 회사인가?</h2>
 <p>솔브레인홀딩스는 이름만 '홀딩스'일 뿐, 사실은 직접 사업을 하는 '사업 지주회사'에 가깝습니다. 순수히 자회사 배당금만 받는 게 아니라, 직접 공장을 운영해 매출을 올리는 구조죠.</p>
 <p>주요 돈줄은 두 갈래입니다. 첫째, 연결종속회사를 통해 직접 올리는 매출입니다. 미국과 헝가리에 있는 전해액 공장(Soulbrain MI, HU)과 디스플레이 부품을 만드는 솔브레인에스엘디가 여기 속하죠. 3분기 연결 매출 4,164억원의 대부분을 이들이 차지합니다.</p>
 <p>둘째, 핵심 관계기업 '솔브레인(주)'에서 오는 지분법 이익입니다. 지분 31.49%를 가져 반도체·디스플레이 고급 소재로 벌어들이는 이익의 몫을 받아옵니다. 한편, 홀딩스는 이 회사에 원재료(156억원)도 사고, 제품(24.5억원)도 팔며 밀접하게 얽혀 운영됩니다.</p>
-<p>쉽게 말해, &quot;직접 전해액도 만들고, 반도체 소재 기업의 주주도 되고&quot;라는 이중 구조입니다. 문제는 직접 운영하는 사업부(특히 2차전지)에서 삐걱거리기 시작했다는 점이죠.</p>
+<p>쉽게 말해, "직접 전해액도 만들고, 반도체 소재 기업의 주주도 되고"라는 이중 구조입니다. 문제는 직접 운영하는 사업부(특히 2차전지)에서 삐걱거리기 시작했다는 점이죠.</p>
 <h2>2. 숫자로 보는 현실: 매출과 이익의 균열</h2>
 <p>일단 성적표부터 까보겠습니다. 매출과 이익, 겉으로 보기엔 어떨까요?</p>
 <h4>매출액 vs 영업이익 추이 (3분기 누적)</h4>
@@ -2862,7 +2764,7 @@ https://www.bosoop.com/6a0fedb6-4c0b-4ee4-8164-50d9b9faa73a/
 </tbody>
 </table>
 <p>잠깐, 여기서 눈썰미가 필요한 부분이 있습니다. 영업이익은 떨어졌는데, 당기순이익은 28%나 늘었잖아요? 이게 가장 위험한 함정입니다. 이 증가분의 대부분은 '기타수익(719억원)'과 '중단영업이익(208억원)'이라는 일회성 항목에서 나왔습니다. 자산 매각이나 환율 평가이익 같은 건데, 내년에도 반복될 거라고 보기 힘듭니다. 결국 본업으로 버는 돈은 오히려 줄었다는 게 진실입니다.</p>
-<p>그럼 대체 왜? 보고서를 들여다보면 답이 나옵니다. 2차전지 재료를 파는 가격(P)은 전년보다 약 19% 하락했는데, 그걸 만드는 원재료 가격(C)은 약 18% 상승했습니다. &quot;팔면 팔수록 손해&quot;나 다름없는 구조가 된 거죠. 공장 가동률 이야기와 연결되면 퍼즐이 맞춰집니다.</p>
+<p>그럼 대체 왜? 보고서를 들여다보면 답이 나옵니다. 2차전지 재료를 파는 가격(P)은 전년보다 약 19% 하락했는데, 그걸 만드는 원재료 가격(C)은 약 18% 상승했습니다. "팔면 팔수록 손해"나 다름없는 구조가 된 거죠. 공장 가동률 이야기와 연결되면 퍼즐이 맞춰집니다.</p>
 <h2>3. 비즈니스 심층 분석: 가동률 21%의 충격</h2>
 <p>이제 본격적으로 구멍 난 배를 찾아 들어가 봅시다. 1차 분석에서 간과했지만, 가장 충격적인 숫자 하나가 있습니다.</p>
 <h4>🏭 생산과 효율성 (Deep Dive)</h4>
@@ -2903,7 +2805,7 @@ https://www.bosoop.com/6a0fedb6-4c0b-4ee4-8164-50d9b9faa73a/
 </tr>
 </tbody>
 </table>
-<p>표에서 보듯, 가장 많이 팔고 미래를 걸었던 2차전지 부문의 가동률이 가장 처참합니다. 반면, 매각하기로 한 바이오 부문은 오히려 가동률 100%로 잘 돌아가고 있죠. 아이러니하지 않나요? 회사는 비주력 사업을 정리하고 주력 사업에 집중하겠다는데, 정작 주력 사업의 효율성은 바닥을 치고 있습니다. 디스플레이 부문도 스마트폰 슬림화 트렌드에 밀려 사업을 축소하고 있습니다. 결국, &quot;지금 가장 문제가 심한 부문에 모든 것을 걸었다&quot;는 위험한 상황입니다.</p>
+<p>표에서 보듯, 가장 많이 팔고 미래를 걸었던 2차전지 부문의 가동률이 가장 처참합니다. 반면, 매각하기로 한 바이오 부문은 오히려 가동률 100%로 잘 돌아가고 있죠. 아이러니하지 않나요? 회사는 비주력 사업을 정리하고 주력 사업에 집중하겠다는데, 정작 주력 사업의 효율성은 바닥을 치고 있습니다. 디스플레이 부문도 스마트폰 슬림화 트렌드에 밀려 사업을 축소하고 있습니다. 결국, "지금 가장 문제가 심한 부문에 모든 것을 걸었다"는 위험한 상황입니다.</p>
 <h2>4. 재</h2>
 <p>3Q25 Review: NAND 감산 기조 확대
 https://file.alphasquare.co.kr/media/pdfs/company-report/<em>251120</em>%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8%203Q25%20Review_%EC%B0%A8%EC%9A%A9%ED%98%B8_179_Online%20report%20_%206_10p_%EC%86%94%EB%B8%8C%EB%A0%88%EC%9D%B8.pdf
@@ -3178,7 +3080,7 @@ http://www.dailyinvest.kr/news/articleView.html?idxno=66864
 <li>수정 2025.05.28 08:22</li>
 <li>댓글 0</li>
 </ul>
-<h4>LS증권 &quot;P/E 7.7배로 추가적인 주가 하락은 제한적…목표가 25만원&quot; NH투자증권 &quot;전방 산업 개선·기업 인수 통한 외형 성장 기대…목표가 25만원&quot; 키움증권 &quot;하반기 선단 제품 생산 비중 확대로 주가 반등 전망…목표가 25만원&quot; 미래에셋증권 &quot;반도체 비중 높아 중장기적 실적 안정성 유지될 것…목표가 21만6000원&quot;</h4>
+<h4>LS증권 "P/E 7.7배로 추가적인 주가 하락은 제한적…목표가 25만원" NH투자증권 "전방 산업 개선·기업 인수 통한 외형 성장 기대…목표가 25만원" 키움증권 "하반기 선단 제품 생산 비중 확대로 주가 반등 전망…목표가 25만원" 미래에셋증권 "반도체 비중 높아 중장기적 실적 안정성 유지될 것…목표가 21만6000원"</h4>
 <p>솔브레인은 2020년 7월1일을 분할기일로 솔브레인홀딩스로부터 반도체, 디스플레이, 2차전지 전해액 및 전자 관련 화학 소재 제조사업 부문을 인적분할해 설립됐다. [사진출처=솔브레인]</p>
 <p>[데일리인베스트=권민서 기자] 반도체 및 2차전지 소재업체 솔브레인은 지난 1분기에 매출액이 1%, 영업이익은 22% 각각 감소하는 등 실적이 악화됐다. 특히 매출액과 영업이익 모두 컨센서스를 모두 하회했다. 지난해에는 매출액과 영업이익이 모두 증가했다. 이런 가운데 증권가에서는 삼성전자 낸드(NAND) 전환 투자 진행에 따른 자연 감산으로 웨이퍼(wafer) 투입량이 감소해 올해 솔브레인 실적이 역성장할 것이라는 전망이 나온다. 솔브레인 실적은 웨이퍼 투입량과 연동된다. 이에 따라 지난 3월 중순부터 하향각을 그리는 주가가 어떻게 움직일지 주목된다.</p>
 <p>솔브레인은 2020년 7월1일을 분할기일로 솔브레인홀딩스로부터 반도체, 디스플레이, 2차전지 전해액 및 전자 관련 화학 소재 제조사업 부문을 인적분할해 설립됐다. 국내 주요 반도체, 디스플레이, 2차전지 제조사에 제품을 공급하고 있다. 코스닥 시장에는 2020년 8월 상장했다.</p>
@@ -5182,100 +5084,59 @@ Results Comment 솔브레인</p>
 </tbody>
 </table>
 </div>
-            <div class="llm-research-dialog-actions">
-                <span class="llm-research-status" role="status" aria-live="polite"></span>
-            </div>
-        </div>
-    </dialog>
-    
-    <h3>News</h3>
-    <div class="news-section">
-        <div class="news-row" data-news-file="2026-10-31_[핀포인트뉴스]_제닉_해외_판매_확대에_ESS_수요까지…솔브레인홀딩스_성장_동력_주목.md"
-                data-news-path="build/news/profiles/357780_솔브레인/2026-10-31_[핀포인트뉴스]_제닉_해외_판매_확대에_ESS_수요까지…솔브레인홀딩스_성장_동력_주목.md"
-                data-object-type="Profile"
-                data-object-id="357780">
-                <a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-31_[핀포인트뉴스]_제닉_해외_판매_확대에_ESS_수요까지…솔브레인홀딩스_성장_동력_주목.md'); return false;">
+<div class="llm-research-dialog-actions">
+<span aria-live="polite" class="llm-research-status" role="status"></span>
+</div>
+</div>
+</dialog>
+<h3>News</h3>
+<div class="news-section">
+<div class="news-row" data-news-file="2026-10-31_[핀포인트뉴스]_제닉_해외_판매_확대에_ESS_수요까지…솔브레인홀딩스_성장_동력_주목.md" data-news-path="build/news/profiles/357780_솔브레인/2026-10-31_[핀포인트뉴스]_제닉_해외_판매_확대에_ESS_수요까지…솔브레인홀딩스_성장_동력_주목.md" data-object-id="357780" data-object-type="Profile">
+<a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-31_[핀포인트뉴스]_제닉_해외_판매_확대에_ESS_수요까지…솔브레인홀딩스_성장_동력_주목.md'); return false;">
                     2026-10-31 [핀포인트뉴스] 제닉 해외 판매 확대에 ESS 수요까지…솔브레인홀딩스 성장 동력 주목
                 </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-16_[데일리인베스트]_[종목_포커스]_솔브레인_고객사_삼전닉스_메모리_웨이퍼_증가로_성장_지속.md"
-                data-news-path="build/news/profiles/357780_솔브레인/2026-10-16_[데일리인베스트]_[종목_포커스]_솔브레인_고객사_삼전닉스_메모리_웨이퍼_증가로_성장_지속.md"
-                data-object-type="Profile"
-                data-object-id="357780">
-                <a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-16_[데일리인베스트]_[종목_포커스]_솔브레인_고객사_삼전닉스_메모리_웨이퍼_증가로_성장_지속.md'); return false;">
+<button aria-label="Delete article" class="news-delete-button" title="Delete article" type="button">×</button>
+</div>
+<div class="news-row" data-news-file="2026-10-16_[데일리인베스트]_[종목_포커스]_솔브레인_고객사_삼전닉스_메모리_웨이퍼_증가로_성장_지속.md" data-news-path="build/news/profiles/357780_솔브레인/2026-10-16_[데일리인베스트]_[종목_포커스]_솔브레인_고객사_삼전닉스_메모리_웨이퍼_증가로_성장_지속.md" data-object-id="357780" data-object-type="Profile">
+<a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-16_[데일리인베스트]_[종목_포커스]_솔브레인_고객사_삼전닉스_메모리_웨이퍼_증가로_성장_지속.md'); return false;">
                     2026-10-16 [데일리인베스트] [종목 포커스] 솔브레인 고객사 삼전닉스 메모리 웨이퍼 증가로 성장 지속
                 </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-12_[버핏연구소]_[버핏_리포트]_솔브레인_2026~2028_신규_공장_투자_지속…_실적_성장.md"
-                data-news-path="build/news/profiles/357780_솔브레인/2026-10-12_[버핏연구소]_[버핏_리포트]_솔브레인_2026~2028_신규_공장_투자_지속…_실적_성장.md"
-                data-object-type="Profile"
-                data-object-id="357780">
-                <a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-12_[버핏연구소]_[버핏_리포트]_솔브레인_2026~2028_신규_공장_투자_지속…_실적_성장.md'); return false;">
+<button aria-label="Delete article" class="news-delete-button" title="Delete article" type="button">×</button>
+</div>
+<div class="news-row" data-news-file="2026-10-12_[버핏연구소]_[버핏_리포트]_솔브레인_2026~2028_신규_공장_투자_지속…_실적_성장.md" data-news-path="build/news/profiles/357780_솔브레인/2026-10-12_[버핏연구소]_[버핏_리포트]_솔브레인_2026~2028_신규_공장_투자_지속…_실적_성장.md" data-object-id="357780" data-object-type="Profile">
+<a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-12_[버핏연구소]_[버핏_리포트]_솔브레인_2026~2028_신규_공장_투자_지속…_실적_성장.md'); return false;">
                     2026-10-12 [버핏연구소] [버핏 리포트] 솔브레인 2026~2028 신규 공장 투자 지속… 실적 성장
                 </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-12_[머니투데이]_솔브레인_중장기_물량_증가_사이클_초입…목표가_11%↑-메리츠_-_머니투데이.md"
-                data-news-path="build/news/profiles/357780_솔브레인/2026-10-12_[머니투데이]_솔브레인_중장기_물량_증가_사이클_초입…목표가_11%↑-메리츠_-_머니투데이.md"
-                data-object-type="Profile"
-                data-object-id="357780">
-                <a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-12_[머니투데이]_솔브레인_중장기_물량_증가_사이클_초입…목표가_11%↑-메리츠_-_머니투데이.md'); return false;">
+<button aria-label="Delete article" class="news-delete-button" title="Delete article" type="button">×</button>
+</div>
+<div class="news-row" data-news-file="2026-10-12_[머니투데이]_솔브레인_중장기_물량_증가_사이클_초입…목표가_11%↑-메리츠_-_머니투데이.md" data-news-path="build/news/profiles/357780_솔브레인/2026-10-12_[머니투데이]_솔브레인_중장기_물량_증가_사이클_초입…목표가_11%↑-메리츠_-_머니투데이.md" data-object-id="357780" data-object-type="Profile">
+<a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-12_[머니투데이]_솔브레인_중장기_물량_증가_사이클_초입…목표가_11%↑-메리츠_-_머니투데이.md'); return false;">
                     2026-10-12 [머니투데이] 솔브레인 중장기 물량 증가 사이클 초입…목표가 11%↑-메리츠 - 머니투데이
                 </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-12_[뉴스핌]_[모닝_리포트]_솔브레인_환율_역풍에도_물량_성장.md"
-                data-news-path="build/news/profiles/357780_솔브레인/2026-10-12_[뉴스핌]_[모닝_리포트]_솔브레인_환율_역풍에도_물량_성장.md"
-                data-object-type="Profile"
-                data-object-id="357780">
-                <a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-12_[뉴스핌]_[모닝_리포트]_솔브레인_환율_역풍에도_물량_성장.md'); return false;">
+<button aria-label="Delete article" class="news-delete-button" title="Delete article" type="button">×</button>
+</div>
+<div class="news-row" data-news-file="2026-10-12_[뉴스핌]_[모닝_리포트]_솔브레인_환율_역풍에도_물량_성장.md" data-news-path="build/news/profiles/357780_솔브레인/2026-10-12_[뉴스핌]_[모닝_리포트]_솔브레인_환율_역풍에도_물량_성장.md" data-object-id="357780" data-object-type="Profile">
+<a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-12_[뉴스핌]_[모닝_리포트]_솔브레인_환율_역풍에도_물량_성장.md'); return false;">
                     2026-10-12 [뉴스핌] [모닝 리포트] 솔브레인 환율 역풍에도 물량 성장
                 </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-10_[ThinkPool]_솔브레인(357780)눌릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md"
-                data-news-path="build/news/profiles/357780_솔브레인/2026-10-10_[ThinkPool]_솔브레인(357780)눌릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md"
-                data-object-type="Profile"
-                data-object-id="357780">
-                <a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-10_[ThinkPool]_솔브레인(357780)눌릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md'); return false;">
+<button aria-label="Delete article" class="news-delete-button" title="Delete article" type="button">×</button>
+</div>
+<div class="news-row" data-news-file="2026-10-10_[ThinkPool]_솔브레인(357780)눌릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md" data-news-path="build/news/profiles/357780_솔브레인/2026-10-10_[ThinkPool]_솔브레인(357780)눌릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md" data-object-id="357780" data-object-type="Profile">
+<a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-10-10_[ThinkPool]_솔브레인(357780)눌릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md'); return false;">
                     2026-10-10 [ThinkPool] 솔브레인(357780)눌릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략.
                 </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-09-30_[ThinkPool]_솔브레인(357780)밀릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md"
-                data-news-path="build/news/profiles/357780_솔브레인/2026-09-30_[ThinkPool]_솔브레인(357780)밀릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md"
-                data-object-type="Profile"
-                data-object-id="357780">
-                <a href="#" onclick="openPopup('/build/news/profiles/357780_솔브레인/2026-09-30_[ThinkPool]_솔브레인(357780)밀릴때마다_물량_모아둘_기회로_보이며_이후_전망_및_대응전략..md'); return false;">
-                    2026-09-30 [ThinkPool] 솔브레인(357780)밀릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략.
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-    </div>
-    
+<button aria-label="Delete article" class="news-delete-button" title="Delete article" type="button">×</button>
+</div>
+
+</div>
 </div>
 <script src="../../node/html/dict_template.js"></script>
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
-</body> 
+</body>
 <footer>
-    <div class="footer-title">Quarterly Performances</div>
-    <div class="footer-copy">© 2026 · All rights reserved.</div>
+<div class="footer-title">Quarterly Performances</div>
+<div class="footer-copy">© 2026 · All rights reserved.</div>
 </footer>
 </html>

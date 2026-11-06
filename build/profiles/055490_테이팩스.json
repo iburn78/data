@@ -1,7 +1,7 @@
 {
     "key": "055490",
     "filename": "055490_테이팩스",
-    "updated": "2026-10-22 17:47",
+    "updated": "2026-11-06 16:02",
     "llm_research_updated": "2026-10-22 17:46",
     "financials": {
         "meta": {
@@ -9,59 +9,61 @@
             "code": "055490",
             "segment_name": "",
             "id": "",
-            "updated": "2026-10-22 17:47",
+            "updated": "2026-11-06 16:02",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
-            "aggregation": "w"
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
         },
         "shape": {
             "financials": {
-                "marcap": 92.0,
-                "revenue_4qtrs": 157.0,
-                "opincome_4qtrs": 9.45,
+                "marcap": 95.7,
+                "revenue_ltm": 157,
+                "opincome_ltm": 9.45,
                 "revenue_qtr": 40.7,
                 "opincome_qtr": 3.18
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_last_4qtrs": true,
-                "higher_than_comp": true,
+                "positive_ltm": true,
+                "higher(comp)": true,
                 "slope": 0.3,
-                "growth_per_qtr": 0.127
+                "growth(%)": 27
             },
-            "opmargin": {
-                "25_4Q": 0.0338,
-                "26_1Q": 0.0477,
-                "26_2Q": 0.0782,
-                "26_3Q": 0.0782,
-                "4qtrs": 0.0603
+            "opmargin(%)": {
+                "25_4Q": 3.4,
+                "26_1Q": 4.8,
+                "26_2Q": 7.8,
+                "26_3Q": 7.8,
+                "ltm": 6
             },
             "PER": {
-                "PER_ltm": 9.73,
-                "PER_qx4": 7.22,
-                "PER_fwd": 5.85
+                "PER_ltm": 10.1,
+                "PER_qx4": 7.52,
+                "PER_fwd": 6.08
             },
             "volatility": {
-                "measure_to_base": 0.8,
-                "slope": -0.000161
+                "measure_to_base(%)": -35
             },
             "amount": {
-                "measure_to_base": 2.25,
-                "slope": -0.0137
+                "measure_to_base(%)": 12
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha": -0.000037,
-                    "beta": 0.738
+                    "alpha(%)": 0.00048,
+                    "beta": 0.73
                 },
-                "base_duration": {
-                    "alpha": 0.00139,
-                    "beta": 0.421
+                "base_period": {
+                    "alpha(%)": 0.31,
+                    "beta": 0.44
                 },
-                "measure_duration": {
-                    "alpha": 0.0152,
-                    "beta": 0.229
+                "measure_period": {
+                    "alpha(%)": 1.2,
+                    "beta": 0.36
                 }
             }
         },
@@ -69,11 +71,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Mid",
-            "volatility_movement": "-",
-            "amount_movement": "Up",
+            "volatility_level": "Dn",
+            "amount_level": "-",
             "alpha_level": "out_pfm",
-            "market_sentiment": "-",
-            "category": "B"
+            "category": "B",
+            "market_sentiment": "-"
         }
     },
     "info_section": {
@@ -117,17 +119,14 @@
         "updated": "2026-10-15 12:26"
     },
     "news": {
-        "updated": "2026-10-22 17:46",
+        "updated": "2026-11-06 16:02",
         "key_facts": [
-            "테이팩스는 테이프 제조 및 판매 전문 업체이며, 2026년 10월 14일 기준 2차전지 테마 상승에 힘입어 주가가 5.69% 상승함.",
-            "테이팩스는 2026년 10월 14일 기준 2차전지 관련주 및 폴더블폰 소재 관련주(기능성 테이프 및 소재 생산)로 주목받으며 상승세를 보임.",
-            "테이팩스의 퀀트 재무 분석 결과, 성장성, 안정성, 수익성 모두 테마 평균을 상회하여 관련 종목 142개 중 재무 순위 29위를 기록함.",
-            "2026년 10월 20일 기준, 배터리 관련 부품 및 전자 소재를 공급하는 테이팩스의 주가는 약세를 나타냄."
+            "테이팩스는 테이프 제조 및 판매 전문업체이다.",
+            "2026년 10월 14일, 테이팩스는 2차전지 테마 상승세에 힘입어 주가가 전일 대비 5.69% 상승했다.",
+            "2026년 10월 14일 기준, 테이팩스는 퀀트 재무 분석 결과 성장성, 안정성, 수익성이 테마 평균을 상회하며 142개 종목 중 재무 순위 29위를 기록했다.",
+            "2026년 10월 20일, 테이팩스는 스마트폰 관련주 전반의 투자심리 위축으로 인해 약세를 나타냈다."
         ],
-        "key_issues": [
-            "글로벌 경기 둔화와 스마트폰 교체 주기 장기화로 인한 부품 출하량 회복 지연 및 실적 개선 기대 약화.",
-            "스마트폰 부품 시장 내에서 단순한 성장 기대보다 실제 공급망 지위 확보 및 신규 수주의 매출·수익성 연결 여부가 중요함."
-        ],
-        "news_summary": "테이팩스는 테이프 제조 전문 기업으로, 2026년 10월 중순 2차전지 및 폴더블폰 소재 관련 기대감과 우수한 재무 건전성을 바탕으로 주가가 급등했으나, 이후 스마트폰 부품 업계 전반의 실적 우려와 투자심리 위축으로 인해 약세를 보였습니다."
+        "key_issues": [],
+        "news_summary": "테이프 제조 전문기업인 테이팩스는 2026년 10월 중순 2차전지 테마의 강세와 우수한 재무 건전성을 바탕으로 주가 상승을 기록했으나, 이후 스마트폰 부품주 전반의 투자심리 악화로 인해 하락세를 보였습니다."
     }
 }
