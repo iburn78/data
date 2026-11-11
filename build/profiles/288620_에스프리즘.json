@@ -1,0 +1,156 @@
+{
+    "key": "288620",
+    "filename": "288620_에스프리즘",
+    "updated": "2026-11-11 17:09",
+    "llm_research_updated": "2026-11-11 17:09",
+    "financials": {
+        "meta": {
+            "name": "에스프리즘",
+            "code": "288620",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-11 17:09",
+            "classification": {
+                "sector": "에너지화학",
+                "subsector": "에너지",
+                "source": "krics_2026-11-11"
+            },
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 21.9,
+                "revenue_ltm": 15.7,
+                "opincome_ltm": -12.7,
+                "revenue_qtr": 3.94,
+                "opincome_qtr": -0.733
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.25,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -160,
+                "26_1Q": -120,
+                "26_2Q": -19,
+                "26_3Q": -19,
+                "ltm": -81
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -28
+            },
+            "amount": {
+                "measure_to_base(%)": -75
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.1,
+                    "beta": 0.88
+                },
+                "base_period": {
+                    "alpha(%)": -0.75,
+                    "beta": 0.5
+                },
+                "measure_period": {
+                    "alpha(%)": -0.52,
+                    "beta": 0.45
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-11 17:09",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "건물용 연료전지",
+            "발전용 연료전지",
+            "수송용 연료전지",
+            "분산형 에너지 통합 솔루션"
+        ],
+        "revenue_share": [
+            0.6752,
+            0.1631,
+            0.0,
+            0.1617
+        ],
+        "opmargin": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "declining due to construction slump",
+            "stable but niche",
+            "expanding into mobility market",
+            "early stage, high growth potential via AIDC"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "건물용 PEMFC (1kW~50kW)",
+            "발전용 PAFC All-in-one 패키지",
+            "수송용 연료전지 파워팩 (2.5kW~15kW)",
+            "건물 에너지 통합 솔루션 (ESS, BIPV, 히트펌프 결합)"
+        ],
+        "competitors": [
+            "국내 PEMFC 업체",
+            "Bloom Energy, 국내 PAFC 업체",
+            "국내 수송용 연료전지 업체",
+            "에너지 솔루션 및 ESS 전문 기업"
+        ]
+    },
+    "code": "288620",
+    "name": "에스프리즘",
+    "overview": {
+        "title": "주력 매출 감소, 신규사업 추진",
+        "desc": "동사는 2014년 설립되어 연료전지시스템 제조·판매를 주요사업으로 하고, 2018년 코스닥시장에 상장했음. 1kW~50kW급 고분자 전해질막 연료전지(PEMFC)를 생산하며, 도시가스·순수수소·LPG 등을 연료 모델로 보유하고 있음. 동사는 기술 경쟁력을 바탕으로 건물용 연료전지 시장 우위를 유지하며, 수소연료전지 파워팩 신규사업으로 매출 및 수익성을 확보하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 24.1% 감소, 영업손실은 22.2% 증가, 당기순손실은 49.4% 감소. 주력 사업인 건물용·발전용 연료전지 부문 매출 감소로 실적이 악화되고 영업손실이 확대되는 추세임. 글로벌 연료전지 시장은 친환경 에너지 전환 정책으로 높은 성장이 예상되며, 동사는 수소연료전지 파워팩 신규사업을 통해 수송용 연료전지 시장 진입을 추진하고 있음.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-11 17:09"
+    },
+    "news": {
+        "updated": "2026-11-11 17:09",
+        "key_facts": [
+            "2024년 10월 13일, 자회사 에스프리즘과 함께 일본 상장사 EFHD와 MOU를 체결하여 AI 데이터센터용 연료전지 및 ESS 시스템 구축 및 현지 인증 취득을 추진함.",
+            "국내 발전 공기업 수주를 확대하여 2024년 3월 한국남부발전, 10월 20일 한국서부발전(약 110억원 규모)과 태양광 발전설비 계약을 체결함.",
+            "일본 시장에서 사업을 확장하며 2024년 7월 일본 카메이와 약 72억원 규모의 태양광 리파워링 본계약을 체결함.",
+            "2023년 연결 매출 1,024억원(전년비 30.7% 감소) 및 영업손실 187억원을 기록했으며, 2024년 상반기에도 매출 506억원 및 영업손실 103억원을 기록함.",
+            "주식병합에 따른 매매거래 정지 상태에서 2024년 10월 28일 거래 재개 예정임."
+        ],
+        "key_issues": [
+            "실적 악화가 지속되고 있어 신규 수주가 실제 매출 증가와 수익성 개선으로 이어질 수 있을지가 과제임.",
+            "일본 AI 데이터센터 시장 진출이 현재 협력 및 검토 단계에 있어 구체적인 사업 성과 확인이 필요함."
+        ],
+        "news_summary": "에스에너지는 국내 발전 공기업 대상 태양광 수주 확대와 일본 EFHD와의 협력을 통한 AI 데이터센터 전력시장 진출로 사업 다각화를 꾀하고 있으나, 최근 지속된 영업손실로 인한 실적 회복이 시급한 상황입니다."
+    }
+}

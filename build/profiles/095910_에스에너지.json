@@ -1,0 +1,151 @@
+{
+    "key": "095910",
+    "filename": "095910_에스에너지",
+    "updated": "2026-11-11 17:04",
+    "llm_research_updated": "2026-11-11 17:04",
+    "financials": {
+        "meta": {
+            "name": "에스에너지",
+            "code": "095910",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-11 17:04",
+            "classification": {
+                "sector": "에너지화학",
+                "subsector": "에너지",
+                "source": "krics_2026-11-11"
+            },
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 16.6,
+                "revenue_ltm": 103,
+                "opincome_ltm": -23,
+                "revenue_qtr": 24.2,
+                "opincome_qtr": -4.34
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.34,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -30,
+                "26_1Q": -23,
+                "26_2Q": -18,
+                "26_3Q": -18,
+                "ltm": -22
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 950
+            },
+            "amount": {
+                "measure_to_base(%)": -88
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.16,
+                    "beta": 1.5
+                },
+                "base_period": {
+                    "alpha(%)": 5.6,
+                    "beta": 3
+                },
+                "measure_period": {
+                    "alpha(%)": 51,
+                    "beta": 21
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Up",
+            "amount_level": "Dn",
+            "alpha_level": "out_pfm",
+            "category": "D",
+            "market_sentiment": "speculators"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-11 17:04",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "태양광 부문",
+            "연료전지 부문",
+            "O&M 및 기타"
+        ],
+        "revenue_share": [
+            0.724,
+            0.154,
+            0.14
+        ],
+        "opmargin": [
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "수익성 악화 후 해외 수주로 회복 시도",
+            "전방산업 위축으로 적자 확대 및 정체",
+            "AI 데이터센터 확장으로 신규 수익원 창출"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "태양광 모듈, 태양광 EPC, 전력판매 및 리스",
+            "건물용 및 발전용 수소연료전지 시스템",
+            "태양광 발전소 시설관리, AI 데이터센터 ESG 운영관리"
+        ],
+        "competitors": [
+            "한화솔루션, HD현대에너지솔루션, OCI홀딩스, 신성이엔지",
+            "수소연료전지 관련 기업",
+            "신재생에너지 O&M 서비스 기업"
+        ]
+    },
+    "code": "095910",
+    "name": "에스에너지",
+    "overview": {
+        "title": "공급과잉 속 고효율 제품으로 돌파구",
+        "desc": "동사는 2001년 설립된 국내 최초 태양광 기업으로 코스닥에 상장, 에스프리즘과 에스파워를 주요 종속회사로 보유하고 있음. 태양전지 모듈 제조, 태양광 발전 시스템 설치, 발전사업 및 O&M 사업을 통해 태양광발전 전 분야 참여하고 있음. 차세대 태양광 시대에 BIPV-탄소등급 모듈, N type Topcon 모듈 등 제품 라인업을 강화하고, 다양한 EPC 프로젝트 및 해외 시장 수출 확대를 추진하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 3.1% 감소, 영업손실은 79.3% 증가, 당기순손실은 290.3% 증가. 글로벌 태양광 공급망의 중국 집중과 공급 초과로 가격 하락이 지속되어 수익성이 악화되고, 불확실한 경제환경 속 매출 감소와 영업손실 확대 등 실적 부진이 나타남. 동사는 생산 Capa 조정과 730W HJT 모듈 KS인증 획득으로 최고 효율 모듈 공급 업체로 자리매김하고 있음.",
+        "as_of": "2026-09-05",
+        "updated": "2026-11-11 17:04"
+    },
+    "news": {
+        "updated": "2026-11-11 17:04",
+        "key_facts": [
+            "2026년 10월 20일 한국서부발전과 약 110억원 규모의 태양광 발전설비 공급계약을 체결함.",
+            "2026년 7월 일본 카메이와 약 72억원 규모의 태양광 리파워링 본계약을 체결함.",
+            "2026년 10월 13일 자회사 에스프리즘과 함께 일본 EFHD와 AI 데이터센터 전원 공급망 구축 MOU를 체결함.",
+            "주식병합(10대 1)을 결정하여 2026년 10월 28일 거래 재개를 앞두고 있음.",
+            "2026년 상반기 연결 매출액 506억원, 영업손실 103억원을 기록함."
+        ],
+        "key_issues": [
+            "주가 1,000원 미만 지속으로 관리종목 지정 및 상장폐지 위기를 겪어 주식병합 등의 조치를 취함.",
+            "태양광 업황 부진에 따른 매출 역성장과 누적 결손금 확대 등 수익성 악화가 지속됨.",
+            "일본 AI 데이터센터 시장 진출이 현재 검토 및 협력 단계로, 구체적인 사업 성과 확인이 필요함."
+        ],
+        "news_summary": "에스에너지는 실적 부진과 주가 하락으로 인한 상장폐지 위기를 주식병합으로 대응하는 한편, 국내외 태양광 수주 확대와 일본 AI 데이터센터 전력시장 진출 등 사업 다각화를 통해 기업가치 회복을 추진하고 있습니다."
+    }
+}

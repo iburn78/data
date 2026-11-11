@@ -581,6 +581,12 @@ function createModelLink(section, item) {
     const link = document.createElement("a");
     link.href = `/build/${section}/${item.file}`;
     link.textContent = item.text;
+    if (section === "profiles") {
+        const code = item.file.replace(/\.html$/, "").split("_")[0];
+        link.dataset.profileCode = code;
+        link.dataset.profileSegment = String(item.isSegment ?? false);
+        link.dataset.profileName = item.profileName ?? item.text.replace(/\s+\([^)]*\)$/, "");
+    }
     if (!item.reviewed) {
         link.classList.add("unreviewed-model");
         if (item.isSegment) link.classList.add("unreviewed-segment");
@@ -864,9 +870,28 @@ document.getElementById("search").addEventListener("keydown", event => {
     showMainSearch(query).then(matches => {
         const links = [...document.querySelectorAll("#file-list a")];
         const normalizedQuery = query.toLowerCase().normalize("NFC");
-        const exactMatches = links.filter(link =>
+        const exactLabelMatches = links.filter(link =>
             link.textContent.trim().toLowerCase().normalize("NFC") === normalizedQuery
         );
+        const exactBaseCodeMatches = links.filter(link =>
+            link.dataset.profileCode?.toLowerCase() === normalizedQuery
+            && link.dataset.profileSegment !== "true"
+        );
+        const exactBaseNameMatches = links.filter(link =>
+            link.dataset.profileName?.toLowerCase().normalize("NFC") === normalizedQuery
+            && link.dataset.profileSegment !== "true"
+        );
+        const exactSegmentCodeMatches = links.filter(link =>
+            link.dataset.profileCode?.toLowerCase() === normalizedQuery
+            && link.dataset.profileSegment === "true"
+        );
+        const exactMatches = exactBaseCodeMatches.length
+            ? exactBaseCodeMatches
+            : exactBaseNameMatches.length
+                ? exactBaseNameMatches
+                : exactLabelMatches.length
+                    ? exactLabelMatches
+                    : exactSegmentCodeMatches;
 
         if (exactMatches.length === 1) {
             exactMatches[0].click();

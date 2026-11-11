@@ -1,0 +1,144 @@
+{
+    "key": "012700",
+    "filename": "012700_리드코프",
+    "updated": "2026-11-11 16:58",
+    "llm_research_updated": "2026-11-11 16:58",
+    "financials": {
+        "meta": {
+            "name": "리드코프",
+            "code": "012700",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-11 16:58",
+            "classification": {
+                "sector": "에너지화학",
+                "subsector": "에너지",
+                "source": "krics_2026-11-11"
+            },
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 69.5,
+                "revenue_ltm": 443,
+                "opincome_ltm": 11.3,
+                "revenue_qtr": 113,
+                "opincome_qtr": 2.45
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": -0.35,
+                "growth(%)": -9.7
+            },
+            "opmargin(%)": {
+                "25_4Q": 4.1,
+                "26_1Q": 1.7,
+                "26_2Q": 2.2,
+                "26_3Q": 2.2,
+                "ltm": 2.5
+            },
+            "PER": {
+                "PER_ltm": 6.16,
+                "PER_qx4": 7.11,
+                "PER_fwd": 11
+            },
+            "volatility": {
+                "measure_to_base(%)": -30
+            },
+            "amount": {
+                "measure_to_base(%)": -66
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.046,
+                    "beta": 0.33
+                },
+                "base_period": {
+                    "alpha(%)": -0.16,
+                    "beta": 0.13
+                },
+                "measure_period": {
+                    "alpha(%)": -0.23,
+                    "beta": 0.17
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-11 16:58",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "소비자금융사업",
+            "석유사업",
+            "휴게소사업"
+        ],
+        "revenue_share": [
+            0.4,
+            0.5,
+            0.1
+        ],
+        "opmargin": [
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "디지털 전환 및 해외 확장 추진",
+            "전기·수소충전소 사업 추진 및 점유율 확대",
+            "안정적 유지 및 소비 패턴 변화 대응"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "개인 신용대출, 소액 급전 대출, 마이크로파이낸스",
+            "석유제품 유통, 저유소 임대, 주유소 임대",
+            "휴게소 운영 및 판매"
+        ],
+        "competitors": [
+            "OK금융그룹, 웰컴금융그룹",
+            "S-OIL 대리점들",
+            "고속도로 휴게소 운영사들"
+        ]
+    },
+    "code": "012700",
+    "name": "리드코프",
+    "overview": {
+        "title": "매출 성장 지속, 수익성 방어 과제",
+        "desc": "동사는 1977년 설립되어 현재 10개의 연결대상 종속회사를 보유하고 있으며, 2025년 메이슨캐피탈 지분 63.08%를 인수하여 여신전문금융업으로 사업을 확장함. 석유제품 유통 석유사업, 개인 대상 소액 급전 대출 소비자금융사업, 천안호두휴게소 운영 휴게소사업 등 3개 사업본부를 두고 있음. 2025년 모바일 앱 기반 비대면 논스톱대출을 출시하고 카자흐스탄 마이크로파이낸스업 진출을 통해 중앙아시아 금융업 교두보를 마련하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 27.3% 증가, 영업이익은 29.2% 감소, 당기순이익은 32.2% 감소. 석유사업부문에서 S-OIL 대리점 판매량 3위를 유지하며 신규 계열주유소 확보로 시장점유율 확대에 주력하고, 소비자금융사업에서는 대부업체 대출자산 1위를 유지하며 영업 경쟁력을 강화하고 있음. 매출은 증가하였으나 비용 부담으로 수익성은 제한적이며, 석유사업부문에서는 전기·수소충전소 사업을 추진하고 있음.",
+        "as_of": "2026-09-06",
+        "updated": "2026-11-11 16:57"
+    },
+    "news": {
+        "updated": "2026-11-11 16:58",
+        "key_facts": [
+            "리드코프의 2026년 2분기 연결 기준 매출액은 전년 동기 대비 26% 증가한 1,132억 원을 기록함",
+            "리드코프의 2026년 2분기 연결 기준 영업이익은 전년 동기 대비 1.2% 증가한 24.5억 원을 기록함"
+        ],
+        "key_issues": [],
+        "news_summary": "리드코프의 2026년 2분기 연결 실적 결과, 매출액은 1,132억 원(26% 증가), 영업이익은 24.5억 원(1.2% 증가)으로 나타났습니다."
+    }
+}

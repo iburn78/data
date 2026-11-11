@@ -62,6 +62,37 @@ function collapseAll() {
     updateVisibility();
 }
 
+function setupTableScrollbar() {
+    const scrollbar = document.querySelector(".table-scrollbar");
+    const scrollbarContent = scrollbar?.querySelector(".table-scrollbar-content");
+    const wrapper = document.querySelector(".table-wrapper");
+    const table = wrapper?.querySelector(".dict-table");
+    if (!scrollbar || !scrollbarContent || !wrapper || !table) return;
+
+    const syncWidth = () => {
+        scrollbarContent.style.width = `${table.scrollWidth}px`;
+        scrollbar.hidden = table.scrollWidth <= wrapper.clientWidth;
+        if (scrollbar.scrollLeft !== wrapper.scrollLeft) {
+            scrollbar.scrollLeft = wrapper.scrollLeft;
+        }
+    };
+    scrollbar.addEventListener("scroll", () => {
+        if (wrapper.scrollLeft !== scrollbar.scrollLeft) {
+            wrapper.scrollLeft = scrollbar.scrollLeft;
+        }
+    });
+    wrapper.addEventListener("scroll", () => {
+        if (scrollbar.scrollLeft !== wrapper.scrollLeft) {
+            scrollbar.scrollLeft = wrapper.scrollLeft;
+        }
+    });
+    window.addEventListener("resize", syncWidth);
+    if (window.ResizeObserver) {
+        new ResizeObserver(syncWidth).observe(table);
+    }
+    syncWidth();
+}
+
 // Attach click handlers
 document.querySelectorAll(".dict-table .section-row")
     .forEach(section => {
@@ -72,6 +103,7 @@ document.querySelectorAll(".dict-table .section-row")
 
 // Initial state
 updateVisibility();
+setupTableScrollbar();
 
 // news and images pop-up
 function openImagePopup(sourceImage) {

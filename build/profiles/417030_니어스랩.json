@@ -1,0 +1,146 @@
+{
+    "key": "417030",
+    "filename": "417030_니어스랩",
+    "updated": "2026-11-11 17:12",
+    "llm_research_updated": "2026-11-11 17:11",
+    "financials": {
+        "meta": {
+            "name": "니어스랩",
+            "code": "417030",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-11 17:12",
+            "classification": {
+                "sector": "에너지화학",
+                "subsector": "에너지",
+                "source": "krics_2026-11-11"
+            },
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 70,
+                "revenue_ltm": 37,
+                "opincome_ltm": -9.32,
+                "revenue_qtr": 16.9,
+                "opincome_qtr": 0.68
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 1.4,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -340,
+                "26_1Q": -340,
+                "26_2Q": 4,
+                "26_3Q": 4,
+                "ltm": -25
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": 25.7,
+                "PER_fwd": 4.25
+            },
+            "volatility": {
+                "measure_to_base(%)": -18
+            },
+            "amount": {
+                "measure_to_base(%)": -92
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.88,
+                    "beta": 1.2
+                },
+                "base_period": {
+                    "alpha(%)": -0.88,
+                    "beta": 1.2
+                },
+                "measure_period": {
+                    "alpha(%)": -1.1,
+                    "beta": 0.96
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-11 17:11",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "디펜스 (Defense)",
+            "엔터프라이즈 (Enterprise)"
+        ],
+        "revenue_share": [
+            0.8564,
+            0.1436
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "급격한 성장세 및 해외 수출 확대",
+            "성장 정체 및 통합 솔루션으로의 전환 추진"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "KAiDEN (대드론 하드킬), XAiDEN (군집 타격)",
+            "풍력발전기 블레이드 점검 솔루션, Zoomable (SaaS 플랫폼)"
+        ],
+        "competitors": [
+            "한화에어로스페이스, LIG넥스원, Anduril, AeroVironment",
+            "산업용 드론 점검 서비스 기업"
+        ]
+    },
+    "code": "417030",
+    "name": "니어스랩",
+    "overview": {
+        "title": "드론 Physical AI 전환 선도",
+        "desc": "동사는 디펜스와 엔터프라이즈 시장에서 자율 임무 수행이 가능한 지능형 드론 플랫폼을 제공하고 있음. 엔터프라이즈 부문에서는 풍력발전기 점검 사업을 통해 블레이드 점검 실적을 확보하며, 극한 환경에서도 안정적인 자율비행 성능을 입증함. 디펜스 부문에 진출하여 대드론 대응 솔루션과 군집 타격 솔루션을 개발하고, 글로벌 방산 기관과의 협력 및 대규모 수주를 통해 기술 경쟁력과 사업성을 동시에 검증함.\n\n자체 개발한 자율비행 소프트웨어를 기반으로 풍력발전기 점검 솔루션과 방산용 자율드론 솔루션을 제공하고 있음. 엔터프라이즈 부문에서는 단순 점검 서비스를 넘어 자체 드론 기체와 SaaS 기반 데이터 플랫폼을 결합한 통합 솔루션 사업으로 전환할 계획임. 자율비행 기술의 적용 영역을 확대하고, 다양한 드론 기체와 산업 전반에 적용 가능한 인텔리전스 솔루션을 구축함으로써 글로벌 시장에서의 기술적 우위를 지속적으로 강화할 예정임.",
+        "as_of": "2026-08-21",
+        "updated": "2026-11-11 17:11"
+    },
+    "news": {
+        "updated": "2026-11-11 17:12",
+        "key_facts": [
+            "AI 자율비행 소프트웨어 '애리얼 인텔리전스'를 기반으로 디펜스(방산 드론) 및 엔터프라이즈(풍력발전 점검) 사업을 영위함.",
+            "2026년 상반기 연결 매출액 174.30억 원(전년 동기 대비 724.5% 증가)을 기록하며 실적이 개선됨.",
+            "'카이든'을 싱가포르에, '자이든'을 UAE에 수출 및 납품 완료했으며, 베트남 과학기술부 산하 TSC와 MOU를 체결함.",
+            "2026년 6월 LIG D&A와 컨소시엄을 통해 약 170억 규모의 '대드론 하드킬 근접방호체계' 신속시범사업을 수주함.",
+            "세계 3대 풍력 제조사(지멘스, GE버노바, 베스타스)를 고객사로 확보하고 40개국 이상에서 10만 개 이상의 블레이드를 점검함."
+        ],
+        "key_issues": [
+            "상장 이후 주가가 공모가(41,200원) 대비 크게 하락하여 14,000원대까지 급락하는 등 높은 변동성을 보임.",
+            "공모가 산정 시 확정되지 않은 '사업 기회'를 미래 매출에 반영하여 기업가치를 과대산정했다는 논란이 제기됨.",
+            "비교기업 선정 시 높은 PER 기준(70배) 적용 및 낮은 할인율 사용 등 가치평가 과정의 재량적 판단에 대한 비판이 있음.",
+            "2029년 목표 실적 달성을 위해 신규 수출 수주 및 신속시범사업의 본 양산 전환 성공 여부가 핵심 관건임."
+        ],
+        "news_summary": "니어스랩은 AI 자율비행 기술을 통해 방산 및 풍력 점검 시장에서 성과를 내며 글로벌 레퍼런스를 확대하고 있으나, 상장 이후 주가 급락과 함께 공모가 산정 과정에서의 과도한 미래 추정치 반영 및 밸류에이션 적절성 논란이 이어지고 있습니다."
+    }
+}

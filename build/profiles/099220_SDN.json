@@ -1,0 +1,145 @@
+{
+    "key": "099220",
+    "filename": "099220_SDN",
+    "updated": "2026-11-11 17:05",
+    "llm_research_updated": "2026-11-11 17:04",
+    "financials": {
+        "meta": {
+            "name": "SDN",
+            "code": "099220",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-11 17:05",
+            "classification": {
+                "sector": "에너지화학",
+                "subsector": "에너지",
+                "source": "krics_2026-11-11"
+            },
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 27.2,
+                "revenue_ltm": 99.3,
+                "opincome_ltm": -1.04,
+                "revenue_qtr": 30,
+                "opincome_qtr": 0.155
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.25,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -7,
+                "26_1Q": 1.1,
+                "26_2Q": 0.52,
+                "26_3Q": 0.52,
+                "ltm": -1
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": 44,
+                "PER_fwd": 8.73
+            },
+            "volatility": {
+                "measure_to_base(%)": -40
+            },
+            "amount": {
+                "measure_to_base(%)": -91
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.014,
+                    "beta": 0.85
+                },
+                "base_period": {
+                    "alpha(%)": -0.59,
+                    "beta": 0.47
+                },
+                "measure_period": {
+                    "alpha(%)": -0.54,
+                    "beta": 0.36
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-11 17:04",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "태양광 사업부",
+            "엔진·조선 사업부"
+        ],
+        "revenue_share": [
+            0.621,
+            0.379
+        ],
+        "opmargin": [
+            null,
+            null
+        ],
+        "trend": [
+            "프리미엄 제품 확대로 매출 성장 중이나 가동률 저조 및 일회성 매출 리스크 존재",
+            "레저 시장 확대로 안정적 성장세 및 시장 점유율 1위 유지"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "태양광 모듈, EPC, O&M, 전력 판매",
+            "HONDA 선외기, 알루미늄 선박 건조"
+        ],
+        "competitors": [
+            "국내외 태양광 EPC 및 모듈 업체",
+            "소형 선박 엔진 유통 및 조선 업체"
+        ]
+    },
+    "code": "099220",
+    "name": "SDN",
+    "overview": {
+        "title": "프리미엄 제품군 확대로 실적 개선",
+        "desc": "동사는 1994년 설립 후 2009년 코스닥에 상장된 기업으로, 지에이아이캠퍼스를 신설하여 종속회사 6개를 운영하고 있음. 태양광 발전시스템, 모듈, 인버터 등을 공급하는 태양광 사업부와 선외기를 공급하는 엔진·조선 사업부 운영 중임. 태양광 사업부는 통합 솔루션을 제공하며, 엔진·조선 사업부는 HONDA MOTOR 국내 총판으로 최근 3년 연속 1위를 유지하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 20.2% 증가, 영업이익은 42.4% 증가, 당기순손실은 90.2% 감소. 태양광 사업부에서 자체 브랜드를 통한 태양광 모듈 직접 생산과 고효율 백컨택 모듈, 경량화 모듈 등 프리미엄 제품군 확대가 매출 성장에 기여함. 엔진·조선 사업부는 고출력·고내구성 제품 수요 증가 및 레저용 보트·요트 시장 확대로 안정적인 성장세를 이어가며 실적이 개선됨.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-11 17:04"
+    },
+    "news": {
+        "updated": "2026-11-11 17:05",
+        "key_facts": [
+            "강진산업단지 내 자체 변전소를 활용한 160MW 규모의 AI 데이터센터 인프라 사업을 본격화하여 내년 1차 착공을 목표로 함",
+            "약 300억원 규모 ESS 구축사업 우선협상대상자 선정 및 100MW 이상 염해 농지 태양광 EPC 계약, 광주 운정동 태양광 PF(약 100억원 유입 기대) 등을 추진 중임",
+            "주가 안정화를 위해 약 52~55억원 규모의 자사주 소각을 완료하고, 보통주 10주를 1주로 병합하는 주식병합을 추진함",
+            "2025년 영업이익 흑자 전환 후 2026년 상반기 매출 472억원(전년 동기 대비 20.2% 증가)을 기록했으며, 올해 매출은 전년 대비 20% 이상 증가할 것으로 전망함",
+            "보유 자산(광주공장, 강진 부지 및 변전소 등)의 가치 반영을 위한 자산 재평가를 검토 중임"
+        ],
+        "key_issues": [
+            "주가 부진으로 인한 관리종목 지정 및 자사주 소각 이후에도 주가 정상화에 어려움을 겪음",
+            "지난해 당기순손실 20억원, 2026년 상반기 순손실 2억원을 기록하며 순이익 기준 적자가 지속됨",
+            "AI 데이터센터 사업의 대규모 투자 및 자금 조달, 실제 사업화라는 과제가 남아 있으며 현재 전력계통영향평가가 진행 중임"
+        ],
+        "news_summary": "SDN은 관리종목 지정 등 주가 위기를 극복하기 위해 자사주 소각과 주식병합을 실시하는 한편, 강진 AI 데이터센터 구축과 ESS 및 태양광 사업 확대를 통해 신성장 동력을 확보하고 재무구조 개선을 추진하고 있다."
+    }
+}

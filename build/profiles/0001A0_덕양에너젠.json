@@ -1,0 +1,152 @@
+{
+    "key": "0001A0",
+    "filename": "0001A0_덕양에너젠",
+    "updated": "2026-11-11 16:55",
+    "llm_research_updated": "2026-11-11 16:55",
+    "financials": {
+        "meta": {
+            "name": "덕양에너젠",
+            "code": "0001A0",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-11 16:55",
+            "classification": {
+                "sector": "에너지화학",
+                "subsector": "에너지",
+                "source": "krics_2026-11-11"
+            },
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 169,
+                "revenue_ltm": 143,
+                "opincome_ltm": 10,
+                "revenue_qtr": 35.3,
+                "opincome_qtr": 3.19
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 0.31,
+                "growth(%)": 14
+            },
+            "opmargin(%)": {
+                "25_4Q": 6.3,
+                "26_1Q": 3.8,
+                "26_2Q": 9,
+                "26_3Q": 9,
+                "ltm": 7
+            },
+            "PER": {
+                "PER_ltm": 16.8,
+                "PER_qx4": 13.2,
+                "PER_fwd": 10.6
+            },
+            "volatility": {
+                "measure_to_base(%)": -4.5
+            },
+            "amount": {
+                "measure_to_base(%)": -76
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.82,
+                    "beta": 0.56
+                },
+                "base_period": {
+                    "alpha(%)": -0.49,
+                    "beta": 0.56
+                },
+                "measure_period": {
+                    "alpha(%)": -0.39,
+                    "beta": 0.82
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "C",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-11 16:55",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "파이프라인 공급 사업",
+            "튜브트레일러 공급 사업",
+            "EPC 및 플랜트 사업",
+            "기타 임대 및 장비 사업"
+        ],
+        "revenue_share": [
+            0.803,
+            0.118,
+            0.076,
+            0.003
+        ],
+        "opmargin": [
+            null,
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "expanding (S-OIL Shaheen Project)",
+            "stable",
+            "growing (vertical integration)",
+            "stable"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "고순도 산업용 수소(파이프라인 공급)",
+            "고순도 산업용 수소(튜브트레일러 공급)",
+            "수소 생산 및 정제 설비 EPC, 플랜트 시공",
+            "수소 관련 장비 임대 및 서비스"
+        ],
+        "competitors": [
+            "어프로티움, SPG수소, 창신화학, Linde, Air Liquide, Air Products",
+            "어프로티움, SPG수소, 창신화학",
+            "제이엔케이글로벌, 효성중공업",
+            "산업용 가스 장비 업체"
+        ]
+    },
+    "code": "0001A0",
+    "name": "덕양에너젠",
+    "overview": {
+        "title": "차별화된 원료 공급망과 수소경제 수혜",
+        "desc": "동사는 2020년 주식회사 덕양(현 어프로티움)으로부터 인적분할하여 설립된 전문 수소 정제기업으로, 2026년 코스닥시장에 상장하였음. 종속회사로 에이치로직스(구 디디로직스)를 지분 추가 취득하여 편입하였음. 클로르-알칼리 공정(CA 공정) 및 석유화학 공정에서 발생하는 부생수소를 원료로 하여 고도 정제공정을 통해 순도 99.99%(4N급)의 고순도 산업용 수소를 생산하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 10.4% 증가, 영업이익은 59.0% 증가, 당기순이익은 14.3% 증가. 동사는 가성소다 공정 부생수소로 NCC·PDH 경쟁사 대비 원료 수급 안정성을 확보했으며, 스페셜티 제품 중심 고객 구조로 업황 변동 리스크를 제한함. 글로벌 수소 수요 증가와 국내 수소경제 정책에 따라 중장기 성장이 예상되며, 부생수소가 단기적으로 국내 수소 공급의 주력원으로 기능할 전망임.",
+        "as_of": "2026-09-16",
+        "updated": "2026-11-11 16:55"
+    },
+    "news": {
+        "updated": "2026-11-11 16:55",
+        "key_facts": [
+            "SK이노베이션 E&S는 2026년 9월 2일 덕양에너젠과 '기체수소 공급 및 수소충전소 사업 협력을 위한 업무협약(MOU)'을 체결함.",
+            "SK이노베이션 E&S는 수소상용차(수소버스 등) 수요 개발과 기체·액화 복합 수소충전소의 구축 및 운영을 담당함.",
+            "양사는 사업성과 지역별 수요를 고려해 우선적으로 5개 충전소를 대상으로 사업 확대를 추진하며, 충전소 1곳당 예상 사업비는 약 60억원, 연간 기체수소 공급량은 약 180톤으로 전망됨.",
+            "SK이노베이션 E&S는 2024년 5월 인천에 연간 3만 톤 규모의 액화수소 생산 플랜트를 준공하여 국내 수소 모빌리티 시장에 액화수소를 공급하고 있음."
+        ],
+        "key_issues": [],
+        "news_summary": "SK이노베이션 E&S는 덕양에너젠과 MOU를 체결하여 액화수소 중심의 공급망에 기체수소를 더한 복합형 수소충전 인프라를 확대하고, 수소상용차 수요 개발 및 충전소 운영 안정성을 확보할 계획입니다."
+    }
+}

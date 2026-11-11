@@ -1,0 +1,149 @@
+{
+    "key": "136150",
+    "filename": "136150_원일티엔아이",
+    "updated": "2026-11-11 17:07",
+    "llm_research_updated": "2026-11-11 17:07",
+    "financials": {
+        "meta": {
+            "name": "원일티엔아이",
+            "code": "136150",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-11 17:07",
+            "classification": {
+                "sector": "에너지화학",
+                "subsector": "에너지",
+                "source": "krics_2026-11-11"
+            },
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 52,
+                "revenue_ltm": 35.5,
+                "opincome_ltm": 0.0192,
+                "revenue_qtr": 9.95,
+                "opincome_qtr": 0.543
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": -0.2,
+                "growth(%)": -87
+            },
+            "opmargin(%)": {
+                "25_4Q": 8.1,
+                "26_1Q": -50,
+                "26_2Q": 5.5,
+                "26_3Q": 5.5,
+                "ltm": 0.054
+            },
+            "PER": {
+                "PER_ltm": 2710,
+                "PER_qx4": 24,
+                "PER_fwd": 291
+            },
+            "volatility": {
+                "measure_to_base(%)": -12
+            },
+            "amount": {
+                "measure_to_base(%)": -71
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.53,
+                    "beta": 0.74
+                },
+                "base_period": {
+                    "alpha(%)": -0.32,
+                    "beta": 0.87
+                },
+                "measure_period": {
+                    "alpha(%)": -1.7,
+                    "beta": 0.9
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-11 17:07",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "LNG 설비 사업부",
+            "수소 사업부",
+            "원자력 및 기타 설비 사업부"
+        ],
+        "revenue_share": [
+            0.354,
+            0.328,
+            0.318
+        ],
+        "opmargin": [
+            null,
+            null,
+            null
+        ],
+        "trend": [
+            "Expanding due to LNG terminal growth",
+            "Improving with government hydrogen policy and defense contracts",
+            "Stable but limited growth"
+        ],
+        "create_segments": false,
+        "key_products": [
+            "고압연소식 기화기(SCV), BOG 재액화기, 연료주입시스템",
+            "수소저장합금, 수소개질기, 수소추출 및 회수 설비",
+            "해수여과기, 삼중수소 제거설비, 가스히터"
+        ],
+        "competitors": [
+            "Linde, Sun Power, 711연구소",
+            "국내 독점적 지위 (방산 분야)",
+            "비에이치아이, 태웅"
+        ]
+    },
+    "code": "136150",
+    "name": "원일티엔아이",
+    "overview": {
+        "title": "기술력 기반 손실 축소 및 해외 확장",
+        "desc": "동사는 1998년 법인 전환 설립된 친환경 에너지 설비 전문기업임. 수소, LNG, 원자력 등 에너지 산업 핵심 장비의 개발 및 제조를 주력 사업으로 하고 있으며, 천연가스 분야에서 고압 연소식 기화기(SCV), 재액화기를 국내 최초 국산화했음. 수소사업에서는 수소저장합금을 통한 저장 및 수소개질기를 통한 생산 사업을 영위하며, 장보고-Ⅲ급 잠수함에 시스템을 납품하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 1.7% 증가, 영업손실은 12.6% 감소, 당기순손실은 88.4% 감소. 천연가스와 수소 관련 제품에서 가격경쟁력과 기술력을 통해 매출이 소폭 증가하며, 수소저장합금의 독점적 지위로 영업손실이 축소되고 있음. 전세계 LNG 수요 확대로 연소식기화기 판매가 확대될 것으로 예상되며, 수소시장에서는 국책과제와 CO2 포집설비 개발로 청색수소 생산 역량을 확보하고 있음.",
+        "as_of": "2026-09-14",
+        "updated": "2026-11-11 17:07"
+    },
+    "news": {
+        "updated": "2026-11-11 17:07",
+        "key_facts": [
+            "1998년 법인 전환 후 수소, LNG, 원자력, 조선, 해양, 발전, 석유화학 분야의 장비 및 설비를 개발·제조하는 에너지 설비 기업임.",
+            "LNG 분야의 SCV 및 재액화기 국산화 기술을 보유하고 있으며, 수소 분야에서는 장보고-Ⅲ급 잠수함에 수소저장 시스템을 납품한 이력이 있음.",
+            "원자력 분야에서 해수여과기, 삼중수소 제거설비, 사용후핵연료 운송·저장 설비 및 방사성 폐기물 처리·제염 기술력을 보유함.",
+            "2026년 10월 1일 주가가 전 거래일 대비 29.94% 상승한 1만 850원에 마감함.",
+            "2026년 10월 2일 오전 9시 53분 기준 주가가 전 거래일 대비 18.71% 상승한 1만 2880원에 거래됨."
+        ],
+        "key_issues": [
+            "한미 양국의 미국 내 대형 원전 8기 건설 계획(프로젝트 파워)이 구체화되었으나, 원일티엔아이의 구체적인 수주나 실적으로 확정된 것은 아님."
+        ],
+        "news_summary": "에너지 설비 전문 기업 원일티엔아이는 수소, LNG, 원자력 분야의 폭넓은 기술력을 보유하고 있으며, 최근 한미 원전 협력 구체화와 원전 해체 시장 개막 기대감으로 원전 기자재 및 폐기물 처리 기술력이 부각되며 2026년 10월 초 주가가 급등하였습니다."
+    }
+}
