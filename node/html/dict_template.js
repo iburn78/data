@@ -376,6 +376,15 @@ function renderComponentRelations(valuechains, content) {
     renderRelations(content, "Valuechains", valuechains, "valuechains");
 }
 
+document.querySelectorAll(".charts-panel .analysis-image").forEach(image => {
+    image.addEventListener("error", () => {
+        const chart = image.closest(".chart-card");
+        const panel = image.closest(".charts-panel");
+        chart?.remove();
+        if (panel && !panel.querySelector(".chart-card")) panel.remove();
+    }, { once: true });
+});
+
 // "/" → go to main page and focus search
 document.addEventListener("keydown", event => {
     if (

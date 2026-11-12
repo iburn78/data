@@ -1,0 +1,125 @@
+{
+    "key": "ESS 냉각시스템",
+    "filename": "ESS_냉각시스템",
+    "updated": "2026-11-12 18:48",
+    "llm_research_updated": "2026-11-12 18:48",
+    "financials": {
+        "meta": {
+            "name": "ESS 냉각시스템",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 18:47",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 396,
+                "revenue_ltm": 200,
+                "opincome_ltm": -9.72,
+                "revenue_qtr": 42.6,
+                "opincome_qtr": -6.95
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.68,
+                "growth(%)": -650
+            },
+            "opmargin(%)": {
+                "25_4Q": 4.6,
+                "26_1Q": 2.6,
+                "26_2Q": -16,
+                "26_3Q": -16,
+                "ltm": -4.9
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 73
+            },
+            "amount": {
+                "measure_to_base(%)": 120
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.33,
+                    "beta": 0.62
+                },
+                "base_period": {
+                    "alpha(%)": 0.18,
+                    "beta": 0.78
+                },
+                "measure_period": {
+                    "alpha(%)": 0.86,
+                    "beta": 1.6
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Up",
+            "amount_level": "Up",
+            "alpha_level": "out_pfm",
+            "category": "D",
+            "market_sentiment": "unstable"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "107640",
+            "name": "한중엔시에스"
+        }
+    ],
+    "news": {
+        "updated": "2026-11-12 18:47",
+        "key_facts": [
+            "산업통상자원부의 '월드클래스 플러스 프로젝트'를 통해 ESS 분야의 AI 기반 냉각 시스템 개발이 추진됨"
+        ],
+        "new_trends": [
+            "냉난방공조(HVAC)와 칠러를 통합 제어하고 AI 기술을 적용해 냉각 효율과 에너지 관리 성능을 높이는 'AI 기반 예지보전형 하이브리드 ESS 냉각 시스템' 개발 추세"
+        ],
+        "news_summary": "ESS 냉각 시스템 분야에서 AI 기술을 접목하여 냉각 효율과 에너지 관리 성능을 향상시키려는 기술 고도화 및 하이브리드 통합 제어 시스템 개발이 추진되고 있습니다."
+    }
+}

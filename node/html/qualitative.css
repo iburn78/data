@@ -229,6 +229,14 @@ input[type="checkbox"] {
     display: none;
 }
 
+.recommendation-yes {
+    color: #c00000;
+}
+
+.recommendation-no {
+    color: inherit;
+}
+
 .qualitative-checkbox,
 .edit-boolean {
     width: 15px;

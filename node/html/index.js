@@ -326,8 +326,8 @@ async function getItems(section) {
     const files = await response.json();
 
     const items = files.map(entry => {
-        const { file, reviewed = false } = typeof entry === "string"
-            ? { file: entry, reviewed: true }
+        const { file, reviewed = false, recommended = false } = typeof entry === "string"
+            ? { file: entry, reviewed: true, recommended: false }
             : entry;
         let text = file.replace(".html", "");
 
@@ -338,7 +338,7 @@ async function getItems(section) {
             text = text.replaceAll("_", " ");
         }
 
-        return { file, text, reviewed };
+        return { file, text, reviewed, recommended };
     });
 
     if (section !== "profiles") {
@@ -715,6 +715,7 @@ function createModelLink(section, item) {
     if (!item.reviewed) {
         link.classList.add("unreviewed-model");
         if (item.isSegment) link.classList.add("unreviewed-segment");
+        else if (item.recommended) link.classList.add("recommended-profile");
     }
     return link;
 }

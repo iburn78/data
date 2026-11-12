@@ -1,0 +1,133 @@
+{
+    "key": "바이오시밀러",
+    "filename": "바이오시밀러",
+    "updated": "2026-11-12 18:48",
+    "llm_research_updated": "2026-11-12 18:48",
+    "financials": {
+        "meta": {
+            "name": "바이오시밀러",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 18:48",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 56800,
+                "revenue_ltm": 6500,
+                "opincome_ltm": 1910,
+                "revenue_qtr": 1790,
+                "opincome_qtr": 511
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 50,
+                "growth(%)": 18
+            },
+            "opmargin(%)": {
+                "25_4Q": 36,
+                "26_1Q": 26,
+                "26_2Q": 29,
+                "26_3Q": 29,
+                "ltm": 29
+            },
+            "PER": {
+                "PER_ltm": 29.8,
+                "PER_qx4": 27.8,
+                "PER_fwd": 22.3
+            },
+            "volatility": {
+                "measure_to_base(%)": 13
+            },
+            "amount": {
+                "measure_to_base(%)": 21
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.058,
+                    "beta": 0.6
+                },
+                "base_period": {
+                    "alpha(%)": 0.14,
+                    "beta": 0.2
+                },
+                "measure_period": {
+                    "alpha(%)": 0.76,
+                    "beta": 0.043
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "out_pfm",
+            "category": "C",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "068270",
+            "name": "셀트리온"
+        },
+        {
+            "key": "0126Z0",
+            "name": "삼성에피스홀딩스"
+        }
+    ],
+    "news": {
+        "updated": "2026-11-12 18:48",
+        "key_facts": [
+            "블록버스터 의약품의 특허 만료가 향후 10여 년간 지속되며 '바이오시밀러 메가사이클'에 진입한 것으로 분석됨",
+            "미국 민주당의 의료지원 확대 및 약가 인하 정책 기조가 바이오시밀러 처방 및 시장 확대에 우호적인 환경을 조성할 것이라는 기대감이 있음",
+            "글로벌 시장에서 바이오시밀러 간 경쟁 심화로 인해 판매 가격 인하 압력이 커지고 있으며, 해외 유통망 확보 및 마케팅 비용 부담이 증가함",
+            "미국 내 제네릭 및 바이오시밀러에 대한 관세 부과가 2027년 4월까지 연기된 상태임"
+        ],
+        "new_trends": [
+            "글로벌 제약사들의 수요 증가에 대응하기 위한 생산 내재화 추진 및 공급망 안정성 확보 경쟁 심화",
+            "자가면역질환 치료제 시장에서 인터루킨(IL)-17A 억제제 등 타겟 제품군 확대 및 오세아니아 등 신규 지역으로의 시장 진출 확대"
+        ],
+        "news_summary": "바이오시밀러 산업은 주요 블록버스터 의약품의 특허 만료로 인한 '메가사이클' 진입과 미국 민주당의 의료 접근성 확대 정책 기대감으로 성장의 기회를 맞이하고 있습니다. 특히 한국 기업들은 미국 내 생산 시설 확보와 제품 포트폴리오 확대를 통해 글로벌 경쟁력을 강화하고 있습니다. 다만, 시장 내 경쟁 심화로 인한 약가 인하 압력, 해외 진출 비용 증가, 금리 변동성 등의 요인이 수익성과 투자 심리에 부담으로 작용하고 있는 상황입니다."
+    }
+}

@@ -619,14 +619,17 @@ app.get("/api/:section", (req, res) => {
         .sort()
         .map(file => {
             let reviewed = false;
+            let recommended = false;
             try {
                 const jsonFile = path.join(dir, file.replace(/\.html$/, ".json"));
                 const data = JSON.parse(fs.readFileSync(jsonFile, "utf8"));
                 reviewed = data.info_section?.reviewed === true;
+                recommended = req.params.section === "profiles"
+                    && data.info_section?.recomm_segs === true;
             } catch (error) {
                 console.error(`Could not read review status for ${file}:`, error);
             }
-            return { file, reviewed };
+            return { file, reviewed, recommended };
         });
 
     res.json(files);

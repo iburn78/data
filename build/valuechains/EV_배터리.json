@@ -1,7 +1,7 @@
 {
     "key": "EV 배터리",
     "filename": "EV_배터리",
-    "updated": "2026-11-12 10:44",
+    "updated": "2026-11-12 19:45",
     "llm_research_updated": "2026-10-21 11:42",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 10:44",
+            "updated": "2026-11-12 19:45",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,11 +21,11 @@
         },
         "shape": {
             "financials": {
-                "marcap": 179000,
-                "revenue_ltm": 130000,
-                "opincome_ltm": -558,
-                "revenue_qtr": 35400,
-                "opincome_qtr": 649
+                "marcap": 195000,
+                "revenue_ltm": 133000,
+                "opincome_ltm": -539,
+                "revenue_qtr": 36100,
+                "opincome_qtr": 676
             },
             "share": {
                 "marcap(%)": "-",
@@ -40,39 +40,39 @@
             "opincome": {
                 "positive_ltm": false,
                 "higher(comp)": true,
-                "slope": -6,
-                "growth(%)": null
+                "slope": -5,
+                "growth(%)": -660
             },
             "opmargin(%)": {
-                "25_4Q": -4.3,
-                "26_1Q": -2.1,
-                "26_2Q": 1.8,
-                "26_3Q": 1.8,
-                "ltm": -0.43
+                "25_4Q": -4.4,
+                "26_1Q": -2,
+                "26_2Q": 1.9,
+                "26_3Q": 1.9,
+                "ltm": -0.4
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 69.1,
-                "PER_fwd": 70.7
+                "PER_qx4": 72.2,
+                "PER_fwd": 73.6
             },
             "volatility": {
-                "measure_to_base(%)": 21
+                "measure_to_base(%)": 22
             },
             "amount": {
-                "measure_to_base(%)": 9.1
+                "measure_to_base(%)": 8.8
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.047,
-                    "beta": 0.91
+                    "alpha(%)": 0.049,
+                    "beta": 0.92
                 },
                 "base_period": {
-                    "alpha(%)": -0.063,
+                    "alpha(%)": -0.057,
                     "beta": 0.53
                 },
                 "measure_period": {
-                    "alpha(%)": -0.5,
-                    "beta": 0.91
+                    "alpha(%)": -0.43,
+                    "beta": 0.93
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -117,6 +117,7 @@
         "전해질",
         "배터리 분리막"
     ],
+    "valuechain_keys": [],
     "news": {
         "updated": "2026-11-11 12:24",
         "key_facts": [

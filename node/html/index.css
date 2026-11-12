@@ -257,11 +257,15 @@ body {
 }
 
 #file-list a.unreviewed-model {
-    color: #c75b63;
+    color: #00008b;
 }
 
 #file-list a.unreviewed-model.unreviewed-segment {
     color: #580000;
+}
+
+#file-list a.unreviewed-model.recommended-profile {
+    color: #c00000;
 }
 
 #search {

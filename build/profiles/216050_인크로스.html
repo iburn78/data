@@ -27,9 +27,6 @@
     </h3>
     <div class="dashboard">
         <div class="table-panel">
-            <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
-                <div class="table-scrollbar-content"></div>
-            </div>
             <div class="table-wrapper">
                 <div class="table-controls">
                     <button onclick="expandAll()">+</button>
@@ -40,6 +37,9 @@
                         <a class="ext-link" href="#" onclick="openPopup('https://stock.naver.com/domestic/stock/216050/price', true); return false;">NV</a>
                         <a class="ext-link" href="#" onclick="openPopup('https://wcomp.fnguide.com/CompanyInfo/Snapshot?c_id=AA&menu_type=01&cmp_cd=216050', true); return false;">FN</a>
                     </div>
+                </div>
+                <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
+                    <div class="table-scrollbar-content"></div>
                 </div>
                 <table class="dict-table">
                     <colgroup><col class="row-label-column"><col class="financial-column"></colgroup>
@@ -531,14 +531,12 @@
                 </table>
             </div>
         </div>
-        <div class="charts-panel">
-            <div class="chart-card">
+        <div class="charts-panel"><div class="chart-card">
                 <img src="216050_인크로스.png" class="analysis-image" onclick="openPopup('216050_인크로스.png');">
             </div>
             <div class="chart-card">
                 <img src="http://10.245.110.101:3000/data/216050.png" class="analysis-image" onclick="openPopup('http://10.245.110.101:3000/data/216050.png');">
-            </div>
-        </div>
+            </div></div>
     </div>
     
         <h3>Qualitative Analysis</h3>
@@ -702,6 +700,11 @@
                                         disabled
                                     >
                                 </td>
+                            </tr>
+            
+                            <tr>
+                                <th>recomm_segs</th>
+                                <td><span class="recommendation-no">No</span></td>
                             </tr>
             
                             <tr>
