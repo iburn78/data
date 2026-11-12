@@ -1,7 +1,7 @@
 {
     "key": "126340",
     "filename": "126340_비나텍",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-19 12:23",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "126340",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "IT 하드웨어",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 669,
+                "marcap": 694,
                 "revenue_ltm": 119,
                 "opincome_ltm": 0.12,
                 "revenue_qtr": 35.4,
@@ -47,12 +47,12 @@
                 "ltm": 0.1
             },
             "PER": {
-                "PER_ltm": 5560,
-                "PER_qx4": 336,
-                "PER_fwd": 167
+                "PER_ltm": 5770,
+                "PER_qx4": 349,
+                "PER_fwd": 173
             },
             "volatility": {
-                "measure_to_base(%)": 41
+                "measure_to_base(%)": 35
             },
             "amount": {
                 "measure_to_base(%)": 120
@@ -63,12 +63,12 @@
                     "beta": 0.9
                 },
                 "base_period": {
-                    "alpha(%)": 0.16,
-                    "beta": 1
+                    "alpha(%)": 0.24,
+                    "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": 1.7,
-                    "beta": 1.3
+                    "alpha(%)": 1.9,
+                    "beta": 1.1
                 }
             }
         },

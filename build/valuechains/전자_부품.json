@@ -1,7 +1,7 @@
 {
     "key": "전자 부품",
     "filename": "전자_부품",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 74000,
+                "marcap": 77500,
                 "revenue_ltm": 38200,
                 "opincome_ltm": 2540,
                 "revenue_qtr": 9390,
@@ -51,19 +51,19 @@
                 "ltm": 6.6
             },
             "PER": {
-                "PER_ltm": 29.1,
-                "PER_qx4": 26.5,
-                "PER_fwd": 24.6
+                "PER_ltm": 30.5,
+                "PER_qx4": 27.8,
+                "PER_fwd": 25.8
             },
             "volatility": {
-                "measure_to_base(%)": -7
+                "measure_to_base(%)": -3
             },
             "amount": {
-                "measure_to_base(%)": -44
+                "measure_to_base(%)": -45
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.054,
+                    "alpha(%)": 0.055,
                     "beta": 1.2
                 },
                 "base_period": {
@@ -71,8 +71,8 @@
                     "beta": 1.4
                 },
                 "measure_period": {
-                    "alpha(%)": -1.1,
-                    "beta": 1.6
+                    "alpha(%)": -0.88,
+                    "beta": 1.5
                 },
                 "indplot_long": {
                     "alpha(%)": null,

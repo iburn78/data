@@ -1,7 +1,7 @@
 {
     "key": "017860",
     "filename": "017860_DS단석",
-    "updated": "2026-11-11 16:58",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 16:58",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "017860",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 16:58",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 165,
+                "marcap": 166,
                 "revenue_ltm": 1130,
                 "opincome_ltm": 15.9,
                 "revenue_qtr": 310,
@@ -48,14 +48,14 @@
             },
             "PER": {
                 "PER_ltm": 10.4,
-                "PER_qx4": 6.57,
-                "PER_fwd": 6.57
+                "PER_qx4": 6.6,
+                "PER_fwd": 6.59
             },
             "volatility": {
-                "measure_to_base(%)": 17
+                "measure_to_base(%)": 20
             },
             "amount": {
-                "measure_to_base(%)": -42
+                "measure_to_base(%)": -41
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -68,7 +68,7 @@
                 },
                 "measure_period": {
                     "alpha(%)": -0.88,
-                    "beta": 0.67
+                    "beta": 0.64
                 }
             }
         },

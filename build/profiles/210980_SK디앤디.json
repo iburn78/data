@@ -1,7 +1,7 @@
 {
     "key": "210980",
     "filename": "210980_SK디앤디",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:10",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "210980",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "금융 및 부동산",
                 "subsector": "부동산",
@@ -52,23 +52,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 13
+                "measure_to_base(%)": 9.3
             },
             "amount": {
-                "measure_to_base(%)": -69
+                "measure_to_base(%)": -68
             },
             "alpha_beta": {
                 "from_start_date": {
                     "alpha(%)": -0.065,
-                    "beta": 0.44
+                    "beta": 0.43
                 },
                 "base_period": {
-                    "alpha(%)": -0.95,
+                    "alpha(%)": -0.94,
                     "beta": 0.17
                 },
                 "measure_period": {
-                    "alpha(%)": -1.4,
-                    "beta": 0.74
+                    "alpha(%)": -1.6,
+                    "beta": 0.83
                 }
             }
         },

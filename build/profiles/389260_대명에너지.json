@@ -1,7 +1,7 @@
 {
     "key": "389260",
     "filename": "389260_대명에너지",
-    "updated": "2026-11-11 17:11",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:10",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "389260",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:11",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 273,
+                "marcap": 268,
                 "revenue_ltm": 134,
                 "opincome_ltm": 32.6,
                 "revenue_qtr": 25.3,
@@ -47,28 +47,28 @@
                 "ltm": 24
             },
             "PER": {
-                "PER_ltm": 8.38,
-                "PER_qx4": 20.1,
-                "PER_fwd": 14.2
+                "PER_ltm": 8.23,
+                "PER_qx4": 19.7,
+                "PER_fwd": 14
             },
             "volatility": {
-                "measure_to_base(%)": 9.8
+                "measure_to_base(%)": 11
             },
             "amount": {
-                "measure_to_base(%)": 290
+                "measure_to_base(%)": 310
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.063,
+                    "alpha(%)": 0.06,
                     "beta": 0.67
                 },
                 "base_period": {
-                    "alpha(%)": 0.062,
+                    "alpha(%)": 0.052,
                     "beta": 0.55
                 },
                 "measure_period": {
-                    "alpha(%)": 1.9,
-                    "beta": 0.69
+                    "alpha(%)": 1.8,
+                    "beta": 0.51
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "192820",
     "filename": "192820_코스맥스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 17:32",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "192820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "소비재",
                 "subsector": "필수소비재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 2720,
+                "marcap": 2980,
                 "revenue_ltm": 2870,
                 "opincome_ltm": 241,
                 "revenue_qtr": 795,
@@ -47,28 +47,28 @@
                 "ltm": 8.4
             },
             "PER": {
-                "PER_ltm": 11.3,
-                "PER_qx4": 9.24,
-                "PER_fwd": 8.52
+                "PER_ltm": 12.4,
+                "PER_qx4": 10.1,
+                "PER_fwd": 9.34
             },
             "volatility": {
-                "measure_to_base(%)": 3.1
+                "measure_to_base(%)": 13
             },
             "amount": {
-                "measure_to_base(%)": -13
+                "measure_to_base(%)": -2
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.034,
-                    "beta": 0.5
+                    "alpha(%)": 0.036,
+                    "beta": 0.51
                 },
                 "base_period": {
-                    "alpha(%)": 0.3,
-                    "beta": 0.11
+                    "alpha(%)": 0.41,
+                    "beta": 0.12
                 },
                 "measure_period": {
-                    "alpha(%)": -0.75,
-                    "beta": 0.072
+                    "alpha(%)": -0.29,
+                    "beta": 0.26
                 }
             }
         },
@@ -78,7 +78,7 @@
             "PER_level": "Mid",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }

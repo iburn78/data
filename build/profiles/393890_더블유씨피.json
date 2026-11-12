@@ -1,7 +1,7 @@
 {
     "key": "393890",
     "filename": "393890_더블유씨피",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-20 16:01",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "393890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "산업재",
                 "subsector": "배터리 및 전기 장비",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 247,
+                "marcap": 261,
                 "revenue_ltm": 143,
                 "opincome_ltm": -91.7,
                 "revenue_qtr": 36.2,
@@ -52,22 +52,22 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 74
+                "measure_to_base(%)": 70
             },
             "amount": {
-                "measure_to_base(%)": -24
+                "measure_to_base(%)": -30
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.18,
-                    "beta": 0.87
+                    "alpha(%)": -0.17,
+                    "beta": 0.88
                 },
                 "base_period": {
-                    "alpha(%)": -0.28,
-                    "beta": 0.7
+                    "alpha(%)": -0.31,
+                    "beta": 0.71
                 },
                 "measure_period": {
-                    "alpha(%)": -1.1,
+                    "alpha(%)": -0.91,
                     "beta": 1.6
                 }
             }
@@ -77,10 +77,10 @@
             "financially_sound": false,
             "PER_level": "(na)",
             "volatility_level": "Up",
-            "amount_level": "-",
+            "amount_level": "Dn",
             "alpha_level": "udr_pfm",
             "category": "D",
-            "market_sentiment": "-"
+            "market_sentiment": "speculators"
         }
     },
     "info_section": {

@@ -1,7 +1,7 @@
 {
     "key": "095610",
     "filename": "095610_테스",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "095610",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1630,
+                "marcap": 1820,
                 "revenue_ltm": 462,
                 "opincome_ltm": 87,
                 "revenue_qtr": 124,
@@ -47,27 +47,27 @@
                 "ltm": 19
             },
             "PER": {
-                "PER_ltm": 18.7,
-                "PER_qx4": 15.6,
-                "PER_fwd": 13.2
+                "PER_ltm": 20.9,
+                "PER_qx4": 17.5,
+                "PER_fwd": 14.8
             },
             "volatility": {
-                "measure_to_base(%)": 14
+                "measure_to_base(%)": 17
             },
             "amount": {
                 "measure_to_base(%)": -61
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.088,
+                    "alpha(%)": 0.091,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": 0.26,
+                    "alpha(%)": 0.36,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -1.5,
+                    "alpha(%)": -0.92,
                     "beta": 1.9
                 }
             }

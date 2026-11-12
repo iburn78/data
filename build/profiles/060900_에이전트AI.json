@@ -1,7 +1,7 @@
 {
     "key": "060900",
     "filename": "060900_에이전트AI",
-    "updated": "2026-11-11 17:03",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:03",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "060900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:03",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 10.5,
+                "marcap": 10,
                 "revenue_ltm": 9.72,
                 "opincome_ltm": -10.1,
                 "revenue_qtr": 2.93,
@@ -52,7 +52,7 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 160
+                "measure_to_base(%)": 150
             },
             "amount": {
                 "measure_to_base(%)": 690
@@ -63,12 +63,12 @@
                     "beta": 0.31
                 },
                 "base_period": {
-                    "alpha(%)": -0.78,
-                    "beta": 0.13
+                    "alpha(%)": -0.85,
+                    "beta": 0.12
                 },
                 "measure_period": {
-                    "alpha(%)": 0.44,
-                    "beta": 0.21
+                    "alpha(%)": 0.36,
+                    "beta": -0.015
                 }
             }
         },

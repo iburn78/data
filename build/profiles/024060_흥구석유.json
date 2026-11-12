@@ -1,7 +1,7 @@
 {
     "key": "024060",
     "filename": "024060_흥구석유",
-    "updated": "2026-11-11 17:00",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:00",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "024060",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:00",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -52,23 +52,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -37
+                "measure_to_base(%)": -38
             },
             "amount": {
                 "measure_to_base(%)": -71
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.14,
+                    "alpha(%)": 0.13,
                     "beta": 0.16
                 },
                 "base_period": {
-                    "alpha(%)": -0.22,
+                    "alpha(%)": -0.2,
                     "beta": -0.017
                 },
                 "measure_period": {
-                    "alpha(%)": -0.56,
-                    "beta": 0.32
+                    "alpha(%)": -0.61,
+                    "beta": 0.31
                 }
             }
         },

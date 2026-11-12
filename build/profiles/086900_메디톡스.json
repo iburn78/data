@@ -1,7 +1,7 @@
 {
     "key": "086900",
     "filename": "086900_메디톡스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 15:31",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "086900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "제약 및 바이오",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 516,
+                "marcap": 504,
                 "revenue_ltm": 259,
                 "opincome_ltm": 13.2,
                 "revenue_qtr": 68.7,
@@ -47,28 +47,28 @@
                 "ltm": 5.1
             },
             "PER": {
-                "PER_ltm": 39.1,
-                "PER_qx4": 27.1,
-                "PER_fwd": 28.7
+                "PER_ltm": 38.1,
+                "PER_qx4": 26.4,
+                "PER_fwd": 28
             },
             "volatility": {
-                "measure_to_base(%)": -7.5
+                "measure_to_base(%)": -11
             },
             "amount": {
-                "measure_to_base(%)": -58
+                "measure_to_base(%)": -54
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.033,
+                    "alpha(%)": -0.035,
                     "beta": 0.6
                 },
                 "base_period": {
-                    "alpha(%)": -0.2,
-                    "beta": 0.25
+                    "alpha(%)": -0.21,
+                    "beta": 0.24
                 },
                 "measure_period": {
-                    "alpha(%)": 0.59,
-                    "beta": 0.29
+                    "alpha(%)": 0.42,
+                    "beta": 0.23
                 }
             }
         },
@@ -78,7 +78,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }

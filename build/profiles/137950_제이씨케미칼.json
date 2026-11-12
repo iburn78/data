@@ -1,7 +1,7 @@
 {
     "key": "137950",
     "filename": "137950_제이씨케미칼",
-    "updated": "2026-11-11 17:08",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:07",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "137950",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:08",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 64.6,
+                "marcap": 64.7,
                 "revenue_ltm": 493,
                 "opincome_ltm": 24.1,
                 "revenue_qtr": 143,
@@ -52,7 +52,7 @@
                 "PER_fwd": 1.23
             },
             "volatility": {
-                "measure_to_base(%)": 3.9
+                "measure_to_base(%)": 4.8
             },
             "amount": {
                 "measure_to_base(%)": -58
@@ -63,12 +63,12 @@
                     "beta": 0.44
                 },
                 "base_period": {
-                    "alpha(%)": -0.2,
+                    "alpha(%)": -0.19,
                     "beta": 0.14
                 },
                 "measure_period": {
                     "alpha(%)": -0.59,
-                    "beta": 0.46
+                    "beta": 0.44
                 }
             }
         },

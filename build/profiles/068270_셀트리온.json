@@ -1,7 +1,7 @@
 {
     "key": "068270",
     "filename": "068270_셀트리온",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 16:26",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "068270",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "제약 및 바이오",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 47100,
+                "marcap": 48000,
                 "revenue_ltm": 5260,
                 "opincome_ltm": 1700,
                 "revenue_qtr": 1390,
@@ -47,28 +47,28 @@
                 "ltm": 32
             },
             "PER": {
-                "PER_ltm": 27.7,
-                "PER_qx4": 26.1,
-                "PER_fwd": 21
+                "PER_ltm": 28.2,
+                "PER_qx4": 26.6,
+                "PER_fwd": 21.5
             },
             "volatility": {
-                "measure_to_base(%)": 2.4
+                "measure_to_base(%)": 3.1
             },
             "amount": {
-                "measure_to_base(%)": 30
+                "measure_to_base(%)": 34
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.051,
+                    "alpha(%)": 0.052,
                     "beta": 0.58
                 },
                 "base_period": {
-                    "alpha(%)": 0.17,
+                    "alpha(%)": 0.2,
                     "beta": 0.15
                 },
                 "measure_period": {
-                    "alpha(%)": 0.65,
-                    "beta": -0.0031
+                    "alpha(%)": 0.73,
+                    "beta": 0.0072
                 }
             }
         },

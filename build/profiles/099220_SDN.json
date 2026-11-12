@@ -1,7 +1,7 @@
 {
     "key": "099220",
     "filename": "099220_SDN",
-    "updated": "2026-11-11 17:05",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:04",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "099220",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:05",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 27.2,
+                "marcap": 27.4,
                 "revenue_ltm": 99.3,
                 "opincome_ltm": -1.04,
                 "revenue_qtr": 30,
@@ -48,8 +48,8 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 44,
-                "PER_fwd": 8.73
+                "PER_qx4": 44.3,
+                "PER_fwd": 8.79
             },
             "volatility": {
                 "measure_to_base(%)": -40
@@ -63,12 +63,12 @@
                     "beta": 0.85
                 },
                 "base_period": {
-                    "alpha(%)": -0.59,
-                    "beta": 0.47
+                    "alpha(%)": -0.61,
+                    "beta": 0.46
                 },
                 "measure_period": {
-                    "alpha(%)": -0.54,
-                    "beta": 0.36
+                    "alpha(%)": -0.5,
+                    "beta": 0.35
                 }
             }
         },
@@ -78,7 +78,7 @@
             "PER_level": "(na)",
             "volatility_level": "Dn",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "consumed"
         }

@@ -1,7 +1,7 @@
 {
     "key": "095910",
     "filename": "095910_에스에너지",
-    "updated": "2026-11-11 17:04",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:04",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "095910",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:04",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 16.6,
+                "marcap": 16.9,
                 "revenue_ltm": 103,
                 "opincome_ltm": -23,
                 "revenue_qtr": 24.2,
@@ -52,10 +52,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 950
+                "measure_to_base(%)": 960
             },
             "amount": {
-                "measure_to_base(%)": -88
+                "measure_to_base(%)": -87
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 1.5
                 },
                 "base_period": {
-                    "alpha(%)": 5.6,
+                    "alpha(%)": 5.5,
                     "beta": 3
                 },
                 "measure_period": {
-                    "alpha(%)": 51,
-                    "beta": 21
+                    "alpha(%)": 40,
+                    "beta": 23
                 }
             }
         },

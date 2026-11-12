@@ -1,7 +1,7 @@
 {
     "key": "EV 배터리",
     "filename": "EV_배터리",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-21 11:42",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 173000,
+                "marcap": 179000,
                 "revenue_ltm": 130000,
                 "opincome_ltm": -558,
                 "revenue_qtr": 35400,
@@ -52,14 +52,14 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 66.7,
-                "PER_fwd": 68.2
+                "PER_qx4": 69.1,
+                "PER_fwd": 70.7
             },
             "volatility": {
-                "measure_to_base(%)": 20
+                "measure_to_base(%)": 21
             },
             "amount": {
-                "measure_to_base(%)": 12
+                "measure_to_base(%)": 9.1
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -67,12 +67,12 @@
                     "beta": 0.91
                 },
                 "base_period": {
-                    "alpha(%)": -0.094,
-                    "beta": 0.52
+                    "alpha(%)": -0.063,
+                    "beta": 0.53
                 },
                 "measure_period": {
-                    "alpha(%)": -0.57,
-                    "beta": 0.86
+                    "alpha(%)": -0.5,
+                    "beta": 0.91
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -90,7 +90,7 @@
             "PER_level": "(na)",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }
@@ -114,8 +114,8 @@
         "동박",
         "전고체",
         "전구체",
-        "배터리 분리막",
-        "전해질"
+        "전해질",
+        "배터리 분리막"
     ],
     "news": {
         "updated": "2026-11-11 12:24",

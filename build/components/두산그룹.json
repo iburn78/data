@@ -1,7 +1,7 @@
 {
     "key": "두산그룹",
     "filename": "두산그룹",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:13",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 50800,
+                "marcap": 52100,
                 "revenue_ltm": 50900,
                 "opincome_ltm": 3670,
                 "revenue_qtr": 12900,
@@ -51,15 +51,15 @@
                 "ltm": 7.2
             },
             "PER": {
-                "PER_ltm": 13.8,
-                "PER_qx4": 12.1,
-                "PER_fwd": 11.7
+                "PER_ltm": 14.2,
+                "PER_qx4": 12.4,
+                "PER_fwd": 12
             },
             "volatility": {
-                "measure_to_base(%)": 38
+                "measure_to_base(%)": 41
             },
             "amount": {
-                "measure_to_base(%)": -43
+                "measure_to_base(%)": -41
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -67,7 +67,7 @@
                     "beta": 1.1
                 },
                 "base_period": {
-                    "alpha(%)": -0.42,
+                    "alpha(%)": -0.41,
                     "beta": 0.84
                 },
                 "measure_period": {

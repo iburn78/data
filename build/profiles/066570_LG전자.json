@@ -1,7 +1,7 @@
 {
     "key": "066570",
     "filename": "066570_LG전자",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-10-20 09:33",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "066570",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "소비재",
                 "subsector": "자유소비재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 22800,
+                "marcap": 23000,
                 "revenue_ltm": 95200,
                 "opincome_ltm": 4720,
                 "revenue_qtr": 23800,
@@ -55,15 +55,15 @@
                 "ltm": 5
             },
             "PER": {
-                "PER_ltm": 4.83,
-                "PER_qx4": 3.61,
-                "PER_fwd": 3.39
+                "PER_ltm": 4.87,
+                "PER_qx4": 3.64,
+                "PER_fwd": 3.42
             },
             "volatility": {
-                "measure_to_base(%)": -45
+                "measure_to_base(%)": -43
             },
             "amount": {
-                "measure_to_base(%)": -76
+                "measure_to_base(%)": -77
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -71,12 +71,12 @@
                     "beta": 0.91
                 },
                 "base_period": {
-                    "alpha(%)": -0.049,
+                    "alpha(%)": 0.023,
                     "beta": 0.86
                 },
                 "measure_period": {
-                    "alpha(%)": -0.75,
-                    "beta": 0.7
+                    "alpha(%)": -0.81,
+                    "beta": 0.73
                 }
             }
         },

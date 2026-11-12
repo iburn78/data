@@ -1,7 +1,7 @@
 {
     "key": "161890",
     "filename": "161890_한국콜마",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 18:15",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "161890",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "소비재",
                 "subsector": "필수소비재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 2500,
+                "marcap": 2490,
                 "revenue_ltm": 3110,
                 "opincome_ltm": 347,
                 "revenue_qtr": 861,
@@ -47,28 +47,28 @@
                 "ltm": 11
             },
             "PER": {
-                "PER_ltm": 7.19,
-                "PER_qx4": 5.66,
-                "PER_fwd": 5
+                "PER_ltm": 7.17,
+                "PER_qx4": 5.65,
+                "PER_fwd": 4.99
             },
             "volatility": {
-                "measure_to_base(%)": 1.5
+                "measure_to_base(%)": -11
             },
             "amount": {
-                "measure_to_base(%)": -41
+                "measure_to_base(%)": -43
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0099,
+                    "alpha(%)": 0.0093,
                     "beta": 0.52
                 },
                 "base_period": {
-                    "alpha(%)": 0.2,
+                    "alpha(%)": 0.24,
                     "beta": 0.2
                 },
                 "measure_period": {
-                    "alpha(%)": -0.48,
-                    "beta": 0.31
+                    "alpha(%)": -0.66,
+                    "beta": 0.41
                 }
             }
         },
@@ -78,7 +78,7 @@
             "PER_level": "Low",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "A",
             "market_sentiment": "-"
         }

@@ -1,7 +1,7 @@
 {
     "key": "전공정",
     "filename": "전공정",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 13:13",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 26000,
+                "marcap": 29200,
                 "revenue_ltm": 5540,
                 "opincome_ltm": 999,
                 "revenue_qtr": 1460,
@@ -51,28 +51,28 @@
                 "ltm": 18
             },
             "PER": {
-                "PER_ltm": 26,
-                "PER_qx4": 22.7,
-                "PER_fwd": 20.8
+                "PER_ltm": 29.2,
+                "PER_qx4": 25.6,
+                "PER_fwd": 23.4
             },
             "volatility": {
-                "measure_to_base(%)": 23
+                "measure_to_base(%)": 30
             },
             "amount": {
-                "measure_to_base(%)": -53
+                "measure_to_base(%)": -54
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.082,
+                    "alpha(%)": 0.085,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": 0.17,
+                    "alpha(%)": 0.2,
                     "beta": 1
                 },
                 "measure_period": {
-                    "alpha(%)": -1.3,
-                    "beta": 1.6
+                    "alpha(%)": -0.7,
+                    "beta": 1.7
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -88,11 +88,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_level": "-",
+            "volatility_level": "Up",
             "amount_level": "Dn",
             "alpha_level": "udr_pfm",
             "category": "C",
-            "market_sentiment": "-"
+            "market_sentiment": "speculators"
         }
     },
     "info_section": {
@@ -128,12 +128,12 @@
             "name": "솔브레인"
         },
         {
-            "key": "014680",
-            "name": "한솔케미칼"
-        },
-        {
             "key": "064760",
             "name": "티씨케이"
+        },
+        {
+            "key": "014680",
+            "name": "한솔케미칼"
         },
         {
             "key": "084370",

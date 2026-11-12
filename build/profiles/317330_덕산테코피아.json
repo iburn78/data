@@ -1,7 +1,7 @@
 {
     "key": "317330",
     "filename": "317330_덕산테코피아",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-21 11:41",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "317330",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 184,
+                "marcap": 189,
                 "revenue_ltm": 152,
                 "opincome_ltm": -41.2,
                 "revenue_qtr": 42.2,
@@ -52,7 +52,7 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 2.6
+                "measure_to_base(%)": 2.5
             },
             "amount": {
                 "measure_to_base(%)": -73
@@ -63,12 +63,12 @@
                     "beta": 1.1
                 },
                 "base_period": {
-                    "alpha(%)": -0.52,
+                    "alpha(%)": -0.48,
                     "beta": 0.72
                 },
                 "measure_period": {
-                    "alpha(%)": -0.8,
-                    "beta": 1.1
+                    "alpha(%)": -0.58,
+                    "beta": 0.99
                 }
             }
         },

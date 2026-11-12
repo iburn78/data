@@ -1,7 +1,7 @@
 {
     "key": "100130",
     "filename": "100130_동국S&C",
-    "updated": "2026-11-11 17:05",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:05",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "100130",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:05",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 79.9,
+                "marcap": 79.7,
                 "revenue_ltm": 35.4,
                 "opincome_ltm": -10.3,
                 "revenue_qtr": 5.03,
@@ -52,23 +52,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -0.74
+                "measure_to_base(%)": -10
             },
             "amount": {
-                "measure_to_base(%)": -57
+                "measure_to_base(%)": -58
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.033,
+                    "alpha(%)": -0.034,
                     "beta": 0.74
                 },
                 "base_period": {
-                    "alpha(%)": -0.24,
+                    "alpha(%)": -0.22,
                     "beta": 0.18
                 },
                 "measure_period": {
-                    "alpha(%)": -0.35,
-                    "beta": 0.45
+                    "alpha(%)": -0.32,
+                    "beta": 0.38
                 }
             }
         },

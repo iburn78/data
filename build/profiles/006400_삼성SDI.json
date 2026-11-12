@@ -1,7 +1,7 @@
 {
     "key": "006400",
     "filename": "006400_삼성SDI",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "006400",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "산업재",
                 "subsector": "배터리 및 전기 장비",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 36700,
+                "marcap": 38600,
                 "revenue_ltm": 15000,
                 "opincome_ltm": -47.2,
                 "revenue_qtr": 3770,
@@ -48,14 +48,14 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 45.1,
-                "PER_fwd": 55.8
+                "PER_qx4": 47.3,
+                "PER_fwd": 58.6
             },
             "volatility": {
-                "measure_to_base(%)": 51
+                "measure_to_base(%)": 48
             },
             "amount": {
-                "measure_to_base(%)": 47
+                "measure_to_base(%)": 44
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,11 +63,11 @@
                     "beta": 1.1
                 },
                 "base_period": {
-                    "alpha(%)": 0.054,
+                    "alpha(%)": 0.083,
                     "beta": 0.75
                 },
                 "measure_period": {
-                    "alpha(%)": -0.3,
+                    "alpha(%)": -0.26,
                     "beta": 1.3
                 }
             }

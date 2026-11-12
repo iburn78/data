@@ -1,7 +1,7 @@
 {
     "key": "241560",
     "filename": "241560_두산밥캣",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 11:25",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "241560",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "산업재",
                 "subsector": "자본재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 5130,
+                "marcap": 5060,
                 "revenue_ltm": 9460,
                 "opincome_ltm": 1190,
                 "revenue_qtr": 2370,
@@ -47,28 +47,28 @@
                 "ltm": 13
             },
             "PER": {
-                "PER_ltm": 4.31,
-                "PER_qx4": 4.31,
-                "PER_fwd": 4.31
+                "PER_ltm": 4.25,
+                "PER_qx4": 4.25,
+                "PER_fwd": 4.25
             },
             "volatility": {
                 "measure_to_base(%)": -32
             },
             "amount": {
-                "measure_to_base(%)": -36
+                "measure_to_base(%)": -32
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.014,
-                    "beta": 0.73
+                    "alpha(%)": 0.013,
+                    "beta": 0.72
                 },
                 "base_period": {
                     "alpha(%)": -0.11,
                     "beta": 0.31
                 },
                 "measure_period": {
-                    "alpha(%)": 0.31,
-                    "beta": 0.26
+                    "alpha(%)": 0.27,
+                    "beta": 0.17
                 }
             }
         },

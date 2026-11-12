@@ -1,7 +1,7 @@
 {
     "key": "131970",
     "filename": "131970_두산테스나",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:15",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "131970",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1300,
+                "marcap": 1490,
                 "revenue_ltm": 324,
                 "opincome_ltm": 40.2,
                 "revenue_qtr": 80.9,
@@ -47,15 +47,15 @@
                 "ltm": 12
             },
             "PER": {
-                "PER_ltm": 32.3,
-                "PER_qx4": 33,
-                "PER_fwd": 32.6
+                "PER_ltm": 37,
+                "PER_qx4": 37.7,
+                "PER_fwd": 37.3
             },
             "volatility": {
-                "measure_to_base(%)": 18
+                "measure_to_base(%)": 27
             },
             "amount": {
-                "measure_to_base(%)": 2.6
+                "measure_to_base(%)": -1.4
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.31,
-                    "beta": 1.1
+                    "alpha(%)": -0.19,
+                    "beta": 1.2
                 },
                 "measure_period": {
-                    "alpha(%)": -2,
-                    "beta": 1.6
+                    "alpha(%)": -1.8,
+                    "beta": 2.1
                 }
             }
         },
@@ -76,7 +76,7 @@
             "basics": true,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_level": "-",
+            "volatility_level": "Up",
             "amount_level": "-",
             "alpha_level": "udr_pfm",
             "category": "D",

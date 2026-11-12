@@ -1,7 +1,7 @@
 {
     "key": "298020",
     "filename": "298020_효성티앤씨",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-21 11:15",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "298020",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1390,
+                "marcap": 1370,
                 "revenue_ltm": 8770,
                 "opincome_ltm": 509,
                 "revenue_qtr": 2420,
@@ -47,28 +47,28 @@
                 "ltm": 5.8
             },
             "PER": {
-                "PER_ltm": 2.73,
-                "PER_qx4": 1.84,
-                "PER_fwd": 1.64
+                "PER_ltm": 2.69,
+                "PER_qx4": 1.81,
+                "PER_fwd": 1.62
             },
             "volatility": {
-                "measure_to_base(%)": -11
+                "measure_to_base(%)": -12
             },
             "amount": {
                 "measure_to_base(%)": -41
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.02,
+                    "alpha(%)": 0.019,
                     "beta": 0.75
                 },
                 "base_period": {
-                    "alpha(%)": -0.13,
+                    "alpha(%)": -0.11,
                     "beta": 0.32
                 },
                 "measure_period": {
-                    "alpha(%)": 1.2,
-                    "beta": 0.61
+                    "alpha(%)": 0.96,
+                    "beta": 0.55
                 }
             }
         },

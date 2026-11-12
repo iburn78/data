@@ -1,7 +1,7 @@
 {
     "key": "064760",
     "filename": "064760_티씨케이",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "064760",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1780,
+                "marcap": 2020,
                 "revenue_ltm": 356,
                 "opincome_ltm": 101,
                 "revenue_qtr": 94.9,
@@ -47,28 +47,28 @@
                 "ltm": 28
             },
             "PER": {
-                "PER_ltm": 17.6,
-                "PER_qx4": 16.6,
-                "PER_fwd": 15.4
+                "PER_ltm": 20,
+                "PER_qx4": 18.8,
+                "PER_fwd": 17.5
             },
             "volatility": {
-                "measure_to_base(%)": 45
+                "measure_to_base(%)": 53
             },
             "amount": {
-                "measure_to_base(%)": -19
+                "measure_to_base(%)": -20
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.072,
+                    "alpha(%)": 0.076,
                     "beta": 1
                 },
                 "base_period": {
-                    "alpha(%)": -0.17,
-                    "beta": 0.87
+                    "alpha(%)": -0.04,
+                    "beta": 0.89
                 },
                 "measure_period": {
-                    "alpha(%)": -1.2,
-                    "beta": 1.6
+                    "alpha(%)": -0.65,
+                    "beta": 1.8
                 }
             }
         },

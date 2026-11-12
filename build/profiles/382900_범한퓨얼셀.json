@@ -1,7 +1,7 @@
 {
     "key": "382900",
     "filename": "382900_범한퓨얼셀",
-    "updated": "2026-11-11 17:10",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:10",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "382900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:10",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 134,
+                "marcap": 139,
                 "revenue_ltm": 56.2,
                 "opincome_ltm": -9.43,
                 "revenue_qtr": 17.8,
@@ -52,10 +52,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 6.7
+                "measure_to_base(%)": 5.1
             },
             "amount": {
-                "measure_to_base(%)": -52
+                "measure_to_base(%)": -54
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,11 +63,11 @@
                     "beta": 0.94
                 },
                 "base_period": {
-                    "alpha(%)": -0.14,
+                    "alpha(%)": -0.039,
                     "beta": 0.88
                 },
                 "measure_period": {
-                    "alpha(%)": -0.78,
+                    "alpha(%)": -0.79,
                     "beta": 1.4
                 }
             }

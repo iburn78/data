@@ -1,7 +1,7 @@
 {
     "key": "302440",
     "filename": "302440_SK바이오사이언스",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:12",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "302440",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "제약 및 바이오",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 3110,
+                "marcap": 3130,
                 "revenue_ltm": 664,
                 "opincome_ltm": -128,
                 "revenue_qtr": 156,
@@ -52,10 +52,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 12
+                "measure_to_base(%)": 11
             },
             "amount": {
-                "measure_to_base(%)": 4.7
+                "measure_to_base(%)": 8.7
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.52
                 },
                 "base_period": {
-                    "alpha(%)": 0.035,
+                    "alpha(%)": 0.053,
                     "beta": 0.14
                 },
                 "measure_period": {
-                    "alpha(%)": 0.53,
-                    "beta": -0.028
+                    "alpha(%)": 0.68,
+                    "beta": -0.12
                 }
             }
         },

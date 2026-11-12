@@ -1,7 +1,7 @@
 {
     "key": "025900",
     "filename": "025900_동화기업",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-21 11:34",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "025900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 267,
+                "marcap": 278,
                 "revenue_ltm": 906,
                 "opincome_ltm": -10.7,
                 "revenue_qtr": 234,
@@ -60,10 +60,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -7.3
+                "measure_to_base(%)": -3.3
             },
             "amount": {
-                "measure_to_base(%)": -61
+                "measure_to_base(%)": -62
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -71,12 +71,12 @@
                     "beta": 0.9
                 },
                 "base_period": {
-                    "alpha(%)": -0.27,
+                    "alpha(%)": -0.22,
                     "beta": 0.51
                 },
                 "measure_period": {
-                    "alpha(%)": -0.93,
-                    "beta": 0.67
+                    "alpha(%)": -0.73,
+                    "beta": 0.7
                 }
             }
         },

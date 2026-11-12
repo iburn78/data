@@ -1,7 +1,7 @@
 {
     "key": "006120",
     "filename": "006120_SK디스커버리",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-06 14:13",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "006120",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 11:26",
             "classification": {
                 "sector": "에너지화학",
                 "subsector": "에너지",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1140,
+                "marcap": 1180,
                 "revenue_ltm": 12100,
                 "opincome_ltm": 124,
                 "revenue_qtr": 3060,
@@ -47,28 +47,28 @@
                 "ltm": 1
             },
             "PER": {
-                "PER_ltm": 9.19,
+                "PER_ltm": 9.51,
                 "PER_qx4": null,
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 8.1
+                "measure_to_base(%)": 8.3
             },
             "amount": {
-                "measure_to_base(%)": 27
+                "measure_to_base(%)": 21
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.014,
+                    "alpha(%)": 0.015,
                     "beta": 0.65
                 },
                 "base_period": {
-                    "alpha(%)": 0.3,
-                    "beta": 0.36
+                    "alpha(%)": 0.35,
+                    "beta": 0.37
                 },
                 "measure_period": {
-                    "alpha(%)": -0.0022,
-                    "beta": 0.091
+                    "alpha(%)": 0.38,
+                    "beta": -0.0057
                 }
             }
         },
@@ -77,7 +77,7 @@
             "financially_sound": false,
             "PER_level": "Mid",
             "volatility_level": "-",
-            "amount_level": "Up",
+            "amount_level": "-",
             "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"

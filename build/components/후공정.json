@@ -1,7 +1,7 @@
 {
     "key": "후공정",
     "filename": "후공정",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 13:13",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 42000,
+                "marcap": 46600,
                 "revenue_ltm": 8630,
                 "opincome_ltm": 1880,
                 "revenue_qtr": 2500,
@@ -51,28 +51,28 @@
                 "ltm": 22
             },
             "PER": {
-                "PER_ltm": 22.3,
-                "PER_qx4": 16.6,
-                "PER_fwd": 14.2
+                "PER_ltm": 24.8,
+                "PER_qx4": 18.4,
+                "PER_fwd": 15.8
             },
             "volatility": {
-                "measure_to_base(%)": 36
+                "measure_to_base(%)": 45
             },
             "amount": {
-                "measure_to_base(%)": -38
+                "measure_to_base(%)": -37
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.07,
+                    "alpha(%)": 0.073,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.069,
+                    "alpha(%)": 0.048,
                     "beta": 1.2
                 },
                 "measure_period": {
-                    "alpha(%)": -0.71,
-                    "beta": 1.6
+                    "alpha(%)": -0.35,
+                    "beta": 1.8
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -90,7 +90,7 @@
             "PER_level": "High",
             "volatility_level": "Up",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "C",
             "market_sentiment": "speculators"
         }

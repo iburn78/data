@@ -1,7 +1,7 @@
 {
     "key": "148150",
     "filename": "148150_세경하이테크",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "148150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 107,
+                "marcap": 111,
                 "revenue_ltm": 304,
                 "opincome_ltm": 5,
                 "revenue_qtr": 86.3,
@@ -47,28 +47,28 @@
                 "ltm": 1.6
             },
             "PER": {
-                "PER_ltm": 21.4,
-                "PER_qx4": 8.04,
-                "PER_fwd": 22.8
+                "PER_ltm": 22.2,
+                "PER_qx4": 8.35,
+                "PER_fwd": 23.6
             },
             "volatility": {
-                "measure_to_base(%)": -4.7
+                "measure_to_base(%)": -0.29
             },
             "amount": {
-                "measure_to_base(%)": -50
+                "measure_to_base(%)": -48
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.029,
+                    "alpha(%)": -0.028,
                     "beta": 0.82
                 },
                 "base_period": {
-                    "alpha(%)": -0.11,
+                    "alpha(%)": -0.092,
                     "beta": 0.47
                 },
                 "measure_period": {
-                    "alpha(%)": -0.75,
-                    "beta": 0.61
+                    "alpha(%)": -0.35,
+                    "beta": 0.49
                 }
             }
         },
@@ -78,7 +78,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }

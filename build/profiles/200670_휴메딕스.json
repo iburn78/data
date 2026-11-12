@@ -1,7 +1,7 @@
 {
     "key": "200670",
     "filename": "200670_휴메딕스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 16:10",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "200670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "제약 및 바이오",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 249,
+                "marcap": 252,
                 "revenue_ltm": 187,
                 "opincome_ltm": 43.4,
                 "revenue_qtr": 50.4,
@@ -47,15 +47,15 @@
                 "ltm": 23
             },
             "PER": {
-                "PER_ltm": 5.74,
-                "PER_qx4": 5.33,
-                "PER_fwd": 5.35
+                "PER_ltm": 5.8,
+                "PER_qx4": 5.39,
+                "PER_fwd": 5.41
             },
             "volatility": {
-                "measure_to_base(%)": -18
+                "measure_to_base(%)": -19
             },
             "amount": {
-                "measure_to_base(%)": -54
+                "measure_to_base(%)": -53
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.71
                 },
                 "base_period": {
-                    "alpha(%)": -0.15,
+                    "alpha(%)": -0.083,
                     "beta": 0.39
                 },
                 "measure_period": {
-                    "alpha(%)": -0.044,
-                    "beta": 0.51
+                    "alpha(%)": -0.0065,
+                    "beta": 0.48
                 }
             }
         },

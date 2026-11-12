@@ -1,7 +1,7 @@
 {
     "key": "357780",
     "filename": "357780_솔브레인",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "357780",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 2060,
+                "marcap": 2230,
                 "revenue_ltm": 1130,
                 "opincome_ltm": 180,
                 "revenue_qtr": 312,
@@ -47,28 +47,28 @@
                 "ltm": 16
             },
             "PER": {
-                "PER_ltm": 11.4,
-                "PER_qx4": 11.2,
-                "PER_fwd": 11
+                "PER_ltm": 12.4,
+                "PER_qx4": 12.1,
+                "PER_fwd": 12
             },
             "volatility": {
-                "measure_to_base(%)": 3.8
+                "measure_to_base(%)": 16
             },
             "amount": {
-                "measure_to_base(%)": -55
+                "measure_to_base(%)": -56
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.018,
+                    "alpha(%)": -0.014,
                     "beta": 1
                 },
                 "base_period": {
-                    "alpha(%)": -0.042,
-                    "beta": 0.83
+                    "alpha(%)": 0.019,
+                    "beta": 0.84
                 },
                 "measure_period": {
-                    "alpha(%)": -0.92,
-                    "beta": 1.2
+                    "alpha(%)": -0.56,
+                    "beta": 1.3
                 }
             }
         },

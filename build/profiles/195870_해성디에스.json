@@ -1,7 +1,7 @@
 {
     "key": "195870",
     "filename": "195870_해성디에스",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-19 09:30",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "195870",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 641,
+                "marcap": 728,
                 "revenue_ltm": 791,
                 "opincome_ltm": 82.5,
                 "revenue_qtr": 211,
@@ -47,39 +47,39 @@
                 "ltm": 10
             },
             "PER": {
-                "PER_ltm": 7.77,
-                "PER_qx4": 6.44,
-                "PER_fwd": 5.94
+                "PER_ltm": 8.82,
+                "PER_qx4": 7.31,
+                "PER_fwd": 6.75
             },
             "volatility": {
-                "measure_to_base(%)": 46
+                "measure_to_base(%)": 52
             },
             "amount": {
-                "measure_to_base(%)": -50
+                "measure_to_base(%)": -49
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.036,
+                    "alpha(%)": 0.04,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.22,
+                    "alpha(%)": -0.11,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -0.56,
-                    "beta": 2
+                    "alpha(%)": -0.16,
+                    "beta": 2.1
                 }
             }
         },
         "assess_result": {
             "basics": true,
             "financially_sound": true,
-            "PER_level": "Low",
+            "PER_level": "Mid",
             "volatility_level": "Up",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
-            "category": "A",
+            "alpha_level": "-",
+            "category": "B",
             "market_sentiment": "speculators"
         }
     },

@@ -1,7 +1,7 @@
 {
     "key": "카메라 모듈",
     "filename": "카메라_모듈",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 71700,
+                "marcap": 75000,
                 "revenue_ltm": 34700,
                 "opincome_ltm": 2260,
                 "revenue_qtr": 8440,
@@ -51,28 +51,28 @@
                 "ltm": 6.5
             },
             "PER": {
-                "PER_ltm": 31.7,
-                "PER_qx4": 29.1,
-                "PER_fwd": 26.5
+                "PER_ltm": 33.2,
+                "PER_qx4": 30.4,
+                "PER_fwd": 27.7
             },
             "volatility": {
-                "measure_to_base(%)": -7.8
+                "measure_to_base(%)": -3.8
             },
             "amount": {
                 "measure_to_base(%)": -45
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.063,
+                    "alpha(%)": 0.064,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": 0.37,
+                    "alpha(%)": 0.36,
                     "beta": 1.4
                 },
                 "measure_period": {
-                    "alpha(%)": -1.1,
-                    "beta": 1.6
+                    "alpha(%)": -0.89,
+                    "beta": 1.5
                 },
                 "indplot_long": {
                     "alpha(%)": null,

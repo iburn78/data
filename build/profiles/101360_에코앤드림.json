@@ -1,7 +1,7 @@
 {
     "key": "101360",
     "filename": "101360_에코앤드림",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-21 11:28",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "101360",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "산업재",
                 "subsector": "배터리 및 전기 장비",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 163,
+                "marcap": 164,
                 "revenue_ltm": 93.9,
                 "opincome_ltm": -12.4,
                 "revenue_qtr": 20.2,
@@ -52,10 +52,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 87
+                "measure_to_base(%)": 75
             },
             "amount": {
-                "measure_to_base(%)": 600
+                "measure_to_base(%)": 610
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.91
                 },
                 "base_period": {
-                    "alpha(%)": -0.084,
+                    "alpha(%)": -0.069,
                     "beta": 0.71
                 },
                 "measure_period": {
                     "alpha(%)": 1.2,
-                    "beta": 1.2
+                    "beta": 1.1
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "014680",
     "filename": "014680_한솔케미칼",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 15:47",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "014680",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1920,
+                "marcap": 1990,
                 "revenue_ltm": 949,
                 "opincome_ltm": 161,
                 "revenue_qtr": 248,
@@ -47,12 +47,12 @@
                 "ltm": 17
             },
             "PER": {
-                "PER_ltm": 12,
-                "PER_qx4": 9.67,
-                "PER_fwd": 9.03
+                "PER_ltm": 12.4,
+                "PER_qx4": 9.99,
+                "PER_fwd": 9.33
             },
             "volatility": {
-                "measure_to_base(%)": -3.4
+                "measure_to_base(%)": -7.7
             },
             "amount": {
                 "measure_to_base(%)": -43
@@ -63,12 +63,12 @@
                     "beta": 0.89
                 },
                 "base_period": {
-                    "alpha(%)": -0.28,
-                    "beta": 0.54
+                    "alpha(%)": -0.25,
+                    "beta": 0.55
                 },
                 "measure_period": {
-                    "alpha(%)": -0.92,
-                    "beta": 1
+                    "alpha(%)": -0.97,
+                    "beta": 1.2
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "소부장",
     "filename": "소부장",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 15:48",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 52800,
+                "marcap": 58800,
                 "revenue_ltm": 9940,
                 "opincome_ltm": 1330,
                 "revenue_qtr": 2830,
@@ -51,28 +51,28 @@
                 "ltm": 13
             },
             "PER": {
-                "PER_ltm": 39.7,
-                "PER_qx4": 26.5,
-                "PER_fwd": 22.4
+                "PER_ltm": 44.1,
+                "PER_qx4": 29.5,
+                "PER_fwd": 24.9
             },
             "volatility": {
-                "measure_to_base(%)": 35
+                "measure_to_base(%)": 43
             },
             "amount": {
                 "measure_to_base(%)": -44
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.077,
+                    "alpha(%)": 0.08,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.0029,
-                    "beta": 1.1
+                    "alpha(%)": 0.09,
+                    "beta": 1.2
                 },
                 "measure_period": {
-                    "alpha(%)": -0.8,
-                    "beta": 1.6
+                    "alpha(%)": -0.38,
+                    "beta": 1.7
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -90,7 +90,7 @@
             "PER_level": "High",
             "volatility_level": "Up",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "C",
             "market_sentiment": "speculators"
         }
@@ -132,12 +132,12 @@
             "name": "리노공업"
         },
         {
-            "key": "011790",
-            "name": "SKC"
-        },
-        {
             "key": "240810",
             "name": "원익IPS"
+        },
+        {
+            "key": "011790",
+            "name": "SKC"
         },
         {
             "key": "403870",

@@ -1,7 +1,7 @@
 {
     "key": "066570(A)",
     "filename": "066570(A)_가전,_공조",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-20 09:40",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "066570",
             "segment_name": "가전, 공조",
             "id": "A",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "소비재",
                 "subsector": "자유소비재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 11900,
+                "marcap": 12000,
                 "revenue_ltm": 49500,
                 "opincome_ltm": 3120,
                 "revenue_qtr": 12400,
@@ -47,15 +47,15 @@
                 "ltm": 6.3
             },
             "PER": {
-                "PER_ltm": 3.8,
-                "PER_qx4": 3.8,
-                "PER_fwd": 3.7
+                "PER_ltm": 3.83,
+                "PER_qx4": 3.83,
+                "PER_fwd": 3.73
             },
             "volatility": {
-                "measure_to_base(%)": -45
+                "measure_to_base(%)": -43
             },
             "amount": {
-                "measure_to_base(%)": -76
+                "measure_to_base(%)": -77
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.91
                 },
                 "base_period": {
-                    "alpha(%)": -0.049,
+                    "alpha(%)": 0.023,
                     "beta": 0.86
                 },
                 "measure_period": {
-                    "alpha(%)": -0.75,
-                    "beta": 0.7
+                    "alpha(%)": -0.81,
+                    "beta": 0.73
                 }
             }
         },

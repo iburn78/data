@@ -1,7 +1,7 @@
 {
     "key": "097520",
     "filename": "097520_엠씨넥스",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "097520",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "IT 하드웨어",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 277,
+                "marcap": 283,
                 "revenue_ltm": 1190,
                 "opincome_ltm": 24,
                 "revenue_qtr": 295,
@@ -47,27 +47,27 @@
                 "ltm": 2
             },
             "PER": {
-                "PER_ltm": 11.5,
-                "PER_qx4": 31.7,
+                "PER_ltm": 11.8,
+                "PER_qx4": 32.3,
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 52
+                "measure_to_base(%)": 56
             },
             "amount": {
-                "measure_to_base(%)": 72
+                "measure_to_base(%)": 77
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.0068,
+                    "alpha(%)": -0.0069,
                     "beta": 0.82
                 },
                 "base_period": {
-                    "alpha(%)": -0.17,
+                    "alpha(%)": -0.11,
                     "beta": 0.46
                 },
                 "measure_period": {
-                    "alpha(%)": -0.052,
+                    "alpha(%)": -0.035,
                     "beta": 0.66
                 }
             }

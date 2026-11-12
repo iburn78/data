@@ -1,7 +1,7 @@
 {
     "key": "043200",
     "filename": "043200_파루",
-    "updated": "2026-11-11 17:01",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:01",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "043200",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:01",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 24.8,
+                "marcap": 24.9,
                 "revenue_ltm": 27.3,
                 "opincome_ltm": 0.0868,
                 "revenue_qtr": 6.21,
@@ -48,27 +48,27 @@
             },
             "PER": {
                 "PER_ltm": 286,
-                "PER_qx4": 58.5,
-                "PER_fwd": 43.5
+                "PER_qx4": 58.6,
+                "PER_fwd": 43.6
             },
             "volatility": {
-                "measure_to_base(%)": -7.7
+                "measure_to_base(%)": -17
             },
             "amount": {
-                "measure_to_base(%)": -28
+                "measure_to_base(%)": -36
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.032,
+                    "alpha(%)": -0.033,
                     "beta": 0.55
                 },
                 "base_period": {
-                    "alpha(%)": -0.12,
+                    "alpha(%)": -0.13,
                     "beta": 0.35
                 },
                 "measure_period": {
-                    "alpha(%)": -0.35,
-                    "beta": 0.36
+                    "alpha(%)": -0.15,
+                    "beta": 0.2
                 }
             }
         },

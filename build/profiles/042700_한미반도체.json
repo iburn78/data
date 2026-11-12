@@ -1,7 +1,7 @@
 {
     "key": "042700",
     "filename": "042700_한미반도체",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 09:33",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "042700",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 16500,
+                "marcap": 17500,
                 "revenue_ltm": 636,
                 "opincome_ltm": 297,
                 "revenue_qtr": 251,
@@ -47,27 +47,27 @@
                 "ltm": 47
             },
             "PER": {
-                "PER_ltm": 55.7,
-                "PER_qx4": 31.7,
-                "PER_fwd": 29.4
+                "PER_ltm": 59.1,
+                "PER_qx4": 33.6,
+                "PER_fwd": 31.2
             },
             "volatility": {
-                "measure_to_base(%)": 6.8
+                "measure_to_base(%)": 8.6
             },
             "amount": {
-                "measure_to_base(%)": -49
+                "measure_to_base(%)": -48
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.16,
+                    "alpha(%)": 0.17,
                     "beta": 1.3
                 },
                 "base_period": {
-                    "alpha(%)": -0.11,
+                    "alpha(%)": 0.033,
                     "beta": 1.3
                 },
                 "measure_period": {
-                    "alpha(%)": -0.03,
+                    "alpha(%)": 0.11,
                     "beta": 1.5
                 }
             }

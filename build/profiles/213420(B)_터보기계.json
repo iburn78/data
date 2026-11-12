@@ -1,7 +1,7 @@
 {
     "key": "213420(B)",
     "filename": "213420(B)_터보기계",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-22 13:18",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "213420",
             "segment_name": "터보기계",
             "id": "B",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 151,
+                "marcap": 157,
                 "revenue_ltm": 113,
                 "opincome_ltm": 27.6,
                 "revenue_qtr": 27.4,
@@ -47,28 +47,28 @@
                 "ltm": 24
             },
             "PER": {
-                "PER_ltm": 5.44,
-                "PER_qx4": 5.6,
-                "PER_fwd": 4.85
+                "PER_ltm": 5.66,
+                "PER_qx4": 5.83,
+                "PER_fwd": 5.05
             },
             "volatility": {
-                "measure_to_base(%)": -14
+                "measure_to_base(%)": -6.7
             },
             "amount": {
                 "measure_to_base(%)": -48
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.027,
-                    "beta": 0.89
+                    "alpha(%)": 0.028,
+                    "beta": 0.9
                 },
                 "base_period": {
-                    "alpha(%)": -0.46,
-                    "beta": 0.58
+                    "alpha(%)": -0.4,
+                    "beta": 0.59
                 },
                 "measure_period": {
-                    "alpha(%)": -0.91,
-                    "beta": 0.74
+                    "alpha(%)": -0.74,
+                    "beta": 0.77
                 }
             }
         },

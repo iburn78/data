@@ -1,7 +1,7 @@
 {
     "key": "014530",
     "filename": "014530_극동유화",
-    "updated": "2026-11-11 16:58",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 16:58",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "014530",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 16:58",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -47,12 +47,12 @@
                 "ltm": 3.3
             },
             "PER": {
-                "PER_ltm": 3.19,
-                "PER_qx4": 2.09,
-                "PER_fwd": 1.91
+                "PER_ltm": 3.21,
+                "PER_qx4": 2.1,
+                "PER_fwd": 1.92
             },
             "volatility": {
-                "measure_to_base(%)": -37
+                "measure_to_base(%)": -36
             },
             "amount": {
                 "measure_to_base(%)": -68
@@ -63,12 +63,12 @@
                     "beta": 0.14
                 },
                 "base_period": {
-                    "alpha(%)": -0.084,
-                    "beta": 0.056
+                    "alpha(%)": -0.08,
+                    "beta": 0.057
                 },
                 "measure_period": {
-                    "alpha(%)": -0.26,
-                    "beta": 0.098
+                    "alpha(%)": -0.24,
+                    "beta": 0.11
                 }
             }
         },

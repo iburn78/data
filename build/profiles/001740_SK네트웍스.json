@@ -1,7 +1,7 @@
 {
     "key": "001740",
     "filename": "001740_SK네트웍스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 12:02",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "001740",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "소비재",
                 "subsector": "자유소비재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1120,
+                "marcap": 1160,
                 "revenue_ltm": 6250,
                 "opincome_ltm": 87.4,
                 "revenue_qtr": 1440,
@@ -47,28 +47,28 @@
                 "ltm": 1.4
             },
             "PER": {
-                "PER_ltm": 12.8,
-                "PER_qx4": 11.3,
-                "PER_fwd": 14.6
+                "PER_ltm": 13.3,
+                "PER_qx4": 11.7,
+                "PER_fwd": 15.2
             },
             "volatility": {
-                "measure_to_base(%)": -41
+                "measure_to_base(%)": -35
             },
             "amount": {
                 "measure_to_base(%)": -95
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.0034,
+                    "alpha(%)": -0.0027,
                     "beta": 0.71
                 },
                 "base_period": {
-                    "alpha(%)": -0.082,
-                    "beta": 0.58
+                    "alpha(%)": -0.016,
+                    "beta": 0.59
                 },
                 "measure_period": {
-                    "alpha(%)": 0.28,
-                    "beta": 0.63
+                    "alpha(%)": 0.34,
+                    "beta": 0.68
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "214150",
     "filename": "214150_클래시스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 17:39",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "214150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "헬스케어 제품 및 서비스",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1690,
+                "marcap": 1640,
                 "revenue_ltm": 392,
                 "opincome_ltm": 176,
                 "revenue_qtr": 106,
@@ -47,28 +47,28 @@
                 "ltm": 45
             },
             "PER": {
-                "PER_ltm": 9.57,
-                "PER_qx4": 9.59,
-                "PER_fwd": 8.73
+                "PER_ltm": 9.33,
+                "PER_qx4": 9.35,
+                "PER_fwd": 8.51
             },
             "volatility": {
-                "measure_to_base(%)": -28
+                "measure_to_base(%)": -35
             },
             "amount": {
                 "measure_to_base(%)": -49
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.093,
+                    "alpha(%)": 0.092,
                     "beta": 0.61
                 },
                 "base_period": {
-                    "alpha(%)": -0.45,
+                    "alpha(%)": -0.44,
                     "beta": 0.22
                 },
                 "measure_period": {
-                    "alpha(%)": -0.21,
-                    "beta": 0.14
+                    "alpha(%)": -0.36,
+                    "beta": 0.12
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "128820",
     "filename": "128820_대성산업",
-    "updated": "2026-11-11 17:07",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:06",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "128820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:07",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 170,
+                "marcap": 173,
                 "revenue_ltm": 1570,
                 "opincome_ltm": 21.4,
                 "revenue_qtr": 366,
@@ -47,15 +47,15 @@
                 "ltm": 1.4
             },
             "PER": {
-                "PER_ltm": 7.95,
-                "PER_qx4": 14.1,
-                "PER_fwd": 16.9
+                "PER_ltm": 8.09,
+                "PER_qx4": 14.3,
+                "PER_fwd": 17.2
             },
             "volatility": {
-                "measure_to_base(%)": 8.5
+                "measure_to_base(%)": -20
             },
             "amount": {
-                "measure_to_base(%)": 160
+                "measure_to_base(%)": 21
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,21 +63,21 @@
                     "beta": 0.5
                 },
                 "base_period": {
-                    "alpha(%)": -0.43,
+                    "alpha(%)": -0.37,
                     "beta": 0.29
                 },
                 "measure_period": {
-                    "alpha(%)": -1.1,
-                    "beta": 0.47
+                    "alpha(%)": -0.86,
+                    "beta": 0.39
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Low",
+            "PER_level": "Mid",
             "volatility_level": "-",
-            "amount_level": "Up",
+            "amount_level": "-",
             "alpha_level": "udr_pfm",
             "category": "D",
             "market_sentiment": "-"

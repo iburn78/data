@@ -1,7 +1,7 @@
 {
     "key": "403870",
     "filename": "403870_HPSP",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 13:14",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "403870",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 3000,
+                "marcap": 3300,
                 "revenue_ltm": 177,
                 "opincome_ltm": 100,
                 "revenue_qtr": 46.1,
@@ -47,27 +47,27 @@
                 "ltm": 57
             },
             "PER": {
-                "PER_ltm": 29.9,
-                "PER_qx4": 26.5,
-                "PER_fwd": 25.3
+                "PER_ltm": 32.9,
+                "PER_qx4": 29.1,
+                "PER_fwd": 27.9
             },
             "volatility": {
-                "measure_to_base(%)": -7.6
+                "measure_to_base(%)": -5.8
             },
             "amount": {
-                "measure_to_base(%)": -67
+                "measure_to_base(%)": -68
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.1,
+                    "alpha(%)": 0.11,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": 0.25,
+                    "alpha(%)": 0.27,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -1.2,
+                    "alpha(%)": -0.79,
                     "beta": 1.4
                 }
             }

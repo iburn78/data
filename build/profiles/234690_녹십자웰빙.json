@@ -1,7 +1,7 @@
 {
     "key": "234690",
     "filename": "234690_녹십자웰빙",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 12:53",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "234690",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "제약 및 바이오",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 168,
+                "marcap": 171,
                 "revenue_ltm": 202,
                 "opincome_ltm": 17,
                 "revenue_qtr": 52.1,
@@ -47,15 +47,15 @@
                 "ltm": 8.4
             },
             "PER": {
-                "PER_ltm": 9.9,
-                "PER_qx4": 9.06,
-                "PER_fwd": 8.4
+                "PER_ltm": 10.1,
+                "PER_qx4": 9.22,
+                "PER_fwd": 8.55
             },
             "volatility": {
-                "measure_to_base(%)": 44
+                "measure_to_base(%)": 39
             },
             "amount": {
-                "measure_to_base(%)": 27
+                "measure_to_base(%)": 22
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.64
                 },
                 "base_period": {
-                    "alpha(%)": 0.041,
-                    "beta": 0.34
+                    "alpha(%)": 0.075,
+                    "beta": 0.35
                 },
                 "measure_period": {
-                    "alpha(%)": -0.13,
-                    "beta": 0.9
+                    "alpha(%)": -0.22,
+                    "beta": 0.93
                 }
             }
         },
@@ -77,10 +77,10 @@
             "financially_sound": false,
             "PER_level": "Mid",
             "volatility_level": "Up",
-            "amount_level": "Up",
+            "amount_level": "-",
             "alpha_level": "-",
             "category": "D",
-            "market_sentiment": "unstable"
+            "market_sentiment": "-"
         }
     },
     "info_section": {

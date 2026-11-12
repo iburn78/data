@@ -1,7 +1,7 @@
 {
     "key": "081180",
     "filename": "081180_쎄크",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-21 09:47",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "081180",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 42.5,
+                "marcap": 43.6,
                 "revenue_ltm": 47.6,
                 "opincome_ltm": -10.5,
                 "revenue_qtr": 7.55,
@@ -52,10 +52,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -22
+                "measure_to_base(%)": -20
             },
             "amount": {
-                "measure_to_base(%)": -5.2
+                "measure_to_base(%)": 2.9
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.79
                 },
                 "base_period": {
-                    "alpha(%)": -0.29,
+                    "alpha(%)": -0.23,
                     "beta": 0.78
                 },
                 "measure_period": {
-                    "alpha(%)": 0.13,
-                    "beta": 0.92
+                    "alpha(%)": -0.16,
+                    "beta": 1.1
                 }
             }
         },

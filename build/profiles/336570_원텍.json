@@ -1,7 +1,7 @@
 {
     "key": "336570",
     "filename": "336570_원텍",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 16:57",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "336570",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "헬스케어 제품 및 서비스",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 319,
+                "marcap": 321,
                 "revenue_ltm": 182,
                 "opincome_ltm": 45.6,
                 "revenue_qtr": 47.5,
@@ -47,15 +47,15 @@
                 "ltm": 25
             },
             "PER": {
-                "PER_ltm": 7,
-                "PER_qx4": 7.2,
-                "PER_fwd": 6.65
+                "PER_ltm": 7.04,
+                "PER_qx4": 7.25,
+                "PER_fwd": 6.7
             },
             "volatility": {
-                "measure_to_base(%)": -20
+                "measure_to_base(%)": -18
             },
             "amount": {
-                "measure_to_base(%)": -65
+                "measure_to_base(%)": -64
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,11 +63,11 @@
                     "beta": 0.46
                 },
                 "base_period": {
-                    "alpha(%)": -0.48,
+                    "alpha(%)": -0.44,
                     "beta": 0.53
                 },
                 "measure_period": {
-                    "alpha(%)": -0.93,
+                    "alpha(%)": -0.92,
                     "beta": 0.54
                 }
             }

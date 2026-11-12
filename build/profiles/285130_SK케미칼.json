@@ -1,7 +1,7 @@
 {
     "key": "285130",
     "filename": "285130_SK케미칼",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 11:19",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "285130",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 746,
+                "marcap": 689,
                 "revenue_ltm": 2770,
                 "opincome_ltm": 6.71,
                 "revenue_qtr": 745,
@@ -47,28 +47,28 @@
                 "ltm": 0.24
             },
             "PER": {
-                "PER_ltm": 111,
-                "PER_qx4": 5.77,
-                "PER_fwd": 4.85
+                "PER_ltm": 103,
+                "PER_qx4": 5.33,
+                "PER_fwd": 4.48
             },
             "volatility": {
-                "measure_to_base(%)": -0.88
+                "measure_to_base(%)": 11
             },
             "amount": {
-                "measure_to_base(%)": -25
+                "measure_to_base(%)": -21
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.0037,
+                    "alpha(%)": -0.0077,
                     "beta": 0.57
                 },
                 "base_period": {
-                    "alpha(%)": 0.011,
-                    "beta": 0.25
+                    "alpha(%)": -0.03,
+                    "beta": 0.24
                 },
                 "measure_period": {
-                    "alpha(%)": -0.39,
-                    "beta": 0.41
+                    "alpha(%)": -0.81,
+                    "beta": 0.28
                 }
             }
         },
@@ -78,7 +78,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "-",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "D",
             "market_sentiment": "-"
         }

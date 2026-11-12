@@ -1,7 +1,7 @@
 {
     "key": "화장품 용기 제조",
     "filename": "화장품_용기_제조",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-23 14:21",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 836,
+                "marcap": 924,
                 "revenue_ltm": 403,
                 "opincome_ltm": 64.6,
                 "revenue_qtr": 117,
@@ -51,28 +51,28 @@
                 "ltm": 16
             },
             "PER": {
-                "PER_ltm": 12.9,
-                "PER_qx4": 9.65,
-                "PER_fwd": 8.84
+                "PER_ltm": 14.3,
+                "PER_qx4": 10.7,
+                "PER_fwd": 9.78
             },
             "volatility": {
-                "measure_to_base(%)": -48
+                "measure_to_base(%)": -36
             },
             "amount": {
-                "measure_to_base(%)": 97
+                "measure_to_base(%)": 93
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.078,
+                    "alpha(%)": 0.083,
                     "beta": 0.42
                 },
                 "base_period": {
-                    "alpha(%)": 0.56,
-                    "beta": -0.0053
+                    "alpha(%)": 0.65,
+                    "beta": 0.0087
                 },
                 "measure_period": {
-                    "alpha(%)": -0.091,
-                    "beta": -0.16
+                    "alpha(%)": 0.62,
+                    "beta": -0.11
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -87,11 +87,11 @@
         "assess_result": {
             "basics": true,
             "financially_sound": true,
-            "PER_level": "Mid",
+            "PER_level": "High",
             "volatility_level": "Dn",
             "amount_level": "Up",
-            "alpha_level": "-",
-            "category": "B",
+            "alpha_level": "out_pfm",
+            "category": "C",
             "market_sentiment": "confidence"
         }
     },

@@ -1,7 +1,7 @@
 {
     "key": "Display",
     "filename": "Display",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-20 15:00",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1530,
+                "marcap": 1580,
                 "revenue_ltm": 2580,
                 "opincome_ltm": 250,
                 "revenue_qtr": 661,
@@ -51,28 +51,28 @@
                 "ltm": 9.7
             },
             "PER": {
-                "PER_ltm": 6.11,
-                "PER_qx4": 5.82,
-                "PER_fwd": 6.45
+                "PER_ltm": 6.32,
+                "PER_qx4": 6.02,
+                "PER_fwd": 6.67
             },
             "volatility": {
-                "measure_to_base(%)": -2.9
+                "measure_to_base(%)": 5.3
             },
             "amount": {
                 "measure_to_base(%)": -48
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.004,
+                    "alpha(%)": -0.0036,
                     "beta": 0.88
                 },
                 "base_period": {
-                    "alpha(%)": -0.44,
+                    "alpha(%)": -0.4,
                     "beta": 0.61
                 },
                 "measure_period": {
-                    "alpha(%)": -0.97,
-                    "beta": 0.72
+                    "alpha(%)": -0.81,
+                    "beta": 0.74
                 },
                 "indplot_long": {
                     "alpha(%)": null,

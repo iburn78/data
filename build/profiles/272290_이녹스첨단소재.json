@@ -1,7 +1,7 @@
 {
     "key": "272290",
     "filename": "272290_이녹스첨단소재",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-20 15:01",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "272290",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 303,
+                "marcap": 322,
                 "revenue_ltm": 415,
                 "opincome_ltm": 50.5,
                 "revenue_qtr": 109,
@@ -47,27 +47,27 @@
                 "ltm": 12
             },
             "PER": {
-                "PER_ltm": 6,
-                "PER_qx4": 7.25,
-                "PER_fwd": 10.1
+                "PER_ltm": 6.38,
+                "PER_qx4": 7.7,
+                "PER_fwd": 10.7
             },
             "volatility": {
-                "measure_to_base(%)": 2.5
+                "measure_to_base(%)": 12
             },
             "amount": {
-                "measure_to_base(%)": -41
+                "measure_to_base(%)": -39
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.031,
+                    "alpha(%)": -0.03,
                     "beta": 0.98
                 },
                 "base_period": {
                     "alpha(%)": -0.34,
-                    "beta": 0.68
+                    "beta": 0.69
                 },
                 "measure_period": {
-                    "alpha(%)": -0.85,
+                    "alpha(%)": -0.53,
                     "beta": 0.97
                 }
             }

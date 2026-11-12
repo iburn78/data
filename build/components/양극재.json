@@ -1,7 +1,7 @@
 {
     "key": "양극재",
     "filename": "양극재",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-21 10:19",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 45000,
+                "marcap": 47600,
                 "revenue_ltm": 60400,
                 "opincome_ltm": 1110,
                 "revenue_qtr": 16500,
@@ -51,28 +51,28 @@
                 "ltm": 1.8
             },
             "PER": {
-                "PER_ltm": 40.7,
-                "PER_qx4": 16.8,
-                "PER_fwd": 14.8
+                "PER_ltm": 43,
+                "PER_qx4": 17.8,
+                "PER_fwd": 15.6
             },
             "volatility": {
-                "measure_to_base(%)": 31
+                "measure_to_base(%)": 36
             },
             "amount": {
-                "measure_to_base(%)": -18
+                "measure_to_base(%)": -20
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0081,
+                    "alpha(%)": 0.0092,
                     "beta": 1
                 },
                 "base_period": {
-                    "alpha(%)": -0.19,
+                    "alpha(%)": -0.15,
                     "beta": 0.62
                 },
                 "measure_period": {
-                    "alpha(%)": -0.061,
-                    "beta": 1.1
+                    "alpha(%)": 0.05,
+                    "beta": 1.2
                 },
                 "indplot_long": {
                     "alpha(%)": null,

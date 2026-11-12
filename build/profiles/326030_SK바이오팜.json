@@ -1,7 +1,7 @@
 {
     "key": "326030",
     "filename": "326030_SK바이오팜",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 11:10",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "326030",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "제약 및 바이오",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 6840,
+                "marcap": 6790,
                 "revenue_ltm": 917,
                 "opincome_ltm": 330,
                 "revenue_qtr": 247,
@@ -47,28 +47,28 @@
                 "ltm": 36
             },
             "PER": {
-                "PER_ltm": 20.7,
-                "PER_qx4": 17.6,
-                "PER_fwd": 14.3
+                "PER_ltm": 20.6,
+                "PER_qx4": 17.5,
+                "PER_fwd": 14.2
             },
             "volatility": {
-                "measure_to_base(%)": -5.3
+                "measure_to_base(%)": -4.8
             },
             "amount": {
-                "measure_to_base(%)": -9.2
+                "measure_to_base(%)": -3.6
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.028,
+                    "alpha(%)": -0.03,
                     "beta": 0.59
                 },
                 "base_period": {
-                    "alpha(%)": 0.022,
+                    "alpha(%)": 0.02,
                     "beta": 0.26
                 },
                 "measure_period": {
                     "alpha(%)": 1.2,
-                    "beta": 0.0077
+                    "beta": -0.085
                 }
             }
         },

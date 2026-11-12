@@ -1,7 +1,7 @@
 {
     "key": "038620",
     "filename": "038620_위즈코프",
-    "updated": "2026-11-11 17:00",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:00",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "038620",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:00",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -48,27 +48,27 @@
             },
             "PER": {
                 "PER_ltm": 4.2,
-                "PER_qx4": 3,
+                "PER_qx4": 3.01,
                 "PER_fwd": 2.62
             },
             "volatility": {
-                "measure_to_base(%)": 6.3
+                "measure_to_base(%)": -4.4
             },
             "amount": {
-                "measure_to_base(%)": -48
+                "measure_to_base(%)": -60
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.02,
+                    "alpha(%)": -0.021,
                     "beta": 0.62
                 },
                 "base_period": {
-                    "alpha(%)": 0.004,
+                    "alpha(%)": -0.038,
                     "beta": 0.21
                 },
                 "measure_period": {
-                    "alpha(%)": -0.91,
-                    "beta": 0.17
+                    "alpha(%)": -0.96,
+                    "beta": 0.23
                 }
             }
         },

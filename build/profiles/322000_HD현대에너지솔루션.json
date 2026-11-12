@@ -1,7 +1,7 @@
 {
     "key": "322000",
     "filename": "322000_HD현대에너지솔루션",
-    "updated": "2026-11-11 17:10",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:10",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "322000",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:10",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 936,
+                "marcap": 974,
                 "revenue_ltm": 643,
                 "opincome_ltm": 116,
                 "revenue_qtr": 165,
@@ -47,15 +47,15 @@
                 "ltm": 18
             },
             "PER": {
-                "PER_ltm": 8.09,
-                "PER_qx4": 6.48,
-                "PER_fwd": 4.99
+                "PER_ltm": 8.42,
+                "PER_qx4": 6.75,
+                "PER_fwd": 5.19
             },
             "volatility": {
-                "measure_to_base(%)": 9.4
+                "measure_to_base(%)": 16
             },
             "amount": {
-                "measure_to_base(%)": -33
+                "measure_to_base(%)": -31
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 1
                 },
                 "base_period": {
-                    "alpha(%)": -0.3,
-                    "beta": 0.76
+                    "alpha(%)": -0.34,
+                    "beta": 0.77
                 },
                 "measure_period": {
-                    "alpha(%)": -1.6,
-                    "beta": 1.1
+                    "alpha(%)": -1.2,
+                    "beta": 1
                 }
             }
         },

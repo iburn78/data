@@ -1,7 +1,7 @@
 {
     "key": "270520",
     "filename": "270520_앱튼",
-    "updated": "2026-11-11 17:09",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:09",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "270520",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:09",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 16.2,
+                "marcap": 14.7,
                 "revenue_ltm": 13.6,
                 "opincome_ltm": -8.06,
                 "revenue_qtr": 3.37,
@@ -52,23 +52,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -11
+                "measure_to_base(%)": -3.2
             },
             "amount": {
                 "measure_to_base(%)": -45
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.034,
+                    "alpha(%)": -0.039,
                     "beta": 0.58
                 },
                 "base_period": {
-                    "alpha(%)": -0.64,
-                    "beta": 0.21
+                    "alpha(%)": -0.66,
+                    "beta": 0.2
                 },
                 "measure_period": {
-                    "alpha(%)": -3,
-                    "beta": 0.45
+                    "alpha(%)": -3.4,
+                    "beta": 0.36
                 }
             }
         },

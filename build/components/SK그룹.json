@@ -1,7 +1,7 @@
 {
     "key": "SK그룹",
     "filename": "SK그룹",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:08",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1080000,
+                "marcap": 1130000,
                 "revenue_ltm": 537000,
                 "opincome_ltm": 253000,
                 "revenue_qtr": 161000,
@@ -51,19 +51,19 @@
                 "ltm": 47
             },
             "PER": {
-                "PER_ltm": 4.26,
-                "PER_qx4": 3.04,
-                "PER_fwd": 2.47
+                "PER_ltm": 4.47,
+                "PER_qx4": 3.19,
+                "PER_fwd": 2.59
             },
             "volatility": {
-                "measure_to_base(%)": 3.2
+                "measure_to_base(%)": 9.2
             },
             "amount": {
                 "measure_to_base(%)": -47
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.062,
+                    "alpha(%)": 0.063,
                     "beta": 1.4
                 },
                 "base_period": {
@@ -168,12 +168,12 @@
             "name": "SK디앤디"
         },
         {
-            "key": "060570",
-            "name": "드림어스컴퍼니"
-        },
-        {
             "key": "216050",
             "name": "인크로스"
+        },
+        {
+            "key": "060570",
+            "name": "드림어스컴퍼니"
         },
         {
             "key": "007820",

@@ -1,7 +1,7 @@
 {
     "key": "버스덕트",
     "filename": "버스덕트",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-21 17:20",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 6100,
+                "marcap": 6390,
                 "revenue_ltm": 3120,
                 "opincome_ltm": 108,
                 "revenue_qtr": 869,
@@ -51,15 +51,15 @@
                 "ltm": 3.5
             },
             "PER": {
-                "PER_ltm": 56.5,
-                "PER_qx4": 42.2,
-                "PER_fwd": 36.2
+                "PER_ltm": 59.1,
+                "PER_qx4": 44.2,
+                "PER_fwd": 37.8
             },
             "volatility": {
-                "measure_to_base(%)": -12
+                "measure_to_base(%)": -8.4
             },
             "amount": {
-                "measure_to_base(%)": -47
+                "measure_to_base(%)": -48
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -67,12 +67,12 @@
                     "beta": 1.1
                 },
                 "base_period": {
-                    "alpha(%)": 0.78,
+                    "alpha(%)": 0.69,
                     "beta": 1.2
                 },
                 "measure_period": {
-                    "alpha(%)": -0.11,
-                    "beta": 2
+                    "alpha(%)": -0.23,
+                    "beta": 2.1
                 },
                 "indplot_long": {
                     "alpha(%)": null,

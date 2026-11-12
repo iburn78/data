@@ -1,7 +1,7 @@
 {
     "key": "136150",
     "filename": "136150_원일티엔아이",
-    "updated": "2026-11-11 17:07",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:07",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "136150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:07",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 52,
+                "marcap": 54.1,
                 "revenue_ltm": 35.5,
                 "opincome_ltm": 0.0192,
                 "revenue_qtr": 9.95,
@@ -47,28 +47,28 @@
                 "ltm": 0.054
             },
             "PER": {
-                "PER_ltm": 2710,
-                "PER_qx4": 24,
-                "PER_fwd": 291
+                "PER_ltm": 2820,
+                "PER_qx4": 24.9,
+                "PER_fwd": 302
             },
             "volatility": {
-                "measure_to_base(%)": -12
+                "measure_to_base(%)": -10
             },
             "amount": {
-                "measure_to_base(%)": -71
+                "measure_to_base(%)": -80
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.53,
+                    "alpha(%)": -0.52,
                     "beta": 0.74
                 },
                 "base_period": {
-                    "alpha(%)": -0.32,
-                    "beta": 0.87
+                    "alpha(%)": -0.26,
+                    "beta": 0.88
                 },
                 "measure_period": {
-                    "alpha(%)": -1.7,
-                    "beta": 0.9
+                    "alpha(%)": -1.6,
+                    "beta": 0.94
                 }
             }
         },

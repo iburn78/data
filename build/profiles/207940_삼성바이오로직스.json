@@ -1,7 +1,7 @@
 {
     "key": "207940",
     "filename": "207940_삼성바이오로직스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-22 15:48",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "207940",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": {
                 "sector": "헬스케어",
                 "subsector": "제약 및 바이오",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 68000,
+                "marcap": 66200,
                 "revenue_ltm": 4210,
                 "opincome_ltm": 2130,
                 "revenue_qtr": 1320,
@@ -47,28 +47,28 @@
                 "ltm": 51
             },
             "PER": {
-                "PER_ltm": 31.9,
-                "PER_qx4": 29,
-                "PER_fwd": 25.5
+                "PER_ltm": 31.1,
+                "PER_qx4": 28.2,
+                "PER_fwd": 24.8
             },
             "volatility": {
                 "measure_to_base(%)": 33
             },
             "amount": {
-                "measure_to_base(%)": 48
+                "measure_to_base(%)": 52
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.085,
+                    "alpha(%)": 0.084,
                     "beta": 0.47
                 },
                 "base_period": {
-                    "alpha(%)": 0.096,
+                    "alpha(%)": 0.091,
                     "beta": 0.1
                 },
                 "measure_period": {
-                    "alpha(%)": 1.1,
-                    "beta": -0.16
+                    "alpha(%)": 0.77,
+                    "beta": -0.074
                 }
             }
         },

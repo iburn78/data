@@ -1,7 +1,7 @@
 {
     "key": "바이오시밀러",
     "filename": "바이오시밀러",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-24 11:59",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 55600,
+                "marcap": 56800,
                 "revenue_ltm": 6500,
                 "opincome_ltm": 1910,
                 "revenue_qtr": 1790,
@@ -51,15 +51,15 @@
                 "ltm": 29
             },
             "PER": {
-                "PER_ltm": 29.1,
-                "PER_qx4": 27.2,
-                "PER_fwd": 21.8
+                "PER_ltm": 29.8,
+                "PER_qx4": 27.8,
+                "PER_fwd": 22.3
             },
             "volatility": {
-                "measure_to_base(%)": 8.4
+                "measure_to_base(%)": 13
             },
             "amount": {
-                "measure_to_base(%)": 17
+                "measure_to_base(%)": 21
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -67,12 +67,12 @@
                     "beta": 0.6
                 },
                 "base_period": {
-                    "alpha(%)": 0.096,
+                    "alpha(%)": 0.14,
                     "beta": 0.2
                 },
                 "measure_period": {
-                    "alpha(%)": 0.66,
-                    "beta": 0.033
+                    "alpha(%)": 0.76,
+                    "beta": 0.043
                 },
                 "indplot_long": {
                     "alpha(%)": null,

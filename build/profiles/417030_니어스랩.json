@@ -1,7 +1,7 @@
 {
     "key": "417030",
     "filename": "417030_니어스랩",
-    "updated": "2026-11-11 17:12",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:11",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "417030",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:12",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 70,
+                "marcap": 77.6,
                 "revenue_ltm": 37,
                 "opincome_ltm": -9.32,
                 "revenue_qtr": 16.9,
@@ -48,27 +48,27 @@
             },
             "PER": {
                 "PER_ltm": null,
-                "PER_qx4": 25.7,
-                "PER_fwd": 4.25
+                "PER_qx4": 28.5,
+                "PER_fwd": 4.71
             },
             "volatility": {
-                "measure_to_base(%)": -18
+                "measure_to_base(%)": -12
             },
             "amount": {
                 "measure_to_base(%)": -92
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.88,
+                    "alpha(%)": -0.69,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.88,
+                    "alpha(%)": -0.69,
                     "beta": 1.2
                 },
                 "measure_period": {
-                    "alpha(%)": -1.1,
-                    "beta": 0.96
+                    "alpha(%)": -0.66,
+                    "beta": 1.1
                 }
             }
         },

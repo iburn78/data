@@ -1,7 +1,7 @@
 {
     "key": "017670",
     "filename": "017670_SK텔레콤",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 11:46",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "017670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "미디어·콘텐츠",
                 "subsector": "통신 서비스",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 17500,
+                "marcap": 17800,
                 "revenue_ltm": 17400,
                 "opincome_ltm": 1790,
                 "revenue_qtr": 4360,
@@ -47,15 +47,15 @@
                 "ltm": 10
             },
             "PER": {
-                "PER_ltm": 9.79,
-                "PER_qx4": 7.73,
-                "PER_fwd": 7.83
+                "PER_ltm": 9.93,
+                "PER_qx4": 7.85,
+                "PER_fwd": 7.95
             },
             "volatility": {
-                "measure_to_base(%)": -16
+                "measure_to_base(%)": -13
             },
             "amount": {
-                "measure_to_base(%)": -55
+                "measure_to_base(%)": -54
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.43
                 },
                 "base_period": {
-                    "alpha(%)": -0.016,
+                    "alpha(%)": -0.0049,
                     "beta": 0.42
                 },
                 "measure_period": {
-                    "alpha(%)": 0.34,
-                    "beta": 0.54
+                    "alpha(%)": 0.35,
+                    "beta": 0.52
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "115530",
     "filename": "115530_씨엔플러스",
-    "updated": "2026-11-11 17:06",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:06",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "115530",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:06",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 18.2,
+                "marcap": 20,
                 "revenue_ltm": 69.1,
                 "opincome_ltm": 1.94,
                 "revenue_qtr": 21.5,
@@ -47,28 +47,28 @@
                 "ltm": 2.8
             },
             "PER": {
-                "PER_ltm": 9.4,
-                "PER_qx4": 5.27,
-                "PER_fwd": 4.36
+                "PER_ltm": 10.3,
+                "PER_qx4": 5.79,
+                "PER_fwd": 4.79
             },
             "volatility": {
-                "measure_to_base(%)": -12
+                "measure_to_base(%)": -0.77
             },
             "amount": {
-                "measure_to_base(%)": -34
+                "measure_to_base(%)": -33
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.036,
+                    "alpha(%)": -0.033,
                     "beta": 0.33
                 },
                 "base_period": {
-                    "alpha(%)": -0.17,
-                    "beta": 0.37
+                    "alpha(%)": -0.089,
+                    "beta": 0.38
                 },
                 "measure_period": {
-                    "alpha(%)": -0.76,
-                    "beta": 0.52
+                    "alpha(%)": -0.3,
+                    "beta": 0.66
                 }
             }
         },
@@ -78,7 +78,7 @@
             "PER_level": "Mid",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }

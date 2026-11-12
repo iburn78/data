@@ -1,7 +1,7 @@
 {
     "key": "336260",
     "filename": "336260_두산퓨얼셀",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-06 14:14",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "336260",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 11:26",
             "classification": {
                 "sector": "에너지화학",
                 "subsector": "에너지",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1870,
+                "marcap": 1930,
                 "revenue_ltm": 369,
                 "opincome_ltm": -180,
                 "revenue_qtr": 44.3,
@@ -52,10 +52,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -2.5
+                "measure_to_base(%)": -1.7
             },
             "amount": {
-                "measure_to_base(%)": -61
+                "measure_to_base(%)": -62
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 1.3
                 },
                 "base_period": {
-                    "alpha(%)": -0.33,
+                    "alpha(%)": -0.31,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -0.43,
-                    "beta": 1.5
+                    "alpha(%)": -0.35,
+                    "beta": 1.4
                 }
             }
         },

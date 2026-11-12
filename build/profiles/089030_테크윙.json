@@ -1,7 +1,7 @@
 {
     "key": "089030",
     "filename": "089030_테크윙",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 09:37",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "089030",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1190,
+                "marcap": 1440,
                 "revenue_ltm": 200,
                 "opincome_ltm": 35.3,
                 "revenue_qtr": 56.8,
@@ -47,27 +47,27 @@
                 "ltm": 18
             },
             "PER": {
-                "PER_ltm": 33.7,
-                "PER_qx4": 23.8,
-                "PER_fwd": 21.3
+                "PER_ltm": 40.7,
+                "PER_qx4": 28.7,
+                "PER_fwd": 25.7
             },
             "volatility": {
-                "measure_to_base(%)": 20
+                "measure_to_base(%)": 34
             },
             "amount": {
                 "measure_to_base(%)": -70
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.082,
+                    "alpha(%)": 0.088,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": 0.096,
+                    "alpha(%)": 0.27,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -1,
+                    "alpha(%)": 0.15,
                     "beta": 1.6
                 }
             }
@@ -76,11 +76,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_level": "-",
+            "volatility_level": "Up",
             "amount_level": "Dn",
-            "alpha_level": "udr_pfm",
+            "alpha_level": "-",
             "category": "C",
-            "market_sentiment": "-"
+            "market_sentiment": "speculators"
         }
     },
     "info_section": {

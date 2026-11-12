@@ -1,7 +1,7 @@
 {
     "key": "AI 데이터센터",
     "filename": "AI_데이터센터",
-    "updated": "2026-11-11 15:18",
+    "updated": "2026-11-12 10:43",
     "llm_research_updated": "2026-10-22 18:35",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:18",
+            "updated": "2026-11-12 10:43",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 9560,
+                "marcap": 10100,
                 "revenue_ltm": 3770,
                 "opincome_ltm": 119,
                 "revenue_qtr": 1040,
@@ -51,28 +51,28 @@
                 "ltm": 3.2
             },
             "PER": {
-                "PER_ltm": 80.2,
-                "PER_qx4": 64.4,
-                "PER_fwd": 52.8
+                "PER_ltm": 84.6,
+                "PER_qx4": 68,
+                "PER_fwd": 55.7
             },
             "volatility": {
-                "measure_to_base(%)": 9.9
+                "measure_to_base(%)": 14
             },
             "amount": {
                 "measure_to_base(%)": -34
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.092,
+                    "alpha(%)": 0.093,
                     "beta": 1.1
                 },
                 "base_period": {
-                    "alpha(%)": 0.35,
+                    "alpha(%)": 0.33,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": 0.087,
-                    "beta": 1.8
+                    "alpha(%)": 0.07,
+                    "beta": 1.9
                 },
                 "indplot_long": {
                     "alpha(%)": null,

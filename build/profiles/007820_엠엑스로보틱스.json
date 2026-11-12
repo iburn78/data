@@ -1,7 +1,7 @@
 {
     "key": "007820",
     "filename": "007820_엠엑스로보틱스",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:11",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "007820",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "산업재",
                 "subsector": "자본재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 58.3,
+                "marcap": 60.5,
                 "revenue_ltm": 113,
                 "opincome_ltm": -11.1,
                 "revenue_qtr": 28.7,
@@ -52,23 +52,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -5.2
+                "measure_to_base(%)": -2.3
             },
             "amount": {
                 "measure_to_base(%)": -93
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.036,
+                    "alpha(%)": -0.035,
                     "beta": 0.91
                 },
                 "base_period": {
-                    "alpha(%)": -0.37,
+                    "alpha(%)": -0.3,
                     "beta": 0.69
                 },
                 "measure_period": {
-                    "alpha(%)": -0.5,
-                    "beta": 0.91
+                    "alpha(%)": -0.44,
+                    "beta": 0.96
                 }
             }
         },

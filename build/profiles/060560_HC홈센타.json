@@ -1,7 +1,7 @@
 {
     "key": "060560",
     "filename": "060560_HC홈센타",
-    "updated": "2026-11-11 17:02",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:02",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "060560",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:02",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 46.6,
+                "marcap": 46.7,
                 "revenue_ltm": 321,
                 "opincome_ltm": -15.2,
                 "revenue_qtr": 85.1,
@@ -52,14 +52,14 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -25
+                "measure_to_base(%)": -27
             },
             "amount": {
-                "measure_to_base(%)": -66
+                "measure_to_base(%)": -84
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.022,
+                    "alpha(%)": -0.023,
                     "beta": 0.41
                 },
                 "base_period": {
@@ -67,8 +67,8 @@
                     "beta": 0.056
                 },
                 "measure_period": {
-                    "alpha(%)": -0.38,
-                    "beta": 0.16
+                    "alpha(%)": -0.27,
+                    "beta": 0.098
                 }
             }
         },
@@ -76,11 +76,11 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "(na)",
-            "volatility_level": "-",
+            "volatility_level": "Dn",
             "amount_level": "Dn",
             "alpha_level": "-",
             "category": "D",
-            "market_sentiment": "-"
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {

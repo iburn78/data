@@ -1,7 +1,7 @@
 {
     "key": "SK디스커버리그룹",
     "filename": "SK디스커버리그룹",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:12",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -56,10 +56,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 26
+                "measure_to_base(%)": 23
             },
             "amount": {
-                "measure_to_base(%)": -1.4
+                "measure_to_base(%)": 0.58
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -67,12 +67,12 @@
                     "beta": 0.64
                 },
                 "base_period": {
-                    "alpha(%)": 0.07,
+                    "alpha(%)": 0.085,
                     "beta": 0.2
                 },
                 "measure_period": {
-                    "alpha(%)": 0.24,
-                    "beta": 0.069
+                    "alpha(%)": 0.36,
+                    "beta": -0.03
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -88,7 +88,7 @@
             "basics": false,
             "financially_sound": false,
             "PER_level": "High",
-            "volatility_level": "Up",
+            "volatility_level": "-",
             "amount_level": "-",
             "alpha_level": "-",
             "category": "D",

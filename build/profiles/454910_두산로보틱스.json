@@ -1,7 +1,7 @@
 {
     "key": "454910",
     "filename": "454910_두산로보틱스",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 11:34",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "454910",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "산업재",
                 "subsector": "자본재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 3290,
+                "marcap": 3450,
                 "revenue_ltm": 63.6,
                 "opincome_ltm": -57.4,
                 "revenue_qtr": 17.7,
@@ -52,23 +52,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -8.3
+                "measure_to_base(%)": -13
             },
             "amount": {
-                "measure_to_base(%)": -87
+                "measure_to_base(%)": -85
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.019,
+                    "alpha(%)": -0.015,
                     "beta": 0.93
                 },
                 "base_period": {
-                    "alpha(%)": -0.42,
-                    "beta": 0.86
+                    "alpha(%)": -0.33,
+                    "beta": 0.87
                 },
                 "measure_period": {
-                    "alpha(%)": -0.35,
-                    "beta": 0.94
+                    "alpha(%)": -0.22,
+                    "beta": 1
                 }
             }
         },

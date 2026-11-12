@@ -1,7 +1,7 @@
 {
     "key": "086670",
     "filename": "086670_비엠티",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-22 09:29",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "086670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "산업재",
                 "subsector": "자본재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 155,
+                "marcap": 161,
                 "revenue_ltm": 167,
                 "opincome_ltm": 17.7,
                 "revenue_qtr": 48.6,
@@ -47,28 +47,28 @@
                 "ltm": 11
             },
             "PER": {
-                "PER_ltm": 8.78,
-                "PER_qx4": 6.16,
-                "PER_fwd": 5.26
+                "PER_ltm": 9.12,
+                "PER_qx4": 6.4,
+                "PER_fwd": 5.46
             },
             "volatility": {
                 "measure_to_base(%)": 44
             },
             "amount": {
-                "measure_to_base(%)": 26
+                "measure_to_base(%)": 32
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.066,
+                    "alpha(%)": 0.067,
                     "beta": 0.72
                 },
                 "base_period": {
-                    "alpha(%)": 0.21,
-                    "beta": 0.55
+                    "alpha(%)": 0.22,
+                    "beta": 0.56
                 },
                 "measure_period": {
-                    "alpha(%)": -0.013,
-                    "beta": 0.83
+                    "alpha(%)": 0.17,
+                    "beta": 0.79
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "475150",
     "filename": "475150_SK이터닉스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-06 14:09",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "475150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 11:26",
             "classification": {
                 "sector": "에너지화학",
                 "subsector": "에너지",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1290,
+                "marcap": 1330,
                 "revenue_ltm": 757,
                 "opincome_ltm": 55.4,
                 "revenue_qtr": 241,
@@ -47,12 +47,12 @@
                 "ltm": 7.3
             },
             "PER": {
-                "PER_ltm": 23.3,
-                "PER_qx4": 69.1,
-                "PER_fwd": 55
+                "PER_ltm": 24,
+                "PER_qx4": 71.1,
+                "PER_fwd": 56.5
             },
             "volatility": {
-                "measure_to_base(%)": -48
+                "measure_to_base(%)": -46
             },
             "amount": {
                 "measure_to_base(%)": -85
@@ -63,12 +63,12 @@
                     "beta": 0.71
                 },
                 "base_period": {
-                    "alpha(%)": 0.3,
+                    "alpha(%)": 0.29,
                     "beta": 0.58
                 },
                 "measure_period": {
-                    "alpha(%)": -0.33,
-                    "beta": 0.47
+                    "alpha(%)": -0.39,
+                    "beta": 0.61
                 }
             }
         },

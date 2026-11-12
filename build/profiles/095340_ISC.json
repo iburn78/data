@@ -1,7 +1,7 @@
 {
     "key": "095340",
     "filename": "095340_ISC",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 12:38",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "095340",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 2820,
+                "marcap": 3090,
                 "revenue_ltm": 286,
                 "opincome_ltm": 88.2,
                 "revenue_qtr": 72.9,
@@ -47,27 +47,27 @@
                 "ltm": 31
             },
             "PER": {
-                "PER_ltm": 31.9,
-                "PER_qx4": 33,
-                "PER_fwd": 28.3
+                "PER_ltm": 35.1,
+                "PER_qx4": 36.3,
+                "PER_fwd": 31
             },
             "volatility": {
-                "measure_to_base(%)": 36
+                "measure_to_base(%)": 40
             },
             "amount": {
-                "measure_to_base(%)": -30
+                "measure_to_base(%)": -31
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.076,
+                    "alpha(%)": 0.078,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.015,
+                    "alpha(%)": 0.11,
                     "beta": 1
                 },
                 "measure_period": {
-                    "alpha(%)": 0.14,
+                    "alpha(%)": 0.44,
                     "beta": 1.9
                 }
             }

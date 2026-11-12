@@ -1,7 +1,7 @@
 {
     "key": "053620",
     "filename": "053620_태양",
-    "updated": "2026-11-11 17:02",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:02",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "053620",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:02",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 57.2,
+                "marcap": 58,
                 "revenue_ltm": 162,
                 "opincome_ltm": 11.6,
                 "revenue_qtr": 44.2,
@@ -47,15 +47,15 @@
                 "ltm": 7.1
             },
             "PER": {
-                "PER_ltm": 4.94,
-                "PER_qx4": 3.93,
-                "PER_fwd": 3.22
+                "PER_ltm": 5.01,
+                "PER_qx4": 3.98,
+                "PER_fwd": 3.27
             },
             "volatility": {
-                "measure_to_base(%)": 32
+                "measure_to_base(%)": 24
             },
             "amount": {
-                "measure_to_base(%)": -59
+                "measure_to_base(%)": -39
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +63,12 @@
                     "beta": 0.32
                 },
                 "base_period": {
-                    "alpha(%)": -0.022,
-                    "beta": 0.088
+                    "alpha(%)": -0.04,
+                    "beta": 0.089
                 },
                 "measure_period": {
-                    "alpha(%)": 0.0094,
-                    "beta": 0.2
+                    "alpha(%)": 0.075,
+                    "beta": 0.19
                 }
             }
         },
@@ -76,11 +76,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "Low",
-            "volatility_level": "Up",
+            "volatility_level": "-",
             "amount_level": "Dn",
             "alpha_level": "-",
             "category": "A",
-            "market_sentiment": "speculators"
+            "market_sentiment": "-"
         }
     },
     "info_section": {

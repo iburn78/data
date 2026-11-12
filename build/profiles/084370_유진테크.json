@@ -1,7 +1,7 @@
 {
     "key": "084370",
     "filename": "084370_유진테크",
-    "updated": "2026-11-11 15:17",
+    "updated": "2026-11-12 10:42",
     "llm_research_updated": "2026-10-27 15:46",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "084370",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:17",
+            "updated": "2026-11-12 10:42",
             "classification": {
                 "sector": "정보기술",
                 "subsector": "반도체 및 디스플레이",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1770,
+                "marcap": 1880,
                 "revenue_ltm": 446,
                 "opincome_ltm": 72.8,
                 "revenue_qtr": 122,
@@ -47,27 +47,27 @@
                 "ltm": 16
             },
             "PER": {
-                "PER_ltm": 24.3,
-                "PER_qx4": 24.2,
-                "PER_fwd": 22
+                "PER_ltm": 25.8,
+                "PER_qx4": 25.8,
+                "PER_fwd": 23.4
             },
             "volatility": {
                 "measure_to_base(%)": 13
             },
             "amount": {
-                "measure_to_base(%)": -35
+                "measure_to_base(%)": -36
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.072,
+                    "alpha(%)": 0.073,
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": 0.18,
+                    "alpha(%)": 0.22,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -1.9,
+                    "alpha(%)": -1.7,
                     "beta": 1.9
                 }
             }

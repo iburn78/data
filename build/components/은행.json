@@ -1,7 +1,7 @@
 {
     "key": "은행",
     "filename": "은행",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:44",
     "llm_research_updated": "2026-10-23 13:13",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:44",
             "classification": null,
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
@@ -21,7 +21,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 186000,
+                "marcap": 187000,
                 "revenue_ltm": 3240,
                 "opincome_ltm": 0,
                 "revenue_qtr": 829,
@@ -56,10 +56,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -14
+                "measure_to_base(%)": -20
             },
             "amount": {
-                "measure_to_base(%)": -30
+                "measure_to_base(%)": -32
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -67,12 +67,12 @@
                     "beta": 0.58
                 },
                 "base_period": {
-                    "alpha(%)": 0.0099,
+                    "alpha(%)": 0.029,
                     "beta": 0.13
                 },
                 "measure_period": {
                     "alpha(%)": -0.15,
-                    "beta": 0.12
+                    "beta": 0.14
                 },
                 "indplot_long": {
                     "alpha(%)": null,

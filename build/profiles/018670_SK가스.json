@@ -1,7 +1,7 @@
 {
     "key": "018670",
     "filename": "018670_SK가스",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-06 10:44",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "018670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 11:26",
             "classification": {
                 "sector": "에너지화학",
                 "subsector": "에너지",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 2230,
+                "marcap": 2220,
                 "revenue_ltm": 9280,
                 "opincome_ltm": 176,
                 "revenue_qtr": 2310,
@@ -52,23 +52,23 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -8.3
+                "measure_to_base(%)": -8.7
             },
             "amount": {
-                "measure_to_base(%)": -3.8
+                "measure_to_base(%)": -10
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.056,
+                    "alpha(%)": 0.055,
                     "beta": 0.34
                 },
                 "base_period": {
-                    "alpha(%)": -0.06,
+                    "alpha(%)": 0.052,
                     "beta": 0.15
                 },
                 "measure_period": {
-                    "alpha(%)": -0.52,
-                    "beta": 0.19
+                    "alpha(%)": -0.59,
+                    "beta": 0.21
                 }
             }
         },

@@ -1,7 +1,7 @@
 {
     "key": "010470",
     "filename": "010470_오리콤",
-    "updated": "2026-11-11 15:20",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-11-06 14:15",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "010470",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 15:20",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "미디어·콘텐츠",
                 "subsector": "미디어",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 54.6,
+                "marcap": 56.3,
                 "revenue_ltm": 227,
                 "opincome_ltm": 12.4,
                 "revenue_qtr": 57.3,
@@ -47,28 +47,28 @@
                 "ltm": 5.5
             },
             "PER": {
-                "PER_ltm": 4.4,
-                "PER_qx4": 4.49,
-                "PER_fwd": 4.15
+                "PER_ltm": 4.54,
+                "PER_qx4": 4.63,
+                "PER_fwd": 4.28
             },
             "volatility": {
-                "measure_to_base(%)": -16
+                "measure_to_base(%)": -9.8
             },
             "amount": {
-                "measure_to_base(%)": -63
+                "measure_to_base(%)": -61
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0022,
+                    "alpha(%)": 0.0029,
                     "beta": 0.48
                 },
                 "base_period": {
-                    "alpha(%)": -0.16,
+                    "alpha(%)": -0.12,
                     "beta": 0.14
                 },
                 "measure_period": {
-                    "alpha(%)": -0.49,
-                    "beta": 0.14
+                    "alpha(%)": -0.29,
+                    "beta": 0.16
                 }
             }
         },

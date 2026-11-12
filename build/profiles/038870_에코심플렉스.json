@@ -1,7 +1,7 @@
 {
     "key": "038870",
     "filename": "038870_에코심플렉스",
-    "updated": "2026-11-11 17:01",
+    "updated": "2026-11-12 11:26",
     "llm_research_updated": "2026-11-11 17:01",
     "financials": {
         "meta": {
@@ -9,10 +9,10 @@
             "code": "038870",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-11 17:01",
+            "updated": "2026-11-12 11:26",
             "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
+                "sector": "에너지화학",
+                "subsector": "에너지",
                 "source": "krics_2026-11-11"
             },
             "unit": 1000000000.0,
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 27.6,
+                "marcap": 27.9,
                 "revenue_ltm": 14.1,
                 "opincome_ltm": -3.23,
                 "revenue_qtr": 3.48,
@@ -52,7 +52,7 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -38
+                "measure_to_base(%)": -39
             },
             "amount": {
                 "measure_to_base(%)": -90
@@ -63,12 +63,12 @@
                     "beta": 0.68
                 },
                 "base_period": {
-                    "alpha(%)": -0.11,
-                    "beta": 0.084
+                    "alpha(%)": -0.083,
+                    "beta": 0.085
                 },
                 "measure_period": {
-                    "alpha(%)": -0.28,
-                    "beta": 0.21
+                    "alpha(%)": -0.09,
+                    "beta": 0.12
                 }
             }
         },

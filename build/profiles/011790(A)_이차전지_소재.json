@@ -1,7 +1,7 @@
 {
     "key": "011790(A)",
     "filename": "011790(A)_이차전지_소재",
-    "updated": "2026-11-11 15:19",
+    "updated": "2026-11-12 10:45",
     "llm_research_updated": "2026-10-23 13:12",
     "financials": {
         "meta": {
@@ -9,7 +9,7 @@
             "code": "011790",
             "segment_name": "이차전지 소재",
             "id": "A",
-            "updated": "2026-11-11 15:19",
+            "updated": "2026-11-12 10:45",
             "classification": {
                 "sector": "소재",
                 "subsector": "소재",
@@ -25,7 +25,7 @@
         },
         "shape": {
             "financials": {
-                "marcap": 1110,
+                "marcap": 1170,
                 "revenue_ltm": 687,
                 "opincome_ltm": -142,
                 "revenue_qtr": 200,
@@ -52,10 +52,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 26
+                "measure_to_base(%)": 30
             },
             "amount": {
-                "measure_to_base(%)": -63
+                "measure_to_base(%)": -64
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,11 +63,11 @@
                     "beta": 1.2
                 },
                 "base_period": {
-                    "alpha(%)": -0.16,
+                    "alpha(%)": -0.15,
                     "beta": 0.93
                 },
                 "measure_period": {
-                    "alpha(%)": -0.8,
+                    "alpha(%)": -0.68,
                     "beta": 1.3
                 }
             }
