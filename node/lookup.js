@@ -37,6 +37,7 @@ function getValuechains(name, valuechains) {
     return valuechains
         .filter(valuechain =>
             (valuechain.component_keys ?? valuechain.component_names ?? []).includes(name)
+            || (valuechain.valuechain_keys ?? []).includes(name)
         )
         .map(relationTarget);
 }

@@ -26,6 +26,44 @@ body {
     background: #b1b1b1;
 }
 
+.nav-dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-dropdown-summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.nav-dropdown-summary::-webkit-details-marker {
+    display: none;
+}
+
+.nav-dropdown-items {
+    position: absolute;
+    z-index: 1000;
+    top: calc(100% - 1px);
+    left: 0;
+    min-width: 150px;
+    padding: 5px;
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 12px #0003;
+}
+
+.nav-dropdown:not([open]) .nav-dropdown-items {
+    display: none;
+}
+
+.nav-dropdown-link {
+    display: block;
+    white-space: nowrap;
+}
+
 #file-list {
     display: flex;
     flex-direction: column;
@@ -119,6 +157,38 @@ body {
     border-bottom: 1px solid #e1e4e8;
 }
 
+.sector-map-tree details {
+    margin: 6px 0 6px 14px;
+    padding-left: 10px;
+    border-left: 1px solid #d9dee5;
+}
+
+.sector-map-tree summary {
+    padding: 6px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sector-map-code {
+    display: inline-block;
+    min-width: 42px;
+    color: #5b6572;
+    font-variant-numeric: tabular-nums;
+}
+
+.sector-map-english {
+    margin-left: 6px;
+    color: #697381;
+    font-weight: 400;
+}
+
+.sector-map-definition {
+    margin: 5px 0 10px 14px;
+    color: #464d55;
+    line-height: 1.55;
+    white-space: pre-line;
+}
+
 .manual-content table {
     width: 100%;
     margin: 16px 0;
@@ -154,10 +224,22 @@ body {
     }
 }
 
-#profile-plot {
-    height: min(56vh, 560px);
-    min-height: 380px;
-    margin: 10px 15px 18px;
+#model-list-plot {
+    margin: 4px 8px 8px;
+    background: #fff;
+}
+
+#model-list-plot-title {
+    margin: 0;
+    padding: 4px 8px 0 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#model-list-plot-chart {
+    height: min(52vh, 520px);
+    min-height: 320px;
     background: #fff;
 }
 

@@ -86,6 +86,7 @@ const DIRS = {
     valuechains: path.join(ROOT, "build", "valuechains"),
 };
 const MANUAL_PATH = path.join(__dirname, "../../build/analysis/manual.md");
+const SECTOR_MAP_SCRIPT = path.join(__dirname, "../../build/analysis/krics_sector_map.py");
 
 let profilePlotCache = { signature: null, payload: null };
 let profilePlotRequest = null;
@@ -495,6 +496,30 @@ app.get("/api/profile-plot", async (req, res) => {
     }
 });
 
+app.get("/api/collection-plot", (req, res) => {
+    const { type } = req.query;
+    if (!["Component", "ValueChain"].includes(type)) {
+        return res.status(400).json({ error: "A Component or ValueChain type is required." });
+    }
+    const script = path.join(__dirname, "../../build/analysis/mp_plot.py");
+    execFile(PYTHON, [script, "--collection-json", type], {
+        encoding: "utf8",
+        maxBuffer: 8 * 1024 * 1024,
+        env: { ...process.env, PYTHONIOENCODING: "utf-8", PYTHONUTF8: "1" },
+    }, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`Could not prepare ${type.toLowerCase()} plot data:`, stderr || error);
+            return res.status(500).json({ error: `Could not prepare ${type.toLowerCase()} plot data.` });
+        }
+        try {
+            res.json(JSON.parse(stdout));
+        } catch (parseError) {
+            console.error(`Could not parse ${type.toLowerCase()} plot data:`, parseError);
+            res.status(500).json({ error: `Could not parse ${type.toLowerCase()} plot data.` });
+        }
+    });
+});
+
 app.get("/api/mp-plot", (req, res) => {
     const { type, key } = req.query;
     if (!['Component', 'ValueChain'].includes(type) || typeof key !== "string" || !key) {
@@ -560,6 +585,25 @@ app.get("/api/manual", (req, res) => {
             return res.status(500).type("text/plain").send("Could not load the manual.");
         }
         res.type("html").send(stdout);
+    });
+});
+
+app.get("/api/sector-map", (req, res) => {
+    execFile(PYTHON, [SECTOR_MAP_SCRIPT], {
+        encoding: "utf8",
+        maxBuffer: 8 * 1024 * 1024,
+        env: { ...process.env, PYTHONIOENCODING: "utf-8", PYTHONUTF8: "1" },
+    }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not load KRICS sector map:", stderr || error.message);
+            return res.status(500).json({ error: "Could not load the sector map." });
+        }
+        try {
+            res.json(JSON.parse(stdout));
+        } catch (parseError) {
+            console.error("Could not parse KRICS sector map:", parseError);
+            res.status(500).json({ error: "Could not parse the sector map." });
+        }
     });
 });
 
@@ -665,6 +709,12 @@ app.get("/api/component/:name", (req, res) => {
         : [];
 
     res.json(componentValuechains);
+});
+
+app.get("/api/valuechain/:name", (req, res) => {
+    const name = req.params.name;
+    const { valuechains } = loadData();
+    res.json(getValuechains(name, valuechains));
 });
 
 const server = app.listen(3000, "127.0.0.1", () => {

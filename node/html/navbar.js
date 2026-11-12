@@ -8,7 +8,6 @@
         ["profiles", "(P)rofiles", "/#profiles"],
         ["components", "(C)omponents", "/#components"],
         ["valuechains", "(V)aluechains", "/#valuechains"],
-        ["manual", "manual", "/#manual"],
     ]) {
         const link = document.createElement("a");
         link.className = "nav-link";
@@ -17,6 +16,28 @@
         link.textContent = label;
         nav.appendChild(link);
     }
+
+    const infoMenu = document.createElement("details");
+    infoMenu.className = "nav-dropdown";
+    const infoSummary = document.createElement("summary");
+    infoSummary.className = "nav-link nav-dropdown-summary";
+    infoSummary.textContent = "Info";
+    infoMenu.appendChild(infoSummary);
+    const infoItems = document.createElement("div");
+    infoItems.className = "nav-dropdown-items";
+    for (const [section, label, href] of [
+        ["manual", "Manual", "/#manual"],
+        ["sector-map", "Sector Map", "/#sector-map"],
+    ]) {
+        const link = document.createElement("a");
+        link.className = "nav-link nav-dropdown-link";
+        link.href = href;
+        link.dataset.section = section;
+        link.textContent = label;
+        infoItems.appendChild(link);
+    }
+    infoMenu.appendChild(infoItems);
+    nav.appendChild(infoMenu);
 
     document.addEventListener("keydown", event => {
         const target = event.target;

@@ -1,0 +1,135 @@
+{
+    "key": "1010 에너지",
+    "filename": "1010_에너지",
+    "updated": "2026-11-12 17:21",
+    "llm_research_updated": "2026-11-12 17:21",
+    "financials": {
+        "meta": {
+            "name": "1010 에너지",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 17:21",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 93400,
+                "revenue_ltm": 439000,
+                "opincome_ltm": 40800,
+                "revenue_qtr": 122000,
+                "opincome_qtr": 13900
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 1200,
+                "growth(%)": 25
+            },
+            "opmargin(%)": {
+                "25_4Q": 3,
+                "26_1Q": 9.9,
+                "26_2Q": 11,
+                "26_3Q": 11,
+                "ltm": 9.3
+            },
+            "PER": {
+                "PER_ltm": 2.29,
+                "PER_qx4": 1.69,
+                "PER_fwd": 1.38
+            },
+            "volatility": {
+                "measure_to_base(%)": 47
+            },
+            "amount": {
+                "measure_to_base(%)": -25
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.007,
+                    "beta": 0.92
+                },
+                "base_period": {
+                    "alpha(%)": -0.02,
+                    "beta": 0.63
+                },
+                "measure_period": {
+                    "alpha(%)": -0.56,
+                    "beta": 1.1
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "Up",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "A",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "밸류체인",
+            "업계"
+        ],
+        "tags": "",
+        "notes": "",
+        "dynamics": "",
+        "key_drivers": ""
+    },
+    "component_keys": [
+        "1010 에너지 지주회사",
+        "1010 석유 유통 및 판매",
+        "1010 태양광 에너지",
+        "1010 LPG 유통 및 가스 사업",
+        "1010 풍력 발전 및 기자재",
+        "1010 수소 및 연료전지",
+        "1010 신재생에너지 개발 및 EPC",
+        "1010 바이오 에너지 및 리사이클링"
+    ],
+    "valuechain_keys": [],
+    "news": {
+        "updated": "2026-11-12 17:20",
+        "key_facts": [
+            "미 국방부가 앰프리어스 테크놀로지스에 최대 7,500만 달러(약 1,010억 원)를 지원하여 미국 내 한국 배터리 제조사가 운영하는 전기차 배터리 생산라인을 군용 드론용 리튬이온 배터리 생산체계로 전환함.",
+            "미국 내 방산 배터리 공급망 확대를 위해 NDAA(국방수권법)를 준수하는 고성능 파우치셀 대량 생산 기반을 구축하며, 2028년 초 완료 시 연간 생산능력은 1,200만 셀에 이를 전망임.",
+            "지식산업센터 시장은 공급과잉과 경기침체로 인해 분양 부진 및 공실 현상이 전국적으로 확산되고 있음.",
+            "정부는 지식산업센터 공실 문제 해결을 위해 관련 법 개정을 통해 입주 가능 허용 업종을 확대 고시함 (예: 군포 지역의 경우 104개 업종에서 589개 도시형 공장 업종으로 확대)."
+        ],
+        "new_trends": [
+            "민간 전기차(EV)용 배터리 생산시설을 군용 드론 등 방산 목적의 배터리 생산체계로 전환하는 추세임.",
+            "지식산업센터의 분양 부진과 공실률 상승으로 인해 시행 및 시공사의 자금난(중도금 대출 대위변제 등)이 현실화되고 있음."
+        ],
+        "news_summary": "제공된 기사들은 서로 다른 산업 분야를 다루고 있습니다. 배터리 산업에서는 미국 국방부가 한국 제조사의 역량을 활용해 전기차 배터리 라인을 군용 드론 배터리 생산 체계로 전환하는 공급망 강화 전략을 추진 중입니다. 반면, 부동산 개발 분야에서는 지식산업센터의 공급과잉과 경기 침체로 인해 분양 부진과 공실 문제가 심화되고 있으며, 이로 인해 개발사의 자금난이 발생하는 등 산업 전반의 위기가 나타나고 있습니다."
+    }
+}

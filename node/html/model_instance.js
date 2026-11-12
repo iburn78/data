@@ -105,7 +105,7 @@ const deleteConsequences = {
     Profile: "This also deletes the profile's segment files and segment news, but keeps the profile's own news.",
     Segment: "This deletes the segment's files and news.",
     Component: "This deletes the component's files and news, but keeps its listed company profiles and segments.",
-    ValueChain: "This deletes the value chain's files and news, but keeps its components.",
+    ValueChain: "This deletes the value chain's files and news, but keeps its member components and value chains.",
 };
 
 document.querySelectorAll(".model-instance-delete-button").forEach(button => {

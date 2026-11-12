@@ -1,7 +1,7 @@
 let currentSection = "";
 let currentItems = [];
 let lastTagSearchQuery = "";
-let profilePlotLoadId = 0;
+let listPlotLoadId = 0;
 let plotlyLoadPromise = null;
 let manualLoadId = 0;
 let searchHelpRequest = 0;
@@ -21,6 +21,7 @@ const DOUBLE_HANGUL_INITIALS = {
 };
 
 function scopeCharacters(label) {
+    if (label === "0-9") return "0123456789";
     if (/^[A-Z]-[A-Z]$/.test(label)) {
         const [first, last] = label.split("-").map(letter => letter.charCodeAt(0));
         return Array.from({ length: last - first + 1 }, (_, index) =>
@@ -60,7 +61,7 @@ async function loadListScopes() {
 
 function getListScope(name, section) {
     const first = Array.from((name || "").trim().normalize("NFC"))[0] || "";
-    if (!first) return "Other";
+    if (!first) return "Others";
 
     const code = first.codePointAt(0);
     const initial = code >= 0xac00 && code <= 0xd7a3
@@ -68,12 +69,12 @@ function getListScope(name, section) {
         : first.toUpperCase();
     return (listScopes?.[section] ?? []).find(label =>
         scopeCharacters(label).includes(initial)
-    ) ?? "Other";
+    ) ?? "Others";
 }
 
 function getExpandedScopes(section) {
     if (!expandedScopes.has(section)) {
-        expandedScopes.set(section, new Set([...(listScopes?.[section] ?? []), "Other"]));
+        expandedScopes.set(section, new Set([...(listScopes?.[section] ?? []), "Others"]));
     }
     return expandedScopes.get(section);
 }
@@ -98,7 +99,7 @@ function renderListActions() {
             expandedScopes.set(
                 currentSection,
                 expand
-                    ? new Set([...listScopes[currentSection], "Other"])
+                    ? new Set([...listScopes[currentSection], "Others"])
                     : new Set(),
             );
             renderSection();
@@ -130,9 +131,9 @@ async function showSearchHelp() {
     }
 }
 
-function hideProfilePlot() {
-    profilePlotLoadId += 1;
-    document.getElementById("profile-plot").hidden = true;
+function hideListPlot() {
+    listPlotLoadId += 1;
+    document.getElementById("model-list-plot").hidden = true;
 }
 
 function loadPlotly() {
@@ -152,23 +153,44 @@ function loadPlotly() {
     return plotlyLoadPromise;
 }
 
-async function showProfilePlot() {
-    const plot = document.getElementById("profile-plot");
-    const loadId = ++profilePlotLoadId;
-    plot.hidden = false;
-    if (!plot.dataset.ready) plot.textContent = "Loading profile plot…";
+async function showListPlot(section) {
+    const configs = {
+        profiles: {
+            endpoint: "/api/profile-plot",
+            loadingLabel: "profile",
+            title: "Profiles",
+        },
+        components: {
+            endpoint: "/api/collection-plot?type=Component",
+            loadingLabel: "component",
+            title: "Components",
+        },
+        valuechains: {
+            endpoint: "/api/collection-plot?type=ValueChain",
+            loadingLabel: "valuechain",
+            title: "Value Chains",
+        },
+    };
+    const config = configs[section];
+    if (!config) return;
+    const loadId = ++listPlotLoadId;
+    const plotPanel = document.getElementById("model-list-plot");
+    const plot = document.getElementById("model-list-plot-chart");
+    document.getElementById("model-list-plot-title").textContent = config.title;
+    plotPanel.hidden = false;
+    if (!plot.dataset.ready) plot.textContent = `Loading ${config.loadingLabel} plot…`;
 
     try {
         const [response] = await Promise.all([
-            fetch("/api/profile-plot"),
+            fetch(config.endpoint),
             loadPlotly(),
         ]);
+        const payload = await response.json().catch(() => ({}));
         if (!response.ok) {
-            const result = await response.json().catch(() => ({}));
-            throw new Error(result.error || `Could not load profile plot data (HTTP ${response.status}).`);
+            throw new Error(payload.error || `Could not load ${config.loadingLabel} plot data (HTTP ${response.status}).`);
         }
-        const { points, category_colors: colors, per_bound: perBound } = await response.json();
-        if (loadId !== profilePlotLoadId || plot.hidden) return;
+        const { points, category_colors: colors, per_bound: perBound } = payload;
+        if (loadId !== listPlotLoadId || plotPanel.hidden) return;
 
         const pointsByCoordinates = new Map();
         for (const point of points) {
@@ -205,7 +227,7 @@ async function showProfilePlot() {
             showarrow: false,
             captureevents: true,
             ...labelOffsets.get(point),
-            font: { color: colors[point.category], weight: 400 },
+            font: { color: colors[point.category], weight: point.bold_label ? 700 : 400 },
         }));
 
         const traces = ["A", "B", "C", "D"].map(category => {
@@ -227,9 +249,9 @@ async function showProfilePlot() {
 
         if (!plot.dataset.ready) plot.replaceChildren();
         await window.Plotly.react(plot, traces, {
-            title: "Profile and segment operating margin vs. LTM PER",
+            title: { text: "" },
             template: "plotly_white",
-            margin: { t: 55, r: 25, b: 90, l: 95 },
+            margin: { t: 12, r: 8, b: 55, l: 65 },
             annotations,
             xaxis: {
                 title: { text: "X: Operating margin (LTM)", standoff: 14 },
@@ -245,7 +267,7 @@ async function showProfilePlot() {
                 itemdoubleclick: false },
             clickmode: "event",
         }, { responsive: true });
-        if (loadId !== profilePlotLoadId || plot.hidden) return;
+        if (loadId !== listPlotLoadId || plotPanel.hidden) return;
         plot.dataset.ready = "true";
 
         plot.removeAllListeners?.("plotly_clickannotation");
@@ -271,8 +293,8 @@ async function showProfilePlot() {
             }, 0);
         });
     } catch (error) {
-        if (loadId !== profilePlotLoadId) return;
-        plot.textContent = error.message || "Could not load profile plot.";
+        if (loadId !== listPlotLoadId) return;
+        plot.textContent = error.message || `Could not load ${config.loadingLabel} plot.`;
     }
 }
 
@@ -425,10 +447,11 @@ async function showFiles(section) {
     manualLoadId += 1;
     document.getElementById("content").replaceChildren();
     currentSection = section;
-    if (section === "profiles" && !document.getElementById("search").value.trim()) {
-        showProfilePlot();
+    if (["profiles", "components", "valuechains"].includes(section)
+        && !document.getElementById("search").value.trim()) {
+        showListPlot(section);
     } else {
-        hideProfilePlot();
+        hideListPlot();
     }
     currentItems = await getItems(section);
     if (["profiles", "components", "valuechains"].includes(section)) await loadListScopes();
@@ -443,7 +466,7 @@ async function showManual() {
     currentSection = "";
     currentItems = [];
     renderListActions();
-    hideProfilePlot();
+    hideListPlot();
     document.getElementById("file-list").replaceChildren();
 
     const content = document.getElementById("content");
@@ -461,6 +484,108 @@ async function showManual() {
     } catch (error) {
         if (loadId !== manualLoadId) return;
         article.textContent = error.message || "Could not load the manual.";
+    }
+}
+
+function appendSectorMapLabel(container, item) {
+    if (item.code) {
+        const code = document.createElement("span");
+        code.className = "sector-map-code";
+        code.textContent = item.code;
+        container.appendChild(code);
+    }
+    const korean = document.createElement("span");
+    korean.textContent = item.name?.ko || "Unnamed";
+    container.appendChild(korean);
+    if (item.name?.en) {
+        const english = document.createElement("span");
+        english.className = "sector-map-english";
+        english.textContent = item.name.en;
+        container.appendChild(english);
+    }
+}
+
+function appendSectorMapDefinition(container, definition) {
+    if (!definition) return;
+    const paragraph = document.createElement("p");
+    paragraph.className = "sector-map-definition";
+    paragraph.textContent = definition;
+    container.appendChild(paragraph);
+}
+
+function renderSectorMap(article, sectorMap) {
+    article.replaceChildren();
+    const title = document.createElement("h1");
+    title.textContent = "KRX Sector Map";
+    article.appendChild(title);
+    const source = document.createElement("p");
+    source.textContent = `Source workbook: ${sectorMap.fileName}`;
+    article.appendChild(source);
+
+    const tree = document.createElement("div");
+    tree.className = "sector-map-tree";
+    for (const sector of sectorMap.sectors ?? []) {
+        const sectorDetails = document.createElement("details");
+        const sectorHeading = document.createElement("summary");
+        appendSectorMapLabel(sectorHeading, sector);
+        sectorHeading.append(` · ${sector.groups.length} groups`);
+        sectorDetails.appendChild(sectorHeading);
+
+        for (const group of sector.groups) {
+            const groupDetails = document.createElement("details");
+            const groupHeading = document.createElement("summary");
+            appendSectorMapLabel(groupHeading, group);
+            groupHeading.append(` · ${group.industries.length} industries`);
+            groupDetails.appendChild(groupHeading);
+
+            for (const industry of group.industries) {
+                const industryDetails = document.createElement("details");
+                const industryHeading = document.createElement("summary");
+                appendSectorMapLabel(industryHeading, industry);
+                industryDetails.appendChild(industryHeading);
+                appendSectorMapDefinition(industryDetails, industry.definition);
+
+                for (const subindustry of industry.subindustries) {
+                    const subindustryBlock = document.createElement("section");
+                    const subindustryHeading = document.createElement("p");
+                    appendSectorMapLabel(subindustryHeading, subindustry);
+                    subindustryBlock.appendChild(subindustryHeading);
+                    appendSectorMapDefinition(subindustryBlock, subindustry.definition);
+                    industryDetails.appendChild(subindustryBlock);
+                }
+                groupDetails.appendChild(industryDetails);
+            }
+            sectorDetails.appendChild(groupDetails);
+        }
+        tree.appendChild(sectorDetails);
+    }
+    article.appendChild(tree);
+}
+
+async function showSectorMap() {
+    hideSearchHelp();
+    const loadId = ++manualLoadId;
+    currentSection = "";
+    currentItems = [];
+    renderListActions();
+    hideListPlot();
+    document.getElementById("file-list").replaceChildren();
+
+    const content = document.getElementById("content");
+    const article = document.createElement("article");
+    article.className = "manual-content";
+    article.textContent = "Loading sector map…";
+    content.replaceChildren(article);
+
+    try {
+        const response = await fetch("/api/sector-map");
+        if (!response.ok) throw new Error("Could not load the sector map.");
+        const sectorMap = await response.json();
+        if (loadId !== manualLoadId) return;
+        renderSectorMap(article, sectorMap);
+    } catch (error) {
+        if (loadId !== manualLoadId) return;
+        article.textContent = error.message || "Could not load the sector map.";
     }
 }
 
@@ -540,7 +665,7 @@ function renderProfileGroups(search, list) {
         groupedByScope.get(scope).push(matchingItems);
     }
 
-    const scopeLabels = [...(listScopes?.profiles ?? []), "Other"];
+    const scopeLabels = [...(listScopes?.profiles ?? []), "Others"];
     for (const label of scopeLabels) {
         const profileGroups = groupedByScope.get(label);
         if (!profileGroups?.length) continue;
@@ -568,7 +693,7 @@ function renderScopedItems(search, list) {
         grouped.get(scope).push(item);
     }
 
-    for (const label of [...(listScopes?.[currentSection] ?? []), "Other"]) {
+    for (const label of [...(listScopes?.[currentSection] ?? []), "Others"]) {
         const items = grouped.get(label);
         if (!items?.length) continue;
         renderScopeGroup(label, items.length, currentSection, list, container => {
@@ -630,7 +755,7 @@ document.getElementById("search").addEventListener("focus", hidePreview);
 
 let searchRequest = 0;
 async function showMainSearch(queryOverride = null) {
-    hideProfilePlot();
+    hideListPlot();
     const request = ++searchRequest;
     const search = (queryOverride ?? document.getElementById("search").value)
         .trim().toLowerCase().normalize("NFC");
@@ -802,9 +927,19 @@ document.addEventListener("click", event => {
 
     if (section === "manual") {
         event.preventDefault();
+        link.closest(".nav-dropdown")?.removeAttribute("open");
         history.pushState(null, "", "/#manual");
         document.getElementById("search").value = "";
         showManual();
+        return;
+    }
+
+    if (section === "sector-map") {
+        event.preventDefault();
+        link.closest(".nav-dropdown")?.removeAttribute("open");
+        history.pushState(null, "", "/#sector-map");
+        document.getElementById("search").value = "";
+        showSectorMap();
         return;
     }
 
@@ -821,10 +956,11 @@ document.addEventListener("click", event => {
 document.getElementById("search").addEventListener("input", () => {
     hideSearchHelp();
     const query = document.getElementById("search").value.trim();
-    if (location.hash === "#profiles" && !query) {
-        showProfilePlot();
+    const listSection = location.hash.slice(1);
+    if (["profiles", "components", "valuechains"].includes(listSection) && !query) {
+        showListPlot(listSection);
     } else {
-        hideProfilePlot();
+        hideListPlot();
     }
     if (query.startsWith("#")) {
         lastTagSearchQuery = "";
@@ -920,7 +1056,7 @@ document.addEventListener("keydown", event => {
         renderListActions();
         searchRequest += 1;
         lastTagSearchQuery = "";
-        hideProfilePlot();
+        hideListPlot();
         document.getElementById("file-list").replaceChildren();
         document.getElementById("content").replaceChildren();
         showSearchHelp();
@@ -940,6 +1076,8 @@ const section = location.hash.slice(1);
 
 if (section === "manual") {
     showManual();
+} else if (section === "sector-map") {
+    showSectorMap();
 } else if (section && sections[section]) {
     showFiles(section);
 }
