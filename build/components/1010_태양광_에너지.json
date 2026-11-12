@@ -1,0 +1,134 @@
+{
+    "key": "1010 태양광 에너지",
+    "filename": "1010_태양광_에너지",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:38",
+    "financials": {
+        "meta": {
+            "name": "1010 태양광 에너지",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:38",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 6620,
+                "revenue_ltm": 17400,
+                "opincome_ltm": 332,
+                "revenue_qtr": 4750,
+                "opincome_qtr": 343
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 37,
+                "growth(%)": 220
+            },
+            "opmargin(%)": {
+                "25_4Q": -12,
+                "26_1Q": 3,
+                "26_2Q": 7.2,
+                "26_3Q": 7.2,
+                "ltm": 1.9
+            },
+            "PER": {
+                "PER_ltm": 20,
+                "PER_qx4": 4.83,
+                "PER_fwd": 3.81
+            },
+            "volatility": {
+                "measure_to_base(%)": 42
+            },
+            "amount": {
+                "measure_to_base(%)": 25
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.0035,
+                    "beta": 1
+                },
+                "base_period": {
+                    "alpha(%)": -0.19,
+                    "beta": 0.61
+                },
+                "measure_period": {
+                    "alpha(%)": -0.71,
+                    "beta": 0.99
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_level": "Up",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "태양광 셀/모듈 제조, 태양광 발전 시스템 EPC 및 솔루션 제공 사업을 영위하는 기업들입니다.",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "009830",
+            "name": "한화솔루션"
+        },
+        {
+            "key": "322000",
+            "name": "HD현대에너지솔루션"
+        }
+    ],
+    "news": {
+        "updated": "2026-11-12 16:38",
+        "key_facts": [
+            "2026년 7월 말 기준 중국의 태양광 발전 누적 설비용량이 1286GW(전체 전력 설비용량의 31.5%)를 기록하며 처음으로 석탄 화력발전 설비용량을 추월함.",
+            "2026년 상반기 중국 전체 발전량 중 석탄 비중이 공식 통계 집계 이후 처음으로 50% 미만으로 하락함.",
+            "2026년 1~7월 중국 태양광 발전량은 8024억kWh로 전년 동기 대비 15.5% 증가함.",
+            "지난해 한국 내 보급된 태양광 모듈 3753MW 중 중국산이 2601MW(69.3%)를 차지함.",
+            "한국 내 태양광 모듈 시장에서 중국산 비중이 2019년 21.6%에서 지난해 69.3%로 증가한 반면, 국산 비중은 78.4%에서 30.7%로 급감함."
+        ],
+        "new_trends": [
+            "태양광 발전의 변동성 및 지역적 불균형 해결을 위해 초고압직류송전(UHVDC), 에너지저장장치(ESS), 스마트그리드 등 송전 및 저장 인프라 구축 확대.",
+            "중국 정부의 '신형 전력 시스템' 구축 계획 (2026~2030년 사이 5조 위안 이상 투입 예정)."
+        ],
+        "news_summary": "중국 태양광 산업이 압도적인 공급망 경쟁력을 바탕으로 자국 내 설비용량에서 석탄 화력을 추월하며 급성장하고 있으며, 이러한 영향력은 한국 시장으로도 이어져 국내 태양광 모듈 시장 내 중국산 비중이 급증하고 국산 비중은 크게 감소하는 추세입니다. 이에 따라 전력망 확충을 위한 인프라 투자와 국내 태양광 공급망의 경쟁력 강화가 주요 과제로 부상하고 있습니다."
+    }
+}

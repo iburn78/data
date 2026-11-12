@@ -1,0 +1,119 @@
+{
+    "key": "1010 신재생에너지 개발 및 EPC",
+    "filename": "1010_신재생에너지_개발_및_EPC",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:03",
+    "financials": {
+        "meta": {
+            "name": "1010 신재생에너지 개발 및 EPC",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:39",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1600,
+                "revenue_ltm": 892,
+                "opincome_ltm": 88.1,
+                "revenue_qtr": 266,
+                "opincome_qtr": 8.08
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 1,
+                "growth(%)": 7.3
+            },
+            "opmargin(%)": {
+                "25_4Q": 16,
+                "26_1Q": 39,
+                "26_2Q": 3,
+                "26_3Q": 3,
+                "ltm": 9.9
+            },
+            "PER": {
+                "PER_ltm": 18.2,
+                "PER_qx4": 49.5,
+                "PER_fwd": 37.4
+            },
+            "volatility": {
+                "measure_to_base(%)": -41
+            },
+            "amount": {
+                "measure_to_base(%)": -76
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.29,
+                    "beta": 0.74
+                },
+                "base_period": {
+                    "alpha(%)": 0.24,
+                    "beta": 0.58
+                },
+                "measure_period": {
+                    "alpha(%)": -0.098,
+                    "beta": 0.59
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "C",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "태양광, 풍력 등 다양한 신재생에너지 발전소의 개발, 설계, 조달, 시공(EPC) 및 운영을 통합 수행하는 기업들입니다.",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "475150",
+            "name": "SK이터닉스"
+        },
+        {
+            "key": "389260",
+            "name": "대명에너지"
+        }
+    ]
+}

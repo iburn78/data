@@ -1,0 +1,123 @@
+{
+    "key": "1010 에너지 지주회사",
+    "filename": "1010_에너지_지주회사",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:48",
+    "financials": {
+        "meta": {
+            "name": "1010 에너지 지주회사",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:48",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 46700,
+                "revenue_ltm": 247000,
+                "opincome_ltm": 26900,
+                "revenue_qtr": 67600,
+                "opincome_qtr": 8940
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 760,
+                "growth(%)": 22
+            },
+            "opmargin(%)": {
+                "25_4Q": 4.6,
+                "26_1Q": 11,
+                "26_2Q": 13,
+                "26_3Q": 13,
+                "ltm": 11
+            },
+            "PER": {
+                "PER_ltm": 1.73,
+                "PER_qx4": 1.31,
+                "PER_fwd": 1.08
+            },
+            "volatility": {
+                "measure_to_base(%)": 33
+            },
+            "amount": {
+                "measure_to_base(%)": -17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.011,
+                    "beta": 1
+                },
+                "base_period": {
+                    "alpha(%)": 0.071,
+                    "beta": 0.93
+                },
+                "measure_period": {
+                    "alpha(%)": 0.44,
+                    "beta": 1.4
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "Up",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "A",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "에너지, 화학, 소재 등 다양한 에너지 관련 자회사를 보유하고 관리하는 지주회사들입니다.",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "034730",
+            "name": "SK"
+        },
+        {
+            "key": "267250",
+            "name": "HD현대"
+        },
+        {
+            "key": "006120",
+            "name": "SK디스커버리"
+        }
+    ]
+}

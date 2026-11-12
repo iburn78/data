@@ -1,0 +1,123 @@
+{
+    "key": "1010 수소 및 연료전지",
+    "filename": "1010_수소_및_연료전지",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:38",
+    "financials": {
+        "meta": {
+            "name": "1010 수소 및 연료전지",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:48",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2240,
+                "revenue_ltm": 568,
+                "opincome_ltm": -179,
+                "revenue_qtr": 97.4,
+                "opincome_qtr": -51
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -5.7,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -40,
+                "26_1Q": -1.1,
+                "26_2Q": -52,
+                "26_3Q": -52,
+                "ltm": -32
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 2
+            },
+            "amount": {
+                "measure_to_base(%)": -62
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.12,
+                    "beta": 1.2
+                },
+                "base_period": {
+                    "alpha(%)": -0.33,
+                    "beta": 1.1
+                },
+                "measure_period": {
+                    "alpha(%)": -0.39,
+                    "beta": 1.4
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "수소 정제, 수소 충전소 구축 및 수소연료전지 시스템(PEMFC, PAFC, SOFC) 제조 사업을 영위하는 기업들입니다.",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "336260",
+            "name": "두산퓨얼셀"
+        },
+        {
+            "key": "0001A0",
+            "name": "덕양에너젠"
+        },
+        {
+            "key": "382900",
+            "name": "범한퓨얼셀"
+        }
+    ]
+}

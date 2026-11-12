@@ -1,0 +1,134 @@
+{
+    "key": "1010 풍력 발전 및 기자재",
+    "filename": "1010_풍력_발전_및_기자재",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:38",
+    "financials": {
+        "meta": {
+            "name": "1010 풍력 발전 및 기자재",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:38",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 2340,
+                "revenue_ltm": 2890,
+                "opincome_ltm": 301,
+                "revenue_qtr": 692,
+                "opincome_qtr": 81.1
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 2,
+                "growth(%)": 2.7
+            },
+            "opmargin(%)": {
+                "25_4Q": 8.5,
+                "26_1Q": 10,
+                "26_2Q": 12,
+                "26_3Q": 12,
+                "ltm": 10
+            },
+            "PER": {
+                "PER_ltm": 7.77,
+                "PER_qx4": 7.2,
+                "PER_fwd": 6.79
+            },
+            "volatility": {
+                "measure_to_base(%)": 34
+            },
+            "amount": {
+                "measure_to_base(%)": 43
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.048,
+                    "beta": 0.8
+                },
+                "base_period": {
+                    "alpha(%)": 0.13,
+                    "beta": 0.36
+                },
+                "measure_period": {
+                    "alpha(%)": 0.038,
+                    "beta": 0.38
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "Up",
+            "amount_level": "Up",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "unstable"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "풍력발전 터빈, 타워 등 구조물 제조 및 풍력단지 조성/시공 사업을 수행하는 기업들입니다.",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "112610",
+            "name": "씨에스윈드"
+        },
+        {
+            "key": "018000",
+            "name": "유니슨"
+        }
+    ],
+    "news": {
+        "updated": "2026-11-12 16:38",
+        "key_facts": [
+            "부울경 지역은 풍력 터빈 및 부품 제작사, 해상 부식 방지 페인트 업체 등 풍부한 해상풍력 기자재 공급망을 보유하고 있음",
+            "부산 다대포 해상풍력 발전단지(99MW 규모)는 공공주도형 사업 입찰에 낙찰되었으며, 2027년 5월 착공 예정임",
+            "울산 앞바다에서 해울이(1.5GW 규모) 및 문무바람(784MW 규모) 부유식 해상풍력 프로젝트가 추진 중임",
+            "해울이 해상풍력의 2단계 사업(532MW)이 2026년 6월 고정가격계약 입찰에 선정되어 2030년 착공을 목표로 함"
+        ],
+        "new_trends": [
+            "부유식 해상풍력의 경우 한국 조선사들의 FPSO 제작 기술력을 바탕으로 한 부유체 제작 가능성이 주목받고 있으나, 현재 부유체-터빈 결합 구조물의 안정성 확보 및 DNV 개념설계 인증 단계에 머물러 있음",
+            "대형 블레이드 및 조립 구조물(약 3,500t)을 수용하고 보관할 수 있는 전용 배후 항만 인프라 확충에 대한 요구가 증가하고 있음",
+            "지구물리학적·지질공학적 탐사를 통합하여 해저 지반 모델을 구축하는 전문 조사 데이터 서비스가 활용되고 있음"
+        ],
+        "news_summary": "부울경 지역을 중심으로 해상풍력 발전단지 조성과 기자재 공급망 강화가 추진되고 있습니다. 부산 다대포의 고정식 단지와 울산의 대규모 부유식 프로젝트들이 각각 인허가 및 입찰 단계를 밟고 있으며, 지역 내 풍부한 조선·중공업 인프라가 강점으로 작용하고 있습니다. 다만, 부유식 해상풍력의 기술적 완성도 제고와 대형 구조물을 수용할 수 있는 전용 항만 인프라 구축이 주요 과제로 제기되고 있습니다."
+    }
+}

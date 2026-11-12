@@ -1,0 +1,136 @@
+{
+    "key": "1000 에너지화학",
+    "filename": "1000_에너지화학",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:04",
+    "financials": {
+        "meta": {
+            "name": "1000 에너지화학",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:48",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 93400,
+                "revenue_ltm": 439000,
+                "opincome_ltm": 40800,
+                "revenue_qtr": 122000,
+                "opincome_qtr": 13900
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 1200,
+                "growth(%)": 25
+            },
+            "opmargin(%)": {
+                "25_4Q": 3,
+                "26_1Q": 9.9,
+                "26_2Q": 11,
+                "26_3Q": 11,
+                "ltm": 9.3
+            },
+            "PER": {
+                "PER_ltm": 2.29,
+                "PER_qx4": 1.69,
+                "PER_fwd": 1.38
+            },
+            "volatility": {
+                "measure_to_base(%)": 47
+            },
+            "amount": {
+                "measure_to_base(%)": -25
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.007,
+                    "beta": 0.92
+                },
+                "base_period": {
+                    "alpha(%)": -0.02,
+                    "beta": 0.63
+                },
+                "measure_period": {
+                    "alpha(%)": -0.56,
+                    "beta": 1.1
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "Up",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "A",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "밸류체인",
+            "업계"
+        ],
+        "tags": "",
+        "notes": "",
+        "dynamics": "",
+        "key_drivers": ""
+    },
+    "component_keys": [
+        "1010 에너지 지주회사",
+        "1010 석유 유통 및 판매",
+        "1010 태양광 에너지",
+        "1010 LPG 유통 및 가스 사업",
+        "1010 풍력 발전 및 기자재",
+        "1010 수소 및 연료전지",
+        "1010 신재생에너지 개발 및 EPC",
+        "1010 바이오 에너지 및 리사이클링"
+    ],
+    "news": {
+        "updated": "2026-11-12 16:03",
+        "key_facts": [
+            "한국 정부는 2035년까지 1,000조 원을 투입하여 철강, 석유화학, 반도체, 시멘트, 정유 등 5대 탄소 다배출 업종의 탈탄소 공정 전환을 추진하는 '한국형 녹색대전환(K-GX)' 전략을 발표함.",
+            "철강 산업은 2030년까지 세계 최초 수소환원제철 양산을 목표로 하며, 2050년까지 100% 전환을 추진함.",
+            "석유화학 산업은 2028년까지 나프타분해시설(NCC) 에너지원 전환 기술을 개발하고 2040년부터 상용화할 계획임.",
+            "정유 산업은 지속가능항공유(SAF) 등의 혼합 비율을 2030년 최대 5%, 2035년 최대 10%까지 확대할 방침임.",
+            "일본에서는 산업 폐열을 활용해 500도 이하에서 수소를 제조하는 기술 연구를 2026년 7월부터 진행하며, 2040년까지 연간 최대 100만 톤 생산을 목표로 함."
+        ],
+        "new_trends": [
+            "산업 전반의 AI 전환(AX)을 통해 공정 최적화 및 생산성을 높이는 '듀얼 브레인'과 같은 AI 운영체계 도입 추세임.",
+            "기존의 초고온(1,000도 이상) 열화학 수소 제조 방식을 중저온(500도 이하) 배열 활용 방식으로 전환하여 비용과 탄소 배출을 동시에 낮추려는 기술적 시도가 나타남.",
+            "바이오나프타 및 폐플라스틱 열분해유를 통해 석유계 나프타를 대체하는 원료 다각화 전략이 추진됨."
+        ],
+        "news_summary": "에너지·화학 및 관련 중공업 밸류체인은 탄소중립 달성과 산업 경쟁력 확보를 위해 대규모 자본 투입과 기술 혁신을 통한 '녹색 대전환' 시기에 진입했습니다. 한국 정부는 K-GX 전략을 통해 2035년까지 1,000조 원을 투입하여 철강의 수소환원제철 전환, 석유화학의 NCC 전기화, 정유의 바이오 원료 확대 등을 추진하고 있습니다. 동시에 AI를 활용한 공정 최적화(AX)와 일본의 저온 열화학 수소 제조 기술 개발과 같이 에너지 효율을 극대화하고 탄소 배출을 줄이는 차세대 기술 도입이 가속화되고 있습니다."
+    }
+}

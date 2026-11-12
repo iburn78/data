@@ -1,0 +1,115 @@
+{
+    "key": "1010 바이오 에너지 및 리사이클링",
+    "filename": "1010_바이오_에너지_및_리사이클링",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:39",
+    "financials": {
+        "meta": {
+            "name": "1010 바이오 에너지 및 리사이클링",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:38",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 166,
+                "revenue_ltm": 1130,
+                "opincome_ltm": 15.9,
+                "revenue_qtr": 310,
+                "opincome_qtr": 6.29
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 0.0021,
+                "growth(%)": 0.061
+            },
+            "opmargin(%)": {
+                "25_4Q": -0.46,
+                "26_1Q": 1.6,
+                "26_2Q": 2,
+                "26_3Q": 2,
+                "ltm": 1.4
+            },
+            "PER": {
+                "PER_ltm": 10.4,
+                "PER_qx4": 6.6,
+                "PER_fwd": 6.59
+            },
+            "volatility": {
+                "measure_to_base(%)": 20
+            },
+            "amount": {
+                "measure_to_base(%)": -41
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.35,
+                    "beta": 0.53
+                },
+                "base_period": {
+                    "alpha(%)": -0.45,
+                    "beta": 0.35
+                },
+                "measure_period": {
+                    "alpha(%)": -0.88,
+                    "beta": 0.64
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "바이오디젤, 바이오중유 등 친환경 바이오 연료의 생산 및 유통을 주력으로 하는 기업들입니다.",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "017860",
+            "name": "DS단석"
+        }
+    ]
+}

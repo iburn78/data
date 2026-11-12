@@ -1,0 +1,141 @@
+{
+    "key": "1010 석유 유통 및 판매",
+    "filename": "1010_석유_유통_및_판매",
+    "updated": "2026-11-12 16:48",
+    "llm_research_updated": "2026-11-12 16:37",
+    "financials": {
+        "meta": {
+            "name": "1010 석유 유통 및 판매",
+            "code": "",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-12 16:48",
+            "classification": null,
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d"
+        },
+        "shape": {
+            "financials": {
+                "marcap": 30800,
+                "revenue_ltm": 143000,
+                "opincome_ltm": 13000,
+                "revenue_qtr": 40800,
+                "opincome_qtr": 4460
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 440,
+                "growth(%)": 35
+            },
+            "opmargin(%)": {
+                "25_4Q": 2.5,
+                "26_1Q": 10,
+                "26_2Q": 11,
+                "26_3Q": 11,
+                "ltm": 9.1
+            },
+            "PER": {
+                "PER_ltm": 2.36,
+                "PER_qx4": 1.73,
+                "PER_fwd": 1.38
+            },
+            "volatility": {
+                "measure_to_base(%)": 13
+            },
+            "amount": {
+                "measure_to_base(%)": -17
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.004,
+                    "beta": 0.74
+                },
+                "base_period": {
+                    "alpha(%)": 0.042,
+                    "beta": 0.18
+                },
+                "measure_period": {
+                    "alpha(%)": -1.7,
+                    "beta": 0.86
+                },
+                "indplot_long": {
+                    "alpha(%)": null,
+                    "beta": null
+                },
+                "indplot_short": {
+                    "alpha(%)": null,
+                    "beta": null
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "A",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "산업",
+            "업종"
+        ],
+        "tags": "",
+        "notes": "원유 정제 및 휘발유, 경유 등 석유제품의 유통, 주유소 운영을 주력으로 하는 기업들입니다.",
+        "competition": "",
+        "key_drivers": ""
+    },
+    "listed_companies": [
+        {
+            "key": "096770",
+            "name": "SK이노베이션"
+        },
+        {
+            "key": "010950",
+            "name": "S-Oil"
+        },
+        {
+            "key": "002420",
+            "name": "우양피앤엘"
+        },
+        {
+            "key": "024060",
+            "name": "흥구석유"
+        },
+        {
+            "key": "014530",
+            "name": "극동유화"
+        }
+    ],
+    "news": {
+        "updated": "2026-11-12 16:37",
+        "key_facts": [
+            "2026년 10월 29일 베트남 산업통상부-재무부 연합의 조정에 따라 PVOIL의 소매 휘발유 및 석유 가격이 인상됨.",
+            "PVOIL의 E10 RON 95-III 휘발유는 리터당 870동, E5 RON 92-II 휘발유는 리터당 1,010동, 석유 제품(DO 0.05S-II 및 DO 0.001S-V)은 각각 리터당 1,040동 인상됨.",
+            "베트남 페트로리멕스 시스템의 12kg 가스통 소매 가격이 2026년 11월 1일부터 5개 지역 기준 580,000~612,000동으로 적용됨."
+        ],
+        "new_trends": [],
+        "news_summary": "베트남 내 석유 및 가스 소매 가격의 조정 현황과 국내 관련 기업의 주가 동향이 보고되었습니다. 베트남에서는 정부 부처의 조정에 따라 휘발유 및 석유 제품의 소매 가격이 인상되었으며, 가스통 가격 또한 지역별로 적용되었습니다. 한편, 국내 석유·가스 유통 사업을 운영하는 대성산업의 주가가 2026년 10월 7일 급등하는 흐름을 보였습니다."
+    }
+}
