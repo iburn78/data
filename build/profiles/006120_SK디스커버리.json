@@ -1,7 +1,7 @@
 {
     "key": "006120",
     "filename": "006120_SK디스커버리",
-    "updated": "2026-11-12 19:41",
+    "updated": "2026-11-17 12:22",
     "llm_research_updated": "2026-11-06 14:13",
     "financials": {
         "meta": {
@@ -9,83 +9,84 @@
             "code": "006120",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 19:19",
-            "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:22",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 1180,
-                "revenue_ltm": 12100,
-                "opincome_ltm": 124,
-                "revenue_qtr": 3060,
-                "opincome_qtr": -30.4
+                "marcap": 1200,
+                "revenue_ltm": 12400,
+                "opincome_ltm": 325,
+                "revenue_qtr": 3440,
+                "opincome_qtr": 171
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": false,
-                "higher(comp)": false,
-                "slope": -2,
-                "growth(%)": -3.3
+                "higher(comp)": true,
+                "slope": 7.1,
+                "growth(%)": 9.1
             },
             "opmargin(%)": {
                 "25_4Q": -0.21,
                 "26_1Q": 5.8,
                 "26_2Q": -0.99,
-                "26_3Q": -0.99,
-                "ltm": 1
+                "26_3Q": 5,
+                "ltm": 2.6
             },
             "PER": {
-                "PER_ltm": 9.51,
-                "PER_qx4": null,
-                "PER_fwd": null
+                "PER_ltm": 3.68,
+                "PER_qx4": 1.75,
+                "PER_fwd": 1.59
             },
             "volatility": {
-                "measure_to_base(%)": 8.3
+                "measure_to_base(%)": 14
             },
             "amount": {
-                "measure_to_base(%)": 21
+                "measure_to_base(%)": 41
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.015,
+                    "alpha(%)": 0.017,
                     "beta": 0.65
                 },
                 "base_period": {
-                    "alpha(%)": 0.35,
+                    "alpha(%)": 0.42,
                     "beta": 0.37
                 },
                 "measure_period": {
-                    "alpha(%)": 0.38,
-                    "beta": -0.0057
+                    "alpha(%)": 0.1,
+                    "beta": 0.099
                 }
             }
         },
         "assess_result": {
             "basics": false,
-            "financially_sound": false,
-            "PER_level": "Mid",
+            "financially_sound": true,
+            "PER_level": "Low",
             "volatility_level": "-",
-            "amount_level": "-",
+            "amount_level": "Up",
             "alpha_level": "-",
             "category": "D",
             "market_sentiment": "-"
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-11-06 14:13",
+        "reviewed": true,
+        "updated": "2026-11-16 12:56",
         "search_theme": [
             "실적",
             "전망"
@@ -134,19 +135,19 @@
         "updated": "2026-11-02 15:03"
     },
     "news": {
-        "updated": "2026-11-11 13:03",
+        "updated": "2026-11-16 14:59",
         "key_facts": [
-            "SK디스커버리는 2026년 10월 30일 윤병석 SK가스 대표를 신임 사장으로 선임하고 2027년부터 신성장동력 발굴을 본격 추진할 계획임.",
-            "SK디스커버리는 SK이터닉스(KKR 매각), SK디앤디(한앤코 매각), 울산GPS 및 SK멀티유틸리티 지분 매각 등을 통해 대규모 재원을 확보하고 재무구조를 개선함.",
-            "SK(주)의 SK에코플랜트 지분 100% 확보 결정으로 SK디스커버리는 PRS 정산을 통해 약 3,852억~4,179억 원의 차익을 거둘 전망임.",
-            "SK케미칼은 2026년 2분기 연결 기준 매출 7,451억 원, 영업이익 323억 원을 기록하며 흑자 전환 및 분기 최대 매출을 달성함.",
-            "SK디스커버리는 그린소재, 에너지, 바이오 등 핵심 사업 포트폴리오 집중을 위해 비핵심 자산 매각 및 사업 구조 재편을 진행함."
+            "2026년 3분기 매출 3조 4,415억원, 세전이익 3,687억원을 기록하며 2017년 지주사 출범 이후 최대 분기 실적을 달성함.",
+            "발전 자회사 지분 유동화(1.6조원) 및 SK이터닉스 지분 매각(2,500억원) 등으로 재무구조를 개선하여 3분기 말 부채비율을 127%로 낮춤.",
+            "SK㈜의 SK에코플랜트 완전 자회사화 추진에 따라 과거 체결한 PRS 계약을 통해 약 3,852억~4,179억원의 정산 차익을 거둘 전망임.",
+            "2026년부터 2028년까지 600억원 규모의 자사주 매입·소각 및 주당 최소 1,700원의 배당을 시행하는 중기 주주환원 정책을 추진함.",
+            "2026년 10월 윤병석 신임 사장을 선임했으며, 2027년부터 신성장 동력 발굴 및 사업화를 본격 추진할 계획임."
         ],
         "key_issues": [
-            "SK바이오사이언스의 2년 연속 1,000억 원대 영업적자 및 IDT바이오로지카 가동률 제고 과제.",
-            "SK플라즈마의 중복상장 우려에 따른 IPO 지연 및 신규 성장 전략 부재.",
-            "SK그룹 내 바이오 계열사 간 CDMO 사업 영역 중복 및 성과 격차에 따른 포트폴리오 조정 가능성."
+            "SK바이오사이언스의 지속적인 영업적자와 독일 IDT바이오로지카 인수 후 가동률 제고 및 수익성 개선 과제.",
+            "SK플라즈마의 낮은 채산성과 중복상장 우려로 인한 IPO 지연 및 신규 성장 전략 확보 필요성.",
+            "그룹 내 바이오 계열사 간 CDMO 및 세포유전자치료제(CGT) 분야의 사업 중복으로 인한 포트폴리오 조정 가능성."
         ],
-        "news_summary": "SK디스커버리는 비핵심 자산 매각과 SK에코플랜트 PRS 정산을 통해 대규모 현금을 확보하고 재무 건전성을 강화하며 2027년 신사업 추진을 위한 기반을 마련했다. 반면, SK케미칼의 실적 성장세와 달리 SK바이오사이언스와 SK플라즈마 등 바이오 계열사는 실적 부진과 성장 동력 확보라는 과제에 직면해 있어 향후 그룹 차원의 바이오 사업 재편 가능성이 제기된다."
+        "news_summary": "SK디스커버리는 자회사 실적 개선과 적극적인 포트폴리오 재편을 통해 지주사 출범 이후 최대 분기 실적을 기록했으며, 자산 매각과 PRS 정산을 통해 재무 건전성을 강화하고 주주환원을 확대하고 있다. 다만, 바이오 계열사의 실적 회복과 사업 중복 해소가 향후 주요 과제다."
     }
 }

@@ -1,7 +1,7 @@
 {
     "key": "018670",
     "filename": "018670_SK가스",
-    "updated": "2026-11-12 19:43",
+    "updated": "2026-11-17 12:22",
     "llm_research_updated": "2026-11-06 10:44",
     "financials": {
         "meta": {
@@ -9,53 +9,62 @@
             "code": "018670",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 19:43",
-            "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:22",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 2220,
-                "revenue_ltm": 9280,
-                "opincome_ltm": 176,
-                "revenue_qtr": 2310,
-                "opincome_qtr": -43.9
+                "marcap": 2180,
+                "revenue_ltm": 9680,
+                "opincome_ltm": 367,
+                "revenue_qtr": 2710,
+                "opincome_qtr": 148
+            },
+            "share": {
+                "marcap(%)": "-",
+                "-m_rank": "-",
+                "revenue_qtr(%)": "-",
+                "-r_rank": "-",
+                "opincome_qtr(%)": "-",
+                "-o_rank": "-"
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": false,
                 "higher(comp)": false,
-                "slope": -4.7,
-                "growth(%)": -5.9
+                "slope": 4,
+                "growth(%)": 4.2
             },
             "opmargin(%)": {
                 "25_4Q": 1.8,
                 "26_1Q": 8.6,
                 "26_2Q": -1.9,
-                "26_3Q": -1.9,
-                "ltm": 1.9
+                "26_3Q": 5.4,
+                "ltm": 3.8
             },
             "PER": {
-                "PER_ltm": 12.7,
-                "PER_qx4": null,
-                "PER_fwd": null
+                "PER_ltm": 5.93,
+                "PER_qx4": 3.69,
+                "PER_fwd": 3.45
             },
             "volatility": {
-                "measure_to_base(%)": -8.7
+                "measure_to_base(%)": -7.2
             },
             "amount": {
-                "measure_to_base(%)": -10
+                "measure_to_base(%)": -22
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,19 +72,19 @@
                     "beta": 0.34
                 },
                 "base_period": {
-                    "alpha(%)": 0.052,
-                    "beta": 0.15
+                    "alpha(%)": 0.032,
+                    "beta": 0.13
                 },
                 "measure_period": {
-                    "alpha(%)": -0.59,
-                    "beta": 0.21
+                    "alpha(%)": -0.63,
+                    "beta": 0.15
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Mid",
+            "PER_level": "Low",
             "volatility_level": "-",
             "amount_level": "-",
             "alpha_level": "udr_pfm",
@@ -84,8 +93,8 @@
         }
     },
     "info_section": {
-        "reviewed": false,
-        "updated": "2026-11-06 10:44",
+        "reviewed": true,
+        "updated": "2026-11-16 12:53",
         "search_theme": [
             "실적",
             "전망"
@@ -112,7 +121,7 @@
             "성장 후 수익성 일시 둔화",
             "포트폴리오 확장 및 저탄소 전환"
         ],
-        "create_segments": false,
+        "create_segments": true,
         "recomm_segs": true,
         "key_products": [
             "LPG 수입 및 유통, LPG 트레이딩",
@@ -134,19 +143,19 @@
         "updated": "2026-11-02 15:03"
     },
     "news": {
-        "updated": "2026-11-11 12:58",
+        "updated": "2026-11-16 15:08",
         "key_facts": [
-            "2026년 3분기 연결 기준 매출액 2조 7,111억원, 영업이익 1,477억원(전분기 대비 흑자전환), 당기순이익 2,288억원을 기록함.",
+            "2026년 3분기 연결 기준 매출액 2조 7,111억원, 영업이익 1,477억원, 당기순이익 2,288억원을 기록함.",
             "2026년 1~3분기 누적 매출액 7조 6,593억원, 영업이익 3,314억원, 당기순이익 4,632억원을 달성함.",
-            "3분기 대규모 파생상품 평가이익 반영으로 세전이익 2,858억원을 기록했으나, 4분기에 일부 환입될 예정임.",
-            "올해부터 3년간 총 900억원 규모의 자사주 매입 및 소각 계획을 공시함.",
-            "2027~2030년 연결 세전이익 4,500억원 이상을 목표로 AIDC 유틸리티 솔루션 및 북미 가스전 밸류체인 확대 등 신규 사업을 추진함."
+            "2026년 연간 세전이익은 전년 대비 104.5% 증가한 6,733억원으로 추정되며 역대급 실적이 예상됨.",
+            "2027~2030년 연결기준 세전이익 4,500억원 이상 달성을 목표로 함.",
+            "SK어드밴스드와의 합병 추진 및 AIDC 유틸리티 솔루션, 북미 가스전 등 신규 성장 사업을 계획 중임."
         ],
         "key_issues": [
-            "국내 LPG 유통 부문의 매입-판매가 차이로 인한 역마진 부담이 지속되고 있음.",
-            "PDH 사업 부문의 적자 발생이 전체 영업이익에 영향을 미침.",
-            "3분기 파생상품 이익의 환입으로 인해 4분기 파생상품 손실 발생이 전망됨."
+            "실적이 외부 원자재 시황 및 파생상품 평가이익에 의존하여 중장기 지속성 및 분기별 이익 변동성 리스크가 있음.",
+            "PDH 사업 부문에서 적자를 기록함.",
+            "주가 리레이팅을 위해 신규 사업들의 구체적인 수익화 시점 제시가 필요한 상황임."
         ],
-        "news_summary": "SK가스는 2026년 3분기 LPG 트레이딩 및 발전 부문의 호조와 파생상품 이익으로 영업이익 흑자 전환과 당기순이익 증가를 달성했습니다. LPG 유통 역마진과 PDH 적자 등의 리스크가 존재하나, LNG-LPG 옵셔널리티 활용과 자사주 소각을 통한 주주환원 강화, 미래 성장 사업 확대를 통해 수익성 개선과 기업 가치 제고를 추진하고 있습니다."
+        "news_summary": "SK가스는 중동의 지정학적 불안과 LNG-LPG 가격 스프레드 확대, 파생상품 평가이익 등에 힘입어 2026년 사상 최대급 실적을 기록할 전망입니다. 3분기 영업이익 흑자전환 및 당기순이익 급증을 달성했으며, 울산GPS의 옵셔널리티 전략을 통해 수익성을 강화하고 있습니다. 향후 2030년까지의 중장기 이익 목표 설정과 신사업 추진, 주주환원 확대를 계획하고 있으나, 원자재 시황에 민감한 이익 구조와 PDH 사업 적자 해결이 과제로 남아있습니다."
     }
 }

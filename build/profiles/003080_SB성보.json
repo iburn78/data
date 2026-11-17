@@ -1,0 +1,138 @@
+{
+    "key": "003080",
+    "filename": "003080_SB성보",
+    "updated": "2026-11-17 12:16",
+    "llm_research_updated": "2026-11-12 20:55",
+    "financials": {
+        "meta": {
+            "name": "SB성보",
+            "code": "003080",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "농업 화학 (2114)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 43.2,
+                "revenue_ltm": 66.6,
+                "opincome_ltm": -7.95,
+                "revenue_qtr": 7.57,
+                "opincome_qtr": -3.92
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.47,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -430,
+                "26_1Q": 16,
+                "26_2Q": -28,
+                "26_3Q": -52,
+                "ltm": -12
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -56
+            },
+            "amount": {
+                "measure_to_base(%)": -47
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.033,
+                    "beta": 0.25
+                },
+                "base_period": {
+                    "alpha(%)": -0.051,
+                    "beta": 0.12
+                },
+                "measure_period": {
+                    "alpha(%)": -0.15,
+                    "beta": 0.012
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-14 14:14",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "작물보호제 사업",
+            "임대 사업",
+            "신사업 및 기타 (F&B/스마트팜)"
+        ],
+        "revenue_share": [
+            0.94,
+            0.034,
+            0.026
+        ],
+        "trend": [
+            "수요는 필수적이나 경쟁 심화 및 수익성 하락 추세",
+            "안정적인 수익 창출원",
+            "초기 투자 단계 및 재무 구조 취약"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "살충제,살균제,제초제 (바스타액제, 세피나분산성액제, 풀샷액제)",
+            "사옥 및 공장 임대 서비스",
+            "카페 '윤잇', 스마트팜 작물 재배 및 유통"
+        ],
+        "competitors": [
+            "팜한농,경농,동방아그로,한국삼공,신젠타코리아,농협케미컬",
+            "부동산 임대 시장 경쟁사",
+            "스마트팜 및 F&B 시장 경쟁사"
+        ]
+    },
+    "code": "003080",
+    "name": "SB성보",
+    "overview": {
+        "title": "매출 증가에도 수익성 하락",
+        "desc": "동사는 1961년 작물 보호제 제조 및 판매를 목적으로 설립되었으며, 1976년 유가 증권 시장에 상장되었음. 동사는 종속 회사로 농업 회사 법인인 에스비위드 아그로, 에스비위드 크롭스를 보유하고 있음. 동사는 살균제, 제초제, 살충제 등 작물 보호제 제조 및 판매를 주된 사업으로 영위하고 있으며, 전국 지방 사무소와 판매망을 통해 도·소매상을 대상으로 영업을 전개하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 2.5% 증가, 영업이익은 16.6% 감소, 당기순이익은 96.1% 감소. 작물보호제 부문은 판매망 활용과 기술개발로 매출이 증가했으나, 농수산물 수입 개방과 원제 수입자유화로 수익성은 다소 하락함. 지구온난화로 병충해 발생이 증가하면서 작물보호제 수요는 필수불가결하며, 천연물·미생물 기반 생물작물보호제와 친환경 신규 원제 개발로 산업은 점진적 성장 전망.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:54"
+    },
+    "news": {
+        "updated": "2026-11-12 20:55",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

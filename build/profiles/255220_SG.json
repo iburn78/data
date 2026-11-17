@@ -1,0 +1,151 @@
+{
+    "key": "255220",
+    "filename": "255220_SG",
+    "updated": "2026-11-17 12:20",
+    "llm_research_updated": "2026-11-13 10:41",
+    "financials": {
+        "meta": {
+            "name": "SG",
+            "code": "255220",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:20",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "기초 건설소재 (212)",
+                "subindustry": "건설 자재 (2122)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 147,
+                "revenue_ltm": 87.2,
+                "opincome_ltm": -0.618,
+                "revenue_qtr": 24.4,
+                "opincome_qtr": 1.37
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 0.29,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": 11,
+                "26_1Q": -67,
+                "26_2Q": 3,
+                "26_3Q": 5.6,
+                "ltm": -0.71
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": 26.8,
+                "PER_fwd": 17.6
+            },
+            "volatility": {
+                "measure_to_base(%)": -34
+            },
+            "amount": {
+                "measure_to_base(%)": -43
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.037,
+                    "beta": 0.7
+                },
+                "base_period": {
+                    "alpha(%)": -0.41,
+                    "beta": 0.38
+                },
+                "measure_period": {
+                    "alpha(%)": -0.025,
+                    "beta": 0.38
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:41",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "아스콘 제조 및 판매",
+            "건설 및 포장 시공",
+            "환경 플랜트 설비"
+        ],
+        "revenue_share": [
+            0.82,
+            0.1,
+            0.08
+        ],
+        "opmargin": [
+            -0.151,
+            null,
+            null
+        ],
+        "trend": [
+            "declining due to SOC investment cut",
+            "stable but low growth",
+            "improving due to legal mandates"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "일반 아스콘, 에코스틸아스콘",
+            "도로 포장 및 시공 서비스",
+            "SGR+ 대기오염 저감장치"
+        ],
+        "competitors": [
+            "지역 기반 중소 아스콘 업체들",
+            "도로포장 전문건설사",
+            "환경 플랜트 설비 업체들"
+        ]
+    },
+    "code": "255220",
+    "name": "SG",
+    "overview": {
+        "title": "아스콘시장 위축 속 친환경신기술 돌파",
+        "desc": "동사는 2009년 아스콘 제조와 판매를 주사업으로 설립되었으며, 2018년 코스닥시장에 상장되었음. 9개의 종속회사를 보유하고 있고, 2019년 환경 플랜트 전문 시공업체 이지이앤엠을 인수하여 아스콘 플랜트 환경설비 사업에 특화하고 있음. 아스콘 제조·판매, 포장 건설업, 대기오염물질 저감장치 설치업을 영위하며, 종속회사를 통해 부동산 개발, 환경 플랜트설비, 포장공사 사업을 수행하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 35.3% 감소, 영업손실은 1824.1% 증가, 당기순이익 적자전환. 2025년 전국 아스콘 생산납품실적이 전년 대비 6.0% 감소하는 등 아스콘 산업 전반의 수요가 위축되면서 동사의 매출이 감소하였음. 관급수요가 80% 이상인 아스콘 특성상 정부 및 지자체의 사회간접자본 투자 축소가 실적 하락에 영향을 미쳤으며, 영업손실이 확대되었음.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 21:53"
+    },
+    "news": {
+        "updated": "2026-11-13 10:42",
+        "key_facts": [
+            "소시에테제네랄(SG)은 S&P500지수의 연말 목표치를 8,000으로 제시했으며, 조건 충족 시 10,000까지 상승 가능성을 전망함(2026년 11월).",
+            "소시에테제네랄(SG) 리서치는 2027년 설립 예정인 한국 '미래대응기금'이 단기물 및 신용채권 시장을 지지할 것으로 분석함(2026년 11월).",
+            "SG세계물산은 2026년 3분기 매출 368억 2,800만원(4.5%↑)을 기록했으나, 영업손실 12억 1,500만원 및 당기순손실 10억 2,400만원으로 적자 전환됨.",
+            "SG세계물산의 2026년 1~3분기 누적 영업손실은 35억 5,300만원으로 확대되었으나, 투자부동산 처분 및 지분법이익 영향으로 누적 당기순이익은 33억 3,000만원을 기록함.",
+            "아스콘 전문기업 SG는 인도네시아 국영기업과 도로사업 컨소시엄을 구성하고 포스코인터내셔널과 JV 설립을 협의해 현지 인프라 시장 공략에 나섬(2026년 9월)."
+        ],
+        "key_issues": [
+            "SG세계물산의 영업손실 확대 및 3분기 당기순손실 적자 전환"
+        ],
+        "news_summary": "소시에테제네랄(SG)은 미국 증시의 강세와 한국 미래대응기금의 채권시장 지지 효과를 전망했으며, 아스콘 전문기업 SG는 인도네시아 도로 인프라 시장 진출을 추진하고 있습니다. 반면 SG세계물산은 2026년 3분기 영업손실 확대와 당기순손실 적자 전환을 기록했습니다."
+    }
+}

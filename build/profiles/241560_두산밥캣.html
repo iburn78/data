@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:45</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>산업재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>자본재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:22</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=3#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">산업재 (3)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=31#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">자본재 (31)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=313#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기계 및 부품 (313)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=3131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">건설기계 및 중장비 (3131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>5,060</span>
+                                <span>4,970</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -338,7 +351,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_ltm</td>
                             <td class="value">
-                                <span>4.25</span>
+                                <span>4.18</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -347,7 +360,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
                             <td class="value">
-                                <span>4.25</span>
+                                <span>4.18</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -356,7 +369,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
                             <td class="value">
-                                <span>4.25</span>
+                                <span>4.18</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -368,7 +381,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-32</span>
+                                <span>-29</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -380,7 +393,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-32</span>
+                                <span>-22</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -416,7 +429,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.11</span>
+                                <span>-0.091</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -425,7 +438,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.31</span>
+                                <span>0.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -437,7 +450,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.27</span>
+                                <span>0.22</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -446,7 +459,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.17</span>
+                                <span>0.16</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -494,7 +507,7 @@
                         <tr class="value-row level-1">
                             <td class="label">amount (measure)</td>
                             <td class="value">
-                                <span>Dn</span>
+                                <span>-</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -521,7 +534,7 @@
                         <tr class="value-row level-1">
                             <td class="label">market_sentiment</td>
                             <td class="value">
-                                <span>consumed</span>
+                                <span>-</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -557,8 +570,8 @@
                         <div class="qualitative-actions">
 
                             
-                    <span class="reviewed-badge not-reviewed">
-                        ○ Not reviewed
+                    <span class="reviewed-badge reviewed">
+                        ✓ Reviewed
                     </span>
         
 
@@ -587,15 +600,15 @@
                             <tr class="reviewed-row">
                                 <th>reviewed</th>
                                 <td>
-                                    <span class="reviewed-status not-reviewed">
-                                        Not reviewed
+                                    <span class="reviewed-status reviewed">
+                                        Reviewed
                                     </span>
                                 </td>
                             </tr>
             
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-06 11:25</td>
+                                <td>2026-11-16 13:25</td>
                             </tr>
         
                             <tr>
@@ -644,13 +657,13 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>0.787</td>
+                                <td>0.79</td>
                             </tr>
                             <tr>
-                                <td>0.166</td>
+                                <td>0.17</td>
                             </tr>
                             <tr>
-                                <td>0.047</td>
+                                <td>0.05</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -658,19 +671,7 @@
         
                             <tr>
                                 <th>opmargin</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
                                 <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
                             </tr>
         
                             <tr>
@@ -766,26 +767,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 13:05</td>
+                                <td>2026-11-16 13:25</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 3분기 연결 기준 매출액 2조 4,635억원(전년비 16.5%↑), 영업이익 1,674억원(전년비 25.3%↑)을 기록하며 최근 3년 중 최고 매출을 달성함.</td>
+                                <td>2026년 3분기 연결 기준 매출액 2조 4,635억원(전년비 16.5%↑)과 영업이익 1,674억원(전년비 25.3%↑)을 기록하며 3년 내 최고 매출을 달성함.</td>
                             </tr>
                             <tr>
-                                <td>북미 지역의 신규 주택 착공 감소에도 불구하고 데이터센터 및 에너지 시설 등 비주택 건설 투자가 소형 건설기계 수요를 견인하여 매출이 15% 증가함.</td>
+                                <td>북미 매출이 12억 8,000만 달러로 15% 증가했으며, 데이터센터 및 에너지 시설 등 비주택 건설 투자가 소형 건설기계 수요를 견인함.</td>
                             </tr>
                             <tr>
-                                <td>유럽(3%↑) 및 아시아·중남미·오세아니아(14%↑) 지역에서도 노후 장비 교체 및 규제 전 선구매 수요 등으로 매출 성장세를 보임.</td>
+                                <td>제품별로는 소형 장비(15%↑), 산업차량(8%↑), 포터블파워(5%↑) 매출이 모두 성장했으며, ALAO 지역(14%↑)과 EMEA 지역(3%↑)에서도 매출이 증가함.</td>
                             </tr>
                             <tr>
-                                <td>산업차량(8%↑)과 포터블파워(5%↑) 등 제품군 전반에서 매출이 증가했으며, 3분기 말 순현금은 4억 5,300만 달러로 집계됨.</td>
+                                <td>3분기 말 순현금은 4억 5,300만 달러이며, 3분기 배당금을 주당 400원으로 결정함.</td>
                             </tr>
                             <tr>
-                                <td>건설기계 외에 발전용 엔진과 포터블파워 사업을 전개하며 AI 데이터센터 확산에 따른 전력 공급 시장으로 사업 영역을 확대하고 있음.</td>
+                                <td>두산그룹의 사업 재편 전략에 따라 건설기계 외 발전용 엔진과 포터블파워 사업을 통해 전력 공급 시장으로 영역을 확장 중임.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -795,20 +796,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>원자재 가격 상승으로 인해 4분기 영업이익률이 올해 최저 수준인 4.6%로 하락하고, 2027년 영업이익이 전년 대비 약 21.5% 감소할 것으로 전망됨.</td>
+                                <td>원자재 가격 상승 부담으로 2026년 4분기 영업이익률이 올해 최저 수준인 4.6%로 하락할 전망임.</td>
                             </tr>
                             <tr>
-                                <td>멕시코산 생산 물량에 대한 관세 부과(약 20%) 리스크가 단기적인 수익성과 투자 심리에 부담으로 작용할 수 있음.</td>
+                                <td>대신증권은 원자재 가격 상승을 반영하여 2027년 영업이익이 2026년 전망치 대비 약 21.5% 감소할 것으로 추정함.</td>
                             </tr>
                             <tr>
-                                <td>고금리 장기화로 인해 미국 내 신규 주택 착공 건수가 감소하는 등 주택 시장 회복이 지연되고 있음.</td>
+                                <td>멕시코산 생산 물량에 대한 관세 부과(약 20%) 리스크 및 미 주택 시장의 고금리 장기화로 인한 착공 감소가 부담 요인임.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>두산밥캣은 2026년 3분기 북미 데이터센터 등 비주택 인프라 수요 확대와 전 지역의 매출 호조에 힘입어 3년 내 최고 매출과 영업이익 성장을 달성했습니다. 다만, 원자재 가격 상승과 관세 리스크로 인해 향후 수익성 악화가 우려되면서 주요 증권사들이 목표주가를 하향 조정하고 있습니다.</td>
+                                <td>두산밥캣은 2026년 3분기 데이터센터 등 비주택 인프라 수요 확대와 전 지역 매출 호조에 힘입어 3년 내 최고 실적을 기록했습니다. 다만, 원자재 가격 상승에 따른 수익성 악화 우려와 멕시코산 관세 리스크, 미국 주택 경기 침체 등으로 인해 향후 이익률 하락이 전망되며 증권사들의 목표주가가 하향 조정되고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -5054,12 +5055,34 @@ https://www.mt.co.kr/industry/2026/10/29/2026102916500711627
                     aria-label="Delete article">×</button>
             </div>
         
+            <div class="news-row" data-news-file="2026-10-19_[KBThink]_두산밥캣_3Q_영업익_25%_뛴_1천700억_전망…비주택_수요_견인.md"
+                data-news-path="build/news/profiles/241560_두산밥캣/2026-10-19_[KBThink]_두산밥캣_3Q_영업익_25%_뛴_1천700억_전망…비주택_수요_견인.md"
+                data-object-type="Profile"
+                data-object-id="241560">
+                <a href="#" onclick="openPopup('/build/news/profiles/241560_두산밥캣/2026-10-19_[KBThink]_두산밥캣_3Q_영업익_25%_뛴_1천700억_전망…비주택_수요_견인.md'); return false;">
+                    2026-10-19 [KBThink] 두산밥캣 3Q 영업익 25% 뛴 1천700억 전망…비주택 수요 견인
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
             <div class="news-row" data-news-file="2026-10-15_[에너지경제신문]_두산밥캣_목표가_18%_하향…북미_주택시장_부진_장기화_[키움].md"
                 data-news-path="build/news/profiles/241560_두산밥캣/2026-10-15_[에너지경제신문]_두산밥캣_목표가_18%_하향…북미_주택시장_부진_장기화_[키움].md"
                 data-object-type="Profile"
                 data-object-id="241560">
                 <a href="#" onclick="openPopup('/build/news/profiles/241560_두산밥캣/2026-10-15_[에너지경제신문]_두산밥캣_목표가_18%_하향…북미_주택시장_부진_장기화_[키움].md'); return false;">
                     2026-10-15 [에너지경제신문] 두산밥캣 목표가 18% 하향…북미 주택시장 부진 장기화 [키움]
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-15_[뉴스퀘스트]_인프라_훈풍에도_소형장비_한계…두산밥캣_주택_부진에_목표가_뚝.md"
+                data-news-path="build/news/profiles/241560_두산밥캣/2026-10-15_[뉴스퀘스트]_인프라_훈풍에도_소형장비_한계…두산밥캣_주택_부진에_목표가_뚝.md"
+                data-object-type="Profile"
+                data-object-id="241560">
+                <a href="#" onclick="openPopup('/build/news/profiles/241560_두산밥캣/2026-10-15_[뉴스퀘스트]_인프라_훈풍에도_소형장비_한계…두산밥캣_주택_부진에_목표가_뚝.md'); return false;">
+                    2026-10-15 [뉴스퀘스트] 인프라 훈풍에도 소형장비 한계…두산밥캣 주택 부진에 목표가 뚝
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -5071,6 +5094,18 @@ https://www.mt.co.kr/industry/2026/10/29/2026102916500711627
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

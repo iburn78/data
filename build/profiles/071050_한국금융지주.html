@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -95,37 +99,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -194,6 +168,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -203,7 +216,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>6,770</span>
+                                <span>6,900</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -497,26 +510,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:33</td>
+                                <td>2026-11-16 15:23</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>한국금융지주 2026년 3분기 연결 지배주주순이익은 2,823억 원으로 전년 동기 대비 58.1%, 전 분기 대비 71.7% 감소함.</td>
+                                <td>한국금융지주의 2026년 3분기 연결 기준 지배주주순이익은 2,823억 원으로 전년 동기 대비 58.1%, 전 분기 대비 71.7% 감소함.</td>
                             </tr>
                             <tr>
-                                <td>한국투자증권의 3분기 브로커리지 수수료 수익은 전 분기 대비 36.5% 감소하고, WM 수수료 수익은 81.7% 급감한 반면 IB 수익은 12.0% 증가함.</td>
+                                <td>한국투자증권의 3분기 실적은 IB 수익이 전 분기 대비 12.0% 증가(2,164억 원)했으나, 브로커리지 수수료 수익(-36.5%)과 운용 부문 이익(-51.6%)은 크게 감소함.</td>
                             </tr>
                             <tr>
-                                <td>한국금융지주의 2026년 3분기 말 총자산은 152조 9,000억 원, 운용자산(AUM)은 576조 6,000억 원을 기록함.</td>
+                                <td>자산관리(WM) 부문 수익성이 악화되어 금융상품 판매수수료는 1,001억 원(전 분기 대비 -60.2%), 자산관리 수수료는 304억 원(-81.7%)으로 급감함.</td>
                             </tr>
                             <tr>
-                                <td>KDB생명 인수를 통해 우선협상대상자로 선정되었으며, 이를 통한 보험업 진출 및 사업 포트폴리오 다변화를 추진 중임.</td>
+                                <td>1~3분기 누적 연결 순이익은 2조 1,968억 원으로 전년 동기 대비 31.2% 증가하며 누적 기준 성장세는 유지함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 11월 6일, 실적 부진과 시장 상황의 영향으로 한국금융지주의 주가가 장중 최대 20% 이상 급락함.</td>
+                                <td>KDB생명 인수를 통해 보험업 진출을 추진 중이나, 자본확충 규모 등에 대한 이견으로 본계약 체결이 지연되고 있음.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -526,23 +539,23 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>증시 침체 및 거래대금 급감으로 인한 브로커리지 및 WM 수익 악화.</td>
+                                <td>증시 침체로 인한 거래대금 급감 및 브로커리지/WM 수익성 악화</td>
                             </tr>
                             <tr>
-                                <td>금리 상승에 따른 채권 운용 부진 및 외화 자산 평가손실 등 금융시장 변동성 확대.</td>
+                                <td>금리 상승 및 환율 하락에 따른 채권 운용 부진과 외화자산 평가손실 발생</td>
                             </tr>
                             <tr>
-                                <td>증권 중심의 수익구조로 인한 분기별 이익 변동성 심화.</td>
+                                <td>증권 중심 수익구조의 높은 이익 변동성 및 실적 쇼크에 따른 주가 급락</td>
                             </tr>
                             <tr>
-                                <td>KDB생명 인수와 관련하여 자본확충 규모 및 부담 주체에 대한 이견으로 본계약 체결 지연.</td>
+                                <td>KDB생명 인수 관련 산업은행과의 조건 협의 난항 및 본계약 체결 지연</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>한국금융지주는 2026년 3분기 증시 침체, 금리 상승, 외화 평가손실 등의 영향으로 지배주주순이익이 전년 및 전 분기 대비 대폭 감소하는 어닝 쇼크를 기록했습니다. 핵심 자회사인 한국투자증권의 브로커리지와 WM 부문 수익이 급감했으나 IB 부문은 성장세를 유지했습니다. 이로 인해 주가가 급락하고 목표주가가 하향 조정되었으며, 회사는 이를 극복하기 위해 KDB생명 인수를 통한 보험업 진출 및 수익구조 다변화를 추진하고 있습니다.</td>
+                                <td>한국금융지주와 한국투자증권은 2026년 3분기 증시 침체, 금리 상승, 환율 하락의 영향으로 시장 기대치를 크게 밑도는 어닝 쇼크를 기록했습니다. IB 부문은 성장했으나 브로커리지, WM, 운용 수익이 급감하며 분기 순이익이 전 분기 대비 70% 이상 하락했습니다. 이에 증권가는 목표주가를 하향 조정했으며, 사측은 수익 구조 다변화를 위해 KDB생명 인수를 통한 보험업 진출을 추진 중입니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -736,40 +749,7 @@
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-10_[파이낸셜포스트]_[2027_경제·금융_전망]_금리_올라도...금융연구원_실장_순이자마진_상승폭_크지_않을.md"
-                data-news-path="build/news/profiles/071050_한국금융지주/2026-11-10_[파이낸셜포스트]_[2027_경제·금융_전망]_금리_올라도...금융연구원_실장_순이자마진_상승폭_크지_않을.md"
-                data-object-type="Profile"
-                data-object-id="071050">
-                <a href="#" onclick="openPopup('/build/news/profiles/071050_한국금융지주/2026-11-10_[파이낸셜포스트]_[2027_경제·금융_전망]_금리_올라도...금융연구원_실장_순이자마진_상승폭_크지_않을.md'); return false;">
-                    2026-11-10 [파이낸셜포스트] [2027 경제·금융 전망] 금리 올라도...금융연구원 실장 순이자마진 상승폭 크지 않을
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-10_[디지털투데이]_은행권_내년_수익성_개선_제한적…기업대출_경쟁·부실_부담_가중.md"
-                data-news-path="build/news/profiles/071050_한국금융지주/2026-11-10_[디지털투데이]_은행권_내년_수익성_개선_제한적…기업대출_경쟁·부실_부담_가중.md"
-                data-object-type="Profile"
-                data-object-id="071050">
-                <a href="#" onclick="openPopup('/build/news/profiles/071050_한국금융지주/2026-11-10_[디지털투데이]_은행권_내년_수익성_개선_제한적…기업대출_경쟁·부실_부담_가중.md'); return false;">
-                    2026-11-10 [디지털투데이] 은행권 내년 수익성 개선 제한적…기업대출 경쟁·부실 부담 가중
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-10_[디지털애셋]_금융연_은행권_원화_스테이블코인_입법_전부터_수탁·자금세탁방지_역량_구축해야.md"
-                data-news-path="build/news/profiles/071050_한국금융지주/2026-11-10_[디지털애셋]_금융연_은행권_원화_스테이블코인_입법_전부터_수탁·자금세탁방지_역량_구축해야.md"
-                data-object-type="Profile"
-                data-object-id="071050">
-                <a href="#" onclick="openPopup('/build/news/profiles/071050_한국금융지주/2026-11-10_[디지털애셋]_금융연_은행권_원화_스테이블코인_입법_전부터_수탁·자금세탁방지_역량_구축해야.md'); return false;">
-                    2026-11-10 [디지털애셋] 금융연 은행권 원화 스테이블코인 입법 전부터 수탁·자금세탁방지 역량 구축해야
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-10_[논객닷컴]_잘_나가던_한국투자증권...꼬꾸라지는_실적에_잔치_끝났다.md"
+        <div class="news-row" data-news-file="2026-11-10_[논객닷컴]_잘_나가던_한국투자증권...꼬꾸라지는_실적에_잔치_끝났다.md"
                 data-news-path="build/news/profiles/071050_한국금융지주/2026-11-10_[논객닷컴]_잘_나가던_한국투자증권...꼬꾸라지는_실적에_잔치_끝났다.md"
                 data-object-type="Profile"
                 data-object-id="071050">
@@ -802,6 +782,17 @@
                     aria-label="Delete article">×</button>
             </div>
         
+            <div class="news-row" data-news-file="2026-11-06_[비즈니스포스트]_한국금융지주_주가_장중_20%대_급락_실적_부진에_증권가_목표주가_하향.md"
+                data-news-path="build/news/profiles/071050_한국금융지주/2026-11-06_[비즈니스포스트]_한국금융지주_주가_장중_20%대_급락_실적_부진에_증권가_목표주가_하향.md"
+                data-object-type="Profile"
+                data-object-id="071050">
+                <a href="#" onclick="openPopup('/build/news/profiles/071050_한국금융지주/2026-11-06_[비즈니스포스트]_한국금융지주_주가_장중_20%대_급락_실적_부진에_증권가_목표주가_하향.md'); return false;">
+                    2026-11-06 [비즈니스포스트] 한국금융지주 주가 장중 20%대 급락 실적 부진에 증권가 목표주가 하향
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
             <div class="news-row" data-news-file="2026-11-06_[마이데일리]_[MD포커스]_순익_71.8%_급감한_한국금융지주…김남구_회장_KDB_인수로_돌파구_찾을까.md"
                 data-news-path="build/news/profiles/071050_한국금융지주/2026-11-06_[마이데일리]_[MD포커스]_순익_71.8%_급감한_한국금융지주…김남구_회장_KDB_인수로_돌파구_찾을까.md"
                 data-object-type="Profile"
@@ -824,12 +815,34 @@
                     aria-label="Delete article">×</button>
             </div>
         
+            <div class="news-row" data-news-file="2026-11-06_[뉴스1]_한국금융지주_실적_충격_20%_급락…목표가_줄하향[핫종목].md"
+                data-news-path="build/news/profiles/071050_한국금융지주/2026-11-06_[뉴스1]_한국금융지주_실적_충격_20%_급락…목표가_줄하향[핫종목].md"
+                data-object-type="Profile"
+                data-object-id="071050">
+                <a href="#" onclick="openPopup('/build/news/profiles/071050_한국금융지주/2026-11-06_[뉴스1]_한국금융지주_실적_충격_20%_급락…목표가_줄하향[핫종목].md'); return false;">
+                    2026-11-06 [뉴스1] 한국금융지주 실적 충격 20% 급락…목표가 줄하향[핫종목]
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
             <div class="news-row" data-news-file="2026-11-06_[녹색경제신문]_한국금융지주_증권주_중_최대_20%_급락...업종_평균_웃도는_낙폭에_촉각.md"
                 data-news-path="build/news/profiles/071050_한국금융지주/2026-11-06_[녹색경제신문]_한국금융지주_증권주_중_최대_20%_급락...업종_평균_웃도는_낙폭에_촉각.md"
                 data-object-type="Profile"
                 data-object-id="071050">
                 <a href="#" onclick="openPopup('/build/news/profiles/071050_한국금융지주/2026-11-06_[녹색경제신문]_한국금융지주_증권주_중_최대_20%_급락...업종_평균_웃도는_낙폭에_촉각.md'); return false;">
                     2026-11-06 [녹색경제신문] 한국금융지주 증권주 중 최대 20% 급락...업종 평균 웃도는 낙폭에 촉각
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-06_[Chosunbiz]_하나證_한국금융지주_증시_부진에_3분기_실적_기대치_밑돌아…목표가_24만9000원_하향.md"
+                data-news-path="build/news/profiles/071050_한국금융지주/2026-11-06_[Chosunbiz]_하나證_한국금융지주_증시_부진에_3분기_실적_기대치_밑돌아…목표가_24만9000원_하향.md"
+                data-object-type="Profile"
+                data-object-id="071050">
+                <a href="#" onclick="openPopup('/build/news/profiles/071050_한국금융지주/2026-11-06_[Chosunbiz]_하나證_한국금융지주_증시_부진에_3분기_실적_기대치_밑돌아…목표가_24만9000원_하향.md'); return false;">
+                    2026-11-06 [Chosunbiz] 하나證 한국금융지주 증시 부진에 3분기 실적 기대치 밑돌아…목표가 24만9000원 하향
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -1237,6 +1250,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

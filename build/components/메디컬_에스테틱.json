@@ -1,7 +1,7 @@
 {
     "key": "메디컬 에스테틱",
     "filename": "메디컬_에스테틱",
-    "updated": "2026-11-12 10:44",
+    "updated": "2026-11-17 12:26",
     "llm_research_updated": "2026-10-23 14:33",
     "financials": {
         "meta": {
@@ -9,8 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 10:44",
-            "classification": null,
+            "updated": "2026-11-17 12:26",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
@@ -21,11 +20,11 @@
         },
         "shape": {
             "financials": {
-                "marcap": 6170,
-                "revenue_ltm": 1880,
-                "opincome_ltm": 538,
-                "revenue_qtr": 508,
-                "opincome_qtr": 146
+                "marcap": 6230,
+                "revenue_ltm": 1820,
+                "opincome_ltm": 507,
+                "revenue_qtr": 450,
+                "opincome_qtr": 115
             },
             "share": {
                 "marcap(%)": "-",
@@ -39,40 +38,40 @@
         "assess_data": {
             "opincome": {
                 "positive_ltm": true,
-                "higher(comp)": true,
-                "slope": 6.3,
-                "growth(%)": 5.4
+                "higher(comp)": false,
+                "slope": 4.9,
+                "growth(%)": 4.3
             },
             "opmargin(%)": {
                 "25_4Q": 28,
                 "26_1Q": 29,
                 "26_2Q": 29,
-                "26_3Q": 29,
-                "ltm": 29
+                "26_3Q": 26,
+                "ltm": 28
             },
             "PER": {
-                "PER_ltm": 11.5,
-                "PER_qx4": 10.6,
-                "PER_fwd": 9.54
+                "PER_ltm": 12.3,
+                "PER_qx4": 13.6,
+                "PER_fwd": 12.2
             },
             "volatility": {
-                "measure_to_base(%)": -16
+                "measure_to_base(%)": -35
             },
             "amount": {
-                "measure_to_base(%)": -47
+                "measure_to_base(%)": -50
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0057,
+                    "alpha(%)": 0.0073,
                     "beta": 0.62
                 },
                 "base_period": {
-                    "alpha(%)": -0.13,
+                    "alpha(%)": -0.08,
                     "beta": 0.18
                 },
                 "measure_period": {
-                    "alpha(%)": 0.3,
-                    "beta": 0.34
+                    "alpha(%)": 0.079,
+                    "beta": 0.23
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -85,14 +84,14 @@
             }
         },
         "assess_result": {
-            "basics": true,
+            "basics": false,
             "financially_sound": true,
             "PER_level": "Mid",
-            "volatility_level": "-",
+            "volatility_level": "Dn",
             "amount_level": "Dn",
             "alpha_level": "-",
-            "category": "B",
-            "market_sentiment": "-"
+            "category": "D",
+            "market_sentiment": "consumed"
         }
     },
     "info_section": {
@@ -134,11 +133,20 @@
         }
     ],
     "news": {
-        "updated": "2026-11-11 12:42",
+        "updated": "2026-11-16 16:05",
         "key_facts": [
-            "GC녹십자웰빙이 필러와 스킨부스터 제품의 직접 생산 체제 전환을 위해 충북 음성에 의료기기 GMP 공장을 착공했으며, 2027년 2분기 완공을 목표로 하고 있음."
+            "2024년 피부과 및 에스테틱 의학 시장은 8% 성장했으며, 보툴리눔 톡신과 필러 등 주사 시술은 연평균 7% 이상 성장할 것으로 전망됨.",
+            "2024년 전 세계 미용 시술 건수는 약 3,800만 건이며, 수술적 시술 중 눈꺼풀 수술이 1위를 기록함.",
+            "K-메디컬 에스테틱 기업(파마리서치, 휴젤, 클래시스 등)은 평균 매출 총이익률 75%, 영업이익률 40%의 고수익 구조를 보임.",
+            "작년 한국을 방문한 해외 환자 수는 역대 최고치인 117만 명을 기록했으며, 그 중 피부과 환자가 56.6%로 가장 큰 비중을 차지함.",
+            "보툴리눔 톡신 시장은 미용 시술의 대중화와 해외 시장 확대에 따라 성장 가능성이 높으며, 국가별 인허가와 유통망 확보가 경쟁력의 핵심임."
         ],
-        "new_trends": [],
-        "news_summary": "제공된 기사들 중 메디컬 에스테틱 섹터와 직접적으로 관련된 내용은 GC녹십자웰빙이 미용 의료 시장 공략을 위해 충북 음성에 필러 및 스킨부스터 전용 의료기기 GMP 공장을 착공했다는 소식뿐입니다. 해당 기업은 위탁 생산 방식에서 직접 생산 체제로 전환하여 품질과 공급 안정성을 높이고, 차세대 스킨부스터 등 신규 라인업을 확장할 계획입니다."
+        "new_trends": [
+            "GLP-1 계열 비만 치료제 보급으로 인한 체형 관리 및 체중 감량 후 안면 볼륨 감소(얼굴 꺼짐, 처짐) 개선 시술 수요 증가.",
+            "젊은 층의 예방적 시술 증가 및 소셜 미디어(#KoreaGlowUp)를 통한 K-뷰티 트렌드 확산.",
+            "통증과 멍을 줄인 비침습적 전달 기술인 '무바늘(Needle-free) 레이저 주입 기술' 주목.",
+            "에너지 기반 장비(EBD), 톡신, 필러를 중심으로 한 K-에스테틱 제품의 글로벌 수출 확대 및 의료 관광 활성화."
+        ],
+        "news_summary": "글로벌 메디컬 에스테틱 시장은 비침습적 시술의 확대, 젊은 층의 예방적 관리, 그리고 비만 치료제(GLP-1) 사용 후 발생하는 안면 변화 관리라는 새로운 수요를 중심으로 지속 성장하고 있습니다. 특히 한국의 메디컬 에스테틱 산업은 뛰어난 기술력과 가격 경쟁력을 바탕으로 높은 수익성을 기록하고 있으며, 'Korea Glow Up' 현상과 함께 의료 관광객 유입 및 제품 수출이 급증하며 글로벌 시장에서의 입지를 강화하고 있습니다."
     }
 }

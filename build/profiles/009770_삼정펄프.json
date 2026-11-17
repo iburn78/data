@@ -1,0 +1,148 @@
+{
+    "key": "009770",
+    "filename": "009770_삼정펄프",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:12",
+    "financials": {
+        "meta": {
+            "name": "삼정펄프",
+            "code": "009770",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "종이 및 목재 (215)",
+                "subindustry": "펄프 및 제지 (2151)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 64,
+                "revenue_ltm": 112,
+                "opincome_ltm": -4.76,
+                "revenue_qtr": 23.9,
+                "opincome_qtr": -1.03
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.29,
+                "growth(%)": -240
+            },
+            "opmargin(%)": {
+                "25_4Q": -8.5,
+                "26_1Q": -3.9,
+                "26_2Q": -0.035,
+                "26_3Q": -4.3,
+                "ltm": -4.3
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -19
+            },
+            "amount": {
+                "measure_to_base(%)": 7.2
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.013,
+                    "beta": 0.26
+                },
+                "base_period": {
+                    "alpha(%)": -0.037,
+                    "beta": 0.085
+                },
+                "measure_period": {
+                    "alpha(%)": -0.37,
+                    "beta": 0.1
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:12",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "원지 사업부",
+            "완제품 및 상품 사업부",
+            "기타 사업부"
+        ],
+        "revenue_share": [
+            0.56,
+            0.43,
+            0.01
+        ],
+        "trend": [
+            "declining (facing low-cost imports)",
+            "facing stronger competition (e-commerce price wars)",
+            "stable"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "화장지 원지,위생용지 중간재",
+            "화장지,티슈,키친타올,물티슈",
+            "건물 임대"
+        ],
+        "competitors": [
+            "유한킴벌리,깨끗한나라,쌍용씨앤비,미래생활,모나리자",
+            "유한킴벌리,깨끗한나라,쌍용씨앤비,미래생활,모나리자",
+            "N/A"
+        ]
+    },
+    "code": "009770",
+    "name": "삼정펄프",
+    "overview": {
+        "title": "수입산 원지 유입과 공장 재편 영향",
+        "desc": "동사는 1974년 설립되어 2006년 유가증권시장에 상장된 화장지·위생지·기타지류 제조 및 판매 기업임. 화장지, 점보롤, 키친타올 등 위생용 종이제품의 제조 및 판매를 주요 사업으로 영위하며, 국내 위생용지 산업 내 일관가공 라인을 보유한 대형 5개사 중 하나임. 수익성 제고를 위해 2025년 평택공장 가동 중단 및 생산 거점 재배치를 단행하였으며, 천안·함안공장 중심의 생산 체계 재편으로 원가율 개선을 추진하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 28.0% 감소, 영업이익 적자전환, 당기순이익 적자전환. 수입산 원지 유입에 따른 가격경쟁력 약화와 평택공장 생산라인 가동 중단으로 매출 감소 및 영업적자 전환됨. 저수익 사업장 손실 차단을 위해 생산 거점 재배치를 단행하고, 글로벌 네트워크를 활용한 수입산 저가 공세 대응 및 공정 고도화를 통해 경쟁력 확보를 추진 중임.",
+        "as_of": "2026-09-06",
+        "updated": "2026-11-12 21:12"
+    },
+    "news": {
+        "updated": "2026-11-12 21:13",
+        "key_facts": [
+            "삼정펄프는 2026년 9월 30일 천안공장의 원지 생산라인 가동을 중단하고 공장을 사실상 폐쇄함.",
+            "천안공장 소속 인력 60~65명 전원이 희망퇴직으로 퇴사함.",
+            "지난해 평택공장 생산 중단과 이번 천안공장 폐쇄로 인해 전체 직원 수가 지난해 상반기 299명에서 올해 상반기 183명으로 감소했으며, 3분기 보고서에는 약 120명 수준으로 더 줄어들 전망임.",
+            "올해 상반기 매출액은 565억원으로 전년 동기(786억원) 대비 28.12% 감소했으며, 영업손실 약 10억원을 기록하며 적자로 전환함.",
+            "올해 상반기 전체 매출 중 화장지 비중은 55.22%(312억원)임."
+        ],
+        "key_issues": [
+            "중국 및 인도산 저가 제품의 공세로 인한 가격 경쟁력 약화 및 프리미엄 시장 진입 실패.",
+            "화장지 중심의 편중된 사업 구조로 인한 경쟁 환경 변화 취약성.",
+            "잇따른 생산 중단과 대규모 인력 이탈로 인한 본업 경쟁력 및 생산 인프라 약화."
+        ],
+        "news_summary": "삼정펄프가 평택공장에 이어 천안공장까지 폐쇄하며 대규모 인력 감축과 실적 악화를 겪고 있습니다. 저가 수입산 공세와 프리미엄 제품 경쟁력 부재, 화장지에 편중된 사업 구조로 인해 상반기 적자 전환 및 매출 감소가 나타났으며, 전문 인력 유출로 인한 본업 경쟁력 약화가 심화되고 있습니다."
+    }
+}

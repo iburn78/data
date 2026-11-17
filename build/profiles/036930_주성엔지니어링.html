@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -95,37 +99,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 18:30</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>정보기술</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>반도체 및 디스플레이</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -194,6 +168,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=5#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">정보기술 (5)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=53#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">반도체 및 디스플레이 (53)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=531#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">반도체 (531)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=5312#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">반도체 부품 및 장비 (5312)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -203,7 +216,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>8,290</span>
+                                <span>7,070</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -212,7 +225,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>227</span>
+                                <span>245</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -221,7 +234,7 @@
                         <tr class="value-row level-2">
                             <td class="label">opincome_ltm</td>
                             <td class="value">
-                                <span>-16.8</span>
+                                <span>-0.522</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -230,7 +243,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>59.9</span>
+                                <span>78.1</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -239,7 +252,7 @@
                         <tr class="value-row level-2">
                             <td class="label">opincome_qtr</td>
                             <td class="value">
-                                <span>1.42</span>
+                                <span>17.7</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -263,7 +276,7 @@
                         <tr class="value-row level-2">
                             <td class="label">higher(comp)</td>
                             <td class="value">
-                                <span><span class="false_bool">✗</span></span>
+                                <span><span class="true_bool">✓</span></span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -272,7 +285,7 @@
                         <tr class="value-row level-2">
                             <td class="label">slope (qtr, in unit)</td>
                             <td class="value">
-                                <span>-3.7</span>
+                                <span>-2.9</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -281,7 +294,7 @@
                         <tr class="value-row level-2">
                             <td class="label">growth(%)</td>
                             <td class="value">
-                                <span>-32</span>
+                                <span>-23</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -320,7 +333,7 @@
                         <tr class="value-row level-2">
                             <td class="label">26_3Q</td>
                             <td class="value">
-                                <span>2.4</span>
+                                <span>23</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -329,7 +342,7 @@
                         <tr class="value-row level-2">
                             <td class="label">ltm</td>
                             <td class="value">
-                                <span>-7.4</span>
+                                <span>-0.21</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -350,7 +363,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
                             <td class="value">
-                                <span>1,460</span>
+                                <span>100</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -359,9 +372,9 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
                             <td class="value">
-                                <span>-</span>
+                                <span>171</span>
                                 <div class="value-bar-container">
-                                    
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>    
@@ -371,7 +384,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>10</span>
+                                <span>9.1</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -398,7 +411,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.13</span>
+                                <span>0.12</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -407,7 +420,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>1.2</span>
+                                <span>1.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -419,7 +432,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.53</span>
+                                <span>0.47</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -428,9 +441,9 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.97</span>
+                                <span>1</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    <div class="value-bar proportion-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>    
@@ -440,7 +453,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.21</span>
+                                <span>-0.31</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -598,7 +611,7 @@
             
                             <tr>
                                 <th>updated</th>
-                                <td>2026-10-27 13:13</td>
+                                <td>2026-11-14 14:10</td>
                             </tr>
         
                             <tr>
@@ -661,19 +674,7 @@
         
                             <tr>
                                 <th>opmargin</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
                                 <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
                             </tr>
         
                             <tr>
@@ -681,13 +682,13 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>회복세 진입 및 고객 다변화 추진</td>
+                                <td>회복세 진입 및 신규 시장 창출 추진</td>
                             </tr>
                             <tr>
-                                <td>중장기적 성장 잠재력 보유</td>
+                                <td>중장기적 성장 잠재력 보유 및 상용화 추진</td>
                             </tr>
                             <tr>
-                                <td>전방 시장 성장 둔화로 정체 추세</td>
+                                <td>정체 및 전방 시장 성장 둔화</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -735,7 +736,7 @@
                                 <td>ASM International, TEL, Lam Research, 원익IPS</td>
                             </tr>
                             <tr>
-                                <td>글로벌 HJT 장비사, 중국 로컬 업체</td>
+                                <td>글로벌 HJT 장비사, 중국 로컬 장비사</td>
                             </tr>
                             <tr>
                                 <td>글로벌 디스플레이 전공정 장비사</td>
@@ -769,26 +770,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 11:41</td>
+                                <td>2026-11-16 15:12</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 3분기 매출액 781억원(전년비 32.8%↑), 영업이익 177억원(전년비 426.4%↑)을 기록하며 분기 실적 반등에 성공함.</td>
+                                <td>2026년 3분기 매출 781억원, 영업이익 177억원(전년비 426.4% 증가)을 기록하며 분기 실적이 반등함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 1~9월 누적 영업이익은 121억원으로 전년 동기 대비 72.5% 감소했으며, 상반기에는 약 56억원의 영업손실을 기록함.</td>
+                                <td>2026년 1~9월 누적 매출 1,928억원, 영업이익 121억원으로 전년 동기 대비 각각 25.4%, 72.5% 감소함.</td>
                             </tr>
                             <tr>
-                                <td>매출의 대부분(2026년 상반기 기준 98.1%)이 반도체 장비에서 발생하며, 주력 제품인 ALD 외에 차세대 ALG 기술을 개발해 북미 업체 등에 출하 및 협의 중임.</td>
+                                <td>2026년 11월 11일 기준 시가총액 약 8조 2,900억원으로 LG이노텍을 추월함.</td>
                             </tr>
                             <tr>
-                                <td>차세대 탠덤 태양전지 효율 33.09%를 달성하며 기술력을 입증했으며, HJT 양산 검증 완료 업체로 평가받음.</td>
+                                <td>원자층증착(ALD) 외 원자층박막성장(ALG) 장비를 글로벌 기업에 출하했으며, SK하이닉스 용인 1기 팹 공급을 협의 중임.</td>
                             </tr>
                             <tr>
-                                <td>2026년 2분기 말 기준 전체 수주잔고 2,336억원 중 반도체 장비가 2,143억원(91.7%)을 차지함.</td>
+                                <td>차세대 탠덤 태양전지 효율 33.09%를 달성했으며, 35% 이상 상용화를 준비 중임.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -798,23 +799,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>글로벌 메모리 수요 둔화 및 하이퍼스케일러들의 투자 불확실성으로 인한 AI 인프라 투자 사이클 축소 가능성.</td>
+                                <td>글로벌 메모리 수요 둔화 및 미국 중간선거 결과에 따른 데이터센터 투자 불확실성으로 인한 실적 지속성 우려.</td>
                             </tr>
                             <tr>
-                                <td>미국 중간선거 결과에 따른 데이터센터 신설 프로젝트 지연 또는 변경 가능성.</td>
+                                <td>실적 규모 대비 과도하게 높은 시가총액 및 PER 수준에 대한 지적.</td>
                             </tr>
                             <tr>
-                                <td>반도체 매출 집중도가 매우 높아 고객사의 투자 시점 및 발주 조정에 따른 실적 변동성 리스크.</td>
-                            </tr>
-                            <tr>
-                                <td>급격한 주가 상승에 따른 밸류에이션 부담 및 실적 대비 과도한 선반영 우려.</td>
+                                <td>매출의 98.2%(3분기 누적 기준)가 반도체 장비에 집중된 사업 구조적 리스크.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>주성엔지니어링은 2026년 상반기 적자와 누적 실적 감소에도 불구하고, 3분기 반도체 장비 매출 증가로 영업이익이 급증하며 반등했습니다. ALD, ALG 및 탠덤 태양전지 등 차세대 기술 경쟁력을 확보하고 있으나, 전방 산업의 투자 불확실성과 높은 매출 집중도, 밸류에이션 부담이 주요 리스크로 지목됩니다.</td>
+                                <td>주성엔지니어링은 2026년 3분기 반도체 장비 매출 증가로 영업이익이 전년 대비 426.4% 급증하며 실적 반등에 성공했고, 성장 기대감으로 시가총액이 LG이노텍을 추월했습니다. 다만, 상반기 부진으로 누적 실적은 전년보다 감소했으며, 미국 정치 상황에 따른 AI 인프라 투자 불확실성과 높은 기업가치 평가가 리스크 요인으로 꼽힙니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -868,7 +866,7 @@
             aria-controls="roma-plot-036930" title="ROMA plot (r)">ROMA plot (r)</button>
         <template class="roma-plot-template" id="roma-plot-036930"
             data-title="ROMA plot — 036930"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-036930" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-036930")) {                    Plotly.newPlot(                        "roma-plot-036930",                        [{"customdata":[["2016-04-01",416.71735152],["2016-07-01",239.03500348999998],["2016-10-01",558.2484317599999],["2017-01-01",291.67843076],["2017-04-01",391.78640083999994],["2017-07-01",597.27773497],["2017-10-01",1311.9513804],["2018-01-01",792.60214865],["2018-04-01",431.2185955],["2018-07-01",294.38237169999996],["2018-10-01",217.81651983000006],["2019-01-01",92.49524218999998],["2019-04-01",132.98748045],["2019-07-01",200.17187784],["2019-10-01",527.62678501],["2020-01-01",165.25238114999996],["2020-04-01",224.72033221499998],["2020-07-01",359.75442681000004],["2020-10-01",902.7874734000001],["2021-01-01",848.2581169600002],["2021-04-01",1057.02064963],["2021-07-01",936.633543],["2021-10-01",771.1731773999999],["2022-01-01",1933.2382810999998],["2022-04-01",1895.2228408499998],["2022-07-01",1086.36788165],["2022-10-01",739.7804093499998],["2023-01-01",456.64819259999996],["2023-04-01",1327.1349964799997],["2023-07-01",2586.82990661],["2023-10-01",3954.4810580999997],["2024-01-01",2483.6559907],["2024-04-01",2697.4294582499997],["2024-07-01",2266.8428583000004],["2024-10-01",1036.1329321],["2025-01-01",1245.2642207499998],["2025-04-01",1770.3988894],["2025-07-01",1058.20556705],["2025-10-01",583.4521686999999],["2026-01-01",593.95717295],["2026-04-01",5624.108680000001],["2026-07-01",29895.039658499998]],"hovertemplate":"\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"WCE14XbOH0C2YeI2IvEcQBH8Cmoj1SBAUiOcHazgHUCs9ahWqHIfQKshsfs\u002fESFA5g4nhXJ5JEAjhYSFMSQiQBLaeURNASBApBXEtF3sHUBzaiVDLIkcQEzu9LH3jxlAppPX93CrGkCIrgMEzC4cQFrWTC19pCBAQl1Cq1RvG0AoQaVqiKscQKEv08BM+B5AG3hAp1mwIkDEhAecIGwiQPHMcQTeZiNAdA0jp6nZIkBaBrB20wciQCuN7ggEtyZAcp7adNqWJkB6Xrv+DIgjQOFSuBWM3SFAJAtzJfstIECN+ixY64gkQKanqShBtShA2VHxUmEvLEDsIRQ6Z2koQMk3hU\u002fnBClATDGjBbHEJ0AbvAi2904jQGNg4K5oNCRAhUfYz+kqJkAqYcJGN2gjQFJ22\u002fkv\u002fCBAhYXrsjYMIUDooLsQ2K8vQAAAAAAAAD5A"},"sizemode":"diameter"},"mode":"lines+markers","name":"\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1","x":{"dtype":"f8","bdata":"It3loBjYG0D40yD3tjIZQEjkoYlVOiBAA9ml5JlvHkD9icE555AeQHm4DqbJvhhANl3aZuZTF0Aldza2ZxMcQMdjVSeYcxRAlu5jSgFzFEAtvQV0UFEiQAmJ0QeUvBhAi0X9fSATG0CFpUkHtVkbQGyYaCLBdhhAsp+vJPM\u002fDEAIwEg7uIEMQHMenRTQMvw\u002fqgbABB77B0C4QqP2RSEeQGJLuQGy6RxAIkSML4esIUByBIMEeUMsQMhwX0DUZSVAIL\u002f9UJfLJ0BWMtpDrwclQEYy5I9bXSVAHWl9hV17G0DRYKLkBlUJQCicmz7UNiFAIVIgKzCpI0A+Gq5U56AWQOxnEKtvdyNA6hFHwN9wLUBjZiO3LaglQMQjgedWKyhA8vvamVKEH0CEuf7ZZoIXQAfpIm+E6RRANmrdfJ7zFUCVBtbn5fMXQJUG1ufl8xdA"},"y":{"dtype":"f8","bdata":"lq9U4v2gIkDxFQ20Y5MgQIRWJWb9KyhACAz3aZMzKUC2usLZsvcpQIf\u002fz7x3bSFASPip7dCRHUDF3rlnxWwpQDuOvP\u002fR2RtAKu8Q6hXnHUDKarAsdXssQPF5rLbuNCNAupOK8VqlI0AzvkbKyuojQB2qkayv9fg\u002fua5q2fJHA8DIdGd0p97sP1Hp3sUmoCvAPYPc\u002fsJsI8DerE+mQg4wQE63QhG4GShAjztoIF3HN0CwFD5l+VxJQHQo0f9jmD5Ay9PLhRBQQUD8Rc6XHqU+QERz0jiqBDxAM6GGxWEvJ0Ag2n19Y3ghwCtc2JisuRhAAkfcRRPmM0B7boqPmx4cQMUXiMYcCEJAc9p5OfEVSkB35bCEgOf+P8UmkuUt9EBASWwjEEJNGkAHjX\u002fwuNgKQBpg6fOGKSnARHeux\u002fsfHMBSiJQnj8X2P1KIlCePxfY\u002f"},"z":{"dtype":"f8","bdata":"eHwrtcZXDkD7Yv3LHwMPQK0\u002fh85ynRNALKMSUEE+E0DHTyNoZRISQGSS+ZYlSRlA6GdXErpmGkBkkvmWJUkZQC\u002fc+0yk\u002fBNAuMpldF+HDkA3icIpGgIOQJ9uYVz4+wdA6lbjdvXYCkDhUFZM4MMIQK7VTOUOAAxA94TlAqkeDkAFZXQqm4MBQOTkEH0vXAlAZia0x3ThCUC4ymV0X4cOQHacCAYDqRVAscTYSUpyHEDT2PYnBTIVQI0Y6m6mhSNAPfmJPZO0J0C2NqtDEO8dQFZ1a6Y2kRVAzmYkLj+1E0C2NqtDEO8dQAYKo\u002fauqSFAAx0ieMABKUA9RfK7B8svQPGgdks0gDBAtsQOhmHNMUDj9YQY9OkoQLyCSf6bYCtA9xJJRfr8MUDR63WpFoosQANDVrf6DC1ABVYLdSPAKUCoP1GSW0I+QL+7Mvv+HlxA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[5.9881817078],"y":[1.423232226],"z":[112.48431282],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 2,990","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 14,948","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 29,895","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-1.177636566824,15.898093652124002],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-19.09153340616,57.45016168016],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-8.9987450256,121.4830578456],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-036930" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-036930")) {                    Plotly.newPlot(                        "roma-plot-036930",                        [{"customdata":[["2016-04-01",416.71735152],["2016-07-01",239.03500348999998],["2016-10-01",558.2484317599999],["2017-01-01",291.67843076],["2017-04-01",391.78640083999994],["2017-07-01",597.27773497],["2017-10-01",1311.9513804],["2018-01-01",792.60214865],["2018-04-01",431.2185955],["2018-07-01",294.38237169999996],["2018-10-01",217.81651983000006],["2019-01-01",92.49524218999998],["2019-04-01",132.98748045],["2019-07-01",200.17187784],["2019-10-01",527.62678501],["2020-01-01",165.25238114999996],["2020-04-01",224.72033221499998],["2020-07-01",359.75442681000004],["2020-10-01",902.7874734000001],["2021-01-01",848.2581169600002],["2021-04-01",1057.02064963],["2021-07-01",936.633543],["2021-10-01",771.1731773999999],["2022-01-01",1933.2382810999998],["2022-04-01",1895.2228408499998],["2022-07-01",1086.36788165],["2022-10-01",739.7804093499998],["2023-01-01",456.64819259999996],["2023-04-01",1327.1349964799997],["2023-07-01",2586.82990661],["2023-10-01",3954.4810580999997],["2024-01-01",2483.6559907],["2024-04-01",2697.4294582499997],["2024-07-01",2266.8428583000004],["2024-10-01",1036.1329321],["2025-01-01",1245.2642207499998],["2025-04-01",1770.3988894],["2025-07-01",1058.20556705],["2025-10-01",583.4521686999999],["2026-01-01",593.95717295],["2026-04-01",5624.108680000001],["2026-07-01",29895.039658499998]],"hovertemplate":"\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"WCE14XbOH0C2YeI2IvEcQBH8Cmoj1SBAUiOcHazgHUCs9ahWqHIfQKshsfs\u002fESFA5g4nhXJ5JEAjhYSFMSQiQBLaeURNASBApBXEtF3sHUBzaiVDLIkcQEzu9LH3jxlAppPX93CrGkCIrgMEzC4cQFrWTC19pCBAQl1Cq1RvG0AoQaVqiKscQKEv08BM+B5AG3hAp1mwIkDEhAecIGwiQPHMcQTeZiNAdA0jp6nZIkBaBrB20wciQCuN7ggEtyZAcp7adNqWJkB6Xrv+DIgjQOFSuBWM3SFAJAtzJfstIECN+ixY64gkQKanqShBtShA2VHxUmEvLEDsIRQ6Z2koQMk3hU\u002fnBClATDGjBbHEJ0AbvAi2904jQGNg4K5oNCRAhUfYz+kqJkAqYcJGN2gjQFJ22\u002fkv\u002fCBAhYXrsjYMIUDooLsQ2K8vQAAAAAAAAD5A"},"sizemode":"diameter"},"mode":"lines+markers","name":"\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1","x":{"dtype":"f8","bdata":"It3loBjYG0D40yD3tjIZQEjkoYlVOiBAA9ml5JlvHkD9icE555AeQHm4DqbJvhhANl3aZuZTF0Aldza2ZxMcQMdjVSeYcxRAlu5jSgFzFEAtvQV0UFEiQAmJ0QeUvBhAi0X9fSATG0CFpUkHtVkbQGyYaCLBdhhAsp+vJPM\u002fDEAIwEg7uIEMQHMenRTQMvw\u002fqgbABB77B0C4QqP2RSEeQGJLuQGy6RxAIkSML4esIUByBIMEeUMsQMhwX0DUZSVAIL\u002f9UJfLJ0BWMtpDrwclQEYy5I9bXSVAHWl9hV17G0DRYKLkBlUJQCicmz7UNiFAIVIgKzCpI0A+Gq5U56AWQOxnEKtvdyNA6hFHwN9wLUBjZiO3LaglQMQjgedWKyhA8vvamVKEH0CEuf7ZZoIXQAfpIm+E6RRANmrdfJ7zFUCVBtbn5fMXQF2J1H0GOx9A"},"y":{"dtype":"f8","bdata":"lq9U4v2gIkDxFQ20Y5MgQIRWJWb9KyhACAz3aZMzKUC2usLZsvcpQIf\u002fz7x3bSFASPip7dCRHUDF3rlnxWwpQDuOvP\u002fR2RtAKu8Q6hXnHUDKarAsdXssQPF5rLbuNCNAupOK8VqlI0AzvkbKyuojQB2qkayv9fg\u002fua5q2fJHA8DIdGd0p97sP1Hp3sUmoCvAPYPc\u002fsJsI8DerE+mQg4wQE63QhG4GShAjztoIF3HN0CwFD5l+VxJQHQo0f9jmD5Ay9PLhRBQQUD8Rc6XHqU+QERz0jiqBDxAM6GGxWEvJ0Ag2n19Y3ghwCtc2JisuRhAAkfcRRPmM0B7boqPmx4cQMUXiMYcCEJAc9p5OfEVSkB35bCEgOf+P8UmkuUt9EBASWwjEEJNGkAHjX\u002fwuNgKQBpg6fOGKSnARHeux\u002fsfHMBSiJQnj8X2P7xQNYSnqjFA"},"z":{"dtype":"f8","bdata":"eHwrtcZXDkD7Yv3LHwMPQK0\u002fh85ynRNALKMSUEE+E0DHTyNoZRISQGSS+ZYlSRlA6GdXErpmGkBkkvmWJUkZQC\u002fc+0yk\u002fBNAuMpldF+HDkA3icIpGgIOQJ9uYVz4+wdA6lbjdvXYCkDhUFZM4MMIQK7VTOUOAAxA94TlAqkeDkAFZXQqm4MBQOTkEH0vXAlAZia0x3ThCUC4ymV0X4cOQHacCAYDqRVAscTYSUpyHEDT2PYnBTIVQI0Y6m6mhSNAPfmJPZO0J0C2NqtDEO8dQFZ1a6Y2kRVAzmYkLj+1E0C2NqtDEO8dQAYKo\u002fauqSFAAx0ieMABKUA9RfK7B8svQPGgdks0gDBAtsQOhmHNMUDj9YQY9OkoQLyCSf6bYCtA9xJJRfr8MUDR63WpFoosQANDVrf6DC1ABVYLdSPAKUCoP1GSW0I+QL+7Mvv+HlxA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\uc8fc\uc131\uc5d4\uc9c0\ub2c8\uc5b4\ub9c1"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[7.8076419507],"y":[17.666618598],"z":[112.48431282],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 2,990","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 14,948","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 29,895","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-1.177636566824,15.898093652124002],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-19.09153340616,57.45016168016],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-8.9987450256,121.4830578456],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
     
         <button class="mv-plot-link" type="button" aria-haspopup="dialog"
             data-code="036930"
@@ -2410,7 +2408,18 @@ CXMT 를 중심으로 한 메모리 투자 강도는 강하다. 올해 80K 에 �
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-10_[한국경제TV]_반도체_소부장_2027년_실적_성장성_봐야…이오테크닉스·주성엔지니어링_주목_[더_워룸].md"
+        <div class="news-row" data-news-file="2026-11-12_[핀포인트뉴스]_주성엔지니어링_LG이노텍_시총_추월…매출_80분의_1인데_기업가치는_1조원_더_높아.md"
+                data-news-path="build/news/profiles/036930_주성엔지니어링/2026-11-12_[핀포인트뉴스]_주성엔지니어링_LG이노텍_시총_추월…매출_80분의_1인데_기업가치는_1조원_더_높아.md"
+                data-object-type="Profile"
+                data-object-id="036930">
+                <a href="#" onclick="openPopup('/build/news/profiles/036930_주성엔지니어링/2026-11-12_[핀포인트뉴스]_주성엔지니어링_LG이노텍_시총_추월…매출_80분의_1인데_기업가치는_1조원_더_높아.md'); return false;">
+                    2026-11-12 [핀포인트뉴스] 주성엔지니어링 LG이노텍 시총 추월…매출 80분의 1인데 기업가치는 1조원 더 높아
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-10_[한국경제TV]_반도체_소부장_2027년_실적_성장성_봐야…이오테크닉스·주성엔지니어링_주목_[더_워룸].md"
                 data-news-path="build/news/profiles/036930_주성엔지니어링/2026-11-10_[한국경제TV]_반도체_소부장_2027년_실적_성장성_봐야…이오테크닉스·주성엔지니어링_주목_[더_워룸].md"
                 data-object-type="Profile"
                 data-object-id="036930">
@@ -2658,6 +2667,18 @@ CXMT 를 중심으로 한 메모리 투자 강도는 강하다. 올해 80K 에 �
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

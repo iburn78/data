@@ -1,0 +1,143 @@
+{
+    "key": "009580",
+    "filename": "009580_무림P&P",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:12",
+    "financials": {
+        "meta": {
+            "name": "무림P&P",
+            "code": "009580",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "종이 및 목재 (215)",
+                "subindustry": "펄프 및 제지 (2151)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 98.2,
+                "revenue_ltm": 780,
+                "opincome_ltm": -28.4,
+                "revenue_qtr": 179,
+                "opincome_qtr": -11.9
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -2.4,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -2.7,
+                "26_1Q": -3.1,
+                "26_2Q": -2.4,
+                "26_3Q": -6.6,
+                "ltm": -3.6
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -38
+            },
+            "amount": {
+                "measure_to_base(%)": -90
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.04,
+                    "beta": 0.42
+                },
+                "base_period": {
+                    "alpha(%)": -0.22,
+                    "beta": 0.14
+                },
+                "measure_period": {
+                    "alpha(%)": -0.02,
+                    "beta": 0.21
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:12",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "제지 부문",
+            "펄프 부문",
+            "금융 부문",
+            "기타 부문"
+        ],
+        "revenue_share": [
+            0.773,
+            0.223,
+            0.0,
+            0.004
+        ],
+        "trend": [
+            "시장점유율 확대 중이나 수요 위축 및 경쟁 심화",
+            "국제 가격 연동 및 원재료 의존도로 수익성 개선 필요",
+            "모회사 지급보증 의존도 높음",
+            "소규모 매출 유지"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "아트지, 백상지, 인쇄용지",
+            "표백화학펄프(HW-BKP)",
+            "여신전문업(무림캐피탈)",
+            "펠릿, 톱밥, 조림사업"
+        ],
+        "competitors": [
+            "한솔제지, 한국제지, 홍원제지",
+            "한솔제지, 한국제지, 홍원제지",
+            "기타 여신전문회사",
+            "기타 임산물 업체"
+        ]
+    },
+    "code": "009580",
+    "name": "무림P&P",
+    "overview": {
+        "title": "매출 증가에도 수익성 부진",
+        "desc": "동사는 1974년 국내 제지업체에 표백화학펄프를 공급할 목적으로 설립되었으며, 1989년 한국거래소 유가증권시장에 상장됨. 무림그룹의 계열사로서 무림SP, 무림페이퍼와 함께 그룹 핵심사업인 제지업종을 영위하고 있음. 국내 유일의 표백화학펄프 제조업체로서 표백화학펄프를 생산하며, 2011년 펄프-제지 일관화공장을 완공하여 아트지, 백상지 등 인쇄용지를 생산·판매하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 15.5% 증가, 영업손실은 5.7% 증가, 당기순손실은 890.9% 증가. 제지부문은 원가절감으로 시장점유율을 확대했으나, 펄프부문은 국제 가격 연동과 원재료 수입 의존도로 영업손실이 지속되며 수익성 개선이 필요함. 동사는 친환경 소재 브랜드 '네오포레'를 통해 제품군을 확대하고, 에너지 판매 사업으로 중장기 기업가치 제고를 추진하고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:11"
+    },
+    "news": {
+        "updated": "2026-11-12 21:12",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "key": "060380",
+    "filename": "060380_동양에스텍",
+    "updated": "2026-11-17 12:19",
+    "llm_research_updated": "2026-11-13 10:13",
+    "financials": {
+        "meta": {
+            "name": "동양에스텍",
+            "code": "060380",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:19",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 22.6,
+                "revenue_ltm": 225,
+                "opincome_ltm": 4.95,
+                "revenue_qtr": 61.1,
+                "opincome_qtr": 2.48
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": 0.11,
+                "growth(%)": 12
+            },
+            "opmargin(%)": {
+                "25_4Q": -0.15,
+                "26_1Q": 0.025,
+                "26_2Q": 4.2,
+                "26_3Q": 4.1,
+                "ltm": 2.2
+            },
+            "PER": {
+                "PER_ltm": 4.57,
+                "PER_qx4": 2.28,
+                "PER_fwd": 2.05
+            },
+            "volatility": {
+                "measure_to_base(%)": -30
+            },
+            "amount": {
+                "measure_to_base(%)": -68
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.011,
+                    "beta": 0.49
+                },
+                "base_period": {
+                    "alpha(%)": -0.043,
+                    "beta": 0.19
+                },
+                "measure_period": {
+                    "alpha(%)": -0.31,
+                    "beta": 0.061
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:13",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "철강제품 판매 및 가공",
+            "폐기물 처리",
+            "규격소재 및 기계 판매",
+            "강구조건설"
+        ],
+        "revenue_share": [
+            0.77,
+            0.12,
+            0.09,
+            0.02
+        ],
+        "trend": [
+            "improving due to high-value products",
+            "stable growth via license expansion",
+            "expanding precision processing capacity",
+            "diversifying into solar power and SOC"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "열연코일,후판,박판,BH-BEAM,POS-H 내진철강재",
+            "건설폐기물 중간처리,수집 및 운반",
+            "금속절삭기계,정밀가공소재",
+            "강구조물 공사,철골 공사,태양광 전기공사"
+        ],
+        "competitors": [
+            "대동스틸,부국철강,화인베스틸",
+            "동양알디(자회사)",
+            "디와이에스엠(자회사)",
+            "동양이엔씨(자회사)"
+        ]
+    },
+    "code": "060380",
+    "name": "동양에스텍",
+    "overview": {
+        "title": "철강 가공 판매 확대로 실적 개선",
+        "desc": "동사는 1981년 철강제품 제조 및 판매를 목적으로 설립되어 2002년 코스닥 시장에 상장하였음. 포스코의 가공센터로서 열연코일, 박판 및 후판제품을 가공하여 건설용 소부재, BH-BEAM 및 규격소재 등을 제작 판매하고 있음. 종속회사로는 건설폐기물 처리업의 동양알디, 금속절삭기계 제조의 디와이에스엠, 강구조물 공사업의 동양이엔씨, 지정폐기물 수집운반업의 디와이솔루션 등 4개 계열회사를 보유하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 23.3% 증가, 영업이익은 170.6% 증가, 당기순이익은 144.7% 증가. 철강제품판매 부문에서 포스코는 정품 원자재 기반 열연, 후판, 코일 등 가공 판매 확대로 매출 증가하고 있음. 디와이에스엠은 특허제품 원형톱날 고속절단기로 정밀 가공 및 당일·익일 배송 체계를 구축, 동양이엔씨는 강구조물 공장 운영 및 태양광 사업 다각화 중임.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-12 21:35"
+    },
+    "news": {
+        "updated": "2026-11-13 10:13",
+        "key_facts": [
+            "2026년 11월 10일, 철강 유통 중심에서 고부가 제조·가공 중심으로 사업 구조를 전환하고 수익 구조 다변화를 추진한다고 발표함.",
+            "포항 비규격 소재 공장 가동을 통해 산업용 기계, 반도체 장비 등에 쓰이는 정밀 가공소재 사업을 확대하고 다품종 소량 생산에 대응함.",
+            "POS-H(강재 10~20% 절감)와 BH 띠장(공기 60% 이상 단축) 등 고기능성 건설자재를 통해 건설 현장의 원가 절감 및 효율성을 공략함.",
+            "포항, 진천, 대전 생산거점을 활용해 지하 토목부터 지상 골조까지 아우르는 자재 통합 패키지 공급 영업을 추진함.",
+            "계열사 동양이엔씨의 설계 및 시공 역량을 결합하여 대형 건축 현장과 SOC 프로젝트로 수주 영역을 확장함."
+        ],
+        "key_issues": [
+            "철강 시장 내 가격 경쟁 심화로 인해 단순 유통 중심의 사업 구조로는 부가가치 창출에 한계가 있음.",
+            "철강 시황 변동에 따른 수익 불안정성을 해소하고 안정적인 수익 구조를 구축해야 함."
+        ],
+        "news_summary": "동양에스텍은 단순 철강 유통에서 벗어나 정밀 가공소재와 고기능성 건설자재 중심의 고부가 제조·가공 기업으로 체질 개선을 추진하고 있습니다. 포항 공장 가동, POS-H 및 BH 띠장 공급, 계열사 협력을 통한 통합 패키지 영업 등을 통해 수익 구조를 다변화하고 중장기 성장 기반을 강화하고 있습니다."
+    }
+}

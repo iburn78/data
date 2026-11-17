@@ -1,7 +1,7 @@
 {
     "key": "014530",
     "filename": "014530_극동유화",
-    "updated": "2026-11-12 19:45",
+    "updated": "2026-11-17 12:17",
     "llm_research_updated": "2026-11-11 16:58",
     "financials": {
         "meta": {
@@ -9,53 +9,54 @@
             "code": "014530",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 11:26",
-            "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:17",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 110,
-                "revenue_ltm": 1040,
-                "opincome_ltm": 34.4,
-                "revenue_qtr": 258,
-                "opincome_qtr": 13.1
+                "marcap": 109,
+                "revenue_ltm": 1060,
+                "opincome_ltm": 27.4,
+                "revenue_qtr": 284,
+                "opincome_qtr": 6.11
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": true,
-                "higher(comp)": true,
-                "slope": 0.49,
-                "growth(%)": 7.6
+                "higher(comp)": false,
+                "slope": 0.17,
+                "growth(%)": 2.9
             },
             "opmargin(%)": {
                 "25_4Q": 0.97,
                 "26_1Q": 2.2,
                 "26_2Q": 5.1,
-                "26_3Q": 5.1,
-                "ltm": 3.3
+                "26_3Q": 2.2,
+                "ltm": 2.6
             },
             "PER": {
-                "PER_ltm": 3.21,
-                "PER_qx4": 2.1,
-                "PER_fwd": 1.92
+                "PER_ltm": 3.99,
+                "PER_qx4": 4.48,
+                "PER_fwd": 4.2
             },
             "volatility": {
-                "measure_to_base(%)": -36
+                "measure_to_base(%)": -35
             },
             "amount": {
-                "measure_to_base(%)": -68
+                "measure_to_base(%)": -70
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,23 +64,23 @@
                     "beta": 0.14
                 },
                 "base_period": {
-                    "alpha(%)": -0.08,
-                    "beta": 0.057
+                    "alpha(%)": -0.071,
+                    "beta": 0.065
                 },
                 "measure_period": {
-                    "alpha(%)": -0.24,
-                    "beta": 0.11
+                    "alpha(%)": -0.2,
+                    "beta": 0.072
                 }
             }
         },
         "assess_result": {
-            "basics": true,
-            "financially_sound": true,
+            "basics": false,
+            "financially_sound": false,
             "PER_level": "Low",
             "volatility_level": "Dn",
             "amount_level": "Dn",
             "alpha_level": "-",
-            "category": "A",
+            "category": "D",
             "market_sentiment": "consumed"
         }
     },
@@ -103,12 +104,6 @@
             0.25,
             0.04,
             0.03
-        ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
         ],
         "trend": [
             "stable",
@@ -140,13 +135,19 @@
         "updated": "2026-11-11 16:58"
     },
     "news": {
-        "updated": "2026-11-11 16:58",
+        "updated": "2026-11-16 17:05",
         "key_facts": [
-            "에쓰씨엔지니어링은 2026년 10월 14일, 극동유화와 바이오에너지 플랜트 건설을 위한 업무협약을 체결하고 바이오디젤 플랜트 시장에 진출함.",
-            "에쓰씨엔지니어링은 극동유화가 추진하는 신규 바이오디젤 플랜트 건설 프로젝트의 EPC 기술 파트너로서 기술 지원 및 사업화 기반 구축을 협력하며, 개념설계 단계부터 참여할 계획임.",
-            "에쓰씨엔지니어링은 과거 극동유화와 덕양에너젠이 공동 출자한 케이앤디에너젠으로부터 약 1,000억 원 규모의 국내 최대 수소 생산공장 건설 프로젝트를 수주해 수행한 이력이 있음."
+            "2026년 1~9월 누적 매출액 7,895억 원 기록 (석유유통 57%, 윤활유 26%, 바이오디젤 5% 순)",
+            "제47기 반기 영업이익 131.3억 원 및 순이익 84.2억 원을 기록하며 흑자 전환 성공",
+            "종속회사 케이디비앤티(주)가 2026년 5월부터 바이오디젤 설비를 가동하여 3분기 중 425억 원의 생산 실적 달성",
+            "2026년 10월 14일, 에쓰씨엔지니어링과 신규 바이오디젤 플랜트 건설을 위한 EPC 기술 파트너 업무협약(MOU) 체결",
+            "2026년 9월 3일, 계열사 고진모터스가 보유 지분 전량을 우암건설에 양도하여 우암건설의 지분율이 6.00%로 상승"
         ],
-        "key_issues": [],
-        "news_summary": "에쓰씨엔지니어링이 극동유화와 업무협약을 체결하고 바이오디젤 플랜트 시장에 진출하며, 기존 수소 플랜트 EPC 기술력을 바탕으로 신규 바이오디젤 플랜트의 기술 지원 및 사업화를 추진한다."
+        "key_issues": [
+            "영업이익 증가에도 불구하고 제47기 반기 영업활동현금흐름이 220.4억 원 유출로 전환됨",
+            "매출채권이 제47기 반기말 기준 1,060.6억 원으로 증가하여 대금 회수 지연 및 현금흐름 악화 발생",
+            "제47기 반기말 부채비율이 131.6%로 전년 동기(122.9%) 대비 상승하는 추세"
+        ],
+        "news_summary": "극동유화는 바이오디젤 신사업 확대와 마진 개선을 통해 2026년 반기 영업이익 흑자 전환을 달성하고 에쓰씨엔지니어링과 플랜트 건설 협력을 추진 중입니다. 하지만 매출채권 급증에 따른 현금흐름 악화와 부채비율 상승이라는 재무적 과제를 안고 있습니다."
     }
 }

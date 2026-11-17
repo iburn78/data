@@ -1,0 +1,133 @@
+{
+    "key": "019660",
+    "filename": "019660_글로본",
+    "updated": "2026-11-17 12:18",
+    "llm_research_updated": "2026-11-12 21:21",
+    "financials": {
+        "meta": {
+            "name": "글로본",
+            "code": "019660",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:18",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "농업 화학 (2114)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 18.1,
+                "revenue_ltm": 18.3,
+                "opincome_ltm": -5.27,
+                "revenue_qtr": 7.13,
+                "opincome_qtr": -0.719
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.14,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -59,
+                "26_1Q": -30,
+                "26_2Q": -20,
+                "26_3Q": -10,
+                "ltm": -29
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 67
+            },
+            "amount": {
+                "measure_to_base(%)": -11
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.024,
+                    "beta": 0.37
+                },
+                "base_period": {
+                    "alpha(%)": -0.31,
+                    "beta": 0.1
+                },
+                "measure_period": {
+                    "alpha(%)": -0.22,
+                    "beta": 0.14
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Up",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:21",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "화장품 사업",
+            "비료 파생원료 트레이딩 사업"
+        ],
+        "revenue_share": [
+            0.6,
+            0.4
+        ],
+        "trend": [
+            "매출 회복 조짐 및 시장 확대 시도 중",
+            "신규 진출 후 계약 확보 및 성장 초기 단계"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "RUE KWAVE 기초화장품, 마스크팩",
+            "무수암모니아, 염화칼륨(MOP)"
+        ],
+        "competitors": [
+            "한국콜마, 아모레퍼시픽, LG생활건강, 인디 브랜드",
+            "중소 비료 트레이딩 업체들"
+        ]
+    },
+    "code": "019660",
+    "name": "글로본",
+    "overview": {
+        "title": "매출 증가에도 비용 부담 수익성 악화",
+        "desc": "동사는 1986년 설립되어 1992년 코스닥에 상장하였으며, 화장품 및 비료 산업 파생 원료 사업을 운영함. 화장품 부문에서는 중국시장에 'RUE KWAVE' 브랜드를 런칭해 한류를 선호하는 중국, 동남아, 중동 여성 고객을 타깃으로 함. 비료 부문은 트레이딩 및 투자를 포함한 다양한 방면으로 사업을 진행하며, 지역 수요/공급 불균형과 가격 차이를 활용해 글로벌 시장을 확장하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 65.9% 증가, 영업손실은 41.8% 증가, 당기순손실은 79.2% 증가. 비료 산업 파생 원료 트레이딩 확대와 K-뷰티 판매 증가로 매출은 증가했으나, 글로벌 경기 변동과 원자재 시황 영향 및 사업 확장 비용으로 영업손실이 확대됨. SNS 및 숏폼을 통해 K-Beauty 인지도가 상승하고, 북미·유럽 선진 시장 및 중동·중남미 신흥 시장 진출이 확대되고 있음.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 21:21"
+    },
+    "news": {
+        "updated": "2026-11-12 21:21",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

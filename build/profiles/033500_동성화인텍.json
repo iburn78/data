@@ -1,0 +1,143 @@
+{
+    "key": "033500",
+    "filename": "033500_동성화인텍",
+    "updated": "2026-11-17 12:18",
+    "llm_research_updated": "2026-11-13 10:03",
+    "financials": {
+        "meta": {
+            "name": "동성화인텍",
+            "code": "033500",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:18",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "특수 산업 소재 (2112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 339,
+                "revenue_ltm": 775,
+                "opincome_ltm": 99.7,
+                "revenue_qtr": 206,
+                "opincome_qtr": 24.3
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 1.8,
+                "growth(%)": 9.7
+            },
+            "opmargin(%)": {
+                "25_4Q": 11,
+                "26_1Q": 12,
+                "26_2Q": 16,
+                "26_3Q": 12,
+                "ltm": 13
+            },
+            "PER": {
+                "PER_ltm": 3.4,
+                "PER_qx4": 3.49,
+                "PER_fwd": 2.94
+            },
+            "volatility": {
+                "measure_to_base(%)": -3.2
+            },
+            "amount": {
+                "measure_to_base(%)": -43
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.04,
+                    "beta": 0.7
+                },
+                "base_period": {
+                    "alpha(%)": -0.38,
+                    "beta": 0.43
+                },
+                "measure_period": {
+                    "alpha(%)": -0.77,
+                    "beta": 0.63
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:03",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "PU단열재 (초저온 보냉재)",
+            "가스 (냉매)"
+        ],
+        "revenue_share": [
+            0.96,
+            0.04
+        ],
+        "trend": [
+            "improving (고가 물량 인식 및 수요 확대)",
+            "stable (안정적 캐시카우)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "LNG/LPG 운반선 초저온 보냉재, LNG 추진선 연료탱크, PU System",
+            "불소 냉매 수입 및 판매, 냉매 리사이클 사업"
+        ],
+        "competitors": [
+            "한국카본, 중국 현지 업체 (더허테크놀로지 등)",
+            "삼성전자, LG전자, 현대자동차 등 (냉매 공급 관계)"
+        ]
+    },
+    "code": "033500",
+    "name": "동성화인텍",
+    "overview": {
+        "title": "친환경에너지 수요 확대로 실적 개선",
+        "desc": "동사는 1985년 화공품 수입판매를 목적으로 설립되어 1997년 코스닥에 상장된 초저온보냉재 전문 기업임. 사업부문은 PU단열재와 가스사업으로 구분되며, PU단열재는 LNG/LPG운반선 화물창, 연료탱크에 쓰이는 초저온보냉재와 가전/산업/건축용 PU System으로 구성됨. 동사는 글로벌 최고의 Low BOR 기술을 바탕으로 초저온보냉재 글로벌리더로 성장하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 7.6% 증가, 영업이익은 89.4% 증가, 당기순이익은 117.9% 증가. 주력 사업인 PU단열재 부문에서 친환경에너지 수요 확대로 LNG 수출플랜트 프로젝트 확대 등 전방시장이 개선되면서 초저온보냉재 매출이 크게 증가함. IMO2020 발효에 따른 선박 연료 전환으로 LNG추진선박용 LNG탱크 수요가 높아지면서 전반적인 실적이 크게 개선됨.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:29"
+    },
+    "news": {
+        "updated": "2026-11-13 10:03",
+        "key_facts": [
+            "2026년 상반기 매출 3,937억 원, 영업이익 558억 원을 기록하며 전년 동기 대비 각각 7.6%, 89.4% 증가함.",
+            "2026년 상반기 영업이익률 14.2%를 달성했으며, 6월 말 기준 약 2조 410억 원의 수주 잔고를 확보함.",
+            "2026년 6월 HD현대삼호, HD현대중공업, 삼성중공업과 총 3,000억 원 이상의 초저온 보냉재 공급 계약을 체결함.",
+            "2026년 6월, 온실가스 배출량을 33% 낮춘 저탄소·고효율 LNG 운반선 단열재를 개발해 노르웨이선급협회(DNV) 검증을 완료함.",
+            "단기차입금 72억 원을 상환하여 사실상 무차입 경영 체제를 구축함."
+        ],
+        "key_issues": [
+            "매출의 상당 부분이 국내 조선 3사에 집중되어 있어 중국의 LNG선 수주 확대 및 보냉재 국산화 추세에 취약함.",
+            "회계 이슈 여진과 원재료 가격 상승 우려로 인해 주가가 실적 성장세 대비 저평가됨.",
+            "MDI 등 원재료 가격 상승이 수익성 변수로 작용할 수 있으나 판가 상승과 환율 효과로 상쇄 중임."
+        ],
+        "news_summary": "동성화인텍은 LNG 운반선 호황과 고단가 수주 물량의 실적 반영, 우호적 환율 효과로 2026년 상반기 큰 폭의 영업이익 성장과 약 2조 원의 수주 잔고를 달성했습니다. 하지만 국내 조선사에 편중된 매출 구조로 인해 중국의 추격이라는 위기에 직면해 있으며, 회계 이슈와 원재료비 부담으로 주가가 저평가된 상태입니다. 회사는 저탄소 제품 개발, FLNG 시장 점유율 유지, 해외 고객사 다변화를 통해 경쟁력을 강화하고 있습니다."
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "key": "010060",
+    "filename": "010060_OCI홀딩스",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:13",
+    "financials": {
+        "meta": {
+            "name": "OCI홀딩스",
+            "code": "010060",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "첨단 산업 소재 (2111)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 3490,
+                "revenue_ltm": 3790,
+                "opincome_ltm": 214,
+                "revenue_qtr": 1060,
+                "opincome_qtr": 68
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.52,
+                "growth(%)": 2.5
+            },
+            "opmargin(%)": {
+                "25_4Q": 3.4,
+                "26_1Q": 1.2,
+                "26_2Q": 11,
+                "26_3Q": 6.4,
+                "ltm": 5.7
+            },
+            "PER": {
+                "PER_ltm": 16.3,
+                "PER_qx4": 12.8,
+                "PER_fwd": 12.6
+            },
+            "volatility": {
+                "measure_to_base(%)": -13
+            },
+            "amount": {
+                "measure_to_base(%)": -14
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.065,
+                    "beta": 0.99
+                },
+                "base_period": {
+                    "alpha(%)": 0.081,
+                    "beta": 0.65
+                },
+                "measure_period": {
+                    "alpha(%)": 0.05,
+                    "beta": 0.73
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": true,
+        "updated": "2026-11-16 12:48",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "#지주",
+        "notes": "",
+        "segments": [
+            "신재생에너지 (TerraSus)",
+            "에너지솔루션 (Enterprise)",
+            "기초화학/소재 (OCI)",
+            "부동산 개발 (DCRE)"
+        ],
+        "revenue_share": [
+            0.16,
+            0.05,
+            0.61,
+            0.17
+        ],
+        "opmargin": [
+            0.128,
+            null,
+            0.051,
+            0.111
+        ],
+        "trend": [
+            "Improving (흑자전환)",
+            "Volatile (매각이익 이연)",
+            "Stable (수요 강세)",
+            "Improving (분양 효과)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "태양광용 폴리실리콘, 웨이퍼",
+            "태양광 발전 프로젝트 개발 및 매각, 셀/모듈 조립",
+            "반도체용 고순도 폴리실리콘, 카본블랙, 과산화수소, 인산",
+            "인천 도시개발 및 분양 사업"
+        ],
+        "competitors": [
+            "Tongwei, GCL, Wacker Chemie, First Solar",
+            "OCI Energy (Internal), various solar developers",
+            "Wacker Chemie, Hemlock, Tokuyama",
+            "Various real estate developers"
+        ]
+    },
+    "code": "010060",
+    "name": "OCI홀딩스",
+    "overview": {
+        "title": "AI·반도체 수요 확대로 실적 개선",
+        "desc": "동사는 1959년 설립, 1976년 상장 후 2023년 OCI(주)로 인적분할하고 OCI 홀딩스(주)를 출범하여 지주회사로 전환함. 128개 종속회사와 기초 화학소재의 OCI(주), 태양광용 폴리실리콘의 OCI TerraSus 등 주요 자회사를 보유하고 있음. 지주회사로서 자회사 지분 관리 및 투자, 다양한 사업 통해 안정적 현금 흐름 확보와 신규 사업 발굴에 주력하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 11.1% 증가, 영업이익 흑자전환, 당기순이익 흑자전환. AI 시장 성장 및 데이터센터 투자 확대로 반도체용 폴리실리콘과 전자급 과산화수소 수요가 강세를 보이며 화학소재 부문 실적이 크게 개선됨. 에너지솔루션 부문에서 태양광 및 ESS 사업을 확대하고, 일본 Tokuyama사와 합작법인 설립 등 태양광에서 반도체 소재로 사업 영역을 확장하고 있음.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 21:13"
+    },
+    "news": {
+        "updated": "2026-11-12 21:13",
+        "key_facts": [
+            "2026년 3분기 연결 기준 매출 1조 622억원, 영업이익 680억원을 기록하며 전년 동기 대비 영업이익은 흑자 전환했으나 전분기 대비 37% 감소함.",
+            "폴리실리콘 생산 자회사 OCI 테라서스는 2026년 3분기 영업이익 208억원을 기록하며 전분기 적자에서 흑자로 전환함.",
+            "2026년 2분기 미국 신규 고객사와 폴리실리콘 장기공급계약(LTA)을 체결했으며, 이르면 2027년 1분기부터 공급이 시작될 예정임.",
+            "미국 텍사스주에서 태양광 프로젝트 개발 사업을 진행하는 OCI엔터프라이즈를 보유하고 있으며, 태양광 발전 사업의 자체 보유 및 장기 수익성 강화 계획을 가지고 있음.",
+            "폴리실리콘 및 맞춤형 웨이퍼 공급을 통해 SpaceX의 궤도 컴퓨팅 위성(우주 데이터센터) 시장 진출 모멘텀을 확보함."
+        ],
+        "key_issues": [
+            "미국 고객사의 공장 가동 시점 및 생산량 확대 속도에 따라 실제 실적 개선 속도가 영향받을 수 있음.",
+            "미국 무역확장법 232조(섹션 232)에 따른 최저수입가격(MIP) 제도 및 추가 관세 도입과 관련된 정책적 불확실성이 존재함.",
+            "미국 중간선거 이후 민주당의 청정에너지 세액공제 복원 추진이 트럼프 대통령의 거부권 행사 등으로 인해 실현되지 못할 가능성이 있음.",
+            "글로벌 태양광 수요 및 중국 업체들의 공급 상황에 따라 폴리실리콘 가격이 변동될 수 있음."
+        ],
+        "news_summary": "OCI홀딩스는 2026년 3분기 영업이익 흑자 전환에 성공했으며, 미국의 비중국산 폴리실리콘 수요 확대와 신규 고객사 확보, 우주 데이터센터 등 신시장 진출에 힘입어 2027년부터 본격적인 구조적 성장이 예상됩니다. 특히 자회사 테라서스의 수익성 개선과 미국 내 태양광 공급망 재편 수혜가 기대되나, 미국 정책 변동성과 고객사 가동 일정 등이 주요 변수로 꼽힙니다."
+    }
+}

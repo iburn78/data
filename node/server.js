@@ -86,7 +86,10 @@ const DIRS = {
     valuechains: path.join(ROOT, "build", "valuechains"),
 };
 const MANUAL_PATH = path.join(__dirname, "../../build/analysis/manual.md");
-const SECTOR_MAP_SCRIPT = path.join(__dirname, "../../build/analysis/krics_sector_map.py");
+const CLASSIFICATION_STRUCTURE_FILE = path.join(
+    __dirname,
+    "../../build/dataset/refs/classification_structure.json"
+);
 
 let profilePlotCache = { signature: null, payload: null };
 let profilePlotRequest = null;
@@ -588,23 +591,16 @@ app.get("/api/manual", (req, res) => {
     });
 });
 
-app.get("/api/sector-map", (req, res) => {
-    execFile(PYTHON, [SECTOR_MAP_SCRIPT], {
-        encoding: "utf8",
-        maxBuffer: 8 * 1024 * 1024,
-        env: { ...process.env, PYTHONIOENCODING: "utf-8", PYTHONUTF8: "1" },
-    }, (error, stdout, stderr) => {
-        if (error) {
-            console.error("Could not load KRICS sector map:", stderr || error.message);
-            return res.status(500).json({ error: "Could not load the sector map." });
-        }
-        try {
-            res.json(JSON.parse(stdout));
-        } catch (parseError) {
-            console.error("Could not parse KRICS sector map:", parseError);
-            res.status(500).json({ error: "Could not parse the sector map." });
-        }
-    });
+app.get("/api/classification-map", (req, res) => {
+    try {
+        const classificationMap = JSON.parse(
+            fs.readFileSync(CLASSIFICATION_STRUCTURE_FILE, "utf8")
+        );
+        res.json(classificationMap);
+    } catch (error) {
+        console.error("Could not read classification structure:", error);
+        res.status(500).json({ error: "Could not load the classification map." });
+    }
 });
 
 app.get("/api/:section", (req, res) => {

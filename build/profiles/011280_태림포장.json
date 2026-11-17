@@ -1,0 +1,143 @@
+{
+    "key": "011280",
+    "filename": "011280_태림포장",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:14",
+    "financials": {
+        "meta": {
+            "name": "태림포장",
+            "code": "011280",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "종이 및 목재 (215)",
+                "subindustry": "골판지 및 재생종이 (2152)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 78.5,
+                "revenue_ltm": 785,
+                "opincome_ltm": -1.99,
+                "revenue_qtr": 202,
+                "opincome_qtr": 2.85
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.42,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -3.2,
+                "26_1Q": -1.9,
+                "26_2Q": 2.1,
+                "26_3Q": 1.4,
+                "ltm": -0.25
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": 6.87,
+                "PER_fwd": 5.04
+            },
+            "volatility": {
+                "measure_to_base(%)": -38
+            },
+            "amount": {
+                "measure_to_base(%)": -58
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.023,
+                    "beta": 0.44
+                },
+                "base_period": {
+                    "alpha(%)": -0.33,
+                    "beta": 0.15
+                },
+                "measure_period": {
+                    "alpha(%)": -0.55,
+                    "beta": -0.015
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:14",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "골판지 및 골판지 상자 제조",
+            "골판지 원지 제조",
+            "화물 운송"
+        ],
+        "revenue_share": [
+            0.86,
+            0.13,
+            0.01
+        ],
+        "opmargin": [
+            -0.014,
+            0.125,
+            null
+        ],
+        "trend": [
+            "수익성 회복 중이나 시장점유율 하락세",
+            "견조한 이익 유지 및 모회사 이관 추진",
+            "소규모 유지"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "골판지 원단, 골판지 상자, 친환경 포장재(TECO BOX)",
+            "골심지, 이면지, 지관원지",
+            "제품 배송 및 화물 운송 서비스"
+        ],
+        "competitors": [
+            "아세아제지, 신대양제지(대영포장, 광신판지), 고려제지",
+            "태림페이퍼",
+            "내수 화물 운송 업체"
+        ]
+    },
+    "code": "011280",
+    "name": "태림포장",
+    "overview": {
+        "title": "매출 증가에도 비용 부담 지속",
+        "desc": "동사는 1976년 골판지 및 골판지상자 제조업체로 설립되어 1988년 유가증권시장에 상장하였으며, 종속회사로 골판지 원지 제조업체 동원페이퍼와 화물운송업체 동림로지스틱을 보유하고 있음. 골판지 및 골판지상자 제조를 주력 사업으로 시화공장을 중심으로 구미, 포천, 용인, 파주, 청원, 마산 등 전국 주요 거점에 생산시설을 운영하고 있음. 종속회사를 통해 원지 제조부터 완제품 생산, 화물운송까지 수직계열화된 사업구조를 갖추고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 7.0% 증가, 영업이익은 51.4% 감소, 당기순손실은 50.2% 감소. 골판지 및 골판지상자 부문에서 상위업체들의 지역거점 확보로 매출은 증가했으나, 100% 주문생산방식과 경쟁 심화로 수익성은 제한적임. 농수산물 포장과 전자상거래 증가로 포장수요가 확대되고, 100% 재활용 가능한 친환경 제품으로 수요가 증가해 상위업체들의 시장점유율 확대가 전망됨.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:14"
+    },
+    "news": {
+        "updated": "2026-11-12 21:14",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

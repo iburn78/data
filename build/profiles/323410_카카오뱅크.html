@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=611#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">은행 (611)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6112#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기타 은행 (6112)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>9,690</span>
+                                <span>10,100</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -209,7 +222,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>3,240</span>
+                                <span>3,290</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -227,7 +240,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>829</span>
+                                <span>881</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -417,7 +430,7 @@
             
                             <tr>
                                 <th>recomm_segs</th>
-                                <td><span class="recommendation-yes">Yes</span></td>
+                                <td><span class="recommendation-no">No</span></td>
                             </tr>
             
                             <tr>
@@ -479,26 +492,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:29</td>
+                                <td>2026-11-16 15:49</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 3분기 누적 순이익 4,698억 원으로 역대 최대 실적을 달성했으며, 2030년까지 ROE 15% 달성을 목표로 기업여신 및 비이자수익 비중 확대를 추진함.</td>
+                                <td>2026년 11월 16일부터 아이폰 및 애플워치에서 카카오뱅크 체크카드로 결제가 가능한 애플페이 서비스를 정식 출시함.</td>
                             </tr>
                             <tr>
-                                <td>개인사업자 대출 잔액이 3분기 말 4조 360억 원으로 증가하며 성장을 견인했고, 부산은행과 공동대출 및 11월 중 개인사업자 대환 상품 출시를 통해 기업금융을 확대함.</td>
+                                <td>2026년 3분기 누적 순이익 4,698억 원으로 역대 최대 실적을 기록했으며, 3분기 말 고객 수는 2,794만 명, 수신 잔액은 71조 8,050억 원에 달함.</td>
                             </tr>
                             <tr>
-                                <td>마스턴캐피탈 인수를 통해 2027년 상반기 중고차 할부금융 시장 진출을 계획하고 있으며, 중장기적으로 신용카드 및 증권업 진출을 검토 중임.</td>
+                                <td>개인사업자 대출을 성장축으로 하여 3분기 말 잔액 4조 360억 원을 달성했으며, 부산은행과 협력해 중소법인 대출 및 2028년 법인뱅킹 서비스 진출을 계획함.</td>
                             </tr>
                             <tr>
-                                <td>이르면 2026년 11월 중 애플페이 서비스를 도입할 예정이며, 11월 9일 &#x27;스텔스통장&#x27; 출시 및 외국인 금융 서비스 확대를 추진함.</td>
+                                <td>마스턴캐피탈 지분 100% 인수 계약을 통해 2027년 상반기 중고차 할부금융 출시 및 비은행 여신 포트폴리오 다각화를 추진함.</td>
                             </tr>
                             <tr>
-                                <td>2028년까지 AI 등 기술 분야에 2,700억 원을 투자하고, 2028년 상반기 법인뱅킹 출시 및 2026 회계연도 이익의 50% 주주환원을 계획함.</td>
+                                <td>2030년까지 ROE 15% 달성, 기업여신 비중 18% 확대, 비이자수익 비중 40% 확대 및 2028년까지 AI 등 기술 분야에 2,700억 원 투자를 목표로 함.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -508,23 +521,23 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>최대주주 카카오의 재판 결과에 따른 대주주 적격성 문제가 향후 신용카드 및 증권업 진출의 핵심 변수로 작용함.</td>
+                                <td>최대주주 카카오의 시세조종 의혹 재판 결과에 따른 대주주 적격성 문제가 향후 카드 및 증권업 진출의 변수로 작용함.</td>
                             </tr>
                             <tr>
-                                <td>데이터센터 운영 본격화에 따른 전산운영비 및 감가상각비 증가가 수익성 개선의 제약 요인이 됨.</td>
+                                <td>기업 및 개인사업자 대출 확대에 따른 신용손실충당금 증가 등 대손비용 부담 및 건전성 관리 리스크가 존재함.</td>
                             </tr>
                             <tr>
-                                <td>개인사업자 대출 확대에 따른 신용손실충당금 전입액 증가로 인해 향후 건전성 관리 및 대손비용 부담이 커짐.</td>
+                                <td>데이터센터 운영 및 AI 기술 투자로 인한 전산운영비와 감가상각비 등 판관비 증가가 수익성 개선의 제약 요인이 됨.</td>
                             </tr>
                             <tr>
-                                <td>가계대출 규제 강화로 인해 과거 주요 성장 동력이었던 주택담보대출 확대에 제약이 생김.</td>
+                                <td>애플페이 도입으로 인한 결제 수수료 비용 발생 가능성이 있음.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>카카오뱅크는 개인사업자 대출 확대에 힘입어 2026년 3분기 역대 최대 실적을 기록했으며, 2030년 ROE 15% 달성을 위해 기업금융 확대, 마스턴캐피탈 인수를 통한 비은행 여신 진출, 애플페이 도입 등 사업 영역을 다각화하고 있습니다. 다만, 대주주 적격성 이슈와 기술 투자 비용 증가, 대손충당금 확대 등이 중장기적 과제로 남아 있습니다.</td>
+                                <td>카카오뱅크는 2026년 3분기 역대 최대 실적을 달성하고 11월 16일 애플페이 서비스를 출시하며 성장세를 이어가고 있다. 개인사업자 대출 확대와 마스턴캐피탈 인수를 통한 비은행 여신 진출, 법인금융 확장을 통해 2030년 ROE 15% 달성을 목표로 하는 &#x27;인오가닉 성장&#x27; 전략을 추진 중이다. 다만, 대주주 적격성 리스크와 기업여신 확대에 따른 대손비용 증가, 기술 투자 비용 부담 등이 주요 해결 과제로 남아 있다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -708,7 +721,18 @@
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-10_[더팩트]_대주주_적격성_변수에도…카카오뱅크_선택적_확장_승부수.md"
+        <div class="news-row" data-news-file="2026-11-16_[전자신문]_[단독]카카오뱅크_애플페이_서비스_시작.md"
+                data-news-path="build/news/profiles/323410_카카오뱅크/2026-11-16_[전자신문]_[단독]카카오뱅크_애플페이_서비스_시작.md"
+                data-object-type="Profile"
+                data-object-id="323410">
+                <a href="#" onclick="openPopup('/build/news/profiles/323410_카카오뱅크/2026-11-16_[전자신문]_[단독]카카오뱅크_애플페이_서비스_시작.md'); return false;">
+                    2026-11-16 [전자신문] [단독]카카오뱅크 애플페이 서비스 시작
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-10_[더팩트]_대주주_적격성_변수에도…카카오뱅크_선택적_확장_승부수.md"
                 data-news-path="build/news/profiles/323410_카카오뱅크/2026-11-10_[더팩트]_대주주_적격성_변수에도…카카오뱅크_선택적_확장_승부수.md"
                 data-object-type="Profile"
                 data-object-id="323410">
@@ -840,6 +864,17 @@
                     aria-label="Delete article">×</button>
             </div>
         
+            <div class="news-row" data-news-file="2026-11-04_[에너지경제신문]_순익_25%↑·예금_70조_돌파…카카오뱅크_실적_역대_최대.md"
+                data-news-path="build/news/profiles/323410_카카오뱅크/2026-11-04_[에너지경제신문]_순익_25%↑·예금_70조_돌파…카카오뱅크_실적_역대_최대.md"
+                data-object-type="Profile"
+                data-object-id="323410">
+                <a href="#" onclick="openPopup('/build/news/profiles/323410_카카오뱅크/2026-11-04_[에너지경제신문]_순익_25%↑·예금_70조_돌파…카카오뱅크_실적_역대_최대.md'); return false;">
+                    2026-11-04 [에너지경제신문] 순익 25%↑·예금 70조 돌파…카카오뱅크 실적 역대 최대
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
             <div class="news-row" data-news-file="2026-11-04_[비즈니스포스트]_[오늘Who]_윤호영_카카오뱅크_올해도_최대_실적_확실_비은행_확장_전략도.md"
                 data-news-path="build/news/profiles/323410_카카오뱅크/2026-11-04_[비즈니스포스트]_[오늘Who]_윤호영_카카오뱅크_올해도_최대_실적_확실_비은행_확장_전략도.md"
                 data-object-type="Profile"
@@ -857,6 +892,17 @@
                 data-object-id="323410">
                 <a href="#" onclick="openPopup('/build/news/profiles/323410_카카오뱅크/2026-11-04_[뉴스웍스]_[컨콜]_카카오뱅크_저원가성_예금_절반_이상_유지…4분기_NIM_부담.md'); return false;">
                     2026-11-04 [뉴스웍스] [컨콜] 카카오뱅크 저원가성 예금 절반 이상 유지…4분기 NIM 부담
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-04_[KBThink]_카카오뱅크_3분기_순익_1천417억…누적_기준_연간_최대실적_육박.md"
+                data-news-path="build/news/profiles/323410_카카오뱅크/2026-11-04_[KBThink]_카카오뱅크_3분기_순익_1천417억…누적_기준_연간_최대실적_육박.md"
+                data-object-type="Profile"
+                data-object-id="323410">
+                <a href="#" onclick="openPopup('/build/news/profiles/323410_카카오뱅크/2026-11-04_[KBThink]_카카오뱅크_3분기_순익_1천417억…누적_기준_연간_최대실적_육박.md'); return false;">
+                    2026-11-04 [KBThink] 카카오뱅크 3분기 순익 1천417억…누적 기준 연간 최대실적 육박
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -1088,6 +1134,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

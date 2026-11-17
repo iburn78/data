@@ -27,7 +27,6 @@
     infoItems.className = "nav-dropdown-items";
     for (const [section, label, href] of [
         ["manual", "Manual", "/#manual"],
-        ["sector-map", "Sector Map", "/#sector-map"],
     ]) {
         const link = document.createElement("a");
         link.className = "nav-link nav-dropdown-link";
@@ -36,6 +35,24 @@
         link.textContent = label;
         infoItems.appendChild(link);
     }
+
+    const classificationMenu = document.createElement("details");
+    classificationMenu.className = "nav-dropdown nav-submenu";
+    const classificationSummary = document.createElement("summary");
+    classificationSummary.className = "nav-link nav-dropdown-summary nav-submenu-summary";
+    classificationSummary.textContent = "Classification";
+    classificationMenu.appendChild(classificationSummary);
+
+    const classificationItems = document.createElement("div");
+    classificationItems.className = "nav-dropdown-items nav-submenu-items";
+    const classificationMapLink = document.createElement("a");
+    classificationMapLink.className = "nav-link nav-dropdown-link";
+    classificationMapLink.href = "/#classification-map";
+    classificationMapLink.dataset.section = "classification-map";
+    classificationMapLink.textContent = "Classification Map";
+    classificationItems.appendChild(classificationMapLink);
+    classificationMenu.appendChild(classificationItems);
+    infoItems.appendChild(classificationMenu);
     infoMenu.appendChild(infoItems);
     nav.appendChild(infoMenu);
 

@@ -1,0 +1,133 @@
+{
+    "key": "004450",
+    "filename": "004450_삼화왕관",
+    "updated": "2026-11-17 12:16",
+    "llm_research_updated": "2026-11-12 20:58",
+    "financials": {
+        "meta": {
+            "name": "삼화왕관",
+            "code": "004450",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "포장 용기 (216)",
+                "subindustry": "용기 및 패키징 (2161)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 55.2,
+                "revenue_ltm": 170,
+                "opincome_ltm": 5.93,
+                "revenue_qtr": 45.2,
+                "opincome_qtr": 1.75
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": -0.17,
+                "growth(%)": -8.7
+            },
+            "opmargin(%)": {
+                "25_4Q": 3.6,
+                "26_1Q": 4.5,
+                "26_2Q": 2.2,
+                "26_3Q": 3.9,
+                "ltm": 3.5
+            },
+            "PER": {
+                "PER_ltm": 9.3,
+                "PER_qx4": 7.87,
+                "PER_fwd": 10.5
+            },
+            "volatility": {
+                "measure_to_base(%)": -7.8
+            },
+            "amount": {
+                "measure_to_base(%)": -42
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.017,
+                    "beta": 0.25
+                },
+                "base_period": {
+                    "alpha(%)": -0.00059,
+                    "beta": 0.1
+                },
+                "measure_period": {
+                    "alpha(%)": -0.41,
+                    "beta": 0.066
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:58",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "CAP(병마개) 사업부",
+            "플라스틱용기 사업부"
+        ],
+        "revenue_share": [
+            0.775,
+            0.224
+        ],
+        "trend": [
+            "생수 및 음료 신제품 출시로 견인 중",
+            "K-뷰티 인디브랜드 해외 매출 증가로 개선 중"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "금속 Cap(크라운캡, ROPP캡), 플라스틱 Cap",
+            "화장품 용기"
+        ],
+        "competitors": [
+            "세왕금속공업",
+            "화장품 용기 제조사"
+        ]
+    },
+    "code": "004450",
+    "name": "삼화왕관",
+    "overview": {
+        "title": "K-뷰티 수출과 음료시장 성장",
+        "desc": "동사는 1965년 병마개 제조업을 목적으로 설립 후, 1976년 증권시장에 상장된 종합 병마개 전문 기업임. CAP 사업부는 금속 및 비금속 Cap을 제조해 국내 음료업체와 세계 10여 개국에 수출하고, 플라스틱 용기 사업부는 화장품 용기를 일관 생산 시스템으로 개발하고 있음. 기술연구소 운영과 해외 선진업체와의 기술 제휴로 신기술 도입과 신제품 개발을 추진하며, 플라스틱 종합 포장재 기업으로 도약을 준비하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 3.4% 증가, 영업이익은 23.4% 감소, 당기순이익은 23.6% 증가. 주력 CAP 부문에서 Plastic Cap이 음료 신제품 출시 및 생수시장 성장으로 병마개 시장을 견인하고 있음. 플라스틱용기 부문은 K-뷰티 인디브랜드가 해외 매출 증가로 실적이 개선되고 있으며, 동사는 원가개선 및 품질경쟁력 강화와 해외시장 개척으로 수출증대를 추진하고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:58"
+    },
+    "news": {
+        "updated": "2026-11-12 20:58",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

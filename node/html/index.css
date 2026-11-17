@@ -5,6 +5,26 @@ body {
     color: #222;
 }
 
+body.classification-popup-page main {
+    margin: 0;
+    padding: 16px 20px;
+}
+
+body.classification-popup-page .navbar {
+    display: none;
+}
+
+body.classification-popup-page #search-help,
+body.classification-popup-page #model-list-plot,
+body.classification-popup-page #list-actions,
+body.classification-popup-page #file-list {
+    display: none !important;
+}
+
+body.classification-popup-page > footer {
+    display: none;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -62,6 +82,22 @@ body {
 .nav-dropdown-link {
     display: block;
     white-space: nowrap;
+}
+
+.nav-submenu {
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+.nav-submenu-summary {
+    display: block;
+    white-space: nowrap;
+}
+
+.nav-submenu > .nav-submenu-items {
+    top: -1px;
+    left: calc(100% + 1px);
 }
 
 #file-list {
@@ -157,33 +193,84 @@ body {
     border-bottom: 1px solid #e1e4e8;
 }
 
-.sector-map-tree details {
+.classification-map-tree details {
     margin: 6px 0 6px 14px;
     padding-left: 10px;
     border-left: 1px solid #d9dee5;
 }
 
-.sector-map-tree summary {
+.classification-map-tree summary {
     padding: 6px 0;
     cursor: pointer;
     font-weight: 600;
 }
 
-.sector-map-code {
+.classification-map-actions {
+    display: flex;
+    gap: 8px;
+    margin: 12px 0 16px;
+}
+
+.classification-map-sector-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.classification-map-sector-row > details {
+    flex: 1;
+    min-width: 0;
+}
+
+.classification-map-sector-actions {
+    display: flex;
+    gap: 2px;
+    padding-top: 6px;
+}
+
+.classification-map-action {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid #c9cdd2;
+    border-radius: 4px;
+    background: #fff;
+    color: #444;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.classification-map-action:hover {
+    background: #f0f1f3;
+}
+
+.classification-map-code {
     display: inline-block;
     min-width: 42px;
     color: #5b6572;
     font-variant-numeric: tabular-nums;
 }
 
-.sector-map-english {
+.classification-map-english {
     margin-left: 6px;
     color: #697381;
     font-weight: 400;
 }
 
-.sector-map-definition {
-    margin: 5px 0 10px 14px;
+.classification-map-subindustry {
+    margin: 4px 0 8px 6ch;
+    padding-left: 10px;
+    border-left: 1px solid #d9dee5;
+}
+
+.classification-map-subindustry-heading {
+    margin: 6px 0;
+    font-weight: 600;
+}
+
+.classification-map-definition {
+    margin: 5px 0 10px 48px;
     color: #464d55;
     line-height: 1.55;
     white-space: pre-line;

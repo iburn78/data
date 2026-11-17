@@ -1,0 +1,146 @@
+{
+    "key": "445180",
+    "filename": "445180_퓨릿",
+    "updated": "2026-11-17 12:21",
+    "llm_research_updated": "2026-11-13 10:54",
+    "financials": {
+        "meta": {
+            "name": "퓨릿",
+            "code": "445180",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:21",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "첨단 산업 소재 (2111)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 129,
+                "revenue_ltm": 166,
+                "opincome_ltm": 22.9,
+                "revenue_qtr": 47.4,
+                "opincome_qtr": 6.03
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 0.35,
+                "growth(%)": 7.8
+            },
+            "opmargin(%)": {
+                "25_4Q": 12,
+                "26_1Q": 16,
+                "26_2Q": 14,
+                "26_3Q": 13,
+                "ltm": 14
+            },
+            "PER": {
+                "PER_ltm": 5.64,
+                "PER_qx4": 5.35,
+                "PER_fwd": 4.67
+            },
+            "volatility": {
+                "measure_to_base(%)": 9.3
+            },
+            "amount": {
+                "measure_to_base(%)": -37
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.13,
+                    "beta": 0.93
+                },
+                "base_period": {
+                    "alpha(%)": -0.082,
+                    "beta": 0.73
+                },
+                "measure_period": {
+                    "alpha(%)": -0.022,
+                    "beta": 1.1
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "A",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:54",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "반도체용 케미컬",
+            "디스플레이용 케미컬",
+            "산업용 케미컬"
+        ],
+        "revenue_share": [
+            0.761,
+            0.035,
+            0.135
+        ],
+        "trend": [
+            "strong growth due to HBM demand",
+            "declining due to LCD to OLED transition",
+            "stable/general purpose"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "PGME, PGMEA, EEP, EL (초고순도 케미컬)",
+            "EL 소재 (OLED/LCD용)",
+            "자동차 코팅제, 페인트용 케미컬"
+        ],
+        "competitors": [
+            "대형 화학 소재사",
+            "대형 화학 소재사",
+            "대형 화학 소재사"
+        ]
+    },
+    "code": "445180",
+    "name": "퓨릿",
+    "overview": {
+        "title": "반도체 수요 증가로 실적 개선",
+        "desc": "동사는 2010년 폐유기용제 회수 및 정제 사업 목표로 설립되었으며, 한국알콜산업 계열사로 편입되어 협업을 강화하고 있음. 폐유기용제 정제를 기반으로 초고순도 반도체용 케미컬과 디스플레이용, 산업용 케미컬을 생산하고 원재료를 공급하고 있음. 지속적인 연구개발로 합성 생산 방식 확립하고 신규 제품 런칭 및 고객사 확대 추진하며 자원재순환 정제 사업으로 수요 변동에 대응하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 19.3% 증가, 영업이익은 64.8% 증가, 당기순이익은 44.9% 증가. 반도체 산업 성장으로 초고순도 가스 및 화학 물질 수요가 늘어나 반도체용 케미컬 매출이 크게 성장했음. 합성 제품 신규 고객사 확보와 정제 제품의 안정적 수요로 실적이 개선되고, 미세화 공정 수요 증가에 대응해 신규 설비 투자와 R&D, 고객사 확보로 점유율 확대 중임.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-12 22:01"
+    },
+    "news": {
+        "updated": "2026-11-13 10:54",
+        "key_facts": [
+            "퓨릿은 2026년 2분기에 매출액 449억 원, 영업이익 65억 원을 기록함.",
+            "퓨릿은 핵심 소재 국산화 및 신공장 증설을 통해 외형을 확장하고 있음.",
+            "퓨릿은 2026년 4~5월 기존 저가 재고 활용과 6월 판가 인상을 통해 원재료 가격 인상 압박에 따른 마진을 방어함.",
+            "퓨릿은 2026년 2분기 강달러로 인한 우호적인 환차익이 발생함."
+        ],
+        "key_issues": [
+            "중동 지정학적 리스크로 인한 유가 상승(100불 상회)에 따른 원재료 가격 인상 압박이 존재함.",
+            "환율 급락 시 하반기 마진율이 2~3%p 변동될 가능성이 있음."
+        ],
+        "news_summary": "퓨릿은 신공장 증설과 핵심 소재 국산화를 통해 외형을 확장하고 있으며, 2026년 2분기 견조한 실적을 달성했습니다. 원재료 가격 상승 압박이 있었으나 재고 활용과 판가 인상으로 대응했으며, 하반기 물량 증가 추세가 지속될 것으로 전망됩니다."
+    }
+}

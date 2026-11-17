@@ -1,7 +1,7 @@
 {
     "key": "475150",
     "filename": "475150_SK이터닉스",
-    "updated": "2026-11-12 19:45",
+    "updated": "2026-11-17 12:22",
     "llm_research_updated": "2026-11-06 14:09",
     "financials": {
         "meta": {
@@ -9,77 +9,78 @@
             "code": "475150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 11:26",
-            "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:22",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "신재생에너지 (112)",
+                "subindustry": "재생 가능 에너지 (1121)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 1330,
-                "revenue_ltm": 757,
-                "opincome_ltm": 55.4,
-                "revenue_qtr": 241,
-                "opincome_qtr": 4.68
+                "marcap": 1130,
+                "revenue_ltm": 744,
+                "opincome_ltm": 47.1,
+                "revenue_qtr": 228,
+                "opincome_qtr": -3.68
             }
         },
         "assess_data": {
             "opincome": {
-                "positive_ltm": true,
-                "higher(comp)": true,
-                "slope": 0.48,
-                "growth(%)": 5.1
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.1,
+                "growth(%)": 1.2
             },
             "opmargin(%)": {
                 "25_4Q": 17,
                 "26_1Q": 18,
                 "26_2Q": 1.9,
-                "26_3Q": 1.9,
-                "ltm": 7.3
+                "26_3Q": -1.6,
+                "ltm": 6.3
             },
             "PER": {
-                "PER_ltm": 24,
-                "PER_qx4": 71.1,
-                "PER_fwd": 56.5
+                "PER_ltm": 24.1,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -46
+                "measure_to_base(%)": -39
             },
             "amount": {
-                "measure_to_base(%)": -85
+                "measure_to_base(%)": -88
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.3,
+                    "alpha(%)": 0.28,
                     "beta": 0.71
                 },
                 "base_period": {
-                    "alpha(%)": 0.29,
-                    "beta": 0.58
+                    "alpha(%)": 0.28,
+                    "beta": 0.6
                 },
                 "measure_period": {
-                    "alpha(%)": -0.39,
-                    "beta": 0.61
+                    "alpha(%)": -0.68,
+                    "beta": 0.66
                 }
             }
         },
         "assess_result": {
-            "basics": true,
-            "financially_sound": true,
+            "basics": false,
+            "financially_sound": false,
             "PER_level": "High",
             "volatility_level": "Dn",
             "amount_level": "Dn",
-            "alpha_level": "-",
-            "category": "C",
+            "alpha_level": "udr_pfm",
+            "category": "D",
             "market_sentiment": "consumed"
         }
     },
@@ -140,20 +141,20 @@
         "updated": "2026-11-02 15:03"
     },
     "news": {
-        "updated": "2026-11-11 13:00",
+        "updated": "2026-11-16 15:59",
         "key_facts": [
-            "2026년 10월 20일, 총사업비 1,594억 원을 투입한 '이천·파주 연료전지 발전사업'(총 28MW 규모)의 상업운전을 개시함.",
-            "2026년 8월 27일, 삼성바이오로직스와 총 170MW 규모(태양광 100MW, 풍력 70MW)의 재생에너지 공급을 위한 MOU를 체결함.",
-            "제1차 ESS 중앙계약시장 입찰에서 제주 표선 40MW·240MWh ESS 사업자로 선정됨.",
-            "하나증권은 2026년 연간 매출액 5,776억 원, 영업이익 698억 원을 전망하며, 솔라닉스 6호 매출 이연으로 실적이 4분기에 집중될 것으로 분석함.",
-            "솔라닉스 6호 사업개발 용역계약 용량은 약 154MW로 추정됨."
+            "2026년 3분기 연결 매출 2,280억원, 영업손실 약 36.8억원을 기록하며 적자로 전환했다.",
+            "2026년 1~3분기 누적 매출은 4,964억원, 영업이익은 59억원, 당기순손실은 203억원이다.",
+            "3분기 의성 황학산 육상풍력 프로젝트 준공 과정에서 약 100억원의 추가 공사비가 발생했다.",
+            "태양광 '솔라닉스 6호'(154MW 규모) 실적 인식이 4분기로 이연되었다.",
+            "내년부터 태양광 구조화 목표 규모를 최소 400MW로 설정하고 태양광 디벨로퍼 중심으로 사업 구조를 개편한다."
         ],
         "key_issues": [
-            "2026년 4월 전기요금 기본요금 할인 정책 종료로 인해 ESS 부문의 외형 감소 및 적자 흐름이 지속될 전망임.",
-            "2027년 지역별 차등요금제 시행 시 산업용 전기요금 인하로 인해 단기적으로 PPA 수요에 부정적인 영향을 미칠 가능성이 있음.",
-            "미국 민주당의 의회 장악으로 인한 데이터센터 건설 규제 강화 우려가 전력 인프라 투자 및 신재생에너지 산업에 변수로 작용할 수 있음.",
-            "미국 중간선거 결과에 따른 정책 변화 기대감이 있으나, 대통령의 거부권 행사 가능성으로 인해 실제 정책 현실화 여부는 불확실함."
+            "의성 황학산 풍력 프로젝트 비용 증가 및 ESS 부문 충전요금 할인 특례 종료로 인한 수익성 악화.",
+            "대형 프로젝트 마무리 단계에 따른 외형 축소 우려 및 용역 매출 인식 시점에 따른 분기별 실적 변동성 확대.",
+            "2027년 산업용 지역 전기요금제 시행 시 PPA(전력구매계약) 단가 및 수익 구조의 변화 가능성.",
+            "태양광 사업 규모 확대와 AI 데이터센터(AIDC)향 PPA 확장 증명 과제."
         ],
-        "news_summary": "SK이터닉스는 연료전지 발전사업의 상업운전 개시와 삼성바이오로직스와의 대규모 재생에너지 공급 협력 등을 통해 사업을 확장하고 있습니다. 하나증권은 3분기 실적이 매출 이연으로 인해 시장 기대치를 하회하겠으나 4분기에 집중 반영될 것으로 보며 긍정적인 전망을 유지했습니다. 다만, ESS 부문의 실적 부진과 미국 정치 지형 변화에 따른 데이터센터 규제 우려 등이 주요 리스크 요인으로 꼽힙니다."
+        "news_summary": "SK이터닉스는 2026년 3분기 풍력 사업의 추가 비용과 ESS 정책 일몰 영향으로 영업적자를 기록했습니다. 회사는 기존 공사성 프로젝트 비중을 줄이고 고수익 태양광 디벨로퍼로 체질을 개선하는 구조 개편을 추진 중이며, 4분기에는 이연된 태양광 실적 반영을 통해 흑자 전환을 기대하고 있습니다."
     }
 }

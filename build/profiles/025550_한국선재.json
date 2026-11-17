@@ -1,0 +1,148 @@
+{
+    "key": "025550",
+    "filename": "025550_한국선재",
+    "updated": "2026-11-17 12:18",
+    "llm_research_updated": "2026-11-12 21:26",
+    "financials": {
+        "meta": {
+            "name": "한국선재",
+            "code": "025550",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:18",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 51.5,
+                "revenue_ltm": 258,
+                "opincome_ltm": 23.1,
+                "revenue_qtr": 66.3,
+                "opincome_qtr": 5.79
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.63,
+                "growth(%)": 19
+            },
+            "opmargin(%)": {
+                "25_4Q": -0.067,
+                "26_1Q": 12,
+                "26_2Q": 13,
+                "26_3Q": 8.7,
+                "ltm": 9
+            },
+            "PER": {
+                "PER_ltm": 2.23,
+                "PER_qx4": 2.22,
+                "PER_fwd": 1.75
+            },
+            "volatility": {
+                "measure_to_base(%)": -13
+            },
+            "amount": {
+                "measure_to_base(%)": -58
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.00095,
+                    "beta": 0.65
+                },
+                "base_period": {
+                    "alpha(%)": -0.31,
+                    "beta": 0.35
+                },
+                "measure_period": {
+                    "alpha(%)": -0.52,
+                    "beta": 0.21
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 09:58",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "철강선(아연도금) 부문",
+            "스테인리스강선 부문",
+            "피팅·밸브 부문 (종속회사)"
+        ],
+        "revenue_share": [
+            0.4,
+            0.3,
+            0.3
+        ],
+        "trend": [
+            "Improving (Submarine cable demand)",
+            "Stable (High value-added products expansion)",
+            "Improving (Energy project orders, Semiconductor market)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "아연도금철·강선, 해저케이블용 강선, 망류",
+            "스테인리스강선, 정밀스프링, 내열강, 니켈얼로이강",
+            "계장용 피팅, 밸브, UHP 제품, GVU"
+        ],
+        "competitors": [
+            "POSCO홀딩스, 현대제철, 동국홀딩스, KG스틸, 경남스틸",
+            "티플랙스, 에스엠씨지, 제일테크노스",
+            "한선엔지니어링, 기성금속 (Internal/Consolidated), Specialized Valve/Fitting makers"
+        ]
+    },
+    "code": "025550",
+    "name": "한국선재",
+    "overview": {
+        "title": "해외 공급처 확대와 신사업 진출",
+        "desc": "동사는 1974년 한국선재공업사로 설립되어 1990년 법인전환, 1995년 코스닥시장에 상장함. 종속회사로 계장용 피팅·밸브 전문기업 한선엔지니어링, 플랜트용 밸브 제조사 기성금속, 자산운용사 페어웨이자산운용을 보유하고 있음. 동사는 아연도금철·강선, 스테인리스강선 제조가공 및 판매 사업을 영위하며, 종속회사들은 석유화학, 조선·해양, 반도체, 수소연료전지, ESS 등 정밀 제어가 요구되는 산업에 피팅·밸브 제품을 공급하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 25.9% 증가, 영업이익은 220.6% 증가, 당기순이익은 64.6% 감소. 피팅·밸브 부문은 중동·동남아 에너지기업 인증 획득과 국내 석유화학 프로젝트 참여로 매출 증가했음. 철강선 부문은 해저케이블 수요 증가와 고부가가치 제품 판매 확대로 실적 개선되었고, 기성금속은 친환경 선박 엔진용 GVU를 현대중공업에 납품했으며, 반도체용 밸브 개발로 프로젝트 수주를 확보함.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:26"
+    },
+    "news": {
+        "updated": "2026-11-13 09:58",
+        "key_facts": [
+            "2026년 9월 10일, 금강철강(9.51% 상승), 넥스틸(8.04% 상승), 코나솔(4.60% 상승) 등 일부 중소형주가 개별 호재 및 수출 기대감으로 상승함.",
+            "2026년 9월 10일, POSCO홀딩스(1.19% 하락), 현대제철(2.67% 하락), SHD(13.26% 하락) 등 대형 철강주들이 전방 산업 수요 침체 및 실적 불확실성으로 하락함.",
+            "2026년 10월 12일, 대호특수강(4.11% 상승), 부국철강(3.43% 상승), 세아제강(0.34% 상승) 등이 자동차·기계 부품 수요 및 북미 수출 실적 기대감으로 상승함.",
+            "2026년 10월 12일, 현대제철, POSCO홀딩스, 동국씨엠, 대한제강 등 대다수 철강주가 3분기 실적 부담과 차익실현 매물로 인해 하락세를 보임."
+        ],
+        "key_issues": [
+            "글로벌 경기 둔화 및 국내외 건설, 가전 등 전방 산업의 수요 회복 지연 우려.",
+            "중국산 저가 철강재 유입 우려 및 원자재 가격 변동성 확대.",
+            "제품 가격과 원재료 가격 차이(스프레드) 축소에 따른 수익성 악화 가능성.",
+            "주요 철강사들의 3분기 실적에 대한 불확실성 및 부담."
+        ],
+        "news_summary": "2026년 9월과 10월, 철강 업종은 글로벌 경기 둔화와 건설 등 전방 산업의 수요 회복 지연, 3분기 실적 불확실성으로 인해 전반적인 약세를 보였습니다. 특히 대형 철강주들은 하락세가 뚜렷했으나, 에너지용 강관 및 특수강 등 고부가가치 제품 라인업을 확보하거나 수출 모멘텀이 있는 일부 중소형주들은 개별 호재에 따라 상승하며 종목별 차별화 양상을 나타냈습니다."
+    }
+}

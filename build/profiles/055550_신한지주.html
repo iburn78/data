@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=611#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">은행 (611)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6111#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">시중은행 (6111)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>40,200</span>
+                                <span>42,600</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -494,26 +507,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:27</td>
+                                <td>2026-11-16 15:17</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>신한금융지주의 2026년 3분기 지배주주 순이익은 1조 5,846억원으로 전년 동기 대비 11.3% 증가했으며, 누적 순이익은 5조 274억원으로 전년 대비 12.7% 증가함.</td>
+                                <td>신한금융지주는 2026년 3분기 누적 순이익 5조 274억원(전년 동기 대비 12.7% 증가)을 기록하며 이미 지난해 연간 순이익을 넘어섰다.</td>
                             </tr>
                             <tr>
-                                <td>3분기 순이자이익은 3조 2,000억원으로 소폭 증가했으나 비이자이익은 수수료 및 유가증권 이익 감소로 전분기 대비 45.5% 급감함.</td>
+                                <td>주당 740원의 3분기 배당과 총 4,500억원 규모의 자사주 매입(2026년 4분기 2,000억원, 2027년 1월까지 2,500억원) 계획을 발표했다.</td>
                             </tr>
                             <tr>
-                                <td>주당 740원의 분기 배당과 총 4,500억원 규모의 자사주 매입(2026년 2,000억원, 2027년 1월까지 2,500억원) 계획을 발표함.</td>
+                                <td>3분기 보통주자본(CET-1) 비율은 13.62%로 전 분기 대비 0.12%p 상승했다.</td>
                             </tr>
                             <tr>
-                                <td>롯데손해보험을 완전자회사로 편입하여 신한EZ손보와 통합하는 사업 재편을 추진 중이며, 3분기 말 CET-1 비율은 13.62%를 기록함.</td>
+                                <td>롯데손해보험의 완전자회사 편입 및 신한EZ손해보험과의 통합, 신한자산신탁-신한리츠운용의 합병(2027년 1월 예정) 등 사업 재편을 추진 중이다.</td>
                             </tr>
                             <tr>
-                                <td>올해 말 신한은행, 신한카드 등 12개 계열사 CEO의 임기가 만료됨에 따라 경영승계 절차 및 성과 검증에 착수함.</td>
+                                <td>그룹 내 12개 계열사 CEO의 임기 만료에 따라 경영승계 절차에 착수했다.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -523,20 +536,26 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>신한은행의 고객 정보 약 2만 5,000건 유출 및 신한카드의 가맹점주 정보 약 19만 건 유출 사고로 인한 CEO 책임론 및 평판 리스크 발생.</td>
+                                <td>신한은행에서 약 2만 5,000명의 고객 정보 유출이라는 대규모 침해사고가 발생하여 CEO 책임론과 평판 리스크가 제기되고 있다.</td>
                             </tr>
                             <tr>
-                                <td>증시 위축과 금리 상승에 따른 비이자이익 부진 및 실적 변동성 확대.</td>
+                                <td>증시 위축 및 금융시장 변동성 확대로 인해 수수료 이익과 유가증권 운용이익 등 비이자이익이 크게 부진한 상태이다.</td>
                             </tr>
                             <tr>
-                                <td>롯데손해보험 인수에 따른 CET-1 비율 하락 추정(약 19~30bp) 및 통합 법인의 적자 구조 개선 여부.</td>
+                                <td>조달비용 상승의 영향으로 신한금융지주와 신한은행의 순이자마진(NIM)이 전 분기 대비 각각 2bp, 3bp 하락했다.</td>
+                            </tr>
+                            <tr>
+                                <td>롯데손해보험 인수로 인해 CET-1 비율이 최대 30bp 내외까지 하락할 가능성이 있으며, 인수 후 ROE 개선 여부가 과제로 남아있다.</td>
+                            </tr>
+                            <tr>
+                                <td>신한EZ손해보험이 출범 이후 지속적인 적자를 기록하며 3분기 누적 284억원의 순손실을 냈다.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>신한금융지주는 2026년 3분기 누적 순이익이 전년 대비 12.7% 증가하며 성장세를 유지하고 강력한 주주환원 정책을 펼치고 있으나, 비이자이익 급감과 조달비용 상승으로 인한 NIM 하락이 부담으로 작용하고 있습니다. 특히 신한은행과 신한카드의 대규모 개인정보 유출 사고로 금융당국의 CEO 책임 경고를 받는 등 보안 및 내부통제 리스크가 불거진 상황이며, 연말 12개 계열사 CEO의 임기 만료를 앞두고 경영 성과와 리스크 관리 능력이 인사 평가의 핵심 쟁점이 될 전망입니다.</td>
+                                <td>신한금융지주는 2026년 3분기 누적 순이익이 전년 대비 성장하며 연간 최대 실적 달성이 유력시되고 있으며, 적극적인 주주환원 정책을 펼치고 있다. 그러나 대규모 고객 정보 유출 사고에 따른 경영진 책임론과 비이자이익 부진, NIM 하락 등의 리스크를 안고 있으며, 롯데손보 인수 및 계열사 통합 등 대대적인 조직 및 사업 구조 개편을 진행 중이다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -839,6 +858,28 @@
                     aria-label="Delete article">×</button>
             </div>
         
+            <div class="news-row" data-news-file="2026-10-28_[매일경제마켓]_신한지주_3분기_실적_아쉽지만_연간_최대_실적_기정사실…목표가는↓.md"
+                data-news-path="build/news/profiles/055550_신한지주/2026-10-28_[매일경제마켓]_신한지주_3분기_실적_아쉽지만_연간_최대_실적_기정사실…목표가는↓.md"
+                data-object-type="Profile"
+                data-object-id="055550">
+                <a href="#" onclick="openPopup('/build/news/profiles/055550_신한지주/2026-10-28_[매일경제마켓]_신한지주_3분기_실적_아쉽지만_연간_최대_실적_기정사실…목표가는↓.md'); return false;">
+                    2026-10-28 [매일경제마켓] 신한지주 3분기 실적 아쉽지만 연간 최대 실적 기정사실…목표가는↓
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-28_[매일경제]_신한지주_3분기_실적_아쉽지만_연간_최대_실적_기정사실…목표가는↓.md"
+                data-news-path="build/news/profiles/055550_신한지주/2026-10-28_[매일경제]_신한지주_3분기_실적_아쉽지만_연간_최대_실적_기정사실…목표가는↓.md"
+                data-object-type="Profile"
+                data-object-id="055550">
+                <a href="#" onclick="openPopup('/build/news/profiles/055550_신한지주/2026-10-28_[매일경제]_신한지주_3분기_실적_아쉽지만_연간_최대_실적_기정사실…목표가는↓.md'); return false;">
+                    2026-10-28 [매일경제] 신한지주 3분기 실적 아쉽지만 연간 최대 실적 기정사실…목표가는↓
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
             <div class="news-row" data-news-file="2026-10-28_[뉴스퀘스트]_흔들림_없는_1.5조_순이익…신한지주_실적·자본건전성_두_마리_토끼_잡았다.md"
                 data-news-path="build/news/profiles/055550_신한지주/2026-10-28_[뉴스퀘스트]_흔들림_없는_1.5조_순이익…신한지주_실적·자본건전성_두_마리_토끼_잡았다.md"
                 data-object-type="Profile"
@@ -1131,6 +1172,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

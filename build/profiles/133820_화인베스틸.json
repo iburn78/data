@@ -1,0 +1,143 @@
+{
+    "key": "133820",
+    "filename": "133820_화인베스틸",
+    "updated": "2026-11-17 12:20",
+    "llm_research_updated": "2026-11-13 10:31",
+    "financials": {
+        "meta": {
+            "name": "화인베스틸",
+            "code": "133820",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:20",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 29.4,
+                "revenue_ltm": 199,
+                "opincome_ltm": 5.6,
+                "revenue_qtr": 45.6,
+                "opincome_qtr": 0.762
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.76,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": 4.1,
+                "26_1Q": 2.8,
+                "26_2Q": 2.6,
+                "26_3Q": 1.7,
+                "ltm": 2.8
+            },
+            "PER": {
+                "PER_ltm": 5.25,
+                "PER_qx4": 9.65,
+                "PER_fwd": 2.78
+            },
+            "volatility": {
+                "measure_to_base(%)": 8.1
+            },
+            "amount": {
+                "measure_to_base(%)": -49
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.011,
+                    "beta": 0.62
+                },
+                "base_period": {
+                    "alpha(%)": -0.27,
+                    "beta": 0.19
+                },
+                "measure_period": {
+                    "alpha(%)": -0.86,
+                    "beta": 0.51
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:31",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "조선용 형강 사업",
+            "일반 형강 사업",
+            "특수강 신사업",
+            "신성장 사업 (IT/로봇)"
+        ],
+        "revenue_share": [
+            0.8,
+            0.15,
+            0.025,
+            0.025
+        ],
+        "trend": [
+            "improving",
+            "stable",
+            "expanding",
+            "initial stage"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "인버티드 앵글, 조선용 형강",
+            "ㄷ형강(Channel), 시트파일, H-빔",
+            "탄소강, 베어링강, 스테인리스강",
+            "디지털 트윈, 로봇 자동화, 에너지 IT"
+        ],
+        "competitors": [
+            "일본 및 중국산 수입재",
+            "대창스틸, 만호제강, 현대비앤지스틸",
+            "-",
+            "-"
+        ]
+    },
+    "code": "133820",
+    "name": "화인베스틸",
+    "overview": {
+        "title": "조선업 호조와 특수강 사업 확대",
+        "desc": "동사는 2014년 상장한 형강 제조 판매 기업으로, 스마트팩토리·로봇 자동화, 에너지 IT 사업을 자회사를 통해 영위하고 있음. 인버티드 앵글은 조선용 형강으로, 구조적 강도와 안정성을 높이며, 트랙슈, 시트파일 등 일반형강도 생산하고 있음. HD현대그룹 계열 조선사, 한화오션 등 주요 고객을 기반으로, 열간압연 기술과 노하우로 다양한 규격의 조선용 형강과 저온용강을 생산하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 18.4% 증가, 영업이익 흑자전환, 당기순이익 흑자전환. 국내 조선업이 친환경·고부가가치 선박 중심 수주잔고가 건조물량으로 이어지며 조선용 형강 수요가 증가하고, 주요 조선사향 제품 공급 확대와 원가 절감 노력으로 실적이 개선됨. 동사는 특수강 신규사업 진출을 추진하여 2026년 약 154억원 규모 생산설비 투자를 결정하고 포스코와 업무협약을 체결함.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 21:46"
+    },
+    "news": {
+        "updated": "2026-11-12 21:46",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

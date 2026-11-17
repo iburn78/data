@@ -1,0 +1,124 @@
+{
+    "key": "018670(B)",
+    "filename": "018670(B)_발전_사업",
+    "updated": "2026-11-17 12:22",
+    "llm_research_updated": "2026-11-16 12:54",
+    "financials": {
+        "meta": {
+            "name": "SK가스",
+            "code": "018670",
+            "segment_name": "발전 사업",
+            "id": "B",
+            "updated": "2026-11-17 12:22",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 240,
+                "revenue_ltm": 1060,
+                "opincome_ltm": 156,
+                "revenue_qtr": 298,
+                "opincome_qtr": 43.8
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 1.5,
+                "growth(%)": 4.7
+            },
+            "opmargin(%)": {
+                "25_4Q": 15,
+                "26_1Q": 15,
+                "26_2Q": 15,
+                "26_3Q": 15,
+                "ltm": 15
+            },
+            "PER": {
+                "PER_ltm": 1.53,
+                "PER_qx4": 1.37,
+                "PER_fwd": 1.26
+            },
+            "volatility": {
+                "measure_to_base(%)": -7.2
+            },
+            "amount": {
+                "measure_to_base(%)": -22
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.055,
+                    "beta": 0.34
+                },
+                "base_period": {
+                    "alpha(%)": 0.032,
+                    "beta": 0.13
+                },
+                "measure_period": {
+                    "alpha(%)": -0.63,
+                    "beta": 0.15
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "A",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부",
+            "실적"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.11,
+        "marcap_share": 0.11,
+        "opmargin": 0.147,
+        "trend": "성장 후 수익성 일시 둔화"
+    },
+    "id": "B",
+    "profile_name": "SK가스",
+    "profile_code": "018670",
+    "segment_name": "발전 사업",
+    "news": {
+        "updated": "2026-11-16 12:54",
+        "key_financials": [
+            "2026년 2분기 발전 사업: 매출 1,770억 원, 영업이익 357억 원, 영업이익률 20.2%",
+            "2026년 3분기 발전 사업: 영업이익 440억 원 (전년 동기 대비 382억 원 감소), 영업이익률 18.0% (전년 동기 32.2% 대비 하락)",
+            "2027년 발전 사업 영업이익 전망: 유안타증권 예상치 기준 약 2,128억 원 ~ 2,418억 원으로 성장 전망"
+        ],
+        "key_facts": [
+            "울산GPS(1.2GW 규모) 운영: LNG와 LPG를 모두 사용할 수 있는 세계 최초의 겸용 가스복합발전소로, 연료 가격에 따라 경제적인 연료를 선택해 원가를 최적화할 수 있는 경쟁력을 보유함.",
+            "에너지 밸류체인 확장: 코리아에너지터미널(KET)을 통한 LNG 직수입 및 울산GPS 발전 수요를 결합해 LNG 도입-저장-공급-활용 밸류체인을 구축함.",
+            "자산 효율화: 2026년 4월, 울산GPS 지분 49%를 스틱·한투PE 컨소시엄에 약 1.2조 원에 매각하여 투자 재원을 확보함(경영권인 지분 51%는 유지).",
+            "미래 전략 'SWAN 3.0': 북미 가스전 지분 투자(업스트림)를 통해 LNG 가격 변동성을 낮추고 연료 조달 경쟁력을 강화하여 전력 밸류체인을 완성할 계획임.",
+            "신사업 추진: 울산 LNG 터미널 냉열을 활용한 AI 데이터센터 냉각 사업을 추진 중임."
+        ],
+        "key_issues": [
+            "수익성 변동성: 2026년 3분기, 발전 원가 상승분을 전력도매가격(SMP)이 충분히 반영하지 못해 영업이익률이 하락하는 부진을 겪음.",
+            "연료 가격 변동성: LNG의 경우 장기 계약 중심이라 현물 거래 시 가격 변동성이 크며, 이를 해결하기 위해 업스트림 진출이 과제로 꼽힘."
+        ],
+        "news_summary": "SK가스의 발전 사업은 LNG와 LPG를 선택적으로 사용할 수 있는 '울산GPS'를 중심으로 전개되고 있습니다. 울산GPS는 연료 유연성을 통해 원가 경쟁력을 확보하며 LPG 사업 부진 시 실적 하방 지지선 역할을 수행하고 있습니다. 최근 2026년 3분기에는 원가 상승분을 SMP가 반영하지 못해 이익이 일시적으로 감소했으나, 중장기적으로는 북미 가스전 투자 등 업스트림 확장을 통해 밸류체인을 완성하고 AI 데이터센터 냉각 사업 등 신규 수요처를 발굴하는 'SWAN 3.0' 전략을 추진하며 성장세를 이어갈 전망입니다."
+    }
+}

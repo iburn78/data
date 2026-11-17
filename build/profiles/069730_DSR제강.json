@@ -1,0 +1,142 @@
+{
+    "key": "069730",
+    "filename": "069730_DSR제강",
+    "updated": "2026-11-17 12:19",
+    "llm_research_updated": "2026-11-13 10:15",
+    "financials": {
+        "meta": {
+            "name": "DSR제강",
+            "code": "069730",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:19",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 66.2,
+                "revenue_ltm": 239,
+                "opincome_ltm": 26.9,
+                "revenue_qtr": 61,
+                "opincome_qtr": 6.78
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.28,
+                "growth(%)": 4.5
+            },
+            "opmargin(%)": {
+                "25_4Q": 10,
+                "26_1Q": 12,
+                "26_2Q": 12,
+                "26_3Q": 11,
+                "ltm": 11
+            },
+            "PER": {
+                "PER_ltm": 2.46,
+                "PER_qx4": 2.44,
+                "PER_fwd": 2.21
+            },
+            "volatility": {
+                "measure_to_base(%)": -21
+            },
+            "amount": {
+                "measure_to_base(%)": -20
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.032,
+                    "beta": 0.64
+                },
+                "base_period": {
+                    "alpha(%)": -0.063,
+                    "beta": 0.16
+                },
+                "measure_period": {
+                    "alpha(%)": -0.66,
+                    "beta": 0.18
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:15",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "한국내 사업 (와이어로프 및 경강선)",
+            "베트남내 사업 (자동차 부품 및 로프)"
+        ],
+        "revenue_share": [
+            0.95,
+            0.05
+        ],
+        "trend": [
+            "고부가 제품 확대로 견조한 유지",
+            "Inner Cable 매출 확대로 성장세"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "와이어로프, 경강선, PC강선",
+            "Inner Cable, 와이어로프"
+        ],
+        "competitors": [
+            "고려제강, 영흥철강",
+            "현지 로컬 업체"
+        ]
+    },
+    "code": "069730",
+    "name": "DSR제강",
+    "overview": {
+        "title": "한국·베트남 사업부문 실적 개선 지속",
+        "desc": "동사는 1971년 와이어로프 및 경강선 제조 판매 등을 영위할 목적으로 설립되었으며, 2003년 유가증권시장에 상장하였음. 2026년 4월 DSR K(주) 지분을 취득하여 연결대상 종속회사로 편입하였음. 한국내 사업부문에서는 와이어로프, 경강선 등을 생산 및 판매하고 있으며, 베트남내 사업부문에서는 와이어로프와 Inner Cable 등을 제조, 판매하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 6.0% 증가, 영업이익은 3.7% 증가, 당기순이익은 72.5% 증가. 한국 사업부문의 경강선 및 와이어로프 매출이 견조하게 유지되고, 베트남 사업부문에서도 Inner Cable 등 매출 확대로 양 사업부문 모두 영업이익이 증가하며 수익성이 개선됨. 후발국 저가공세로 수출수요가 정체되나, 신제품 개발 및 고부가가치제품 확대 등 적극적인 시장개척을 진행하고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:36"
+    },
+    "news": {
+        "updated": "2026-11-13 10:15",
+        "key_facts": [
+            "2026년 10월 6일, TCC스틸(2차전지 니켈도금강판 수요 확대 기대), KBI동양철관, SK오션플랜트(해상풍력 구조물 및 특수선 강점) 등이 강세를 보임.",
+            "2026년 10월 12일, 대호특수강(자동차 및 기계 부품 특수강 선재 수요 기대), 부국철강(가공 인프라 및 자산 가치 기대), 세아제강(북미 시장 강관 수요 및 수출 실적 주목) 등이 상승함.",
+            "2026년 9월 10일, 금강철강(독자적 제품 공급 모멘텀), 넥스틸, 코나솔(글로벌 에너지 프로젝트 및 특수 산업향 강관 수출 확대 기대) 등이 상승함."
+        ],
+        "key_issues": [
+            "글로벌 경기 둔화 및 국내외 건설, 가전 등 전방 산업의 수요 회복 지연 우려.",
+            "주요 철강사들의 3분기 실적 불확실성 및 수익성 악화(스프레드 축소) 우려.",
+            "중국산 저가 철강재 유입 및 원자재 가격 변동성으로 인한 투자심리 위축.",
+            "일부 중소형 철강사의 경우 원자재 가격 상승분을 제품 가격으로 전가하지 못하는 문제 발생."
+        ],
+        "news_summary": "2026년 9월부터 10월 사이 철강 업종은 글로벌 경기 둔화와 건설 경기 침체로 인해 대형주 중심으로 약세를 보였으나, 에너지용 강관, 2차전지 소재, 해상풍력 등 고부가가치 제품 및 특수 시장 경쟁력을 갖춘 일부 중소형주들은 개별 호재와 실적 모멘텀을 바탕으로 차별화된 상승세를 나타냈습니다."
+    }
+}

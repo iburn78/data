@@ -1,0 +1,121 @@
+{
+    "key": "018670(A)",
+    "filename": "018670(A)_LPG_사업",
+    "updated": "2026-11-17 12:22",
+    "llm_research_updated": "2026-11-16 12:54",
+    "financials": {
+        "meta": {
+            "name": "SK가스",
+            "code": "018670",
+            "segment_name": "LPG 사업",
+            "id": "A",
+            "updated": "2026-11-17 12:22",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1940,
+                "revenue_ltm": 8610,
+                "opincome_ltm": 370,
+                "revenue_qtr": 2410,
+                "opincome_qtr": 104
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 3.6,
+                "growth(%)": 4.7
+            },
+            "opmargin(%)": {
+                "25_4Q": 4.3,
+                "26_1Q": 4.3,
+                "26_2Q": 4.3,
+                "26_3Q": 4.3,
+                "ltm": 4.3
+            },
+            "PER": {
+                "PER_ltm": 5.23,
+                "PER_qx4": 4.67,
+                "PER_fwd": 4.29
+            },
+            "volatility": {
+                "measure_to_base(%)": -7.2
+            },
+            "amount": {
+                "measure_to_base(%)": -22
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.055,
+                    "beta": 0.34
+                },
+                "base_period": {
+                    "alpha(%)": 0.032,
+                    "beta": 0.13
+                },
+                "measure_period": {
+                    "alpha(%)": -0.63,
+                    "beta": 0.15
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부",
+            "실적"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.89,
+        "marcap_share": 0.89,
+        "opmargin": 0.043,
+        "trend": "V자 회복세 및 수요 다변화"
+    },
+    "id": "A",
+    "profile_name": "SK가스",
+    "profile_code": "018670",
+    "segment_name": "LPG 사업",
+    "news": {
+        "updated": "2026-11-16 12:54",
+        "key_financials": [],
+        "key_facts": [
+            "2026년 3분기 LPG 부문 영업이익 1,010억 원으로 흑자 전환 전망 (전 분기 796억 원 손실 대비 개선)",
+            "국제 LPG 가격 급등에 따른 손익 인식 시차 및 국내 판매가격 반영 지연 효과 완화로 수익성 회복 추세",
+            "2026년 1~3분기 누적 LPG 판매량은 561.6만 톤으로 전년 동기 대비 8.5% 감소",
+            "석유화학용 LPG 매출액이 2022년 1조 8,000억 원대에서 지난해 1조 원 수준으로 약 45% 급감하며 성장 정체 직면",
+            "2027~2030년 연간 연결 세전이익 목표를 4,500억 원 이상으로 제시 (LPG 조달·공급 역량 기반)"
+        ],
+        "key_issues": [
+            "국제 LPG 가격 및 국내 판매가격 변동에 따른 분기별 실적 변동성 지속 가능성",
+            "석유화학업계 업황 부진 장기화로 인한 석유화학용 LPG 수요 감소 및 매출 하락",
+            "국내 LPG 유통 부문의 역마진 구조 지속"
+        ],
+        "news_summary": "SK가스의 LPG 사업은 국제 가격 급등으로 인한 손익 인식 시차와 판매가 반영 지연 등의 부담을 덜어내며 2026년 3분기 흑자 전환 및 수익성 회복 단계에 진입한 것으로 전망됩니다. 다만, 석유화학용 LPG 수요 감소와 국내 유통 역마진 등 성장 정체 및 수익성 변동 리스크가 상존하고 있습니다. 회사는 이에 대응해 기존 LPG 사업의 조달·공급 역량을 바탕으로 LNG, 발전, 해외 자원개발로 사업 영역을 확장하는 'SWAN 3.0' 전략을 추진하며 2030년까지 세전이익 4,500억 원 달성을 목표로 하고 있습니다."
+    }
+}

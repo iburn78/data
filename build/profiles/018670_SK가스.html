@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -42,19 +46,37 @@
                     <div class="table-scrollbar-content"></div>
                 </div>
                 <table class="dict-table">
-                    <colgroup><col class="row-label-column"><col class="financial-column"></colgroup>
+                    <colgroup><col class="row-label-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"></colgroup>
                     <thead>
                         <tr class="header-row">
                             <th class="label"><a href="http://localhost:3000/#profiles">Profile</a></th>
                             <th class="value"><a href="../profiles/018670_SK가스.html"><span class="column-name">SK가스</span></a></th>
+                            <th class="value"><a href="../profiles/018670(A)_LPG_사업.html"><span class="column-name">SK가스(A)</span></a></th>
+                            <th class="value"><a href="../profiles/018670(B)_발전_사업.html"><span class="column-name">SK가스(B)</span></a></th>
+                        </tr>
+                        <tr class="segment-name-row">
+                            <th class="label"></th>
+                            <th class="value segment-name"></th><th class="value segment-name"><span class="column-name">LPG 사업</span></th><th class="value segment-name"><span class="column-name">발전 사업</span></th>
                         </tr>    
                     </thead>
                     <tbody>
                         <tr class="section-row level-0 collapsed">
-                            <td class="label" colspan="2">meta</td>
+                            <td class="label" colspan="4">meta</td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">name</td>
+                            <td class="value">
+                                <span>SK가스</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>SK가스</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>SK가스</span>
                                 <div class="value-bar-container">
@@ -70,11 +92,35 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>018670</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>018670</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">segment_name</td>
                             <td class="value">
                                 <span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>LPG 사업</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>발전 사업</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -88,41 +134,35 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>A</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>B</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 19:43</span>
+                                <span>2026-11-17 12:22</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
                             <td class="value">
-                                <span>에너지화학</span>
+                                <span>2026-11-17 12:22</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
                             <td class="value">
-                                <span>에너지</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:22</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -130,6 +170,18 @@
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">unit</td>
+                            <td class="value">
+                                <span>1e+09</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1e+09</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>1e+09</span>
                                 <div class="value-bar-container">
@@ -145,9 +197,33 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>2024-01-01</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2024-01-01</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">base_per</td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>120</span>
                                 <div class="value-bar-container">
@@ -163,9 +239,33 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">indplot_long (within the group)</td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>120</span>
                                 <div class="value-bar-container">
@@ -181,6 +281,18 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">aggregation</td>
@@ -190,68 +302,368 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>d</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>d</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=11#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지 (11)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=11#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지 (11)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=11#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지 (11)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=111#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">화석 연료 에너지 (111)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=111#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">화석 연료 에너지 (111)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=111#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">화석 연료 에너지 (111)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1112#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">석유,가스 정제 및 유통 (1112)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1112#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">석유,가스 정제 및 유통 (1112)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1112#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">석유,가스 정제 및 유통 (1112)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>    
                         <tr class="section-row level-0">
-                            <td class="label" colspan="2">shape</td>
+                            <td class="label" colspan="4">shape</td>
                         </tr>    
                         <tr class="section-row level-1 collapsed">
-                            <td class="label" colspan="2">financials (in unit)</td>
+                            <td class="label" colspan="4">financials (in unit)</td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>2,220</span>
+                                <span>2,180</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1,940</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:89.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>240</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:11.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>9,280</span>
+                                <span>9,680</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>8,610</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:88.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1,060</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:11.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">opincome_ltm</td>
                             <td class="value">
-                                <span>176</span>
+                                <span>367</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:99.2%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>370</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>156</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:42.2%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>2,310</span>
+                                <span>2,710</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2,410</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:88.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>298</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:11.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">opincome_qtr</td>
                             <td class="value">
-                                <span>-43.9</span>
+                                <span>148</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>104</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:70.3%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>43.8</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:29.6%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">share</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">marcap(%)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>89</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>11</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:12.4%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">(rank)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">revenue_qtr(%)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>89</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>11</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:12.4%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">(rank)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">opincome_qtr(%)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>70</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>30</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:42.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">(rank)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2</span>
+                                <div class="value-bar-container">
+                                    
                                 </div>
                             </td>
                         </tr>    
                         <tr class="section-row level-0">
-                            <td class="label" colspan="2">assess_data</td>
+                            <td class="label" colspan="4">assess_data</td>
                         </tr>    
                         <tr class="section-row level-1">
-                            <td class="label" colspan="2">opincome</td>
+                            <td class="label" colspan="4">opincome</td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">positive_ltm</td>
                             <td class="value">
                                 <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -265,32 +677,80 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">slope (qtr, in unit)</td>
                             <td class="value">
-                                <span>-4.7</span>
+                                <span>4</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>3.6</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:90.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1.5</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:37.5%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">growth(%)</td>
                             <td class="value">
-                                <span>-5.9</span>
+                                <span>4.2</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar" style="height:89.4%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.7</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.7</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>    
                         <tr class="section-row level-1">
-                            <td class="label" colspan="2">opmargin(%)</td>
+                            <td class="label" colspan="4">opmargin(%)</td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">25_4Q</td>
                             <td class="value">
                                 <span>1.8</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:12.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:28.7%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>15</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -301,6 +761,18 @@
                             <td class="value">
                                 <span>8.6</span>
                                 <div class="value-bar-container">
+                                    <div class="value-bar" style="height:57.3%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:28.7%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>15</span>
+                                <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
@@ -310,90 +782,198 @@
                             <td class="value">
                                 <span>-1.9</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:6.3%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:14.3%; bottom: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>15</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:50.0%; bottom: 50%"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">26_3Q</td>
                             <td class="value">
-                                <span>-1.9</span>
+                                <span>5.4</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar" style="height:36.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:28.7%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>15</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">ltm</td>
                             <td class="value">
-                                <span>1.9</span>
+                                <span>3.8</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:25.3%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:28.7%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>15</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>    
                         <tr class="section-row level-1">
-                            <td class="label" colspan="2">PER</td>
+                            <td class="label" colspan="4">PER</td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">PER_ltm</td>
                             <td class="value">
-                                <span>12.7</span>
+                                <span>5.93</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>5.23</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:88.2%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1.53</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:25.8%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
                             <td class="value">
-                                <span>-</span>
+                                <span>3.69</span>
                                 <div class="value-bar-container">
-                                    
+                                    <div class="value-bar" style="height:79.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.67</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1.37</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:29.3%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
                             <td class="value">
-                                <span>-</span>
+                                <span>3.45</span>
                                 <div class="value-bar-container">
-                                    
+                                    <div class="value-bar" style="height:80.4%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.29</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1.26</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:29.4%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>    
                         <tr class="section-row level-1">
-                            <td class="label" colspan="2">volatility</td>
+                            <td class="label" colspan="4">volatility</td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-8.7</span>
+                                <span>-7.2</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-7.2</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-7.2</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>    
                         <tr class="section-row level-1">
-                            <td class="label" colspan="2">amount</td>
+                            <td class="label" colspan="4">amount</td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-10</span>
+                                <span>-22</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-22</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-22</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>    
                         <tr class="section-row level-1">
-                            <td class="label" colspan="2">alpha_beta</td>
+                            <td class="label" colspan="4">alpha_beta</td>
                         </tr>    
                         <tr class="section-row level-2 collapsed">
-                            <td class="label" colspan="2">from_start_date</td>
+                            <td class="label" colspan="4">from_start_date</td>
                         </tr>
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
+                            <td class="value">
+                                <span>0.055</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.055</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>0.055</span>
                                 <div class="value-bar-container">
@@ -409,16 +989,85 @@
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>0.34</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.34</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
                         </tr>    
                         <tr class="section-row level-2">
-                            <td class="label" colspan="2">base_period</td>
+                            <td class="label" colspan="4">base_period</td>
                         </tr>
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.052</span>
+                                <span>0.032</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.032</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.032</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">beta</td>
+                            <td class="value">
+                                <span>0.13</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.13</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.13</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-2">
+                            <td class="label" colspan="4">measure_period</td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">alpha (%, daily)</td>
+                            <td class="value">
+                                <span>-0.63</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.63</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.63</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>
@@ -430,35 +1079,38 @@
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
-                        </tr>    
-                        <tr class="section-row level-2">
-                            <td class="label" colspan="2">measure_period</td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.59</span>
+                                <span>0.15</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
-                        </tr>
-                        <tr class="value-row level-3">
-                            <td class="label">beta</td>
                             <td class="value">
-                                <span>0.21</span>
+                                <span>0.15</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>    
                         <tr class="section-row level-0">
-                            <td class="label" colspan="2">assess_result</td>
+                            <td class="label" colspan="4">assess_result</td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">basics</td>
                             <td class="value">
                                 <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -472,11 +1124,35 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">PER_level</td>
                             <td class="value">
-                                <span>Mid</span>
+                                <span>Low</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>Low</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>Low</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -484,6 +1160,18 @@
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">volatility (measure)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>-</span>
                                 <div class="value-bar-container">
@@ -499,9 +1187,33 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">alpha (measure)</td>
+                            <td class="value">
+                                <span>udr_pfm</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>udr_pfm</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>udr_pfm</span>
                                 <div class="value-bar-container">
@@ -517,9 +1229,33 @@
                                     
                                 </div>
                             </td>
+                            <td class="value">
+                                <span>D</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>A</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                         </tr>
                         <tr class="value-row level-1">
                             <td class="label">market_sentiment</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
                             <td class="value">
                                 <span>-</span>
                                 <div class="value-bar-container">
@@ -557,8 +1293,8 @@
                         <div class="qualitative-actions">
 
                             
-                    <span class="reviewed-badge not-reviewed">
-                        ○ Not reviewed
+                    <span class="reviewed-badge reviewed">
+                        ✓ Reviewed
                     </span>
         
 
@@ -587,15 +1323,15 @@
                             <tr class="reviewed-row">
                                 <th>reviewed</th>
                                 <td>
-                                    <span class="reviewed-status not-reviewed">
-                                        Not reviewed
+                                    <span class="reviewed-status reviewed">
+                                        Reviewed
                                     </span>
                                 </td>
                             </tr>
             
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-06 10:44</td>
+                                <td>2026-11-16 12:53</td>
                             </tr>
         
                             <tr>
@@ -697,7 +1433,7 @@
                                         class="qualitative-checkbox"
                                         type="checkbox"
                                         aria-label="create_segments"
-                                        disabled
+                                        disabled checked
                                     >
                                 </td>
                             </tr>
@@ -766,26 +1502,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:58</td>
+                                <td>2026-11-16 15:08</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 3분기 연결 기준 매출액 2조 7,111억원, 영업이익 1,477억원(전분기 대비 흑자전환), 당기순이익 2,288억원을 기록함.</td>
+                                <td>2026년 3분기 연결 기준 매출액 2조 7,111억원, 영업이익 1,477억원, 당기순이익 2,288억원을 기록함.</td>
                             </tr>
                             <tr>
                                 <td>2026년 1~3분기 누적 매출액 7조 6,593억원, 영업이익 3,314억원, 당기순이익 4,632억원을 달성함.</td>
                             </tr>
                             <tr>
-                                <td>3분기 대규모 파생상품 평가이익 반영으로 세전이익 2,858억원을 기록했으나, 4분기에 일부 환입될 예정임.</td>
+                                <td>2026년 연간 세전이익은 전년 대비 104.5% 증가한 6,733억원으로 추정되며 역대급 실적이 예상됨.</td>
                             </tr>
                             <tr>
-                                <td>올해부터 3년간 총 900억원 규모의 자사주 매입 및 소각 계획을 공시함.</td>
+                                <td>2027~2030년 연결기준 세전이익 4,500억원 이상 달성을 목표로 함.</td>
                             </tr>
                             <tr>
-                                <td>2027~2030년 연결 세전이익 4,500억원 이상을 목표로 AIDC 유틸리티 솔루션 및 북미 가스전 밸류체인 확대 등 신규 사업을 추진함.</td>
+                                <td>SK어드밴스드와의 합병 추진 및 AIDC 유틸리티 솔루션, 북미 가스전 등 신규 성장 사업을 계획 중임.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -795,20 +1531,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>국내 LPG 유통 부문의 매입-판매가 차이로 인한 역마진 부담이 지속되고 있음.</td>
+                                <td>실적이 외부 원자재 시황 및 파생상품 평가이익에 의존하여 중장기 지속성 및 분기별 이익 변동성 리스크가 있음.</td>
                             </tr>
                             <tr>
-                                <td>PDH 사업 부문의 적자 발생이 전체 영업이익에 영향을 미침.</td>
+                                <td>PDH 사업 부문에서 적자를 기록함.</td>
                             </tr>
                             <tr>
-                                <td>3분기 파생상품 이익의 환입으로 인해 4분기 파생상품 손실 발생이 전망됨.</td>
+                                <td>주가 리레이팅을 위해 신규 사업들의 구체적인 수익화 시점 제시가 필요한 상황임.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>SK가스는 2026년 3분기 LPG 트레이딩 및 발전 부문의 호조와 파생상품 이익으로 영업이익 흑자 전환과 당기순이익 증가를 달성했습니다. LPG 유통 역마진과 PDH 적자 등의 리스크가 존재하나, LNG-LPG 옵셔널리티 활용과 자사주 소각을 통한 주주환원 강화, 미래 성장 사업 확대를 통해 수익성 개선과 기업 가치 제고를 추진하고 있습니다.</td>
+                                <td>SK가스는 중동의 지정학적 불안과 LNG-LPG 가격 스프레드 확대, 파생상품 평가이익 등에 힘입어 2026년 사상 최대급 실적을 기록할 전망입니다. 3분기 영업이익 흑자전환 및 당기순이익 급증을 달성했으며, 울산GPS의 옵셔널리티 전략을 통해 수익성을 강화하고 있습니다. 향후 2030년까지의 중장기 이익 목표 설정과 신사업 추진, 주주환원 확대를 계획하고 있으나, 원자재 시황에 민감한 이익 구조와 PDH 사업 적자 해결이 과제로 남아있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -862,7 +1598,7 @@
             aria-controls="roma-plot-018670" title="ROMA plot (r)">ROMA plot (r)</button>
         <template class="roma-plot-template" id="roma-plot-018670"
             data-title="ROMA plot — 018670"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-018670" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-018670")) {                    Plotly.newPlot(                        "roma-plot-018670",                        [{"customdata":[["2016-04-01",68.467992018],["2016-07-01",69.35087831099999],["2016-10-01",97.80885923499999],["2017-01-01",118.49676342200001],["2017-04-01",138.797220957],["2017-07-01",203.41287513799998],["2017-10-01",174.926745453],["2018-01-01",134.354508474],["2018-04-01",105.74414804500002],["2018-07-01",123.53413587800001],["2018-10-01",89.919749812],["2019-01-01",74.91700574999999],["2019-04-01",143.76640206000005],["2019-07-01",76.03035705600001],["2019-10-01",36.584714994],["2020-01-01",71.46531326200001],["2020-04-01",47.124027399999996],["2020-07-01",59.383511300000016],["2020-10-01",179.3762963],["2021-01-01",226.84887369999998],["2021-04-01",217.28141770000002],["2021-07-01",141.38362999999998],["2021-10-01",323.92456],["2022-01-01",167.4746325],["2022-04-01",212.81745],["2022-07-01",222.57519599999998],["2022-10-01",89.96490000000003],["2023-01-01",61.005255500000004],["2023-04-01",49.3998806],["2023-07-01",47.033824499999994],["2023-10-01",102.6331656],["2024-01-01",111.5508114],["2024-04-01",83.280654],["2024-07-01",270.3710424],["2024-10-01",72.7803419],["2025-01-01",137.7159027],["2025-04-01",148.640683],["2025-07-01",226.6861695],["2025-10-01",185.28478650000002],["2026-01-01",193.30852199999998],["2026-04-01",428.100379],["2026-07-01",388.3734335000001]],"hovertemplate":"SK\uac00\uc2a4\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"1ImHavP+LUBNwE9o2R8uQHKdgUUe8zBApsHcUyInMkAkqrw1KTwzQCm1\u002f0WaOzZAcsRb+g37NED+5OBCXQEzQIqneeHKbDFA98Mlb\u002fVtMkBEo\u002fcoJ3UwQG3isqia6i5AthEdK9J8M0BQkSDBPhIvQFDs\u002f\u002fvanShAWYeV+sttLkCQm+UsxJYqQJSqGxtGnyxAk1c8XcIuNUA6812v0DI3QA2Hy1WDzzZAxFa9LPVdM0DXI0TgGb86QBK30cj2ojRAmwDf5W6gNkDNuaTZuAY3QFx2HKfjdTBAp3I4he7fLEC7NVkcG\u002fwqQM9woyqzkipA24qnZqc9MUBotk439cIxQC9fC1fLBjBA8huBrSDeOEDxdVGssZ0uQISprSTwLTNAfixCTiu7M0C9wWzmJDE3QBKX2Y9vcjVAljYxxaLMNUAAAAAAAAA+QJic6CrRzzxA"},"sizemode":"diameter"},"mode":"lines+markers","name":"SK\uac00\uc2a4","x":{"dtype":"f8","bdata":"WrSjaQZBYEBmeQU\u002fvSFgQHXaWQeGymJAxlYPGWhUZUCScIFKBKhkQG9zmm2FVWJASkb5QgtNZ0ALkebfHFJlQEwGeLm1emVAgD25\u002fqplaEBNUMq6\u002fI9mQL1dYvVG2l9AXfI7rlYhYEDTVKYLzpdaQLvTXVUOSWBAQwEOag7iXkCKqqNPmcdZQBIdKeoq6ldATnY0yAS7XUCqC2OQTQ1iQHoEpKW9k2FAbBmgGGifZkAupQrl\u002fe1mQB0juBWjlW1ANmChaRnVZ0D\u002f6eKMywRnQBxUorE1ZGhA\u002fkEtkITfakC+YUCFA61iQMUjiQ94gGVA1Ag2HDlaZEDxlyVp5pJlQNwBb+mWpGRAo6BvHTisZUBGR76HLc9oQKhtA\u002ft\u002f1mZAAfNWfh2BZ0DQcjHquGBoQCPwBh\u002fiO2lAKkbKUGl4cEDoOwtJlelsQOg7C0mV6WxA"},"y":{"dtype":"f8","bdata":"7egajnBUR0B06S9ZNDI+QC9q96sAv+e\u002fGxCTAwVSQEB6RbCk7rpEQEMUKVOg9EJAKZkYonXaKkBoaIXn+kRNQEHthz2MelBAMXCPkSvNIEAF3RJE08Y\u002fQHXYEixtHzJAxm5B5OQtTECKYD9rLuJQQLesxR4PyEdAbwVed0STVUDyqa0ibd9LQEbIBvOTGklAT6jQDvKJAMAJrFFMNM9CQJGexBWHSkZA\u002fasBKTXGQUBEkpghB5MowNbD1Ox6b1pA33\u002fnuzR7TEAsOcbMYHhQQPyOpE5XPGRAwdG24yv5aUArIDZWN7JQQPykpbWT1ExArTRZPvOiPMC3nVjVwqdSQH2OofkieUdAFWMpKoyBRUC5NaeaMqZeQJpf\u002fTo4OlxAiUbIVxorXkAGDe7ofq5lQDnHfuvK5UFAlyi6r\u002fx1bEBqCZR1QfhFwGoJlHVB+EXA"},"z":{"dtype":"f8","bdata":"XT4ri690HUDvKhcukxEfQGgvPSFfiyJA5NRy3eNjJ0DSj4OFytolQDpngh3HTCdAa4EPwkwIIUCYQdvgYCkhQPqMBf1IfSFATzVqz2AbIUCuqmyhtMAeQAzRi53j+RlAluiCEm6bIEBxF0aN+g8dQIMJQ9EfoRtA2Pj9r\u002ftdH0CmSNL2LsQXQKXn1p5rLRtAbQCeA7cJIkA0xEaTal8jQP7siaaapiNA8SETtsBWJkAgaQXAV6QsQPOKTGX2oidA7rjZBosKJUBvbXbepbAlQMaskwqVoSJApkQzy3VpJUD\u002f8CjSUwEmQH9AKybytSdAYUEElgjKK0AMY+LB3G8rQG2rfy4fgyxAn4e3J3hXMEBSEfMhsogvQFn+GTH1LzNARBnLcBOSNkASFIHirnE5QF3QjI9gyDVAE\u002fOspBXbNEAhSDGCvg04QGOBK7AyyjNA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["SK\uac00\uc2a4"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[231.29947330660002],"y":[-43.939497659],"z":[19.78983594],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 43","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 214","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 428","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-21.082056945048,284.607768758148],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-65.66962511268,249.41722296568003],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-2.0355259824000003,27.4796007624],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-018670" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-018670")) {                    Plotly.newPlot(                        "roma-plot-018670",                        [{"customdata":[["2016-04-01",68.467992018],["2016-07-01",69.35087831099999],["2016-10-01",97.80885923499999],["2017-01-01",118.49676342200001],["2017-04-01",138.797220957],["2017-07-01",203.41287513799998],["2017-10-01",174.926745453],["2018-01-01",134.354508474],["2018-04-01",105.74414804500002],["2018-07-01",123.53413587800001],["2018-10-01",89.919749812],["2019-01-01",74.91700574999999],["2019-04-01",143.76640206000005],["2019-07-01",76.03035705600001],["2019-10-01",36.584714994],["2020-01-01",71.46531326200001],["2020-04-01",47.124027399999996],["2020-07-01",59.383511300000016],["2020-10-01",179.3762963],["2021-01-01",226.84887369999998],["2021-04-01",217.28141770000002],["2021-07-01",141.38362999999998],["2021-10-01",323.92456],["2022-01-01",167.4746325],["2022-04-01",212.81745],["2022-07-01",222.57519599999998],["2022-10-01",89.96490000000003],["2023-01-01",61.005255500000004],["2023-04-01",49.3998806],["2023-07-01",47.033824499999994],["2023-10-01",102.6331656],["2024-01-01",111.5508114],["2024-04-01",83.280654],["2024-07-01",270.3710424],["2024-10-01",72.7803419],["2025-01-01",137.7159027],["2025-04-01",148.640683],["2025-07-01",226.6861695],["2025-10-01",185.28478650000002],["2026-01-01",193.30852199999998],["2026-04-01",428.100379],["2026-07-01",388.3734335000001]],"hovertemplate":"SK\uac00\uc2a4\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"1ImHavP+LUBNwE9o2R8uQHKdgUUe8zBApsHcUyInMkAkqrw1KTwzQCm1\u002f0WaOzZAcsRb+g37NED+5OBCXQEzQIqneeHKbDFA98Mlb\u002fVtMkBEo\u002fcoJ3UwQG3isqia6i5AthEdK9J8M0BQkSDBPhIvQFDs\u002f\u002fvanShAWYeV+sttLkCQm+UsxJYqQJSqGxtGnyxAk1c8XcIuNUA6812v0DI3QA2Hy1WDzzZAxFa9LPVdM0DXI0TgGb86QBK30cj2ojRAmwDf5W6gNkDNuaTZuAY3QFx2HKfjdTBAp3I4he7fLEC7NVkcG\u002fwqQM9woyqzkipA24qnZqc9MUBotk439cIxQC9fC1fLBjBA8huBrSDeOEDxdVGssZ0uQISprSTwLTNAfixCTiu7M0C9wWzmJDE3QBKX2Y9vcjVAljYxxaLMNUAAAAAAAAA+QJic6CrRzzxA"},"sizemode":"diameter"},"mode":"lines+markers","name":"SK\uac00\uc2a4","x":{"dtype":"f8","bdata":"WrSjaQZBYEBmeQU\u002fvSFgQHXaWQeGymJAxlYPGWhUZUCScIFKBKhkQG9zmm2FVWJASkb5QgtNZ0ALkebfHFJlQEwGeLm1emVAgD25\u002fqplaEBNUMq6\u002fI9mQL1dYvVG2l9AXfI7rlYhYEDTVKYLzpdaQLvTXVUOSWBAQwEOag7iXkCKqqNPmcdZQBIdKeoq6ldATnY0yAS7XUCqC2OQTQ1iQHoEpKW9k2FAbBmgGGifZkAupQrl\u002fe1mQB0juBWjlW1ANmChaRnVZ0D\u002f6eKMywRnQBxUorE1ZGhA\u002fkEtkITfakC+YUCFA61iQMUjiQ94gGVA1Ag2HDlaZEDxlyVp5pJlQNwBb+mWpGRAo6BvHTisZUBGR76HLc9oQKhtA\u002ft\u002f1mZAAfNWfh2BZ0DQcjHquGBoQCPwBh\u002fiO2lAKkbKUGl4cEDoOwtJlelsQICvDue58XBA"},"y":{"dtype":"f8","bdata":"7egajnBUR0B06S9ZNDI+QC9q96sAv+e\u002fGxCTAwVSQEB6RbCk7rpEQEMUKVOg9EJAKZkYonXaKkBoaIXn+kRNQEHthz2MelBAMXCPkSvNIEAF3RJE08Y\u002fQHXYEixtHzJAxm5B5OQtTECKYD9rLuJQQLesxR4PyEdAbwVed0STVUDyqa0ibd9LQEbIBvOTGklAT6jQDvKJAMAJrFFMNM9CQJGexBWHSkZA\u002fasBKTXGQUBEkpghB5MowNbD1Ox6b1pA33\u002fnuzR7TEAsOcbMYHhQQPyOpE5XPGRAwdG24yv5aUArIDZWN7JQQPykpbWT1ExArTRZPvOiPMC3nVjVwqdSQH2OofkieUdAFWMpKoyBRUC5NaeaMqZeQJpf\u002fTo4OlxAiUbIVxorXkAGDe7ofq5lQDnHfuvK5UFAlyi6r\u002fx1bEBqCZR1QfhFwOXNyL0MdWJA"},"z":{"dtype":"f8","bdata":"XT4ri690HUDvKhcukxEfQGgvPSFfiyJA5NRy3eNjJ0DSj4OFytolQDpngh3HTCdAa4EPwkwIIUCYQdvgYCkhQPqMBf1IfSFATzVqz2AbIUCuqmyhtMAeQAzRi53j+RlAluiCEm6bIEBxF0aN+g8dQIMJQ9EfoRtA2Pj9r\u002ftdH0CmSNL2LsQXQKXn1p5rLRtAbQCeA7cJIkA0xEaTal8jQP7siaaapiNA8SETtsBWJkAgaQXAV6QsQPOKTGX2oidA7rjZBosKJUBvbXbepbAlQMaskwqVoSJApkQzy3VpJUD\u002f8CjSUwEmQH9AKybytSdAYUEElgjKK0AMY+LB3G8rQG2rfy4fgyxAn4e3J3hXMEBSEfMhsogvQFn+GTH1LzNARBnLcBOSNkASFIHirnE5QF3QjI9gyDVAE\u002fOspBXbNEAhSDGCvg04QGOBK7AyyjNA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["SK\uac00\uc2a4"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[271.1078863691],"y":[147.65780534],"z":[19.78983594],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 43","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 214","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 428","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-21.688630909528,292.796517278628],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-65.66962511268,249.41722296568003],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-2.0355259824000003,27.4796007624],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
     
         <button class="mv-plot-link" type="button" aria-haspopup="dialog"
             data-code="018670"
@@ -2322,7 +3058,29 @@ SK가스(018670) 주가·실적·재무제표 분석 | 보숲</p>
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-06_[이투데이]_iM證_SK가스_LPG하락·LNG강세에_일석이조_수혜…목표가_33만원.md"
+        <div class="news-row" data-news-file="2026-11-16_[뉴스퀘스트]_중동_불안이_쏘아올린_축포…SK가스_2026년_세전이익_6700억_역대급_잭팟.md"
+                data-news-path="build/news/profiles/018670_SK가스/2026-11-16_[뉴스퀘스트]_중동_불안이_쏘아올린_축포…SK가스_2026년_세전이익_6700억_역대급_잭팟.md"
+                data-object-type="Profile"
+                data-object-id="018670">
+                <a href="#" onclick="openPopup('/build/news/profiles/018670_SK가스/2026-11-16_[뉴스퀘스트]_중동_불안이_쏘아올린_축포…SK가스_2026년_세전이익_6700억_역대급_잭팟.md'); return false;">
+                    2026-11-16 [뉴스퀘스트] 중동 불안이 쏘아올린 축포…SK가스 2026년 세전이익 6700억 역대급 잭팟
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-13_[머니투데이]_SK디스커버리_3Q_세전이익_311%_증가..지주_출범_후_최대실적_-_머니투데이.md"
+                data-news-path="build/news/profiles/018670_SK가스/2026-11-13_[머니투데이]_SK디스커버리_3Q_세전이익_311%_증가..지주_출범_후_최대실적_-_머니투데이.md"
+                data-object-type="Profile"
+                data-object-id="018670">
+                <a href="#" onclick="openPopup('/build/news/profiles/018670_SK가스/2026-11-13_[머니투데이]_SK디스커버리_3Q_세전이익_311%_증가..지주_출범_후_최대실적_-_머니투데이.md'); return false;">
+                    2026-11-13 [머니투데이] SK디스커버리 3Q 세전이익 311% 증가..지주 출범 후 최대실적 - 머니투데이
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-06_[이투데이]_iM證_SK가스_LPG하락·LNG강세에_일석이조_수혜…목표가_33만원.md"
                 data-news-path="build/news/profiles/018670_SK가스/2026-11-06_[이투데이]_iM證_SK가스_LPG하락·LNG강세에_일석이조_수혜…목표가_33만원.md"
                 data-object-type="Profile"
                 data-object-id="018670">
@@ -2460,6 +3218,18 @@ SK가스(018670) 주가·실적·재무제표 분석 | 보숲</p>
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

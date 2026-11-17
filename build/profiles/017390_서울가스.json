@@ -1,0 +1,146 @@
+{
+    "key": "017390",
+    "filename": "017390_서울가스",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 20:35",
+    "financials": {
+        "meta": {
+            "name": "서울가스",
+            "code": "017390",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "유틸리티 (13)",
+                "industry": "유틸리티 (131)",
+                "subindustry": "가스 유틸리티 (1312)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 274,
+                "revenue_ltm": 1820,
+                "opincome_ltm": 13.9,
+                "revenue_qtr": 228,
+                "opincome_qtr": -9.26
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.33,
+                "growth(%)": -21
+            },
+            "opmargin(%)": {
+                "25_4Q": 0.65,
+                "26_1Q": 2.9,
+                "26_2Q": -0.85,
+                "26_3Q": -4.1,
+                "ltm": 0.77
+            },
+            "PER": {
+                "PER_ltm": 19.7,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -8.3
+            },
+            "amount": {
+                "measure_to_base(%)": 12
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.012,
+                    "beta": 0.17
+                },
+                "base_period": {
+                    "alpha(%)": -0.026,
+                    "beta": 0.11
+                },
+                "measure_period": {
+                    "alpha(%)": 0.41,
+                    "beta": 0.22
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:35",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "도시가스 공급 사업",
+            "해외 자원 개발 사업",
+            "부동산 임대 및 기타 사업"
+        ],
+        "revenue_share": [
+            0.995,
+            0.002,
+            0.003
+        ],
+        "trend": [
+            "facing stronger competition from district heating, declining demand due to global warming",
+            "stable but high risk",
+            "expanding through new businesses like EV charging"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "LNG 도시가스 공급",
+            "해외 유전 및 천연가스 탐사/개발",
+            "부동산 임대, 전기차 충전 서비스"
+        ],
+        "competitors": [
+            "삼천리, 코원에너지서비스, 예스코, 대륜이엔에스, 귀뚜라미에너지",
+            "글로벌 에너지 기업 및 컨소시엄",
+            "부동산 임대 시장 경쟁사"
+        ]
+    },
+    "code": "017390",
+    "name": "서울가스",
+    "overview": {
+        "title": "기온 상승과 지역 내 경쟁으로 부진",
+        "desc": "동사는 1983년 설립된 도시가스 공급 전문 기업으로, 1995년 유가증권시장에 상장하였으며, 대성그룹 소속 53개 계열사 중 하나임. 2026년 에스씨지에코파크(주) 지분 취득을 통해 종속회사를 23개사로 확대하였음. 서울 강서구 등 11개구와 경기도 고양시, 김포시, 파주시 등 총 1,337.2㎢ 지역에 약 261만 가구를 대상으로 LNG 기반 도시가스를 공급하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 3.9% 감소, 영업이익은 27.7% 감소, 당기순이익은 26.2% 감소. 도시가스 사업은 계절 편차가 심하고 지구 온난화로 인한 평균 기온 상승이 판매에 부정적으로 작용하며, 수도권 지역에서 지역난방과의 경쟁으로 매출과 영업이익이 감소함. 에너지 다변화 정책과 환경규제 강화로 도시가스 수요는 증가할 전망이나, 지역난방 보급정책 지속으로 경쟁은 심화될 예정임.",
+        "as_of": "2026-09-06",
+        "updated": "2026-11-12 20:35"
+    },
+    "news": {
+        "updated": "2026-11-12 20:35",
+        "key_facts": [
+            "2026년 3분기 연결 기준 영업이익 5,878억 원 기록 (전년 동기 대비 51.1% 증가)",
+            "2026년 1~3분기 누적 매출 26조 8,161억 원 (전년 동기 대비 0.3% 증가), 누적 영업이익 2조 1,731억 원 (전년 동기 대비 33.5% 증가)",
+            "해외 자원개발 사업 실적 개선으로 1~3분기 누적 영업이익이 전년 2,968억 원에서 7,408억 원으로 증가 (LNG 캐나다, 모잠비크 코랄 FLNG, 호주 GLNG 등 기여)",
+            "3분기 말 기준 부채 41조 3,533억 원 (전년 말 대비 3.4% 감소), 자본 11조 6,938억 원 (전년 말 대비 8.3% 증가)",
+            "부채비율이 전년 말 397%에서 354%로 43%포인트 하락"
+        ],
+        "key_issues": [
+            "원료비 미수금 지속 증가: 3분기 말 기준 총 미수금 14조 6,451억 원 (도시가스용 14조 1,114억 원, 발전용 5,337억 원)"
+        ],
+        "news_summary": "한국가스공사는 해외 자원개발 사업의 수익성 호조에 힘입어 2026년 3분기 영업이익이 전년 동기 대비 51.1% 급증하며 시장 전망치를 상회했고, 부채비율 또한 개선되었습니다. 하지만 원료비 연동제로 인한 미수금이 3분기 기준 14조 6,451억 원까지 늘어나며 재무적 부담이 지속되고 있습니다."
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "key": "016100",
+    "filename": "016100_리더스코스메틱",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:19",
+    "financials": {
+        "meta": {
+            "name": "리더스코스메틱",
+            "code": "016100",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "종이 및 목재 (215)",
+                "subindustry": "골판지 및 재생종이 (2152)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 19.3,
+                "revenue_ltm": 68.9,
+                "opincome_ltm": -7.42,
+                "revenue_qtr": 19.5,
+                "opincome_qtr": -0.541
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": true,
+                "slope": -0.12,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -27,
+                "26_1Q": -14,
+                "26_2Q": -7.1,
+                "26_3Q": -2.8,
+                "ltm": -11
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 4.5
+            },
+            "amount": {
+                "measure_to_base(%)": -83
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.091,
+                    "beta": 0.6
+                },
+                "base_period": {
+                    "alpha(%)": -0.15,
+                    "beta": 0.19
+                },
+                "measure_period": {
+                    "alpha(%)": -0.44,
+                    "beta": 0.43
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:19",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "골판지 사업",
+            "화장품 사업",
+            "바이오/헬스케어 사업"
+        ],
+        "revenue_share": [
+            0.7,
+            0.2,
+            0.1
+        ],
+        "trend": [
+            "완만한 성장세(전자상거래 확대 수혜)",
+            "실적 악화 및 경쟁 심화",
+            "신규 진출 및 성장 기대(상업화 대기)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "골판지 원단, 골판지 상자",
+            "리더스 메디유, 리더스 인솔루션, 마스크팩, 기초화장품",
+            "골관절염 치료제 E1K(독점 판권)"
+        ],
+        "competitors": [
+            "태림포장, 아세아제지, 제일산업",
+            "한국콜마, 아모레퍼시픽, LG생활건강",
+            "제약 및 바이오 유통사"
+        ]
+    },
+    "code": "016100",
+    "name": "리더스코스메틱",
+    "overview": {
+        "title": "경쟁 심화 속 수익성 압박 지속",
+        "desc": "동사는 1986년 설립, 2003년 코스닥 상장 후 2011년 리더스코스메틱을 흡수합병하고 골판지 사업을 물적분할하였음. 2022년 경영 효율성과 재무 안정성을 위해 산성피앤씨를 합병하였으며, 중국, 미국 등 2개 해외법인과 4개 계열사를 보유하고 있음. 화장품 제조와 골판지 생산을 주요 사업으로 영위하고, 화장품은 리더스 브랜드로, 골판지는 원단 및 상자 판매를 하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 0.2% 감소, 영업손실은 58.2% 증가, 당기순손실은 33.7% 증가. 골판지 사업부문은 택배물량 증가로 포장수요가 확장되었으나, 화장품 사업부문은 시장 포화와 하절기 수요 감소로 실적이 악화됨. 화장품 시장은 기능성·한방·자연주의 화장품이 성장하며 시장을 견인하고, 골판지 사업부문은 고품질 다품종 생산으로 시장점유율 확대를 위해 노력 중임.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:19"
+    },
+    "news": {
+        "updated": "2026-11-12 21:19",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

@@ -1,7 +1,7 @@
 {
     "key": "017940",
     "filename": "017940_E1",
-    "updated": "2026-11-12 19:45",
+    "updated": "2026-11-17 12:17",
     "llm_research_updated": "2026-11-11 16:59",
     "financials": {
         "meta": {
@@ -9,73 +9,74 @@
             "code": "017940",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 11:26",
-            "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:17",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 567,
-                "revenue_ltm": 15300,
-                "opincome_ltm": 107,
-                "revenue_qtr": 4400,
-                "opincome_qtr": 118
+                "marcap": 575,
+                "revenue_ltm": 15200,
+                "opincome_ltm": -183,
+                "revenue_qtr": 4270,
+                "opincome_qtr": -172
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": false,
-                "higher(comp)": true,
-                "slope": -3.1,
-                "growth(%)": -5.6
+                "higher(comp)": false,
+                "slope": -16,
+                "growth(%)": -54
             },
             "opmargin(%)": {
                 "25_4Q": 0.93,
                 "26_1Q": -4.4,
                 "26_2Q": 2.7,
-                "26_3Q": 2.7,
-                "ltm": 0.7
+                "26_3Q": -4,
+                "ltm": -1.2
             },
             "PER": {
-                "PER_ltm": 5.3,
-                "PER_qx4": 1.2,
-                "PER_fwd": 1.29
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": -14
+                "measure_to_base(%)": -9.8
             },
             "amount": {
-                "measure_to_base(%)": -37
+                "measure_to_base(%)": -29
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.0055,
-                    "beta": 0.43
+                    "alpha(%)": 0.007,
+                    "beta": 0.42
                 },
                 "base_period": {
-                    "alpha(%)": -0.06,
-                    "beta": 0.17
+                    "alpha(%)": -0.015,
+                    "beta": 0.15
                 },
                 "measure_period": {
-                    "alpha(%)": -0.33,
-                    "beta": 0.4
+                    "alpha(%)": -0.097,
+                    "beta": 0.31
                 }
             }
         },
         "assess_result": {
             "basics": false,
             "financially_sound": false,
-            "PER_level": "Low",
+            "PER_level": "(na)",
             "volatility_level": "-",
             "amount_level": "Dn",
             "alpha_level": "-",
@@ -101,11 +102,6 @@
             0.98,
             0.01,
             0.01
-        ],
-        "opmargin": [
-            null,
-            null,
-            null
         ],
         "trend": [
             "변동성 높음 (역마진 리스크 존재)",
@@ -134,19 +130,18 @@
         "updated": "2026-11-11 16:58"
     },
     "news": {
-        "updated": "2026-11-11 16:59",
+        "updated": "2026-11-16 17:06",
         "key_facts": [
-            "2026년 2분기 연결 기준 매출액 4조 4,028억 원(전년 동기 대비 94% 증가), 영업이익 1,179억 원(전년 동기 대비 15% 증가)을 기록하며 최근 3년 중 최고 실적을 달성함.",
-            "국내 LPG 사업의 역마진 지속에도 불구하고 해외 트레이딩 이익 증가를 통해 양호한 실적을 유지하고 있음.",
-            "증권 자회사의 실적 회복과 발전 부문의 성수기 진입으로 인한 수익성 개선이 기대됨.",
-            "2026년 예상 실적 기준 PER 2.5배, PBR 0.3배 수준으로 평가됨.",
-            "하나증권은 E1에 대해 투자의견 'BUY'와 목표주가 145,000원을 제시함."
+            "2026년 2분기 연결 기준 매출액 4조 4,028억원(전년 동기 대비 94% 증가), 영업이익 1,179억원(전년 동기 대비 15% 증가)을 기록하며 최근 3년 중 최고 실적 달성",
+            "국내 LPG 사업에서는 역마진이 지속되고 있으나, 해외 트레이딩 사업의 이익 증가가 이를 상당 부분 상쇄함",
+            "2026년 예상 실적 기준 주가수익비율(PER)은 2.5배, 주가순자산비율(PBR)은 0.3배 수준으로 평가됨",
+            "하나증권은 E1에 대해 투자의견 'BUY'와 목표주가 145,000원을 제시함(2026년 8월 25일 기준)"
         ],
         "key_issues": [
-            "국내 LPG 사업의 역마진 지속으로 인한 본업의 수익성 확보 어려움.",
-            "LPG 파생상품 관련 평가이익이 향후 시차를 두고 영업이익에 부담으로 작용할 가능성이 있음.",
-            "정부의 '민생 물가 안정' 정책 및 '석유제품 최고 가격제' 시행으로 인해 독자적인 LPG 가격 인상이 제한적인 상황임."
+            "국내 LPG 사업의 지속적인 역마진 및 수익성 확보 어려움",
+            "LPG 파생상품 관련 평가이익이 향후 시차를 두고 영업이익에 부담으로 작용할 가능성",
+            "정부의 '석유제품 최고 가격제' 및 민생 물가 안정 방침으로 인해 LPG 판매 가격 인상 폭이 제한될 수 있음(kg당 30원 수준 전망)"
         ],
-        "news_summary": "E1은 국내 LPG 사업의 역마진 상황에서도 해외 트레이딩 이익과 사업 포트폴리오(증권, 발전)의 개선을 통해 2026년 2분기 역대 최고 매출을 기록하는 등 실적 정상화 흐름을 보이고 있습니다. 다만, 파생상품 평가이익의 후행적 부담과 정부의 물가 안정 정책에 따른 가격 결정의 제약이 주요 변수로 작용하고 있습니다."
+        "news_summary": "E1은 국내 LPG 사업의 역마진 지속에도 불구하고 해외 트레이딩 이익과 증권 자회사 및 발전 부문의 개선 가능성에 힘입어 실적 정상화 흐름을 보이고 있으며, 특히 2026년 2분기에는 최근 3년 중 최대 매출과 영업이익을 기록했습니다. 다만, 파생상품 평가이익의 후행적 부담과 정부의 가격 통제 정책으로 인한 국내 LPG 사업의 수익성 회복 여부가 향후 주요 변수로 꼽힙니다."
     }
 }

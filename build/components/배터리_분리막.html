@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -27,9 +31,6 @@
     </h3>
     <div class="dashboard">
         <div class="table-panel">
-            <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
-                <div class="table-scrollbar-content"></div>
-            </div>
             <div class="table-wrapper">
                 <div class="table-controls">
                     <button onclick="expandAll()">+</button>
@@ -40,6 +41,9 @@
                         <a class="ext-link" href="#" onclick="openPopup('https://stock.naver.com/domestic/stock//price', true); return false;">NV</a>
                         <a class="ext-link" href="#" onclick="openPopup('https://wcomp.fnguide.com/CompanyInfo/Snapshot?c_id=AA&menu_type=01&cmp_cd=', true); return false;">FN</a>
                     </div>
+                </div>
+                <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
+                    <div class="table-scrollbar-content"></div>
                 </div>
                 <table class="dict-table">
                     <colgroup><col class="row-label-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"></colgroup>
@@ -148,85 +152,19 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 18:32</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 18:31</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 18:31</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="4">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>산업재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>산업재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>배터리 및 전기 장비</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>배터리 및 전기 장비</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -379,6 +317,93 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=3#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">산업재 (3)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=3#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">산업재 (3)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=32#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">배터리 및 전기 장비 (32)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=32#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">배터리 및 전기 장비 (32)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=321#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">배터리 (321)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=321#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">배터리 (321)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=3211#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">배터리 (3211)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=3211#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">배터리 (3211)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="4">shape</td>
                         </tr>    
@@ -388,105 +413,105 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>1,310</span>
+                                <span>1,230</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1,050</span>
+                                <span>1,010</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:80.2%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:82.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>261</span>
+                                <span>226</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:19.9%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:18.4%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>299</span>
+                                <span>308</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>157</span>
+                                <span>159</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:52.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:51.6%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>143</span>
+                                <span>149</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:47.8%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:48.4%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">opincome_ltm</td>
                             <td class="value">
-                                <span>-368</span>
+                                <span>-347</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-276</span>
+                                <span>-249</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:37.5%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:35.9%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-91.7</span>
+                                <span>-98.1</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:12.5%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:14.1%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>75.8</span>
+                                <span>84.6</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>39.5</span>
+                                <span>41.4</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:52.1%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:48.9%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>36.2</span>
+                                <span>43.2</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:47.8%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:51.1%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">opincome_qtr</td>
                             <td class="value">
-                                <span>-78.9</span>
+                                <span>-58.7</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-63.4</span>
+                                <span>-36.8</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:40.2%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:31.3%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-15.5</span>
+                                <span>-21.9</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:9.8%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:18.7%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>    
@@ -502,15 +527,15 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>80</span>
+                                <span>82</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>20</span>
+                                <span>18</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:25.0%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:22.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
@@ -544,15 +569,15 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>52</span>
+                                <span>49</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:96.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>48</span>
+                                <span>51</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:92.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
@@ -565,13 +590,13 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1</span>
+                                <span>2</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2</span>
+                                <span>1</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -649,13 +674,13 @@
                         <tr class="value-row level-2">
                             <td class="label">higher(comp)</td>
                             <td class="value">
-                                <span><span class="false_bool">✗</span></span>
+                                <span><span class="true_bool">✓</span></span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span><span class="false_bool">✗</span></span>
+                                <span><span class="true_bool">✓</span></span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -670,21 +695,21 @@
                         <tr class="value-row level-2">
                             <td class="label">slope (qtr, in unit)</td>
                             <td class="value">
-                                <span>-0.65</span>
+                                <span>0.27</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:29.5%; top: 50%"></div>
+                                    <div class="value-bar" style="height:7.9%; bottom: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.5</span>
+                                <span>1.7</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:22.7%; bottom: 50%"></div>
+                                    <div class="value-bar" style="height:50.0%; bottom: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-1.1</span>
+                                <span>-1.4</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:41.2%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>
@@ -778,9 +803,30 @@
                         <tr class="value-row level-2">
                             <td class="label">26_3Q</td>
                             <td class="value">
-                                <span>-100</span>
+                                <span>-69</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:31.2%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:38.8%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-89</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-51</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:28.7%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">ltm</td>
+                            <td class="value">
+                                <span>-110</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:34.4%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -790,30 +836,9 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-43</span>
+                                <span>-66</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:13.4%; top: 50%"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">ltm</td>
-                            <td class="value">
-                                <span>-120</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:33.3%; top: 50%"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>-180</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>-64</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:17.8%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:20.6%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>    
@@ -889,19 +914,19 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>12</span>
+                                <span>-3.4</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:8.6%; bottom: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:3.3%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-5.7</span>
+                                <span>-18</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:4.1%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:17.3%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>70</span>
+                                <span>52</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:50.0%; bottom: 50%"></div>
                                 </div>
@@ -913,21 +938,21 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-46</span>
+                                <span>-55</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:41.1%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:45.1%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-56</span>
+                                <span>-61</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-30</span>
+                                <span>-46</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:26.8%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:37.7%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>    
@@ -942,17 +967,17 @@
                             <td class="value">
                                 <span>-0.15</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:44.1%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:41.7%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>-0.16</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:47.1%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:44.4%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-0.17</span>
+                                <span>-0.18</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -987,17 +1012,17 @@
                             <td class="value">
                                 <span>-0.22</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:35.5%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:33.3%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>-0.16</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:25.8%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:24.2%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-0.31</span>
+                                <span>-0.33</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -1006,19 +1031,19 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.43</span>
+                                <span>0.42</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:60.6%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:58.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.36</span>
+                                <span>0.35</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:50.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:48.6%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.71</span>
+                                <span>0.72</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -1030,36 +1055,36 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-1.4</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:46.7%; top: 50%"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>-1.5</span>
+                                <span>-1.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>-0.91</span>
+                                <span>-1.3</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:30.3%; top: 50%"></div>
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-1.1</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:42.3%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>1.1</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:68.8%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
                                 <span>1</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:62.5%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.87</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:54.4%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -1334,11 +1359,9 @@
                 </table>
             </div>
         </div>
-        <div class="charts-panel">
-            <div class="chart-card">
+        <div class="charts-panel"><div class="chart-card">
                 <img src="배터리_분리막.png" class="analysis-image" onclick="openPopup('배터리_분리막.png');">
-            </div>
-        </div>
+            </div></div>
     </div>
     
         <h3>Qualitative Analysis</h3>
@@ -1459,26 +1482,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:09</td>
+                                <td>2026-11-16 16:07</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>중국 분리막 업체 셈코프의 헝가리 데브레첸 공장이 토양 내 독성 물질 검출로 인해 5개월째 가동이 중단됨 (2026년 10월 기준)</td>
+                                <td>2026년 1~9월 글로벌 전기차용 분리막 적재량은 전년 동기 대비 24.8% 증가했으나, 한국 기업(SKIET)의 적재량은 20.2% 감소하며 점유율이 3.0%에서 1.9%로 하락함.</td>
                             </tr>
                             <tr>
-                                <td>헝가리 신정부가 환경 규제를 강화하며 배터리 공장에 대한 벌금을 최대 50억 포린트로 인상하고, 5년 내 3회 위반 시 매출액의 최소 0.5%를 부과하는 &#x27;삼진아웃&#x27; 제도 도입을 추진함 (2026년 10월 기준)</td>
+                                <td>글로벌 분리막 시장의 중국계 점유율은 2026년 3분기 기준 92.2%에 달함.</td>
                             </tr>
                             <tr>
-                                <td>KAIST 연구팀이 액정 고분자 배열 조절을 통해 리튬이온 이동을 제어하는 분리막을 개발하여, 리튬 금속 전지 적용 시 4C 급속 충전 100회 후에도 초기 용량의 94%를 유지하는 결과를 얻음 (2026년 11월 발표)</td>
+                                <td>EU의 산업가속화법(IAA) 시행과 차세대 전기차 플랫폼 양산이 맞물리는 2028년이 국내 분리막 업계의 실적 반등 분기점이 될 것으로 전망됨.</td>
                             </tr>
                             <tr>
-                                <td>씨오텍이 &#x27;필름&amp;테이프 선전 2026&#x27;에서 분리막 양면 코팅(그라비아 방식) 및 전극 도포가 가능한 롤투롤 코팅 설비를 선보임 (2026년 10월 말)</td>
+                                <td>중국 분리막 업체 셈코프(SEMCORP)의 헝가리 데브레첸 공장이 토양 내 독성 물질 검출로 인해 가동이 중단된 상태임.</td>
                             </tr>
                             <tr>
-                                <td>웰크론한텍 중국법인이 2026년 3분기까지 중국 주요 분리막 제조사로부터 총 4건, 242억원 규모의 에너지 설비를 수주함</td>
+                                <td>SK아이이테크놀로지(SKIET)의 폴란드 분리막 공장 가동률이 20~30%대까지 급락하며 고정비 부담이 증가함.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -1488,20 +1511,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>차세대 리튬 금속 전지의 덴드라이트 억제 및 급속 충전 성능 향상을 위한 분리막 내부 구조(액정 고분자 배열) 설계 기술 연구</td>
+                                <td>액정 고분자의 분자 배열 조절을 통해 리튬이온 이동 통로를 수직으로 설계하여 덴드라이트 형성을 억제하는 차세대 분리막 기술 개발(KAIST 연구).</td>
                             </tr>
                             <tr>
-                                <td>헝가리 정부의 배터리 산업 정책 패러다임이 단순 조립 기지 유치에서 연구개발(R&amp;D) 중심의 고부가가치 투자 유치로 전환됨</td>
+                                <td>분리막 시장의 수요처를 ESS용, 고내열 및 초박막 제품 등으로 확대하는 전략 추진.</td>
                             </tr>
                             <tr>
-                                <td>글로벌 배터리 공급망 내에서 헝가리 등 비중국 생산 거점의 중요성이 커지는 가운데, 현지 환경 규제 리스크가 소재 조달의 변수로 부각됨</td>
+                                <td>헝가리 신정부 출범 이후 배터리 공장에 대한 환경 및 노동 규제 강화 추세.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>배터리 분리막 산업은 기술적 진보와 지정학적 규제 리스크가 공존하는 상황입니다. 기술적으로는 KAIST에서 리튬 금속 전지의 수명과 충전 속도를 개선하는 고기능성 분리막 구조 연구 성과가 보고되었으며, 공정 설비 분야에서는 롤투롤 코팅 기술 등이 지속적으로 제시되고 있습니다. 한편, 글로벌 공급망의 핵심 거점인 헝가리에서 신정부의 환경 규제가 대폭 강화되면서, 중국 셈코프의 분리막 공장이 가동 중단되는 등 생산 차질이 발생하고 있으며, 이는 북미 및 유럽 시장의 소재 조달 리스크로 확산되는 양상을 보이고 있습니다.</td>
+                                <td>글로벌 분리막 시장은 20%대의 성장세를 보이고 있으나, 한국 기업들은 중국 업체들의 가격 경쟁력과 점유율 확대에 밀려 적재량 감소와 점유율 하락이라는 부진을 겪고 있습니다. 특히 유럽 거점 공장들의 가동률 저하와 헝가리 정부의 환경 규제 강화로 인한 가동 중단 리스크가 실적의 발목을 잡고 있습니다. 하지만 업계는 EU의 산업가속화법(IAA)에 따른 역내 조달 요건 강화와 2028년 차세대 플랫폼 양산 시점을 기점으로 중국산 덤핑 공세를 막고 실적이 반등할 것으로 기대하고 있습니다. 기술적으로는 리튬 금속 전지의 안정성을 높이는 새로운 분리막 구조 설계 연구가 진행 중입니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1521,7 +1544,7 @@
             aria-controls="roma-plot-배터리-분리막" title="ROMA plot (r)">ROMA plot (r)</button>
         <template class="roma-plot-template" id="roma-plot-배터리-분리막"
             data-title="ROMA plot — 배터리 분리막"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-배터리-분리막" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-배터리-분리막")) {                    Plotly.newPlot(                        "roma-plot-배터리-분리막",                        [{"customdata":[["2021-07-01",6262.7122975],["2021-10-01",7495.862443000001],["2022-01-01",5757.869260500001],["2022-04-01",2923.5911805],["2022-07-01",1636.6792103000002],["2022-10-01",2711.5752063],["2023-01-01",1992.9942416000001],["2023-04-01",1928.3127616],["2023-07-01",4537.603705899999],["2023-10-01",3166.49982],["2024-01-01",1150.4316592],["2024-04-01",872.7648427],["2024-07-01",770.5760233499999],["2024-10-01",626.4129191500001],["2025-01-01",398.9973685499999],["2025-04-01",299.65991934999994],["2025-07-01",220.69569531999997],["2025-10-01",260.32856534999996],["2026-01-01",332.6313735],["2026-04-01",314.76504275],["2026-07-01",318.54832432999996]],"hovertemplate":"SK\uc544\uc774\uc774\ud14c\ud06c\ub180\ub85c\uc9c0\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"vjEXJ+3ZO0AAAAAAAAA+QJOd3V4w6TpAKvvsUPCcNEBaXtyYjK4wQHJA6MxICTRArzFTDRDkMUDmPpP4Ea4xQDuzr1t2czhAoVxClas\u002fNUBJq7e9hZYtQHXD1kqmDytAxdET7\u002f4HKkA2CjufPHQoQHYjuhckiSVAQe9KLkH\u002fI0BRlbqKUpQiQJPjLM1kUSNAbLyZwmCIJEBsy3fp9j4kQKr2XD2uTiRA"},"sizemode":"diameter"},"mode":"lines+markers","name":"SK\uc544\uc774\uc774\ud14c\ud06c\ub180\ub85c\uc9c0","x":{"dtype":"f8","bdata":"jQ+zl21rLkBtSsM6n3MvQIqbroJz2SpAyERKs3nIK0DTC4ha5AwrQH4wlSMJvTFAdkWVBiObLEBGRVLBl1wuQFr2JLA5OTJAAZXgw9s\u002fMUB6aS9HNHYSQK54j9iTrRhASrA4nPlNFEDGoLiIlLMXQE7BdSBGSxdAg1eBEH+LIEAISEWteqIfQIm5\u002fyMuuxBACsPb3smyDED7pCQ1\u002fp4PQPukJDX+ng9A"},"y":{"dtype":"f8","bdata":"TRQhdTvXREB8ndSXpTk9wESF6ubifx7AmaCGb2G9KMDS4oxhTgA2wChEwCFUmSTA3sZmR6pPDcACYhIu5JHtP4fFqGvtjR9A7PtwkBDhOkDdBrXf2tlQwAN4CyQoVk3Aq5ffaTJAUsAkfVpFf\u002fpWwAzmr5C5aFHAhsYTQZzbSsBEpnwIqpxHwBLb3QN08lLAD0jCvp1OUsAn+RG\u002fYrlPwCf5Eb9iuU\u002fA"},"z":{"dtype":"f8","bdata":"zCVV2w0RY0DSjEXTGUJnQHxI+N7fLGFAbmsLz8t0WUBPf1HdtwhSQJF8ytafbUVAzbBR1m+sRUDxiwHIvx1NQP\u002fK79nfylNACtXNxd9CTkB8qvng6yFQQJxKq8a3z01AuBp+3KN2QkBq9A\u002fHX5s9QLMriNxncTJAMeWN3U\u002fpMUCqxZbUv5I2QLj0edZ\u002flzVAqYmZ2Nd8NECB1ezcDz0yQBQwicy\u002fwipA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["SK\uc544\uc774\uc774\ud14c\ud06c\ub180\ub85c\uc9c0"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[3.9526333],"y":[-63.448326],"z":[13.380369559999998],"type":"scatter3d"},{"customdata":[["2022-10-01",157.9995903],["2023-01-01",1016.1113760500001],["2023-04-01",505.9428527],["2023-07-01",1275.4527315500002],["2023-10-01",1406.7615157000002],["2024-01-01",725.6452291500001],["2024-04-01",1042.6328656],["2024-07-01",433.64781565],["2024-10-01",266.06967629999997],["2025-01-01",225.98786653999997],["2025-04-01",145.86841467],["2025-07-01",521.10815747],["2025-10-01",107.76560836999998],["2026-01-01",170.69263348],["2026-04-01",740.27894459],["2026-07-01",1115.51351456]],"hovertemplate":"\ub354\ube14\uc720\uc528\ud53c\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#E15F99","width":4},"marker":{"color":"#E15F99","opacity":0.85,"size":{"dtype":"f8","bdata":"KXjzMllCIUDAsxFHs2gsQLpBISxy\u002fSZA72oK\u002fvefLkBbw1+sGakvQNpSVAmNjilAIA6Joc6lLEDvb53hswYmQOZu0aGNayNA0OST8X+uIkDaDFr9lPkgQF5A9MLqLidAZUKF7IL9H0Bjqr97jYshQN8kfeyBtilAxB75ydVJLUA="},"sizemode":"diameter"},"mode":"lines+markers","name":"\ub354\ube14\uc720\uc528\ud53c","x":{"dtype":"f8","bdata":"dhXrvwJYHkAdvU4kwAYeQFD1tfyxaB5AE6KO26erGEDXfPDsv3EiQJ+mMqc0eyhAmbpRggNSJ0DzXTPBvDIaQNbf3GiKHPw\u002f8whMKD8Y+j82TGzyH5AOQGmEgV7tSQdAvCGLwFHABUAjaLDPuiURQF4AvQ9Q\u002fQxAXgC9D1D9DEA="},"y":{"dtype":"f8","bdata":"uN7yNaSbNUD6a15HrxMwQMYuR0tCyzBA0iyjbQlBJEBaIT0puSULQClOyrGwaOM\u002fs63gYyI4\u002fT971dxnG2szwItGZy7q+UrAnUhtOOVuPsAfY8iTnwA6wM\u002f3TipsAD\u002fAiq+FP1QaRMAPpF0VQIM0wGWC5BRS\u002fy7AZYLkFFL\u002fLsA="},"z":{"dtype":"f8","bdata":"Kvc6XaGZLEAje6hgmawrQA9DHekbbTBAwG6eC58IOUASqg6YC9UxQBSjtiZAhS5AuKtNH15mK0DJMe\u002f336omQDYhffjRoxtAFnRwaatsDkCjTw5c6jsFQGcl5aLlBgRAzFWjQ9aVAUBjKLyHcR4BQMibt4tbKhVAr+j8Mh3EDUA="},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\ub354\ube14\uc720\uc528\ud53c"],"textfont":{"color":"#E15F99","size":12},"textposition":"top center","x":[3.6236878613999997],"y":[-15.498673108],"z":[3.7207588179999997],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 750","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 3,748","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 7,496","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-1.45788292,19.68141942],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-102.6016596,52.3691436],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-14.8852522,200.9509047],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-배터리-분리막" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-배터리-분리막")) {                    Plotly.newPlot(                        "roma-plot-배터리-분리막",                        [{"customdata":[["2021-07-01",6262.7122975],["2021-10-01",7495.862443000001],["2022-01-01",5757.869260500001],["2022-04-01",2923.5911805],["2022-07-01",1636.6792103000002],["2022-10-01",2711.5752063],["2023-01-01",1992.9942416000001],["2023-04-01",1928.3127616],["2023-07-01",4537.603705899999],["2023-10-01",3166.49982],["2024-01-01",1150.4316592],["2024-04-01",872.7648427],["2024-07-01",770.5760233499999],["2024-10-01",626.4129191500001],["2025-01-01",398.9973685499999],["2025-04-01",299.65991934999994],["2025-07-01",220.69569531999997],["2025-10-01",260.32856534999996],["2026-01-01",332.6313735],["2026-04-01",314.76504275],["2026-07-01",318.54832432999996]],"hovertemplate":"SK\uc544\uc774\uc774\ud14c\ud06c\ub180\ub85c\uc9c0\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"vjEXJ+3ZO0AAAAAAAAA+QJOd3V4w6TpAKvvsUPCcNEBaXtyYjK4wQHJA6MxICTRArzFTDRDkMUDmPpP4Ea4xQDuzr1t2czhAoVxClas\u002fNUBJq7e9hZYtQHXD1kqmDytAxdET7\u002f4HKkA2CjufPHQoQHYjuhckiSVAQe9KLkH\u002fI0BRlbqKUpQiQJPjLM1kUSNAbLyZwmCIJEBsy3fp9j4kQKr2XD2uTiRA"},"sizemode":"diameter"},"mode":"lines+markers","name":"SK\uc544\uc774\uc774\ud14c\ud06c\ub180\ub85c\uc9c0","x":{"dtype":"f8","bdata":"jQ+zl21rLkBtSsM6n3MvQIqbroJz2SpAyERKs3nIK0DTC4ha5AwrQH4wlSMJvTFAdkWVBiObLEBGRVLBl1wuQFr2JLA5OTJAAZXgw9s\u002fMUB6aS9HNHYSQK54j9iTrRhASrA4nPlNFEDGoLiIlLMXQE7BdSBGSxdAg1eBEH+LIEAISEWteqIfQIm5\u002fyMuuxBACsPb3smyDED7pCQ1\u002fp4PQEfQ8wJHjRBA"},"y":{"dtype":"f8","bdata":"TRQhdTvXREB8ndSXpTk9wESF6ubifx7AmaCGb2G9KMDS4oxhTgA2wChEwCFUmSTA3sZmR6pPDcACYhIu5JHtP4fFqGvtjR9A7PtwkBDhOkDdBrXf2tlQwAN4CyQoVk3Aq5ffaTJAUsAkfVpFf\u002fpWwAzmr5C5aFHAhsYTQZzbSsBEpnwIqpxHwBLb3QN08lLAD0jCvp1OUsAn+RG\u002fYrlPwL99HThnZkLA"},"z":{"dtype":"f8","bdata":"zCVV2w0RY0DSjEXTGUJnQHxI+N7fLGFAbmsLz8t0WUBPf1HdtwhSQJF8ytafbUVAzbBR1m+sRUDxiwHIvx1NQP\u002fK79nfylNACtXNxd9CTkB8qvng6yFQQJxKq8a3z01AuBp+3KN2QkBq9A\u002fHX5s9QLMriNxncTJAMeWN3U\u002fpMUCqxZbUv5I2QLj0edZ\u002flzVAqYmZ2Nd8NECB1ezcDz0yQBQwicy\u002fwipA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["SK\uc544\uc774\uc774\ud14c\ud06c\ub180\ub85c\uc9c0"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[4.1379662],"y":[-36.800025],"z":[13.380369559999998],"type":"scatter3d"},{"customdata":[["2022-10-01",157.9995903],["2023-01-01",1016.1113760500001],["2023-04-01",505.9428527],["2023-07-01",1275.4527315500002],["2023-10-01",1406.7615157000002],["2024-01-01",725.6452291500001],["2024-04-01",1042.6328656],["2024-07-01",433.64781565],["2024-10-01",266.06967629999997],["2025-01-01",225.98786653999997],["2025-04-01",145.86841467],["2025-07-01",521.10815747],["2025-10-01",107.76560836999998],["2026-01-01",170.69263348],["2026-04-01",740.27894459],["2026-07-01",1115.51351456]],"hovertemplate":"\ub354\ube14\uc720\uc528\ud53c\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#E15F99","width":4},"marker":{"color":"#E15F99","opacity":0.85,"size":{"dtype":"f8","bdata":"KXjzMllCIUDAsxFHs2gsQLpBISxy\u002fSZA72oK\u002fvefLkBbw1+sGakvQNpSVAmNjilAIA6Joc6lLEDvb53hswYmQOZu0aGNayNA0OST8X+uIkDaDFr9lPkgQF5A9MLqLidAZUKF7IL9H0Bjqr97jYshQN8kfeyBtilAxB75ydVJLUA="},"sizemode":"diameter"},"mode":"lines+markers","name":"\ub354\ube14\uc720\uc528\ud53c","x":{"dtype":"f8","bdata":"dhXrvwJYHkAdvU4kwAYeQFD1tfyxaB5AE6KO26erGEDXfPDsv3EiQJ+mMqc0eyhAmbpRggNSJ0DzXTPBvDIaQNbf3GiKHPw\u002f8whMKD8Y+j82TGzyH5AOQGmEgV7tSQdAvCGLwFHABUAjaLDPuiURQF4AvQ9Q\u002fQxAE9OKEbdGEUA="},"y":{"dtype":"f8","bdata":"uN7yNaSbNUD6a15HrxMwQMYuR0tCyzBA0iyjbQlBJEBaIT0puSULQClOyrGwaOM\u002fs63gYyI4\u002fT971dxnG2szwItGZy7q+UrAnUhtOOVuPsAfY8iTnwA6wM\u002f3TipsAD\u002fAiq+FP1QaRMAPpF0VQIM0wGWC5BRS\u002fy7Am217dlHiNcA="},"z":{"dtype":"f8","bdata":"Kvc6XaGZLEAje6hgmawrQA9DHekbbTBAwG6eC58IOUASqg6YC9UxQBSjtiZAhS5AuKtNH15mK0DJMe\u002f336omQDYhffjRoxtAFnRwaatsDkCjTw5c6jsFQGcl5aLlBgRAzFWjQ9aVAUBjKLyHcR4BQMibt4tbKhVAr+j8Mh3EDUA="},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\ub354\ube14\uc720\uc528\ud53c"],"textfont":{"color":"#E15F99","size":12},"textposition":"top center","x":[4.319057726],"y":[-21.884055524],"z":[3.7207588179999997],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 750","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 3,748","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 7,496","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-1.45788292,19.68141942],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-102.6016596,52.3691436],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-14.8852522,200.9509047],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
     
         <button class="mp-plot-link" type="button" aria-haspopup="dialog"
             data-object-type="Component"
@@ -1654,12 +1677,34 @@ https://entek.com/news/posts/entek-announces-major-expansion-of-u-s-lithium-ion-
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-11_[데이터투자]_자비스_배터리_폼팩터·ESS까지_검사장비_공급_확대.md"
-                data-news-path="build/news/components/배터리_분리막/2026-11-11_[데이터투자]_자비스_배터리_폼팩터·ESS까지_검사장비_공급_확대.md"
+        <div class="news-row" data-news-file="2026-11-13_[핀포인트뉴스]_배터리_회복에_로봇_성장까지…전기제품주_상승_탄력.md"
+                data-news-path="build/news/components/배터리_분리막/2026-11-13_[핀포인트뉴스]_배터리_회복에_로봇_성장까지…전기제품주_상승_탄력.md"
                 data-object-type="Component"
                 data-object-id="배터리 분리막">
-                <a href="#" onclick="openPopup('/build/news/components/배터리_분리막/2026-11-11_[데이터투자]_자비스_배터리_폼팩터·ESS까지_검사장비_공급_확대.md'); return false;">
-                    2026-11-11 [데이터투자] 자비스 배터리 폼팩터·ESS까지 검사장비 공급 확대
+                <a href="#" onclick="openPopup('/build/news/components/배터리_분리막/2026-11-13_[핀포인트뉴스]_배터리_회복에_로봇_성장까지…전기제품주_상승_탄력.md'); return false;">
+                    2026-11-13 [핀포인트뉴스] 배터리 회복에 로봇 성장까지…전기제품주 상승 탄력
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-12_[디지털데일리]_보릿고개_지나는_K-배터리_소재…_2028년_유럽_바라보는_이유.md"
+                data-news-path="build/news/components/배터리_분리막/2026-11-12_[디지털데일리]_보릿고개_지나는_K-배터리_소재…_2028년_유럽_바라보는_이유.md"
+                data-object-type="Component"
+                data-object-id="배터리 분리막">
+                <a href="#" onclick="openPopup('/build/news/components/배터리_분리막/2026-11-12_[디지털데일리]_보릿고개_지나는_K-배터리_소재…_2028년_유럽_바라보는_이유.md'); return false;">
+                    2026-11-12 [디지털데일리] 보릿고개 지나는 K-배터리 소재… 2028년 유럽 바라보는 이유
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-11_[ER이코노믹리뷰]_글로벌_배터리_소재_4종_모두_20%대_성장_중인데…韓_기업_성적은.md"
+                data-news-path="build/news/components/배터리_분리막/2026-11-11_[ER이코노믹리뷰]_글로벌_배터리_소재_4종_모두_20%대_성장_중인데…韓_기업_성적은.md"
+                data-object-type="Component"
+                data-object-id="배터리 분리막">
+                <a href="#" onclick="openPopup('/build/news/components/배터리_분리막/2026-11-11_[ER이코노믹리뷰]_글로벌_배터리_소재_4종_모두_20%대_성장_중인데…韓_기업_성적은.md'); return false;">
+                    2026-11-11 [ER이코노믹리뷰] 글로벌 배터리 소재 4종 모두 20%대 성장 중인데…韓 기업 성적은
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -1858,6 +1903,18 @@ https://entek.com/news/posts/entek-announces-major-expansion-of-u-s-lithium-ion-
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

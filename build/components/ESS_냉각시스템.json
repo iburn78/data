@@ -1,7 +1,7 @@
 {
     "key": "ESS 냉각시스템",
     "filename": "ESS_냉각시스템",
-    "updated": "2026-11-12 18:48",
+    "updated": "2026-11-17 12:25",
     "llm_research_updated": "2026-11-12 18:48",
     "financials": {
         "meta": {
@@ -9,8 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 18:47",
-            "classification": null,
+            "updated": "2026-11-17 12:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
@@ -21,11 +20,11 @@
         },
         "shape": {
             "financials": {
-                "marcap": 396,
-                "revenue_ltm": 200,
-                "opincome_ltm": -9.72,
-                "revenue_qtr": 42.6,
-                "opincome_qtr": -6.95
+                "marcap": 388,
+                "revenue_ltm": 204,
+                "opincome_ltm": -8.85,
+                "revenue_qtr": 47.1,
+                "opincome_qtr": -6.08
             },
             "share": {
                 "marcap(%)": "-",
@@ -40,15 +39,15 @@
             "opincome": {
                 "positive_ltm": false,
                 "higher(comp)": false,
-                "slope": -0.68,
-                "growth(%)": -650
+                "slope": -0.64,
+                "growth(%)": -350
             },
             "opmargin(%)": {
                 "25_4Q": 4.6,
                 "26_1Q": 2.6,
                 "26_2Q": -16,
-                "26_3Q": -16,
-                "ltm": -4.9
+                "26_3Q": -13,
+                "ltm": -4.3
             },
             "PER": {
                 "PER_ltm": null,
@@ -56,10 +55,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 73
+                "measure_to_base(%)": 32
             },
             "amount": {
-                "measure_to_base(%)": 120
+                "measure_to_base(%)": 98
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -67,12 +66,12 @@
                     "beta": 0.62
                 },
                 "base_period": {
-                    "alpha(%)": 0.18,
-                    "beta": 0.78
+                    "alpha(%)": 0.25,
+                    "beta": 0.77
                 },
                 "measure_period": {
-                    "alpha(%)": 0.86,
-                    "beta": 1.6
+                    "alpha(%)": 0.22,
+                    "beta": 1.4
                 },
                 "indplot_long": {
                     "alpha(%)": null,
@@ -90,7 +89,7 @@
             "PER_level": "(na)",
             "volatility_level": "Up",
             "amount_level": "Up",
-            "alpha_level": "out_pfm",
+            "alpha_level": "-",
             "category": "D",
             "market_sentiment": "unstable"
         }

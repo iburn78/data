@@ -1,0 +1,2926 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>[profile] OCI</title>
+<link rel="stylesheet" href="../../node/html/index.css">
+<link rel="stylesheet" href="../../node/html/dict_template.css">
+<link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
+<script src="../../node/html/navbar.js" defer></script>
+</head>
+<body>
+<div class="dict-content">
+    <div id="relations-section" class="relations-section">
+        <div id="relations-content"></div>
+        <hr>
+    </div>
+    <h3 class="financials-heading">
+        <span>Financials Analysis</span>
+        <span class="model-instance-actions">
+            <button class="model-instance-delete-button" type="button"
+                data-object-type="Profile"
+                data-object-id="456040">Delete</button>
+            <button class="model-instance-update-button" type="button"
+                data-object-type="Profile"
+                data-object-id="456040">Update</button>
+        </span>
+    </h3>
+    <div class="dashboard">
+        <div class="table-panel">
+            <div class="table-wrapper">
+                <div class="table-controls">
+                    <button onclick="expandAll()">+</button>
+                    <button onclick="collapseAll()">-</button>
+                    
+                    <div class="ext-links">
+                        <a class="ext-link" href="http://localhost:3000">QP</a>
+                        <a class="ext-link" href="#" onclick="openPopup('https://stock.naver.com/domestic/stock/456040/price', true); return false;">NV</a>
+                        <a class="ext-link" href="#" onclick="openPopup('https://wcomp.fnguide.com/CompanyInfo/Snapshot?c_id=AA&menu_type=01&cmp_cd=456040', true); return false;">FN</a>
+                    </div>
+                </div>
+                <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
+                    <div class="table-scrollbar-content"></div>
+                </div>
+                <table class="dict-table">
+                    <colgroup><col class="row-label-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"></colgroup>
+                    <thead>
+                        <tr class="header-row">
+                            <th class="label"><a href="http://localhost:3000/#profiles">Profile</a></th>
+                            <th class="value"><a href="../profiles/456040_OCI.html"><span class="column-name">OCI</span></a></th>
+                            <th class="value"><a href="../profiles/456040(A)_베이직케미칼.html"><span class="column-name">OCI(A)</span></a></th>
+                            <th class="value"><a href="../profiles/456040(B)_카본케미칼.html"><span class="column-name">OCI(B)</span></a></th>
+                        </tr>
+                        <tr class="segment-name-row">
+                            <th class="label"></th>
+                            <th class="value segment-name"></th><th class="value segment-name"><span class="column-name" title="베이직케미칼">
+        <span class="column-name-preview">베이직케…</span>
+        <span class="column-name-marquee" aria-hidden="true"><span>베이직케미칼　　베이직케미칼</span></span>
+    </span></th><th class="value segment-name"><span class="column-name">카본케미칼</span></th>
+                        </tr>    
+                    </thead>
+                    <tbody>
+                        <tr class="section-row level-0 collapsed">
+                            <td class="label" colspan="4">meta</td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">name</td>
+                            <td class="value">
+                                <span>OCI</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>OCI</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>OCI</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">code</td>
+                            <td class="value">
+                                <span>456040</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>456040</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>456040</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">segment_name</td>
+                            <td class="value">
+                                <span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>베이직케미칼</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>카본케미칼</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">id</td>
+                            <td class="value">
+                                <span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>A</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>B</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">updated</td>
+                            <td class="value">
+                                <span>2026-11-17 12:21</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2026-11-17 12:21</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2026-11-17 12:21</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">unit</td>
+                            <td class="value">
+                                <span>1e+09</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1e+09</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1e+09</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">start_date</td>
+                            <td class="value">
+                                <span>2024-01-01</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2024-01-01</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2024-01-01</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">base_per</td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">measure_per</td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">indplot_long (within the group)</td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>120</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">indplot_short (within the group)</td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>20</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">aggregation</td>
+                            <td class="value">
+                                <span>d</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>d</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>d</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=12#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기초 화학 (12)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=12#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기초 화학 (12)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=12#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기초 화학 (12)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=121#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기초 화학 (121)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=121#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기초 화학 (121)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=121#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">기초 화학 (121)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1211#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">석유 화학 (1211)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1212#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">무기 화학 (1212)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1211#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">석유 화학 (1211)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-0">
+                            <td class="label" colspan="4">shape</td>
+                        </tr>    
+                        <tr class="section-row level-1 collapsed">
+                            <td class="label" colspan="4">financials (in unit)</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">marcap</td>
+                            <td class="value">
+                                <span>482</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>169</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:35.1%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>313</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:64.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">revenue_ltm</td>
+                            <td class="value">
+                                <span>2,110</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>738</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:35.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1,370</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:64.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">opincome_ltm</td>
+                            <td class="value">
+                                <span>104</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>33.9</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:32.6%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>100</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:96.2%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">revenue_qtr</td>
+                            <td class="value">
+                                <span>599</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>210</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:35.1%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>389</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:64.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">opincome_qtr</td>
+                            <td class="value">
+                                <span>30.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>9.65</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:31.8%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>28.4</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:93.7%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">share</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">marcap(%)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>35</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:53.8%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>65</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">(rank)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">revenue_qtr(%)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>35</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:53.8%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>65</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">(rank)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">opincome_qtr(%)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>25</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:33.3%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>75</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">(rank)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-0">
+                            <td class="label" colspan="4">assess_data</td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">opincome</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">positive_ltm</td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">higher(comp)</td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="true_bool">✓</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">slope (qtr, in unit)</td>
+                            <td class="value">
+                                <span>-0.27</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.036</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:6.7%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.11</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:20.4%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">growth(%)</td>
+                            <td class="value">
+                                <span>-1.4</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.42</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:15.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.42</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:15.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">opmargin(%)</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">25_4Q</td>
+                            <td class="value">
+                                <span>0.6</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:8.2%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.6</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:63.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>7.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">26_1Q</td>
+                            <td class="value">
+                                <span>5.5</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:75.3%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.6</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:63.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>7.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">26_2Q</td>
+                            <td class="value">
+                                <span>8.1</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.6</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:56.8%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>7.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:90.1%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">26_3Q</td>
+                            <td class="value">
+                                <span>5.1</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:69.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.6</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:63.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>7.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">ltm</td>
+                            <td class="value">
+                                <span>4.9</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:67.1%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.6</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:63.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>7.3</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">PER</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">PER_ltm</td>
+                            <td class="value">
+                                <span>4.62</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:93.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.97</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>3.13</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:63.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">PER_qx4</td>
+                            <td class="value">
+                                <span>3.98</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:91.1%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.37</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2.75</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:62.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">PER_fwd</td>
+                            <td class="value">
+                                <span>4.07</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:92.3%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4.41</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2.78</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:63.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">volatility</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">measure_to_base(%)</td>
+                            <td class="value">
+                                <span>-10</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-10</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-10</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">amount</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">measure_to_base(%)</td>
+                            <td class="value">
+                                <span>-54</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-54</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-54</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="4">alpha_beta</td>
+                        </tr>    
+                        <tr class="section-row level-2 collapsed">
+                            <td class="label" colspan="4">from_start_date</td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">alpha (%, daily)</td>
+                            <td class="value">
+                                <span>-0.12</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.12</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.12</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">beta</td>
+                            <td class="value">
+                                <span>0.68</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.68</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.68</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-2">
+                            <td class="label" colspan="4">base_period</td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">alpha (%, daily)</td>
+                            <td class="value">
+                                <span>-0.43</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.43</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.43</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">beta</td>
+                            <td class="value">
+                                <span>0.5</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.5</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.5</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-2">
+                            <td class="label" colspan="4">measure_period</td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">alpha (%, daily)</td>
+                            <td class="value">
+                                <span>-0.52</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.52</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-0.52</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-3">
+                            <td class="label">beta</td>
+                            <td class="value">
+                                <span>0.71</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.71</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.71</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                        </tr>    
+                        <tr class="section-row level-0">
+                            <td class="label" colspan="4">assess_result</td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">basics</td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">financially_sound</td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span><span class="false_bool">✗</span></span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">PER_level</td>
+                            <td class="value">
+                                <span>Low</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>Low</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>Low</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">volatility (measure)</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">amount (measure)</td>
+                            <td class="value">
+                                <span>Dn</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>Dn</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>Dn</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">alpha (measure)</td>
+                            <td class="value">
+                                <span>udr_pfm</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>udr_pfm</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>udr_pfm</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">category</td>
+                            <td class="value">
+                                <span>D</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>D</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>D</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-1">
+                            <td class="label">market_sentiment</td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>-</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="charts-panel"><div class="chart-card">
+                <img src="456040_OCI.png" class="analysis-image" onclick="openPopup('456040_OCI.png');">
+            </div>
+            <div class="chart-card">
+                <img src="http://10.245.110.101:3000/data/456040.png" class="analysis-image" onclick="openPopup('http://10.245.110.101:3000/data/456040.png');">
+            </div></div>
+    </div>
+    
+        <h3>Qualitative Analysis</h3>
+
+        <div class="qualitative-section">
+            <div class="qualitative-grid">
+                <div
+                    class="qualitative-card"
+                    data-section="info_section"
+                    data-object-type="Profile"
+                    data-object-id="456040"
+                >
+
+                    <div class="qualitative-header">
+
+                        <h4>business</h4>
+
+                        <div class="qualitative-actions">
+
+                            
+                    <span class="reviewed-badge reviewed">
+                        ✓ Reviewed
+                    </span>
+        
+
+                            <input
+                                class="edit-password"
+                                type="password"
+                                maxlength="4"
+                                inputmode="numeric"
+                                placeholder="....(p)"
+                            >
+
+                            <button
+                                class="edit-button"
+                                type="button"
+                                title="Edit"
+                            >✎</button>
+
+                        </div>
+                    </div>
+
+                    <div class="qualitative-content">
+                        
+                <div class="info-section-view">
+                    <table class="qualitative-table">
+                        <tbody>
+                            <tr class="reviewed-row">
+                                <th>reviewed</th>
+                                <td>
+                                    <span class="reviewed-status reviewed">
+                                        Reviewed
+                                    </span>
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <th>updated</th>
+                                <td>2026-11-16 12:43</td>
+                            </tr>
+        
+                            <tr>
+                                <th>search_theme</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>실적</td>
+                            </tr>
+                            <tr>
+                                <td>전망</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+        
+                            <tr>
+                                <th>tags</th>
+                                <td></td>
+                            </tr>
+        
+                            <tr>
+                                <th>notes</th>
+                                <td></td>
+                            </tr>
+        
+                            <tr>
+                                <th>segments</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>베이직케미칼</td>
+                            </tr>
+                            <tr>
+                                <td>카본케미칼</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+        
+                            <tr>
+                                <th>revenue_share</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>0.35</td>
+                            </tr>
+                            <tr>
+                                <td>0.65</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+        
+                            <tr>
+                                <th>opmargin</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>0.046</td>
+                            </tr>
+                            <tr>
+                                <td>0.073</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+        
+                            <tr>
+                                <th>trend</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>반도체 소재 중심으로 성장세</td>
+                            </tr>
+                            <tr>
+                                <td>원가 상승 및 마진 축소로 단기 정체/하락세</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+        
+                            <tr>
+                                <th>create_segments</th>
+                                <td>
+                                    <input
+                                        class="qualitative-checkbox"
+                                        type="checkbox"
+                                        aria-label="create_segments"
+                                        disabled checked
+                                    >
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <th>recomm_segs</th>
+                                <td><span class="recommendation-no">No</span></td>
+                            </tr>
+            
+                            <tr>
+                                <th>key_products</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>반도체용 폴리실리콘, 과산화수소, 인산, SiH4, HCDS, 클로르알칼리, TDI</td>
+                            </tr>
+                            <tr>
+                                <td>카본블랙, 피치, BTX(벤젠, 톨루엔, 크실렌)</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+        
+                            <tr>
+                                <th>competitors</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>한솔케미칼, 동진쎄미켐</td>
+                            </tr>
+                            <tr>
+                                <td>글로벌 카본블랙 생산 기업들</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+                    </div>
+
+                </div>
+    
+                <div class="qualitative-card" data-news-card>
+
+                    <div class="qualitative-header">
+                        <h4>news</h4>
+                        
+                    <div class="qualitative-actions">
+                        <button class="news-update-button" type="button"
+                            data-object-type="Profile"
+                            data-object-id="456040">Update</button>
+                    </div>
+                
+                    </div>
+
+                    <div class="qualitative-content">
+                        <table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <th>updated</th>
+                                <td>2026-11-12 20:32</td>
+                            </tr>
+                            <tr>
+                                <th>key_facts</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>2026년 8월 미국 고객사와 폴리실리콘 신규 공급계약을 체결했으며, 2027년 1분기부터 점진적 공급이 시작될 예정임</td>
+                            </tr>
+                            <tr>
+                                <td>자회사 테라서스(TerraSus)의 2027년 예상 이익은 1,954억 원으로 2026년(155억 원) 대비 10배 이상 증가할 전망임</td>
+                            </tr>
+                            <tr>
+                                <td>베트남 웨이퍼 자회사(NST)의 품질 인증 통과로 2027년 1분기 매출 확대가 예상되며, 생산능력을 1년 내 2.7GW에서 5.4GW로 늘릴 계획임</td>
+                            </tr>
+                            <tr>
+                                <td>말레이시아 폴리실리콘 법인의 3분기 판매량이 전 분기 대비 45% 증가하며 수요 확대세를 보임</td>
+                            </tr>
+                            <tr>
+                                <td>미국 텍사스주에서 태양광 프로젝트 개발 사업을 수행하는 OCI엔터프라이즈를 보유하고 있음</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+                            <tr>
+                                <th>key_issues</th>
+                                <td><table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <td>미국 고객사의 공장 가동 시점 및 생산량 확대 속도에 따라 실제 실적 개선 시점이 달라질 수 있음</td>
+                            </tr>
+                            <tr>
+                                <td>무역확장법 232조의 최저수입가격(MIP) 적용 방식 등 세부 지침 불분명으로 인해 고객사와의 공급 협상이 더디게 진행됨</td>
+                            </tr>
+                            <tr>
+                                <td>글로벌 태양광 수요 및 중국 업체들의 공급 상황에 따른 폴리실리콘 가격 변동 가능성이 존재함</td>
+                            </tr>
+                        </tbody>
+                    </table></td>
+                            </tr>
+                            <tr>
+                                <th>news_summary</th>
+                                <td>OCI홀딩스는 미국의 중국산 태양광 제품 배제 정책과 공급망 재편에 힘입어 2027년부터 폴리실리콘 및 웨이퍼 사업에서 본격적인 실적 성장이 기대됩니다. 미국 고객사와의 신규 계약 및 베트남 생산능력 확대를 통해 성장 기반을 다졌으며, 자회사 테라서스의 이익이 급증할 것으로 보입니다. 다만, 미국 정부의 규제 세부 지침 확정과 고객사 가동 일정이 실적 반영의 핵심 변수가 될 전망입니다.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+
+                </div>
+            
+                <div class="qualitative-card">
+
+                    <div class="qualitative-header">
+                        <h4>overview</h4>
+                        
+                    </div>
+
+                    <div class="qualitative-content">
+                        <table class="qualitative-table">
+                        <tbody>
+                            <tr>
+                                <th>title</th>
+                                <td>AI 수요 회복과 이차전지 신사업</td>
+                            </tr>
+                            <tr>
+                                <th>desc</th>
+                                <td>동사는 2023년 OCI 홀딩스㈜로부터 단순인적분할하여 설립되었으며, 동년 5월 유가증권시장에 재상장되었음. 현재 6개(국내 2개, 해외 4개)의 종속회사를 보유하고 있으며, OCI 홀딩스㈜를 동일인으로 하는 오씨아이 기업집단에 속해 있음. 베이직케미컬 및 카본케미컬 사업을 영위하며, 베이직케미컬 부문에서는 반도체용 폴리실리콘, 과산화수소, TDI 등을 생산하고, 카본케미컬 부문에서는 카본블랙, 핏치, BTX 등을 생산하고 있음.
+
+2026년 상반기 전년동기 대비 연결기준 매출액은 2.3% 감소, 영업이익은 791.6% 증가, 당기순이익 흑자전환. 카본케미컬 부문은 중동 분쟁으로 유가가 상승하고 원료가 급등했으나, 국내 타이어업체의 견조한 가동률과 벤젠 강세가 실적을 지지함. 베이직케미컬 부문은 AI 시장 성장과 데이터센터 투자 확대로 반도체용 폴리실리콘 수요가 회복되고 SiH4 초도 양산으로 실리콘 음극재 시장에 본격 진출함.</td>
+                            </tr>
+                            <tr>
+                                <th>as_of</th>
+                                <td>2026-09-07</td>
+                            </tr>
+                            <tr>
+                                <th>updated</th>
+                                <td>2026-11-12 20:31</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+    
+    <div class="llm-research-trigger-row" data-object-type="Profile"
+        data-object-id="456040">
+        <button class="llm-research-link" type="button" aria-haspopup="dialog"
+            aria-controls="llm-research-dialog-456040">LLM Research (l)</button>
+        
+        <button class="roma-plot-link" type="button" aria-haspopup="dialog"
+            aria-controls="roma-plot-456040" title="ROMA plot (r)">ROMA plot (r)</button>
+        <template class="roma-plot-template" id="roma-plot-456040"
+            data-title="ROMA plot — 456040"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-456040" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-456040")) {                    Plotly.newPlot(                        "roma-plot-456040",                        [{"customdata":[["2023-07-01",781.0829692],["2023-10-01",1065.7014537000002],["2024-01-01",170.97571369999997],["2024-04-01",148.1269209],["2024-07-01",229.4075836],["2024-10-01",103.8421862],["2025-01-01",76.9063596],["2025-04-01",175.3797151],["2025-07-01",123.42981060000001],["2025-10-01",161.0662791],["2026-01-01",170.9396385],["2026-04-01",432.6405982],["2026-07-01",886.1445144]],"hovertemplate":"OCI\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"JzoFnR5nOkAAAAAAAAA+QPpQpyv0Bi5A12hKnxikLEAZ45LOYZkwQEovjsOSmylAPCB9sYhuJ0B+iTBskEguQGA9V9kkBCtAR6eYcylwLUAlW3GyaQYuQFiXiJTM7TRAdFc1Nf3LO0A="},"sizemode":"diameter"},"mode":"lines+markers","name":"OCI","x":{"dtype":"f8","bdata":"mJu50RGBRkA6zQLtDrpIQOsGZXUGBEtAaxuQzgpTTEB4KAr0iW9NQCOrEbAM\u002fUlAGjc10HzwSkAKmGX0SFlKQFP2TOWj0UdAQbFfwUddR0BbejTVk1RJQJ3Lw\u002fgfwEpApf0PsFb0TUA="},"y":{"dtype":"f8","bdata":"nieeswUANkBi2jf3Vzc0QOFfBI2ZakNAr1sExvrGQEDLD1zlCbgxQDUKSWb1YjRAsvUM4Zh9JECZSdQLPi0CwHBfB84ZsSTAhqqYSj+BBkBOtoE7UNM7QPz9YrZkoUVAxsGlY85DPkA="},"z":{"dtype":"f8","bdata":"3fNXIxbYJUCmd3W3gNMlQBMJrgui7SNAyoZ3sRfVHkBUVtP1RFoiQJ\u002fb18OPOB1AN7EbEefyFEAoq7dAYcQTQGYqzJQ5YBRAv+ePggp7E0DmXZJWvlcVQAOcvbcS0CBAN7GX2ELsIUA="},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["OCI"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[59.90889550000001],"y":[30.264868],"z":[8.961447495],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 107","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 533","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 1,066","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-4.79271164,64.70160714000001],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-14.634442880000002,47.54942888],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-0.873763512,11.795807412],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
+    
+        <button class="mv-plot-link" type="button" aria-haspopup="dialog"
+            data-code="456040"
+            title="Market-cap movement plot (m)">MV plot (m)</button>
+    
+    </div>
+    <dialog class="llm-research-dialog" id="llm-research-dialog-456040"
+        data-object-type="Profile" data-object-id="456040" data-research-hash="e7b0ab8c9be4fb6ea1711b06a564dcfefa5e330f51651049d470fad19ed2c859"
+        aria-labelledby="llm-research-dialog-456040-title">
+        <div class="llm-research-dialog-header">
+            <h2 id="llm-research-dialog-456040-title">LLM Research</h2>
+            <div class="llm-research-dialog-header-actions">
+                <button class="llm-research-delete-button" type="button">Delete</button>
+                <button class="llm-research-close" type="button" aria-label="Close research">×</button>
+            </div>
+        </div>
+        <div class="llm-research-dialog-content">
+            <p class="llm-research-updated">Updated: 2026-11-12 20:31</p>
+            <div class="llm-research-markdown"><p>제시해주신 최신 IR 자료와 시장 분석 보고서를 바탕으로 OCI의 사업 구조 및 실적 현황을 정리해 드립니다. (※ 참고: 검색 결과 내 2026년 자료는 미래 추정치 또는 오기된 연도로 보이나, 제공된 텍스트의 수치를 기준으로 답변합니다.)</p>
+<h3>1. 주요 사업부 구성 (3-5개)</h3>
+<p>OCI는 최근 인적분할 이후 범용 화학에서 <strong>스페셜티(고부가가치) 화학 및 반도체 소재</strong> 중심으로 사업 구조를 재편하고 있으며, 크게 다음과 같이 나눌 수 있습니다.</p>
+<ul>
+<li><strong>베이직케미칼 부문:</strong> 반도체용 폴리실리콘, 과산화수소, 인산, HCDS, $\text{SiH}_4$ 등 반도체 소재 및 클로르알칼리(CA), TDI 등 기초 화학제품 생산.</li>
+<li><strong>카본케미칼 부문:</strong> 철강 부산물을 원료로 한 카본블랙, 피치, BTX(벤젠, 톨루엔, 크실렌) 생산.</li>
+<li><strong>신규/미래 사업:</strong> 반도체 패키징용 웨이퍼 재생 사업 (2028년 상업화 목표).</li>
+</ul>
+<hr />
+<h3>2. 사업부별 최근 실적 (3분기 기준)</h3>
+<p>제공된 최신 분기(3Q) 연결 실적 기준입니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">사업부</th>
+<th style="text-align:center">매출액</th>
+<th style="text-align:center">영업이익</th>
+<th style="text-align:center">영업이익률</th>
+<th style="text-align:left">비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>베이직케미칼</strong></td>
+<td style="text-align:center">2,126억 원</td>
+<td style="text-align:center">97억 원</td>
+<td style="text-align:center"><strong>약 4.6%</strong></td>
+<td style="text-align:left">반도체 소재는 성장했으나 CA 판가 하락으로 상쇄</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>카본케미칼</strong></td>
+<td style="text-align:center">3,973억 원</td>
+<td style="text-align:center">290억 원</td>
+<td style="text-align:center"><strong>약 7.3%</strong></td>
+<td style="text-align:left">카본블랙 가격 인상 및 피치 판매 증가 효과</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>전사 합계</strong></td>
+<td style="text-align:center">5,991억 원</td>
+<td style="text-align:center">303억 원</td>
+<td style="text-align:center"><strong>약 5.1%</strong></td>
+<td style="text-align:left">전년 동기 대비 매출 25.8% 증가, 흑자전환</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>3. 분기별 추세 (증감 여부)</h3>
+<ul>
+<li><strong>베이직케미칼:</strong> <strong>혼조세 $\rightarrow$ 성장세</strong>. 기초소재(CA 등)는 판가 하락으로 부진했으나, <strong>반도체 소재 파트는 매출과 영업이익 모두 탄탄한 성장세</strong>를 유지하며 전체 부문의 실적을 견인하고 있습니다.</li>
+<li><strong>카본케미칼:</strong> <strong>단기적 하락세(영업이익)</strong>. 매출은 카본블랙 가격 인상 등으로 증가했으나, BTX 스프레드(마진) 축소와 원가 상승으로 인해 영업이익은 전분기 대비 소폭 감소하는 추세입니다.</li>
+</ul>
+<hr />
+<h3>4. 경쟁사 및 밸류에이션 (PER)</h3>
+<ul>
+<li><strong>주요 경쟁사:</strong>
+<ul>
+<li><strong>반도체 소재:</strong> 한솔케미칼, 동진쎄미켐 등.</li>
+<li><strong>카본케미칼:</strong> 글로벌 카본블랙 생산 기업들.</li>
+</ul>
+</li>
+<li><strong>상장 경쟁사 평균 PER:</strong>
+<ul>
+<li>제공된 자료에 따르면, 반도체 소재 경쟁사인 <strong>한솔케미칼과 동진쎄미켐의 PBR은 약 3.1~3.25배</strong> 수준으로 언급되었습니다. (단, 구체적인 <strong>평균 PER 수치는 제공된 소스에 명시되어 있지 않아</strong> 확인이 어렵습니다.)</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3>5. 사업부별 주요 이슈 및 리스크</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">사업부</th>
+<th style="text-align:left">주요 이슈 및 성장 동력</th>
+<th style="text-align:left">리스크 요인</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>베이직케미칼</strong></td>
+<td style="text-align:left">반도체 전방 수요 증가, 인산 생산능력 증설(연 3만 톤), 고부가가치 에천트 개발.</td>
+<td style="text-align:left">클로르알칼리(CA) 등 기초 소재의 판매 가격 하락.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>카본케미칼</strong></td>
+<td style="text-align:left">유가 상승 시 원가 부담이 적은 사업 구조(철강 부산물 활용), 피치 판매 강세.</td>
+<td style="text-align:left">BTX 마진(스프레드) 축소, 정기 보수에 따른 원가 상승.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>공통/신사업</strong></td>
+<td style="text-align:left">웨이퍼 재생 사업 진출(2027년 준공), 반도체 소재 기업으로의 체질 개선.</td>
+<td style="text-align:left">글로벌 경기 불확실성, 전방 산업(반도체/태양광)의 수요 변동성.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>[정보 부족 안내]</strong></p>
+<ul>
+<li>경쟁사의 <strong>평균 PER</strong>에 대한 구체적인 수치는 제공된 검색 결과에 포함되어 있지 않아 답변에서 제외되었습니다. (PBR 정보만 확인됨)</li>
+</ul>
+<hr />
+<h2>Web search results</h2>
+<h3>Search 1: OCI 사업부문별 매출 영업이익 영업이익률 분기 추세 경쟁사 PER 리스크 이슈</h3>
+<p>OCI, 3분기 영업익 303억원 흑자전환…&quot;반도체 소재로 체질 개선&quot;
+https://www.edaily.co.kr/News/Read?mediaCodeNo=257&amp;newsId=05366086645617512
+OCI, 3분기 영업익 303억원 흑자전환…&quot;반도체 소재로 체질 개선&quot;</p>
+<h1>OCI, 3분기 영업익 303억원 흑자전환…&quot;반도체 소재로 체질 개선&quot;</h1>
+<p>3분기 매출 5991억원…전년比 25.8% 증가 반도체 소재 성장·카본블랙 가격 인상 효과 웨이퍼 재생 사업 2028년 상업화</p>
+<ul>
+<li>등록 2026-10-28 오후 4:41:51</li>
+</ul>
+<p>수정 2026-10-28 오후 4:46:09</p>
+<ul>
+<li>가가</li>
+</ul>
+<p>이수빈 기자</p>
+<p>[이데일리 이수빈 기자] 반도체·고부가가치 소재 중심으로 사업 재편을 추진 중인 OCI가 올해 3분기까지 누적 영업이익으로 인적분할 이후 최대 실적을 냈다. 28일 OCI는 3분기 연결 기준 매출액 5991억원, 영업이익 303억원을 기록했다고 공시했다. 매출은 전년 동기(4763억원) 대비 25.8% 증가했다. 영업이익은 흑자전환했다. 올해 1~3분기 누적 매출액은 1조 6407억원, 누적 영업이익은 1013억원이다. 부문별로 살펴보면 반도체 소재가 포함된 베이직케미칼 부문은 매출 2126억원, 영업이익 97억원을 기록했다. 크로르알칼리의 판매가격 하락 등으로 기초소재 부문의 실적은 감소했으나 반도체 소재 부문은 매출과 영업이익 모두 확대되며 안정적인 성장세를 이어갔다. 4분기에는 반도체 전방 수요 증가에 힘입어 반도체용 폴리실리콘을 비롯한 반도체 소재 부문의 성장세가 지속될 것으로 예상된다.</p>
+<p>카본케미칼 부문은 전분기 유가 상승분을 반영한 카본블랙의 판매가격 인상과 피치의 판매 증가에 따라 매출 3973억원, 영업이익 290억원을 기록했다. 4분기에는 정기 보수에 따른 원가 상승으로 실적이 소폭 감소할 것으로 예상되나 피치의 평균판매가격 강세가 이어지며 안정적인 수익성을 유지할 것으로 전망된다. OCI는 반도체 전방산업의 성장에 대응해 주요 소재의 생산능력 확대와 제품 고도화를 추진하고 있다. 반도체용 과산화수소는 가동률을 높여 매출 확대와 수익성을 개선하고, 인산은 생산능력 증설과 스페셜티 에천트 개발을 통해 고부가가치 제품군을 확대할 계획이다.</p>
+<p>신규 사업 진출을 통한 사업 영역 확장에도 나선다. OCI는 반도체 패키징용 웨이퍼 재생 사업에 진출해 2027년 준공 및 2028년 상업화를 목표로 하고 있다. 기존 반도체 소재 사업에서 축적한 기술 및 고객 기반을 활용해 사업 영역을 넓히고 새로운 수익원을 확보한다는 구상이다. 김유신 OCI 부회장은 “글로벌 경기 불확실성 속에서도 반도체 소재 사업의 성장과 카본케미칼 부문의 안정적인 실적에 힘입어 흑자 기조를 유지했다”며 “단기적인 시장 변동 대응을 넘어 사업구조의 체질 개선과 미래 성장사업에 대한 투자를 병행해 수익성을 강화해 나가겠다”고 밝혔다.</p>
+<p>: &quot;반도체만 110조 전망&quot; 삼성전자, 오늘 성적표 공개…'통 큰 선물' 있을까</p>
+<ul>
+<li>
+<p>04517 서울시 중구 통일로 92 케이지타워 18F, 19F 이데일리</p>
+</li>
+<li>
+<p>대표전화 02-3772-0114</p>
+</li>
+<li>
+<p>이메일 webmaster@edaily.co.kr</p>
+</li>
+<li>
+<p>사업자번호 107-81-75795</p>
+</li>
+<li>
+<p>등록번호 서울 아 00090</p>
+</li>
+<li>
+<p>등록일자 2005.10.25</p>
+</li>
+<li>
+<p>회장 곽재선</p>
+</li>
+<li>
+<p>발행·편집인 이익원</p>
+</li>
+<li>
+<p>청소년보호책임자 임경진</p>
+</li>
+</ul>
+<p>OCI 주식회사
+https://www.oci.co.kr/ir/library
+OCI</p>
+<h2>IR 자료실</h2>
+<ul>
+<li>
+<p>IR 경영실적자료</p>
+</li>
+<li>
+<p>IR Fact Book</p>
+</li>
+<li>
+<p>IR Financial Tables</p>
+</li>
+<li>
+<p>2026 3Q 경영실적자료</p>
+</li>
+</ul>
+<p>다운로드 2026.10.28</p>
+<ul>
+<li>2026 2Q 경영실적자료 (외부 감사인 검토)</li>
+</ul>
+<p>다운로드 2026.08.13</p>
+<ul>
+<li>2026 2Q 경영실적자료</li>
+</ul>
+<p>다운로드 2026.07.22</p>
+<ul>
+<li>2026 1Q 경영실적자료 (외부 감사인 검토)</li>
+</ul>
+<p>다운로드 2026.05.15</p>
+<ul>
+<li>2026 1Q 경영실적자료</li>
+</ul>
+<p>다운로드 2026.04.22</p>
+<ul>
+<li>2025 4Q 경영실적자료 (외부 감사인 검토)</li>
+</ul>
+<p>다운로드 2026.03.09</p>
+<ul>
+<li>2025 4Q 경영실적자료</li>
+</ul>
+<p>다운로드 2026.02.09</p>
+<ul>
+<li>2025 3Q 경영실적자료 (외부 감사인 검토)</li>
+</ul>
+<p>다운로드 2025.11.17</p>
+<ul>
+<li>2025 3Q 경영실적자료</li>
+</ul>
+<p>다운로드 2025.10.28</p>
+<ul>
+<li>OCI - 피앤오케미칼 합병</li>
+</ul>
+<p>다운로드 2025.09.24</p>
+<p>[메가이슈토픽] OCI, 지난해 바닥 찍은 영업이익…올해 42배 반등 전망
+https://megaeconomy.co.kr/news/newsview.php?ncode=1065593846842802
+[메가이슈토픽] OCI, 지난해 바닥 찍은 영업이익…올해 42배 반등 전망</p>
+<h3>[메가이슈토픽] OCI, 지난해 바닥 찍은 영업이익…올해 42배 반등 전망</h3>
+<p>: 박제성 기자 / 기사승인 : 2026-06-29 15:17:11</p>
+<p>카본케미칼 마진 회복에 반도체 소재 성장까지…LS증권 &quot;목표가 17만8000원&quot; LS증권, 정유화학 커버리지 내 최선호주 제시…현재가 대비 상승 여력 117.6%</p>
+<p>[메가경제=박제성 기자] LS증권이 OCI를 화학 업종 내 최선호주로 제시했다.</p>
+<p>카본케미칼 부문의 마진 회복과 반도체 소재 사업의 성장성이 동시에 부각되면서 실적과 밸류에이션 재평가가 함께 이뤄질 수 있다는 판단에서다.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>▲[사진=챗GPT4]</td>
+</tr>
+</tbody>
+</table>
+<p>LS증권은 OCI에 대해 투자의견 ‘매수(Buy)’와 목표주가 17만8000원을 신규 제시했다.</p>
+<p>이는 29일 현재 주가 8만1800원 대비 117.6%의 상승 여력이 있는 수준이다.</p>
+<p>LS증권은 OCI의 올해 매출을 2조3972억원으로 전망했다. 전년 대비 19.3% 증가한 수치다. 영업이익은 1873억원으로 추정했다. 지난해 영업이익 4억원에 그쳤던 것과 비교하면 42배 이상 늘어나는 셈이다.</p>
+<p>지난해 OCI는 업황 부진과 해외 적자법인 손실 확대, 일부 제품 증설 이후 낮은 가동률이 겹치며 수익성이 크게 악화됐다. 연간 영업이익률은 0.02%에 불과했다.</p>
+<p>그러나 올해 들어 분위기가 달라지고 있다. 1분기 매출액은 5066억원, 영업이익은 278억원을 기록했다. 영업이익률도 5.5%까지 회복됐다.</p>
+<p>LS증권은 지난해 단행한 적자·저수익 사업 구조조정 효과와 함께 카본케미칼 부문의 마진 개선이 올해 실적 반등을 이끌 것으로 봤다. 여기에 반도체 소재를 포함한 신성장 부문도 본격적으로 수익 기여를 시작할 것으로 전망했다.</p>
+<p>OCI의 핵심 사업인 카본케미칼 부문은 광양제철소에서 철강 생산 과정 중 발생하는 코크스와 콜타르를 원재료로 활용한다. 이를 통해 카본블랙, 피치, BTX 등을 생산한다.</p>
+<p>일반적인 경쟁사들이 원유를 직접 원재료로 사용하는 것과 달리 OCI는 철강 부산물을 활용하는 구조다. 이 때문에 유가 상승 국면에서도 원가 부담이 상대적으로 제한적이라는 점이 강점으로 꼽힌다.</p>
+<p>LS증권은 올해와 내년 두바이유 가격이 각각 전년 대비 20%, 10% 이상 높은 수준을 유지할 것으로 예상했다. 중동 정세가 진정되더라도 호르무즈 해협 통행 리스크로 중질유 수급 정상화가 쉽지 않을 수 있다는 분석이다.</p>
+<p>이 경우 헤비나프타 공급 감소로 BTX 마진이 높은 수준을 유지할 가능성이 있다. OCI에는 우호적인 영업환경이다.</p>
+<p>LS증권은 올해 OCI 카본케미칼 부문 매출 1조7358억원, 영업이익을 1640억원으로 추정했다. 영업이익률은 9.4%다. 지난해 카본케미칼 부문 영업이익 289억원과 비교하면 5.7배 가까운 증가가 예상된다.</p>
+<p>반도체 소재 사업도 OCI의 재평가 요인으로 꼽힌다. OCI는 베이직케미칼 부문에서 반도체용 폴리실리콘, 인산, 과산화수소, HCDS, SiH4 등을 생산하고 있다.</p>
+<p>주요 고객사로는 삼성전자, SK하이닉스, 동우화인켐, Kioxia(키오시아) 등이 거론된다. 반도체 업황 회복에 따라 하반기부터 가동률 개선과 고정비 부담 완화가 동시에 나타날 가능성이 있다.</p>
+<p>특히 인산 사업의 성장성이 주목된다. OCI는 올해 상반기 5000톤 규모의 인산 증설을 진행 중이며, 하반기에는 연간 3만톤 생산 체제를 갖출 예정이다.</p>
+<p>지난 5년간 고객사와 공동 개발해온 인산계 에천트 신제품도 올해 하반기 퀄리피케이션 테스트를 마무리할 것으로 예상된다. 신제품이 본격적으로 매출에 반영될 경우 마진 개선 효과도 기대된다.</p>
+<p>SiH4 역시 올해 설비 완공 이후 상반기부터 본격 공급에 나설 예정이다. 기존 범용 화학 중심의 사업구조에서 고부가 반도체 소재 비중을 높이는 전환점이 될 수 있다는 평가다.</p>
+<p>LS증권은 OCI가 단순한 업황 회복주가 아니라, 범용화학에서 스페셜티 화학으로 체질을 바꾸는 기업이라는 점에 주목했다.</p>
+<p>OCI는 대규모 인수합병을 통해 갑작스럽게 신사업을 확보한 것이 아니라, 수십 년간 축적한 소재 기술을 바탕으로 반도체 소재 사업을 키워왔다. 1983년 삼성전자가 반도체 사업에 진출하던 시기에는 국내 최초로 반도체 세정용 과산화수소 상업 양산에 성공했고, 2000년대 초반에는 초고순도 반도체용 인산 시장에도 진출했다.</p>
+<p>이번 목표주가 17만8000원은 주가순자산비율(PBR) 1.3배를 적용해 산출됐다. 이는 국내 반도체용 인산·과산화수소 생산사인 한솔케미칼과 동진쎄미켐의 PBR 3.1~3.25배에 50% 할인율을 반영한 수준이다.</p>
+<p>LS증권은 아직 OCI의 반도체 소재 비중이 낮고 수익성 개선이 시작 단계인 만큼 할인율을 적용했다고 설명했다. 다만 향후 반도체 소재 비중이 확대되고 수익성이 안정화될 경우 밸류에이션 재평가가 가능하다고 판단했다.</p>
+<p>업계에서는 OCI가 올해 카본케미칼 부문의 실적 회복을 기반으로 현금창출력을 회복하고, 반도체 소재 사업을 통해 중장기 성장성을 확보할 수 있을지 주목하고 있다. 실적 턴어라운드와 사업 포트폴리오 고도화가 동시에 확인될 경우 주가 재평가 논리도 한층 강해질 전망이다.</p>
+<p>박제성 기자</p>
+<p>: (주)메가경제신문| 서울 마포구 마포대로 38, 일신빌딩 1101호(도화동 541) | 대표전화 : 02-998-8848| 청소년보호관리책임자 : 김진오
+: 회장 · 발행인 : 류수근 | 대표이사 : 김진오 | 편집국장 : 김진오 | 등록번호 : 서울 아 03407 | 등록/발행일 : 2014-11-04 | 제보메일 : press@megaeconomy.co.kr
+: 본 콘텐츠의 저작권은 메가경제 또는 제공처에 있으며 이를 무단 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.
+: Copyright ⓒ 메가경제 All rights reserved. 0.0971</p>
+<p>EBN 미래를 보는 경제신문
+https://www.ebn.co.kr/externalArticle/posco/view.html?idxno=1729522
+EBN 미래를 보는 경제신문</p>
+<h1>OCI, 3분기 영업익 303억원…반도체 소재 중심 체질 개선</h1>
+<h2>누적 기준 2023년 인적분할 이후 최대치 달성 반도체용 폴리실리콘 등 소재 부문은 '선방' &quot;반도체·미래 성장사업 투자로 수익성 극대화&quot;</h2>
+<ul>
+<li>2026.10.28 15:03</li>
+<li>출처 : EBN철강정보</li>
+</ul>
+<p>[출처=OCI홀딩스]</p>
+<p>OCI가 저수익 사업을 정리하고 반도체 소재 등 고부가가치 중심의 사업 포트폴리오 재편에 속도를 낸다.</p>
+<p>OCI는 올해 3분기 연결기준 매출액은 5991억원, 영업이익은 303억원을 기록했다고 28일 공시했다. 전분기 대비 매출은 12% 증가했지만 영업이익은 30% 감소한 수치다. 다만 올해 3분기 누적 영업이익은 지난 2023년 인적분할 이후 역대 동기 기준 최대 실적을 달성했다.</p>
+<p>당기순이익은 광양공장 과산화수소 사업과 관련해 317억원의 영업권 손상차손이 반영되면서 65억원의 순손실을 내며 적자 전환했다.</p>
+<p>매출 외형 성장은 반도체 소재 및 피치 판매 확대와 카본블랙의 판매 가격 상승이 이끌었다. 그러나 원·달러 환율 하락과 함께 벤젠·톨루엔·크실렌(BTX) 및 톨루엔디이소시아네이트(TDI)의 스프레드(마진) 축소가 겹치면서 전체적인 영업이익은 하락세를 면치 못했다.</p>
+<p>부문별로는 명암이 뚜렷하게 갈렸다. 반도체 소재가 포함된 베이직 케미칼 부문은 클로르알칼리(CA) 판가 하락 탓에 매출 2126억 원, 영업이익 97억 원에 그쳤으나 이 중 반도체용 폴리실리콘과 과산화수소 등 반도체 소재 파트는 외형과 이익 모두 탄탄한 성장세를 보였다.</p>
+<p>카본 케미칼 부문은 매출 3973억원, 영업이익 290억원을 기록했다. 유가 상승을 반영한 카본블랙 가격 인상과 피치 판매 증가로 매출은 늘었지만 원가 상승에 따른 BTX 스프레드 축소로 영업이익은 전분기 대비 소폭 줄었다.</p>
+<p>OCI는 이를 기점으로 저수익 사업 효율화와 포트폴리오 리밸런싱에 드라이브를 건다. 적자가 누적되던 TDI 사업을 전격 중단하는 등 수익성 개선에 나서는 한편 반도체 및 고부가가치 소재 비중을 대폭 키워 중장기 성장동력을 확보한다는 전략이다.</p>
+<p>구체적으로 4분기 반도체 전방 수요 증가에 발맞춰 반도체용 과산화수소 가동률을 끌어올리고 인산 생산능력 증설 및 스페셜티 에천트 개발에 나선다. 기존 사업에서 축적한 기술망을 지렛대 삼아 반도체 패키징용 웨이퍼 재생 사업에도 새롭게 뛰어들어 2027년 준공, 2028년 상업화를 달성한다는 목표다.</p>
+<p>김유신 OCI 부회장은 &quot;글로벌 경기 불확실성 속에서도 반도체 소재 사업의 성장과 카본케미칼 부문의 안정적인 실적에 힘입어 흑자 기조를 유지했다”며, “단기적인 시장 변동 대응을 넘어 사업구조의 체질 개선과 미래 성장사업에 대한 투자를 병행해 수익성을 강화해 나가겠다”고 밝혔다.</p>
+<p>김동하 기자 rlaehdgk777@ebn.co.kr</p>
+<p>[컨콜-OCI] 이수미 사장 &quot;반도체 소재 회사로 자리 잡겠다&quot; &lt; 컨퍼런스콜 &lt; 화학·에너지 &lt; 산업 &lt; 기사본문 - FETV
+https://www.fetv.co.kr/news/articleView.html?idxno=306944
+[컨콜-OCI] 이수미 사장 &quot;반도체 소재 회사로 자리 잡겠다&quot; &lt; 컨퍼런스콜 &lt; 화학·에너지 &lt; 산업 &lt; 기사본문 - FETV</p>
+<p>발행일: 2026-11-12 05:50 (목)</p>
+<h1>[컨콜-OCI] 이수미 사장 &quot;반도체 소재 회사로 자리 잡겠다&quot;</h1>
+<h2>반도체 소재 매출·수익성 개선 하반기 판매량·가동률 확대 전망</h2>
+<ul>
+<li>손영은 기자</li>
+<li>입력 2026.07.22 16:51</li>
+<li>댓글 0</li>
+</ul>
+<p>[FETV=손영은 기자] OCI가 반도체 소재 사업 확대에 속도를 낸다.</p>
+<p>22일 OCI가 올해 2분기 실적발표 컨퍼런스콜에서 반도체 소재를 회사 핵심 성장사업으로 육성하겠다는 계획을 밝혔다. 이날 컨퍼런스 콜은 이수미 OCI 사장의 발표로 진행됐다.</p>
+<p>OCI 2026 2분기 연결 실적 [자료 OCI IR]</p>
+<p>OCI는 이번 실적이 분할 이후 가장 높은 분기 실적이라는 설명이다. 올해 2분기 연결 기준 매출액 5350억원, 영업이익 433억원을 기록했다. 직전 분기 대비 매출 6%, 영업이익 55% 증가했다. 상각전영업이익(EBITDA)은 663억원으로 같은 기간 32% 늘었다.</p>
+<p>반도체 소재가 포함된 베이직케미칼 부문은 매출 2095억원, 영업이익 181억원을 기록했다. 일부 품목의 가격 상승에 수익성이 개선됐다. 정기보수 종료에 따른 기저효과와 제품 수요 회복으로 CA(클로르알칼리), TDI 같은 제품들의 판매량이 증가했다. 미국 이란 전쟁에 따른 공급 차질로 TDI의 판가가 상승하며 실적이 증가했다.</p>
+<p>반도체 소재 실적 개선이 수익성 확대에 기여했다. 반도체 소재 일부 품목의 판매가격이 상승했다. 고객사들의 생산과 판매 확대가 OCI 소재 수요에도 반영되기 시작했다는 설명이다.</p>
+<p>카본케미칼 부문은 매출액 3315억원, 영업이익 310억원을 기록했다. 유가 강세로 인한 BTX 제품의 스프레드 확대에 따른 영향이다. 3분기는 지정학적 리스크 완화에 따른 유가 하락으로 BTX 제품 스프레드가 하향 될 전망이다. 고부가가치 소재 전도성 카본블랙 증설에 따른 수익 개선과 피치 판매량의 증가로 수익성 유지가 예상된다.</p>
+<p>신규 사업으로는 반도체 패키징용 웨이퍼 재생 사업을 추진한다.</p>
+<p>OCI는 지난 16일 충남 공주에 생산시설을 둔 OCI 스페셜티 인수를 완료했다. OCI스페셜티를 활용해 첨단 반도체 패키징 공정에서 사용된 웨이퍼를 세정·재생한 뒤 고객사에 다시 공급하는 사업에 나선다. 신규 공장 건설보다 투자 기간을 줄이고 고객사와 접근성도 높일 수 있다는 설명이다.</p>
+<p>이수미 사장은 &quot;반도체 소재 사업들을 계속 추가해 나가면서 향후 반도체 소재 회사로 자리 잡아나갈 수 있도록 하겠다&quot;고 말했다.</p>
+<p>■ 다음은 컨퍼런스콜 질의응답 내용이다.</p>
+<p>Q. 반도체용 폴리실리콘의 향후 시황과 판가 전망은.</p>
+<p>A. 이수미 OCI 사장</p>
+<p>반도체용 폴리실리콘이 현재 매출액에서 차지하고 있는 비중은 아직 적다. 다만 베이직케미칼 부문에서 전체적으로 반도체 소재의 매출과 수익이 좋아지고 있다.</p>
+<p>반도체 고객사들의 성장세가 굉장히 좋아지고 있고 증설 발표도 계속 진행되고 있어 OCI의 반도체용 폴리실리콘 매출도 점점 늘어날 것으로 보고 있다.</p>
+<p>Q. 반도체용 폴리실리콘의 현재 가동률과 향후 가동률 전망은.</p>
+<p>A. 이수미 OCI 사장</p>
+<p>현재 확정된 숫자를 말하기는 어렵다. 다만 지난 IR에서 폴리실리콘뿐 아니라 반도체용도 시장과 밸류체인 내 재고가 많은 것으로 보인다고 설명했는데 최근에는 재고가 점차 줄어들고 있는 것을 확인하고 있다.</p>
+<p>이에 따라 하반기에는 조금 더 많은 매출이 발생할 것으로 예상하고 있다. 판매량뿐 아니라 가동률도 더 확대될 것으로 전망하고 있다.</p>
+<p>손영은 기자 pro.yes@fetv.co.kr</p>
+<p>OCI홀딩스 010060
+https://stock.pstatic.net/stock-research/company/62/20261030_company_695000.pdf</p>
+<h4>Kyobo Company Analysis 신재생에너지</h4>
+<h2>OCI홀딩스 010060</h2>
+<h3>3Q26 Review: 나 홀로 생존 Oct 30 2026</h3>
+<h4>BUY 유지 하단은 LTA가, 상방은 스팟으로</h4>
+<h4>TP 430,000원 유지</h4>
+<p>OCI홀딩스는 3분기 매출액 1조 622억원(+25.7% YoY, 이하 YoY), 영업이익 680억원(흑 전, OPM 6.4%)을 기록. 영업이익 컨센서스를 14% 하회. TerraSus의 흑자전환에도</p>
+<p>Company Data</p>
+<p>Enterprise의 프로젝트 매각이익 인식 이연과 OCI의 스프레드 축소로 연결 영업이익은 전 분기 대비 37% 감소. 지배순이익은 -190억원으로, 과산화수소 공장 인수 관련 영업권 손 상과 법인세 부담 증가가 반영</p>
+<p>[신재생에너지] TerraSus: 매출액 1,622억원(+23.3%), 영업이익 208억원(흑전, OPM 12.8%)을 기록. 판매량이 전분기 대비 45% 증가하며 고정비 부담이 완화돼 흑자전환. 향 후에는 LTA로 확보한 판매 물량에 잔여 물량의 가격 상승이 더해질 것으로 전망. NST는</p>
+<p>현재가(10/29) 180,500 원 액면가(원) 5,000 원 52주 최고가(보통주) 388,000 원 52주 최저가(보통주) 99,000 원 KOSPI (10/29) 5,937.66p KOSDAQ (10/29) 753.23p 자본금 1,069 억원 시가총액 33,700 억원 발행주식수(보통주) 1,860 만주 발행주식수(우선주) 0 만주 평균거래량(60일) 21.0 만주 평균거래대금(60일) 438 억원 외국인지분(보통주) 15.10% 주요주주 이화영 외 26 인 29.68% 국민연금공단 12.58%</p>
+<p>현 생산능력에 해당하는 물량을 미국 신규 고객사향으로 확보. 27년 태국향 공급도 예정돼 있어 5.4GW 증설을 1년 내 완료할 계획</p>
+<p>[에너지솔루션] Enterprise: 영업이익 -65억원을 기록. 2분기 반영된 프로젝트 매각이익이 소멸한 가운데 후속 매각이익 인식이 이연됐고, 주거용 모듈 수요 대응 비용이 선반영.</p>
+<p>250MW 프로젝트 매각이익은 4Q와 내년초에 순차적으로 인식 예정. 불가피하게 매각이 익 인식 시점에 따른 분기 변동성은 이어지나, 이연된 이익은 향후 실적에 반영될 전망</p>
+<p>Price &amp; Relative Performance (%) KOSPI상대수익률 (좌측) (천원) OCI홀딩스주가 (우측)</p>
+<p>[기타] SE: 영업이익 52억원(+136.4%). SMP 상승과 REC, 스팀 판매 증가에 기인. OCI:</p>
+<p>450</p>
+<p>400</p>
+<p>영업이익 303억원(흑전). 고유가와 환율 하락에 따른 BTX 스프레드 축소로 전분기 대비</p>
+<p>350</p>
+<p>300</p>
+<p>감익. 4Q에도 기초소재와 카본케미칼 정기보수로 추가 감익 예상. DCRE: 영업이익 186억</p>
+<p>원(+47.6%). 9단지 분양 및 착공과 전분기 보유세 부담의 기저효과가 반영</p>
+<p>150</p>
+<p>100</p>
+<p>25.11.11 26.02.11 26.05.11 26.08.11</p>
+<p>50</p>
+<h4>투자의견 Buy 및 목표주가 430,000원 유지</h4>
+<p>0</p>
+<p>주가수익률(%) 1개월 6개월 12개월 절대주가 -16.6 -51.4 53.1 상대주가 -3.5 -45.2 5.2</p>
+<p>27~28E 평균 EPS 21,643원에 Target PER 20배 적용. 1) 최근 비중국 폴리 가격이 17달러 /kg를 상회하는 가운데, 2) United Solar(오만)의 가동 중단으로 잠재적인 공급 경쟁 부담도 완화. 3) 제조사들의 미국 내 셀 생산설비 투자 확대에 따른 비중국 폴리 및 웨이퍼 수요 증가로 추가 공급 물량에 대한 가격 협상력 강화 기대. 태양광 섹터 Top-Pick 유지</p>
+<p>Forecast earnings &amp; Valuation</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>12 결산 (십억원)</th>
+<th>2024.12</th>
+<th>2025.12</th>
+<th>2026.12E</th>
+<th>2027.12E</th>
+<th>2028.12E</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>매출액(십억원)</td>
+<td>3,577.4</td>
+<td>3,380.1</td>
+<td>4,028.6</td>
+<td>4,412.6</td>
+<td>4,673.5</td>
+</tr>
+<tr>
+<td></td>
+<td>YoY(%)</td>
+<td>35.0</td>
+<td>-5.5</td>
+<td>19.2</td>
+<td>9.5</td>
+<td>5.9</td>
+</tr>
+<tr>
+<td></td>
+<td>영업이익(십억원)</td>
+<td>101.5</td>
+<td>-57.6</td>
+<td>280.2</td>
+<td>565.5</td>
+<td>705.7</td>
+</tr>
+<tr>
+<td></td>
+<td>OP 마진(%)</td>
+<td>2.8</td>
+<td>-1.7</td>
+<td>7.0</td>
+<td>12.8</td>
+<td>15.1</td>
+</tr>
+<tr>
+<td></td>
+<td>순이익(십억원)</td>
+<td>113.7</td>
+<td>-146.2</td>
+<td>100.0</td>
+<td>407.4</td>
+<td>531.5</td>
+</tr>
+<tr>
+<td></td>
+<td>EPS(원)</td>
+<td>5,005</td>
+<td>-4,772</td>
+<td>4,334</td>
+<td>18,704</td>
+<td>24,581</td>
+</tr>
+<tr>
+<td></td>
+<td>YoY(%)</td>
+<td>-86.1</td>
+<td>적전</td>
+<td>흑전</td>
+<td>331.6</td>
+<td>31.4</td>
+</tr>
+<tr>
+<td></td>
+<td>PER(배)</td>
+<td>11.7</td>
+<td>-24.1</td>
+<td>41.6</td>
+<td>9.7</td>
+<td>7.3</td>
+</tr>
+<tr>
+<td></td>
+<td>PCR(배)</td>
+<td>3.4</td>
+<td>6.9</td>
+<td>6.9</td>
+<td>4.4</td>
+<td>3.7</td>
+</tr>
+<tr>
+<td>[신재생/ESG] 조혜빈</td>
+<td>PBR(배)</td>
+<td>0.3</td>
+<td>0.5</td>
+<td>0.8</td>
+<td>0.8</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td>02-3771-9130</td>
+<td>EV/EBITDA(배)</td>
+<td>8.3</td>
+<td>19.6</td>
+<td>9.6</td>
+<td>7.0</td>
+<td>6.4</td>
+</tr>
+<tr>
+<td>hevin.cho@iprovest.com</td>
+<td>ROE(%)</td>
+<td>2.5</td>
+<td>-2.3</td>
+<td>2.0</td>
+<td>8.4</td>
+<td>10.1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>OCI홀딩스 [010060]</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3Q26 Review: 나 홀로 생존</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2026/10/29</td>
+</tr>
+<tr>
+<td>[도표 1] OCI홀딩스 3Q26</td>
+<td>실적 Review</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>(십억원)</td>
+<td>3Q26</td>
+<td>3Q25</td>
+<td>(% YoY)</td>
+<td>2Q26</td>
+<td>(%QoQ)</td>
+<td>컨센서스</td>
+<td>(% 차이)</td>
+</tr>
+<tr>
+<td>매출액</td>
+<td>1,062.2</td>
+<td>845.1</td>
+<td>25.7</td>
+<td>1,023.2</td>
+<td>3.8</td>
+<td>1,020.7</td>
+<td>4.1</td>
+</tr>
+<tr>
+<td>영업이익</td>
+<td>68.0</td>
+<td>-53.3</td>
+<td>흑전</td>
+<td>108.1</td>
+<td>-37.1</td>
+<td>79.0</td>
+<td>-14.0</td>
+</tr>
+<tr>
+<td>*지배순이익</td>
+<td>-19.0</td>
+<td>-36.4</td>
+<td>적지</td>
+<td>48.3</td>
+<td>적전</td>
+<td>49.2</td>
+<td>적전</td>
+</tr>
+</tbody>
+</table>
+<p>주: 3Q26 지배순이익은 OCI 과산화수소 공장 인수 영업권 손상(비현금) 반영 자료: 교보증권 리서치센터</p>
+<p>[도표 2] OCI홀딩스 연간 실적 추정 변동</p>
+<p>(십억원)</p>
+<table>
+<thead>
+<tr>
+<th>변경 후</th>
+<th>변경 전 변화율(%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026E 2027E</td>
+<td>2026E 2027E 2026E 2027E</td>
+</tr>
+<tr>
+<td>매출액 4,028.6 4,412.6</td>
+<td>3,968.3 4,244.6 1.5 4.0</td>
+</tr>
+<tr>
+<td>영업이익 280.2 565.5</td>
+<td>315.0 507.5 -11.0 11.4</td>
+</tr>
+<tr>
+<td>지배순이익 80.7 347.8</td>
+<td>157.8 314.2 -48.8 10.7</td>
+</tr>
+</tbody>
+</table>
+<p>자료: 교보증권 리서치센터 [도표 3] OCI홀딩스 목표주가 산출</p>
+<table>
+<thead>
+<tr>
+<th>(원, 배, %)</th>
+<th></th>
+<th>적정가치 비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>27~28E 평균 EPS (원)</td>
+<td></td>
+<td>21,643 2027~2028년 지배주주 EPS 평균</td>
+</tr>
+<tr>
+<td>Target PER (배)</td>
+<td></td>
+<td>20.0 부문별 영업이익 글로벌 Peer 가중평균 반영</td>
+</tr>
+<tr>
+<td>목표주가 (원)</td>
+<td></td>
+<td>430,000 반내림</td>
+</tr>
+<tr>
+<td>현재주가 (원)</td>
+<td></td>
+<td>180,500</td>
+</tr>
+<tr>
+<td>상승여력 (%)</td>
+<td></td>
+<td>138.2%</td>
+</tr>
+</tbody>
+</table>
+<p>자료: 교보증권 리서치센터</p>
+<p>3Q26 Review: 나 홀로 생존 [도표 4] OCI홀딩스 실적 전망</p>
+<table>
+<thead>
+<tr>
+<th>(십억원, %, %p)</th>
+<th>1Q25</th>
+<th>2Q25</th>
+<th>3Q25</th>
+<th>4Q25</th>
+<th>1Q26</th>
+<th>2Q26</th>
+<th>3Q26</th>
+<th>4Q26E</th>
+<th>2025</th>
+<th>2026E</th>
+<th>2027E</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>매출액</td>
+<td>948.1</td>
+<td>776.2</td>
+<td>845.1</td>
+<td>810.6</td>
+<td>892.4</td>
+<td>1,023.2</td>
+<td>1,062.2</td>
+<td>1,050.8</td>
+<td>3,380.1</td>
+<td>4,028.6</td>
+<td>4,412.6</td>
+</tr>
+<tr>
+<td>OCI TRS</td>
+<td>112.5</td>
+<td></td>
+<td>38.5 131.5</td>
+<td>144.9</td>
+<td>100.9</td>
+<td>109.3</td>
+<td>162.2</td>
+<td>170.5</td>
+<td>427.4</td>
+<td>542.9</td>
+<td>1,034.1</td>
+</tr>
+<tr>
+<td>Enterprise</td>
+<td></td>
+<td>68.0</td>
+<td>44.2</td>
+<td>60.9</td>
+<td>36.3</td>
+<td>80.2 133.7</td>
+<td></td>
+<td>54.3</td>
+<td>64.6 209.4</td>
+<td>332.8</td>
+<td>308.7</td>
+</tr>
+<tr>
+<td>SE</td>
+<td></td>
+<td>87.6</td>
+<td>80.8</td>
+<td>72.5</td>
+<td>51.0</td>
+<td>70.9</td>
+<td>73.6</td>
+<td>83.8</td>
+<td>80.8 291.9</td>
+<td>309.1</td>
+<td>313.5</td>
+</tr>
+<tr>
+<td>OCI</td>
+<td>538.8</td>
+<td>527.0</td>
+<td>476.4</td>
+<td>467.3</td>
+<td>506.6</td>
+<td>535.0</td>
+<td>599.1</td>
+<td>565.0</td>
+<td>2,009.5</td>
+<td>2,205.7</td>
+<td>2,260.0</td>
+</tr>
+<tr>
+<td>DCRE</td>
+<td>147.8</td>
+<td></td>
+<td>88.5 105.4</td>
+<td></td>
+<td>110.1 132.7</td>
+<td>167.7</td>
+<td>164.8</td>
+<td>170.0</td>
+<td>451.8</td>
+<td>635.2</td>
+<td>496.2</td>
+</tr>
+<tr>
+<td>영업이익</td>
+<td></td>
+<td>48.7 -80.3</td>
+<td>-53.3</td>
+<td></td>
+<td>27.3</td>
+<td>10.9 108.1</td>
+<td></td>
+<td>68.0</td>
+<td>93.3 -57.6</td>
+<td>280.2</td>
+<td>565.5</td>
+</tr>
+<tr>
+<td>OCI TRS</td>
+<td></td>
+<td>12.3 -73.5</td>
+<td>-64.7</td>
+<td></td>
+<td>33.2 -26.6</td>
+<td></td>
+<td>-3.5</td>
+<td>20.8</td>
+<td>28.9 -92.7</td>
+<td></td>
+<td>19.6 262.8</td>
+</tr>
+<tr>
+<td>Enterprise</td>
+<td></td>
+<td>9.3 -12.4</td>
+<td></td>
+<td>12.6 -15.6</td>
+<td></td>
+<td>3.8</td>
+<td>60.0</td>
+<td>-6.5</td>
+<td>24.7</td>
+<td>-6.1</td>
+<td>82.0 104.3</td>
+</tr>
+<tr>
+<td>SE</td>
+<td></td>
+<td>7.2</td>
+<td>2.8</td>
+<td>2.2</td>
+<td>-12.1</td>
+<td>-1.3</td>
+<td>-2.1</td>
+<td>5.2</td>
+<td>4.0</td>
+<td>0.1</td>
+<td>5.8 26.8</td>
+</tr>
+<tr>
+<td>OCI</td>
+<td></td>
+<td>10.2</td>
+<td>-2.3 -10.3</td>
+<td></td>
+<td>2.8</td>
+<td>27.8</td>
+<td>43.3</td>
+<td>30.3</td>
+<td>22.0</td>
+<td>0.4 123.4</td>
+<td>142.0</td>
+</tr>
+<tr>
+<td>DCRE</td>
+<td></td>
+<td>17.8</td>
+<td>-4.8</td>
+<td>12.6</td>
+<td>11.7</td>
+<td>8.9</td>
+<td>9.6</td>
+<td>18.6</td>
+<td>18.7</td>
+<td>37.3</td>
+<td>55.8 49.6</td>
+</tr>
+<tr>
+<td>영업이익률</td>
+<td></td>
+<td>5.1 -10.4</td>
+<td></td>
+<td>-6.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>PowerPoint 프레젠테이션
+https://web-static.oci-holdings.co.kr/ir/2026/04/23/b3f83baf-d596-4c4a-a3b7-a2bd9354a298.pdf
+INVESTOR RELATIONS</p>
+<ol start="2026">
+<li>
+<ol start="4">
+<li>23</li>
+</ol>
+</li>
+</ol>
+<p>2026년 1분기 경영실적</p>
+<p>DISCLAIMER 본발표자료에기술되어있는재무정보및사업현황등은기재된날짜기준의내용이며, 이는경제, 산업및재무상황등에따라변경될수있음을양지하시길바랍니다.</p>
+<p>또한본자료는미래의불확실성및위험요인에따라변경될수있는 가정에근거한 특정정보를포함하고있습니다. 이는세계경제와그에따른트렌드, 시장전략및 사업계획등의미래투자계획을포함합니다. 이러한가정과환경의변화로인한 변동사항에대해서는당사의책임이없음을양지하시길바랍니다.</p>
+<p>회사의실제실적은당사가예측하지못할수있는요소들로인해변경될수있습니다. 이러한요소는경제침체의심화, 고객수요의감소, 주요고객의이탈, 가격하락압박, 특정프로젝트및설비투자에대한자금조달상의문제등을포함합니다.</p>
+<h3>TABLE OF CONTENTS</h3>
+<p>I. 재무 실적 분기 경영 실적 주요 자회사 실적</p>
+<p>II. 경영 현황 주요 경영 사항</p>
+<p>III. Appendix 재무 실적 분기 경영 실적 주요 자회사 실적</p>
+<p>01</p>
+<ol>
+<li>경영 실적_’26년1분기연결 손익</li>
+</ol>
+<p>1분기 매출 8,924억 원, 영업이익 108억 원</p>
+<p>지정학적 리스크에 따른 유가 상승 등 대외 불확실성에도, OCI의 주요 제품 가격 상승으로 이익 개선</p>
+<p>OCI TerraSus(TRS) 공장 정비 진행에 따른 제조원가 상승 및 재고평가손 인식 등의 영향으로 적자 전환 분기요약연결경영실적 (단위: 십억원) 주요자회사분기실적분석 (단위: 십억원)</p>
+<p>+39 -1</p>
+<p>-44 +44 +20 +23</p>
+<p>892 매출</p>
+<p>811</p>
+<p>Q4'25 OCITRS OCIE OCISE DCRE OCI Others Q1'26</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Q4’25</th>
+<th>Q1’26</th>
+<th>QoQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>매출액</td>
+<td>811</td>
+<td>892</td>
+<td>+10.1%</td>
+</tr>
+<tr>
+<td>영업이익</td>
+<td>27</td>
+<td>11</td>
+<td>-60.3%</td>
+</tr>
+<tr>
+<td>영업이익률(%)</td>
+<td>3.4%</td>
+<td>1.2%</td>
+<td></td>
+</tr>
+<tr>
+<td>법인세차감전이익</td>
+<td>32</td>
+<td>4</td>
+<td>-86.7%</td>
+</tr>
+<tr>
+<td>당기순이익</td>
+<td>25</td>
+<td>9</td>
+<td>-64.0%</td>
+</tr>
+<tr>
+<td>순이익률(%)</td>
+<td>3.0%</td>
+<td>1.0%</td>
+<td></td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>90</td>
+<td>77</td>
+<td>-15.3%</td>
+</tr>
+<tr>
+<td>EBITDA 이익률(%)</td>
+<td>11.2%</td>
+<td>8.6%</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>-60</p>
+<p>+25 -8</p>
+<p>27</p>
+<p>+11 -3</p>
+<p>11 영업 이익 +19</p>
+<p>Q4'25 OCITRS OCIE OCISE DCRE OCI Others Q1'26 주석: K-IFRS 연결 기준, 외부 감사 전</p>
+<ol>
+<li>경영 실적_’26년1분기연결 재무 상태 ’26년 1분기 말 자산 8조 2,000억 원, 부채 3조 3,050억 원, 자본 4조 8,960억 원</li>
+</ol>
+<p>OCI TRS의 NeoSilicon Technology (NST) 연결 편입 1)에 따른 매출채권 및 재고자산 등 운전자본 증가</p>
+<p>1분기말 환율 상승 2)에 따라 해외사업 관련 자산 및 부채의 환산 영향 반영 분기요약연결재무상태표 (단위: 십억원) 재무지표 (단위: 십억원)</p>
+<p>자산 ▲
+재고자산: NST 가동시작으로원재료및재고 증가
+비유동자산: OTSM 투자주식증가및 NST 연결편입영향
+부채 ▲
+차입금: OCI차입증가영향(300억)
+매입채무: NST신규연결편입영향(460억)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Q4’25</th>
+<th>Q1’26</th>
+<th>증감</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>자산총계</td>
+<td>7,871</td>
+<td>8,200</td>
+<td>329</td>
+</tr>
+<tr>
+<td>유동자산</td>
+<td>4,041</td>
+<td>4,069</td>
+<td>28</td>
+</tr>
+<tr>
+<td>현금 및 단기금융상품</td>
+<td>1,216</td>
+<td>985</td>
+<td>-232</td>
+</tr>
+<tr>
+<td>매출채권 및 기타</td>
+<td>473</td>
+<td>526</td>
+<td>53</td>
+</tr>
+<tr>
+<td>재고자산</td>
+<td>2,295</td>
+<td>2,412</td>
+<td>117</td>
+</tr>
+<tr>
+<td>비유동자산</td>
+<td>3,830</td>
+<td>4,131</td>
+<td>301</td>
+</tr>
+<tr>
+<td>부채총계</td>
+<td>3,139</td>
+<td>3,305</td>
+<td>165</td>
+</tr>
+<tr>
+<td>차입금</td>
+<td>1,917</td>
+<td>1,969</td>
+<td>52</td>
+</tr>
+<tr>
+<td>매입채무 및 기타</td>
+<td>446</td>
+<td>558</td>
+<td>112</td>
+</tr>
+<tr>
+<td>기타</td>
+<td>776</td>
+<td>778</td>
+<td>1</td>
+</tr>
+<tr>
+<td>자본총계</td>
+<td>4,732</td>
+<td>4,896</td>
+<td>164</td>
+</tr>
+</tbody>
+</table>
+<p>■ Q4’25 Q1’26</p>
+<p>Q4'25 Q1'26</p>
+<p>984 (20.1%)</p>
+<p>701 (14.8%)</p>
+<p>66.3% 67.5%</p>
+<p>부채비율 순차입금(비율)</p>
+<p>부채비율 순차입금(비율)</p>
+<p>주석: K-IFRS 연결 기준, 외부 감사 전 1) ‘26년 1월 12일 클로징 후 연결 편입, 5월 중 준공 예정 2) 1 USD = 1,513.40 원으로 전분기 대비 약 80원 상승(+5.47%)</p>
+<p>(단위: 십억원)</p>
+<p>영업이익 매출</p>
+<ol start="2">
+<li>주요 자회사실적_OCI TerraSus</li>
+</ol>
+<p>(단위: 십억원)</p>
+<p>(단위: 십억원)</p>
+<p>• 법적 정비(15개월 주기)에 따른 가동률 하락으로 생산량 감소 및 원가 상승되며 재고평가손실 발생 (약 130억 원)</p>
+<p>• Section 232 1) 발표 연기에 따른 시장 관망세로 수요 약세 지속</p>
+<p>1분기 실적</p>
+<p>• 정비 완료 후 정상 가동에 따른 원가 안정화로 수익성 개선 • 다수 고객사와 계약 체결 논의 중으로, Section 232 발표 (2분기 말 예상) 이후 판매 확대 전망</p>
+<p>• NST, 5월 중 준공 완료 후 가동 본격화되며 운전자본 증가 예상, 미국 셀 업체 등 계약 추진 중</p>
+<p>2분기 전망</p>
+<p>12 -74 -65</p>
+<ul>
+<li></li>
+</ul>
+<p>20</p>
+<p>40</p>
+<p>Q1'25 Q2'25 Q3'25 Q4'25 Q1'26</p>
+<p>112</p>
+<p>39</p>
+<p>132</p>
+<p>145</p>
+<p>101</p>
+<ul>
+<li></li>
+</ul>
+<p>40</p>
+<p>80</p>
+<p>120</p>
+<p>160</p>
+<p>Q1'25 Q2'25 Q3'25 Q4'25 Q1'26</p>
+<p>-30.3%</p>
+<ol>
+<li>Section 232: 미국 국가 안보에 영향을 미칠 수 있는 수입품 대상 조사로, 관세 및 수입제한 조치가 가능하며 현재 태양광용 폴리실리콘 및 파생상품에 대한 조사 진행 중</li>
+</ol>
+<ol start="2">
+<li>주요 자회사실적_OCI Enterprises</li>
+</ol>
+<p>영업이익</p>
+<p>매출 (단위: 십억원)</p>
+<p>(단위: 십억원)</p>
+<p>• MSE, 모듈 판매량 증가 및 판가 상승으로 흑자 전환 • OCI Energy, 기 매각 프로젝트 잔여금액 매출 인식에 따른 영업이익 기여</p>
+<p>1분기 실적</p>
+<p>• MSE, FEOC 1) 규제에 따른 TPO 2) 고객사 중심으로 M/S 확대 등 사업 안정화 지속</p>
+<p>• OCI Energy, 프로젝트 매각 수익 인식 예정 (500MW)</p>
+<p>2분기 전망</p>
+<p>68</p>
+<p>44</p>
+<p>61</p>
+<p>36</p>
+<p>80</p>
+<ul>
+<li></li>
+</ul>
+<p>20</p>
+<p>40</p>
+<p>60</p>
+<p>80</p>
+<p>100</p>
+<p>Q1'25 Q2'25 Q3'25 Q4'25 Q1'26</p>
+<p>+121.0%</p>
+<p>9 -12</p>
+<p>13 -16</p>
+<p>4 -20 -10</p>
+<ul>
+<li></li>
+</ul>
+<p>10</p>
+<p>20</p>
+<p>Q1'25 Q2'25 Q3'25 Q4'25 Q1'26</p>
+<ol>
+<li>FEOC (Foreign Entities of Concern): 미국 정부가 지정한 해외우려국가(중국, 러시아, 북한, 이란)의 소유, 관할의 기업에서 생산, 조달한 제품은 보조금 및 세액공제 불가</li>
+<li>TPO(Third Party Ownership): 발전사업자가 태양광 설비를 소유 및 설치 하고 사용자는 전력을 사용한 만큼 요금을 지불하는 방식</li>
+</ol>
+<ol start="2">
+<li>주요 자회사실적_OCI SE</li>
+</ol>
+<p>영업이익</p>
+<p>매출 (단위: 십억원)</p>
+<p>(단위: 십억원)</p>
+<p>• SMP 소폭 상승 및 전력 판매량 증가하며 매출 상승 및 적자 축소</p>
+<p>• 설비 트러블과 정비로 가동일수 감소되며 영업 적자 지속</p>
+<p>1분기 실적</p>
+<p>• 지정학적 불확실성 확대로 LNG 가격 강세가 이어지는 가운데, SMP 상승으로 OCI SE 수익성 개선 기대</p>
+<p>• 원자재 공급망 다변화 및 장기 계약 기반 수급 안정성 확보</p>
+<p>2분기 전망</p>
+<p>88</p>
+<p>81</p>
+<p>72</p>
+<p>51</p>
+<p>71</p>
+<ul>
+<li></li>
+</ul>
+<p>20</p>
+<p>40</p>
+<p>60</p>
+<p>80</p>
+<p>100</p>
+<p>Q1'25 Q2'25 Q3'25 Q4'25 Q1'26</p>
+<p>+38.9%</p>
+<p>7</p>
+<p>3 2</p>
+<ul>
+<li></li>
+</ul>
+<p>5</p>
+<p>10</p>
+<ol start="2">
+<li>주요 자회사실적_DCRE</li>
+</ol>
+<p>영업이익</p>
+<p>매출 (단위: 십억원)</p>
+<p>(단위: 십억원)</p>
+<p>• 기 분양 단지 건설 진행률 상승에 따른 매출 증가 • 8단지 분양 (’25년 12월) 관련 판관비 증가로 수익성 감소</p>
+<p>1분기 실적</p>
+<p>• 9단지 (1,949세대) 분양 준비 및 부지 매각, 상업 시설 분양 활성화 노력</p>
+<p>• 부지 보유세 반영 예정</p>
+<p>2분기 전망</p>
+<p>148</p>
+<p>88</p>
+<p>105 110</p>
+<p>133</p>
+<ul>
+<li></li>
+</ul>
+<p>40</p>
+<p>80</p>
+<p>120</p>
+<p>160</p>
+<p>Q1'25 Q2'25 Q3'25 Q4'25 Q1'26</p>
+<p>+20.6%</p>
+<p>18 -5</p>
+<p>13 12</p>
+<p>9 -10 -5</p>
+<ul>
+<li></li>
+</ul>
+<p>5</p>
+<p>10</p>
+<p>15</p>
+<p>20</p>
+<ol start="2">
+<li>주요 자회사실적_OCI</li>
+</ol>
+<p>영업이익</p>
+<p>매출 (단위: 십억원)</p>
+<p>(단위: 십억원)</p>
+<p>• 피치 판매량 확대 및 카본케미칼 주요 제품 가격 상승으로 수익성 개선</p>
+<p>• 피앤오케미칼 합병 및 OJCB청산 진행에 따른 사업 재편 효과</p>
+<p>1분기 실적</p>
+<p>• 베이직케미칼 제품 (CA, TDI 등) 가격 상승에 따른 이익 확대 • 고유가 지속으로 제품 가격 상승세 유지 전망</p>
+<p>2분기 전망</p>
+<p>539 527</p>
+<p>476 467</p>
+<p>507</p>
+<p>320</p>
+<p>380</p>
+<p>440</p>
+<p>500</p>
+<p>560</p>
+<p>Q1'25 Q2'25 Q3'25 Q4'25 Q1'26</p>
+<p>+8.4%</p>
+<p>10</p>
+<p>-2 -10</p>
+<p>3</p>
+<p>28 -20 -10</p>
+<ul>
+<li></li>
+</ul>
+<p>10</p>
+<p>20</p>
+<p>30</p>
+<h5>02 경영 현황 1. 주요 경영 사항</h5>
+<ol>
+<li>주요 경영 사항_미국태양광정책및수요</li>
+</ol>
+<p>미국 태양광 정책은 정책 기조 변화와 무관하게 중국 공급망 의존도를 축소하고 자국 산업 강화하는 기조가 지속 단기 정책 변수에도, 민간 기업 주도의 태양광 투자 확대로 비중국 소재 수요 기반은 더욱 견고해 질것으로 기대</p>
+<p>태양광 산업 정책과 수요의 동반 성장</p>
+<p>Mid 2025 2H 2025 2026 (현재진행중) 2026+</p>
+<p>Early 2025 1H 2025</p>
+<table>
+<thead>
+<tr>
+<th>FEOC 논의</th>
+<th>AD·CVD규제</th>
+<th>Section 232 조사</th>
+<th></th>
+<th>Tax Credit 시장활성</th>
+<th></th>
+<th>FEOC + Section 232</th>
+<th>AI / 100GW +수요</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IRA보조금에서중국 •</td>
+<td>중국산동남아 •</td>
+<td>•</td>
+<td>폴리실리콘및</td>
+<td>•</td>
+<td>거래규모증가및</td>
+<td>IRS Notice 2026-15 발표 •</td>
+<td>1) 미국기업의태양광 •</td>
+</tr>
+<tr>
+<td>공급망을배제시키는</td>
+<td>우회수출차단에이어</td>
+<td></td>
+<td>태양광제품의</td>
+<td></td>
+<td>할인율안정화</td>
+<td>• FEOC 규정및Section 232</td>
+<td>100GW +투자발표</td>
+</tr>
+<tr>
+<td>논의진행</td>
+<td>동남아기반태양광</td>
+<td></td>
+<td>안보위협에대한</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+            <div class="llm-research-dialog-actions">
+                <span class="llm-research-status" role="status" aria-live="polite"></span>
+            </div>
+        </div>
+    </dialog>
+    
+    <h3>News</h3>
+    <div class="news-section">
+        <div class="news-row" data-news-file="2026-11-08_[핀포인트뉴스]_OCI홀딩스_미국이_찾는_폴리실리콘_공급사…내년_실적_10배_뛴다.md"
+                data-news-path="build/news/profiles/456040_OCI/2026-11-08_[핀포인트뉴스]_OCI홀딩스_미국이_찾는_폴리실리콘_공급사…내년_실적_10배_뛴다.md"
+                data-object-type="Profile"
+                data-object-id="456040">
+                <a href="#" onclick="openPopup('/build/news/profiles/456040_OCI/2026-11-08_[핀포인트뉴스]_OCI홀딩스_미국이_찾는_폴리실리콘_공급사…내년_실적_10배_뛴다.md'); return false;">
+                    2026-11-08 [핀포인트뉴스] OCI홀딩스 미국이 찾는 폴리실리콘 공급사…내년 실적 10배 뛴다
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-02_[CEO스코어데일리]_美_태양광_최저가격제_도입…한화·OCI_실적개편_기대감_키운다.md"
+                data-news-path="build/news/profiles/456040_OCI/2026-11-02_[CEO스코어데일리]_美_태양광_최저가격제_도입…한화·OCI_실적개편_기대감_키운다.md"
+                data-object-type="Profile"
+                data-object-id="456040">
+                <a href="#" onclick="openPopup('/build/news/profiles/456040_OCI/2026-11-02_[CEO스코어데일리]_美_태양광_최저가격제_도입…한화·OCI_실적개편_기대감_키운다.md'); return false;">
+                    2026-11-02 [CEO스코어데일리] 美 태양광 최저가격제 도입…한화·OCI 실적개편 기대감 키운다
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-30_[뉴스핌]_[리포트_브리핑]OCI홀딩스_여전히_긍정적_2027년_본격_성장_전망_목표가_400000원.md"
+                data-news-path="build/news/profiles/456040_OCI/2026-10-30_[뉴스핌]_[리포트_브리핑]OCI홀딩스_여전히_긍정적_2027년_본격_성장_전망_목표가_400000원.md"
+                data-object-type="Profile"
+                data-object-id="456040">
+                <a href="#" onclick="openPopup('/build/news/profiles/456040_OCI/2026-10-30_[뉴스핌]_[리포트_브리핑]OCI홀딩스_여전히_긍정적_2027년_본격_성장_전망_목표가_400000원.md'); return false;">
+                    2026-10-30 [뉴스핌] [리포트 브리핑]OCI홀딩스 여전히 긍정적 2027년 본격 성장 전망 목표가 400000원
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-29_[데일리안]_[컨콜]_OCI홀딩스_OCI에너지_내년_실적_올해보다_월등히_좋아질_것.md"
+                data-news-path="build/news/profiles/456040_OCI/2026-10-29_[데일리안]_[컨콜]_OCI홀딩스_OCI에너지_내년_실적_올해보다_월등히_좋아질_것.md"
+                data-object-type="Profile"
+                data-object-id="456040">
+                <a href="#" onclick="openPopup('/build/news/profiles/456040_OCI/2026-10-29_[데일리안]_[컨콜]_OCI홀딩스_OCI에너지_내년_실적_올해보다_월등히_좋아질_것.md'); return false;">
+                    2026-10-29 [데일리안] [컨콜] OCI홀딩스 OCI에너지 내년 실적 올해보다 월등히 좋아질 것
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-19_[뉴스핌]_[리포트_브리핑]OCI홀딩스_3Q26_Preview_컨센서스_충족할_전망_목표가_270000원_-.md"
+                data-news-path="build/news/profiles/456040_OCI/2026-10-19_[뉴스핌]_[리포트_브리핑]OCI홀딩스_3Q26_Preview_컨센서스_충족할_전망_목표가_270000원_-.md"
+                data-object-type="Profile"
+                data-object-id="456040">
+                <a href="#" onclick="openPopup('/build/news/profiles/456040_OCI/2026-10-19_[뉴스핌]_[리포트_브리핑]OCI홀딩스_3Q26_Preview_컨센서스_충족할_전망_목표가_270000원_-.md'); return false;">
+                    2026-10-19 [뉴스핌] [리포트 브리핑]OCI홀딩스 3Q26 Preview 컨센서스 충족할 전망 목표가 270000원 -
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-15_[뉴스티앤티]_[특징주]_OCI홀딩스_2027년_신규_고객사_매출_본격화_전망.md"
+                data-news-path="build/news/profiles/456040_OCI/2026-10-15_[뉴스티앤티]_[특징주]_OCI홀딩스_2027년_신규_고객사_매출_본격화_전망.md"
+                data-object-type="Profile"
+                data-object-id="456040">
+                <a href="#" onclick="openPopup('/build/news/profiles/456040_OCI/2026-10-15_[뉴스티앤티]_[특징주]_OCI홀딩스_2027년_신규_고객사_매출_본격화_전망.md'); return false;">
+                    2026-10-15 [뉴스티앤티] [특징주] OCI홀딩스 2027년 신규 고객사 매출 본격화 전망
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+    </div>
+    
+</div>
+<script src="../../node/html/dict_template.js"></script>
+<script src="../../node/html/progress.js"></script>
+<script src="../../node/html/model_instance.js"></script>
+<script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
+</body> 
+<footer>
+    <div class="footer-title">Quarterly Performances</div>
+    <div class="footer-copy">© 2026 · All rights reserved.</div>
+</footer>
+</html>

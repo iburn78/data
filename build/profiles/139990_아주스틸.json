@@ -1,0 +1,138 @@
+{
+    "key": "139990",
+    "filename": "139990_아주스틸",
+    "updated": "2026-11-17 12:20",
+    "llm_research_updated": "2026-11-13 10:32",
+    "financials": {
+        "meta": {
+            "name": "아주스틸",
+            "code": "139990",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:20",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 77.3,
+                "revenue_ltm": 1150,
+                "opincome_ltm": -18.3,
+                "revenue_qtr": 312,
+                "opincome_qtr": 1.36
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.81,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -7,
+                "26_1Q": -0.32,
+                "26_2Q": 0.36,
+                "26_3Q": 0.44,
+                "ltm": -1.6
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": 14.2,
+                "PER_fwd": 5.69
+            },
+            "volatility": {
+                "measure_to_base(%)": -54
+            },
+            "amount": {
+                "measure_to_base(%)": -85
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.21,
+                    "beta": 0.33
+                },
+                "base_period": {
+                    "alpha(%)": -0.27,
+                    "beta": 0.15
+                },
+                "measure_period": {
+                    "alpha(%)": -0.5,
+                    "beta": 0.26
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:32",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "가전 사업부",
+            "건재 사업부",
+            "자동차 부품 사업부"
+        ],
+        "revenue_share": [
+            0.41,
+            0.3,
+            0.08
+        ],
+        "trend": [
+            "AI 및 프리미엄 가전 수요 확대로 고부가가치 소재 공급 확대",
+            "갈바륨강판 수출 확대 및 B2C 사업 안정화로 수익성 개선 기대",
+            "전기차 배터리 및 ESS 시장 확대에 맞춘 고성능 제품 개발 추진"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "영상가전용 컬러강판, 생활가전용 컬러강판",
+            "건축 내외장재, 방화문, 엘리베이터 내외장재, 태양광 지지구조물, 갈바륨강판",
+            "전기차 배터리 Cell Case/Cover, 헤드램프용 MCCL, 트레일러용 롤포밍 제품"
+        ],
+        "competitors": [
+            "KG스틸, 동국씨엠, 포스코스틸리온",
+            "KG스틸, 동국씨엠, 포스코스틸리온",
+            "현대자동차 계열 물류업체"
+        ]
+    },
+    "code": "139990",
+    "name": "아주스틸",
+    "overview": {
+        "title": "B2C 안정과 수출 확대로 흑자 전환",
+        "desc": "동사는 1999년 경상북도 구미시에 설립된 철강제조기업으로, 2021년 유가증권시장에 상장하였음. 글로벌 가전사들의 해외 현지화 전략에 따라 미국, 중국, 폴란드에 해외 종속법인을 운영 중이며, 2025년 아주엠씨엠과의 합병으로 B2C 사업을 본격화하였음. 동사는 철강재 표면을 다양한 방식으로 가공한 고품질 컬러강판을 생산·판매하며, 프리미엄 영상가전, 생활가전, 건축자재, 자동차 부품 등 다양한 산업에 적용하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 0.6% 증가, 영업이익 흑자전환, 당기순손실은 18.8% 감소. 동사는 AI와 프리미엄 가전으로 고부가가치 소재 공급을 확대하고, 건재 부문에서 갈바륨강판 수출과 B2C 사업 안정화로 영업이익이 흑자 전환함. 자동차 부품 분야는 전기차 배터리와 ESS 시장 확대에 맞춰 고성능 제품 및 배터리 케이스 개발을 추진하고 있음.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-12 21:47"
+    },
+    "news": {
+        "updated": "2026-11-12 21:47",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>955</span>
+                                <span>927</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -209,7 +222,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>9,290</span>
+                                <span>8,750</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -227,7 +240,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>2,550</span>
+                                <span>2,000</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -505,23 +518,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:36</td>
+                                <td>2026-11-16 14:53</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 3분기 누적 연결 기준 영업이익은 4,602억 원(전년 동기 대비 85.4% 증가), 당기순이익은 3,896억 원(102.7% 증가), 매출액은 6조 9,562억 원(112.6% 증가)을 기록함.</td>
+                                <td>2026년 3분기 연결 기준 영업손실 22억원을 기록하며 적자 전환했으며, 국고채 입찰 담합 과징금 1,200억 5,100만원 반영 후 순손실은 1,337억 7,800만원으로 확대됨.</td>
                             </tr>
                             <tr>
-                                <td>2026년 3분기 단일 실적은 보유 유가증권 평가손실 및 위탁매매 수익 감소 영향으로 22억 원의 영업손실을 기록하며 적자 전환함.</td>
+                                <td>2026년 1~9월 누적 영업이익 4,602억원(전년비 85.4%↑), 당기순이익 3,896억원(전년비 102.7%↑), 매출액 6조 9,562억원(전년비 112.6%↑)을 기록함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 3분기 누적 기준 계열사 실적: 대신저축은행은 영업이익 286억 원으로 흑자 전환, 대신자산운용은 영업이익 123억 원으로 전년 동기 대비 336.2% 증가함.</td>
+                                <td>종합금융투자사업자 지정 이후 기업여신 확대로 3분기 누적 신용공여수익이 전년 동기 대비 57.4% 증가함.</td>
                             </tr>
                             <tr>
-                                <td>종합금융투자사업자(종투사) 지정 이후 기업여신 및 자금공급 확대로 2026년 3분기 누적 신용공여수익이 전년 동기 대비 57.4% 증가함.</td>
+                                <td>계열사 실적 중 대신저축은행은 3분기 누적 영업이익 286억원으로 흑자 전환, 대신자산운용은 누적 영업이익 123억원(전년비 336.2%↑)을 기록함.</td>
+                            </tr>
+                            <tr>
+                                <td>3분기 실적 부진의 주요 원인은 트레이딩 손익 적자 전환(1,018억원 적자), 위탁매매 수익 감소(전분기비 43%↓), 부동산 PF 부진(134억원 적자)임.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -531,14 +547,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>보유 유가증권 평가손실 및 위탁매매 수익 감소로 인해 2026년 3분기 단일 실적이 적자로 전환됨.</td>
+                                <td>국고채 담합 과징금이 지난해 연결 순이익(1,867억원)의 64.3%에 달해 수익성에 큰 타격을 줌.</td>
+                            </tr>
+                            <tr>
+                                <td>공정위 의결서 검토 후 관련 법령과 절차에 따라 과징금에 대한 법적 대응을 검토 중임.</td>
+                            </tr>
+                            <tr>
+                                <td>3분기 운용손실과 대규모 과징금 발생으로 인해 진승욱 대표 취임 이후 수익성 회복과 안정적인 이익 확보가 당면 과제가 됨.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>대신증권은 2026년 3분기 단일 실적의 적자 전환에도 불구하고, 상반기 호실적과 대신저축은행·대신자산운용 등 주요 계열사의 수익성 개선, 종투사 지위를 활용한 신용공여수익 증가에 힘입어 3분기 누적 영업이익과 순이익이 전년 대비 큰 폭으로 성장했습니다.</td>
+                                <td>대신증권은 2026년 3분기 트레이딩 및 부동산 PF 부진으로 적자 전환한 가운데, 국고채 입찰 담합으로 인한 1,201억원의 과징금까지 반영되며 분기 순손실이 1,338억원으로 대폭 확대되었습니다. 다만, 종투사 지정 이후 기업금융 확대와 계열사(저축은행, 자산운용)의 실적 개선에 힘입어 3분기 누적 영업이익과 순이익은 전년 대비 큰 폭으로 성장한 상태입니다. 회사는 과징금에 대해 법적 대응을 검토하고 있으며, 수익원 다변화를 통한 실적 회복에 집중하고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -697,7 +719,40 @@
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-11_[이코노미사이언스]_대신증권_3분기_누적_영업이익_85%_증가…저축은행_흑자전환·자산운용_급성장.md"
+        <div class="news-row" data-news-file="2026-11-16_[마이데일리]_[MD포커스]_KB·키움·대신_덮친_과징금…증권사_1.4조원_실적_지뢰.md"
+                data-news-path="build/news/profiles/003540_대신증권/2026-11-16_[마이데일리]_[MD포커스]_KB·키움·대신_덮친_과징금…증권사_1.4조원_실적_지뢰.md"
+                data-object-type="Profile"
+                data-object-id="003540">
+                <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-16_[마이데일리]_[MD포커스]_KB·키움·대신_덮친_과징금…증권사_1.4조원_실적_지뢰.md'); return false;">
+                    2026-11-16 [마이데일리] [MD포커스] KB·키움·대신 덮친 과징금…증권사 1.4조원 실적 지뢰
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-16_[디지털데일리]_3분기_적자에_과징금_폭탄…진승욱號_대신증권_수익성_비상.md"
+                data-news-path="build/news/profiles/003540_대신증권/2026-11-16_[디지털데일리]_3분기_적자에_과징금_폭탄…진승욱號_대신증권_수익성_비상.md"
+                data-object-type="Profile"
+                data-object-id="003540">
+                <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-16_[디지털데일리]_3분기_적자에_과징금_폭탄…진승욱號_대신증권_수익성_비상.md'); return false;">
+                    2026-11-16 [디지털데일리] 3분기 적자에 과징금 폭탄…진승욱號 대신증권 수익성 비상
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-16_[뉴스저널리즘]_국고채_과징금_직격탄…증권사_3곳_순이익_5130억원_감소.md"
+                data-news-path="build/news/profiles/003540_대신증권/2026-11-16_[뉴스저널리즘]_국고채_과징금_직격탄…증권사_3곳_순이익_5130억원_감소.md"
+                data-object-type="Profile"
+                data-object-id="003540">
+                <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-16_[뉴스저널리즘]_국고채_과징금_직격탄…증권사_3곳_순이익_5130억원_감소.md'); return false;">
+                    2026-11-16 [뉴스저널리즘] 국고채 과징금 직격탄…증권사 3곳 순이익 5130억원 감소
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-11_[이코노미사이언스]_대신증권_3분기_누적_영업이익_85%_증가…저축은행_흑자전환·자산운용_급성장.md"
                 data-news-path="build/news/profiles/003540_대신증권/2026-11-11_[이코노미사이언스]_대신증권_3분기_누적_영업이익_85%_증가…저축은행_흑자전환·자산운용_급성장.md"
                 data-object-type="Profile"
                 data-object-id="003540">
@@ -725,28 +780,6 @@
                 data-object-id="003540">
                 <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-11_[매일경제마켓]_대신증권_3분기_적자에도_누적_영업이익_4600억원…85%_↑.md'); return false;">
                     2026-11-11 [매일경제마켓] 대신증권 3분기 적자에도 누적 영업이익 4600억원…85% ↑
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-10_[연합인포맥스]_대신證_반도체_둘러싼_우려_과도…삼중고_점진적_해소_전망.md"
-                data-news-path="build/news/profiles/003540_대신증권/2026-11-10_[연합인포맥스]_대신證_반도체_둘러싼_우려_과도…삼중고_점진적_해소_전망.md"
-                data-object-type="Profile"
-                data-object-id="003540">
-                <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-10_[연합인포맥스]_대신證_반도체_둘러싼_우려_과도…삼중고_점진적_해소_전망.md'); return false;">
-                    2026-11-10 [연합인포맥스] 대신證 반도체 둘러싼 우려 과도…삼중고 점진적 해소 전망
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-10_[마켓인]_코스피_11월_저점_찍고_반등…내년_상반기_7100선_회복_전망.md"
-                data-news-path="build/news/profiles/003540_대신증권/2026-11-10_[마켓인]_코스피_11월_저점_찍고_반등…내년_상반기_7100선_회복_전망.md"
-                data-object-type="Profile"
-                data-object-id="003540">
-                <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-10_[마켓인]_코스피_11월_저점_찍고_반등…내년_상반기_7100선_회복_전망.md'); return false;">
-                    2026-11-10 [마켓인] 코스피 11월 저점 찍고 반등…내년 상반기 7100선 회복 전망
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -846,6 +879,17 @@
                 data-object-id="003540">
                 <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-04_[뉴스1]_대신證_한국항공우주_연매출_5.2조_전망…목표가_7%↓.md'); return false;">
                     2026-11-04 [뉴스1] 대신證 한국항공우주 연매출 5.2조 전망…목표가 7%↓
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-03_[연합뉴스]_대신증권_두산밥캣_목표주가↓…4분기_이익률_하락_전망.md"
+                data-news-path="build/news/profiles/003540_대신증권/2026-11-03_[연합뉴스]_대신증권_두산밥캣_목표주가↓…4분기_이익률_하락_전망.md"
+                data-object-type="Profile"
+                data-object-id="003540">
+                <a href="#" onclick="openPopup('/build/news/profiles/003540_대신증권/2026-11-03_[연합뉴스]_대신증권_두산밥캣_목표주가↓…4분기_이익률_하락_전망.md'); return false;">
+                    2026-11-03 [연합뉴스] 대신증권 두산밥캣 목표주가↓…4분기 이익률 하락 전망
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -1319,6 +1363,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

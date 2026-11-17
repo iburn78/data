@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>소재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>소재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=2#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">소재 (2)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=21#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">소재 (21)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=216#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">포장 용기 (216)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=2161#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">용기 및 패키징 (2161)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>924</span>
+                                <span>955</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -209,7 +222,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>403</span>
+                                <span>410</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -218,7 +231,7 @@
                         <tr class="value-row level-2">
                             <td class="label">opincome_ltm</td>
                             <td class="value">
-                                <span>64.6</span>
+                                <span>68.1</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -227,7 +240,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>117</span>
+                                <span>124</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -236,7 +249,7 @@
                         <tr class="value-row level-2">
                             <td class="label">opincome_qtr</td>
                             <td class="value">
-                                <span>21.7</span>
+                                <span>25.1</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -269,7 +282,7 @@
                         <tr class="value-row level-2">
                             <td class="label">slope (qtr, in unit)</td>
                             <td class="value">
-                                <span>0.79</span>
+                                <span>0.95</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -278,7 +291,7 @@
                         <tr class="value-row level-2">
                             <td class="label">growth(%)</td>
                             <td class="value">
-                                <span>5.4</span>
+                                <span>6.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -317,7 +330,7 @@
                         <tr class="value-row level-2">
                             <td class="label">26_3Q</td>
                             <td class="value">
-                                <span>19</span>
+                                <span>20</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -326,7 +339,7 @@
                         <tr class="value-row level-2">
                             <td class="label">ltm</td>
                             <td class="value">
-                                <span>16</span>
+                                <span>17</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -338,7 +351,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_ltm</td>
                             <td class="value">
-                                <span>14.3</span>
+                                <span>14</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -347,7 +360,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
                             <td class="value">
-                                <span>10.7</span>
+                                <span>9.5</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -356,7 +369,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
                             <td class="value">
-                                <span>9.78</span>
+                                <span>8.68</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -368,7 +381,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-36</span>
+                                <span>-30</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -380,7 +393,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>93</span>
+                                <span>59</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -395,7 +408,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.083</span>
+                                <span>0.086</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -416,7 +429,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.65</span>
+                                <span>0.71</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -425,9 +438,9 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.0087</span>
+                                <span>-0.0089</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>    
@@ -437,7 +450,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.62</span>
+                                <span>0.43</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -446,7 +459,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>-0.11</span>
+                                <span>-0.22</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -503,7 +516,7 @@
                         <tr class="value-row level-1">
                             <td class="label">alpha (measure)</td>
                             <td class="value">
-                                <span>out_pfm</span>
+                                <span>-</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -743,26 +756,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:51</td>
+                                <td>2026-11-13 10:41</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 3분기 연결 매출액 1,238억원, 영업이익 251억원을 기록하며 분기 사상 최대 실적을 경신함.</td>
+                                <td>2026년 3분기 연결 매출액 1,238억원, 영업이익 251억원으로 분기 사상 최대 실적을 경신함.</td>
                             </tr>
                             <tr>
-                                <td>펌프사업부 6공장 사출 라인 가동 및 11월 튜브 생산 신규 설비 도입을 통해 생산능력을 전년 대비 30% 확대함.</td>
+                                <td>6공장 사출 라인 내재화 및 11월 튜브 신규 설비 도입으로 생산능력을 전년 대비 30% 확대했으며, 11월 2일 7공장을 착공함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 11월 2일 7공장을 착공(2028년 초 완공 목표)했으며, 자회사 미라텍 또한 2028년 초 가동 목표로 신공장을 건설 중임.</td>
+                                <td>부국티엔씨 자회사 미라텍이 라미네이트 튜브 신공장을 건설 중이며 2028년 초 가동 예정임.</td>
                             </tr>
                             <tr>
-                                <td>고객사 다변화를 통해 3분기 기준 국내 대형 고객사 2곳 외 매출 비중이 펌프 64.8%, 튜브 89.2%로 확대됨.</td>
+                                <td>인디브랜드 수주 확대로 고객사가 다변화되었으며, 3분기 기준 대형 2개사 제외 매출 비중은 펌프 64.8%, 튜브 89.2%임.</td>
                             </tr>
                             <tr>
-                                <td>건강기능식품 사업부문(잘론네츄럴)은 2026년 3분기 매출액이 전년 동기 대비 62.0% 급감하며 10억원의 영업손실을 기록함.</td>
+                                <td>상반기 판가 인상을 단행했으나, 건강기능식품 사업부(잘론네츄럴)는 3분기 10억원 영업손실을 기록하며 적자가 지속됨.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -772,23 +785,26 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>튜브 용기 부족으로 인한 부국티엔씨의 리드타임 증가(최대 120일) 및 생산 병목 우려가 있음.</td>
+                                <td>튜브 용기 부족으로 인한 리드타임 증가(120일) 및 생산 과부하에 따른 공급 병목 현상 발생.</td>
                             </tr>
                             <tr>
-                                <td>급격한 생산능력 확대에 따른 감가상각비 증가, 원가율 상승 및 고정비 부담 가중 가능성이 제기됨.</td>
+                                <td>급격한 CAPA 확대에 따른 감가상각비 증가, 원가율 상승 및 고정비 부담 가중 우려.</td>
                             </tr>
                             <tr>
-                                <td>4분기 일회성 인센티브 비용 반영 및 6공장 고정비 발생으로 영업이익이 전분기 대비 감소할 것으로 전망됨.</td>
+                                <td>4분기 호실적 관련 일회성 인센티브 비용 반영으로 인한 영업이익 감소 전망.</td>
                             </tr>
                             <tr>
-                                <td>건강기능식품 자회사의 적자 지속 및 국내 대비 보수적인 해외 법인 매출 성장 속도가 과제로 꼽힘.</td>
+                                <td>국내 대비 상대적으로 보수적인 해외 법인의 매출 성장세.</td>
+                            </tr>
+                            <tr>
+                                <td>튜브 설비의 부국티엔씨 이전 등 생산 거점 재배치 과정의 변동성 가능성.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>펌텍코리아는 K뷰티 호황과 선제적인 생산능력 확대를 통해 2026년 3분기 역대 최대 실적을 달성했으며, 고객사 다변화와 판가 인상으로 수익성을 개선하고 있습니다. 6공장 가동, 튜브 설비 증설 및 7공장 착공 등 공격적인 투자를 이어가고 있으나, 생산 병목 현상, 투자 확대에 따른 비용 증가, 건강기능식품 사업의 적자 지속 등이 리스크 요인으로 분석됩니다.</td>
+                                <td>펌텍코리아는 K-뷰티 호황과 선제적인 생산능력 확대를 통해 2026년 3분기 역대 최대 실적을 달성했습니다. 6공장 가동 및 튜브 설비 증설, 7공장 착공 등으로 성장세를 이어가고 있으나, 건기식 사업의 적자 지속, 급격한 증설에 따른 고정비 증가, 일회성 비용 발생 등이 향후 수익성 변수로 작용하고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -822,7 +838,7 @@
                             </tr>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-10-14 10:21</td>
+                                <td>2026-11-13 10:41</td>
                             </tr>
                         </tbody>
                     </table>
@@ -842,7 +858,7 @@
             aria-controls="roma-plot-251970" title="ROMA plot (r)">ROMA plot (r)</button>
         <template class="roma-plot-template" id="roma-plot-251970"
             data-title="ROMA plot — 251970"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-251970" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-251970")) {                    Plotly.newPlot(                        "roma-plot-251970",                        [{"customdata":[["2019-10-01",121.15195173699999],["2020-01-01",144.80091395],["2020-04-01",98.00113314000001],["2020-07-01",95.92306985],["2020-10-01",61.698933550000014],["2021-01-01",37.642404549999995],["2021-04-01",102.58050229999999],["2021-07-01",95.8765083],["2021-10-01",151.09267119999998],["2022-01-01",35.77849645],["2022-04-01",73.9694755],["2022-07-01",38.935131750000004],["2022-10-01",16.6588875],["2023-01-01",26.4951051],["2023-04-01",28.54257951],["2023-07-01",166.84345741],["2023-10-01",217.53925215],["2024-01-01",79.3487588],["2024-04-01",65.02684335000001],["2024-07-01",336.12914555000003],["2024-10-01",407.97077809999996],["2025-01-01",230.2479124],["2025-04-01",190.91064655],["2025-07-01",223.21354280000006],["2025-10-01",272.0472377],["2026-01-01",194.81963080000003],["2026-04-01",186.24903899999998],["2026-07-01",101.3478776]],"hovertemplate":"\ud38c\ud14d\ucf54\ub9ac\uc544\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"QN5dyqGfMkD4vdWx3OQzQP5gyALCQDFAEoofsFIfMUA1dhF9w3EtQNCi2wUSMClA2iqwOjWJMUDIim\u002fZkR4xQKnhylrRNjRAJdZpTpbOKEC1wJL8UEovQEyYTP5EcilAM\u002fDCFIkaJED6zhcO9b0mQOr85WGmOSdACLAsoMv8NEDE4RkAakE3QFHkFZqCBjBAEaEG4z72LUBtgRe+OrE7QAAAAAAAAD5A6IFatPzHN0CahGlKDBo2QPY4H+v4fTdAp3p1EThqOUA5QeVlpEY2QJ0p50JE5DVAWFF9U951MUA="},"sizemode":"diameter"},"mode":"lines+markers","name":"\ud38c\ud14d\ucf54\ub9ac\uc544","x":{"dtype":"f8","bdata":"nkh8YxKgFEDgCXi8Ah8WQPqFlxul0xNARBMZN+TBEUACGSFHcQMTQJYo834AShZANZYNg6JzFkBZEvle3o4VQGdsWnNIgxZA8ktxE71SF0A5OY3+4cMYQCYlE2hW6hdAjBGu5EinFkDDj0hcwuwZQNNMNcPmVh5As3gMM9ZwHEAC+JkFYhYdQAY7hkb+wB5ARsS4DhoaIUDKQaDhMwshQEpwwRZW+SFA3J1HGttYIkBye3MHixUlQAt94erIiCNAHnSNdmPaHkD5nx4RylkiQNfskDhuXidA1+yQOG5eJ0A="},"y":{"dtype":"f8","bdata":"XfVQQLLxGkBKNH5qhwEgQJnpGgr4MxtAvuN0j\u002fUJGEDN9gcbtVIaQE7u6X3yVh9AHYnm7UdrHUC0ZZiRfJwVQAHtlRk5CBZAzec\u002fGDagGEABRsooLEkeQAoWCLTU9R1Azael8b8MFUCQPg7Mz+IdQD9D7ti+syRAd\u002fCc+C2FIkDK9jNSdWkgQC7Xf\u002fZTdCRAwBuOi8N3KUCJNMlGItwoQGB1W1cJAypAZhP4dIndKkAwfapofm0zQBVxfOUopi5APZSWAc+oIEBuye4lNO0pQPr6BpiMpjVA+voGmIymNUA="},"z":{"dtype":"f8","bdata":"GsBbIEHx\u002fz\u002fGbTSAt0ACQMSxLm6jAfg\u002fzBDHuriN\u002fj8Jih9j7lr+P3Noke18P\u002f8\u002fDAIrhxbZAkD6D+m3rwMHQFvTvOMUHQdAFvvL7snDAEDgLZCg+DEDQCS5\u002fIf02\u002f0\u002f0ytlGeJY\u002fz\u002fhC5OpglEAQF0u4jsx6\u002f0\u002fAwmKH2PuBEBjf9k9eVgJQFJJnYAmwgdALv8h\u002ffZ1B0Dtnjws1BoVQL1SliGOdRFA+n5qvHSTFUAKRiV1ApoYQIV80LNZ9R1A78nDQq1pHUBIUPwYc9cZQI\u002fC9ShcjxdAz4jS3uALE0A="},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\ud38c\ud14d\ucf54\ub9ac\uc544"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[11.6844346692],"y":[21.650582792],"z":[4.7616000000000005],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 41","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 204","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 408","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-0.934754773536,12.619189442736],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-1.7320466233600003,23.38262941536],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-0.599168,8.088768],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-251970" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-251970")) {                    Plotly.newPlot(                        "roma-plot-251970",                        [{"customdata":[["2019-10-01",121.15195173699999],["2020-01-01",144.80091395],["2020-04-01",98.00113314000001],["2020-07-01",95.92306985],["2020-10-01",61.698933550000014],["2021-01-01",37.642404549999995],["2021-04-01",102.58050229999999],["2021-07-01",95.8765083],["2021-10-01",151.09267119999998],["2022-01-01",35.77849645],["2022-04-01",73.9694755],["2022-07-01",38.935131750000004],["2022-10-01",16.6588875],["2023-01-01",26.4951051],["2023-04-01",28.54257951],["2023-07-01",166.84345741],["2023-10-01",217.53925215],["2024-01-01",79.3487588],["2024-04-01",65.02684335000001],["2024-07-01",336.12914555000003],["2024-10-01",407.97077809999996],["2025-01-01",230.2479124],["2025-04-01",190.91064655],["2025-07-01",223.21354280000006],["2025-10-01",272.0472377],["2026-01-01",194.81963080000003],["2026-04-01",186.24903899999998],["2026-07-01",101.3478776]],"hovertemplate":"\ud38c\ud14d\ucf54\ub9ac\uc544\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"QN5dyqGfMkD4vdWx3OQzQP5gyALCQDFAEoofsFIfMUA1dhF9w3EtQNCi2wUSMClA2iqwOjWJMUDIim\u002fZkR4xQKnhylrRNjRAJdZpTpbOKEC1wJL8UEovQEyYTP5EcilAM\u002fDCFIkaJED6zhcO9b0mQOr85WGmOSdACLAsoMv8NEDE4RkAakE3QFHkFZqCBjBAEaEG4z72LUBtgRe+OrE7QAAAAAAAAD5A6IFatPzHN0CahGlKDBo2QPY4H+v4fTdAp3p1EThqOUA5QeVlpEY2QJ0p50JE5DVAWFF9U951MUA="},"sizemode":"diameter"},"mode":"lines+markers","name":"\ud38c\ud14d\ucf54\ub9ac\uc544","x":{"dtype":"f8","bdata":"nkh8YxKgFEDgCXi8Ah8WQPqFlxul0xNARBMZN+TBEUACGSFHcQMTQJYo834AShZANZYNg6JzFkBZEvle3o4VQGdsWnNIgxZA8ktxE71SF0A5OY3+4cMYQCYlE2hW6hdAjBGu5EinFkDDj0hcwuwZQNNMNcPmVh5As3gMM9ZwHEAC+JkFYhYdQAY7hkb+wB5ARsS4DhoaIUDKQaDhMwshQEpwwRZW+SFA3J1HGttYIkBye3MHixUlQAt94erIiCNAHnSNdmPaHkD5nx4RylkiQNfskDhuXidA73cRbn7CKEA="},"y":{"dtype":"f8","bdata":"XfVQQLLxGkBKNH5qhwEgQJnpGgr4MxtAvuN0j\u002fUJGEDN9gcbtVIaQE7u6X3yVh9AHYnm7UdrHUC0ZZiRfJwVQAHtlRk5CBZAzec\u002fGDagGEABRsooLEkeQAoWCLTU9R1Azael8b8MFUCQPg7Mz+IdQD9D7ti+syRAd\u002fCc+C2FIkDK9jNSdWkgQC7Xf\u002fZTdCRAwBuOi8N3KUCJNMlGItwoQGB1W1cJAypAZhP4dIndKkAwfapofm0zQBVxfOUopi5APZSWAc+oIEBuye4lNO0pQPr6BpiMpjVA1LProSciOUA="},"z":{"dtype":"f8","bdata":"GsBbIEHx\u002fz\u002fGbTSAt0ACQMSxLm6jAfg\u002fzBDHuriN\u002fj8Jih9j7lr+P3Noke18P\u002f8\u002fDAIrhxbZAkD6D+m3rwMHQFvTvOMUHQdAFvvL7snDAEDgLZCg+DEDQCS5\u002fIf02\u002f0\u002f0ytlGeJY\u002fz\u002fhC5OpglEAQF0u4jsx6\u002f0\u002fAwmKH2PuBEBjf9k9eVgJQFJJnYAmwgdALv8h\u002ffZ1B0Dtnjws1BoVQL1SliGOdRFA+n5qvHSTFUAKRiV1ApoYQIV80LNZ9R1A78nDQq1pHUBIUPwYc9cZQI\u002fC9ShcjxdAz4jS3uALE0A="},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["\ud38c\ud14d\ucf54\ub9ac\uc544"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[12.379870834],"y":[25.133417244],"z":[4.7616000000000005],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 41","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 204","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 408","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-0.9903896667200001,13.37026050072],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-2.01067337952,27.14409062352],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-0.599168,8.088768],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
     
         <button class="mv-plot-link" type="button" aria-haspopup="dialog"
             data-code="251970"
@@ -1159,6 +1175,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

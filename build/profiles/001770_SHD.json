@@ -1,0 +1,142 @@
+{
+    "key": "001770",
+    "filename": "001770_SHD",
+    "updated": "2026-11-17 12:15",
+    "llm_research_updated": "2026-11-12 20:47",
+    "financials": {
+        "meta": {
+            "name": "SHD",
+            "code": "001770",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:15",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 4.77,
+                "revenue_ltm": 107,
+                "opincome_ltm": -0.981,
+                "revenue_qtr": 27.1,
+                "opincome_qtr": -0.708
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.12,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": 2,
+                "26_1Q": -0.57,
+                "26_2Q": -2,
+                "26_3Q": -2.6,
+                "ltm": -0.92
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 120
+            },
+            "amount": {
+                "measure_to_base(%)": 290
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.0037,
+                    "beta": 0.29
+                },
+                "base_period": {
+                    "alpha(%)": -0.59,
+                    "beta": 0.032
+                },
+                "measure_period": {
+                    "alpha(%)": 0,
+                    "beta": 0
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Up",
+            "amount_level": "Up",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "unstable"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-14 14:14",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "주석도금강판 제조 및 판매",
+            "철판 가공 및 표면처리강 제조",
+            "기타 사업 (임대 및 수출입)"
+        ],
+        "revenue_share": [
+            0.85,
+            0.1,
+            0.05
+        ],
+        "trend": [
+            "declining demand for food cans, focusing on butane gas materials",
+            "stable",
+            "stable"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "주석도금강판(석도강판)",
+            "표면처리강, 철판 가공 서비스",
+            "수출입 업무, 부동산 임대"
+        ],
+        "competitors": [
+            "TCC스틸, 동부제철",
+            "TCC스틸, 동부제철",
+            "N/A"
+        ]
+    },
+    "code": "001770",
+    "name": "SHD",
+    "overview": {
+        "title": "매출 증가에도 수익성 악화",
+        "desc": "동사는 1956년 설립된 주석도금강판 제조 기업으로 1988년 상장 후 2021년에 현재 사명으로 변경함. 표면처리강 제조, 철판 가공 및 판매, 수출입, 임대업 등을 진행하며, 국내 시장은 동사 포함 3개사가 담당하고 있음. 동사는 포스코와 공동 개발한 부탄가스용 소재를 세계 1위 부탄가스 회사 승일그룹에 판매하고, Captive Market을 신안제관 지분으로 확보하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 0.7% 증가, 영업이익 적자전환, 당기순이익 적자전환. 1인가족 증가 및 신선식품 선호로 주석도금강판 수요가 감소하는 가운데, 매출은 소폭 증가했으나 영업이익은 적자 전환되어 수익성이 악화됨. 내수 비중 80%로 안정적 시장을 확보하고 있으나 비용 부담이 증가했으며, 레저 산업 확대로 부탄용 소재 판매 확대에 주력하고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:47"
+    },
+    "news": {
+        "updated": "2026-11-12 20:47",
+        "key_facts": [
+            "2026년 8월 18일 코스피 시장에서 상한가를 기록함.",
+            "2026년 8월 19일 상한가를 기록하며 이격도 과열 종목(20일 이동평균선 대비 주가 비율 120% 이상)에 포함됨.",
+            "2026년 9월 15일 상한가를 기록함."
+        ],
+        "key_issues": [],
+        "news_summary": "SHD는 2026년 8월 18일과 19일, 그리고 9월 15일에 각각 상한가를 기록했으며, 특히 8월 19일에는 단기 주가 급등으로 인해 이격도 과열 종목으로 분류되었습니다."
+    }
+}

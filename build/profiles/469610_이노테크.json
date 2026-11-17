@@ -1,0 +1,146 @@
+{
+    "key": "469610",
+    "filename": "469610_이노테크",
+    "updated": "2026-11-17 12:21",
+    "llm_research_updated": "2026-11-13 10:57",
+    "financials": {
+        "meta": {
+            "name": "이노테크",
+            "code": "469610",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:21",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "특수 산업 소재 (2112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 96.9,
+                "revenue_ltm": 76.8,
+                "opincome_ltm": 4.01,
+                "revenue_qtr": 19.8,
+                "opincome_qtr": 0.47
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.13,
+                "growth(%)": -7.9
+            },
+            "opmargin(%)": {
+                "25_4Q": -2.3,
+                "26_1Q": 15,
+                "26_2Q": 4.6,
+                "26_3Q": 2.4,
+                "ltm": 5.2
+            },
+            "PER": {
+                "PER_ltm": 24.1,
+                "PER_qx4": 51.5,
+                "PER_fwd": 182
+            },
+            "volatility": {
+                "measure_to_base(%)": -27
+            },
+            "amount": {
+                "measure_to_base(%)": -78
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.61,
+                    "beta": 1
+                },
+                "base_period": {
+                    "alpha(%)": 0.00036,
+                    "beta": 0.95
+                },
+                "measure_period": {
+                    "alpha(%)": -0.36,
+                    "beta": 1.1
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:57",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "디스플레이 장비",
+            "반도체 장비",
+            "수처리 사업"
+        ],
+        "revenue_share": [
+            0.2,
+            0.2,
+            0.6
+        ],
+        "trend": [
+            "stable",
+            "improving",
+            "stable"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "플렉시블/폴더블 디스플레이 신뢰성 검사 장비, 오토모티브 멀티터치 장비",
+            "MLCC/SSD/D램 테스트 챔버, 신뢰성 검사장비",
+            "하수처리용 응집제(약품) 유통"
+        ],
+        "competitors": [
+            "예스티, AP시스템, 비아트론",
+            "예스티, AP시스템, 비아트론",
+            "N/A"
+        ]
+    },
+    "code": "469610",
+    "name": "이노테크",
+    "overview": {
+        "title": "디스플레이·반도체 검사장비 다각화",
+        "desc": "동사는 2013년 설립된 복합 신뢰성 환경시험 장비 전문 기업으로, 2025년 코스닥시장에 상장함. 신뢰성 환경시험 장비는 전자제품 개발 및 납품 과정에서 필수로 사용되며, 다양한 조건에서 부품과 완제품의 변화와 결함을 분석하여 제품 개선을 가능하게 함. 동사는 디스플레이, 반도체, 2차전지 등 다양한 분야에서 고객 맞춤형 검사 장비를 개발·납품하고 유지보수까지 제공하는 Total Solution 전문 업체로 자리매김하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 0.0% 증가, 영업이익은 47.9% 감소, 당기순이익은 5.2% 증가. 디스플레이 부문에서 Mobile, IT, Automotive 등 디스플레이 제품의 신뢰성 검사장비를 제작하며, 전 공정의 신뢰성 검사 기술 보유하고 있음. 반도체, 2차전지, MLCC, VR 디스플레이 등 다양한 분야의 검사장비를 국내외 납품하며, 해외 거래 확대를 통한 매출 다변화 계획하고 있음.",
+        "as_of": "2026-09-04",
+        "updated": "2026-11-12 22:03"
+    },
+    "news": {
+        "updated": "2026-11-13 10:57",
+        "key_facts": [
+            "삼성에 폴더블 신뢰성 검사장비를 독점 공급하고 있으며, AI 비전 솔루션 적용 장비를 개발해 주요 고객사에 납품함",
+            "디스플레이 기술력을 기반으로 낸드플래시 및 MLCC 시험장비로 사업을 확장 중이며, 올해 MLCC 부문 매출이 전년 대비 5배 이상 성장할 전망임",
+            "평택 브레인시티에 약 260억원을 투입해 신공장을 건설 중(2026년 7월 착공, 2027년 3월 준공 예정)이며, 완료 시 생산능력이 3.5배 확대됨",
+            "2026 K-Display Award 수상 및 SEDEX 2026 참가를 통해 신뢰성 시험장비 기술력을 입증함",
+            "차세대 MLCC 검사장비 및 LED 광원 기반 환경열화 시험기 등을 개발하여 2027년 양산 및 상용화를 목표로 함"
+        ],
+        "key_issues": [
+            "글로벌 IT 기기 수요 회복 지연과 주요 업체들의 설비투자 부담으로 인해 디스플레이 관련 장비·부품주 전반의 투자심리가 위축된 상황임"
+        ],
+        "news_summary": "이노테크는 삼성전자 폴더블 검사장비 독점 공급사로서 AI 비전 솔루션 도입과 MLCC 및 반도체 분야로의 사업 확장을 통해 성장하고 있습니다. 특히 MLCC 부문의 급격한 매출 성장과 평택 신공장 건설을 통한 생산능력 3.5배 확대를 추진 중이며, 2027년 신제품 상용화를 목표로 기술 고도화에 집중하고 있습니다. 다만, 최근 IT 수요 회복 지연에 따른 업계 전반의 투자심리 위축이 변수로 작용하고 있습니다."
+    }
+}

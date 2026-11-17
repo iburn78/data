@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -27,9 +31,6 @@
     </h3>
     <div class="dashboard">
         <div class="table-panel">
-            <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
-                <div class="table-scrollbar-content"></div>
-            </div>
             <div class="table-wrapper">
                 <div class="table-controls">
                     <button onclick="expandAll()">+</button>
@@ -40,6 +41,9 @@
                         <a class="ext-link" href="#" onclick="openPopup('https://stock.naver.com/domestic/stock/066570/price', true); return false;">NV</a>
                         <a class="ext-link" href="#" onclick="openPopup('https://wcomp.fnguide.com/CompanyInfo/Snapshot?c_id=AA&menu_type=01&cmp_cd=066570', true); return false;">FN</a>
                     </div>
+                </div>
+                <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
+                    <div class="table-scrollbar-content"></div>
                 </div>
                 <table class="dict-table">
                     <colgroup><col class="row-label-column"><col class="financial-column"></colgroup>
@@ -96,37 +100,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>소비재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>자유소비재</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:22</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -195,6 +169,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=7#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">소비재 (7)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=72#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">자유소비재 (72)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=721#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">가전제품 (721)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=7211#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">대형 가전 (7211)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -204,7 +217,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>5,290</span>
+                                <span>4,930</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -273,7 +286,7 @@
                         <tr class="value-row level-2">
                             <td class="label">slope (qtr, in unit)</td>
                             <td class="value">
-                                <span>0.77</span>
+                                <span>0.76</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -342,7 +355,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_ltm</td>
                             <td class="value">
-                                <span>18.6</span>
+                                <span>17.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -351,7 +364,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
                             <td class="value">
-                                <span>18.6</span>
+                                <span>17.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -360,7 +373,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
                             <td class="value">
-                                <span>18.1</span>
+                                <span>16.9</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -372,7 +385,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-43</span>
+                                <span>-40</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -384,7 +397,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-77</span>
+                                <span>-78</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -399,7 +412,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.03</span>
+                                <span>0.029</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -420,16 +433,16 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>0.023</span>
+                                <span>-0.1</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.86</span>
+                                <span>0.74</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -441,7 +454,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.81</span>
+                                <span>-0.82</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -450,7 +463,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.73</span>
+                                <span>0.7</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -535,14 +548,12 @@
                 </table>
             </div>
         </div>
-        <div class="charts-panel">
-            <div class="chart-card">
+        <div class="charts-panel"><div class="chart-card">
                 <img src="066570(B)_TV,_오디오.png" class="analysis-image" onclick="openPopup('066570(B)_TV,_오디오.png');">
             </div>
             <div class="chart-card">
                 <img src="http://10.245.110.101:3000/data/066570.png" class="analysis-image" onclick="openPopup('http://10.245.110.101:3000/data/066570.png');">
-            </div>
-        </div>
+            </div></div>
     </div>
     
         <h3>Qualitative Analysis</h3>
@@ -673,7 +684,7 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:54</td>
+                                <td>2026-11-16 15:20</td>
                             </tr>
                             <tr>
                                 <th>key_financials</th>
@@ -688,19 +699,19 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>영국 하이엔드 오디오 업체 메리디안과 파트너십을 통해 음향 기술을 접목한 사운드바 및 포터블 스피커를 개발했으며, 사운드바 &#x27;SL9&#x27;이 CES 2019 최고혁신상을 수상함</td>
+                                <td>메리디안(Meridian) 등 외부 오디오 명가와의 협업을 통해 음향 기술을 접목하는 전략 추진 (2017년 파트너십 체결, 2018년 공동 개발 제품 공개)</td>
                             </tr>
                             <tr>
-                                <td>2026년 7월 5일, 덴마크 오디오 브랜드 피어리스의 드라이버와 AI 프로세서(알파11 3세대), 초광대역(UWB) 기술 등을 적용한 &#x27;LG 사운드 스위트&#x27;(사운드바 H7, 무선 서라운드 스피커 M5·M7, 서브우퍼 W7)를 국내 출시함</td>
+                                <td>&#x27;LG 사운드 스위트&#x27;(사운드바 H7, 무선 서라운드 스피커 M5·M7, 서브우퍼 W7) 출시 (2026년 7월 5일 국내 출시). 덴마크 피어리스 드라이버 탑재 및 돌비 애트모스 플렉스커넥트 국내 최초 지원</td>
                             </tr>
                             <tr>
-                                <td>윌아이엠(will.i.am)과 협업한 &#x27;엑스붐 바이 윌아이엠(xboom by will.i.am)&#x27; 브랜드를 전개 중이며, CES 2026에서 스테이지 501, 블라스트, 미니, 락 등 신제품 4종을 공개하고 해외 시장 중심의 포터블 오디오 성장 전략을 추진함</td>
+                                <td>&#x27;엑스붐 바이 윌아이엠(xboom by will.i.am)&#x27; 브랜드 전개 및 CES 2026에서 신제품 4종(스테이지 501, 블라스트, 미니, 락) 공개 (해외 시장 중심의 포터블 오디오 확대 전략)</td>
                             </tr>
                             <tr>
-                                <td>나이지리아 스마트TV 시장에서 음성인식, 콘텐츠 인식, 맞춤형 광고 기능을 이용자가 직접 선택하는 방식으로 운영하며, 일부 모델에 대해 웹OS 출시 기준 최대 5년간 보안 업데이트를 지원함</td>
+                                <td>나이지리아 시장에서 스마트TV 개인정보 설정(음성인식, 콘텐츠 인식, 맞춤형 광고 등)을 이용자 선택형으로 운영 및 일부 모델 웹OS 기준 최대 5년 보안 업데이트 지원 (2026년 9월)</td>
                             </tr>
                             <tr>
-                                <td>프리미엄 TV 시장 공략을 위해 &#x27;올레드 에보(evo)&#x27; 및 &#x27;마이크로 RGB 에보&#x27; 제품군을 새롭게 출시함</td>
+                                <td>프리미엄 TV 시장 공략을 위해 &#x27;올레드 에보(evo)&#x27; 및 &#x27;마이크로 RGB 에보&#x27; 신제품 출시</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -710,17 +721,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>해외 IT 유튜버 &#x27;Gamers Nexus&#x27; 등이 LG 스마트 TV가 대기 상태에서도 음성을 포착하고 네트워크 내 기기 정보를 탐색하며, ACR 데이터를 과도하게 수집한다는 의혹을 제기함 (LG전자는 이를 전면 부인하며 호출어 인식 시에만 제한적으로 작동한다고 반박함)</td>
+                                <td>해외 유튜버(Gamers Nexus) 등이 제기한 스마트TV의 상시 감청, 대기 상태 데이터 수집 및 가정 내 네트워크 기기 탐색 의혹 (LG전자는 이를 전면 부인하며 웨이크워드 인식 시에만 제한적으로 처리한다고 반박)</td>
                             </tr>
                             <tr>
-                                <td>메모리 반도체 가격 상승으로 인해 TV 제조 원가 부담이 증가하고 있으며, 특히 소형·저가형 라인업의 수익성 악화 우려가 있음</td>
+                                <td>자동 콘텐츠 인식(ACR) 기술을 통한 시청 데이터 수집 및 광고 사업 활용에 따른 프라이버시 침해 논란</td>
+                            </tr>
+                            <tr>
+                                <td>메모리 반도체 가격 상승으로 인한 TV 제조 원가 부담 증가 (특히 보급형 제품의 수익성 압박 심화)</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>LG전자는 외부 오디오 명가와의 협업을 통해 프리미엄 사운드 경쟁력을 강화하고 있습니다. 메리디안과의 파트너십에 이어 최근 피어리스 드라이버를 탑재한 &#x27;LG 사운드 스위트&#x27;를 출시했으며, 윌아이엠과 협업한 &#x27;엑스붐&#x27; 브랜드로 글로벌 포터블 오디오 시장을 공략하고 있습니다. TV 사업에서는 &#x27;올레드 에보&#x27; 등 프리미엄 라인업을 확대해 메모리 가격 상승으로 인한 원가 부담에 대응하고 있습니다. 한편, 스마트 TV의 무단 음성 수집 및 데이터 과다 수집 의혹이 제기되었으나 사측은 이를 부인하며 투명한 개인정보 설정 및 보안 업데이트 강화를 강조하고 있습니다.</td>
+                                <td>LG전자는 TV 및 오디오 부문에서 외부 전문 브랜드(메리디안, 피어리스, 윌아이엠 등)와의 협업을 통한 프리미엄 사운드 전략을 강화하고 있으며, &#x27;LG 사운드 스위트&#x27;와 &#x27;엑스붐 바이 윌아이엠&#x27; 등 신제품을 통해 시장을 확대하고 있습니다. TV 사업에서는 &#x27;올레드 에보&#x27; 등 고가 제품 비중을 높여 메모리 가격 상승에 따른 원가 부담에 대응하고 있습니다. 한편, 스마트TV의 데이터 수집 및 상시 녹음 의혹과 관련하여 강력히 부인하며, 나이지리아 등 일부 시장에서 개인정보 설정을 선택형으로 운영하는 등 보안 및 프라이버시 관리를 강화하고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -740,7 +754,7 @@
             aria-controls="roma-plot-066570-B-" title="ROMA plot (r)">ROMA plot (r)</button>
         <template class="roma-plot-template" id="roma-plot-066570-B-"
             data-title="ROMA plot — 066570(B)"><div style="height:100%; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-066570-B-" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-066570-B-")) {                    Plotly.newPlot(                        "roma-plot-066570-B-",                        [{"customdata":[["2016-04-01",3660.9829348999997],["2016-07-01",2923.7725265],["2016-10-01",2217.7863856500003],["2017-01-01",2180.7671428500003],["2017-04-01",4198.368341300001],["2017-07-01",4859.3220771000015],["2017-10-01",6767.4733897999995],["2018-01-01",6485.511448900001],["2018-04-01",5050.9724514],["2018-07-01",4555.903502],["2018-10-01",4632.910893299999],["2019-01-01",2900.0358285],["2019-04-01",3646.6197082999997],["2019-07-01",3391.7972965],["2019-10-01",2399.9864879999996],["2020-01-01",1797.2074069999999],["2020-04-01",3071.7963311],["2020-07-01",3485.7824984499994],["2020-10-01",6731.0935611],["2021-01-01",12656.9148891],["2021-04-01",30502.788351000003],["2021-07-01",13213.7330895],["2021-10-01",9731.033474999998],["2022-01-01",8052.933396500001],["2022-04-01",8390.746212],["2022-07-01",6519.7125582],["2022-10-01",4225.5565387999995],["2023-01-01",4063.4692668999996],["2023-04-01",5517.9996470999995],["2023-07-01",5790.6033039],["2023-10-01",5102.3067808999995],["2024-01-01",4098.1412602],["2024-04-01",3215.9903630999997],["2024-07-01",6022.7060831],["2024-10-01",4242.9498486],["2025-01-01",2345.4842969],["2025-04-01",2647.9266485999997],["2025-07-01",2090.6828021],["2025-10-01",2733.3606788],["2026-01-01",4188.1117045],["2026-04-01",11853.997532499998],["2026-07-01",38422.9383231]],"hovertemplate":"LG\uc804\uc790\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"29ehJg9vKUD1qraY6MonQN6UuFM1AyZAbuYJRW\u002fpJUB9we2+HYcqQJDj2LoAyCtAtMExiOb7LkACJNo+zYouQMRs7FLmICxAhiCA\u002fpg3K0A\u002f1uMcsVwrQESbaeeLvCdAJp0rCU1nKUBOgxpnB9soQB4L9iAJfyZA9vf6003QJEDa1UGXLyMoQFpn5edbDylAhuHGNXHtLkBNuFDzO1kzQD+VZ5NbRjtABhANySmpM0AZZ3iVzZQxQJjbYtj1cTBA6fc5lciuMEBgE21JppguQD7VCVLLlCpAp8HB5pVCKkDtdkpZtvIsQK+Ogj0WaS1AVlO6ZGw4LED8kRSDTlQqQE4dgQgodyhA+Qq3ELLLLUAIItWAhZ0qQNzuUcWAWiZAJ9ZTNjggJ0DFHtJayaklQE9SJEX\u002fVSdASNbJ2PGBKkDaOyHZ0OIyQAAAAAAAAD5A"},"sizemode":"diameter"},"mode":"lines+markers","name":"LG\uc804\uc790","x":{"dtype":"f8","bdata":"7snDQi3hlUDVeOkmsamUQOM2GsAbF5dA+MJkquDmlkDdtYR8kLyWQC2yne+nyZdAOPjCZGqBmkDaiv1lN6GXQDlFR3K5d5dAuB6F69EamEBsCfmg56SYQMe6uI0GTpdADpwzorRrmEBeukkMQoiYQOpztRV7GJlARpT2Bh8Dl0C3QILihw2UQP0Yc9fSb5pAEqW9wVdYnUBa9bnaymOdQO0vuyePvZpASHL5D6lanUDwFkhQvGmgQNSa5h1HfqBAGLfRAJ5pnkB9PzVeWougQK2L22iAE6FA2PD0Slnmn0DoSC7\u002fYT+fQO58PzXeLaBA4lgXt9EMokDImLuWMHugQN4CCYrf8qBAGi\u002fdJEZToUBSuB6FS8ihQKyt2F\u002f2w6FANe84RQczoEAGo5I6wRahQB6n6EhuoqJAowG8BXKJokAbnl4pS52iQBueXilLnaJA"},"y":{"dtype":"f8","bdata":"pHA9CtdEgkDByqFFtrNxQHWTGARWnkHAPzVeuknMjEBzaJHtfMCEQDm0yHa+IIBAObTIdr7tdkBU46WbRE+RQJhuEoPAF4hAWmQ7309mh0Dn+6nx0u1SQCcxCKwcJYxAN4lBYOVhhECmm8QgsGuIQBfZzvdTc1lAVg4tsp0JkUCiRbbz\u002ffZ+QAIrhxbZ941AuB6F61FRhEDdJAaBlbKXQLpJDAIrcYtAO99PjZflgEDHSzeJQS2FQLByaJHtYZ1AeekmMQjCiED6fmq8dFSHQNNNYhBYUVFAZDvfT41ll0B1kxgEVi+HQOF6FK5HJY9AObTIdr6Rc0CgGi\u002fdpN2UQN0kBoGVsJJA16NwPQp\u002fh0A730+Nl+pgQNv5fmo8rJNArBxaZDv7g0DTTWIQWIeFQJ7vp8ZLP1vACKwcWuQmmkAX2c73U6yYQBfZzvdTrJhA"},"z":{"dtype":"f8","bdata":"nWNrdpfMWEDkinnA9m9WQF9j4zZkgVNA5sVeLxoDVUCY7aCYUKZbQDljK3dFVGBAtMW+L\u002fHGYECyFAMDDJVlQDF3kEt6S2ZABLLPSjfmYEBFxqoO5\u002fNcQGmyD0qJXllAOlDsEBtGX0B0ATxdrjtfQM2e\u002fMReFFtA+9mNEyZcXUDqAESePZZTQJsohgd0OVpAkBRF06+rYkCDst\u002fJnXxrQIZPQgLJL3BATp7sRfh9cEDhFKlyco1pQBNQNFH8GGxACcYcX3bsZ0CfTxKC3U1iQA3tqNnfAGBAgxRdk6WcYUCOY4mmynlnQIPtyqj+y2lACTzzHDiLZECBnoxFIbpkQBF3zKvgpWNAk55opbBQZkAkd6gLcDxlQPJ2CAxHAGFAtLJ\u002fyca4X0BuAUg9KbReQB0VNyLjlF5AVWP1hhy2YkDDFOXS2OdmQCaykDKyrXNA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["LG\uc804\uc790"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[2382.6468],"y":[1579.082],"z":[314.856005254],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 3,842","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 19,211","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 38,423","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-190.81723200000002,2576.032632],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-268.14668,2039.63968],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-25.18848042032,340.04448567432],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>                <div id="roma-plot-066570-B-" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("roma-plot-066570-B-")) {                    Plotly.newPlot(                        "roma-plot-066570-B-",                        [{"customdata":[["2016-04-01",3660.9829348999997],["2016-07-01",2923.7725265],["2016-10-01",2217.7863856500003],["2017-01-01",2180.7671428500003],["2017-04-01",4198.368341300001],["2017-07-01",4859.3220771000015],["2017-10-01",6767.4733897999995],["2018-01-01",6485.511448900001],["2018-04-01",5050.9724514],["2018-07-01",4555.903502],["2018-10-01",4632.910893299999],["2019-01-01",2900.0358285],["2019-04-01",3646.6197082999997],["2019-07-01",3391.7972965],["2019-10-01",2399.9864879999996],["2020-01-01",1797.2074069999999],["2020-04-01",3071.7963311],["2020-07-01",3485.7824984499994],["2020-10-01",6731.0935611],["2021-01-01",12656.9148891],["2021-04-01",30502.788351000003],["2021-07-01",13213.7330895],["2021-10-01",9731.033474999998],["2022-01-01",8052.933396500001],["2022-04-01",8390.746212],["2022-07-01",6519.7125582],["2022-10-01",4225.5565387999995],["2023-01-01",4063.4692668999996],["2023-04-01",5517.9996470999995],["2023-07-01",5790.6033039],["2023-10-01",5102.3067808999995],["2024-01-01",4098.1412602],["2024-04-01",3215.9903630999997],["2024-07-01",6022.7060831],["2024-10-01",4242.9498486],["2025-01-01",2345.4842969],["2025-04-01",2647.9266485999997],["2025-07-01",2090.6828021],["2025-10-01",2733.3606788],["2026-01-01",4188.1117045],["2026-04-01",11853.997532499998],["2026-07-01",38422.9383231]],"hovertemplate":"LG\uc804\uc790\u003cbr\u003eDate: %{customdata[0]}\u003cbr\u003eRevenue (100 uk): %{x:,.0f}\u003cbr\u003eOperating income (10 uk): %{y:,.0f}\u003cbr\u003eMarket cap (1k uk): %{z:,.0f}\u003cbr\u003eQuarterly amount (10 uk): %{customdata[1]:,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#2E91E5","width":4},"marker":{"color":"#2E91E5","opacity":0.85,"size":{"dtype":"f8","bdata":"29ehJg9vKUD1qraY6MonQN6UuFM1AyZAbuYJRW\u002fpJUB9we2+HYcqQJDj2LoAyCtAtMExiOb7LkACJNo+zYouQMRs7FLmICxAhiCA\u002fpg3K0A\u002f1uMcsVwrQESbaeeLvCdAJp0rCU1nKUBOgxpnB9soQB4L9iAJfyZA9vf6003QJEDa1UGXLyMoQFpn5edbDylAhuHGNXHtLkBNuFDzO1kzQD+VZ5NbRjtABhANySmpM0AZZ3iVzZQxQJjbYtj1cTBA6fc5lciuMEBgE21JppguQD7VCVLLlCpAp8HB5pVCKkDtdkpZtvIsQK+Ogj0WaS1AVlO6ZGw4LED8kRSDTlQqQE4dgQgodyhA+Qq3ELLLLUAIItWAhZ0qQNzuUcWAWiZAJ9ZTNjggJ0DFHtJayaklQE9SJEX\u002fVSdASNbJ2PGBKkDaOyHZ0OIyQAAAAAAAAD5A"},"sizemode":"diameter"},"mode":"lines+markers","name":"LG\uc804\uc790","x":{"dtype":"f8","bdata":"7snDQi3hlUDVeOkmsamUQOM2GsAbF5dA+MJkquDmlkDdtYR8kLyWQC2yne+nyZdAOPjCZGqBmkDaiv1lN6GXQDlFR3K5d5dAuB6F69EamEBsCfmg56SYQMe6uI0GTpdADpwzorRrmEBeukkMQoiYQOpztRV7GJlARpT2Bh8Dl0C3QILihw2UQP0Yc9fSb5pAEqW9wVdYnUBa9bnaymOdQO0vuyePvZpASHL5D6lanUDwFkhQvGmgQNSa5h1HfqBAGLfRAJ5pnkB9PzVeWougQK2L22iAE6FA2PD0Slnmn0DoSC7\u002fYT+fQO58PzXeLaBA4lgXt9EMokDImLuWMHugQN4CCYrf8qBAGi\u002fdJEZToUBSuB6FS8ihQKyt2F\u002f2w6FANe84RQczoEAGo5I6wRahQB6n6EhuoqJAowG8BXKJokAbnl4pS52iQIpBYOXQnKJA"},"y":{"dtype":"f8","bdata":"pHA9CtdEgkDByqFFtrNxQHWTGARWnkHAPzVeuknMjEBzaJHtfMCEQDm0yHa+IIBAObTIdr7tdkBU46WbRE+RQJhuEoPAF4hAWmQ7309mh0Dn+6nx0u1SQCcxCKwcJYxAN4lBYOVhhECmm8QgsGuIQBfZzvdTc1lAVg4tsp0JkUCiRbbz\u002ffZ+QAIrhxbZ941AuB6F61FRhEDdJAaBlbKXQLpJDAIrcYtAO99PjZflgEDHSzeJQS2FQLByaJHtYZ1AeekmMQjCiED6fmq8dFSHQNNNYhBYUVFAZDvfT41ll0B1kxgEVi+HQOF6FK5HJY9AObTIdr6Rc0CgGi\u002fdpN2UQN0kBoGVsJJA16NwPQp\u002fh0A730+Nl+pgQNv5fmo8rJNArBxaZDv7g0DTTWIQWIeFQJ7vp8ZLP1vACKwcWuQmmkAX2c73U6yYQL6fGi\u002fdbohA"},"z":{"dtype":"f8","bdata":"nWNrdpfMWEDkinnA9m9WQF9j4zZkgVNA5sVeLxoDVUCY7aCYUKZbQDljK3dFVGBAtMW+L\u002fHGYECyFAMDDJVlQDF3kEt6S2ZABLLPSjfmYEBFxqoO5\u002fNcQGmyD0qJXllAOlDsEBtGX0B0ATxdrjtfQM2e\u002fMReFFtA+9mNEyZcXUDqAESePZZTQJsohgd0OVpAkBRF06+rYkCDst\u002fJnXxrQIZPQgLJL3BATp7sRfh9cEDhFKlyco1pQBNQNFH8GGxACcYcX3bsZ0CfTxKC3U1iQA3tqNnfAGBAgxRdk6WcYUCOY4mmynlnQIPtyqj+y2lACTzzHDiLZECBnoxFIbpkQBF3zKvgpWNAk55opbBQZkAkd6gLcDxlQPJ2CAxHAGFAtLJ\u002fyca4X0BuAUg9KbReQB0VNyLjlF5AVWP1hhy2YkDDFOXS2OdmQCaykDKyrXNA"},"type":"scatter3d"},{"hoverinfo":"skip","mode":"text","showlegend":false,"text":["LG\uc804\uc790"],"textfont":{"color":"#2E91E5","size":12},"textposition":"top center","x":[2382.4080000000004],"y":[781.858],"z":[314.856005254],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":12.905694150420949,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 3,842","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":22.67766952966369,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 19,211","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"},{"hoverinfo":"skip","marker":{"color":"gray","size":30.0,"sizemode":"diameter"},"mode":"markers","name":"Amount (10 uk): 38,423","showlegend":true,"x":[null],"y":[null],"z":[null],"type":"scatter3d"}],                        {"legend":{"bgcolor":"rgba(255, 255, 255, 0.75)","bordercolor":"#cbd5e1","borderwidth":1,"title":{"text":"Company \u002f Quarterly amount"},"x":0.99,"xanchor":"right","y":0.99,"yanchor":"top"},"paper_bgcolor":"white","plot_bgcolor":"white","scene":{"aspectmode":"auto","xaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-190.81723200000002,2576.032632],"showbackground":true,"showgrid":true,"title":{"text":"Revenue (100 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"yaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-268.14668,2039.63968],"showbackground":true,"showgrid":true,"title":{"text":"Operating income (10 uk)"},"zeroline":true,"zerolinecolor":"#999999"},"zaxis":{"backgroundcolor":"white","gridcolor":"#e5e5e5","range":[-25.18848042032,340.04448567432],"showbackground":true,"showgrid":true,"title":{"text":"Market cap (1k uk)"},"zeroline":true,"zerolinecolor":"#999999"}},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}}},                        {"responsive": true}                    )                };            </script>        </div></template>
     
         <button class="mv-plot-link" type="button" aria-haspopup="dialog"
             data-code="066570"
@@ -840,40 +854,7 @@
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-10-21_[CalgaryRoughnecks]_기능이_겹쳐_적용되는지_확인하는_학폭_맞고소_조건_설명.md"
-                data-news-path="build/news/profiles/066570(B)_TV,_오디오/2026-10-21_[CalgaryRoughnecks]_기능이_겹쳐_적용되는지_확인하는_학폭_맞고소_조건_설명.md"
-                data-object-type="Segment"
-                data-object-id="066570(B)">
-                <a href="#" onclick="openPopup('/build/news/profiles/066570(B)_TV,_오디오/2026-10-21_[CalgaryRoughnecks]_기능이_겹쳐_적용되는지_확인하는_학폭_맞고소_조건_설명.md'); return false;">
-                    2026-10-21 [CalgaryRoughnecks] 기능이 겹쳐 적용되는지 확인하는 학폭 맞고소 조건 설명
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-20_[CalgaryRoughnecks]_어떤_구조인지_짧게_파악하는_동계아시안게임_군면제.md"
-                data-news-path="build/news/profiles/066570(B)_TV,_오디오/2026-10-20_[CalgaryRoughnecks]_어떤_구조인지_짧게_파악하는_동계아시안게임_군면제.md"
-                data-object-type="Segment"
-                data-object-id="066570(B)">
-                <a href="#" onclick="openPopup('/build/news/profiles/066570(B)_TV,_오디오/2026-10-20_[CalgaryRoughnecks]_어떤_구조인지_짧게_파악하는_동계아시안게임_군면제.md'); return false;">
-                    2026-10-20 [CalgaryRoughnecks] 어떤 구조인지 짧게 파악하는 동계아시안게임 군면제
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-18_[CalgaryRoughnecks]_토토_가입_머니_사이트_배당표의_줄과_열_이해.md"
-                data-news-path="build/news/profiles/066570(B)_TV,_오디오/2026-10-18_[CalgaryRoughnecks]_토토_가입_머니_사이트_배당표의_줄과_열_이해.md"
-                data-object-type="Segment"
-                data-object-id="066570(B)">
-                <a href="#" onclick="openPopup('/build/news/profiles/066570(B)_TV,_오디오/2026-10-18_[CalgaryRoughnecks]_토토_가입_머니_사이트_배당표의_줄과_열_이해.md'); return false;">
-                    2026-10-18 [CalgaryRoughnecks] 토토 가입 머니 사이트 배당표의 줄과 열 이해
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-10-13_[코리아리포트]_삼성_사들이고_LG_손잡는다...가전업계_프리미엄_사운드_쟁탈전.md"
+        <div class="news-row" data-news-file="2026-10-13_[코리아리포트]_삼성_사들이고_LG_손잡는다...가전업계_프리미엄_사운드_쟁탈전.md"
                 data-news-path="build/news/profiles/066570(B)_TV,_오디오/2026-10-13_[코리아리포트]_삼성_사들이고_LG_손잡는다...가전업계_프리미엄_사운드_쟁탈전.md"
                 data-object-type="Segment"
                 data-object-id="066570(B)">
@@ -989,6 +970,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

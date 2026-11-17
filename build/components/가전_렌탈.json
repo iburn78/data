@@ -1,7 +1,7 @@
 {
     "key": "가전 렌탈",
     "filename": "가전_렌탈",
-    "updated": "2026-11-12 18:32",
+    "updated": "2026-11-17 12:22",
     "llm_research_updated": "2026-10-23 14:23",
     "financials": {
         "meta": {
@@ -9,8 +9,7 @@
             "code": "",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 18:32",
-            "classification": null,
+            "updated": "2026-11-17 12:22",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
@@ -21,11 +20,11 @@
         },
         "shape": {
             "financials": {
-                "marcap": 7180,
-                "revenue_ltm": 5490,
-                "opincome_ltm": 939,
-                "revenue_qtr": 1440,
-                "opincome_qtr": 253
+                "marcap": 7430,
+                "revenue_ltm": 5470,
+                "opincome_ltm": 947,
+                "revenue_qtr": 1430,
+                "opincome_qtr": 261
             },
             "share": {
                 "marcap(%)": "-",
@@ -40,8 +39,8 @@
             "opincome": {
                 "positive_ltm": true,
                 "higher(comp)": true,
-                "slope": 5.7,
-                "growth(%)": 2.6
+                "slope": 6,
+                "growth(%)": 2.7
             },
             "opmargin(%)": {
                 "25_4Q": 14,
@@ -51,28 +50,28 @@
                 "ltm": 17
             },
             "PER": {
-                "PER_ltm": 7.64,
-                "PER_qx4": 7.08,
-                "PER_fwd": 6.71
+                "PER_ltm": 7.85,
+                "PER_qx4": 7.12,
+                "PER_fwd": 6.73
             },
             "volatility": {
-                "measure_to_base(%)": -16
+                "measure_to_base(%)": -19
             },
             "amount": {
-                "measure_to_base(%)": -6.1
+                "measure_to_base(%)": -16
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.013,
+                    "alpha(%)": 0.015,
                     "beta": 0.39
                 },
                 "base_period": {
-                    "alpha(%)": 0.12,
-                    "beta": 0.059
+                    "alpha(%)": 0.14,
+                    "beta": 0.026
                 },
                 "measure_period": {
                     "alpha(%)": -0.15,
-                    "beta": -0.036
+                    "beta": -0.13
                 },
                 "indplot_long": {
                     "alpha(%)": null,

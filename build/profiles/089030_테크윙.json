@@ -1,7 +1,7 @@
 {
     "key": "089030",
     "filename": "089030_테크윙",
-    "updated": "2026-11-12 10:42",
+    "updated": "2026-11-17 12:26",
     "llm_research_updated": "2026-10-27 09:37",
     "financials": {
         "meta": {
@@ -9,57 +9,58 @@
             "code": "089030",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 10:42",
-            "classification": {
-                "sector": "정보기술",
-                "subsector": "반도체 및 디스플레이",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:26",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "정보기술 (5)",
+                "group": "반도체 및 디스플레이 (53)",
+                "industry": "반도체 (531)",
+                "subindustry": "반도체 부품 및 장비 (5312)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 1440,
-                "revenue_ltm": 200,
-                "opincome_ltm": 35.3,
-                "revenue_qtr": 56.8,
-                "opincome_qtr": 12.5
+                "marcap": 1370,
+                "revenue_ltm": 231,
+                "opincome_ltm": 40.9,
+                "revenue_qtr": 87.8,
+                "opincome_qtr": 18.1
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": true,
                 "higher(comp)": true,
-                "slope": 0.58,
-                "growth(%)": 8.7
+                "slope": 0.84,
+                "growth(%)": 12
             },
             "opmargin(%)": {
                 "25_4Q": 1.7,
                 "26_1Q": 19,
                 "26_2Q": 22,
-                "26_3Q": 22,
+                "26_3Q": 21,
                 "ltm": 18
             },
             "PER": {
-                "PER_ltm": 40.7,
-                "PER_qx4": 28.7,
-                "PER_fwd": 25.7
+                "PER_ltm": 33.6,
+                "PER_qx4": 18.9,
+                "PER_fwd": 17
             },
             "volatility": {
-                "measure_to_base(%)": 34
+                "measure_to_base(%)": 10
             },
             "amount": {
-                "measure_to_base(%)": -70
+                "measure_to_base(%)": -75
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.088,
+                    "alpha(%)": 0.089,
                     "beta": 1.2
                 },
                 "base_period": {
@@ -67,8 +68,8 @@
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": 0.15,
-                    "beta": 1.6
+                    "alpha(%)": 0.51,
+                    "beta": 1.7
                 }
             }
         },
@@ -76,11 +77,11 @@
             "basics": true,
             "financially_sound": true,
             "PER_level": "High",
-            "volatility_level": "Up",
+            "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "-",
+            "alpha_level": "out_pfm",
             "category": "C",
-            "market_sentiment": "speculators"
+            "market_sentiment": "-"
         }
     },
     "info_section": {
@@ -146,15 +147,15 @@
         "updated": "2026-10-27 09:36"
     },
     "news": {
-        "updated": "2026-11-11 11:39",
+        "updated": "2026-11-16 15:26",
         "key_facts": [
-            "2026년 3분기 연결 매출액 약 878억원(전년비 110%↑), 영업이익 약 180억원(전년비 153%↑)을 기록하며 최근 3년 중 최고 실적을 달성함.",
-            "2026년 1~9월 누적 매출 약 1,970억원, 영업이익 약 402억원으로 이미 전년도 연간 실적(매출 1,591억원, 영업이익 158억원)을 초과함.",
-            "2026년 2분기 매출 568억원, 영업이익 125억원을 기록하며 전년 동기 대비 각각 16%, 97% 증가함.",
-            "메모리 3사(삼성전자, SK하이닉스, 마이크론)의 팹 증설 및 HBM 검사 장비 수요 증가로 메모리 테스트 핸들러 및 부품 매출이 급증함.",
-            "HBM 다이 검사 장비인 '큐브 프로버'를 삼성전자와 SK하이닉스에 공급 중이며, 2026년 3분기 삼성전자향 신제품 매출이 반영됨."
+            "2026년 3분기 매출액 약 878억원(전년比 110%↑), 영업이익 약 180억원(전년比 153%↑)을 기록하며 최근 3년 내 최대 분기 실적을 달성함.",
+            "2026년 1~9월 누적 매출(약 1,970억원)과 영업이익(약 402억원)이 이미 지난해 전체 실적을 상회함.",
+            "2026년 2분기 매출액 568억원, 영업이익 125억원(전년比 97%↑)을 기록했으며 영업이익률은 22%로 개선됨.",
+            "메모리 3사의 팹 증설 및 웨이퍼 양산 증가로 메모리 테스트 핸들러와 HBM용 검사 장비 수요가 급증함.",
+            "HBM 다이 검사 장비인 '큐브 프로버'를 삼성전자와 SK하이닉스에 공급 중이며, 2026년 3분기에 삼성전자 신제품 매출이 인식됨."
         ],
         "key_issues": [],
-        "news_summary": "테크윙은 메모리 반도체 호황과 HBM 검사 장비 수요 증가에 힘입어 2026년 2, 3분기 가파른 성장을 기록했으며, 특히 3분기에는 최근 3년 내 최대 실적을 달성하고 누적 실적으로 전년도 전체 성과를 이미 넘어섰습니다."
+        "news_summary": "테크윙은 메모리 반도체 호황과 주요 고객사의 설비 투자 확대로 2026년 2, 3분기 연속 최근 3년 내 최대 실적을 경신했습니다. 특히 HBM 검사 장비인 큐브 프로버와 테스트 핸들러의 수요 증가가 성장을 견인하며 3분기까지의 누적 실적이 이미 전년도 전체 실적을 넘어섰습니다."
     }
 }

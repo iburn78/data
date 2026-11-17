@@ -1,0 +1,138 @@
+{
+    "key": "048470",
+    "filename": "048470_대동스틸",
+    "updated": "2026-11-17 12:18",
+    "llm_research_updated": "2026-11-13 10:06",
+    "financials": {
+        "meta": {
+            "name": "대동스틸",
+            "code": "048470",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:18",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 23.2,
+                "revenue_ltm": 121,
+                "opincome_ltm": 2.86,
+                "revenue_qtr": 29.5,
+                "opincome_qtr": 0.99
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": 0.18,
+                "growth(%)": 2400
+            },
+            "opmargin(%)": {
+                "25_4Q": -1.2,
+                "26_1Q": 0.32,
+                "26_2Q": 6.8,
+                "26_3Q": 3.4,
+                "ltm": 2.4
+            },
+            "PER": {
+                "PER_ltm": 8.11,
+                "PER_qx4": 5.85,
+                "PER_fwd": 4.01
+            },
+            "volatility": {
+                "measure_to_base(%)": -20
+            },
+            "amount": {
+                "measure_to_base(%)": -21
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.025,
+                    "beta": 0.71
+                },
+                "base_period": {
+                    "alpha(%)": -0.1,
+                    "beta": 0.28
+                },
+                "measure_period": {
+                    "alpha(%)": -0.5,
+                    "beta": 0.21
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Mid",
+            "volatility_level": "-",
+            "amount_level": "-",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:06",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "국산 열연 유통 및 가공 사업",
+            "수입재 유통 및 가공 사업",
+            "임가공 서비스 사업"
+        ],
+        "revenue_share": [
+            0.7,
+            0.2,
+            0.1
+        ],
+        "trend": [
+            "회복세(판가 상승 및 원가 개선)",
+            "변동성 높음(환율 및 중국재 영향)",
+            "안정적(수수료 기반)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "열연강판, 후판, 무늬강판, 스켈프",
+            "수입 철강재, 가공 철강재",
+            "철 절단 가공 서비스, 슬리팅, 시어링"
+        ],
+        "competitors": [
+            "동국산업, 문배철강, NI스틸, 한일철강, 동양에스텍",
+            "동국산업, 문배철강, NI스틸, 한일철강, 동양에스텍",
+            "동국산업, 문배철강, NI스틸, 한일철강, 동양에스텍"
+        ]
+    },
+    "code": "048470",
+    "name": "대동스틸",
+    "overview": {
+        "title": "판매가 상승 흑자전환, 업황 회복",
+        "desc": "동사는 1973년 법인 설립 후 철강재 유통업을 시작하고, 1975년 POSCO 열연제품 지정판매점으로 선정되어 성장해왔음. 1989년 포항공장에 Die Shear Line 설치로 Coil Service Center로 전환하였고, 2002년 코스닥 시장에 상장하였음. 현재 포항과 인천에 5기의 Coil Service 설비 가동 중이며, 포항공장은 물류비 최소화로 경쟁력을 확보하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 7.6% 증가, 영업이익 흑자전환, 당기순이익은 742.7% 증가. 판매가 상승에 따라 매출이 전년 대비 증가하고 매출총이익도 개선되었으며, 판매비와 관리비 감소로 영업이익이 흑자전환에 성공함. 26년 국내 철강 업계는 하반기 개선 기대가 있으나, 건설·부동산 부진과 글로벌 제조업 둔화, 중국발 공급과잉 등으로 가격 회복탄력이 제한될 수 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:31"
+    },
+    "news": {
+        "updated": "2026-11-13 10:06",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": "제공된 기사는 특정 기업이 아닌 철강 업종 전반의 주가 하락 원인과 종목별 동향을 다루고 있습니다."
+    }
+}

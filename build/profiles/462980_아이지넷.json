@@ -1,7 +1,7 @@
 {
     "key": "462980",
     "filename": "462980_아이지넷",
-    "updated": "2026-11-12 18:31",
+    "updated": "2026-11-17 12:21",
     "llm_research_updated": "2026-11-06 15:25",
     "financials": {
         "meta": {
@@ -9,23 +9,24 @@
             "code": "462980",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 18:31",
-            "classification": {
-                "sector": "금융 및 부동산",
-                "subsector": "금융",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "금융 및 부동산 (6)",
+                "group": "금융 (61)",
+                "industry": "보험 (612)",
+                "subindustry": "기타 보험 및 보험서비스 (6123)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 25.3,
+                "marcap": 24.3,
                 "revenue_ltm": 41.9,
                 "opincome_ltm": 5.67,
                 "revenue_qtr": 9.21,
@@ -47,15 +48,15 @@
                 "ltm": 14
             },
             "PER": {
-                "PER_ltm": 4.46,
-                "PER_qx4": 5.72,
-                "PER_fwd": 4.24
+                "PER_ltm": 4.29,
+                "PER_qx4": 5.5,
+                "PER_fwd": 4.08
             },
             "volatility": {
-                "measure_to_base(%)": -24
+                "measure_to_base(%)": -25
             },
             "amount": {
-                "measure_to_base(%)": -78
+                "measure_to_base(%)": -77
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +64,12 @@
                     "beta": 0.3
                 },
                 "base_period": {
-                    "alpha(%)": -0.11,
-                    "beta": 0.28
+                    "alpha(%)": -0.078,
+                    "beta": 0.29
                 },
                 "measure_period": {
                     "alpha(%)": -0.54,
-                    "beta": 0.46
+                    "beta": 0.36
                 }
             }
         },
@@ -101,11 +102,6 @@
             0.8,
             0.135,
             0.065
-        ],
-        "opmargin": [
-            null,
-            null,
-            null
         ],
         "trend": [
             "마이데이터 기반 초개인화 서비스로 확장 중",

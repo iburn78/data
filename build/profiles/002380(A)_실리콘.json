@@ -1,0 +1,123 @@
+{
+    "key": "002380(A)",
+    "filename": "002380(A)_실리콘",
+    "updated": "2026-11-17 12:40",
+    "llm_research_updated": "2026-11-16 12:40",
+    "financials": {
+        "meta": {
+            "name": "KCC",
+            "code": "002380",
+            "segment_name": "실리콘",
+            "id": "A",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "특수 산업 소재 (2112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1540,
+                "revenue_ltm": 3330,
+                "opincome_ltm": 184,
+                "revenue_qtr": 837,
+                "opincome_qtr": 46.3
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 0.083,
+                "growth(%)": 0.18
+            },
+            "opmargin(%)": {
+                "25_4Q": 5.5,
+                "26_1Q": 5.5,
+                "26_2Q": 5.5,
+                "26_3Q": 5.5,
+                "ltm": 5.5
+            },
+            "PER": {
+                "PER_ltm": 8.38,
+                "PER_qx4": 8.35,
+                "PER_fwd": 8.31
+            },
+            "volatility": {
+                "measure_to_base(%)": -9.8
+            },
+            "amount": {
+                "measure_to_base(%)": -40
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.0097,
+                    "beta": 0.97
+                },
+                "base_period": {
+                    "alpha(%)": -0.051,
+                    "beta": 0.73
+                },
+                "measure_period": {
+                    "alpha(%)": -0.096,
+                    "beta": 0.78
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Mid",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부",
+            "실적"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.5,
+        "marcap_share": 0.5,
+        "opmargin": 0.0553,
+        "trend": "Recovering via high-value products and supply adjustment"
+    },
+    "id": "A",
+    "profile_name": "KCC",
+    "profile_code": "002380",
+    "segment_name": "실리콘",
+    "news": {
+        "updated": "2026-11-16 12:40",
+        "key_financials": [
+            "2026년 하반기 실리콘 부문 영업이익률 5% 전망 (전년 동기 대비 4%p 상승) - NH투자증권 전망치"
+        ],
+        "key_facts": [
+            "반기 기준 전체 매출에서 실리콘 부문 비중은 49.5%를 차지함",
+            "전기전자 및 퍼스널케어(화장품) 제품군 위주의 고부가 제품 집중 공략 전략 추진",
+            "AI 반도체·센서용 방열 실리콘 및 전기차용 고기능성 실리콘(방열 실리콘, 파워모듈용 실리콘 겔, 에어백 등) 개발 및 생산 강화",
+            "2026년 11월 태국 방콕 '인-코스메틱스 아시아 2026'에 참가하여 고기능 실리콘 소재 및 맞춤형 제형 솔루션 선보임",
+            "글로벌 실리콘 시장의 공급 과잉 완화 및 공급망 재편(다우 영국 공장 폐쇄, 엘켐 사업부 매각 등) 상황에 대응하여 판가 인상 및 제품 믹스 개선 추진"
+        ],
+        "key_issues": [
+            "하계 비수기 및 원화 강세 영향으로 인한 2026년 3분기 수익성 악화 및 전사 실적 타격",
+            "고부가가치 제품과 저가 제품 간의 양극화 심화로 인한 저가 제품군의 수익성 개선 지연",
+            "연간 목표 수준의 영업이익 달성까지는 다소 시간이 필요할 것으로 예상됨"
+        ],
+        "news_summary": "KCC 실리콘 부문은 2026년 3분기 계절적 비수기와 원화 강세, 저가 제품의 수익성 하락으로 인해 실적이 악화되며 전사 실적에 부정적인 영향을 미쳤습니다. 이에 KCC는 저가 제품 비중을 줄이고 AI 반도체, 전기차 전장 부품, 퍼스널케어 등 고부가가치 제품군을 확대하는 전략을 추진하고 있습니다. 글로벌 시장의 공급 과잉 완화와 공급망 재편 추세에 맞춰 판가 인상과 제품 믹스 개선을 통해 구조적인 이익 반등을 꾀하고 있으며, NH투자증권은 올해 하반기 실리콘 부문의 영업이익률이 5% 수준으로 회복될 것으로 전망했습니다."
+    }
+}

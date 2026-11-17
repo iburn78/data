@@ -1,0 +1,133 @@
+{
+    "key": "006920",
+    "filename": "006920_모헨즈",
+    "updated": "2026-11-17 12:16",
+    "llm_research_updated": "2026-11-12 21:05",
+    "financials": {
+        "meta": {
+            "name": "모헨즈",
+            "code": "006920",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "기초 건설소재 (212)",
+                "subindustry": "건설 자재 (2122)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 27.6,
+                "revenue_ltm": 80.2,
+                "opincome_ltm": -1.63,
+                "revenue_qtr": 18.4,
+                "opincome_qtr": -0.295
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.1,
+                "growth(%)": null
+            },
+            "opmargin(%)": {
+                "25_4Q": -8.1,
+                "26_1Q": -4.2,
+                "26_2Q": 5.3,
+                "26_3Q": -1.6,
+                "ltm": -2
+            },
+            "PER": {
+                "PER_ltm": null,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -63
+            },
+            "amount": {
+                "measure_to_base(%)": -96
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.013,
+                    "beta": 0.65
+                },
+                "base_period": {
+                    "alpha(%)": -0.15,
+                    "beta": -0.025
+                },
+                "measure_period": {
+                    "alpha(%)": -0.63,
+                    "beta": 0.089
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "(na)",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:05",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "레미콘 제조 및 판매",
+            "특수용접(Hardfacing) 사업"
+        ],
+        "revenue_share": [
+            0.95,
+            0.05
+        ],
+        "trend": [
+            "공공 발주 확대 기대나 민간 수요 회복 제한적",
+            "적용 분야 확대를 통한 성장 모색 중"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "레미콘",
+            "내마모 육성 용접(Hardfacing) 서비스"
+        ],
+        "competitors": [
+            "지역 중소 레미콘 업체, LX하우시스, KCC",
+            "산업설비 보수 전문 업체"
+        ]
+    },
+    "code": "006920",
+    "name": "모헨즈",
+    "overview": {
+        "title": "건설경기 부진 속 점유율 확대",
+        "desc": "동사는 1970년 레미콘 제조 및 판매 등을 주요 목적사업으로 설립되어 1989년 코스닥시장에 상장하였음. 종속회사로 레미콘 제조 및 판매, 용접사업을 영위하는 덕원산업(주)를 보유하고 있으며, 지분율은 55.50%임. 지배회사인 (주)모헨즈는 레미콘 제조 및 판매에 관한 사업을 주사업으로 하고 있으며, 종속회사인 덕원산업(주)는 레미콘 제조 및 판매와 함께 Hardfacing 용접사업을 영위하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 2.5% 증가, 영업이익 흑자전환, 당기순손실은 89.4% 감소. 레미콘 사업은 건설경기와 밀접하며, 2025년 민간부문 부진과 대기업 수주 급감으로 하락했으나, 동사는 신규현장 계약과 조달물량 판매 증대로 실적을 개선함. 2026년 건설수주는 공공부문 발주가 시장을 이끌 것이나, 민간수주는 고금리와 PF 불확실성으로 회복세가 제한적일 것으로 예상됨.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:05"
+    },
+    "news": {
+        "updated": "2026-11-12 21:05",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

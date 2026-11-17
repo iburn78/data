@@ -487,10 +487,10 @@ async function showManual() {
     }
 }
 
-function appendSectorMapLabel(container, item) {
+function appendClassificationMapLabel(container, item) {
     if (item.code) {
         const code = document.createElement("span");
-        code.className = "sector-map-code";
+        code.className = "classification-map-code";
         code.textContent = item.code;
         container.appendChild(code);
     }
@@ -499,70 +499,141 @@ function appendSectorMapLabel(container, item) {
     container.appendChild(korean);
     if (item.name?.en) {
         const english = document.createElement("span");
-        english.className = "sector-map-english";
+        english.className = "classification-map-english";
         english.textContent = item.name.en;
         container.appendChild(english);
     }
 }
 
-function appendSectorMapDefinition(container, definition) {
+function appendClassificationMapDefinition(container, definition) {
     if (!definition) return;
     const paragraph = document.createElement("p");
-    paragraph.className = "sector-map-definition";
+    paragraph.className = "classification-map-definition";
     paragraph.textContent = definition;
     container.appendChild(paragraph);
 }
 
-function renderSectorMap(article, sectorMap) {
+function renderClassificationMap(article, classificationMap) {
     article.replaceChildren();
+    const requestedLevel = new URLSearchParams(location.search).get("classificationLevel");
+    const requestedCode = new URLSearchParams(location.search).get("classificationCode");
+    let selectedElement = null;
     const title = document.createElement("h1");
-    title.textContent = "KRX Sector Map";
+    title.textContent = "Classification Map";
     article.appendChild(title);
-    const source = document.createElement("p");
-    source.textContent = `Source workbook: ${sectorMap.fileName}`;
-    article.appendChild(source);
+
+    const actions = document.createElement("div");
+    actions.className = "classification-map-actions";
 
     const tree = document.createElement("div");
-    tree.className = "sector-map-tree";
-    for (const sector of sectorMap.sectors ?? []) {
+    tree.className = "classification-map-tree";
+    for (const sector of classificationMap.sectors ?? []) {
+        const sectorTarget = requestedLevel === "sector" && sector.code === requestedCode;
+        const sectorRow = document.createElement("div");
+        sectorRow.className = "classification-map-sector-row";
+
         const sectorDetails = document.createElement("details");
         const sectorHeading = document.createElement("summary");
-        appendSectorMapLabel(sectorHeading, sector);
+        appendClassificationMapLabel(sectorHeading, sector);
         sectorHeading.append(` · ${sector.groups.length} groups`);
         sectorDetails.appendChild(sectorHeading);
+        if (sectorTarget) {
+            sectorDetails.open = true;
+            selectedElement = sectorHeading;
+        }
+
+        const sectorActions = document.createElement("div");
+        sectorActions.className = "classification-map-sector-actions";
+        for (const [label, expand] of [["+", true], ["−", false]]) {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "classification-map-action";
+            button.textContent = label;
+            const sectorName = sector.name?.ko || sector.code;
+            button.title = `${expand ? "Expand" : "Collapse"} ${sectorName}`;
+            button.setAttribute("aria-label", button.title);
+            button.addEventListener("click", () => {
+                sectorDetails.open = expand;
+                sectorDetails.querySelectorAll("details").forEach(details => {
+                    details.open = expand;
+                });
+            });
+            sectorActions.appendChild(button);
+        }
+        sectorRow.appendChild(sectorDetails);
+        sectorRow.appendChild(sectorActions);
 
         for (const group of sector.groups) {
+            const groupTarget = requestedLevel === "group" && group.code === requestedCode;
             const groupDetails = document.createElement("details");
             const groupHeading = document.createElement("summary");
-            appendSectorMapLabel(groupHeading, group);
+            appendClassificationMapLabel(groupHeading, group);
             groupHeading.append(` · ${group.industries.length} industries`);
             groupDetails.appendChild(groupHeading);
+            if (sectorTarget || groupTarget) sectorDetails.open = true;
+            if (groupTarget) {
+                groupDetails.open = true;
+                selectedElement = groupHeading;
+            }
 
             for (const industry of group.industries) {
+                const industryTarget = requestedLevel === "industry" && industry.code === requestedCode;
                 const industryDetails = document.createElement("details");
                 const industryHeading = document.createElement("summary");
-                appendSectorMapLabel(industryHeading, industry);
+                appendClassificationMapLabel(industryHeading, industry);
                 industryDetails.appendChild(industryHeading);
-                appendSectorMapDefinition(industryDetails, industry.definition);
+                appendClassificationMapDefinition(industryDetails, industry.definition);
+                if (industryTarget) {
+                    sectorDetails.open = true;
+                    groupDetails.open = true;
+                    industryDetails.open = true;
+                    selectedElement = industryHeading;
+                }
 
                 for (const subindustry of industry.subindustries) {
                     const subindustryBlock = document.createElement("section");
+                    subindustryBlock.className = "classification-map-subindustry";
                     const subindustryHeading = document.createElement("p");
-                    appendSectorMapLabel(subindustryHeading, subindustry);
+                    subindustryHeading.className = "classification-map-subindustry-heading";
+                    appendClassificationMapLabel(subindustryHeading, subindustry);
                     subindustryBlock.appendChild(subindustryHeading);
-                    appendSectorMapDefinition(subindustryBlock, subindustry.definition);
+                    appendClassificationMapDefinition(subindustryBlock, subindustry.definition);
+                    if (requestedLevel === "subindustry" && subindustry.code === requestedCode) {
+                        sectorDetails.open = true;
+                        groupDetails.open = true;
+                        industryDetails.open = true;
+                        selectedElement = subindustryBlock;
+                    }
                     industryDetails.appendChild(subindustryBlock);
                 }
                 groupDetails.appendChild(industryDetails);
             }
             sectorDetails.appendChild(groupDetails);
         }
-        tree.appendChild(sectorDetails);
+        tree.appendChild(sectorRow);
     }
+    for (const [label, expand] of [["+", true], ["−", false]]) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "classification-map-action";
+        button.textContent = label;
+        button.title = expand ? "Expand all" : "Collapse all";
+        button.setAttribute("aria-label", button.title);
+        button.addEventListener("click", () => {
+            tree.querySelectorAll("details").forEach(details => {
+                details.open = expand;
+            });
+        });
+        actions.appendChild(button);
+    }
+    article.appendChild(actions);
     article.appendChild(tree);
+    if (selectedElement) {
+        requestAnimationFrame(() => selectedElement.scrollIntoView({ block: "center" }));
+    }
 }
 
-async function showSectorMap() {
+async function showClassificationMap() {
     hideSearchHelp();
     const loadId = ++manualLoadId;
     currentSection = "";
@@ -574,18 +645,18 @@ async function showSectorMap() {
     const content = document.getElementById("content");
     const article = document.createElement("article");
     article.className = "manual-content";
-    article.textContent = "Loading sector map…";
+    article.textContent = "Loading classification map…";
     content.replaceChildren(article);
 
     try {
-        const response = await fetch("/api/sector-map");
-        if (!response.ok) throw new Error("Could not load the sector map.");
-        const sectorMap = await response.json();
+        const response = await fetch("/api/classification-map");
+        if (!response.ok) throw new Error("Could not load the classification map.");
+        const classificationMap = await response.json();
         if (loadId !== manualLoadId) return;
-        renderSectorMap(article, sectorMap);
+        renderClassificationMap(article, classificationMap);
     } catch (error) {
         if (loadId !== manualLoadId) return;
-        article.textContent = error.message || "Could not load the sector map.";
+        article.textContent = error.message || "Could not load the classification map.";
     }
 }
 
@@ -928,19 +999,19 @@ document.addEventListener("click", event => {
 
     if (section === "manual") {
         event.preventDefault();
-        link.closest(".nav-dropdown")?.removeAttribute("open");
+        document.querySelectorAll(".navbar .nav-dropdown[open]").forEach(menu => menu.removeAttribute("open"));
         history.pushState(null, "", "/#manual");
         document.getElementById("search").value = "";
         showManual();
         return;
     }
 
-    if (section === "sector-map") {
+    if (section === "classification-map") {
         event.preventDefault();
-        link.closest(".nav-dropdown")?.removeAttribute("open");
-        history.pushState(null, "", "/#sector-map");
+        document.querySelectorAll(".navbar .nav-dropdown[open]").forEach(menu => menu.removeAttribute("open"));
+        history.pushState(null, "", "/#classification-map");
         document.getElementById("search").value = "";
-        showSectorMap();
+        showClassificationMap();
         return;
     }
 
@@ -1075,10 +1146,13 @@ document.addEventListener("DOMContentLoaded", () => {
 // Initial page
 const section = location.hash.slice(1);
 
-if (section === "manual") {
+if (new URLSearchParams(location.search).get("classificationPopup") === "1") {
+    document.body.classList.add("classification-popup-page");
+    showClassificationMap();
+} else if (section === "manual") {
     showManual();
-} else if (section === "sector-map") {
-    showSectorMap();
+} else if (section === "classification-map") {
+    showClassificationMap();
 } else if (section && sections[section]) {
     showFiles(section);
 }

@@ -1,0 +1,155 @@
+{
+    "key": "003720",
+    "filename": "003720_삼영",
+    "updated": "2026-11-17 12:16",
+    "llm_research_updated": "2026-11-12 20:56",
+    "financials": {
+        "meta": {
+            "name": "삼영",
+            "code": "003720",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "첨단 산업 소재 (2111)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 156,
+                "revenue_ltm": 186,
+                "opincome_ltm": 20.4,
+                "revenue_qtr": 41.2,
+                "opincome_qtr": 2.52
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.37,
+                "growth(%)": 10
+            },
+            "opmargin(%)": {
+                "25_4Q": 11,
+                "26_1Q": 12,
+                "26_2Q": 13,
+                "26_3Q": 6.1,
+                "ltm": 11
+            },
+            "PER": {
+                "PER_ltm": 7.62,
+                "PER_qx4": 15.4,
+                "PER_fwd": 11.3
+            },
+            "volatility": {
+                "measure_to_base(%)": -4.8
+            },
+            "amount": {
+                "measure_to_base(%)": -79
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.049,
+                    "beta": 0.85
+                },
+                "base_period": {
+                    "alpha(%)": -0.35,
+                    "beta": 0.73
+                },
+                "measure_period": {
+                    "alpha(%)": -0.66,
+                    "beta": 0.94
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:56",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "전자소재 (PPC)",
+            "중공업 (조선기자재)",
+            "포장재 (BOPP)",
+            "기타 포장소재"
+        ],
+        "revenue_share": [
+            0.386,
+            0.403,
+            0.153,
+            0.058
+        ],
+        "opmargin": [
+            null,
+            0.15,
+            null,
+            null
+        ],
+        "trend": [
+            "improving (AI/EV 수요 증가)",
+            "improving (조선 슈퍼사이클)",
+            "stable (Cash Cow)",
+            "stable"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "커패시터 필름 (PPC)",
+            "선박엔진 실린더 라이너, 엔진 프레임 주물",
+            "BOPP 필름",
+            "PVC랩, 다층 CPP"
+        ],
+        "competitors": [
+            "Toray",
+            "국내 선박엔진 부품사",
+            "중국 BOPP 업체",
+            "중국 포장재 업체"
+        ]
+    },
+    "code": "003720",
+    "name": "삼영",
+    "overview": {
+        "title": "조선 슈퍼사이클과 AI 수요로 성장",
+        "desc": "동사는 1959년 설립된 중견기업으로, 삼영중공업과 SAMYOUNG CHEMICAL VIETNAM 등을 계열사로 보유함. 동사는 AI 데이터센터, 친환경차 등의 커패시터 필름을 제조하는 국내 유일, 세계 3위 생산업체로 조선기자재 사업을 영위하고 있음. 동사는 초박막 고내열성 커패시터 필름 개발로 친환경차 시장 선점 및 조선기자재 시너지 극대화를 도모하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 58.3% 증가, 영업이익은 187.5% 증가, 당기순이익은 202.3% 증가. 조선업 슈퍼사이클 진입으로 삼영캐스코 선박엔진 프레임 주물 수주가 확대되고, 발전용 수요까지 더해지며 실적이 개선되고 있음. 커패시터 필름은 신규 라인 가동으로 수출 중심 풀가동 체제를 유지하며, 고부가 전방산업 성장으로 수요가 지속 확대되고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:55"
+    },
+    "news": {
+        "updated": "2026-11-12 20:56",
+        "key_facts": [
+            "삼영의 2026년 2분기 매출액은 540억원으로 전년 동기 대비 62% 증가함.",
+            "삼영의 2026년 2분기 영업이익은 71.8억원으로 전년 동기 대비 209% 증가함.",
+            "2026년 2분기 매출액과 영업이익은 최근 3년 중 가장 높은 실적이며, 이전 최고치였던 2026년 1분기 매출액보다 12% 증가함.",
+            "실적 발표 전 외국인 투자자는 8일 연속 75만주를 순매도한 반면, 기관은 2.3만주, 개인은 73만주를 순매수함.",
+            "해당 기간 동안 삼영의 주가는 13.5% 상승함."
+        ],
+        "key_issues": [],
+        "news_summary": "삼영은 2026년 2분기에 매출액 540억원, 영업이익 71.8억원을 기록하며 최근 3년 중 최대 실적을 달성했습니다."
+    }
+}

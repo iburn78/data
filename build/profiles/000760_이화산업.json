@@ -1,0 +1,138 @@
+{
+    "key": "000760",
+    "filename": "000760_이화산업",
+    "updated": "2026-11-17 12:15",
+    "llm_research_updated": "2026-11-12 20:42",
+    "financials": {
+        "meta": {
+            "name": "이화산업",
+            "code": "000760",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:15",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "특수 산업 소재 (2112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 30.7,
+                "revenue_ltm": 47,
+                "opincome_ltm": 0.441,
+                "revenue_qtr": 11.8,
+                "opincome_qtr": -0.356
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.04,
+                "growth(%)": -20
+            },
+            "opmargin(%)": {
+                "25_4Q": -10,
+                "26_1Q": 7.1,
+                "26_2Q": 8.4,
+                "26_3Q": -3,
+                "ltm": 0.94
+            },
+            "PER": {
+                "PER_ltm": 69.5,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -22
+            },
+            "amount": {
+                "measure_to_base(%)": -34
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.00011,
+                    "beta": 0.37
+                },
+                "base_period": {
+                    "alpha(%)": -0.12,
+                    "beta": 0.29
+                },
+                "measure_period": {
+                    "alpha(%)": -0.42,
+                    "beta": 0.086
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:42",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "유통사업부문",
+            "염료사업부문",
+            "기타(임대)사업부문"
+        ],
+        "revenue_share": [
+            0.51,
+            0.24,
+            0.25
+        ],
+        "trend": [
+            "안정적 성장",
+            "업황 부진으로 감소세 및 회복 시도",
+            "안정적 유지"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "식품첨가물, 공업용첨가물, 용제류, 유·무기 화학품",
+            "반응성염료, 분산염료, 직접염료, 산성염료",
+            "부동산 임대 서비스"
+        ],
+        "competitors": [
+            "화학품 유통사, 무역상사",
+            "글로벌 염료 제조사, 중국산 염료 수입사",
+            "부동산 임대업체"
+        ]
+    },
+    "code": "000760",
+    "name": "이화산업",
+    "overview": {
+        "title": "유통사업 성장으로 실적 개선",
+        "desc": "동사는 1950년 염료 제조 및 판매 등을 목적으로 설립되었으며, 1982년 화학중간체를 제조하는 유정화학(주)를 흡수합병하였음. 1994년 유가증권시장에 상장하였으며, 주요 종속회사로 부동산 임대 전문업체인 영화기업(주)와 이화물산(주)를 보유하고 있음. 국내외 상품 도소매가 주요사업으로, 염료사업부문과 식품첨가물·공업용첨가물·용제류 등 화학품을 판매하는 유통사업부문, 부동산 임대사업부문으로 구성되어 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 1.9% 증가, 영업이익은 28.2% 증가, 당기순이익은 116.2% 증가. 유통사업부문은 식품첨가물, 공업용첨가물, 용제류 등 지속 개발과 시장확보로 매출이 증가했으나, 염료사업부문은 관련산업 부진으로 매출이 감소함. 유통사업부문의 성장 덕에 실적이 개선되었으며, 유·무기화학 산업은 수요기반이 크고 경기변동에도 큰 영향을 받지 않아 안정된 성장이 가능함.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:42"
+    },
+    "news": {
+        "updated": "2026-11-12 20:42",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

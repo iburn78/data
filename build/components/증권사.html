@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -27,9 +31,6 @@
     </h3>
     <div class="dashboard">
         <div class="table-panel">
-            <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
-                <div class="table-scrollbar-content"></div>
-            </div>
             <div class="table-wrapper">
                 <div class="table-controls">
                     <button onclick="expandAll()">+</button>
@@ -40,6 +41,9 @@
                         <a class="ext-link" href="#" onclick="openPopup('https://stock.naver.com/domestic/stock//price', true); return false;">NV</a>
                         <a class="ext-link" href="#" onclick="openPopup('https://wcomp.fnguide.com/CompanyInfo/Snapshot?c_id=AA&menu_type=01&cmp_cd=', true); return false;">FN</a>
                     </div>
+                </div>
+                <div class="table-scrollbar" aria-label="Scroll financials table horizontally" tabindex="0">
+                    <div class="table-scrollbar-content"></div>
                 </div>
                 <table class="dict-table">
                     <colgroup><col class="row-label-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"><col class="financial-column"></colgroup>
@@ -67,8 +71,8 @@
                             <th class="value"><a href="../profiles/030610_교보증권.html"><span class="column-name">교보증권</span></a></th>
                             <th class="value"><a href="../profiles/003470_유안타증권.html"><span class="column-name">유안타증권</span></a></th>
                             <th class="value"><a href="../profiles/001500_현대차증권.html"><span class="column-name">현대차증권</span></a></th>
-                            <th class="value"><a href="../profiles/001510_SK증권.html"><span class="column-name">SK증권</span></a></th>
                             <th class="value"><a href="../profiles/001270_부국증권.html"><span class="column-name">부국증권</span></a></th>
+                            <th class="value"><a href="../profiles/001510_SK증권.html"><span class="column-name">SK증권</span></a></th>
                             <th class="value"><a href="../profiles/016610_DB증권.html"><span class="column-name">DB증권</span></a></th>
                             <th class="value"><a href="../profiles/001200_유진투자증권.html"><span class="column-name" title="유진투자증권">
         <span class="column-name-preview">유진투자…</span>
@@ -161,13 +165,13 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>SK증권</span>
+                                <span>부국증권</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>부국증권</span>
+                                <span>SK증권</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -278,13 +282,13 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>001510</span>
+                                <span>001270</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>001270</span>
+                                <span>001510</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -557,469 +561,115 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 18:32</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="20">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>-</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -1844,6 +1494,477 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="20">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                None
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="20">shape</td>
                         </tr>    
@@ -1853,115 +1974,115 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>46,400</span>
+                                <span>46,000</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>12,000</span>
+                                <span>11,100</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:25.9%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:24.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>8,120</span>
+                                <span>8,420</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:17.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:18.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>6,770</span>
+                                <span>6,900</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:14.6%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:15.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>6,440</span>
+                                <span>6,530</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:13.9%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:14.2%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>5,010</span>
+                                <span>5,220</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:10.8%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:11.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1,950</span>
+                                <span>1,850</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:4.2%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:4.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>983</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.1%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>955</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.1%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>905</span>
+                                <span>929</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:2.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>758</span>
+                                <span>927</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:2.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>887</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:1.9%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>720</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:1.6%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>438</span>
+                                <span>444</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:1.0%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>404</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.9%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>421</span>
+                                <span>397</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.9%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>401</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:0.9%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>368</span>
+                                <span>357</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.8%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>343</span>
+                                <span>335</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.7%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>279</span>
+                                <span>281</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.6%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>207</span>
+                                <span>203</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.4%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>82.9</span>
+                                <span>85.2</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.2%; bottom: 0"></div>
                                 </div>
@@ -1970,15 +2091,15 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>193,000</span>
+                                <span>165,000</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>66,600</span>
+                                <span>52,400</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:34.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:31.8%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -1990,7 +2111,7 @@
                             <td class="value">
                                 <span>24,000</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:12.4%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:14.5%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -2000,39 +2121,39 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>47,100</span>
+                                <span>38,000</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:24.4%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:23.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>4,570</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.4%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:2.8%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>9,030</span>
+                                <span>7,430</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:4.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:4.5%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>9,290</span>
+                                <span>8,750</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:4.8%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:5.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>9,140</span>
+                                <span>8,070</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:4.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:4.9%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>6,560</span>
+                                <span>6,380</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:3.4%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:3.9%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -2042,39 +2163,39 @@
                                 </div>
                             </td>
                             <td class="value">
+                                <span>1,740</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:1.1%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
                                 <span>0</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:0.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1,950</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:1.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>4,200</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.2%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>4,640</span>
+                                <span>3,910</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:2.4%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2,390</span>
+                                <span>4,340</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:1.2%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:2.6%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>3,360</span>
+                                <span>2,110</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:1.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:1.3%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>2,950</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:1.8%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -2204,15 +2325,15 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>60,600</span>
+                                <span>32,400</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>21,600</span>
+                                <span>7,500</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:35.6%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:23.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -2224,7 +2345,7 @@
                             <td class="value">
                                 <span>5,990</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:9.9%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:18.5%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -2234,45 +2355,51 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>16,100</span>
+                                <span>6,930</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:26.6%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:21.4%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>1,250</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.1%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:3.9%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>3,230</span>
+                                <span>1,640</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:5.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:5.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2,550</span>
+                                <span>2,000</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:4.2%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:6.2%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2,710</span>
+                                <span>1,650</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:4.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:5.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1,810</span>
+                                <span>1,630</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:3.0%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:5.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>27</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:0.0%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:0.1%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>371</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:1.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -2282,39 +2409,33 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>583</span>
+                                <span>977</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:1.0%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:3.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1,270</span>
+                                <span>1,200</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.1%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:3.7%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1,500</span>
+                                <span>534</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:1.6%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>813</span>
+                                <span>649</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:1.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:2.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>1,060</span>
+                                <span>59.4</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:1.7%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>58.7</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:0.1%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:0.2%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
@@ -2447,111 +2568,111 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>26</span>
+                                <span>24</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>17</span>
+                                <span>18</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:65.4%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:75.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>15</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:57.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:62.5%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>14</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:53.8%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:58.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>11</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:42.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:45.8%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>4.2</span>
+                                <span>4</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:16.2%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:16.7%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2.1</span>
+                                <span>2</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:8.1%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:8.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2.1</span>
+                                <span>2</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:8.1%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:8.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>1.9</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:7.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:7.9%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>1.6</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:6.2%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:6.7%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.94</span>
+                                <span>0.97</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:3.6%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:4.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.91</span>
+                                <span>0.88</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:3.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:3.7%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>0.86</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:3.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:3.6%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.79</span>
+                                <span>0.78</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:3.2%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.73</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:3.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.74</span>
+                                <span>0.61</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.8%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:2.5%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.6</span>
+                                <span>0.44</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:1.8%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.45</span>
+                                <span>0.19</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:1.7%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>0.18</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:0.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:0.8%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
@@ -2681,7 +2802,7 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>36</span>
+                                <span>23</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -2693,9 +2814,9 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>9.9</span>
+                                <span>18</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:27.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:78.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -2705,87 +2826,87 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>27</span>
+                                <span>21</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:75.0%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:91.3%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2.1</span>
+                                <span>3.9</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:5.8%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:17.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>5.3</span>
+                                <span>5.1</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:14.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:22.2%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>4.2</span>
+                                <span>6.2</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:11.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:27.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>4.5</span>
+                                <span>5.1</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:12.5%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:22.2%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>5</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:21.7%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0.083</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:0.4%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>1.1</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:4.8%; bottom: 0"></div>
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>0</span>
+                                <div class="value-bar-container">
+                                    <div class="value-bar" style="height:0.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
                                 <span>3</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:8.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:13.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.045</span>
+                                <span>3.7</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:0.1%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:16.1%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0</span>
+                                <span>1.6</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:0.0%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:7.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>0.96</span>
+                                <span>2</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:2.7%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:8.7%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
-                                <span>2.1</span>
+                                <span>0.18</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:5.8%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>2.5</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:6.9%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>1.3</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:3.6%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>1.8</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:5.0%; bottom: 0"></div>
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>0.097</span>
-                                <div class="value-bar-container">
-                                    <div class="value-bar" style="height:0.3%; bottom: 0"></div>
+                                    <div class="value-bar" style="height:0.8%; bottom: 0"></div>
                                 </div>
                             </td>
                         </tr>
@@ -2828,19 +2949,19 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>10</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
-                                <span>4</span>
+                                <span>8</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
                                 <span>6</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>4</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -2864,25 +2985,25 @@
                                 </div>
                             </td>
                             <td class="value">
-                                <span>16</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                            <td class="value">
                                 <span>13</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>9</span>
+                                <span>16</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
                             </td>
                             <td class="value">
-                                <span>8</span>
+                                <span>10</span>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                            <td class="value">
+                                <span>9</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -4562,9 +4683,9 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>5.7</span>
+                                <span>-11</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -4682,7 +4803,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-58</span>
+                                <span>-56</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -4805,9 +4926,9 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.0014</span>
+                                <span>0.00032</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
+                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
                             </td>
                             <td class="value">
@@ -5042,7 +5163,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.43</span>
+                                <span>-0.38</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -5159,7 +5280,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.68</span>
+                                <span>0.66</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -5396,7 +5517,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.81</span>
+                                <span>0.73</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -6927,11 +7048,9 @@
                 </table>
             </div>
         </div>
-        <div class="charts-panel">
-            <div class="chart-card">
+        <div class="charts-panel"><div class="chart-card">
                 <img src="증권사.png" class="analysis-image" onclick="openPopup('증권사.png');">
-            </div>
-        </div>
+            </div></div>
     </div>
     
         <h3>Qualitative Analysis</h3>
@@ -7052,23 +7171,23 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:31</td>
+                                <td>2026-11-16 16:15</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>10월 국내 증시 일평균 거래대금은 38조 1,000억원으로 전월 대비 5%, 3분기 대비 27% 감소함</td>
+                                <td>10월 국내 증시 일평균 거래대금은 38조 1,000억 원으로 전월 대비 5%, 3분기 대비 27% 감소함.</td>
                             </tr>
                             <tr>
-                                <td>10월 말 고객예탁금은 90조 2,000억원으로 전월 말 대비 13.8% 감소함</td>
+                                <td>10월 말 고객예탁금은 90조 2,000억 원으로 전월 말 대비 13.8% 감소했으며, 신용공여잔고는 8.5% 감소한 54조 6,000억 원을 기록함.</td>
                             </tr>
                             <tr>
-                                <td>10월 해외주식 거래규모는 전월 대비 5.5% 증가한 358억 달러를 기록했으며, 순매수 규모는 53억 달러로 연중 최대치를 기록함</td>
+                                <td>10월 해외주식 거래규모는 전월 대비 5.5% 증가한 358억 달러, 순매수 규모는 53억 달러로 연중 최대치를 기록함.</td>
                             </tr>
                             <tr>
-                                <td>한화투자증권이 4,000억원 규모의 신종자본증권(사모 영구채, 30년 만기, 최초 금리 약 6.1%)을 발행하며 자본 확충을 추진함</td>
+                                <td>주요 증권주의 주가순자산비율(PBR)이 0.7~0.8배 수준으로 하락하며 기대 배당수익률이 8% 안팎으로 예상되는 구간에 진입함.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -7078,20 +7197,17 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>토큰증권(STO) 제도화 및 내년 2월 제도 시행을 통한 사업 영역 확대 및 수익원 다변화 기대</td>
+                                <td>토큰증권(ST) 제도화: 내년 2월 제도 시행 이후 발행 및 유통 본격화 시 계좌관리, 유통 플랫폼, 상품 구조화 등 증권사의 사업 영역 확대 및 수익원 다변화 기회로 전망됨.</td>
                             </tr>
                             <tr>
-                                <td>증권사들의 AI 투자 패러다임 변화에 따른 산업별 성장 전망 및 투자 전략 제시 확대</td>
-                            </tr>
-                            <tr>
-                                <td>주가 조정에 따른 PBR 하락과 높은 기대 배당수익률(약 8%)로 인한 증권주 배당 매력 부각</td>
+                                <td>AI 투자 패러다임 변화: 글로벌 금융시장의 불확실성 속에서 AI 투자 확대에 따른 산업별 변화와 성장 전망이 주요 투자 전략의 핵심으로 부각됨.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>증권업계는 거래대금 및 고객예탁금 감소로 인해 위탁매매(브로커리지) 부문의 실적 둔화라는 공통적인 리스크에 직면해 있습니다. 이에 따라 4분기 실적은 유가증권 평가손익에 따라 차별화될 것으로 보이며, 단기적인 실적 기대치는 낮아지는 추세입니다. 반면, 중장기적으로는 내년 2월 시행 예정인 토큰증권(STO) 제도화가 새로운 성장 동력으로 주목받고 있으며, AI 투자 패러다임 변화에 따른 전략 수립이 활발합니다. 또한 일부 증권사는 신종자본증권 발행 등을 통해 재무건전성을 개선하고 종투사 진입을 위한 자본 확충을 추진하고 있으며, 주가 하락에 따른 배당 매력이 부각되는 구간이라는 분석이 나오고 있습니다.</td>
+                                <td>최근 증권업계는 국내 증시의 거래대금 및 고객예탁금 감소로 인해 위탁매매(브로커리지) 부문의 실적 둔화라는 공통적인 리스크에 직면해 있습니다. 이에 따라 4분기 실적 눈높이를 낮춰야 한다는 분석이 나오며, 유가증권 평가손익에 따른 기업 간 실적 차별화가 예상됩니다. 반면, 해외주식 투자 수요는 연중 최대 순매수 규모를 기록하며 증가 추세에 있으며, 주가 조정으로 인한 배당 매력 상승이 기관 수급 회복의 요인이 되고 있습니다. 중장기적으로는 내년 2월 시행 예정인 토큰증권 제도화가 새로운 수익원 확보의 기회로 주목받고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -7208,45 +7324,23 @@
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-11_[파이낸셜투데이]_신한투자증권_2027년_신한_금융시장_포럼_개최...주요_산업_전망_발표.md"
+        <div class="news-row" data-news-file="2026-11-16_[메디컬투데이]_삼성증권_업종_내_우수한_이익_방어력_부각.md"
+                data-news-path="build/news/components/증권사/2026-11-16_[메디컬투데이]_삼성증권_업종_내_우수한_이익_방어력_부각.md"
+                data-object-type="Component"
+                data-object-id="증권사">
+                <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-16_[메디컬투데이]_삼성증권_업종_내_우수한_이익_방어력_부각.md'); return false;">
+                    2026-11-16 [메디컬투데이] 삼성증권 업종 내 우수한 이익 방어력 부각
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-11-11_[파이낸셜투데이]_신한투자증권_2027년_신한_금융시장_포럼_개최...주요_산업_전망_발표.md"
                 data-news-path="build/news/components/증권사/2026-11-11_[파이낸셜투데이]_신한투자증권_2027년_신한_금융시장_포럼_개최...주요_산업_전망_발표.md"
                 data-object-type="Component"
                 data-object-id="증권사">
                 <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-11_[파이낸셜투데이]_신한투자증권_2027년_신한_금융시장_포럼_개최...주요_산업_전망_발표.md'); return false;">
                     2026-11-11 [파이낸셜투데이] 신한투자증권 2027년 신한 금융시장 포럼 개최...주요 산업 전망 발표
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-11_[연합뉴스]_한투증권_신세계_목표가↓…백화점_산업_모멘텀_일부_사라져.md"
-                data-news-path="build/news/components/증권사/2026-11-11_[연합뉴스]_한투증권_신세계_목표가↓…백화점_산업_모멘텀_일부_사라져.md"
-                data-object-type="Component"
-                data-object-id="증권사">
-                <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-11_[연합뉴스]_한투증권_신세계_목표가↓…백화점_산업_모멘텀_일부_사라져.md'); return false;">
-                    2026-11-11 [연합뉴스] 한투증권 신세계 목표가↓…백화점 산업 모멘텀 일부 사라져
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-09_[스페셜경제]_LIG_D&amp;A_수출_매출_부진에_증권사_목표주가_최대_56%_하향.md"
-                data-news-path="build/news/components/증권사/2026-11-09_[스페셜경제]_LIG_D&amp;A_수출_매출_부진에_증권사_목표주가_최대_56%_하향.md"
-                data-object-type="Component"
-                data-object-id="증권사">
-                <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-09_[스페셜경제]_LIG_D&A_수출_매출_부진에_증권사_목표주가_최대_56%_하향.md'); return false;">
-                    2026-11-09 [스페셜경제] LIG D&amp;A 수출 매출 부진에 증권사 목표주가 최대 56% 하향
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-05_[이투데이]_유안타증권_미래산업_중국_반도체_투자_확대_수혜…하반기_실적_개선_기대.md"
-                data-news-path="build/news/components/증권사/2026-11-05_[이투데이]_유안타증권_미래산업_중국_반도체_투자_확대_수혜…하반기_실적_개선_기대.md"
-                data-object-type="Component"
-                data-object-id="증권사">
-                <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-05_[이투데이]_유안타증권_미래산업_중국_반도체_투자_확대_수혜…하반기_실적_개선_기대.md'); return false;">
-                    2026-11-05 [이투데이] 유안타증권 미래산업 중국 반도체 투자 확대 수혜…하반기 실적 개선 기대
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -7258,17 +7352,6 @@
                 data-object-id="증권사">
                 <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-04_[Chosunbiz]_한화투자증권_4000억_신종자본증권에_산업은행·DB손보_등_참여.md'); return false;">
                     2026-11-04 [Chosunbiz] 한화투자증권 4000억 신종자본증권에 산업은행·DB손보 등 참여
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-03_[폴리뉴스Polinews]_디지털융합산업협회_가상자산_과세·토큰증권·스테이블코인_세미나_개최.md"
-                data-news-path="build/news/components/증권사/2026-11-03_[폴리뉴스Polinews]_디지털융합산업협회_가상자산_과세·토큰증권·스테이블코인_세미나_개최.md"
-                data-object-type="Component"
-                data-object-id="증권사">
-                <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-03_[폴리뉴스Polinews]_디지털융합산업협회_가상자산_과세·토큰증권·스테이블코인_세미나_개최.md'); return false;">
-                    2026-11-03 [폴리뉴스Polinews] 디지털융합산업협회 가상자산 과세·토큰증권·스테이블코인 세미나 개최
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -7291,17 +7374,6 @@
                 data-object-id="증권사">
                 <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-03_[뉴스투데이]_증권업종_실적_눈높이_낮춰야…토큰증권은_장기_기회.md'); return false;">
                     2026-11-03 [뉴스투데이] 증권업종 실적 눈높이 낮춰야…토큰증권은 장기 기회
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-01_[thefairnews.co.kr]_[증시_프리즘]_변동성_극복할_4분기_주도주는…주요_증권사별_최선호주(Top_Picks)·추천_업종.md"
-                data-news-path="build/news/components/증권사/2026-11-01_[thefairnews.co.kr]_[증시_프리즘]_변동성_극복할_4분기_주도주는…주요_증권사별_최선호주(Top_Picks)·추천_업종.md"
-                data-object-type="Component"
-                data-object-id="증권사">
-                <a href="#" onclick="openPopup('/build/news/components/증권사/2026-11-01_[thefairnews.co.kr]_[증시_프리즘]_변동성_극복할_4분기_주도주는…주요_증권사별_최선호주(Top_Picks)·추천_업종.md'); return false;">
-                    2026-11-01 [thefairnews.co.kr] [증시 프리즘] 변동성 극복할 4분기 주도주는…주요 증권사별 최선호주(Top Picks)·추천 업종
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -7450,6 +7522,17 @@
                     aria-label="Delete article">×</button>
             </div>
         
+            <div class="news-row" data-news-file="2026-10-02_[메디컬투데이]_[분석]_증권업종_3분기_거래대금_반토막·금리_급등에_감익_불가피.md"
+                data-news-path="build/news/components/증권사/2026-10-02_[메디컬투데이]_[분석]_증권업종_3분기_거래대금_반토막·금리_급등에_감익_불가피.md"
+                data-object-type="Component"
+                data-object-id="증권사">
+                <a href="#" onclick="openPopup('/build/news/components/증권사/2026-10-02_[메디컬투데이]_[분석]_증권업종_3분기_거래대금_반토막·금리_급등에_감익_불가피.md'); return false;">
+                    2026-10-02 [메디컬투데이] [분석] 증권업종 3분기 거래대금 반토막·금리 급등에 감익 불가피
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
             <div class="news-row" data-news-file="2026-09-28_[매일경제마켓]_거래대금_반토막에_주춤한_이_업종…배당_매력_커졌다.md"
                 data-news-path="build/news/components/증권사/2026-09-28_[매일경제마켓]_거래대금_반토막에_주춤한_이_업종…배당_매력_커졌다.md"
                 data-object-type="Component"
@@ -7533,6 +7616,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

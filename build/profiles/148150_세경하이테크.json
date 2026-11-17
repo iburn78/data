@@ -1,7 +1,7 @@
 {
     "key": "148150",
     "filename": "148150_세경하이테크",
-    "updated": "2026-11-12 19:45",
+    "updated": "2026-11-17 12:27",
     "llm_research_updated": "2026-10-21 10:18",
     "financials": {
         "meta": {
@@ -9,66 +9,67 @@
             "code": "148150",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 10:43",
-            "classification": {
-                "sector": "소재",
-                "subsector": "소재",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:27",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "첨단 산업 소재 (2111)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 111,
-                "revenue_ltm": 304,
-                "opincome_ltm": 5,
-                "revenue_qtr": 86.3,
-                "opincome_qtr": 3.33
+                "marcap": 101,
+                "revenue_ltm": 316,
+                "opincome_ltm": 6.67,
+                "revenue_qtr": 97.8,
+                "opincome_qtr": 5
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": false,
                 "higher(comp)": true,
-                "slope": -0.86,
-                "growth(%)": -25
+                "slope": -0.78,
+                "growth(%)": -22
             },
             "opmargin(%)": {
                 "25_4Q": 0.73,
                 "26_1Q": -3.6,
                 "26_2Q": 3.9,
-                "26_3Q": 3.9,
-                "ltm": 1.6
+                "26_3Q": 5.1,
+                "ltm": 2.1
             },
             "PER": {
-                "PER_ltm": 22.2,
-                "PER_qx4": 8.35,
-                "PER_fwd": 23.6
+                "PER_ltm": 15.2,
+                "PER_qx4": 5.07,
+                "PER_fwd": 8.34
             },
             "volatility": {
-                "measure_to_base(%)": -0.29
+                "measure_to_base(%)": -3.4
             },
             "amount": {
-                "measure_to_base(%)": -48
+                "measure_to_base(%)": -51
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": -0.028,
-                    "beta": 0.82
+                    "alpha(%)": -0.031,
+                    "beta": 0.83
                 },
                 "base_period": {
-                    "alpha(%)": -0.092,
-                    "beta": 0.47
+                    "alpha(%)": -0.077,
+                    "beta": 0.5
                 },
                 "measure_period": {
-                    "alpha(%)": -0.35,
-                    "beta": 0.49
+                    "alpha(%)": -0.72,
+                    "beta": 0.63
                 }
             }
         },
@@ -78,7 +79,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "D",
             "market_sentiment": "-"
         }
@@ -130,17 +131,17 @@
         "updated": "2026-11-06 09:18"
     },
     "news": {
-        "updated": "2026-11-11 12:07",
+        "updated": "2026-11-16 15:36",
         "key_facts": [
-            "2026년 2분기 연결 매출액 863억원(전년比 +15.3%), 영업이익 33억원(전년比 +80.6%)을 기록하며 영업흑자 전환함.",
-            "국내 주요 고객사의 올해 폴더블 신제품 3개 모델 전량에 보호필름(PL)을 단독 공급 중임.",
-            "2026년 3분기 매출액 940억원, 영업이익 71억원으로 전망되며, 북미 고객사향 스마트폰 및 맥북용 OCA 공급이 본격 반영될 예정임.",
-            "중국 시드(Seed)와 합작법인을 가동해 중국 스마트폰 업체향 UTG와 PL 공동 납품을 추진하며 일부 공급은 이미 확정됨.",
-            "2027년 예상 매출액 3759억원, 영업이익 251억원으로 실적 퀀텀점프가 기대되며, 북미 고객사 신규 폼팩터향 필름을 개발 중임."
+            "2026년 2분기 연결 매출 863억원, 영업이익 33억원을 기록하며 전년 동기 대비 각각 15.3%, 80.6% 증가하고 영업흑자로 전환함.",
+            "국내 주요 고객사의 올해 폴더블 스마트폰 3개 모델 전량에 보호필름(PL)을 단독 공급하고 있음.",
+            "3분기 매출 940억원, 영업이익 71억원으로 전망되며, 북미 고객사향 스마트폰 및 맥북용 OCA 매출이 본격 반영될 예정임.",
+            "중국 시드(Seed)와 합작법인을 가동하여 중국 스마트폰 제조사향 초박막강화유리(UTG)와 PL 공동 납품을 확정함.",
+            "북미 고객사의 신규 폼팩터향 필름을 개발 중이며, 채택 시 연간 1,000억원 이상의 매출 창출 잠재력을 보유함."
         ],
         "key_issues": [
-            "지난해 대규모 투자에 따른 고정비 부담과 스마트폰 업황 부진으로 수익성 개선 및 실적 회복이 예상보다 지연됨."
+            "지난해 대규모 투자로 인한 고정비 부담과 스마트폰 업황 부진으로 수익성 개선 및 실적 회복이 예상보다 더뎠음."
         ],
-        "news_summary": "세경하이테크는 폴더블 보호필름 단독 공급과 북미 고객사향 OCA 공급 확대로 2026년 2분기부터 실적 반등을 시작했습니다. 3분기 폴드8 흥행과 제품군 확대에 이어, 2027년에는 중국 합작법인 가동 및 신규 폼팩터 개발을 통해 본격적인 성장 모멘텀을 확보할 것으로 전망됩니다."
+        "news_summary": "세경하이테크는 폴더블폰 보호필름 단독 공급과 북미향 OCA 매출 확대로 실적 반등을 시작했으며, 향후 중국 합작법인 가동과 신규 폼팩터 개발을 통해 2027년부터 본격적인 성장이 기대됩니다."
     }
 }

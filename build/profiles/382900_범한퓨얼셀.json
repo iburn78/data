@@ -1,7 +1,7 @@
 {
     "key": "382900",
     "filename": "382900_범한퓨얼셀",
-    "updated": "2026-11-12 19:20",
+    "updated": "2026-11-17 12:21",
     "llm_research_updated": "2026-11-11 17:10",
     "financials": {
         "meta": {
@@ -9,42 +9,43 @@
             "code": "382900",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 19:20",
-            "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:21",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "신재생에너지 (112)",
+                "subindustry": "대체 에너지 (1122)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 139,
-                "revenue_ltm": 56.2,
-                "opincome_ltm": -9.43,
-                "revenue_qtr": 17.8,
-                "opincome_qtr": -3.23
+                "marcap": 127,
+                "revenue_ltm": 64.4,
+                "opincome_ltm": -6.27,
+                "revenue_qtr": 26.1,
+                "opincome_qtr": -0.0676
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": false,
                 "higher(comp)": false,
-                "slope": -0.41,
+                "slope": -0.26,
                 "growth(%)": null
             },
             "opmargin(%)": {
                 "25_4Q": -5.3,
                 "26_1Q": -42,
                 "26_2Q": -18,
-                "26_3Q": -18,
-                "ltm": -17
+                "26_3Q": -0.26,
+                "ltm": -9.7
             },
             "PER": {
                 "PER_ltm": null,
@@ -52,10 +53,10 @@
                 "PER_fwd": null
             },
             "volatility": {
-                "measure_to_base(%)": 5.1
+                "measure_to_base(%)": -0.22
             },
             "amount": {
-                "measure_to_base(%)": -54
+                "measure_to_base(%)": -57
             },
             "alpha_beta": {
                 "from_start_date": {
@@ -63,12 +64,12 @@
                     "beta": 0.94
                 },
                 "base_period": {
-                    "alpha(%)": -0.039,
-                    "beta": 0.88
+                    "alpha(%)": 0.01,
+                    "beta": 0.9
                 },
                 "measure_period": {
-                    "alpha(%)": -0.79,
-                    "beta": 1.4
+                    "alpha(%)": -1.1,
+                    "beta": 1.3
                 }
             }
         },
@@ -101,11 +102,6 @@
             0.386,
             0.421,
             0.193
-        ],
-        "opmargin": [
-            null,
-            null,
-            null
         ],
         "trend": [
             "stable (잠수함 독점 및 국산화 확대)",

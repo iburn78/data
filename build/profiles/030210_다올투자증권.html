@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -95,37 +99,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:26</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -194,6 +168,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -203,7 +216,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>207</span>
+                                <span>203</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -212,7 +225,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>3,360</span>
+                                <span>2,950</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -230,7 +243,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>1,060</span>
+                                <span>649</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -482,26 +495,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:40</td>
+                                <td>2026-11-16 15:10</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>크래프톤: 3분기 매출 9,714억원(11.6%↑), 영업이익 2,250억원(35.5%↓)을 기록했으며, 내년 2월까지 3,000억원 규모의 추가 자사주 소각 계획임.</td>
+                                <td>2026년 10월 1일, 생성형 AI(챗GPT, 클로드 등) 대화창에서 계좌 조회 및 주식 주문이 가능한 &#x27;MCP 트레이딩&#x27; 서비스 정식 출시</td>
                             </tr>
                             <tr>
-                                <td>대웅제약·한미약품: 10월 29일 장기지속형 파브리병 치료제 &#x27;HM15421&#x27;을 미국 바이오마린에 최대 4억 7,500만 달러 규모로 기술이전함.</td>
+                                <td>2026년 9월, 미국 인터랙티브 브로커스(IBKR)와 협업하여 해외주식 통합 거래 플랫폼 &#x27;DAOL Fi PRO&#x27; 출시</td>
                             </tr>
                             <tr>
-                                <td>한화생명: 상반기 별도 순이익 5,102억원을 기록했으나, 10월 22일 기준 PBR은 0.27배로 저PBR 기업 명단에 포함됨.</td>
+                                <td>2026년 10월 19일, 국내 증권사 최초로 글로벌 차트 플랫폼 &#x27;트레이딩뷰(TradingView)&#x27; 내 미국 주식 거래 서비스 개시</td>
                             </tr>
                             <tr>
-                                <td>씨젠: 3분기 매출 1,231억원(8%↑), 영업이익 116억원(21%↑)을 기록하고 프랑스 법인을 직접판매 체제로 전환함.</td>
+                                <td>2030년까지 연결 당기순이익 1,500억 원 및 ROE 13% 달성을 중장기 목표로 설정</td>
                             </tr>
                             <tr>
-                                <td>휴젤: 3분기 매출 975억원(7.9%↓), 영업이익 181억원(61.8%↓)을 기록했으며, 브라질 매출이 분기 최초 100억원을 돌파함.</td>
+                                <td>다올저축은행의 2026년 상반기 순이익이 119억 원을 기록하며 전년 동기(39억 원) 대비 약 3배 증가</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -511,26 +524,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>실적 부진 및 전망: 크래프톤(PC 부문 부진), 한화생명(3분기 적자 전환 전망), 휴젤(북미 투자비용 증가) 등의 수익성 악화 이슈.</td>
+                                <td>다올저축은행 재무적 투자자(FI)들의 풋옵션 행사 시기가 도래함에 따라 약 1,000억 원 중반 규모의 리파이낸싱(신규 투자자 유치) 추진 중</td>
                             </tr>
                             <tr>
-                                <td>공급 및 판매 공백: 대웅제약의 나보타 미국 출하 공백과 펙수클루 직판 전환에 따른 4분기 실적 하락 우려.</td>
+                                <td>BIS 비율 유지를 위해 별도 옵션 없는 보통주 인수 투자자를 확보해야 하나, 저축은행 업황의 미완전한 회복으로 인한 투자자 확보의 불확실성 존재</td>
                             </tr>
                             <tr>
-                                <td>시장 경쟁 심화: 대웅제약의 P-CAB 및 톡신 시장 경쟁, 휴젤의 북미 시장 낮은 취급률 및 점유율 확대 과제.</td>
-                            </tr>
-                            <tr>
-                                <td>대외 변수: HD건설기계의 외환손실(1,460억원) 및 씨젠의 원화 강세에 따른 수익성 영향.</td>
-                            </tr>
-                            <tr>
-                                <td>기업가치 및 배당: 한화생명의 저PBR 상태 지속 및 해약환급금준비금 적립으로 인한 배당 제한.</td>
+                                <td>리테일 시장 점유율(위탁매매 약 0.3%)이 낮은 상황에서 디지털 전략을 통한 실질적인 고객 기반 확대 및 수익성 개선 여부가 과제로 남음</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>크래프톤, 대웅제약, 휴젤, 씨젠, HD건설기계 등 주요 기업들이 3분기 실적을 발표한 가운데, 외환 영향과 투자 비용 증가, 제품 공급 공백 등으로 인해 수익성 변동성이 나타남. 대웅제약과 한미약품은 기술수출 성과를 거두었으나, 한화생명은 저PBR 개선과 적자 전환 방어라는 과제를 안게 됨.</td>
+                                <td>다올투자증권은 IB 중심의 수익구조를 다변화하기 위해 MCP 트레이딩, DAOL Fi PRO, 트레이딩뷰 연동 등 생성형 AI 및 외부 플랫폼 중심의 리테일 디지털 전환 전략을 공격적으로 추진하고 있습니다. 동시에 자회사인 다올저축은행의 FI 풋옵션 행사에 대응하여 1,000억 원대 규모의 리파이낸싱을 추진하며 재무 리스크 관리에 집중하고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -705,78 +712,12 @@
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-11_[이투데이]_다올투자證_크래프톤_단기_실적보단_2027년_모멘텀_주목.md"
-                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-11_[이투데이]_다올투자證_크래프톤_단기_실적보단_2027년_모멘텀_주목.md"
+        <div class="news-row" data-news-file="2026-11-16 [ollama] LLM web search on news (11 articles).md"
+                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-16 [ollama] LLM web search on news (11 articles).md"
                 data-object-type="Profile"
                 data-object-id="030210">
-                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-11_[이투데이]_다올투자證_크래프톤_단기_실적보단_2027년_모멘텀_주목.md'); return false;">
-                    2026-11-11 [이투데이] 다올투자證 크래프톤 단기 실적보단 2027년 모멘텀 주목
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-10_[스마트투데이]_한화생명_실적_발표_앞두고_이중고…적자_전망에_저PBR까지.md"
-                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-10_[스마트투데이]_한화생명_실적_발표_앞두고_이중고…적자_전망에_저PBR까지.md"
-                data-object-type="Profile"
-                data-object-id="030210">
-                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-10_[스마트투데이]_한화생명_실적_발표_앞두고_이중고…적자_전망에_저PBR까지.md'); return false;">
-                    2026-11-10 [스마트투데이] 한화생명 실적 발표 앞두고 이중고…적자 전망에 저PBR까지
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-09_[허프포스트코리아]_대웅제약_4분기_이후_실적_절벽_가능성_이창재·박성수_위식도역류_약_직판.md"
-                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-09_[허프포스트코리아]_대웅제약_4분기_이후_실적_절벽_가능성_이창재·박성수_위식도역류_약_직판.md"
-                data-object-type="Profile"
-                data-object-id="030210">
-                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-09_[허프포스트코리아]_대웅제약_4분기_이후_실적_절벽_가능성_이창재·박성수_위식도역류_약_직판.md'); return false;">
-                    2026-11-09 [허프포스트코리아] 대웅제약 4분기 이후 실적 절벽 가능성 이창재·박성수 위식도역류 약 직판
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-09_[메디코파마]_씨젠_HPV28_민간_검사실_공략…내년_매출_654억_전망.md"
-                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-09_[메디코파마]_씨젠_HPV28_민간_검사실_공략…내년_매출_654억_전망.md"
-                data-object-type="Profile"
-                data-object-id="030210">
-                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-09_[메디코파마]_씨젠_HPV28_민간_검사실_공략…내년_매출_654억_전망.md'); return false;">
-                    2026-11-09 [메디코파마] 씨젠 HPV28 민간 검사실 공략…내년 매출 654억 전망
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-09_[PRESS9]_씨젠_3Q_수익성_부진...내년_성장·배당_확대_전망-다올.md"
-                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-09_[PRESS9]_씨젠_3Q_수익성_부진...내년_성장·배당_확대_전망-다올.md"
-                data-object-type="Profile"
-                data-object-id="030210">
-                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-09_[PRESS9]_씨젠_3Q_수익성_부진...내년_성장·배당_확대_전망-다올.md'); return false;">
-                    2026-11-09 [PRESS9] 씨젠 3Q 수익성 부진...내년 성장·배당 확대 전망-다올
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-05_[PRESS9]_휴젤_북미_비용_부담에_수익성_전망_하향-다올.md"
-                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-05_[PRESS9]_휴젤_북미_비용_부담에_수익성_전망_하향-다올.md"
-                data-object-type="Profile"
-                data-object-id="030210">
-                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-05_[PRESS9]_휴젤_북미_비용_부담에_수익성_전망_하향-다올.md'); return false;">
-                    2026-11-05 [PRESS9] 휴젤 북미 비용 부담에 수익성 전망 하향-다올
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-05_[PRESS9]_대웅제약_나보타_美_매출_공백·펙수클루_부진-다올.md"
-                data-news-path="build/news/profiles/030210_다올투자증권/2026-11-05_[PRESS9]_대웅제약_나보타_美_매출_공백·펙수클루_부진-다올.md"
-                data-object-type="Profile"
-                data-object-id="030210">
-                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-05_[PRESS9]_대웅제약_나보타_美_매출_공백·펙수클루_부진-다올.md'); return false;">
-                    2026-11-05 [PRESS9] 대웅제약 나보타 美 매출 공백·펙수클루 부진-다올
+                <a href="#" onclick="openPopup('/build/news/profiles/030210_다올투자증권/2026-11-16 [ollama] LLM web search on news (11 articles).md'); return false;">
+                    2026-11-16 [ollama] LLM web search on news (11 articles)
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -1206,6 +1147,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

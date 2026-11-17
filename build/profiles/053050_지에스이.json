@@ -1,0 +1,137 @@
+{
+    "key": "053050",
+    "filename": "053050_지에스이",
+    "updated": "2026-11-17 12:18",
+    "llm_research_updated": "2026-11-12 20:36",
+    "financials": {
+        "meta": {
+            "name": "지에스이",
+            "code": "053050",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:18",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "유틸리티 (13)",
+                "industry": "유틸리티 (131)",
+                "subindustry": "가스 유틸리티 (1312)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 48.1,
+                "revenue_ltm": 176,
+                "opincome_ltm": 7.62,
+                "revenue_qtr": 22,
+                "opincome_qtr": -1.35
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.083,
+                "growth(%)": -5
+            },
+            "opmargin(%)": {
+                "25_4Q": 3.4,
+                "26_1Q": 7.6,
+                "26_2Q": 5.4,
+                "26_3Q": -6.1,
+                "ltm": 4.3
+            },
+            "PER": {
+                "PER_ltm": 6.31,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -19
+            },
+            "amount": {
+                "measure_to_base(%)": -75
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.055,
+                    "beta": 0.069
+                },
+                "base_period": {
+                    "alpha(%)": -0.18,
+                    "beta": 0.18
+                },
+                "measure_period": {
+                    "alpha(%)": -0.63,
+                    "beta": 0.3
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:36",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "도시가스 공급사업"
+        ],
+        "revenue_share": [
+            1.0
+        ],
+        "opmargin": [
+            0.043
+        ],
+        "trend": [
+            "산업용 수요 확대 및 권역 확장으로 성장 기대"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "가정용·상업용 도시가스, 산업용 도시가스, CNG 충전소 운영"
+        ],
+        "competitors": [
+            "서울가스, 인천도시가스, 대성에너지, SK가스, 한국가스공사"
+        ]
+    },
+    "code": "053050",
+    "name": "지에스이",
+    "overview": {
+        "title": "공급권역 확대와 산업수요 증가",
+        "desc": "동사는 1989년 네트워크 시스템 공급 전문기업으로 설립되어 2001년 코스닥에 상장되었으며, 2010년 합병을 통해 도시가스공급사업으로 사업영역을 확대함. 현재 경상남도 진주시, 사천시 등에서 LNG 도시가스 공급사업과 CNG 차량충전사업을 영위하고 있음. 동사는 2025년 도시가스 공급가구수를 21만 세대를 돌파하였으며, 수요격차 개선을 위해 산업용 및 냉방용 수요개발에 주력하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 2.8% 증가, 영업이익은 2.2% 증가, 당기순이익은 1.5% 증가. LNG 도시가스 공급사업은 권역 확대와 산업용 수요처 확보로 매출이 증가했음. 사천 산단 내 첨단항공클러스터와 진주혁신도시 공공기관 입주로 안정적 수요기반이 마련됨. 2026년 가스 수요는 산업용 천연가스 중심 증가로, 항공우주산업 산단 육성과 KTX 신진주역세권 개발로 수요 증가를 기대함.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-12 20:36"
+    },
+    "news": {
+        "updated": "2026-11-12 20:37",
+        "key_facts": [
+            "지에스이는 1989년 4월 21일에 설립되었으며, 2001년 10월 코스닥 시장에 상장했다.",
+            "지에스이는 LNG 도시가스 공급사업과 CNG 차량충전사업을 주요 사업으로 영위하고 있다.",
+            "2026년 9월 10일 오전, 중동 지역의 지정학적 불안으로 인한 에너지 수급 차질 우려와 천연가스 가격 변동성 확대, 민간 도시가스 공급망 모멘텀 등의 영향으로 주가가 급등했다."
+        ],
+        "key_issues": [
+            "중동 지역 분쟁 및 국제 에너지 가격 상승이 지에스이의 실적 증가로 직접 연결된다고 단정하기 어려움 (가스 판매량, 공급가격, 원료비, 지역별 수요 등 다양한 요인의 영향을 받기 때문)."
+        ],
+        "news_summary": "지에스이는 LNG 도시가스 공급 및 CNG 차량충전 사업을 운영하는 기업으로, 2026년 9월 중동 지역의 지정학적 리스크로 인한 글로벌 천연가스 수급 불안 및 가격 변동성 확대가 호재로 작용하며 주가가 급등세를 보였다."
+    }
+}

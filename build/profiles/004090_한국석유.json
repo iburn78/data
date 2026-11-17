@@ -1,0 +1,158 @@
+{
+    "key": "004090",
+    "filename": "004090_한국석유",
+    "updated": "2026-11-17 12:16",
+    "llm_research_updated": "2026-11-12 20:57",
+    "financials": {
+        "meta": {
+            "name": "한국석유",
+            "code": "004090",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "일반 산업 소재 (2113)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 127,
+                "revenue_ltm": 778,
+                "opincome_ltm": 23.8,
+                "revenue_qtr": 202,
+                "opincome_qtr": 2.64
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.37,
+                "growth(%)": 9.1
+            },
+            "opmargin(%)": {
+                "25_4Q": 1.8,
+                "26_1Q": 2.4,
+                "26_2Q": 6,
+                "26_3Q": 1.3,
+                "ltm": 3.1
+            },
+            "PER": {
+                "PER_ltm": 5.34,
+                "PER_qx4": 12,
+                "PER_fwd": 8.89
+            },
+            "volatility": {
+                "measure_to_base(%)": -24
+            },
+            "amount": {
+                "measure_to_base(%)": -82
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.11,
+                    "beta": 0.19
+                },
+                "base_period": {
+                    "alpha(%)": -0.18,
+                    "beta": 0.15
+                },
+                "measure_period": {
+                    "alpha(%)": -0.57,
+                    "beta": 0.24
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:57",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "아스팔트 부문",
+            "합성수지 부문",
+            "케미칼 부문",
+            "신사업 부문"
+        ],
+        "revenue_share": [
+            0.53,
+            0.21,
+            0.26,
+            0.0
+        ],
+        "opmargin": [
+            0.019,
+            0.017,
+            0.012,
+            null
+        ],
+        "trend": [
+            "Improving (efficiency & pricing)",
+            "Stable growth (demand for blow products)",
+            "Facing stronger competition",
+            "Expanding (high-value products)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "도로 포장용 아스팔트, 교량용 아스팔트, 방수시트",
+            "PE/PP 합성수지, 블로우 포장 용기",
+            "석유화학 제품 유통 (페인트, 접착제, 제약, 잉크 원료)",
+            "DMAc 리사이클링, 철도 궤도 시스템, GFRP REBAR"
+        ],
+        "competitors": [
+            "None (Dominant position)",
+            "LG화학, 롯데케미칼, 한화솔루션",
+            "LG화학, 롯데케미칼, 한화솔루션",
+            "None"
+        ]
+    },
+    "code": "004090",
+    "name": "한국석유",
+    "overview": {
+        "title": "생산설비 확충과 신사업으로 실적 개선",
+        "desc": "동사는 1964년 아스팔트 가공 및 판매 등을 영위할 목적으로 설립되었으며, 1977년 유가증권시장에 상장하였음. 케이피한석유화, 케이피한석화학 등 8개의 종속회사를 보유한 지배회사로서 아스팔트, 합성수지, 케미칼, 기타 부문의 4개 사업 체제로 운영되고 있음. 아스팔트 부문은 울산공장에서 아스팔트를, 옥천공장에서 방수시트를 생산하며, 합성수지 부문은 PE, PP 상품과 BLOW, PAIL 제품을 취급하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 14.4% 증가, 영업이익은 241.3% 증가, 당기순이익은 258.8% 증가. 아스팔트 부문은 원자재 조달처 다변화와 생산 공정 효율화로 수익성을 개선하고, 옥천 방수시트 통합공장 준공으로 생산 효율성이 향상되었음. EP 소재 생산을 위해 옥천공장을 준공하였으며, 친환경 고부가가치 제품 중심의 사업 포트폴리오 확대를 통해 지속 가능한 성장 기반을 강화해 나갈 계획임.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:57"
+    },
+    "news": {
+        "updated": "2026-11-12 20:57",
+        "key_facts": [
+            "정유 4사(SK이노베이션, 에쓰오일, GS칼텍스, HD현대오일뱅크)의 2026년 3분기 합산 영업이익이 약 6조 원에 달할 것으로 전망됨.",
+            "SK이노베이션(약 2.4조 원), 에쓰오일(약 1.3조 원), GS칼텍스 및 HD현대오일뱅크(각 1조 원대)의 3분기 영업이익 전망치가 상향됨.",
+            "정유 4사의 올해 상반기 합산 영업이익은 11조 원을 넘어섰으며, 이는 전년 동기 영업손실에서 반전된 결과임.",
+            "한국석유공사는 캐나다 자회사 하베스트를 2029년까지 매각할 계획이며, 2026년 6월까지 총 7조 6,964억 원을 투입함.",
+            "정부는 2026년 9월 한국석유공사와 한국가스공사를 통합하여 '한국에너지자원공사(가칭)'를 신설하겠다고 발표함."
+        ],
+        "key_issues": [
+            "4분기 실적 불투명성: 석유 최고가격제 및 수출 제한으로 인한 수익성 저하, 원유 도입선 변경에 따른 운임 비용 상승 및 유가 급락 시 재고평가손실 위험이 있음.",
+            "한국석유공사 재무 부담: 하베스트 매각 시 누적 투자액 대비 낮은 회수액으로 인해 대규모 순손실이 예상되며, 이는 통합공사의 재무 건전성에 영향을 줄 수 있음."
+        ],
+        "news_summary": "국내 정유 4사는 국제유가 상승과 정제마진 강세로 2026년 3분기 합산 영업이익 6조 원이 예상되는 등 호실적을 보이고 있으나, 4분기에는 최고가격제와 유가 변동성으로 인해 불확실성이 높습니다. 한편, 한국석유공사는 자회사 하베스트 매각 추진 중이나 큰 손실이 예상되어 향후 가스공사와의 통합 과정에서 재무 부담이 쟁점이 될 전망입니다."
+    }
+}

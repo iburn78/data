@@ -1,0 +1,138 @@
+{
+    "key": "018470",
+    "filename": "018470_조일알미늄",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:21",
+    "financials": {
+        "meta": {
+            "name": "조일알미늄",
+            "code": "018470",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "비철 금속 (214)",
+                "subindustry": "비철 금속 (2141)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 124,
+                "revenue_ltm": 553,
+                "opincome_ltm": 23.7,
+                "revenue_qtr": 129,
+                "opincome_qtr": -0.604
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.01,
+                "growth(%)": -0.2
+            },
+            "opmargin(%)": {
+                "25_4Q": 0.97,
+                "26_1Q": 8.7,
+                "26_2Q": 6.5,
+                "26_3Q": -0.47,
+                "ltm": 4.3
+            },
+            "PER": {
+                "PER_ltm": 5.26,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -33
+            },
+            "amount": {
+                "measure_to_base(%)": -90
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.0049,
+                    "beta": 0.5
+                },
+                "base_period": {
+                    "alpha(%)": -0.21,
+                    "beta": 0.22
+                },
+                "measure_period": {
+                    "alpha(%)": -0.085,
+                    "beta": 0.24
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:21",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "2차전지 소재 부문",
+            "자동차/산업 소재 부문",
+            "일반 압연재 부문"
+        ],
+        "revenue_share": [
+            0.45,
+            0.25,
+            0.3
+        ],
+        "trend": [
+            "improving, 고성장",
+            "stable, 수요 확대",
+            "stable, 포트폴리오 전환 중"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "양극박용 알루미늄 소재",
+            "자동차 열교환기용 고강도 합금,경량화 소재",
+            "건축 내외장재,가전제품,보온재,전자부품용 판재"
+        ],
+        "competitors": [
+            "노벨리스코리아,대호에이엘,롯데알미늄,동원시스템즈",
+            "노벨리스코리아,대호에이엘",
+            "노벨리스코리아,대호에이엘"
+        ]
+    },
+    "code": "018470",
+    "name": "조일알미늄",
+    "overview": {
+        "title": "고부가 제품 확대로 실적 개선 지속",
+        "desc": "동사는 1975년 설립, 1988년 유가증권시장 상장된 알미늄 압연 전문 기업임. 광폭 압연제품을 생산, Foil재, 2차전지 양극박재, 건축내외장재, 자동차용 소재 등 다양한 산업에 공급하고 있으며, 연속주조 및 열간압연 라인으로 고부가가치 시장 대응 중임. 알미늄의 경량성 및 내식성을 기반으로 용도 다변화 추진, 자동차 열교환기용 고강도 합금 등 특허 기술로 제품 경쟁력 강화하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 19.8% 증가, 영업이익은 98.5% 증가, 당기순이익은 137.7% 증가. 알미늄 압연 산업은 대규모 자본이 소요되는 장치산업으로 진입 장벽이 높아 소수 상위업체가 시장을 과점하고 있으며, 동사는 일반재부터 2차전지 양극박용 소재 등 고부가가치 제품까지 대응하며 실적 개선세를 보이고 있음. 경량·박형 소재 수요 증가에 따라 알미늄 산업의 중요성이 확대될 것으로 예상됨.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 21:21"
+    },
+    "news": {
+        "updated": "2026-11-12 21:21",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

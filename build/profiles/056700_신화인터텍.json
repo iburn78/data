@@ -1,0 +1,143 @@
+{
+    "key": "056700",
+    "filename": "056700_신화인터텍",
+    "updated": "2026-11-17 12:18",
+    "llm_research_updated": "2026-11-13 10:11",
+    "financials": {
+        "meta": {
+            "name": "신화인터텍",
+            "code": "056700",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:18",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "첨단 산업 소재 (2111)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 40.8,
+                "revenue_ltm": 196,
+                "opincome_ltm": 0.0773,
+                "revenue_qtr": 48.8,
+                "opincome_qtr": -2.01
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.2,
+                "growth(%)": -13
+            },
+            "opmargin(%)": {
+                "25_4Q": -2.4,
+                "26_1Q": 1.2,
+                "26_2Q": 6.3,
+                "26_3Q": -4.1,
+                "ltm": 0.04
+            },
+            "PER": {
+                "PER_ltm": 528,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -23
+            },
+            "amount": {
+                "measure_to_base(%)": -53
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.0053,
+                    "beta": 0.54
+                },
+                "base_period": {
+                    "alpha(%)": -0.13,
+                    "beta": 0.0023
+                },
+                "measure_period": {
+                    "alpha(%)": -0.012,
+                    "beta": -0.045
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:11",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "LCD 광학필름",
+            "모바일 OLED 소재",
+            "이차전지 소재",
+            "차량용 전장 광학모듈"
+        ],
+        "revenue_share": [
+            0.9,
+            0.05,
+            0.03,
+            0.02
+        ],
+        "trend": [
+            "declining, facing stronger competition",
+            "stable, expanding application",
+            "improving, growth potential",
+            "emerging, early stage"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "QD필름, 프리즘시트, 확산시트, 반사시트",
+            "방수 테이프, 차광 테이프, 방열 테이프, 쿠션폼",
+            "이차전지 절연 테이프",
+            "3D AR-HUD 광학모듈, XR 광학모듈"
+        ],
+        "competitors": [
+            "중국 저가 소재 업체",
+            "중국 저가 소재 업체",
+            "기타 배터리 소재 기업",
+            "Bosch, Continental, Aumovio"
+        ]
+    },
+    "code": "056700",
+    "name": "신화인터텍",
+    "overview": {
+        "title": "전장·ESS 신사업 추진 중",
+        "desc": "동사는 1988년 특수테이프제품 제조 및 판매 목적으로 설립되고, 2013년 효성그룹 계열사로 편입되어 전자재료 분야에서 글로벌 디스플레이 소재 시장 내 선도적 지위를 점유하고 있음. 중국 동관법인 지분 전량을 매각하여 사업 포트폴리오 재편 및 운영 효율성 제고를 추진함. TFT-LCD에 적용되는 광학 Film을 제조 및 판매하며, 매출 비중이 전체 매출의 약 90% 차지하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 22.5% 감소, 영업이익은 60.5% 감소, 당기순이익은 76.3% 감소. 광학필름 사업부문은 디스플레이 시장 성숙기 진입과 중국 저가 업체들의 경쟁 심화, 물류비 및 원자재 비용 증가로 원가 상승 압력이 확대되어 실적이 악화됨. AI 데이터센터 확산 및 신재생에너지 연계 확대에 따른 ESS 시장 성장이 예상되어 이차전지용 Tape 사업에서 새로운 성장 기회가 기대됨.",
+        "as_of": "2026-09-03",
+        "updated": "2026-11-12 21:34"
+    },
+    "news": {
+        "updated": "2026-11-12 21:34",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

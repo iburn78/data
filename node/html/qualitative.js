@@ -377,10 +377,12 @@ async function saveEdit(card) {
     const token = card.dataset.editToken;
     const values = collectEditValues(card);
 
-    if (Array.isArray(values.opmargin) && values.opmargin.some(value =>
-        value === null || (typeof value === "string" && /\bnone\b/i.test(value))
-    )) {
-        delete values.opmargin;
+    if (Array.isArray(values.opmargin)) {
+        values.opmargin = values.opmargin.map(value => {
+            if (value === null || /^none$/i.test(String(value).trim())) return null;
+            const number = Number(value);
+            return Number.isFinite(number) ? number : value;
+        });
     }
 
     if (Array.isArray(values.segments) && Array.isArray(values.revenue_share)) {

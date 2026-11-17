@@ -1,0 +1,138 @@
+{
+    "key": "004440",
+    "filename": "004440_삼일씨엔에스",
+    "updated": "2026-11-17 12:16",
+    "llm_research_updated": "2026-11-12 20:58",
+    "financials": {
+        "meta": {
+            "name": "삼일씨엔에스",
+            "code": "004440",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "기초 건설소재 (212)",
+                "subindustry": "건설 자재 (2122)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 57.2,
+                "revenue_ltm": 265,
+                "opincome_ltm": 9.14,
+                "revenue_qtr": 86.6,
+                "opincome_qtr": 1.94
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.18,
+                "growth(%)": 13
+            },
+            "opmargin(%)": {
+                "25_4Q": 5.8,
+                "26_1Q": 3.3,
+                "26_2Q": 3.1,
+                "26_3Q": 2.2,
+                "ltm": 3.4
+            },
+            "PER": {
+                "PER_ltm": 6.26,
+                "PER_qx4": 7.36,
+                "PER_fwd": 5.99
+            },
+            "volatility": {
+                "measure_to_base(%)": -42
+            },
+            "amount": {
+                "measure_to_base(%)": -90
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.049,
+                    "beta": 0.56
+                },
+                "base_period": {
+                    "alpha(%)": -0.045,
+                    "beta": 0.35
+                },
+                "measure_period": {
+                    "alpha(%)": -0.51,
+                    "beta": 0.27
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:58",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "콘크리트 사업부",
+            "풍력·스틸 사업부",
+            "골재 사업부"
+        ],
+        "revenue_share": [
+            0.43,
+            0.48,
+            0.09
+        ],
+        "trend": [
+            "정체/하락세(건설 경기 침체 및 공급 과잉)",
+            "증가세(해상풍력 대형 프로젝트 수주 확대)",
+            "정체세(지역 기반 안정적이나 경기 영향 받음)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "PHC파일, PC제품(Precast Concrete)",
+            "해상풍력 하부구조물(자켓, 트랜지션피스), 강교 구조물",
+            "모래, 자갈(골재)"
+        ],
+        "competitors": [
+            "PHC파일 상위 7개사(과점 구조)",
+            "두산에너빌리티, JFE Engineering(글로벌 협력 및 경쟁)",
+            "지역 내 채석 허가 보유 업체"
+        ]
+    },
+    "code": "004440",
+    "name": "삼일씨엔에스",
+    "overview": {
+        "title": "PC·해상풍력 수요 확대로 실적 개선",
+        "desc": "동사는 1965년 설립되어 충주·부여·군산공장에서 고강도 콘크리트 파일과 PC 생산·판매, 철구조물 제작을 하고 있음. 콘크리트사업부는 PHC 파일과 탈현장공법 제품을, 풍력사업부는 해상풍력 트랜지션피스 및 강교 구조물을, 골재사업부는 모래·자갈을 생산·공급하고 있음. 동사는 Nano-CSH 활용 PHC파일, 초고강도·대구경 파일 개발과 해상풍력 대형 구조물 제작설비와 용접·가공 기술력으로 경쟁력 확보하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 3.6% 증가, 영업이익은 264.2% 증가, 당기순이익 흑자전환. 콘크리트사업부는 PC산업 확대로 매출이 증가하였고, 풍력·스틸사업부도 해상풍력 프로젝트로 실적이 개선됨. 탄소중립 정책과 재생에너지 확대에 따라 해상풍력 시장은 중장기적으로 성장할 것으로 전망되며, 동사는 대형 제작설비와 프로젝트 수행 실적으로 시장 진출 기회를 확대하고 있음.",
+        "as_of": "2026-09-03",
+        "updated": "2026-11-12 20:58"
+    },
+    "news": {
+        "updated": "2026-11-12 20:58",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

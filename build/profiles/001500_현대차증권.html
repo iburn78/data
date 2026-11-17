@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=613#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">증권 및 투자 (613)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6131#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">투자은행 및 중개업 (6131)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>438</span>
+                                <span>444</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -479,20 +492,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:37</td>
+                                <td>2026-11-16 14:48</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 11월 5일, 확정급여형(DB) 퇴직연금 가입 기업을 위한 ALM(자산부채연계관리) 시스템을 도입하여 중소·중견기업까지 맞춤형 컨설팅 서비스를 확대함.</td>
+                                <td>2026년 11월 5일, DB형 퇴직연금 가입 기업을 위한 ALM 시스템을 도입하여 중소·중견기업까지 컨설팅 서비스를 확대함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 11월 4일 자산배분 보고서를 통해 내년 하반기 국내주식 비중 축소(25%→15%) 및 해외주식 비중 확대(23%→30%) 전략을 권고함.</td>
+                                <td>2026년 11월 4일, UNGC &#x27;2027년 리드 기업&#x27;에 2년 연속 선정되었으며 K-ESG 경영대상 종합상을 수상함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 코스피 예상 범위를 6,000~10,500p로 제시하고, 연말 목표치를 9,000p로 전망함.</td>
+                                <td>2026년 10월 22일, 주주가치 제고를 위해 자기주식 400,000주 취득을 결정하고 임금 2.5% 인상 협약을 체결함.</td>
+                            </tr>
+                            <tr>
+                                <td>2026년 11월 초 리서치를 통해 내년 코스피 목표치 9,000p 제시 및 하반기 국내주식 비중 축소를 권고함.</td>
+                            </tr>
+                            <tr>
+                                <td>2026년 9월 9일, 엔 캐리 트레이드의 급격한 청산 가능성이 낮다고 분석했으며 현대차의 2027년 판매량을 약 441.5만 대로 전망함.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -507,7 +526,7 @@
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>현대차증권은 퇴직연금 ALM 시스템 도입을 통해 중소기업 대상 컨설팅을 강화하는 한편, 내년 국내 증시의 &#x27;상저하고&#x27; 흐름을 전망하며 하반기 주식 비중 축소와 해외 투자 확대를 권고하는 등 다양한 자산 관리 및 시장 분석 서비스를 제공하고 있습니다.</td>
+                                <td>현대차증권은 퇴직연금 ALM 시스템 도입과 UNGC 리드 기업 선정 등을 통해 사업 경쟁력과 ESG 경영을 강화하고 있으며, 자사주 매입으로 주주 환원을 실천하고 있습니다. 또한 리서치 센터를 통해 내년 증시 전망과 자산 배분 전략, 엔 캐리 트레이드 분석 등 전문적인 시장 전망을 제공하고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -658,12 +677,12 @@
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-11-09_[글로벌이코노믹]_현대차증권_고려아연_실적_부진_전망.._목표가_9.2%_하향.md"
-                data-news-path="build/news/profiles/001500_현대차증권/2026-11-09_[글로벌이코노믹]_현대차증권_고려아연_실적_부진_전망.._목표가_9.2%_하향.md"
+        <div class="news-row" data-news-file="2026-11-16 [ollama] LLM web search on news (24 articles).md"
+                data-news-path="build/news/profiles/001500_현대차증권/2026-11-16 [ollama] LLM web search on news (24 articles).md"
                 data-object-type="Profile"
                 data-object-id="001500">
-                <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-09_[글로벌이코노믹]_현대차증권_고려아연_실적_부진_전망.._목표가_9.2%_하향.md'); return false;">
-                    2026-11-09 [글로벌이코노믹] 현대차증권 고려아연 실적 부진 전망.. 목표가 9.2% 하향
+                <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-16 [ollama] LLM web search on news (24 articles).md'); return false;">
+                    2026-11-16 [ollama] LLM web search on news (24 articles)
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -686,61 +705,6 @@
                 data-object-id="001500">
                 <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-04_[이투데이]_코스피_오른다면서_주식은_팔라는_증권가⋯내년_하반기_경계감↑.md'); return false;">
                     2026-11-04 [이투데이] 코스피 오른다면서 주식은 팔라는 증권가⋯내년 하반기 경계감↑
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-03_[이투데이]_현대차證_HD현대마린엔진_3분기_깜짝_실적보다_증설_주목⋯내년_성장_가속.md"
-                data-news-path="build/news/profiles/001500_현대차증권/2026-11-03_[이투데이]_현대차證_HD현대마린엔진_3분기_깜짝_실적보다_증설_주목⋯내년_성장_가속.md"
-                data-object-type="Profile"
-                data-object-id="001500">
-                <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-03_[이투데이]_현대차證_HD현대마린엔진_3분기_깜짝_실적보다_증설_주목⋯내년_성장_가속.md'); return false;">
-                    2026-11-03 [이투데이] 현대차證 HD현대마린엔진 3분기 깜짝 실적보다 증설 주목⋯내년 성장 가속
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-03_[비즈니스포스트]_현대차증권_증권업종_실적_리스크에도_배당_매력_부각되는_구간_최선호주_삼성증권.md"
-                data-news-path="build/news/profiles/001500_현대차증권/2026-11-03_[비즈니스포스트]_현대차증권_증권업종_실적_리스크에도_배당_매력_부각되는_구간_최선호주_삼성증권.md"
-                data-object-type="Profile"
-                data-object-id="001500">
-                <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-03_[비즈니스포스트]_현대차증권_증권업종_실적_리스크에도_배당_매력_부각되는_구간_최선호주_삼성증권.md'); return false;">
-                    2026-11-03 [비즈니스포스트] 현대차증권 증권업종 실적 리스크에도 배당 매력 부각되는 구간 최선호주 삼성증권
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-03_[비즈니스포스트]_현대차증권_증권업종_실적_리스크에도_배당_매력_높아질_구간_최선호주_삼성증권.md"
-                data-news-path="build/news/profiles/001500_현대차증권/2026-11-03_[비즈니스포스트]_현대차증권_증권업종_실적_리스크에도_배당_매력_높아질_구간_최선호주_삼성증권.md"
-                data-object-type="Profile"
-                data-object-id="001500">
-                <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-03_[비즈니스포스트]_현대차증권_증권업종_실적_리스크에도_배당_매력_높아질_구간_최선호주_삼성증권.md'); return false;">
-                    2026-11-03 [비즈니스포스트] 현대차증권 증권업종 실적 리스크에도 배당 매력 높아질 구간 최선호주 삼성증권
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-03_[뉴스핌]_[리포트_브리핑]디아이_사상_최대_실적_달라진_이익_체력_목표가_60000원.md"
-                data-news-path="build/news/profiles/001500_현대차증권/2026-11-03_[뉴스핌]_[리포트_브리핑]디아이_사상_최대_실적_달라진_이익_체력_목표가_60000원.md"
-                data-object-type="Profile"
-                data-object-id="001500">
-                <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-03_[뉴스핌]_[리포트_브리핑]디아이_사상_최대_실적_달라진_이익_체력_목표가_60000원.md'); return false;">
-                    2026-11-03 [뉴스핌] [리포트 브리핑]디아이 사상 최대 실적 달라진 이익 체력 목표가 60000원
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-03_[뉴스핌]_[리포트_브리핑]POSCO홀딩스_3분기_예상_상회하는_실적_기록_목표가_400000원_-.md"
-                data-news-path="build/news/profiles/001500_현대차증권/2026-11-03_[뉴스핌]_[리포트_브리핑]POSCO홀딩스_3분기_예상_상회하는_실적_기록_목표가_400000원_-.md"
-                data-object-type="Profile"
-                data-object-id="001500">
-                <a href="#" onclick="openPopup('/build/news/profiles/001500_현대차증권/2026-11-03_[뉴스핌]_[리포트_브리핑]POSCO홀딩스_3분기_예상_상회하는_실적_기록_목표가_400000원_-.md'); return false;">
-                    2026-11-03 [뉴스핌] [리포트 브리핑]POSCO홀딩스 3분기 예상 상회하는 실적 기록 목표가 400000원 -
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -1181,6 +1145,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

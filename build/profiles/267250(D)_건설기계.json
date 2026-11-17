@@ -1,0 +1,125 @@
+{
+    "key": "267250(D)",
+    "filename": "267250(D)_건설기계",
+    "updated": "2026-11-17 12:21",
+    "llm_research_updated": "2026-11-16 12:34",
+    "financials": {
+        "meta": {
+            "name": "HD현대",
+            "code": "267250",
+            "segment_name": "건설기계",
+            "id": "D",
+            "updated": "2026-11-17 12:21",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 1170,
+                "revenue_ltm": 9940,
+                "opincome_ltm": 567,
+                "revenue_qtr": 2650,
+                "opincome_qtr": 151
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 3.8,
+                "growth(%)": 3
+            },
+            "opmargin(%)": {
+                "25_4Q": 5.7,
+                "26_1Q": 5.7,
+                "26_2Q": 5.7,
+                "26_3Q": 5.7,
+                "ltm": 5.7
+            },
+            "PER": {
+                "PER_ltm": 2.06,
+                "PER_qx4": 1.93,
+                "PER_fwd": 1.82
+            },
+            "volatility": {
+                "measure_to_base(%)": 5.1
+            },
+            "amount": {
+                "measure_to_base(%)": -34
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.015,
+                    "beta": 0.73
+                },
+                "base_period": {
+                    "alpha(%)": -0.5,
+                    "beta": 0.41
+                },
+                "measure_period": {
+                    "alpha(%)": -0.64,
+                    "beta": 0.74
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부",
+            "실적"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.12,
+        "marcap_share": 0.12,
+        "opmargin": 0.057,
+        "trend": "improving (글로벌 수요 회복 및 원팀 시너지)"
+    },
+    "id": "D",
+    "profile_name": "HD현대",
+    "profile_code": "267250",
+    "segment_name": "건설기계",
+    "news": {
+        "updated": "2026-11-16 12:34",
+        "key_financials": [
+            "2026년 상반기 건설기계 부문 매출: 4조 1,470억 원 (전체 연결 매출의 87.51%)",
+            "2026년 3분기 건설기계 부문 매출: 1조 6,235억 원 (전년 동기 대비 1.1% 증가), 영업이익: 1,099억 원 (전년 동기 대비 25.7% 증가)"
+        ],
+        "key_facts": [
+            "2026년 1월 1일 HD현대건설기계가 HD현대인프라코어를 흡수합병하여 통합법인 'HD건설기계'로 공식 출범하고 1사 2브랜드(HYUNDAI, DEVELON) 체제를 유지함",
+            "2026년 6월 폴란드 군납 불도저 50대 및 9월 홍콩철도공사 굴착기 45대 공급 계약을 체결하며 글로벌 수주 확대",
+            "2026년 9월 프랑스 마니투 그룹과 소형 건설장비 상호 판매 파트너십을 체결하고 2030년 소형 장비 매출 1.3조 원 목표 설정",
+            "2030년 매출 14조 원, 영업이익률 11% 이상, ROE 15% 이상 달성을 중장기 재무 및 사업 목표로 상향 조정함",
+            "고수익성 애프터마켓(AM) 및 서비스(PS) 부문 매출을 2030년까지 1.4조 원으로 확대할 계획임"
+        ],
+        "key_issues": [
+            "지정학적 불확실성 지속으로 인해 중동 및 아프리카 지역의 판매 실적 부진 및 수요 감소 발생",
+            "원/달러 환율 하락으로 인한 외화매출채권의 원화 환산가치 감소 및 대규모 외환손실 발생 (2026년 3분기 1,460억 원)",
+            "이스라엘의 팔레스타인 주민 강제 이주 과정에 자사 굴착기가 사용되었다는 시민단체의 비판 및 인권 침해 논란 (회사는 관련 없다고 부인)",
+            "2022년 3월 굴착기(HW145) 모델 2,062대에서 하부 프레임 및 차축 고정 볼트/너트 풀림 결함이 발견되어 리콜 실시"
+        ],
+        "news_summary": "HD현대건설기계는 2026년 1월 HD현대인프라코어를 흡수합병하여 통합법인 'HD건설기계'로 출범하였으며, 'HYUNDAI'와 'DEVELON'의 듀얼 브랜드 체제를 통해 글로벌 시장 경쟁력을 강화하고 있습니다. 2026년 3분기 건설기계 부문은 중대형 제품 판매 지속과 애프터마켓 사업 강화로 영업이익이 전년 동기 대비 25.7% 증가하는 등 수익성이 개선되었으나, 중동 및 아프리카 지역의 실적 부진과 환율 하락에 따른 외환손실이 경영 부담으로 작용했습니다. 회사는 홍콩 철도 사업 및 폴란드 군납 수주 등 시장 다변화를 추진하고 있으며, 2030년까지 매출 14조 원 달성을 목표로 소형 건설장비 확대와 친환경 파워트레인 기술 개발에 집중하고 있습니다."
+    }
+}

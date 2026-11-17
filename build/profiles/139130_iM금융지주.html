@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 10:44</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>금융 및 부동산</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>금융</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:25</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=6#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 및 부동산 (6)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=61#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">금융 (61)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=611#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">은행 (611)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=6111#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">시중은행 (6111)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>2,470</span>
+                                <span>2,510</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -494,26 +507,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 12:31</td>
+                                <td>2026-11-16 15:36</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>2026년 3분기 누적 지배주주지분 순이익은 4,163억원으로 전년 동기 대비 3.6% 감소함.</td>
+                                <td>iM금융그룹의 2026년 3분기 누적 순이익은 4,163억원으로 전년 동기 대비 3.6% 감소했으며, ROE(8.82%)는 밸류업 목표치인 9%를 하회함.</td>
                             </tr>
                             <tr>
-                                <td>iM뱅크는 대기업 대출을 약 60% 늘렸으나 3분기 순이자마진(NIM)은 1.75%로 하락했고, 누적 비이자손익은 -28억원으로 적자 전환함.</td>
+                                <td>iM뱅크의 3분기 누적 순이익은 전년비 1.4% 감소했고, 비이자손익은 -28억원으로 적자 전환했으며, 대기업 대출 60% 증가로 NIM이 1.75%로 하락함.</td>
                             </tr>
                             <tr>
-                                <td>그룹 3분기 누적 ROE는 8.82%로 전년 동기 대비 0.68%p 하락하며 밸류업 목표치(9.0%)를 밑돎.</td>
+                                <td>비은행 계열사인 iM증권(10.4%↑)과 iM캐피탈(약 20%↑)의 3분기 누적 순이익은 증가하며 그룹 실적을 뒷받침함.</td>
                             </tr>
                             <tr>
-                                <td>보통주자본비율(CET1)은 12.39%로 역대 최고 수준을 기록하며 자본 건전성이 개선됨.</td>
+                                <td>보통주자본비율(CET1) 12.39%로 역대 최고치를 기록하고 대손비용률이 개선되는 등 자본 건전성은 강화됨.</td>
                             </tr>
                             <tr>
-                                <td>iM증권(3분기 연결 순익 218억원)과 iM캐피탈(3분기 누적 순익 565억원)은 전분기 및 전년 동기 대비 이익이 증가함.</td>
+                                <td>황병우 회장(임기 2027년 3월까지)의 연임을 앞두고 회추위가 10월 27일 차기 회장 롱리스트 6명을 확정함.</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -523,23 +536,20 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>인건비 및 교육세 등 판매관리비의 급증이 이자이익 증가분을 상쇄하여 수익성 악화 초래.</td>
+                                <td>인건비 및 교육세 등 판매관리비 급증이 이자이익 증가분을 상쇄하며 수익성을 저해함.</td>
                             </tr>
                             <tr>
-                                <td>시중은행 전환 후 예수금 점유율 하락 및 소프트웨어 무형자산 취득액 감소 등 실질적 성과 부족 지적.</td>
+                                <td>시중은행 전환 후 원화예수금 점유율 하락, 디지털 투자 감소, 해외 법인 실적 부진 등 실질적 성과 부족 논란.</td>
                             </tr>
                             <tr>
-                                <td>미얀마 영업소 감소 및 캄보디아 법인 순이익 하락 등 글로벌 확장 전략의 부진.</td>
-                            </tr>
-                            <tr>
-                                <td>황병우 회장의 연임 심사를 앞두고 실적 부진 및 비리 의혹 투서(활동비 이중 수령 등)가 변수로 부상.</td>
+                                <td>황병우 회장과 관련한 비리 의혹 투서(활동비 이중 수령 등) 및 실적 부진으로 인한 연임 불확실성 증대.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>iM금융그룹은 시중은행 전환 후 외형 성장을 꾀했으나, 판관비 증가와 비이자손익 적자 전환으로 인해 2026년 3분기 누적 순이익이 감소하는 등 수익성 경고등이 켜졌습니다. 특히 글로벌 사업의 부진과 디지털 투자 감소가 문제로 지적되는 가운데, 12월 최종 후보 추천을 앞둔 황병우 회장의 연임 여부에 실적 및 도덕성 검증이 핵심 변수가 될 전망입니다.</td>
+                                <td>iM금융그룹은 시중은행 전환 이후 외형 성장을 이루었으나, 판관비 증가와 비이자이익 적자 전환, NIM 하락 등으로 인해 2026년 3분기 누적 순이익이 감소하는 등 수익성 악화를 겪고 있습니다. 건전성 지표는 개선되었으나 디지털 및 글로벌 확장 성과가 미흡한 가운데, 황병우 회장의 연임 심사를 앞두고 경영 성과와 도덕성 검증이 주요 쟁점으로 떠오르고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -718,39 +728,6 @@
                     aria-label="Delete article">×</button>
             </div>
         
-            <div class="news-row" data-news-file="2026-11-06_[아시아타임즈]_iM증권_한국금융지주_내년_순이익_추정치_하향…_거래대금_감소에_전망_낮춰.md"
-                data-news-path="build/news/profiles/139130_iM금융지주/2026-11-06_[아시아타임즈]_iM증권_한국금융지주_내년_순이익_추정치_하향…_거래대금_감소에_전망_낮춰.md"
-                data-object-type="Profile"
-                data-object-id="139130">
-                <a href="#" onclick="openPopup('/build/news/profiles/139130_iM금융지주/2026-11-06_[아시아타임즈]_iM증권_한국금융지주_내년_순이익_추정치_하향…_거래대금_감소에_전망_낮춰.md'); return false;">
-                    2026-11-06 [아시아타임즈] iM증권 한국금융지주 내년 순이익 추정치 하향… 거래대금 감소에 전망 낮춰
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-06_[Chosunbiz]_iM證_한국금융지주_3분기_다소_아쉬운_실적…목표가_하향.md"
-                data-news-path="build/news/profiles/139130_iM금융지주/2026-11-06_[Chosunbiz]_iM證_한국금융지주_3분기_다소_아쉬운_실적…목표가_하향.md"
-                data-object-type="Profile"
-                data-object-id="139130">
-                <a href="#" onclick="openPopup('/build/news/profiles/139130_iM금융지주/2026-11-06_[Chosunbiz]_iM證_한국금융지주_3분기_다소_아쉬운_실적…목표가_하향.md'); return false;">
-                    2026-11-06 [Chosunbiz] iM證 한국금융지주 3분기 다소 아쉬운 실적…목표가 하향
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
-            <div class="news-row" data-news-file="2026-11-05_[와이드경제]_iM증권_우리금융_내년에도_은행_쏠림_뚜렷…목표가_4만2000원_유지.md"
-                data-news-path="build/news/profiles/139130_iM금융지주/2026-11-05_[와이드경제]_iM증권_우리금융_내년에도_은행_쏠림_뚜렷…목표가_4만2000원_유지.md"
-                data-object-type="Profile"
-                data-object-id="139130">
-                <a href="#" onclick="openPopup('/build/news/profiles/139130_iM금융지주/2026-11-05_[와이드경제]_iM증권_우리금융_내년에도_은행_쏠림_뚜렷…목표가_4만2000원_유지.md'); return false;">
-                    2026-11-05 [와이드경제] iM증권 우리금융 내년에도 은행 쏠림 뚜렷…목표가 4만2000원 유지
-                </a>
-                <button class="news-delete-button" type="button" title="Delete article"
-                    aria-label="Delete article">×</button>
-            </div>
-        
             <div class="news-row" data-news-file="2026-11-05_[스포츠조선]_iM금융_차기_회장_선임_절차_돌입…황병우_회장_연임_여부_관심.md"
                 data-news-path="build/news/profiles/139130_iM금융지주/2026-11-05_[스포츠조선]_iM금융_차기_회장_선임_절차_돌입…황병우_회장_연임_여부_관심.md"
                 data-object-type="Profile"
@@ -889,6 +866,28 @@
                 data-object-id="139130">
                 <a href="#" onclick="openPopup('/build/news/profiles/139130_iM금융지주/2026-10-28_[현대경제신문]_iM금융지주_실적_부진에도_주주환원_매력_유효.md'); return false;">
                     2026-10-28 [현대경제신문] iM금융지주 실적 부진에도 주주환원 매력 유효
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-28_[톱데일리]_황병우_1기_iM금융_시중은행_쫓다가_실적_하락세로_끝내나.md"
+                data-news-path="build/news/profiles/139130_iM금융지주/2026-10-28_[톱데일리]_황병우_1기_iM금융_시중은행_쫓다가_실적_하락세로_끝내나.md"
+                data-object-type="Profile"
+                data-object-id="139130">
+                <a href="#" onclick="openPopup('/build/news/profiles/139130_iM금융지주/2026-10-28_[톱데일리]_황병우_1기_iM금융_시중은행_쫓다가_실적_하락세로_끝내나.md'); return false;">
+                    2026-10-28 [톱데일리] 황병우 1기 iM금융 시중은행 쫓다가 실적 하락세로 끝내나
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-28_[시사저널e]_3Q_지방금융지주_실적_보니···순익_승자는_JB_건전성_관리는_iM금융.md"
+                data-news-path="build/news/profiles/139130_iM금융지주/2026-10-28_[시사저널e]_3Q_지방금융지주_실적_보니···순익_승자는_JB_건전성_관리는_iM금융.md"
+                data-object-type="Profile"
+                data-object-id="139130">
+                <a href="#" onclick="openPopup('/build/news/profiles/139130_iM금융지주/2026-10-28_[시사저널e]_3Q_지방금융지주_실적_보니···순익_승자는_JB_건전성_관리는_iM금융.md'); return false;">
+                    2026-10-28 [시사저널e] 3Q 지방금융지주 실적 보니···순익 승자는 JB 건전성 관리는 iM금융
                 </a>
                 <button class="news-delete-button" type="button" title="Delete article"
                     aria-label="Delete article">×</button>
@@ -1142,6 +1141,18 @@
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

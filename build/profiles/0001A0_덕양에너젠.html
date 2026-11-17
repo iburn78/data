@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 11:26</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>에너지화학</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>에너지</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:15</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=11#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지 (11)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=112#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">신재생에너지 (112)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1122#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">대체 에너지 (1122)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>169</span>
+                                <span>158</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -338,7 +351,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_ltm</td>
                             <td class="value">
-                                <span>16.9</span>
+                                <span>15.8</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -347,7 +360,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
                             <td class="value">
-                                <span>13.3</span>
+                                <span>12.4</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -356,7 +369,7 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
                             <td class="value">
-                                <span>10.7</span>
+                                <span>9.97</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -368,7 +381,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-5.2</span>
+                                <span>-12</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -416,7 +429,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.47</span>
+                                <span>-0.41</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -425,7 +438,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.56</span>
+                                <span>0.59</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -437,7 +450,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.36</span>
+                                <span>-0.61</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -446,7 +459,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>0.73</span>
+                                <span>0.65</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -503,7 +516,7 @@
                         <tr class="value-row level-1">
                             <td class="label">alpha (measure)</td>
                             <td class="value">
-                                <span>-</span>
+                                <span>udr_pfm</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -664,22 +677,7 @@
         
                             <tr>
                                 <th>opmargin</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
                                 <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
                             </tr>
         
                             <tr>
@@ -784,7 +782,7 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 16:55</td>
+                                <td>2026-11-16 17:00</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
@@ -794,10 +792,13 @@
                                 <td>SK이노베이션 E&amp;S는 2026년 9월 2일 덕양에너젠과 &#x27;기체수소 공급 및 수소충전소 사업 협력을 위한 업무협약(MOU)&#x27;을 체결함.</td>
                             </tr>
                             <tr>
-                                <td>SK이노베이션 E&amp;S는 수소상용차(수소버스 등) 수요 개발과 기체·액화 복합 수소충전소의 구축 및 운영을 담당함.</td>
+                                <td>SK이노베이션 E&amp;S는 수소상용차 수요 개발 및 기체·액화 복합 수소충전소의 구축과 운영을 담당함.</td>
                             </tr>
                             <tr>
-                                <td>양사는 사업성과 지역별 수요를 고려해 우선적으로 5개 충전소를 대상으로 사업 확대를 추진하며, 충전소 1곳당 예상 사업비는 약 60억원, 연간 기체수소 공급량은 약 180톤으로 전망됨.</td>
+                                <td>덕양에너젠은 SK이노베이션 E&amp;S의 액화수소 충전소 인접 부지에 기체수소 충전 인프라를 구축하고 기체수소를 공급함.</td>
+                            </tr>
+                            <tr>
+                                <td>양사는 사업화 가능성이 높은 5개 충전소를 우선 대상으로 단계적 사업 확대를 추진하며, 충전소 1곳당 예상 사업비는 약 60억원, 연간 기체수소 공급 전망량은 약 180톤임.</td>
                             </tr>
                             <tr>
                                 <td>SK이노베이션 E&amp;S는 2024년 5월 인천에 연간 3만 톤 규모의 액화수소 생산 플랜트를 준공하여 국내 수소 모빌리티 시장에 액화수소를 공급하고 있음.</td>
@@ -815,7 +816,7 @@
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>SK이노베이션 E&amp;S는 덕양에너젠과 MOU를 체결하여 액화수소 중심의 공급망에 기체수소를 더한 복합형 수소충전 인프라를 확대하고, 수소상용차 수요 개발 및 충전소 운영 안정성을 확보할 계획입니다.</td>
+                                <td>SK이노베이션 E&amp;S는 덕양에너젠과 협력하여 액화수소와 기체수소를 모두 공급하는 복합형 수소충전 인프라를 확대함으로써 수소 모빌리티 공급원을 다변화하고 충전소 운영의 안정성을 확보할 계획입니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1775,7 +1776,18 @@ https://www.the-stock.kr/news/articleView.html?idxno=31653
     
     <h3>News</h3>
     <div class="news-section">
-        <div class="news-row" data-news-file="2026-10-15_[수소신문]_SK이노베이션_E&amp;S_덕양에너젠과_기체·액화_수소충전소_확대.md"
+        <div class="news-row" data-news-file="2026-11-06_[수소신문]_SK이노베이션_E&amp;S_덕양에너젠과_기체·액화_수소충전소_확대.md"
+                data-news-path="build/news/profiles/0001A0_덕양에너젠/2026-11-06_[수소신문]_SK이노베이션_E&amp;S_덕양에너젠과_기체·액화_수소충전소_확대.md"
+                data-object-type="Profile"
+                data-object-id="0001A0">
+                <a href="#" onclick="openPopup('/build/news/profiles/0001A0_덕양에너젠/2026-11-06_[수소신문]_SK이노베이션_E&S_덕양에너젠과_기체·액화_수소충전소_확대.md'); return false;">
+                    2026-11-06 [수소신문] SK이노베이션 E&amp;S 덕양에너젠과 기체·액화 수소충전소 확대
+                </a>
+                <button class="news-delete-button" type="button" title="Delete article"
+                    aria-label="Delete article">×</button>
+            </div>
+        
+            <div class="news-row" data-news-file="2026-10-15_[수소신문]_SK이노베이션_E&amp;S_덕양에너젠과_기체·액화_수소충전소_확대.md"
                 data-news-path="build/news/profiles/0001A0_덕양에너젠/2026-10-15_[수소신문]_SK이노베이션_E&amp;S_덕양에너젠과_기체·액화_수소충전소_확대.md"
                 data-object-type="Profile"
                 data-object-id="0001A0">
@@ -1825,6 +1837,18 @@ https://www.the-stock.kr/news/articleView.html?idxno=31653
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

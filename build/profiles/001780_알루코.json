@@ -1,0 +1,143 @@
+{
+    "key": "001780",
+    "filename": "001780_알루코",
+    "updated": "2026-11-17 12:15",
+    "llm_research_updated": "2026-11-12 20:47",
+    "financials": {
+        "meta": {
+            "name": "알루코",
+            "code": "001780",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:15",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "비철 금속 (214)",
+                "subindustry": "비철 금속 (2141)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 122,
+                "revenue_ltm": 553,
+                "opincome_ltm": 33.7,
+                "revenue_qtr": 151,
+                "opincome_qtr": 13.3
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": -0.33,
+                "growth(%)": -3.5
+            },
+            "opmargin(%)": {
+                "25_4Q": 4,
+                "26_1Q": 6.8,
+                "26_2Q": 4.2,
+                "26_3Q": 8.8,
+                "ltm": 6.1
+            },
+            "PER": {
+                "PER_ltm": 3.62,
+                "PER_qx4": 2.3,
+                "PER_fwd": 2.45
+            },
+            "volatility": {
+                "measure_to_base(%)": 52
+            },
+            "amount": {
+                "measure_to_base(%)": 22
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.043,
+                    "beta": 0.73
+                },
+                "base_period": {
+                    "alpha(%)": -0.43,
+                    "beta": 0.33
+                },
+                "measure_period": {
+                    "alpha(%)": -1.9,
+                    "beta": 0.18
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "Up",
+            "amount_level": "-",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:47",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "전기차/이차전지 부품",
+            "전기전자 부품",
+            "산업용 소재",
+            "건축용 자재"
+        ],
+        "revenue_share": [
+            0.3,
+            0.2,
+            0.2,
+            0.3
+        ],
+        "trend": [
+            "Expanding in North America/Europe",
+            "Stable",
+            "Improving in North American market",
+            "Declining due to construction slump"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "전기차 배터리 모듈 케이스",
+            "모바일/디스플레이 프레임",
+            "태양광 모듈 프레임, 자동차/철도/선박/항공기 부품",
+            "창호재, 커튼월, 알폼(AL-FORM)"
+        ],
+        "competitors": [
+            "2차전지 부품사",
+            "알루미늄 압출업체",
+            "알루미늄 소재사",
+            "건설자재사"
+        ]
+    },
+    "code": "001780",
+    "name": "알루코",
+    "overview": {
+        "title": "전방산업 둔화 속 EV 배터리 확장",
+        "desc": "동사는 1956년 설립된 국내 유일의 알루미늄 소재 전문업체로, 금형에서 시공까지 원스탑시스템을 갖추고 있음. 주요 종속회사로 현대알루미늄, HYUNDAI VINA 등 12개사를 보유하고 있으며, 미국 현지 법인을 통해 알루미늄 압출재 제조 사업을 영위하고 있음. 주요 제품은 전기차 배터리 케이스, 모바일/디스플레이 프레임, 태양광 모듈 프레임, 자동차 및 철도차량 부품, 창호재, 커튼월 등임.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 14.9% 감소, 영업이익은 43.5% 감소, 당기순이익은 46.5% 증가. 알루미늄 압출 사업은 건설경기 침체 및 전방산업 수요 둔화로 매출과 영업이익이 감소했으나, 해외영업부의 태양광 모듈 프레임 및 사다리 북미 판매는 단가 경쟁력으로 점유율이 지속 상승 중임. EVC 영업부는 국내 배터리 3사와 맞춤 개발을 통해 글로벌 자동차사의 전기차 배터리 모듈케이스를 공급하고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:47"
+    },
+    "news": {
+        "updated": "2026-11-12 20:47",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

@@ -1,7 +1,7 @@
 {
     "key": "067310",
     "filename": "067310_하나마이크론",
-    "updated": "2026-11-12 19:43",
+    "updated": "2026-11-17 12:26",
     "llm_research_updated": "2026-10-27 09:35",
     "financials": {
         "meta": {
@@ -9,77 +9,78 @@
             "code": "067310",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 10:42",
-            "classification": {
-                "sector": "정보기술",
-                "subsector": "반도체 및 디스플레이",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:26",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "정보기술 (5)",
+                "group": "반도체 및 디스플레이 (53)",
+                "industry": "반도체 (531)",
+                "subindustry": "반도체 부품 및 장비 (5312)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 2010,
-                "revenue_ltm": 2320,
-                "opincome_ltm": 404,
-                "revenue_qtr": 683,
-                "opincome_qtr": 142
+                "marcap": 1620,
+                "revenue_ltm": 2160,
+                "opincome_ltm": 333,
+                "revenue_qtr": 517,
+                "opincome_qtr": 71.4
             }
         },
         "assess_data": {
             "opincome": {
                 "positive_ltm": true,
-                "higher(comp)": true,
-                "slope": 12,
-                "growth(%)": 22
+                "higher(comp)": false,
+                "slope": 8.8,
+                "growth(%)": 19
             },
             "opmargin(%)": {
                 "25_4Q": 11,
                 "26_1Q": 14,
                 "26_2Q": 21,
-                "26_3Q": 21,
-                "ltm": 17
+                "26_3Q": 14,
+                "ltm": 15
             },
             "PER": {
-                "PER_ltm": 4.97,
-                "PER_qx4": 3.53,
-                "PER_fwd": 2.91
+                "PER_ltm": 4.87,
+                "PER_qx4": 5.68,
+                "PER_fwd": 4.35
             },
             "volatility": {
-                "measure_to_base(%)": 30
+                "measure_to_base(%)": 32
             },
             "amount": {
-                "measure_to_base(%)": -49
+                "measure_to_base(%)": -51
             },
             "alpha_beta": {
                 "from_start_date": {
-                    "alpha(%)": 0.085,
+                    "alpha(%)": 0.079,
                     "beta": 1.3
                 },
                 "base_period": {
-                    "alpha(%)": 0.046,
+                    "alpha(%)": -0.14,
                     "beta": 1.1
                 },
                 "measure_period": {
-                    "alpha(%)": -0.82,
-                    "beta": 1.9
+                    "alpha(%)": -1.2,
+                    "beta": 2
                 }
             }
         },
         "assess_result": {
-            "basics": true,
+            "basics": false,
             "financially_sound": true,
             "PER_level": "Low",
             "volatility_level": "Up",
             "amount_level": "Dn",
             "alpha_level": "udr_pfm",
-            "category": "A",
+            "category": "D",
             "market_sentiment": "speculators"
         }
     },
@@ -113,7 +114,7 @@
             "Stable growth driven by memory recovery and customer diversification"
         ],
         "create_segments": false,
-        "recomm_segs": true,
+        "recomm_segs": false,
         "key_products": [
             "반도체 패키징, 테스트 서비스",
             "반도체 모듈 제조 및 판매",
@@ -134,19 +135,19 @@
         "updated": "2026-10-27 09:34"
     },
     "news": {
-        "updated": "2026-11-11 11:39",
+        "updated": "2026-11-16 15:22",
         "key_facts": [
-            "2026년 2분기 매출 6,832억원, 영업이익 1,423억원으로 분기 기준 역대 최대 실적을 달성함",
-            "SK하이닉스와 2029년까지 후공정 턴키 계약을 체결했으며, 베트남 박장 공장 생산능력을 내년 2억 개로 확대할 예정임",
-            "충남 천안·아산 '제3기 소부장 특화단지'에 참여하여 AI 반도체 후공정 역량 강화에 3,700억원을 투자함",
-            "2.xD 패키징 솔루션 'HiC' 개발을 통해 2027년 말 이후 양산을 목표로 하고 있으며, CPO 공정도 개발 중임",
-            "2025년 1월 반도체 제품 패키징 및 테스트 사업부문을 인적분할하여 신설회사를 설립하기로 결정함(분할기일 2025-07-01)"
+            "2026년 2분기 매출액 6,832억원, 영업이익 1,423억원으로 분기 기준 역대 최대 실적을 달성함.",
+            "SK하이닉스와 2029년까지 D램·낸드 후공정 턴키 계약을 체결했으며, 베트남 박장 공장 생산능력을 2027년까지 월 2억 개로 확대할 예정임.",
+            "2.xD 패키징 솔루션 'HiC' 및 공동패키징광학(CPO) 공정을 개발 중이며, HiC는 2027년 말 이후 양산을 예상함.",
+            "충남 천안·아산 '제3기 소부장 특화단지'로 지정되어 AI 반도체 후공정 역량 강화에 3,700억원을 투자할 계획임.",
+            "2025년 1월 반도체 제품 패키징 및 테스트 사업부문을 인적분할하여 2025년 7월 1일 분할 신설회사를 설립하기로 결정함."
         ],
         "key_issues": [
-            "2.5D 패키징 사업의 실제 매출 연결을 위한 고객사 인증 및 양산 수율 확보가 필요함",
-            "설비투자 확대에 따른 감가상각비 증가 및 해외 법인 손익이 연결 실적의 변수가 될 수 있음",
-            "역대 최대 실적의 일회성 여부 및 고부가 제품 비중 확대, 신규 고객 확보 여부 확인이 필요함"
+            "2026년 3분기 영업이익 전망치가 컨센서스를 21% 하회할 것으로 예상되어 단기 실적 변동성 확대 가능성이 있음.",
+            "첨단 패키징 사업의 경우 고객사 인증, 제품 검증 및 양산 수율 확보가 실제 매출로 이어지는 핵심 변수임.",
+            "설비투자 확대에 따른 감가상각비 증가와 해외 법인 손익이 연결 실적의 변수로 작용함."
         ],
-        "news_summary": "하나마이크론은 AI 반도체 수요 증가와 범용 메모리 외주 확대에 힘입어 2026년 2분기 역대 최대 실적을 기록했습니다. 베트남 공장 증설과 브라질 법인의 사업 확장으로 성장세를 이어가는 한편, 첨단 패키징 기술 개발과 소부장 특화단지 투자를 통해 중장기 경쟁력을 확보하고 있으며 2025년 인적분할을 추진 중입니다."
+        "news_summary": "하나마이크론은 2026년 2분기 역대 최대 실적을 기록하며 성장세를 보이고 있으며, SK하이닉스와의 턴키 계약 및 베트남·국내 생산능력 확대를 통해 사업을 확장하고 있습니다. 특히 2.5D 및 광 패키징 등 첨단 후공정 기술 확보와 소부장 특화단지 지정을 통한 AI 반도체 역량 강화에 집중하고 있으나, 단기적인 실적 변동성과 신규 기술의 양산 전환 여부가 향후 주요 과제로 남아있습니다."
     }
 }

@@ -1,0 +1,147 @@
+{
+    "key": "007690",
+    "filename": "007690_국도화학",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:06",
+    "financials": {
+        "meta": {
+            "name": "국도화학",
+            "code": "007690",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "특수 산업 소재 (2112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 282,
+                "revenue_ltm": 1760,
+                "opincome_ltm": 75.7,
+                "revenue_qtr": 440,
+                "opincome_qtr": 4.82
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 1.7,
+                "growth(%)": 13
+            },
+            "opmargin(%)": {
+                "25_4Q": 3.4,
+                "26_1Q": 2.5,
+                "26_2Q": 9,
+                "26_3Q": 1.1,
+                "ltm": 4.3
+            },
+            "PER": {
+                "PER_ltm": 3.72,
+                "PER_qx4": 14.6,
+                "PER_fwd": 7.77
+            },
+            "volatility": {
+                "measure_to_base(%)": -43
+            },
+            "amount": {
+                "measure_to_base(%)": -51
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.015,
+                    "beta": 0.48
+                },
+                "base_period": {
+                    "alpha(%)": -0.011,
+                    "beta": 0.21
+                },
+                "measure_period": {
+                    "alpha(%)": 0.047,
+                    "beta": 0.24
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:06",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "에폭시수지 사업부",
+            "폴리올수지 사업부"
+        ],
+        "revenue_share": [
+            0.8,
+            0.2
+        ],
+        "opmargin": [
+            0.012,
+            -0.064
+        ],
+        "trend": [
+            "Improving (고부가 제품 확대 및 수급 개선 기대)",
+            "Declining (전방 산업 부진으로 적자 지속)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "에폭시수지, 경화제, 반응성 희석제",
+            "폴리올수지"
+        ],
+        "competitors": [
+            "SK케미칼, KPX케미칼, 애경케미칼",
+            "SK케미칼, KPX케미칼, 애경케미칼"
+        ]
+    },
+    "code": "007690",
+    "name": "국도화학",
+    "overview": {
+        "title": "조선업 호황과 AI 수요로 실적 개선",
+        "desc": "동사는 1972년 에폭시수지, 폴리아마이드수지, 폴리우레탄의 제조·판매를 목적으로 설립되었으며, 1989년 유가증권시장에 상장됨. 본사는 서울에, 공장은 익산, 부산, 시흥, 화성에 위치하며, 중국 국도화공 유한공사와 인도 Kukdo Chemical India 등 10개 종속회사를 운영하고 있음. 에폭시수지는 선박, 자동차, 컨테이너 등의 도료와 전기·전자 소재, 풍력블레이드용 핵심소재로 활용되고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 42.0% 증가, 영업이익은 95.9% 증가, 당기순이익은 220.5% 증가. 에폭시수지 사업부문에서 조선업 호황 지속으로 선박용 도료 수요가 견조하며, AI 인프라 투자 확대에 따른 전기·전자 분야 수요 증가로 실적이 크게 개선됨. 인도 현지 제조법인을 통한 시장 점유율 확대와 유럽 반덤핑 조사 종결로 해외 시장 확대 기반을 확보하고 있음.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 21:06"
+    },
+    "news": {
+        "updated": "2026-11-12 21:07",
+        "key_facts": [
+            "2026년 3분기 연결 매출액 4,398억 원(전년비 +24%), 영업이익 48.1억 원(전년비 -55%)을 기록함.",
+            "인도법인이 2026년 1분기 흑자 전환에 성공했으며, 생산능력을 10만 톤까지 확대함.",
+            "유럽 시장 내 반덤핑관세 미부과로 가격 경쟁력을 유지하게 됨.",
+            "AI 서버용 동박적층판(CCL) 및 반도체 패키징용 고부가 에폭시 제품 비중 확대를 추진 중임.",
+            "LG화학의 대산 비스페놀A(BPA) 설비(연산 17만 톤) 인수 가능성을 검토 중임."
+        ],
+        "key_issues": [
+            "3분기 실적 부진: 고가 원재료 투입에 따른 부정적 래깅 효과, 환율 하락, 해상 운임 상승 및 선구매 효과 소멸이 영향을 미침.",
+            "원재료 가격 변동성: 비스페놀A(BPA) 가격 강세 상황에서 원가 상승분을 판매가에 빠르게 반영하는 것이 4분기 실적의 변수임.",
+            "제품 포트폴리오 편중: 매출의 약 95%가 에폭시수지에 의존하고 있음."
+        ],
+        "news_summary": "국도화학은 2026년 2분기 일시적 수요 증가로 호실적을 거뒀으나, 3분기에는 원가 부담과 환율 하락 등으로 영업이익이 급감했습니다. 다만 인도법인의 흑자 전환, 유럽 관세 부담 완화, AI 서버 및 반도체용 고부가 제품 확대, BPA 설비 인수를 통한 원료 내재화 가능성 등을 통해 중장기적 수익 구조 개선을 도모하고 있습니다."
+    }
+}

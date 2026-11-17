@@ -1,0 +1,143 @@
+{
+    "key": "352940",
+    "filename": "352940_인바이오",
+    "updated": "2026-11-17 12:21",
+    "llm_research_updated": "2026-11-13 10:51",
+    "financials": {
+        "meta": {
+            "name": "인바이오",
+            "code": "352940",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:21",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "농업 화학 (2114)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 20.4,
+                "revenue_ltm": 36.5,
+                "opincome_ltm": 0.647,
+                "revenue_qtr": 4.23,
+                "opincome_qtr": -1.93
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -0.18,
+                "growth(%)": -52
+            },
+            "opmargin(%)": {
+                "25_4Q": -9.5,
+                "26_1Q": 22,
+                "26_2Q": 1.6,
+                "26_3Q": -46,
+                "ltm": 1.8
+            },
+            "PER": {
+                "PER_ltm": 31.5,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": 48
+            },
+            "amount": {
+                "measure_to_base(%)": -77
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.1,
+                    "beta": 0.21
+                },
+                "base_period": {
+                    "alpha(%)": -0.093,
+                    "beta": 0.083
+                },
+                "measure_period": {
+                    "alpha(%)": -0.029,
+                    "beta": 0.11
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "Up",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "speculators"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:51",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "살균제 사업",
+            "살충제 사업",
+            "제초제 사업",
+            "비료 및 친환경 제품 사업"
+        ],
+        "revenue_share": [
+            0.25,
+            0.3,
+            0.25,
+            0.2
+        ],
+        "trend": [
+            "수출 확대 및 성장세",
+            "안정적 수요 유지",
+            "수출 급증 및 고성장",
+            "친환경 수요 증가로 개선"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "살균제",
+            "인도에마, 살충제",
+            "제초제",
+            "석회황합제, 비료"
+        ],
+        "competitors": [
+            "경농, 성보화학, 조비",
+            "경농, 성보화학, 조비",
+            "경농, 성보화학, 조비",
+            "경농, 성보화학, 조비"
+        ]
+    },
+    "code": "352940",
+    "name": "인바이오",
+    "overview": {
+        "title": "합제 제품 수요 증가로 실적 개선",
+        "desc": "동사는 1997년 농약 제조 및 판매업을 목적으로 설립되었으며, 2020년 코스닥시장에 상장하였음. 황 성분을 가진 친환경 작물보호제인 석회황합제, 광범위 살충제인 인도에마 등 살균제, 살충제, 제초제 및 비료의 제조와 판매를 주요 사업으로 영위하고 있음. 농협경제지주 및 단위농협을 통한 판매와 국내 10개 지점에서 지역별 도소매상을 통한 유통망을 구축하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 10.0% 증가, 영업이익은 10.5% 증가, 당기순이익은 16.7% 감소. 농촌 인구 감소와 고령화로 노동력 절감 효과가 있는 합제 제품 수요가 증가하고, 외래해충 증가로 신제품 개발과 사용량이 꾸준히 증가하며 실적이 개선됨. 동사는 최신 선호제형 및 다양한 혼합제 등 고부가가치 제품과 다기능 친환경 작물보호제로 사업을 확대하고 있음.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 21:59"
+    },
+    "news": {
+        "updated": "2026-11-12 22:00",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

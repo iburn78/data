@@ -1,0 +1,151 @@
+{
+    "key": "484120",
+    "filename": "484120_도우인시스",
+    "updated": "2026-11-17 12:21",
+    "llm_research_updated": "2026-11-13 10:58",
+    "financials": {
+        "meta": {
+            "name": "도우인시스",
+            "code": "484120",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:21",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "기초 건설소재 (212)",
+                "subindustry": "비금속 광물 소재 (2121)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 169,
+                "revenue_ltm": 194,
+                "opincome_ltm": 27.2,
+                "revenue_qtr": 67.9,
+                "opincome_qtr": 13.4
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 0.9,
+                "growth(%)": 27
+            },
+            "opmargin(%)": {
+                "25_4Q": 9.4,
+                "26_1Q": 6.8,
+                "26_2Q": 14,
+                "26_3Q": 20,
+                "ltm": 14
+            },
+            "PER": {
+                "PER_ltm": 6.21,
+                "PER_qx4": 3.15,
+                "PER_fwd": 2.7
+            },
+            "volatility": {
+                "measure_to_base(%)": 26
+            },
+            "amount": {
+                "measure_to_base(%)": 240
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.36,
+                    "beta": 0.78
+                },
+                "base_period": {
+                    "alpha(%)": 0.24,
+                    "beta": 0.83
+                },
+                "measure_period": {
+                    "alpha(%)": -1.5,
+                    "beta": 0.7
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": true,
+            "PER_level": "Low",
+            "volatility_level": "Up",
+            "amount_level": "Up",
+            "alpha_level": "udr_pfm",
+            "category": "A",
+            "market_sentiment": "unstable"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:58",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "UTG 사업",
+            "임가공 및 용역 사업",
+            "신규 개발 사업"
+        ],
+        "revenue_share": [
+            0.97,
+            0.03,
+            0.0
+        ],
+        "opmargin": [
+            0.15,
+            null,
+            null
+        ],
+        "trend": [
+            "강력한 회복 및 성장세",
+            "안정적 유지",
+            "초기 개발 및 확장 단계"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "폴더블 스마트폰용 UTG (Ultra Thin Glass)",
+            "디스플레이 개발 용역, 임가공 서비스",
+            "반도체용 유리기판, 대면적 UTG (노트북/IT용), 자동차용 UTG"
+        ],
+        "competitors": [
+            "CPI 소재 업체, UTG 신규 진입 업체",
+            "디스플레이 관련 임가공 업체",
+            "유리기판 및 대면적 UTG 경쟁사"
+        ]
+    },
+    "code": "484120",
+    "name": "도우인시스",
+    "overview": {
+        "title": "폴더블폰 시장 확대로 실적 개선",
+        "desc": "동사는 2010년 UTG 연구개발, 제조 및 판매 목적으로 설립되었으며, 2025년 코스닥시장에 상장하였음. 동사는 폴더블 스마트폰용 UTG를 주력으로 하며, 삼성디스플레이 1차 협력사로 삼성전자 갤럭시Z폴드 시리즈와 글로벌 제조사에 공급하고 있음. 2027년 출시 예정 삼성 노트북용 대면적 UTG 개발을 완료하고, 자동차 및 반도체용 유리기판 개발로 사업 다각화를 추진하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 22.8% 증가, 영업이익은 496.1% 증가, 당기순이익 흑자전환. 폴더블 스마트폰 시장 확대로 실적이 크게 개선됨. 글로벌 고객사 다변화, 제조사 공급 확대가 매출 성장 견인함. UTG가 프리미엄 폴더블폰 핵심 소재로 자리 잡아 수익성 향상됨. 2026년 애플의 시장 진입이 예상되며, 신규 폼팩터 개발로 사업 영역 확장하고 있음.",
+        "as_of": "2026-09-02",
+        "updated": "2026-11-12 22:04"
+    },
+    "news": {
+        "updated": "2026-11-13 10:58",
+        "key_facts": [
+            "도우인시스는 국내 유일하게 UTG 전·후공정을 일괄 수행하며, 삼성디스플레이를 통해 삼성전자 갤럭시 Z 폴드 및 구글, 오포, 비보 등에 제품을 공급함.",
+            "2026년 3분기 누적 베트남 공장 생산량이 지난해 연간 생산량을 9개월 만에 추월했으며, 3분기 영업이익 약 134억 원으로 흑자 전환함.",
+            "2027년 1월 준공 예정인 베트남 제2공장을 통해 베트남 내 총 생산능력을 월 최대 300만 개까지 확대할 계획임.",
+            "듀얼 UTG 기술 확산 및 17~20인치 대면적 UTG 개발 완료, 하이브리드 UTG 솔루션 확보를 통해 글로벌 고객사 다변화를 추진 중임.",
+            "갤럭시 Z 폴드 시리즈의 UTG를 전량 담당하고 있으며, 차세대 폼팩터인 1세대 트라이폴드 제품에도 공급 이력이 있음."
+        ],
+        "key_issues": [
+            "기기 판매의 불확실성과 중국 업체들과의 가격 경쟁 심화가 투자 위험으로 지목됨."
+        ],
+        "news_summary": "도우인시스는 독보적인 UTG 전·후공정 일괄 생산 체계를 바탕으로 삼성디스플레이에 제품을 공급하며, 최근 폴더블폰 시장 확대에 따라 2026년 3분기 흑자 전환 및 가파른 성장세를 보이고 있습니다. 베트남 제2공장 증설을 통해 생산 능력을 확대하고, 듀얼 및 하이브리드 UTG 등 차세대 기술 개발과 고객사 다변화를 통해 글로벌 시장 지배력을 강화하고 있습니다."
+    }
+}

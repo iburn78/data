@@ -1,0 +1,137 @@
+{
+    "key": "004250",
+    "filename": "004250_NPC",
+    "updated": "2026-11-17 12:16",
+    "llm_research_updated": "2026-11-12 20:57",
+    "financials": {
+        "meta": {
+            "name": "NPC",
+            "code": "004250",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:16",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "일반 산업 소재 (2113)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 95.7,
+                "revenue_ltm": 457,
+                "opincome_ltm": 22.5,
+                "revenue_qtr": 109,
+                "opincome_qtr": 5.69
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.21,
+                "growth(%)": 4.3
+            },
+            "opmargin(%)": {
+                "25_4Q": 2.1,
+                "26_1Q": 5.7,
+                "26_2Q": 6.9,
+                "26_3Q": 5.2,
+                "ltm": 4.9
+            },
+            "PER": {
+                "PER_ltm": 4.25,
+                "PER_qx4": 4.2,
+                "PER_fwd": 3.85
+            },
+            "volatility": {
+                "measure_to_base(%)": 16
+            },
+            "amount": {
+                "measure_to_base(%)": -59
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.034,
+                    "beta": 0.38
+                },
+                "base_period": {
+                    "alpha(%)": -0.16,
+                    "beta": 0.14
+                },
+                "measure_period": {
+                    "alpha(%)": -0.4,
+                    "beta": 0.24
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:57",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "사출제품 제조 및 판매",
+            "임대 사업(렌탈)"
+        ],
+        "revenue_share": [
+            0.7613,
+            0.2387
+        ],
+        "opmargin": [
+            0.052,
+            null
+        ],
+        "trend": [
+            "실적 개선 중 (스마트 물류 및 친환경 제품 확대)",
+            "안정적 수익 구조 유지"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "물류·산업용 컨테이너, 파렛트, 생활/산업용 플라스틱 제품, 친환경 보온보냉상자",
+            "컨테이너 및 파렛트 렌탈 서비스 (한국파렛트풀)"
+        ],
+        "competitors": [
+            "중소 플라스틱 사출 업체들",
+            "물류 파렛트 및 컨테이너 렌탈사"
+        ]
+    },
+    "code": "004250",
+    "name": "NPC",
+    "overview": {
+        "title": "물류 수요 확대와 친환경 사업 확장",
+        "desc": "동사는 1965년 설립되어 1969년 상장한 플라스틱 사출제품 전문 기업으로, 24개의 비상장 종속회사를 보유하고 있음. 플라스틱 가공 60년 역사를 바탕으로 산업용 및 음료·주류 컨테이너, 농수산물 상자 등 다양한 플라스틱 제품을 개발·생산하며 국내 최대 규모를 자랑함. 온라인 거래 활성화와 유통·물류 시장 확대에 따라 친환경 보온보냉상자, 다회용 박스 등을 통한 지속 가능한 자원 순환 경제 실현에 주력하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 6.2% 증가, 영업이익은 5.5% 증가, 당기순이익은 33.1% 증가. 스마트 물류 및 자동화로 전국적인 풀필먼트 센터 확장과 온라인 배송 확대로 사출제품 제조판매 부문 실적이 개선됨. 신선식품 온라인 거래 증가에 따라 다회용 정온 박스를 개발하여 다양한 신선 식품 분야에 활용 중이며, 친환경 콜드체인 용기 개발이 유통물류 혁신의 핵심 요소로 자리잡고 있음.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 20:57"
+    },
+    "news": {
+        "updated": "2026-11-12 20:57",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

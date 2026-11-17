@@ -1,7 +1,7 @@
 {
     "key": "0015M0",
     "filename": "0015M0_디티에스",
-    "updated": "2026-11-12 10:43",
+    "updated": "2026-11-17 12:25",
     "llm_research_updated": "2026-11-06 14:58",
     "financials": {
         "meta": {
@@ -9,31 +9,80 @@
             "code": "0015M0",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 10:43",
-            "classification": {
-                "sector": "산업재",
-                "subsector": "자본재",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:25",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "산업재 (3)",
+                "group": "자본재 (31)",
+                "industry": "기계 및 부품 (313)",
+                "subindustry": "산업용 기계 및 부품 (3133)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 181,
-                "revenue_ltm": 0,
-                "opincome_ltm": 0,
-                "revenue_qtr": 0,
-                "opincome_qtr": 0
+                "marcap": 143,
+                "revenue_ltm": 150,
+                "opincome_ltm": 29.4,
+                "revenue_qtr": 33.2,
+                "opincome_qtr": 3.82
             }
         },
-        "assess_data": {},
-        "assess_result": {}
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": -0.94,
+                "growth(%)": -12
+            },
+            "opmargin(%)": {
+                "25_4Q": 22,
+                "26_1Q": 22,
+                "26_2Q": 22,
+                "26_3Q": 12,
+                "ltm": 20
+            },
+            "PER": {
+                "PER_ltm": 4.88,
+                "PER_qx4": 9.38,
+                "PER_fwd": 24.4
+            },
+            "volatility": {
+                "measure_to_base(%)": null
+            },
+            "amount": {
+                "measure_to_base(%)": null
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -4.4,
+                    "beta": 1.5
+                },
+                "base_period": {
+                    "alpha(%)": -4.4,
+                    "beta": 1.5
+                },
+                "measure_period": {
+                    "alpha(%)": -4.4,
+                    "beta": 1.5
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "(na)",
+            "amount_level": "(na)",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
     },
     "info_section": {
         "reviewed": false,
@@ -53,11 +102,6 @@
             0.6,
             0.34,
             0.06
-        ],
-        "opmargin": [
-            null,
-            null,
-            null
         ],
         "trend": [
             "improving (LNG 투자 및 북미 수주 확대)",
@@ -86,19 +130,18 @@
         "updated": "2026-11-06 14:57"
     },
     "news": {
-        "updated": "2026-11-11 12:00",
+        "updated": "2026-11-16 14:50",
         "key_facts": [
-            "2026년 10월 23일 코스닥 상장(공모가 18,500원) 및 다산네트웍스 외 지분 46.87% 보유",
-            "LNG·정유·발전 플랜트용 공랭식 열교환기(AFC) 및 복수기(ACC) 주력 생산, 글로벌 TOP 20 EPC 중 15개사 고객 확보",
-            "2026년 상반기 매출 791억원, 영업이익 150억원 기록 (전년 동기 대비 각각 26.2%, 42.9% 증가)",
-            "미국 AI 데이터센터 전력 공급용 'Gains Tolk' 발전 프로젝트 AFC 공급 사업 확보 및 연간 2.7GW 규모 드라이쿨러 생산능력 구축",
-            "2026년 7월 국내 최초 1.5MW급 ORC 폐열회수 발전시스템 상용 공급계약 체결 (2027년 1분기 매출 인식 예정)"
+            "2026년 10월 23일 코스닥에 상장했으며, 주력 제품은 LNG·발전 플랜트용 공랭식 열교환기(AFC) 및 복수기(ACC)임.",
+            "2026년 상반기 매출 791억원, 영업이익 150억원을 기록했으며, 6월 말 기준 수주잔고는 1,293억원임.",
+            "글로벌 상위 20개 EPC 업체 중 15개사의 공급망을 확보했으며, 30개국 이상에서 284건의 프로젝트를 수행함.",
+            "미국 AI 데이터센터 전력 공급용 'Gains Tolk' 프로젝트 AFC 공급권을 확보하고 연간 2.7GW 규모의 드라이쿨러 생산능력을 구축함.",
+            "2026년 7월 국내 최초 1.5MW급 ORC 폐열회수 발전시스템 상용 공급계약을 체결함."
         ],
         "key_issues": [
-            "AI 데이터센터 드라이쿨러의 본격 공급 목표는 2029년이며, 2027~2028년 초 계약 체결을 예상하는 중장기 단계임",
-            "AI 냉각 시장 진출 중이나 삼성전자 데이터센터 공급 또는 플랙트그룹과의 직접 협력 여부는 확인되지 않음",
-            "회사 측이 제시한 1GW당 1,000억원 규모의 냉각설비 수요 전망치와 실제 확정 발주 규모 간의 차이 가능성"
+            "AI 데이터센터용 드라이쿨러의 본격 공급 목표는 2029년으로, 향후 실제 계약 체결 및 발주 전환 여부가 핵심 변수임.",
+            "삼성전자 데이터센터 냉각장비 공급이나 플랙트그룹과의 직접적인 협력 사실은 현재까지 확인되지 않음."
         ],
-        "news_summary": "공랭식 열교환기 전문기업 디티에스는 글로벌 EPC 네트워크를 기반으로 2026년 10월 코스닥에 상장했다. 기존 에너지 플랜트 사업의 견고한 실적 성장을 바탕으로, 미국 발전 프로젝트 수주와 ORC 폐열발전 상용화, AI 데이터센터 냉각 솔루션(드라이쿨러) 생산능력 확보를 통해 전력 및 냉각 인프라 시장으로 사업 영역을 확장하고 있다."
+        "news_summary": "디티에스는 글로벌 EPC 네트워크를 보유한 공랭식 열교환기 전문기업으로, 2026년 10월 코스닥에 상장했다. 기존 에너지 플랜트 사업의 성장과 더불어 AI 데이터센터 냉각 솔루션 및 ORC 폐열발전 등 신사업 확장을 통해 글로벌 AI 인프라 시장 진출을 가속화하고 있다."
     }
 }

@@ -1,0 +1,143 @@
+{
+    "key": "002100",
+    "filename": "002100_경농",
+    "updated": "2026-11-17 12:15",
+    "llm_research_updated": "2026-11-12 20:49",
+    "financials": {
+        "meta": {
+            "name": "경농",
+            "code": "002100",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:15",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "농업 화학 (2114)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 171,
+                "revenue_ltm": 358,
+                "opincome_ltm": 24.4,
+                "revenue_qtr": 39.9,
+                "opincome_qtr": -6.46
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": false,
+                "higher(comp)": false,
+                "slope": -1.2,
+                "growth(%)": -14
+            },
+            "opmargin(%)": {
+                "25_4Q": -35,
+                "26_1Q": 21,
+                "26_2Q": 11,
+                "26_3Q": -16,
+                "ltm": 6.8
+            },
+            "PER": {
+                "PER_ltm": 7.02,
+                "PER_qx4": null,
+                "PER_fwd": null
+            },
+            "volatility": {
+                "measure_to_base(%)": -34
+            },
+            "amount": {
+                "measure_to_base(%)": -71
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.046,
+                    "beta": 0.4
+                },
+                "base_period": {
+                    "alpha(%)": -0.023,
+                    "beta": 0.052
+                },
+                "measure_period": {
+                    "alpha(%)": -0.11,
+                    "beta": -0.0022
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 20:49",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "작물보호제",
+            "비료",
+            "스마트팜",
+            "종자 및 온실"
+        ],
+        "revenue_share": [
+            0.55,
+            0.3,
+            0.1,
+            0.05
+        ],
+        "trend": [
+            "stable",
+            "improving",
+            "expanding",
+            "expanding"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "살균제, 제초제, 살충제, 친환경 작물보호제",
+            "복합비료, 유기질비료, 완효성 비료(그리너스)",
+            "시그닛 환경제어기, 파밍노트 플랫폼, 스마트팜 솔루션",
+            "종자, 온실 설계 및 시공 서비스"
+        ],
+        "competitors": [
+            "팜한농, 신젠타코리아, 바이엘크롭사이언스, 동방아그로, 한국삼공, 농협케미컬",
+            "팜한농, 농협케미컬, 동방아그로, 한국삼공",
+            "팜한농, 신젠타코리아, 바이엘크롭사이언스",
+            "기타 농자재 및 온실 시공 업체"
+        ]
+    },
+    "code": "002100",
+    "name": "경농",
+    "overview": {
+        "title": "매출 성장세 지속, 친환경 시장 확대",
+        "desc": "동사는 1957년 농약관리법에 근거하여 농약의 제조 및 판매를 목적으로 설립되었으며, 1977년 유가증권시장에 상장됨. 주요 계열회사로는 비료 제조 및 판매를 영위하는 (주)조비가 있으며, 동사가 54.56%의 지분을 보유하고 있음. 연결대상 종속회사를 포함하여 작물보호제, 비료, 스마트팜, 곤충, 종자, 온실공사 등 다양한 사업을 영위하고 있으며, 주요 거래처인 농협이 전체 매출액의 51.74%를 차지함.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 9.7% 증가, 영업이익은 4.6% 감소, 당기순이익은 10.3% 감소. 작물보호제 부문은 농번기 수요 집중과 안정적인 농협 유통채널 확보로 견조한 실적을 유지하였으며, 비료 부문은 농촌 고령화에 따른 완효성 비료 수요 증가로 매출이 확대됨. 다만 원재료 수입 의존에 따른 환율 변동과 농협 입찰 경쟁 과열로 수익성은 다소 제한적인 모습을 보임.",
+        "as_of": "2026-09-03",
+        "updated": "2026-11-12 20:49"
+    },
+    "news": {
+        "updated": "2026-11-12 20:49",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}

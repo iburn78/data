@@ -1,7 +1,7 @@
 {
     "key": "0001A0",
     "filename": "0001A0_덕양에너젠",
-    "updated": "2026-11-12 11:26",
+    "updated": "2026-11-17 12:15",
     "llm_research_updated": "2026-11-11 16:55",
     "financials": {
         "meta": {
@@ -9,23 +9,24 @@
             "code": "0001A0",
             "segment_name": "",
             "id": "",
-            "updated": "2026-11-12 11:26",
-            "classification": {
-                "sector": "에너지화학",
-                "subsector": "에너지",
-                "source": "krics_2026-11-11"
-            },
+            "updated": "2026-11-17 12:15",
             "unit": 1000000000.0,
             "start_date": "2024-01-01",
             "base_per": 120,
             "measure_per": 20,
             "indplot_long": 120,
             "indplot_short": 20,
-            "aggregation": "d"
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "신재생에너지 (112)",
+                "subindustry": "대체 에너지 (1122)"
+            }
         },
         "shape": {
             "financials": {
-                "marcap": 169,
+                "marcap": 158,
                 "revenue_ltm": 143,
                 "opincome_ltm": 10,
                 "revenue_qtr": 35.3,
@@ -47,12 +48,12 @@
                 "ltm": 7
             },
             "PER": {
-                "PER_ltm": 16.9,
-                "PER_qx4": 13.3,
-                "PER_fwd": 10.7
+                "PER_ltm": 15.8,
+                "PER_qx4": 12.4,
+                "PER_fwd": 9.97
             },
             "volatility": {
-                "measure_to_base(%)": -5.2
+                "measure_to_base(%)": -12
             },
             "amount": {
                 "measure_to_base(%)": -75
@@ -63,12 +64,12 @@
                     "beta": 0.56
                 },
                 "base_period": {
-                    "alpha(%)": -0.47,
-                    "beta": 0.56
+                    "alpha(%)": -0.41,
+                    "beta": 0.59
                 },
                 "measure_period": {
-                    "alpha(%)": -0.36,
-                    "beta": 0.73
+                    "alpha(%)": -0.61,
+                    "beta": 0.65
                 }
             }
         },
@@ -78,7 +79,7 @@
             "PER_level": "High",
             "volatility_level": "-",
             "amount_level": "Dn",
-            "alpha_level": "-",
+            "alpha_level": "udr_pfm",
             "category": "C",
             "market_sentiment": "-"
         }
@@ -103,12 +104,6 @@
             0.118,
             0.076,
             0.003
-        ],
-        "opmargin": [
-            null,
-            null,
-            null,
-            null
         ],
         "trend": [
             "expanding (S-OIL Shaheen Project)",
@@ -140,14 +135,15 @@
         "updated": "2026-11-11 16:55"
     },
     "news": {
-        "updated": "2026-11-11 16:55",
+        "updated": "2026-11-16 17:00",
         "key_facts": [
             "SK이노베이션 E&S는 2026년 9월 2일 덕양에너젠과 '기체수소 공급 및 수소충전소 사업 협력을 위한 업무협약(MOU)'을 체결함.",
-            "SK이노베이션 E&S는 수소상용차(수소버스 등) 수요 개발과 기체·액화 복합 수소충전소의 구축 및 운영을 담당함.",
-            "양사는 사업성과 지역별 수요를 고려해 우선적으로 5개 충전소를 대상으로 사업 확대를 추진하며, 충전소 1곳당 예상 사업비는 약 60억원, 연간 기체수소 공급량은 약 180톤으로 전망됨.",
+            "SK이노베이션 E&S는 수소상용차 수요 개발 및 기체·액화 복합 수소충전소의 구축과 운영을 담당함.",
+            "덕양에너젠은 SK이노베이션 E&S의 액화수소 충전소 인접 부지에 기체수소 충전 인프라를 구축하고 기체수소를 공급함.",
+            "양사는 사업화 가능성이 높은 5개 충전소를 우선 대상으로 단계적 사업 확대를 추진하며, 충전소 1곳당 예상 사업비는 약 60억원, 연간 기체수소 공급 전망량은 약 180톤임.",
             "SK이노베이션 E&S는 2024년 5월 인천에 연간 3만 톤 규모의 액화수소 생산 플랜트를 준공하여 국내 수소 모빌리티 시장에 액화수소를 공급하고 있음."
         ],
         "key_issues": [],
-        "news_summary": "SK이노베이션 E&S는 덕양에너젠과 MOU를 체결하여 액화수소 중심의 공급망에 기체수소를 더한 복합형 수소충전 인프라를 확대하고, 수소상용차 수요 개발 및 충전소 운영 안정성을 확보할 계획입니다."
+        "news_summary": "SK이노베이션 E&S는 덕양에너젠과 협력하여 액화수소와 기체수소를 모두 공급하는 복합형 수소충전 인프라를 확대함으로써 수소 모빌리티 공급원을 다변화하고 충전소 운영의 안정성을 확보할 계획입니다."
     }
 }

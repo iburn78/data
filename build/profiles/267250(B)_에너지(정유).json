@@ -1,0 +1,124 @@
+{
+    "key": "267250(B)",
+    "filename": "267250(B)_에너지(정유)",
+    "updated": "2026-11-17 12:21",
+    "llm_research_updated": "2026-11-16 12:33",
+    "financials": {
+        "meta": {
+            "name": "HD현대",
+            "code": "267250",
+            "segment_name": "에너지(정유)",
+            "id": "B",
+            "updated": "2026-11-17 12:21",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "에너지화학 (1)",
+                "group": "에너지 (11)",
+                "industry": "화석 연료 에너지 (111)",
+                "subindustry": "석유,가스 정제 및 유통 (1112)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 3800,
+                "revenue_ltm": 32300,
+                "opincome_ltm": 549,
+                "revenue_qtr": 8610,
+                "opincome_qtr": 146
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": 3.7,
+                "growth(%)": 3
+            },
+            "opmargin(%)": {
+                "25_4Q": 1.7,
+                "26_1Q": 1.7,
+                "26_2Q": 1.7,
+                "26_3Q": 1.7,
+                "ltm": 1.7
+            },
+            "PER": {
+                "PER_ltm": 6.91,
+                "PER_qx4": 6.48,
+                "PER_fwd": 6.1
+            },
+            "volatility": {
+                "measure_to_base(%)": 5.1
+            },
+            "amount": {
+                "measure_to_base(%)": -34
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.015,
+                    "beta": 0.73
+                },
+                "base_period": {
+                    "alpha(%)": -0.5,
+                    "beta": 0.41
+                },
+                "measure_period": {
+                    "alpha(%)": -0.64,
+                    "beta": 0.74
+                }
+            }
+        },
+        "assess_result": {
+            "basics": true,
+            "financially_sound": false,
+            "PER_level": "Low",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "search_theme": [
+            "사업부",
+            "실적"
+        ],
+        "tags": "",
+        "notes": "",
+        "revenue_share": 0.39,
+        "marcap_share": 0.39,
+        "opmargin": 0.017,
+        "trend": "stable (유가 변동성 존재하나 회복세)"
+    },
+    "id": "B",
+    "profile_name": "HD현대",
+    "profile_code": "267250",
+    "segment_name": "에너지(정유)",
+    "news": {
+        "updated": "2026-11-16 12:33",
+        "key_financials": [
+            "2026년 3분기 영업이익 9,009억 원 (전년 동기 대비 371% 증가, 직전 분기 대비 약 51% 감소)",
+            "2026년 3분기 영업이익률 9% (직전 분기 19.2% 대비 10.2%p 하락)"
+        ],
+        "key_facts": [
+            "HD현대오일뱅크 3분기 연결 매출 10조 437억 원, 영업이익 9,009억 원 기록 (전년 동기 대비 영업이익 371% 증가)",
+            "정유 부문 3분기 매출 9조 234억 원, 영업이익 8,216억 원 달성 (직전 분기 대비 영업이익 36% 감소)",
+            "윤활기유 부문 3분기 매출 4,476억 원, 영업이익 2,032억 원 기록 (직전 분기 대비 매출 19.9%, 영업이익 12% 신장)",
+            "석유화학 부문 3분기 매출 5,727억 원, 영업손실 1,238억 원으로 적자 전환 (직전 분기 영업이익 3,594억 원 대비)"
+        ],
+        "key_issues": [
+            "국제유가 하락, 원·달러 환율 하락 및 정제마진 축소로 인한 수익성 하방 압력",
+            "석유화학 부문의 글로벌 공급 과잉 및 전방 수요 침체로 인한 실적 부진 지속",
+            "4분기 국제유가 조정 시 고가 재고에 따른 역래깅(Inverse Lagging) 및 재고평가손실 발생 가능성",
+            "해상 유조선 운임 및 전쟁 위험 보험료 급등으로 인한 원가 부담 가중"
+        ],
+        "news_summary": "HD현대오일뱅크는 2026년 3분기 전년 동기 대비 큰 폭의 성장(영업이익 371% 증가)을 기록했으나, 직전 분기 대비로는 정제마진 축소와 환율 하락의 영향으로 영업이익이 약 51% 감소하며 영업이익률이 한 자릿수(9%)로 떨어졌습니다. 정유와 윤활기유 부문은 흑자를 유지하며 실적을 견인했으나, 석유화학 부문은 글로벌 공급 과잉으로 인해 적자로 전환되었습니다. 4분기 정유 사업은 지정학적 불확실성에 따른 수급 타이트 현상으로 긍정적인 전망을 제시하고 있으나, 석유화학 부문의 회복에는 시간이 소요될 것으로 예상됩니다."
+    }
+}

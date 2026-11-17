@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="../../node/html/index.css">
 <link rel="stylesheet" href="../../node/html/dict_template.css">
 <link rel="stylesheet" href="../../node/html/qualitative.css">
+<style>
+.classification-popup-button { position: relative; z-index: 1; color: #1769aa; font: inherit; cursor: pointer; text-align: left; text-decoration: none; }
+.classification-popup-button:hover { text-decoration: underline; }
+</style>
 <script src="../../node/html/navbar.js" defer></script>
 </head>
 <body>
@@ -92,37 +96,7 @@
                         <tr class="value-row level-1">
                             <td class="label">updated</td>
                             <td class="value">
-                                <span>2026-11-12 19:20</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>    
-                        <tr class="section-row level-1">
-                            <td class="label" colspan="2">classification</td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">sector</td>
-                            <td class="value">
-                                <span>에너지화학</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">subsector</td>
-                            <td class="value">
-                                <span>에너지</span>
-                                <div class="value-bar-container">
-                                    
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="value-row level-2">
-                            <td class="label">source</td>
-                            <td class="value">
-                                <span>krics_2026-11-11</span>
+                                <span>2026-11-17 12:21</span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -191,6 +165,45 @@
                                 </div>
                             </td>
                         </tr>    
+                        <tr class="section-row level-1">
+                            <td class="label" colspan="2">classification</td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">sector</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=sector&amp;classificationCode=1#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지화학 (1)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">group</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=group&amp;classificationCode=11#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">에너지 (11)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">industry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=industry&amp;classificationCode=112#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">신재생에너지 (112)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="value-row level-2">
+                            <td class="label">subindustry</td>
+                            <td class="value">
+                                <a class="classification-popup-button" href="/?classificationPopup=1&amp;classificationLevel=subindustry&amp;classificationCode=1121#classification-map" target="_blank" rel="noopener" onclick="return openClassificationMap(this)">재생 가능 에너지 (1121)</a>
+                                <div class="value-bar-container">
+                                    
+                                </div>
+                            </td>
+                        </tr>    
                         <tr class="section-row level-0">
                             <td class="label" colspan="2">shape</td>
                         </tr>    
@@ -200,7 +213,7 @@
                         <tr class="value-row level-2">
                             <td class="label">marcap</td>
                             <td class="value">
-                                <span>77.6</span>
+                                <span>61</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -209,7 +222,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_ltm</td>
                             <td class="value">
-                                <span>37</span>
+                                <span>22.7</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -218,7 +231,7 @@
                         <tr class="value-row level-2">
                             <td class="label">opincome_ltm</td>
                             <td class="value">
-                                <span>-9.32</span>
+                                <span>-11.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -227,7 +240,7 @@
                         <tr class="value-row level-2">
                             <td class="label">revenue_qtr</td>
                             <td class="value">
-                                <span>16.9</span>
+                                <span>2.22</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -236,9 +249,9 @@
                         <tr class="value-row level-2">
                             <td class="label">opincome_qtr</td>
                             <td class="value">
-                                <span>0.68</span>
+                                <span>-4.3</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>    
@@ -260,7 +273,7 @@
                         <tr class="value-row level-2">
                             <td class="label">higher(comp)</td>
                             <td class="value">
-                                <span><span class="true_bool">✓</span></span>
+                                <span><span class="false_bool">✗</span></span>
                                 <div class="value-bar-container">
                                     
                                 </div>
@@ -269,7 +282,7 @@
                         <tr class="value-row level-2">
                             <td class="label">slope (qtr, in unit)</td>
                             <td class="value">
-                                <span>1.4</span>
+                                <span>0.53</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -290,7 +303,7 @@
                         <tr class="value-row level-2">
                             <td class="label">25_4Q</td>
                             <td class="value">
-                                <span>-340</span>
+                                <span>-210</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -299,7 +312,7 @@
                         <tr class="value-row level-2">
                             <td class="label">26_1Q</td>
                             <td class="value">
-                                <span>-340</span>
+                                <span>-210</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -317,16 +330,16 @@
                         <tr class="value-row level-2">
                             <td class="label">26_3Q</td>
                             <td class="value">
-                                <span>4</span>
+                                <span>-190</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">ltm</td>
                             <td class="value">
-                                <span>-25</span>
+                                <span>-50</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -347,18 +360,18 @@
                         <tr class="value-row level-2">
                             <td class="label">PER_qx4</td>
                             <td class="value">
-                                <span>28.5</span>
+                                <span>-</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    
                                 </div>
                             </td>
                         </tr>
                         <tr class="value-row level-2">
                             <td class="label">PER_fwd</td>
                             <td class="value">
-                                <span>4.71</span>
+                                <span>-</span>
                                 <div class="value-bar-container">
-                                    <div class="value-bar" style="height:100.0%; bottom: 0"></div>
+                                    
                                 </div>
                             </td>
                         </tr>    
@@ -368,7 +381,7 @@
                         <tr class="value-row level-2">
                             <td class="label">measure_to_base(%)</td>
                             <td class="value">
-                                <span>-12</span>
+                                <span>-8</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -395,7 +408,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.69</span>
+                                <span>-0.94</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -404,7 +417,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>1.2</span>
+                                <span>1.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -416,7 +429,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.69</span>
+                                <span>-0.94</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -425,7 +438,7 @@
                         <tr class="value-row level-3">
                             <td class="label">beta</td>
                             <td class="value">
-                                <span>1.2</span>
+                                <span>1.3</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar" style="height:100.0%; bottom: 0"></div>
                                 </div>
@@ -437,7 +450,7 @@
                         <tr class="value-row level-3">
                             <td class="label">alpha (%, daily)</td>
                             <td class="value">
-                                <span>-0.66</span>
+                                <span>-1.8</span>
                                 <div class="value-bar-container">
                                     <div class="value-bar negative-bar" style="height:50.0%; top: 50%"></div>
                                 </div>
@@ -652,16 +665,7 @@
         
                             <tr>
                                 <th>opmargin</th>
-                                <td><table class="qualitative-table">
-                        <tbody>
-                            <tr>
                                 <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>None</td>
-                            </tr>
-                        </tbody>
-                    </table></td>
                             </tr>
         
                             <tr>
@@ -748,26 +752,26 @@
                         <tbody>
                             <tr>
                                 <th>updated</th>
-                                <td>2026-11-11 17:12</td>
+                                <td>2026-11-16 17:21</td>
                             </tr>
                             <tr>
                                 <th>key_facts</th>
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>AI 자율비행 소프트웨어 &#x27;애리얼 인텔리전스&#x27;를 기반으로 디펜스(방산 드론) 및 엔터프라이즈(풍력발전 점검) 사업을 영위함.</td>
+                                <td>AI 자율비행 소프트웨어 &#x27;애리얼 인텔리전스&#x27;를 기반으로 디펜스(요격 드론 &#x27;카이든&#x27;, 군집 드론 &#x27;자이든&#x27;) 및 엔터프라이즈(풍력발전기 점검) 사업을 영위함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 상반기 연결 매출액 174.30억 원(전년 동기 대비 724.5% 증가)을 기록하며 실적이 개선됨.</td>
+                                <td>싱가포르(카이든) 및 UAE(자이든, 1,000만 달러 규모) 수출 납품을 완료했으며, 베트남 과학기술부 산하 TSC와 기술·사업 협력 MOU를 체결함.</td>
                             </tr>
                             <tr>
-                                <td>&#x27;카이든&#x27;을 싱가포르에, &#x27;자이든&#x27;을 UAE에 수출 및 납품 완료했으며, 베트남 과학기술부 산하 TSC와 MOU를 체결함.</td>
+                                <td>지멘스, GE버노바, 베스타스 등 세계 3대 풍력 제조사를 고객사로 확보하여 40개국 이상에서 10만 개 이상의 블레이드 점검 실적을 보유함.</td>
                             </tr>
                             <tr>
-                                <td>2026년 6월 LIG D&amp;A와 컨소시엄을 통해 약 170억 규모의 &#x27;대드론 하드킬 근접방호체계&#x27; 신속시범사업을 수주함.</td>
+                                <td>2026년 상반기 매출액은 174.3억 원으로 전년 동기 대비 724.61% 증가했고, 2분기 영업이익은 6.8억 원으로 흑자 전환함.</td>
                             </tr>
                             <tr>
-                                <td>세계 3대 풍력 제조사(지멘스, GE버노바, 베스타스)를 고객사로 확보하고 40개국 이상에서 10만 개 이상의 블레이드를 점검함.</td>
+                                <td>2026년 6월 LIG D&amp;A와 컨소시엄을 통해 약 170억 원 규모의 &#x27;대드론 하드킬 근접방호체계&#x27; 신속시범사업 최종 계약자로 선정됨(귀속분 45억 원).</td>
                             </tr>
                         </tbody>
                     </table></td>
@@ -777,23 +781,23 @@
                                 <td><table class="qualitative-table">
                         <tbody>
                             <tr>
-                                <td>상장 이후 주가가 공모가(41,200원) 대비 크게 하락하여 14,000원대까지 급락하는 등 높은 변동성을 보임.</td>
+                                <td>상장 후 주가가 공모가(41,200원) 대비 급락하여 최근 14,000원대까지 하락하는 등 변동성이 큼.</td>
                             </tr>
                             <tr>
-                                <td>공모가 산정 시 확정되지 않은 &#x27;사업 기회&#x27;를 미래 매출에 반영하여 기업가치를 과대산정했다는 논란이 제기됨.</td>
+                                <td>공모가 산정 시 본계약 전인 &#x27;사업 기회&#x27;를 미래 매출에 과도하게 반영하고, 비교 기업군 설정이 부적절했다는 가치평가 논란이 있음.</td>
                             </tr>
                             <tr>
-                                <td>비교기업 선정 시 높은 PER 기준(70배) 적용 및 낮은 할인율 사용 등 가치평가 과정의 재량적 판단에 대한 비판이 있음.</td>
+                                <td>2029년 추정 매출 및 순이익의 상당 부분이 확정 계약이 아닌 추정치에 기반하고 있어 실현 가능성에 대한 불확실성이 존재함.</td>
                             </tr>
                             <tr>
-                                <td>2029년 목표 실적 달성을 위해 신규 수출 수주 및 신속시범사업의 본 양산 전환 성공 여부가 핵심 관건임.</td>
+                                <td>국내 신속시범사업의 일환으로 모터 및 MPU 등 주요 부품의 국산화 개발 과제가 남아 있음.</td>
                             </tr>
                         </tbody>
                     </table></td>
                             </tr>
                             <tr>
                                 <th>news_summary</th>
-                                <td>니어스랩은 AI 자율비행 기술을 통해 방산 및 풍력 점검 시장에서 성과를 내며 글로벌 레퍼런스를 확대하고 있으나, 상장 이후 주가 급락과 함께 공모가 산정 과정에서의 과도한 미래 추정치 반영 및 밸류에이션 적절성 논란이 이어지고 있습니다.</td>
+                                <td>니어스랩은 AI 자율비행 기술을 바탕으로 방산 및 풍력 점검 시장에서 성과를 내고 있으며, UAE·싱가포르 수출 및 국내 신속시범사업 수주를 통해 글로벌 레퍼런스를 확장하고 있습니다. 최근 2분기 영업이익 흑자 전환 등 실적이 개선되고 있으나, 상장 당시의 공격적인 기업가치 산정 논란과 그로 인한 주가 급락이 주요 리스크로 작용하고 있습니다.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -2070,6 +2074,18 @@ https://www.numbers.co.kr/news/articleView.html?idxno=21345
 <script src="../../node/html/progress.js"></script>
 <script src="../../node/html/model_instance.js"></script>
 <script src="../../node/html/qualitative.js"></script>
+<script>
+function openClassificationMap(link) {
+    const popup = window.open(
+        link.href,
+        "classification-map",
+        "popup=yes,width=1100,height=950,resizable=yes,scrollbars=yes"
+    );
+    if (!popup) return true;
+    popup.focus();
+    return false;
+}
+</script>
 </body> 
 <footer>
     <div class="footer-title">Quarterly Performances</div>

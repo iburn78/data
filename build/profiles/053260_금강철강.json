@@ -1,0 +1,139 @@
+{
+    "key": "053260",
+    "filename": "053260_금강철강",
+    "updated": "2026-11-17 12:18",
+    "llm_research_updated": "2026-11-13 10:10",
+    "financials": {
+        "meta": {
+            "name": "금강철강",
+            "code": "053260",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:18",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 98.3,
+                "revenue_ltm": 186,
+                "opincome_ltm": 2.32,
+                "revenue_qtr": 49.5,
+                "opincome_qtr": 0.761
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": -0.04,
+                "growth(%)": -6
+            },
+            "opmargin(%)": {
+                "25_4Q": 0.82,
+                "26_1Q": 0.073,
+                "26_2Q": 2.3,
+                "26_3Q": 1.5,
+                "ltm": 1.2
+            },
+            "PER": {
+                "PER_ltm": 42.4,
+                "PER_qx4": 32.3,
+                "PER_fwd": 37.2
+            },
+            "volatility": {
+                "measure_to_base(%)": -35
+            },
+            "amount": {
+                "measure_to_base(%)": -95
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.025,
+                    "beta": 0.56
+                },
+                "base_period": {
+                    "alpha(%)": 0.27,
+                    "beta": 0.41
+                },
+                "measure_period": {
+                    "alpha(%)": -0.58,
+                    "beta": 0.62
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "Dn",
+            "amount_level": "Dn",
+            "alpha_level": "udr_pfm",
+            "category": "D",
+            "market_sentiment": "consumed"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:10",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "철강부문",
+            "기타 및 투자부문"
+        ],
+        "revenue_share": [
+            0.979,
+            0.021
+        ],
+        "trend": [
+            "회복세 (Improving)",
+            "정체 (Stable/Low share)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "냉연코일 전·절단 가공, 냉연압연강판, 산세코일",
+            "경영자문, M&A 자문, 가축분뇨 액비 생산 및 살포, 부동산 임대, 강관 도소매"
+        ],
+        "competitors": [
+            "부국철강, 문배철강, 하이스틸, 한일철강, 세운철강, SIMPAC, 기보스틸, 아주스틸",
+            "N/A"
+        ]
+    },
+    "code": "053260",
+    "name": "금강철강",
+    "overview": {
+        "title": "건설경기침체속 비용절감으로 수익성방어",
+        "desc": "동사는 1977년 철강재 판매와 자동차·전자부품 제조·판매를 목적으로 설립되어 2002년 코스닥에 상장됨. 포스코 지정 가공센터로 냉연코일을 수요자 규격에 맞춰 전·절단 가공하는 철강부문을 주력으로 하며, 투자부문과 기타부문에서는 경영자문, M&A 자문, 가축분뇨 수거 및 액비 생산·살포 사업을 영위하고 있음. 최첨단 코일 전·절단 설비와 다품종 소LOT, JIT 등 유통 서비스 기능을 갖추고 유통체제를 확립하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 0.7% 감소, 영업이익은 10.5% 증가, 당기순이익 흑자전환. 중국의 철강 소비 감소로 저가 수출이 확대되며 세계 철강 시황이 약세를 보였고, 국내는 PF 부실 등으로 건설 경기 침체가 길어지면서 철강 수요가 지속 감소함. 매출은 소폭 감소했으나, 비용 절감으로 영업이익이 개선되었고 자동차·조선 등 주력 수요산업의 성장으로 안정된 수급 상황이 지속됨.",
+        "as_of": "2026-08-31",
+        "updated": "2026-11-12 21:33"
+    },
+    "news": {
+        "updated": "2026-11-13 10:11",
+        "key_facts": [
+            "금강철강은 1977년 설립되어 2002년 코스닥 시장에 상장했으며, 철강재 판매와 자동차·전자부품 제조 및 판매를 주요 사업으로 한다.",
+            "금강철강은 포스코의 냉연강판 지정 코일센터로서 냉연압연강판, 산세코일, 용융아연도금강판 등을 가공 및 판매하고 있다.",
+            "2026년 10월 6일 기준, 금강철강의 주가가 상승했다."
+        ],
+        "key_issues": [
+            "원자재 가격 상승 부담을 제품 가격으로 원활히 전가하지 못했거나, 전방 산업인 건설업황의 회복 지연에 따른 실적 우려가 잔존한다는 전문가 분석이 있다. (2026-10-06)"
+        ],
+        "news_summary": "금강철강은 포스코의 지정 코일센터로서 철강재 가공 및 판매와 자동차·전자부품 사업을 영위하는 기업이다. 최근 트럼프의 LNG 프로젝트 언급 및 알래스카 LNG 투자 기대감으로 주목받았으며, 2026년 10월 6일에는 환율 하락 및 제품 가격 상승 기대감 속에 주가가 상승세를 보였다. 다만 건설업황 회복 지연 등에 따른 실적 우려가 변수로 지적된다."
+    }
+}

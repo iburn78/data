@@ -1,0 +1,150 @@
+{
+    "key": "009520",
+    "filename": "009520_포스코엠텍",
+    "updated": "2026-11-17 12:17",
+    "llm_research_updated": "2026-11-12 21:11",
+    "financials": {
+        "meta": {
+            "name": "포스코엠텍",
+            "code": "009520",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:17",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "철강 소재 (213)",
+                "subindustry": "철강 소재 (2131)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 438,
+                "revenue_ltm": 417,
+                "opincome_ltm": 18,
+                "revenue_qtr": 108,
+                "opincome_qtr": 2.52
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": false,
+                "slope": 0.54,
+                "growth(%)": 35
+            },
+            "opmargin(%)": {
+                "25_4Q": 3.4,
+                "26_1Q": 2.4,
+                "26_2Q": 9,
+                "26_3Q": 2.3,
+                "ltm": 4.3
+            },
+            "PER": {
+                "PER_ltm": 24.3,
+                "PER_qx4": 43.4,
+                "PER_fwd": 28.2
+            },
+            "volatility": {
+                "measure_to_base(%)": -6.7
+            },
+            "amount": {
+                "measure_to_base(%)": -48
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": 0.089,
+                    "beta": 0.96
+                },
+                "base_period": {
+                    "alpha(%)": -0.15,
+                    "beta": 0.63
+                },
+                "measure_period": {
+                    "alpha(%)": -0.37,
+                    "beta": 0.67
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": true,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-12 21:11",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "철강제품 포장",
+            "철강 부원료",
+            "위탁운영",
+            "엔지니어링"
+        ],
+        "revenue_share": [
+            0.512,
+            0.374,
+            0.099,
+            0.015
+        ],
+        "trend": [
+            "stable",
+            "improving",
+            "stable",
+            "stable"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "코일/후판/강관 자동포장 서비스, 설비정비",
+            "알루미늄 잉곳, 펠렛, 미니펠렛",
+            "페로망간/마그네슘 공장 위탁운영",
+            "포장설비 자동화 설계 및 시공(EPC)"
+        ],
+        "competitors": [
+            "None (Exclusive within POSCO)",
+            "Steel raw material suppliers",
+            "Industrial plant O&M firms",
+            "Packaging EPC firms"
+        ]
+    },
+    "code": "009520",
+    "name": "포스코엠텍",
+    "overview": {
+        "title": "원가 경쟁력 강화로 실적 대폭 개선",
+        "desc": "동사는 1973년 삼정강업 주식회사로 설립되어 포스코에서 생산되는 철강제품의 포장을 수행해왔으며, 1997년 코스닥시장에 상장하였음. 2012년부터는 철강제품포장 및 알루미늄 탈산제 공급뿐만 아니라 포스코 페로망간공장 등을 위탁운영하며 사업 역량을 확대하고 있음. 철강부원료 사업에서는 알루미늄 탈산제를 생산하고, 철강제품포장 사업에서는 포스코의 열연, 냉연, STS강판 공장 코일 포장 및 설비정비 업무를 수행하고 있음.\n\n2026년 상반기 전년동기 대비 별도기준 매출액은 19.9% 증가, 영업이익 흑자전환, 당기순이익 흑자전환. 철강부원료사업은 공정 개선과 전략적 판매 확대로 원가 경쟁력을 강화하였으며, 철강제품포장사업은 포장자동화 설비 가동률 향상으로 실적이 크게 개선됨. 철강 산업은 미국의 고율 관세 등 무역장벽 강화로 수출 환경 불확실성이 커지고 있으며, 건설 경기 부진으로 당분간 저성장 기조가 예상됨.",
+        "as_of": "2026-09-06",
+        "updated": "2026-11-12 21:11"
+    },
+    "news": {
+        "updated": "2026-11-12 21:11",
+        "key_facts": [
+            "포스코엠텍의 2026년 3분기(7월 1일~9월 30일) 매출액은 1,077억 9,100만원(전년 동기 대비 30.06% 증가), 영업이익은 25억 2,000만원(전년 동기 대비 45.13% 증가), 당기순이익은 39억 6,100만원(전년 동기 대비 197.36% 증가)을 기록함.",
+            "포스코엠텍의 2026년 1월 1일부터 9월 30일까지 누계 매출액은 3,183억 2,600만원(전년 동기 대비 23.13% 증가)이며, 영업이익(146억 6,800만원)과 당기순이익(139억 3,100만원) 모두 전년 동기 손실에서 흑자로 전환됨.",
+            "포스코엠텍의 2026년 상반기 영업이익은 121억원, 순이익은 100억원을 기록하며 흑자 전환함.",
+            "2025년 12월 결산 기준 별도 재무현황은 자산총계 1,552억원, 부채총계 409억원, 자본총계 1,143억원이며, 매출액 3,574억원, 영업이익 10억원, 당기순이익 14억원임."
+        ],
+        "key_issues": [
+            "2026년 3분기 실적은 외부감사인의 검토가 완료되지 않은 내부결산 자료(잠정치)로, 향후 검토 결과에 따라 변경될 수 있음."
+        ],
+        "news_summary": "포스코엠텍은 2026년 상반기 흑자 전환에 이어 3분기에도 매출, 영업이익, 당기순이익이 전년 동기 대비 크게 증가하며 성장세를 이어가고 있습니다."
+    }
+}

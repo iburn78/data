@@ -1,0 +1,138 @@
+{
+    "key": "489500",
+    "filename": "489500_엘케이켐",
+    "updated": "2026-11-17 12:22",
+    "llm_research_updated": "2026-11-13 10:59",
+    "financials": {
+        "meta": {
+            "name": "엘케이켐",
+            "code": "489500",
+            "segment_name": "",
+            "id": "",
+            "updated": "2026-11-17 12:22",
+            "unit": 1000000000.0,
+            "start_date": "2024-01-01",
+            "base_per": 120,
+            "measure_per": 20,
+            "indplot_long": 120,
+            "indplot_short": 20,
+            "aggregation": "d",
+            "classification": {
+                "sector": "소재 (2)",
+                "group": "소재 (21)",
+                "industry": "화학 소재 (211)",
+                "subindustry": "첨단 산업 소재 (2111)"
+            }
+        },
+        "shape": {
+            "financials": {
+                "marcap": 122,
+                "revenue_ltm": 27.1,
+                "opincome_ltm": 5.78,
+                "revenue_qtr": 7.87,
+                "opincome_qtr": 1.99
+            }
+        },
+        "assess_data": {
+            "opincome": {
+                "positive_ltm": true,
+                "higher(comp)": true,
+                "slope": -0.13,
+                "growth(%)": -7.4
+            },
+            "opmargin(%)": {
+                "25_4Q": 14,
+                "26_1Q": 18,
+                "26_2Q": 25,
+                "26_3Q": 25,
+                "ltm": 21
+            },
+            "PER": {
+                "PER_ltm": 21.2,
+                "PER_qx4": 15.4,
+                "PER_fwd": 18.5
+            },
+            "volatility": {
+                "measure_to_base(%)": -9.1
+            },
+            "amount": {
+                "measure_to_base(%)": -75
+            },
+            "alpha_beta": {
+                "from_start_date": {
+                    "alpha(%)": -0.28,
+                    "beta": 0.86
+                },
+                "base_period": {
+                    "alpha(%)": -0.18,
+                    "beta": 0.76
+                },
+                "measure_period": {
+                    "alpha(%)": -0.19,
+                    "beta": 0.99
+                }
+            }
+        },
+        "assess_result": {
+            "basics": false,
+            "financially_sound": false,
+            "PER_level": "High",
+            "volatility_level": "-",
+            "amount_level": "Dn",
+            "alpha_level": "-",
+            "category": "D",
+            "market_sentiment": "-"
+        }
+    },
+    "info_section": {
+        "reviewed": false,
+        "updated": "2026-11-13 10:59",
+        "search_theme": [
+            "실적",
+            "전망"
+        ],
+        "tags": "",
+        "notes": "",
+        "segments": [
+            "Low-k 소재",
+            "High-k 소재",
+            "기타 정밀화학 소재"
+        ],
+        "revenue_share": [
+            0.714,
+            0.178,
+            0.066
+        ],
+        "trend": [
+            "improving (AI 반도체 수요 증가)",
+            "declining (단가 하락 및 매출 감소)",
+            "stable (사업 다각화 추진 중)"
+        ],
+        "create_segments": false,
+        "recomm_segs": false,
+        "key_products": [
+            "DIS 프리커서",
+            "CP 리간드, PCP 리간드",
+            "페로브스카이트 소재, 이차전지 금속추출제, 탄소포집 솔벤트"
+        ],
+        "competitors": [
+            "덕산테코피아, 메카로, 솔브레인, 켐트로닉스",
+            "덕산테코피아, 메카로, 솔브레인, TCLC (Japan)",
+            "N/A"
+        ]
+    },
+    "code": "489500",
+    "name": "엘케이켐",
+    "overview": {
+        "title": "AI 반도체 수요 확대로 실적 성장",
+        "desc": "동사는 2007년 설립되어 2025년 코스닥에 상장된 반도체 박막 증착용 화학소재 전문기업임. 반도체 박막 증착 공정에 사용되는 프리커서 및 리간드를 개발·제조·판매하고 있으며, High-k 소재와 Low-k 소재, 페로브스카이트 광발전소재를 보유하고 있음. PCP 제법 국내 유일 공정특허를 보유하며 HfCl4 국산화와 탠덤 상부셀용 페로브스카이트 소재 개발 등 신규 R&D를 추진하고 있음.\n\n2026년 상반기 전년동기 대비 연결기준 매출액은 50.0% 증가, 영업이익은 35.1% 증가, 당기순이익은 116.2% 증가. AI 시장 확대로 HBM 등 고부가 디램 수요 증가에 따라 반도체 박막 증착 소재 매출이 성장하고, AI반도체 중심 DIS 프리커서 수요 확대로 실적이 개선됨. 하프늄 프리커서 특허 종료에 따른 경쟁 체제 돌입이 예상되며, HfCl4 국산화를 통한 원가 경쟁력 확보 추진 중임.",
+        "as_of": "2026-09-07",
+        "updated": "2026-11-12 22:05"
+    },
+    "news": {
+        "updated": "2026-11-12 22:05",
+        "key_facts": [],
+        "key_issues": [],
+        "news_summary": ""
+    }
+}
