@@ -487,22 +487,36 @@ async function showManual() {
     }
 }
 
-function appendClassificationMapLabel(container, item) {
+function classificationModelHref(classificationMap, section, item) {
+    const name = `${item.code} ${item.name?.ko || ""}`.trim();
+    const page = classificationMap.model_pages?.[section]?.[name];
+    const filename = page || name.replace(/[<>:"/\\|?*]+/g, "").trim().replace(/\s+/g, "_");
+    return `/build/${section}/${encodeURIComponent(filename)}.html`;
+}
+
+function appendClassificationMapLabel(container, item, classificationMap, section) {
+    const link = document.createElement("a");
+    link.className = "classification-map-label-link";
+    link.href = classificationModelHref(classificationMap, section, item);
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.addEventListener("click", event => event.stopPropagation());
     if (item.code) {
         const code = document.createElement("span");
         code.className = "classification-map-code";
         code.textContent = item.code;
-        container.appendChild(code);
+        link.appendChild(code);
     }
     const korean = document.createElement("span");
     korean.textContent = item.name?.ko || "Unnamed";
-    container.appendChild(korean);
+    link.appendChild(korean);
     if (item.name?.en) {
         const english = document.createElement("span");
         english.className = "classification-map-english";
         english.textContent = item.name.en;
-        container.appendChild(english);
+        link.appendChild(english);
     }
+    container.appendChild(link);
 }
 
 function appendClassificationMapDefinition(container, definition) {
@@ -519,7 +533,7 @@ function renderClassificationMap(article, classificationMap) {
     const requestedCode = new URLSearchParams(location.search).get("classificationCode");
     let selectedElement = null;
     const title = document.createElement("h1");
-    title.textContent = "Classification Map";
+    title.textContent = "Classification";
     article.appendChild(title);
 
     const actions = document.createElement("div");
@@ -534,7 +548,7 @@ function renderClassificationMap(article, classificationMap) {
 
         const sectorDetails = document.createElement("details");
         const sectorHeading = document.createElement("summary");
-        appendClassificationMapLabel(sectorHeading, sector);
+        appendClassificationMapLabel(sectorHeading, sector, classificationMap, "valuechains");
         sectorHeading.append(` · ${sector.groups.length} groups`);
         sectorDetails.appendChild(sectorHeading);
         if (sectorTarget) {
@@ -567,7 +581,7 @@ function renderClassificationMap(article, classificationMap) {
             const groupTarget = requestedLevel === "group" && group.code === requestedCode;
             const groupDetails = document.createElement("details");
             const groupHeading = document.createElement("summary");
-            appendClassificationMapLabel(groupHeading, group);
+            appendClassificationMapLabel(groupHeading, group, classificationMap, "valuechains");
             groupHeading.append(` · ${group.industries.length} industries`);
             groupDetails.appendChild(groupHeading);
             if (sectorTarget || groupTarget) sectorDetails.open = true;
@@ -580,7 +594,8 @@ function renderClassificationMap(article, classificationMap) {
                 const industryTarget = requestedLevel === "industry" && industry.code === requestedCode;
                 const industryDetails = document.createElement("details");
                 const industryHeading = document.createElement("summary");
-                appendClassificationMapLabel(industryHeading, industry);
+                appendClassificationMapLabel(industryHeading, industry, classificationMap, "valuechains");
+                industryHeading.append(` · ${industry.subindustries.length} subindustries`);
                 industryDetails.appendChild(industryHeading);
                 appendClassificationMapDefinition(industryDetails, industry.definition);
                 if (industryTarget) {
@@ -595,9 +610,39 @@ function renderClassificationMap(article, classificationMap) {
                     subindustryBlock.className = "classification-map-subindustry";
                     const subindustryHeading = document.createElement("p");
                     subindustryHeading.className = "classification-map-subindustry-heading";
-                    appendClassificationMapLabel(subindustryHeading, subindustry);
+                    appendClassificationMapLabel(subindustryHeading, subindustry, classificationMap, "components");
+                    subindustryHeading.append(` · ${(subindustry.companies ?? []).length} companies`);
                     subindustryBlock.appendChild(subindustryHeading);
                     appendClassificationMapDefinition(subindustryBlock, subindustry.definition);
+                    const companies = Array.isArray(subindustry.companies) ? subindustry.companies : [];
+                    const members = document.createElement("details");
+                    members.className = "classification-map-members";
+                    const membersHeading = document.createElement("summary");
+                    membersHeading.textContent = `${companies.length} companies`;
+                    members.appendChild(membersHeading);
+                    const memberList = document.createElement("ul");
+                    for (const code of companies) {
+                        const item = document.createElement("li");
+                        const link = document.createElement("a");
+                        const page = classificationMap.company_pages?.[code];
+                        link.href = page ? `/build/profiles/${encodeURIComponent(page)}.html` : "#";
+                        if (page) {
+                            link.target = "_blank";
+                            link.rel = "noopener";
+                        }
+                        link.textContent = `${classificationMap.company_names?.[code] || code.replace(/\([A-Za-z]\)$/, "")}(${code})`;
+                        if (!page) {
+                            link.removeAttribute("href");
+                            link.title = "Profile page not found";
+                        }
+                        item.appendChild(link);
+                        memberList.appendChild(item);
+                    }
+                    members.appendChild(memberList);
+                    if (requestedLevel === "subindustry" && subindustry.code === requestedCode) {
+                        members.open = true;
+                    }
+                    subindustryBlock.appendChild(members);
                     if (requestedLevel === "subindustry" && subindustry.code === requestedCode) {
                         sectorDetails.open = true;
                         groupDetails.open = true;
@@ -1146,10 +1191,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Initial page
 const section = location.hash.slice(1);
 
-if (new URLSearchParams(location.search).get("classificationPopup") === "1") {
-    document.body.classList.add("classification-popup-page");
-    showClassificationMap();
-} else if (section === "manual") {
+if (section === "manual") {
     showManual();
 } else if (section === "classification-map") {
     showClassificationMap();

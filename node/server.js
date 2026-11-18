@@ -596,6 +596,36 @@ app.get("/api/classification-map", (req, res) => {
         const classificationMap = JSON.parse(
             fs.readFileSync(CLASSIFICATION_STRUCTURE_FILE, "utf8")
         );
+        classificationMap.company_names = {};
+        classificationMap.company_pages = {};
+        for (const file of fs.readdirSync(DIRS.profiles).filter(name => name.endsWith(".json"))) {
+            try {
+                const record = JSON.parse(fs.readFileSync(path.join(DIRS.profiles, file), "utf8"));
+                const key = String(record.key ?? record.code ?? "");
+                if (!key) continue;
+                const meta = record.financials?.meta ?? {};
+                classificationMap.company_names[key] = key.includes("(")
+                    ? (record.segment_name || meta.segment_name || key.replace(/\([A-Za-z]\)$/, ""))
+                    : (record.profile_name || record.name || meta.name || key);
+                const page = record.filename || file.replace(/\.json$/, "");
+                if (fs.existsSync(path.join(DIRS.profiles, `${page}.html`))) {
+                    classificationMap.company_pages[key] = page;
+                }
+            } catch (error) { /* Ignore unrelated malformed profile data. */ }
+        }
+        classificationMap.model_pages = { components: {}, valuechains: {} };
+        for (const section of ["components", "valuechains"]) {
+            for (const file of fs.readdirSync(DIRS[section]).filter(name => name.endsWith(".json"))) {
+                try {
+                    const record = JSON.parse(fs.readFileSync(path.join(DIRS[section], file), "utf8"));
+                    const key = String(record.key ?? "");
+                    const page = record.filename || file.replace(/\.json$/, "");
+                    if (key && fs.existsSync(path.join(DIRS[section], `${page}.html`))) {
+                        classificationMap.model_pages[section][key] = page;
+                    }
+                } catch (error) { /* Ignore unrelated malformed model data. */ }
+            }
+        }
         res.json(classificationMap);
     } catch (error) {
         console.error("Could not read classification structure:", error);
@@ -713,7 +743,10 @@ app.get("/api/component/:name", (req, res) => {
 app.get("/api/valuechain/:name", (req, res) => {
     const name = req.params.name;
     const { valuechains } = loadData();
-    res.json(getValuechains(name, valuechains));
+    const item = valuechains.find(valuechain =>
+        valuechain.filename === name || valuechain.key === name
+    );
+    res.json(getValuechains(item?.key ?? name, valuechains));
 });
 
 const server = app.listen(3000, "127.0.0.1", () => {

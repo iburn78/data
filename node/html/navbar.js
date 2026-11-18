@@ -36,23 +36,18 @@
         infoItems.appendChild(link);
     }
 
-    const classificationMenu = document.createElement("details");
-    classificationMenu.className = "nav-dropdown nav-submenu";
-    const classificationSummary = document.createElement("summary");
-    classificationSummary.className = "nav-link nav-dropdown-summary nav-submenu-summary";
-    classificationSummary.textContent = "Classification";
-    classificationMenu.appendChild(classificationSummary);
-
-    const classificationItems = document.createElement("div");
-    classificationItems.className = "nav-dropdown-items nav-submenu-items";
     const classificationMapLink = document.createElement("a");
     classificationMapLink.className = "nav-link nav-dropdown-link";
     classificationMapLink.href = "/#classification-map";
-    classificationMapLink.dataset.section = "classification-map";
-    classificationMapLink.textContent = "Classification Map";
-    classificationItems.appendChild(classificationMapLink);
-    classificationMenu.appendChild(classificationItems);
-    infoItems.appendChild(classificationMenu);
+    classificationMapLink.target = "_blank";
+    classificationMapLink.rel = "noopener";
+    classificationMapLink.textContent = "Classification";
+    classificationMapLink.addEventListener("click", event => {
+        event.preventDefault();
+        const tab = window.open(classificationMapLink.href, "_blank");
+        if (tab) tab.focus();
+    });
+    infoItems.appendChild(classificationMapLink);
     infoMenu.appendChild(infoItems);
     nav.appendChild(infoMenu);
 

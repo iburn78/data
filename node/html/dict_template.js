@@ -69,9 +69,27 @@ function setupTableScrollbar() {
     const table = wrapper?.querySelector(".dict-table");
     if (!scrollbar || !scrollbarContent || !wrapper || !table) return;
 
+    // Older generated pages placed the auxiliary scrollbar inside the
+    // horizontally scrolling wrapper, so it moved out of view with the table.
+    if (scrollbar.parentElement === wrapper && wrapper.parentElement) {
+        wrapper.parentElement.insertBefore(scrollbar, wrapper);
+    }
+
+    // Move controls from older generated pages beside the financials heading.
+    const controls = document.querySelector(".table-controls");
+    const heading = document.querySelector(".financials-heading");
+    const headingLabel = heading?.querySelector(".financials-heading-label");
+    const actions = heading?.querySelector(".model-instance-actions");
+    if (controls && headingLabel && controls.parentElement !== headingLabel) {
+        headingLabel.append(controls);
+    } else if (controls && heading && !headingLabel && controls.parentElement !== heading) {
+        heading.insertBefore(controls, actions || null);
+    }
+
     const syncWidth = () => {
-        scrollbarContent.style.width = `${table.scrollWidth}px`;
-        scrollbar.hidden = table.scrollWidth <= wrapper.clientWidth;
+        const contentWidth = Math.max(table.scrollWidth, wrapper.scrollWidth);
+        scrollbarContent.style.width = `${contentWidth}px`;
+        scrollbar.hidden = contentWidth <= wrapper.clientWidth;
         if (scrollbar.scrollLeft !== wrapper.scrollLeft) {
             scrollbar.scrollLeft = wrapper.scrollLeft;
         }
@@ -88,10 +106,17 @@ function setupTableScrollbar() {
     });
     window.addEventListener("resize", syncWidth);
     if (window.ResizeObserver) {
-        new ResizeObserver(syncWidth).observe(table);
+        const observer = new ResizeObserver(syncWidth);
+        observer.observe(table);
+        observer.observe(wrapper);
     }
     syncWidth();
 }
+
+// Move links from the table controls on already-generated pages.
+const externalLinks = document.querySelector(".table-controls .ext-links");
+const financialActions = document.querySelector(".financials-heading .model-instance-actions");
+if (externalLinks && financialActions) financialActions.prepend(externalLinks);
 
 // Attach click handlers
 document.querySelectorAll(".dict-table .section-row")
@@ -236,6 +261,19 @@ async function loadRelationships() {
             result = await response.json();
             renderComponentRelations(result, content);
 
+        } else if (type === "valuechains") {
+            const valuechain = filename.replace(/\.html$/, "");
+            const response = await fetch(
+                `/api/valuechain/${encodeURIComponent(valuechain)}`
+            );
+
+            if (!response.ok) {
+                throw new Error("API request failed");
+            }
+
+            result = await response.json();
+            renderValuechainRelations(result, content);
+
         } else {
             section.style.display = "none";
         }
@@ -374,6 +412,15 @@ function renderComponentRelations(valuechains, content) {
     }
 
     renderRelations(content, "Valuechains", valuechains, "valuechains");
+}
+
+function renderValuechainRelations(parentValuechains, content) {
+    if (!parentValuechains.length) {
+        document.getElementById("relations-section").style.display = "none";
+        return;
+    }
+
+    renderRelations(content, "Valuechains", parentValuechains, "valuechains");
 }
 
 document.querySelectorAll(".charts-panel .analysis-image").forEach(image => {

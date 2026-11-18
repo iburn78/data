@@ -5,26 +5,6 @@ body {
     color: #222;
 }
 
-body.classification-popup-page main {
-    margin: 0;
-    padding: 16px 20px;
-}
-
-body.classification-popup-page .navbar {
-    display: none;
-}
-
-body.classification-popup-page #search-help,
-body.classification-popup-page #model-list-plot,
-body.classification-popup-page #list-actions,
-body.classification-popup-page #file-list {
-    display: none !important;
-}
-
-body.classification-popup-page > footer {
-    display: none;
-}
-
 .navbar {
     display: flex;
     align-items: center;
@@ -257,6 +237,8 @@ body.classification-popup-page > footer {
     color: #697381;
     font-weight: 400;
 }
+.classification-map-label-link { color: inherit; text-decoration: none; }
+.classification-map-label-link:hover { text-decoration: underline; }
 
 .classification-map-subindustry {
     margin: 4px 0 8px 6ch;
@@ -275,6 +257,10 @@ body.classification-popup-page > footer {
     line-height: 1.55;
     white-space: pre-line;
 }
+.classification-map-members { margin: .4rem 0 .75rem 1rem; }
+.classification-map-members summary { cursor: pointer; color: #1769aa; }
+.classification-map-members ul { margin: .35rem 0; padding-left: 1.4rem; columns: 2; }
+.classification-map-members a { color: inherit; }
 
 .manual-content table {
     width: 100%;

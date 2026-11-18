@@ -15,6 +15,12 @@
     justify-content: space-between;
 }
 
+.financials-heading-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .model-instance-actions {
     display: inline-flex;
     gap: 6px;
@@ -404,7 +410,7 @@ a {
 .table-controls {
     display: flex;
     gap: 6px;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .table-controls button {
@@ -431,14 +437,14 @@ a {
 }
 
 .chart-card {
-    padding: 5px;
+    padding: 0px;
     background: white;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     overflow: hidden;
     max-width: 1200px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .analysis-image {
@@ -593,6 +599,10 @@ a {
 .ext-links {
     margin-left: auto;
     display: flex;
+}
+
+.model-instance-actions .ext-links {
+    margin-left: 0;
 }
 
 .ext-link {

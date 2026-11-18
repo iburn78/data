@@ -217,14 +217,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+.DS_Store
+
 # make build dir at the root to be tracked
 # !/build/
 
-.DS_Store
-
-# reinsert build dir (removed above)
-!/build/
-/build/news/*
+/build/
+# /build/news/*
 
 node/node_modules/
 node/.env
