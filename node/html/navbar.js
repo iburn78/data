@@ -19,6 +19,9 @@
 
     const infoMenu = document.createElement("details");
     infoMenu.className = "nav-dropdown";
+    infoMenu.addEventListener("pointerleave", event => {
+        if (event.pointerType === "mouse") infoMenu.open = false;
+    });
     const infoSummary = document.createElement("summary");
     infoSummary.className = "nav-link nav-dropdown-summary";
     infoSummary.textContent = "Info";

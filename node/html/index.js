@@ -840,7 +840,7 @@ function createModelLink(section, item) {
 const preview = document.createElement("div");
 preview.className = "result-preview";
 preview.setAttribute("aria-hidden", "true");
-preview.innerHTML = '<iframe title="Page preview" tabindex="-1" sandbox=""></iframe>';
+preview.innerHTML = '<iframe title="Page preview" tabindex="-1" sandbox="allow-scripts allow-same-origin"></iframe>';
 document.body.appendChild(preview);
 const previewFrame = preview.querySelector("iframe");
 let previewLink = null;

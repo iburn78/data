@@ -46,6 +46,7 @@ function consumeEditToken(token) {
 
 const CONFIG_PATH =
     path.resolve(__dirname, "../../config/data.json");
+    // path.resolve(__dirname, "data.json");
 
 const config =
     JSON.parse(
@@ -749,9 +750,14 @@ app.get("/api/valuechain/:name", (req, res) => {
     res.json(getValuechains(item?.key ?? name, valuechains));
 });
 
-const server = app.listen(3000, "127.0.0.1", () => {
-    console.log("http://localhost:3000 running...");
+const PORT = process.env.PORT || 3000;
+
+const server = app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Server running on port ${PORT}`);
 });
+// const server = app.listen(3000, "127.0.0.1", () => {
+//     console.log("http://localhost:3000 running...");
+// });
 
 server.on("error", error => {
     console.error("Server error:", error);
