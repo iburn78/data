@@ -1,4 +1,13 @@
 (() => {
+    // Older generated model pages may predate the viewport tag in the shared
+    // template. Keep their mobile layout aligned with the current page too.
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const viewport = document.createElement("meta");
+        viewport.name = "viewport";
+        viewport.content = "width=device-width, initial-scale=1";
+        document.head.appendChild(viewport);
+    }
+
     const nav = document.createElement("nav");
     nav.className = "navbar";
     nav.setAttribute("aria-label", "Main navigation");

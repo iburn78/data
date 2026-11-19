@@ -628,12 +628,18 @@ function openRomaPlotWindow(button) {
 function openMpPlotWindow(button) {
     const objectType = button.dataset.objectType;
     const objectKey = button.dataset.objectId;
-    const popupWidth = Math.round(window.screen.availWidth * 0.8);
-    const popupHeight = Math.round(window.screen.availHeight * 0.7);
-    const popupLeft = window.screen.availLeft
-        + Math.max(0, (window.screen.availWidth - popupWidth) / 2);
-    const popupTop = window.screen.availTop
-        + Math.round(window.screen.availHeight * 0.1);
+    const popupWidth = Math.round(Math.min(
+        window.screen.availWidth * 0.8,
+        window.outerWidth * 0.9
+    ));
+    const popupHeight = Math.round(Math.min(
+        window.screen.availHeight * 0.7,
+        window.outerHeight * 0.8
+    ));
+    const popupLeft = window.screenX
+        + Math.max(0, (window.outerWidth - popupWidth) / 2);
+    const popupTop = window.screenY
+        + Math.max(0, (window.outerHeight - popupHeight) / 2);
     const plotWindow = window.open(
         "",
         `mp-plot-${objectType}-${objectKey}`,
@@ -670,6 +676,12 @@ function openMpPlotWindow(button) {
                 result.figure.layout,
                 { responsive: true }
             );
+            const resizePlot = () => plotWindow.Plotly.Plots.resize(graph);
+            const resizeObserver = new plotWindow.ResizeObserver(() => {
+                plotWindow.requestAnimationFrame(resizePlot);
+            });
+            resizeObserver.observe(graph);
+            plotWindow.addEventListener("resize", resizePlot);
             status.remove();
             graph.on("plotly_clickannotation", event => {
                 const name = event.annotation?.name || "";
