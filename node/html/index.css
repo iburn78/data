@@ -119,6 +119,13 @@ body {
     background: #f0f1f3;
 }
 
+.list-total-count {
+    align-self: center;
+    margin-left: 4px;
+    color: #777;
+    font-size: 13px;
+}
+
 .profile-scope-group {
     margin: 0 0 14px;
 }

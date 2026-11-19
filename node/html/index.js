@@ -74,7 +74,7 @@ function getListScope(name, section) {
 
 function getExpandedScopes(section) {
     if (!expandedScopes.has(section)) {
-        expandedScopes.set(section, new Set([...(listScopes?.[section] ?? []), "Others"]));
+        expandedScopes.set(section, new Set());
     }
     return expandedScopes.get(section);
 }
@@ -106,6 +106,19 @@ function renderListActions() {
         });
         actions.appendChild(button);
     }
+
+    const totalCount = currentSection === "profiles"
+        ? currentItems.filter(item => !item.isSegment).length
+        : currentItems.length;
+    const totalLabel = {
+        profiles: "profiles",
+        components: "components",
+        valuechains: "value chains",
+    }[currentSection];
+    const total = document.createElement("span");
+    total.className = "list-total-count";
+    total.textContent = `(${totalCount} ${totalLabel})`;
+    actions.appendChild(total);
 }
 
 function hideSearchHelp() {
@@ -189,70 +202,62 @@ async function showListPlot(section) {
         if (!response.ok) {
             throw new Error(payload.error || `Could not load ${config.loadingLabel} plot data (HTTP ${response.status}).`);
         }
-        const { points, category_colors: colors, per_bound: perBound } = payload;
+        const {
+            points,
+            category_colors: colors,
+            per_bound: perBound,
+            plot_style: plotStyle,
+        } = payload;
         if (loadId !== listPlotLoadId || plotPanel.hidden) return;
-
-        const pointsByCoordinates = new Map();
-        for (const point of points) {
-            const key = `${point.opmargin_ltm}\u0000${point.PER_ltm}`;
-            if (!pointsByCoordinates.has(key)) pointsByCoordinates.set(key, []);
-            pointsByCoordinates.get(key).push(point);
-        }
-        const labelOffsets = new Map();
-        for (const samePosition of pointsByCoordinates.values()) {
-            samePosition.sort((a, b) => a.label.localeCompare(b.label));
-            samePosition.forEach((point, index) => {
-                if (samePosition.length === 1) {
-                    labelOffsets.set(point, { xshift: 0, yshift: 14, xanchor: "center" });
-                    return;
-                }
-                const column = index % 2;
-                const row = Math.floor(index / 2);
-                let verticalDirection = point.PER_ltm >= perBound * 0.85 ? -1 : 1;
-                if (point.PER_ltm <= perBound * 0.1) verticalDirection = 1;
-                labelOffsets.set(point, {
-                    xshift: (column === 0 ? -1 : 1) * (12 + row * 2),
-                    yshift: verticalDirection * (14 + row * 20),
-                    xanchor: column === 0 ? "right" : "left",
-                });
-            });
-        }
-        const annotations = points.map(point => ({
-            x: point.opmargin_ltm,
-            y: point.PER_ltm,
-            xref: "x",
-            yref: "y",
-            text: point.label,
-            name: `${point.category}::${point.page_url}`,
-            showarrow: false,
-            captureevents: true,
-            ...labelOffsets.get(point),
-            font: { color: colors[point.category], weight: point.bold_label ? 700 : 400 },
-        }));
 
         const traces = ["A", "B", "C", "D"].map(category => {
             const categoryPoints = points.filter(point => point.category === category);
-            return {
+            const markerTrace = {
                 type: "scatter",
                 mode: "markers",
                 name: category,
+                legendgroup: category,
                 x: categoryPoints.map(point => point.opmargin_ltm),
                 y: categoryPoints.map(point => point.PER_ltm),
                 text: categoryPoints.map(point => point.label),
                 customdata: categoryPoints.map(point => [point.page_url, point.code]),
-                marker: { color: colors[category], size: 10, opacity: 0.85 },
+                marker: { color: colors[category], size: plotStyle.marker_size, opacity: 0.85 },
                 hovertemplate: "%{text}<br>Code: %{customdata[1]}<br>"
                     + "Operating margin: %{x:.1%}<br>PER (LTM): %{y:.2f}"
                     + "<extra>" + category + "</extra>",
             };
+            const labelTraces = [false, true].flatMap(bold => {
+                const labelPoints = categoryPoints.filter(point => Boolean(point.bold_label) === bold);
+                if (!labelPoints.length) return [];
+                return [{
+                    type: "scatter",
+                    mode: "text",
+                    name: `${category} labels`,
+                    legendgroup: category,
+                    showlegend: false,
+                    x: labelPoints.map(point => point.opmargin_ltm),
+                    y: labelPoints.map(point => point.PER_ltm),
+                    text: labelPoints.map(point => point.label),
+                    textposition: labelPoints.map(() => plotStyle.label_position),
+                    textfont: {
+                        color: colors[category],
+                        size: plotStyle.label_font_size,
+                        weight: bold ? 700 : 400,
+                    },
+                    customdata: labelPoints.map(point => [point.page_url, point.code]),
+                    hoverinfo: "none",
+                    meta: { modelListLabelTrace: true },
+                }];
+            });
+            return [markerTrace, ...labelTraces];
         });
+        const plotTraces = traces.flat();
 
         if (!plot.dataset.ready) plot.replaceChildren();
-        await window.Plotly.react(plot, traces, {
+        await window.Plotly.react(plot, plotTraces, {
             title: { text: "" },
             template: "plotly_white",
             margin: { t: 12, r: 8, b: 55, l: 65 },
-            annotations,
             xaxis: {
                 title: { text: "X: Operating margin (LTM)", standoff: 14 },
                 tickformat: ".0%",
@@ -264,33 +269,23 @@ async function showListPlot(section) {
                 automargin: true,
             },
             legend: { title: { text: "Category" }, itemclick: "toggle",
+                groupclick: "togglegroup",
+                tracegroupgap: plotStyle.legend_tracegroupgap,
                 itemdoubleclick: false },
             clickmode: "event",
         }, { responsive: true });
         if (loadId !== listPlotLoadId || plotPanel.hidden) return;
         plot.dataset.ready = "true";
 
-        plot.removeAllListeners?.("plotly_clickannotation");
-        plot.removeAllListeners?.("plotly_legendclick");
-        plot.on("plotly_clickannotation", event => {
-            const name = event.annotation?.name || "";
-            const url = name.slice(name.indexOf("::") + 2);
+        plot.removeAllListeners?.("plotly_click");
+        plot.on("plotly_click", event => {
+            const points = event.points || [];
+            const labelPoint = points.find(point =>
+                plot.data[point.curveNumber]?.meta?.modelListLabelTrace
+            );
+            const point = labelPoint || points.find(item => item.customdata?.[0]);
+            const url = point?.customdata?.[0];
             if (url) window.open(new URL(url, location.origin), "_blank", "noopener");
-        });
-        const categoryVisibility = new Map(traces.map(trace => [trace.name, true]));
-        plot.on("plotly_legendclick", event => {
-            const category = traces[event.curveNumber]?.name;
-            if (!category) return;
-            const visible = !categoryVisibility.get(category);
-            categoryVisibility.set(category, visible);
-            setTimeout(() => {
-                const nextAnnotations = annotations.map(annotation =>
-                    annotation.name.startsWith(`${category}::`)
-                        ? { ...annotation, visible }
-                        : annotation
-                );
-                window.Plotly.relayout(plot, { annotations: nextAnnotations });
-            }, 0);
         });
     } catch (error) {
         if (loadId !== listPlotLoadId) return;
@@ -731,12 +726,17 @@ function renderSection() {
     }
 }
 
-function renderScopeGroup(label, count, section, list, renderItems) {
+function renderScopeGroup(label, count, section, list, renderItems, openForSearch = false) {
     const details = document.createElement("details");
     details.className = "profile-scope-group";
     const expanded = getExpandedScopes(section);
-    details.open = expanded.has(label);
+    details.open = expanded.has(label) || openForSearch;
+    let ignoreInitialToggle = openForSearch && !expanded.has(label);
     details.addEventListener("toggle", () => {
+        if (ignoreInitialToggle) {
+            ignoreInitialToggle = false;
+            return;
+        }
         if (details.open) expanded.add(label);
         else expanded.delete(label);
     });
@@ -796,7 +796,7 @@ function renderProfileGroups(search, list) {
                     items.appendChild(createModelLink("profiles", item));
                 }
             }
-        });
+        }, Boolean(search));
     }
 }
 
@@ -814,7 +814,7 @@ function renderScopedItems(search, list) {
         if (!items?.length) continue;
         renderScopeGroup(label, items.length, currentSection, list, container => {
             for (const item of items) container.appendChild(createModelLink(currentSection, item));
-        });
+        }, Boolean(search));
     }
 }
 

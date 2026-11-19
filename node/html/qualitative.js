@@ -683,27 +683,16 @@ function openMpPlotWindow(button) {
             resizeObserver.observe(graph);
             plotWindow.addEventListener("resize", resizePlot);
             status.remove();
-            graph.on("plotly_clickannotation", event => {
-                const name = event.annotation?.name || "";
-                const pageUrl = name.slice(name.indexOf("::") + 2);
-                if (pageUrl) plotWindow.open(new URL(pageUrl, location.origin), "_blank", "noopener");
-            });
-            const categoryVisibility = new Map(
-                result.figure.data.map(trace => [trace.legendgroup || trace.name, true])
-            );
-            graph.on("plotly_legendclick", event => {
-                const category = graph.data[event.curveNumber]?.legendgroup;
-                if (!category) return;
-                const visible = !categoryVisibility.get(category);
-                categoryVisibility.set(category, visible);
-                setTimeout(() => {
-                    const annotations = (graph.layout.annotations || []).map(annotation =>
-                        annotation.name?.startsWith(`${category}::`)
-                            ? { ...annotation, visible }
-                            : annotation
-                    );
-                    plotWindow.Plotly.relayout(graph, { annotations });
-                }, 0);
+            graph.on("plotly_click", event => {
+                const points = event.points || [];
+                const labelPoint = points.find(point =>
+                    graph.data[point.curveNumber]?.meta?.mp_label_trace
+                );
+                const point = labelPoint || points.find(item => item.customdata?.[0]);
+                const pageUrl = point?.customdata?.[0];
+                if (pageUrl) {
+                    plotWindow.open(new URL(pageUrl, location.origin), "_blank", "noopener");
+                }
             });
         } catch (error) {
             status.textContent = error.message || "Could not load MP plot.";
