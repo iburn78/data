@@ -305,6 +305,14 @@ a {
     background: #ffffff;
 }
 
+.dict-table .assess-group-divider td {
+    border-top: 2px solid #64748b;
+}
+
+.dict-table .assess-group-end td {
+    border-bottom: 2px solid #64748b;
+}
+
 
 /* Hover */
 

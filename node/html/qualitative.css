@@ -10,6 +10,10 @@
 }
 
 .llm-research-trigger-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
     margin: 8px 0 12px;
 }
 
@@ -28,8 +32,9 @@
 
 .roma-plot-link,
 .mp-plot-link,
-.mv-plot-link {
-    margin-left: 6px;
+.mv-plot-link,
+.fh-plot-link {
+    margin-left: 0;
     padding: 5px 10px;
     border: 1px solid #cbd5e1;
     border-radius: 5px;
@@ -40,7 +45,8 @@
 
 .roma-plot-link:hover,
 .mp-plot-link:hover,
-.mv-plot-link:hover { background: #f1f5f9; }
+.mv-plot-link:hover,
+.fh-plot-link:hover { background: #f1f5f9; }
 
 .llm-research-link.llm-research-missing {
     color: #e88b8b;

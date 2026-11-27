@@ -500,6 +500,65 @@ app.get("/api/profile-plot", async (req, res) => {
     }
 });
 
+app.get("/api/qp-market-plot", (req, res) => {
+    const model = req.query.model || "Profile";
+    const category = req.query.category || "A";
+    const modelDirectories = {
+        Profile: DIRS.profiles,
+        Component: DIRS.components,
+        ValueChain: DIRS.valuechains,
+    };
+    const modelFolders = {
+        Profile: "profiles",
+        Component: "components",
+        ValueChain: "valuechains",
+    };
+    if (!Object.prototype.hasOwnProperty.call(modelDirectories, model) || !["A", "B", "C", "D"].includes(category)) {
+        return res.status(400).json({ error: "Choose a valid model and category." });
+    }
+
+    const amountThreshold = 25;
+    const volatilityThreshold = 25;
+    const points = [];
+
+    for (const file of fs.readdirSync(modelDirectories[model]).filter(name => name.endsWith(".json")).sort()) {
+        try {
+            const data = JSON.parse(fs.readFileSync(path.join(modelDirectories[model], file), "utf8"));
+            const financials = data.financials || {};
+            if (financials.assess_result?.category !== category) continue;
+
+            const label = model === "Profile" ? data.name : data.key;
+            const code = model === "Profile" ? data.code : data.key;
+            if (!label || !code) continue;
+
+            const assess = financials.assess_data || {};
+            const volatility = Number(assess.volatility?.["measure_to_base(%)"]);
+            const amount = Number(assess.amount?.["measure_to_base(%)"]);
+            const alpha = Number(assess.alpha_beta?.measure_period?.["alpha(%)"]);
+            if (![volatility, amount, alpha].every(Number.isFinite)) continue;
+
+            const pageFile = file.replace(/\.json$/, ".html");
+            if (!fs.existsSync(path.join(modelDirectories[model], pageFile))) continue;
+            points.push({
+                label,
+                code,
+                volatility,
+                amount,
+                alpha,
+                page_url: `/build/${modelFolders[model]}/${encodeURIComponent(pageFile)}`,
+            });
+        } catch (error) {
+            console.error(`Could not read ${model} financials from ${file}:`, error.message);
+        }
+    }
+
+    res.json({
+        amount_threshold: amountThreshold,
+        volatility_threshold: volatilityThreshold,
+        points,
+    });
+});
+
 app.get("/api/collection-plot", (req, res) => {
     const { type } = req.query;
     if (!["Component", "ValueChain"].includes(type)) {
@@ -568,6 +627,29 @@ app.get("/api/mv-plot", (req, res) => {
         } catch (parseError) {
             console.error("Could not read MV plot output:", parseError);
             res.status(500).json({ error: "Could not read MV plot output." });
+        }
+    });
+});
+
+app.get("/api/fh-plot", (req, res) => {
+    const { code, component } = req.query;
+    const hasCode = typeof code === "string" && /^\d{6}$/.test(code);
+    const hasComponent = typeof component === "string" && component.length > 0;
+    if (hasCode === hasComponent) {
+        return res.status(400).json({ error: "Provide either a six-digit company code or a component key." });
+    }
+    const script = path.join(__dirname, "../../build/analysis/fh_plot.py");
+    const args = [script, hasCode ? "--code" : "--component", hasCode ? code : component];
+    execFile(PYTHON, args, { encoding: "utf8", maxBuffer: 16 * 1024 * 1024 }, (error, stdout, stderr) => {
+        if (error) {
+            console.error("Could not create FH plot:", stderr || error);
+            return res.status(500).json({ error: "Could not create FH plot." });
+        }
+        try {
+            res.json({ figure: JSON.parse(stdout) });
+        } catch (parseError) {
+            console.error("Could not read FH plot output:", parseError);
+            res.status(500).json({ error: "Could not read FH plot output." });
         }
     });
 });

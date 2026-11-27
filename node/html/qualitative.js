@@ -757,6 +757,47 @@ function openMvPlotWindow(button) {
     plotWindow.document.head.appendChild(plotlyScript);
 }
 
+function openFhPlotWindow(button) {
+    const code = button.dataset.code;
+    const component = button.dataset.component;
+    if (!code && !component) return;
+    const plotKey = code || component;
+    const popupWidth = Math.round(window.screen.availWidth * 0.85);
+    const popupHeight = Math.round(window.screen.availHeight * 0.8);
+    const popupLeft = window.screen.availLeft + Math.round((window.screen.availWidth - popupWidth) / 2);
+    const popupTop = window.screen.availTop + Math.round(window.screen.availHeight * 0.08);
+    const plotWindow = window.open("", `fh-plot-${plotKey}`, `popup=yes,width=${popupWidth},height=${popupHeight},left=${popupLeft},top=${popupTop},resizable=yes,scrollbars=yes`);
+    if (!plotWindow) return;
+    plotWindow.document.open();
+    plotWindow.document.write(`<!DOCTYPE html><html><head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FH plot — ${plotKey}</title>
+        <style>html,body{width:100%;height:100%;margin:0}body{overflow:hidden}#fh-plot{width:100%;height:100%}</style>
+        </head><body><div id="fh-plot-status" style="padding:12px">Loading FH plot…</div><div id="fh-plot"></div></body></html>`);
+    plotWindow.document.close();
+    const plotlyScript = plotWindow.document.createElement("script");
+    plotlyScript.src = new URL("/plotly.min.js", location.origin).href;
+    plotlyScript.onload = async () => {
+        const status = plotWindow.document.getElementById("fh-plot-status");
+        try {
+            const endpoint = new URL("/api/fh-plot", location.origin);
+            endpoint.searchParams.set(code ? "code" : "component", plotKey);
+            const response = await fetch(endpoint);
+            const result = await response.json();
+            if (!response.ok) throw new Error(result.error || "Could not load FH plot.");
+            await plotWindow.Plotly.react(plotWindow.document.getElementById("fh-plot"), result.figure.data, result.figure.layout, { responsive: true });
+            status.remove();
+        } catch (error) {
+            status.textContent = error.message || "Could not load FH plot.";
+        }
+    };
+    plotlyScript.onerror = () => {
+        plotWindow.document.getElementById("fh-plot-status").textContent = "Could not load Plotly.";
+    };
+    plotWindow.document.head.appendChild(plotlyScript);
+}
+
+
 /*
  * Initial event handlers
  */
@@ -894,6 +935,31 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // Add FH buttons to existing Profile, Segment, and Component pages.
+    document.querySelectorAll(".llm-research-trigger-row").forEach(row => {
+        const type = row.dataset.objectType;
+        if (!(type === "Profile" || type === "Segment" || type === "Component")
+            || row.querySelector(".fh-plot-link")) return;
+        const objectId = row.dataset.objectId || "";
+        const code = type === "Component" ? null
+            : (row.querySelector(".mv-plot-link")?.dataset.code
+                || (type === "Segment" ? objectId.match(/^(\d{6})\([A-Za-z]\)$/)?.[1] : objectId));
+        if (type !== "Component" && !code) return;
+        const button = document.createElement("button");
+        button.className = "fh-plot-link";
+        button.type = "button";
+        button.textContent = "FH plot (f)";
+        button.title = "Foreign holding plot (f)";
+        button.setAttribute("aria-haspopup", "dialog");
+        if (type === "Component") button.dataset.component = objectId;
+        else button.dataset.code = code;
+        const mvButton = row.querySelector(".mv-plot-link");
+        const romaButton = row.querySelector(".roma-plot-link");
+        if (mvButton) mvButton.after(button);
+        else if (romaButton) romaButton.after(button);
+        else row.appendChild(button);
+    });
+
     // Add MV plot buttons to existing Profile/Segment pages generated before
     // the button was added to their HTML markup.
     document.querySelectorAll(".llm-research-trigger-row").forEach(row => {
@@ -914,6 +980,14 @@ document.addEventListener("DOMContentLoaded", () => {
         const romaButton = row.querySelector(".roma-plot-link");
         if (romaButton) romaButton.after(mvButton);
         else row.appendChild(mvButton);
+    });
+
+    // Keep plot actions in the same sequence on newly rendered and older pages.
+    document.querySelectorAll(".llm-research-trigger-row").forEach(row => {
+        [".roma-plot-link", ".mp-plot-link", ".mv-plot-link", ".fh-plot-link"]
+            .map(selector => row.querySelector(selector))
+            .filter(Boolean)
+            .forEach(button => row.appendChild(button));
     });
 
     document.querySelectorAll(".llm-research-link").forEach(button => {
@@ -946,6 +1020,11 @@ document.addEventListener("DOMContentLoaded", () => {
         button.title = "Market-cap movement plot (m)";
         button.addEventListener("click", () => openMvPlotWindow(button));
     });
+    document.querySelectorAll(".fh-plot-link").forEach(button => {
+        button.textContent = "FH plot (f)";
+        button.title = "Foreign holding plot (f)";
+        button.addEventListener("click", () => openFhPlotWindow(button));
+    });
 
     document.addEventListener("keydown", event => {
         const target = event.target;
@@ -961,11 +1040,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 ? document.querySelector(".mv-plot-link")
                 : key === "n"
                     ? document.querySelector(".mp-plot-link")
-                    : null;
+                    : key === "f"
+                        ? document.querySelector(".fh-plot-link")
+                        : null;
         if (button) {
             event.preventDefault();
             if (key === "r") openRomaPlotWindow(button);
             else if (key === "m") openMvPlotWindow(button);
+            else if (key === "f") openFhPlotWindow(button);
             else openMpPlotWindow(button);
         }
     });

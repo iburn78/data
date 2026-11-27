@@ -12,6 +12,26 @@
 
 
 <main>
+    <section id="qp-market-plot" hidden aria-label="Market sentiment plot">
+        <div class="qp-plot-controls">
+            <label for="qp-model-select">Model
+                <select id="qp-model-select">
+                    <option value="Profile" selected>Profile</option>
+                    <option value="Component">Component</option>
+                    <option value="ValueChain">Value Chain</option>
+                </select>
+            </label>
+            <label for="qp-category-select">Category
+                <select id="qp-category-select">
+                    <option selected>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                </select>
+            </label>
+        </div>
+        <div id="qp-market-plot-chart"></div>
+    </section>
     <div id="search-help" class="search-help" hidden></div>
     <section id="model-list-plot" hidden>
         <h2 id="model-list-plot-title"></h2>

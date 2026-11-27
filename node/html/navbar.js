@@ -13,7 +13,7 @@
     nav.setAttribute("aria-label", "Main navigation");
 
     for (const [section, label, href] of [
-        ["QP", "QP", "/"],
+        ["QP", "(Q)P", "/"],
         ["profiles", "(P)rofiles", "/#profiles"],
         ["components", "(C)omponents", "/#components"],
         ["valuechains", "(V)aluechains", "/#valuechains"],
@@ -72,6 +72,7 @@
         if (!event.shiftKey || event.altKey || event.ctrlKey || event.metaKey || typing) return;
 
         const section = {
+            q: "QP",
             p: "profiles",
             c: "components",
             v: "valuechains",

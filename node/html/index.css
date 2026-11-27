@@ -313,6 +313,43 @@ body {
     background: #fff;
 }
 
+#qp-market-plot {
+    width: 100%;
+    margin: 0;
+    background: #fff;
+}
+
+.qp-plot-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    align-items: center;
+    padding: 10px 16px 0;
+    font-size: 14px;
+}
+
+.qp-plot-controls label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.qp-plot-controls select {
+    min-width: 112px;
+    padding: 5px 8px;
+    border: 1px solid #c9cdd2;
+    border-radius: 4px;
+    background: #fff;
+    color: #222;
+    font: inherit;
+}
+
+#qp-market-plot-chart {
+    width: 100%;
+    height: min(78vh, 900px);
+    min-height: 520px;
+}
+
 #model-list-plot-title {
     margin: 0;
     padding: 4px 8px 0 16px;

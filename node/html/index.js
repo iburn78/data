@@ -2,6 +2,7 @@ let currentSection = "";
 let currentItems = [];
 let lastTagSearchQuery = "";
 let listPlotLoadId = 0;
+let qpMarketPlotLoadId = 0;
 let plotlyLoadPromise = null;
 let manualLoadId = 0;
 let searchHelpRequest = 0;
@@ -148,6 +149,115 @@ function hideListPlot() {
     listPlotLoadId += 1;
     document.getElementById("model-list-plot").hidden = true;
 }
+
+function hideQPMarketPlot() {
+    document.getElementById("qp-market-plot").hidden = true;
+}
+
+async function showQPMarketPlot() {
+    const loadId = ++qpMarketPlotLoadId;
+    const section = document.getElementById("qp-market-plot");
+    section.hidden = false;
+    document.getElementById("search-help").hidden = true;
+    document.getElementById("file-list").replaceChildren();
+    document.getElementById("content").replaceChildren();
+    hideListPlot();
+
+    try {
+        const model = document.getElementById("qp-model-select").value;
+        const category = document.getElementById("qp-category-select").value;
+        const query = new URLSearchParams({ model, category });
+        const [Plotly, response] = await Promise.all([
+            loadPlotly(),
+            fetch(`/api/qp-market-plot?${query}`),
+        ]);
+        if (!response.ok) throw new Error("Could not load financial data for this model and category.");
+        const data = await response.json();
+        if (loadId !== qpMarketPlotLoadId) return;
+        const points = data.points || [];
+        const amountThreshold = data.amount_threshold;
+        const volatilityThreshold = data.volatility_threshold;
+        const axisRange = (values, threshold) => {
+            const low = Math.min(-threshold, ...values);
+            const high = Math.max(threshold, ...values);
+            const padding = (high - low || threshold * 2) * 0.06;
+            return [low - padding, high + padding];
+        };
+        const xRange = axisRange(points.map(point => point.volatility), volatilityThreshold);
+        const yRange = axisRange(points.map(point => point.amount), amountThreshold);
+        const maxAbsAlpha = Math.max(...points.map(point => Math.abs(point.alpha)), 0);
+        const sizeRef = maxAbsAlpha > 0 ? (2 * maxAbsAlpha) / (30 ** 2) : 1;
+
+        const trace = {
+            type: "scatter",
+            mode: "markers+text",
+            x: points.map(point => point.volatility),
+            y: points.map(point => point.amount),
+            text: points.map(point => point.label),
+            textposition: "top right",
+            textfont: { size: 10, color: "#354052" },
+            customdata: points.map(point => [point.code, point.alpha, point.page_url]),
+            hovertemplate: "%{text} (%{customdata[0]})<br>Volatility: %{x:.2f}%<br>Amount: %{y:.2f}%<br>Alpha (measure period): %{customdata[1]:.3f}%<extra></extra>",
+            marker: {
+                color: points.map(point => point.alpha > 0 ? "#111111" : point.alpha < 0 ? "#d62728" : "#7b8491"),
+                size: points.map(point => Math.abs(point.alpha)),
+                sizemode: "area",
+                sizeref: sizeRef,
+                line: { color: "#ffffff", width: 0.7 },
+                opacity: 0.78,
+            },
+            showlegend: false,
+        };
+        const legendTraces = [
+            { name: "Positive α", color: "#111111" },
+            { name: "Negative α", color: "#d62728" },
+        ].map(item => ({
+            type: "scatter", mode: "markers", name: item.name, x: [null], y: [null],
+            marker: { color: item.color, size: 11, line: { color: "#fff", width: 0.7 } },
+            hoverinfo: "skip",
+        }));
+        const shapes = [
+            ...[-amountThreshold, amountThreshold].map(y => ({ type: "line", xref: "paper", x0: 0, x1: 1, yref: "y", y0: y, y1: y, line: { color: "#008000", width: 1.3, dash: "dot" } })),
+            ...[-volatilityThreshold, volatilityThreshold].map(x => ({ type: "line", yref: "paper", y0: 0, y1: 1, xref: "x", x0: x, x1: x, line: { color: "#008000", width: 1.3, dash: "dot" } })),
+        ];
+        const xSpan = xRange[1] - xRange[0];
+        const ySpan = yRange[1] - yRange[0];
+        const annotations = [
+            { x: xRange[0] + xSpan * 0.05, y: yRange[1] - ySpan * 0.05, text: "confidence", xanchor: "left", yanchor: "top" },
+            { x: xRange[1] - xSpan * 0.05, y: yRange[1] - ySpan * 0.05, text: "unstable", xanchor: "right", yanchor: "top" },
+            { x: xRange[0] + xSpan * 0.05, y: yRange[0] + ySpan * 0.05, text: "consumed", xanchor: "left", yanchor: "bottom" },
+            { x: xRange[1] - xSpan * 0.05, y: yRange[0] + ySpan * 0.05, text: "speculation", xanchor: "right", yanchor: "bottom" },
+        ].map(annotation => ({ ...annotation, showarrow: false, font: { size: 15, color: "#006400", family: "Arial Black, Arial, sans-serif" }, bgcolor: "rgba(255,255,255,0.82)" }));
+
+        const chart = document.getElementById("qp-market-plot-chart");
+        await Plotly.newPlot(chart, [trace, ...legendTraces], {
+            title: { text: `${model === "ValueChain" ? "Value Chain" : model}s | Category ${category}`, x: 0.02, xanchor: "left", font: { size: 18 } },
+            autosize: true,
+            margin: { l: 82, r: 28, t: 55, b: 72 },
+            paper_bgcolor: "#fff",
+            plot_bgcolor: "#fff",
+            legend: { title: { text: "Alpha (measure period, %)" }, orientation: "h", x: 1, xanchor: "right", y: 1.12, yanchor: "top" },
+            xaxis: { title: { text: "Volatility (measure_to_base(%))" }, range: xRange, zeroline: true, zerolinecolor: "#000000", gridcolor: "#e8ebef", automargin: true },
+            yaxis: { title: { text: "Amount (measure_to_base(%))" }, range: yRange, zeroline: true, zerolinecolor: "#000000", gridcolor: "#e8ebef", automargin: true },
+            shapes,
+            annotations,
+        }, { responsive: true, displaylogo: false });
+        chart.on("plotly_click", event => {
+            const clickedPoint = event.points?.find(point => point.curveNumber === 0);
+            const profileUrl = clickedPoint?.customdata?.[2];
+            if (!profileUrl) return;
+            const profileTab = window.open(profileUrl, "_blank");
+            profileTab?.focus();
+        });
+    } catch (error) {
+        if (loadId !== qpMarketPlotLoadId) return;
+        const chart = document.getElementById("qp-market-plot-chart");
+        chart.textContent = error.message || "Could not draw the QP market sentiment chart.";
+    }
+}
+
+document.getElementById("qp-model-select").addEventListener("change", showQPMarketPlot);
+document.getElementById("qp-category-select").addEventListener("change", showQPMarketPlot);
 
 function loadPlotly() {
     if (window.Plotly) return Promise.resolve(window.Plotly);
@@ -438,6 +548,7 @@ async function getItems(section) {
 
 
 async function showFiles(section) {
+    hideQPMarketPlot();
     hideSearchHelp();
     manualLoadId += 1;
     document.getElementById("content").replaceChildren();
@@ -456,6 +567,7 @@ async function showFiles(section) {
 }
 
 async function showManual() {
+    hideQPMarketPlot();
     hideSearchHelp();
     const loadId = ++manualLoadId;
     currentSection = "";
@@ -674,6 +786,7 @@ function renderClassificationMap(article, classificationMap) {
 }
 
 async function showClassificationMap() {
+    hideQPMarketPlot();
     hideSearchHelp();
     const loadId = ++manualLoadId;
     currentSection = "";
@@ -872,6 +985,7 @@ document.getElementById("search").addEventListener("focus", hidePreview);
 
 let searchRequest = 0;
 async function showMainSearch(queryOverride = null) {
+    hideQPMarketPlot();
     hideListPlot();
     const request = ++searchRequest;
     const search = (queryOverride ?? document.getElementById("search").value)
@@ -1174,6 +1288,7 @@ document.addEventListener("keydown", event => {
         searchRequest += 1;
         lastTagSearchQuery = "";
         hideListPlot();
+        hideQPMarketPlot();
         document.getElementById("file-list").replaceChildren();
         document.getElementById("content").replaceChildren();
         showSearchHelp();
@@ -1204,4 +1319,6 @@ if (initialQuery) {
     search.value = initialQuery;
     showMainSearch();
     search.focus();
+} else if (!section && new URLSearchParams(location.search).get("focus") !== "search") {
+    showQPMarketPlot();
 }
