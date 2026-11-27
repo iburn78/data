@@ -237,6 +237,44 @@ app.post("/api/update-instance", async (req, res) => {
     }
 });
 
+app.post("/api/reassign-classification", async (req, res) => {
+    const { objectType, objectId, action, classificationCode, token } = req.body;
+    if (!new Set(["Profile", "Segment"]).has(objectType) || typeof objectId !== "string" || !objectId) {
+        return res.status(400).json({ ok: false, error: "Only Profiles and Segments can be reclassified." });
+    }
+    if (!consumeEditToken(token)) {
+        return res.status(401).json({ ok: false, error: "Enter the info-section password to reassign classification." });
+    }
+
+    const updateKey = JSON.stringify([objectType, objectId]);
+    if (activeModelUpdates.has(updateKey)) {
+        return res.status(409).json({ ok: false, error: `${objectType} ${objectId} is already being updated.` });
+    }
+    activeModelUpdates.add(updateKey);
+    try {
+        const { code, result } = await runPythonRequest(
+            req,
+            path.join(__dirname, "../../build/tools/reassign_classification.py"),
+            { objectType, objectId, action, classificationCode },
+            "classification reassignment"
+        );
+        if (code !== 0 || !result.ok) {
+            return res.status(400).json(result);
+        }
+        res.json(result);
+    } catch (error) {
+        console.error("Classification reassignment failed:", error);
+        const message = error.kind === "spawn"
+            ? "Could not start classification reassignment."
+            : error.kind === "stdin"
+                ? "Could not send classification request."
+                : "Classification reassignment failed.";
+        res.status(500).json({ ok: false, error: message });
+    } finally {
+        activeModelUpdates.delete(updateKey);
+    }
+});
+
 app.post("/api/delete-instance", async (req, res) => {
     const { objectType, objectId, token } = req.body;
     const allowedTypes = new Set(["Profile", "Segment", "Component", "ValueChain"]);

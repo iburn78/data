@@ -27,7 +27,8 @@
 }
 
 .model-instance-update-button,
-.model-instance-delete-button {
+.model-instance-delete-button,
+.classification-edit-open {
     padding: 3px 9px;
     border: 1px solid #cbd5e1;
     border-radius: 4px;
@@ -40,6 +41,28 @@
 .model-instance-update-button:hover:not(:disabled) {
     background: #eef2f7;
 }
+
+.classification-edit-open:hover { background: #eef2f7; }
+
+.classification-edit-dialog {
+    width: min(460px, calc(100vw - 48px));
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 12px 36px #0004;
+}
+
+.classification-edit-dialog::backdrop { background: #0006; }
+.classification-edit-content { display: grid; gap: 10px; }
+.classification-edit-content h3,
+.classification-edit-content p { margin: 0; }
+.classification-edit-content label { font-weight: 600; }
+.classification-reassign-row { display: flex; gap: 8px; }
+.classification-reassign-row input { width: 110px; padding: 6px; font: inherit; }
+.classification-edit-message { min-height: 1.3em; color: #b42318; }
+.classification-edit-actions { display: flex; justify-content: flex-end; gap: 8px; }
+.classification-edit-dialog button { padding: 5px 10px; cursor: pointer; }
+.classification-edit-dialog button:disabled { cursor: wait; opacity: .6; }
 
 .model-instance-delete-button {
     border-color: #fca5a5;

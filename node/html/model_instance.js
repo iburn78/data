@@ -101,6 +101,122 @@ document.querySelectorAll(".model-instance-update-button").forEach(button => {
     });
 });
 
+function requestClassificationPassword() {
+    const dialog = document.createElement("dialog");
+    dialog.className = "deletion-password-dialog";
+    dialog.innerHTML = `
+        <form>
+            <label for="classification-password">Enter the info-section password to reassign classification:</label>
+            <input id="classification-password" type="password" autocomplete="current-password" required>
+            <div class="deletion-password-actions">
+                <button type="button" data-cancel>Cancel</button>
+                <button type="submit">Continue</button>
+            </div>
+        </form>
+    `;
+    document.body.appendChild(dialog);
+
+    return new Promise(resolve => {
+        const input = dialog.querySelector("input");
+        const finish = value => {
+            dialog.close();
+            dialog.remove();
+            resolve(value);
+        };
+        dialog.querySelector("form").addEventListener("submit", event => {
+            event.preventDefault();
+            finish(input.value);
+        });
+        dialog.querySelector("[data-cancel]").addEventListener("click", () => finish(null));
+        dialog.addEventListener("cancel", event => {
+            event.preventDefault();
+            finish(null);
+        });
+        dialog.showModal();
+        input.focus();
+    });
+}
+
+document.querySelectorAll("[data-classification-dialog]").forEach(dialog => {
+    const input = dialog.querySelector("[data-classification-code]");
+    const message = dialog.querySelector("[data-classification-message]");
+    const openButton = document.querySelector("[data-classification-open]");
+    const reassignButton = dialog.querySelector("[data-classification-reassign]");
+    const autoButton = dialog.querySelector("[data-classification-auto]");
+    const cancelButton = dialog.querySelector("[data-classification-cancel]");
+
+    openButton?.addEventListener("click", () => {
+        message.textContent = "";
+        dialog.showModal();
+        input.focus();
+        input.select();
+    });
+    cancelButton?.addEventListener("click", () => dialog.close());
+    input?.addEventListener("input", () => {
+        input.value = input.value.replace(/\D/g, "").slice(0, 4);
+        message.textContent = "";
+    });
+
+    async function submitClassification(action) {
+        const classificationCode = input.value.trim();
+        if (action === "reassign" && !/^\d{4}$/.test(classificationCode)) {
+            message.textContent = "Enter a 4-digit classification code.";
+            input.focus();
+            return;
+        }
+
+        const password = await requestClassificationPassword();
+        if (password === null) return;
+        if (!password) {
+            message.textContent = "Enter the password to continue.";
+            return;
+        }
+
+        reassignButton.disabled = true;
+        autoButton.disabled = true;
+        message.textContent = action === "auto" ? "Automatically classifying…" : "Checking classification…";
+        const hideProgress = window.showPythonProgress("Updating classification and related models…");
+        try {
+            const passwordResponse = await fetch("/api/check-password", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ password }),
+            });
+            if (!passwordResponse.ok) {
+                throw new Error(await passwordResponse.text());
+            }
+            const { token } = await passwordResponse.json();
+            const response = await fetch("/api/reassign-classification", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    objectType: dialog.dataset.objectType,
+                    objectId: dialog.dataset.objectId,
+                    action,
+                    classificationCode,
+                    token,
+                    progressId: hideProgress.progressId,
+                }),
+            });
+            const result = await response.json();
+            if (!response.ok || !result.ok) {
+                throw new Error(result.error || "Classification update failed.");
+            }
+            dialog.close();
+            window.location.reload();
+        } catch (error) {
+            message.textContent = error.message || "Classification update failed.";
+        } finally {
+            reassignButton.disabled = false;
+            autoButton.disabled = false;
+            hideProgress();
+        }
+    }
+
+    reassignButton?.addEventListener("click", () => submitClassification("reassign"));
+    autoButton?.addEventListener("click", () => submitClassification("auto"));
+});
+
 const deleteConsequences = {
     Profile: "This also deletes the profile's segment files and segment news, but keeps the profile's own news.",
     Segment: "This deletes the segment's files and news.",
